@@ -79,8 +79,8 @@ footer {{ border-top:1px solid var(--line); padding:24px 0 48px; color:var(--mut
 <div class="wrap">
   <section class="top">
     <h1>Stride Themes</h1>
-    <p>Complete designs for a Stride site: design tokens, a component library, page templates, photographs and fonts. Applying a theme never changes or deletes your pages, and it can be undone.</p>
-    <p>To install one, open <strong>Admin &rarr; Themes</strong> in Stride, pick a theme, and choose <strong>Install</strong>, then <strong>Apply</strong>. Stride downloads the zip itself and checks its signature against the built-in key.</p>
+    <p>Complete designs for a Stride site: design tokens, a component library, page templates, photographs and fonts. Applying a theme never changes or deletes your existing pages, and <strong>Undo</strong> brings your previous design tokens back.</p>
+    <p>To install one, open <strong>Admin &rarr; Themes</strong> in Stride, pick a theme and choose <strong>Install</strong>. <strong>Preview</strong> shows your own pages in the theme before anything is saved; <strong>Apply</strong> makes it live. Stride downloads the theme itself and checks its signature before installing it.</p>
   </section>
   <main class="grid">{"".join(cards)}
   </main>

@@ -23,11 +23,11 @@ page, and its pages are published (see [`tools/shoot.mjs`](tools/shoot.mjs)).
 ## Installing a theme
 
 In Stride, open **Admin → Themes**. The store lists these themes from the signed index at
-`https://guuslab.github.io/stride-themes/index.json`. Pick one to see its screenshots, then:
+`https://guuslab.github.io/stride-themes/index.json`. Pick a theme to see its screenshots, then:
 
 1. **Install** — the server downloads the zip itself, checks its size, SHA-256 and Ed25519
    signature against the built-in themes key, and validates every file against Stride's own types.
-2. **Preview** — look at your own pages in the theme before anything is saved.
+2. **Preview** — see your own pages in the theme before anything is saved.
 3. **Apply** — sets the site's tokens, adds the theme's components to the library, uploads its
    images to Media and, if you choose, creates a new home page from the theme's home template.
    Existing pages are never changed or deleted, and **Undo** puts the previous tokens back.
@@ -88,7 +88,7 @@ python3 tools/check.py        # what CI checks
 `main` deploys `site/` to GitHub Pages.
 
 The private key never leaves the maintainer's machine. The index is signed with the themes
-registry key
+registry key whose public half is
 
 ```text
 c7aae1439b9c52db5b0520ae68d2b1d34364ab56415a13e30bec4d007860310f
