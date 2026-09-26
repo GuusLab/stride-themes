@@ -41,6 +41,10 @@ Themes need a Stride built with the `themes` feature (`--features plugins` turns
   <img src="docs/store-detail.png" width="49%" alt="A theme's page in the store">
 </p>
 
+After applying Harbor with a new home page and publishing it, the site's home page:
+
+<img src="docs/store-applied-home.png" width="640" alt="The home page after applying Harbor">
+
 ## Making a theme
 
 The package format, validation rules and actions are documented in Stride's
