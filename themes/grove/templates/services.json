@@ -1,0 +1,107 @@
+{
+  "root": {
+    "id": "root",
+    "kind": {
+      "type": "frame",
+      "element": "main"
+    },
+    "styles": {
+      "base": {
+        "base": {
+          "background": {
+            "token": "surface.page"
+          },
+          "typography": {
+            "token": "type.body",
+            "color": {
+              "token": "ink.body"
+            }
+          },
+          "custom": {
+            "-webkit-font-smoothing": "antialiased"
+          }
+        }
+      }
+    },
+    "children": [
+      {
+        "id": "header",
+        "kind": {
+          "type": "instance",
+          "component": "grove-header"
+        }
+      },
+      {
+        "id": "hero",
+        "kind": {
+          "type": "instance",
+          "component": "grove-hero-centered",
+          "overrides": {
+            "eyebrow": "Classes & coaching",
+            "title": "Practices for body, breath and the busy mind.",
+            "lead": "Group classes most days of the week, workshops once a month and private coaching when you want someone in your corner."
+          },
+          "variant": "sand"
+        }
+      },
+      {
+        "id": "offer",
+        "kind": {
+          "type": "instance",
+          "component": "grove-features",
+          "overrides": {
+            "eyebrow": "Ways to practise",
+            "title": "Choose your pace.",
+            "lead": "All sessions are taught in English and Dutch, with options for injuries, pregnancy and first-timers."
+          }
+        }
+      },
+      {
+        "id": "schedule",
+        "kind": {
+          "type": "instance",
+          "component": "grove-schedule"
+        }
+      },
+      {
+        "id": "pricing",
+        "kind": {
+          "type": "instance",
+          "component": "grove-pricing"
+        }
+      },
+      {
+        "id": "coach",
+        "kind": {
+          "type": "instance",
+          "component": "grove-about-split",
+          "overrides": {
+            "eyebrow": "Private coaching",
+            "title": "Six weeks, one person, a real plan.",
+            "body1": "Coaching starts with a free 15-minute call. If we are a fit, we meet weekly — in the studio or online — and build a plan around sleep, stress and energy.",
+            "body2": "Programmes are €420 for six sessions, including a personalised practice recording and messages between calls.",
+            "buttonLabel": "Book an intro call"
+          }
+        }
+      },
+      {
+        "id": "cta",
+        "kind": {
+          "type": "instance",
+          "component": "grove-cta"
+        }
+      },
+      {
+        "id": "footer",
+        "kind": {
+          "type": "instance",
+          "component": "grove-footer"
+        }
+      }
+    ]
+  },
+  "seo": {
+    "title": "Classes & coaching — Grove",
+    "description": "Yoga, yin, breathwork and 1:1 coaching at Grove. See the weekly timetable, memberships and private programmes."
+  }
+}

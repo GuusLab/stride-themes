@@ -1,0 +1,1105 @@
+{
+  "id": "grove-features",
+  "name": "Grove / Offer grid",
+  "root": {
+    "id": "features",
+    "kind": {
+      "type": "frame",
+      "element": "section"
+    },
+    "styles": {
+      "base": {
+        "base": {
+          "background": {
+            "token": "surface.page"
+          },
+          "spacing": {
+            "padding": {
+              "top": {
+                "token": "section.y"
+              },
+              "right": {
+                "token": "gutter"
+              },
+              "bottom": {
+                "token": "section.y"
+              },
+              "left": {
+                "token": "gutter"
+              }
+            }
+          },
+          "position": {
+            "kind": "relative"
+          },
+          "overflow": "hidden"
+        }
+      }
+    },
+    "children": [
+      {
+        "id": "feat-inner",
+        "kind": {
+          "type": "frame",
+          "element": "div"
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "display": "flex",
+              "flex": {
+                "direction": "column",
+                "gap": {
+                  "px": 56.0
+                }
+              },
+              "size": {
+                "maxWidth": {
+                  "token": "content.max"
+                },
+                "width": {
+                  "percent": 100.0
+                }
+              },
+              "spacing": {
+                "margin": {
+                  "left": {
+                    "raw": "auto"
+                  },
+                  "right": {
+                    "raw": "auto"
+                  }
+                }
+              },
+              "position": {
+                "kind": "relative"
+              }
+            }
+          }
+        },
+        "children": [
+          {
+            "id": "feat-head",
+            "kind": {
+              "type": "frame",
+              "element": "div"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "flex",
+                  "flex": {
+                    "direction": "column",
+                    "gap": {
+                      "px": 18.0
+                    }
+                  },
+                  "size": {
+                    "maxWidth": {
+                      "px": 720.0
+                    }
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "feat-eyebrow",
+                "kind": {
+                  "type": "text",
+                  "tag": "p",
+                  "content": "What we offer"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.eyebrow",
+                        "color": {
+                          "token": "brand.strong"
+                        },
+                        "transform": "uppercase"
+                      }
+                    }
+                  }
+                },
+                "bindings": {
+                  "content": "eyebrow"
+                }
+              },
+              {
+                "id": "feat-title",
+                "kind": {
+                  "type": "text",
+                  "tag": "h2",
+                  "content": "Three ways in, one quiet place."
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.title",
+                        "color": {
+                          "token": "ink.body"
+                        }
+                      }
+                    }
+                  }
+                },
+                "bindings": {
+                  "content": "title"
+                }
+              },
+              {
+                "id": "feat-lead",
+                "kind": {
+                  "type": "text",
+                  "tag": "p",
+                  "content": "Whether you need to stretch, to breathe or to talk it through, start where you are."
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.lead",
+                        "color": {
+                          "token": "ink.muted"
+                        }
+                      }
+                    }
+                  }
+                },
+                "bindings": {
+                  "content": "lead"
+                }
+              }
+            ]
+          },
+          {
+            "id": "feat-grid",
+            "kind": {
+              "type": "frame",
+              "element": "div"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "grid",
+                  "grid": {
+                    "columns": 1,
+                    "gap": {
+                      "px": 20.0
+                    }
+                  }
+                }
+              },
+              "md": {
+                "base": {
+                  "display": "grid",
+                  "grid": {
+                    "columns": 3,
+                    "gap": {
+                      "px": 24.0
+                    }
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "feat-1",
+                "kind": {
+                  "type": "frame",
+                  "element": "article"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "px": 16.0
+                        }
+                      },
+                      "background": {
+                        "token": "surface.card"
+                      },
+                      "radius": {
+                        "token": "radius.lg"
+                      },
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "px": 36.0
+                          },
+                          "right": {
+                            "px": 32.0
+                          },
+                          "bottom": {
+                            "px": 36.0
+                          },
+                          "left": {
+                            "px": 32.0
+                          }
+                        }
+                      },
+                      "border": {
+                        "width": {
+                          "px": 1.0
+                        },
+                        "style": "solid",
+                        "color": {
+                          "token": "line.hairline"
+                        }
+                      },
+                      "transition": {
+                        "duration": 220,
+                        "properties": [
+                          "backgroundColor",
+                          "color",
+                          "borderColor",
+                          "boxShadow",
+                          "transform"
+                        ]
+                      }
+                    },
+                    "hover": {
+                      "shadow": {
+                        "token": "shadow.soft"
+                      },
+                      "custom": {
+                        "transform": "translateY(-4px)"
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "feat-1-ic",
+                    "kind": {
+                      "type": "frame",
+                      "element": "div"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "row",
+                            "align": "center",
+                            "justify": "center"
+                          },
+                          "size": {
+                            "width": {
+                              "px": 56.0
+                            },
+                            "height": {
+                              "px": 56.0
+                            }
+                          },
+                          "background": {
+                            "token": "surface.sage"
+                          },
+                          "radius": {
+                            "token": "radius.organic"
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "feat-1-icon",
+                        "kind": {
+                          "type": "icon",
+                          "name": "heart"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "size": {
+                                "width": {
+                                  "px": 24.0
+                                },
+                                "height": {
+                                  "px": 24.0
+                                }
+                              },
+                              "typography": {
+                                "color": {
+                                  "token": "brand.strong"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "feat-1-t",
+                    "kind": {
+                      "type": "text",
+                      "tag": "h3",
+                      "content": "Gentle yoga"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.subtitle",
+                            "color": {
+                              "token": "ink.body"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "content": "item1Title"
+                    }
+                  },
+                  {
+                    "id": "feat-1-b",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "Slow flows and restorative classes for every body. Props, options and no performance."
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.body",
+                            "color": {
+                              "token": "ink.muted"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "content": "item1Body"
+                    }
+                  },
+                  {
+                    "id": "feat-1-l",
+                    "kind": {
+                      "type": "link",
+                      "href": "/services",
+                      "target": "same"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "row",
+                            "gap": {
+                              "px": 8.0
+                            },
+                            "align": "center"
+                          },
+                          "spacing": {
+                            "margin": {
+                              "top": {
+                                "raw": "auto"
+                              }
+                            }
+                          },
+                          "typography": {
+                            "decoration": "none",
+                            "color": {
+                              "token": "ink.body"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "href": "item1Href"
+                    },
+                    "children": [
+                      {
+                        "id": "feat-1-lt",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "Learn more"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.button",
+                                "color": {
+                                  "token": "brand.strong"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "feat-1-la",
+                        "kind": {
+                          "type": "icon",
+                          "name": "arrow-right"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "size": {
+                                "width": {
+                                  "px": 16.0
+                                },
+                                "height": {
+                                  "px": 16.0
+                                }
+                              },
+                              "typography": {
+                                "color": {
+                                  "token": "brand.strong"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "feat-2",
+                "kind": {
+                  "type": "frame",
+                  "element": "article"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "px": 16.0
+                        }
+                      },
+                      "background": {
+                        "token": "surface.card"
+                      },
+                      "radius": {
+                        "token": "radius.lg"
+                      },
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "px": 36.0
+                          },
+                          "right": {
+                            "px": 32.0
+                          },
+                          "bottom": {
+                            "px": 36.0
+                          },
+                          "left": {
+                            "px": 32.0
+                          }
+                        }
+                      },
+                      "border": {
+                        "width": {
+                          "px": 1.0
+                        },
+                        "style": "solid",
+                        "color": {
+                          "token": "line.hairline"
+                        }
+                      },
+                      "transition": {
+                        "duration": 220,
+                        "properties": [
+                          "backgroundColor",
+                          "color",
+                          "borderColor",
+                          "boxShadow",
+                          "transform"
+                        ]
+                      }
+                    },
+                    "hover": {
+                      "shadow": {
+                        "token": "shadow.soft"
+                      },
+                      "custom": {
+                        "transform": "translateY(-4px)"
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "feat-2-ic",
+                    "kind": {
+                      "type": "frame",
+                      "element": "div"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "row",
+                            "align": "center",
+                            "justify": "center"
+                          },
+                          "size": {
+                            "width": {
+                              "px": 56.0
+                            },
+                            "height": {
+                              "px": 56.0
+                            }
+                          },
+                          "background": {
+                            "token": "surface.sage"
+                          },
+                          "radius": {
+                            "token": "radius.organic"
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "feat-2-icon",
+                        "kind": {
+                          "type": "icon",
+                          "name": "clock"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "size": {
+                                "width": {
+                                  "px": 24.0
+                                },
+                                "height": {
+                                  "px": 24.0
+                                }
+                              },
+                              "typography": {
+                                "color": {
+                                  "token": "brand.strong"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "feat-2-t",
+                    "kind": {
+                      "type": "text",
+                      "tag": "h3",
+                      "content": "Breathwork"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.subtitle",
+                            "color": {
+                              "token": "ink.body"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "content": "item2Title"
+                    }
+                  },
+                  {
+                    "id": "feat-2-b",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "Guided sessions that settle the nervous system in under an hour. Leave softer than you came."
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.body",
+                            "color": {
+                              "token": "ink.muted"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "content": "item2Body"
+                    }
+                  },
+                  {
+                    "id": "feat-2-l",
+                    "kind": {
+                      "type": "link",
+                      "href": "/services",
+                      "target": "same"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "row",
+                            "gap": {
+                              "px": 8.0
+                            },
+                            "align": "center"
+                          },
+                          "spacing": {
+                            "margin": {
+                              "top": {
+                                "raw": "auto"
+                              }
+                            }
+                          },
+                          "typography": {
+                            "decoration": "none",
+                            "color": {
+                              "token": "ink.body"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "href": "item2Href"
+                    },
+                    "children": [
+                      {
+                        "id": "feat-2-lt",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "Learn more"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.button",
+                                "color": {
+                                  "token": "brand.strong"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "feat-2-la",
+                        "kind": {
+                          "type": "icon",
+                          "name": "arrow-right"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "size": {
+                                "width": {
+                                  "px": 16.0
+                                },
+                                "height": {
+                                  "px": 16.0
+                                }
+                              },
+                              "typography": {
+                                "color": {
+                                  "token": "brand.strong"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "feat-3",
+                "kind": {
+                  "type": "frame",
+                  "element": "article"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "px": 16.0
+                        }
+                      },
+                      "background": {
+                        "token": "surface.card"
+                      },
+                      "radius": {
+                        "token": "radius.lg"
+                      },
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "px": 36.0
+                          },
+                          "right": {
+                            "px": 32.0
+                          },
+                          "bottom": {
+                            "px": 36.0
+                          },
+                          "left": {
+                            "px": 32.0
+                          }
+                        }
+                      },
+                      "border": {
+                        "width": {
+                          "px": 1.0
+                        },
+                        "style": "solid",
+                        "color": {
+                          "token": "line.hairline"
+                        }
+                      },
+                      "transition": {
+                        "duration": 220,
+                        "properties": [
+                          "backgroundColor",
+                          "color",
+                          "borderColor",
+                          "boxShadow",
+                          "transform"
+                        ]
+                      }
+                    },
+                    "hover": {
+                      "shadow": {
+                        "token": "shadow.soft"
+                      },
+                      "custom": {
+                        "transform": "translateY(-4px)"
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "feat-3-ic",
+                    "kind": {
+                      "type": "frame",
+                      "element": "div"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "row",
+                            "align": "center",
+                            "justify": "center"
+                          },
+                          "size": {
+                            "width": {
+                              "px": 56.0
+                            },
+                            "height": {
+                              "px": 56.0
+                            }
+                          },
+                          "background": {
+                            "token": "surface.sage"
+                          },
+                          "radius": {
+                            "token": "radius.organic"
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "feat-3-icon",
+                        "kind": {
+                          "type": "icon",
+                          "name": "star"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "size": {
+                                "width": {
+                                  "px": 24.0
+                                },
+                                "height": {
+                                  "px": 24.0
+                                }
+                              },
+                              "typography": {
+                                "color": {
+                                  "token": "brand.strong"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "feat-3-t",
+                    "kind": {
+                      "type": "text",
+                      "tag": "h3",
+                      "content": "1:1 coaching"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.subtitle",
+                            "color": {
+                              "token": "ink.body"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "content": "item3Title"
+                    }
+                  },
+                  {
+                    "id": "feat-3-b",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "Six-week programmes on sleep, stress and energy, shaped around your week — not an app's."
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.body",
+                            "color": {
+                              "token": "ink.muted"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "content": "item3Body"
+                    }
+                  },
+                  {
+                    "id": "feat-3-l",
+                    "kind": {
+                      "type": "link",
+                      "href": "/services",
+                      "target": "same"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "row",
+                            "gap": {
+                              "px": 8.0
+                            },
+                            "align": "center"
+                          },
+                          "spacing": {
+                            "margin": {
+                              "top": {
+                                "raw": "auto"
+                              }
+                            }
+                          },
+                          "typography": {
+                            "decoration": "none",
+                            "color": {
+                              "token": "ink.body"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "href": "item3Href"
+                    },
+                    "children": [
+                      {
+                        "id": "feat-3-lt",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "Learn more"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.button",
+                                "color": {
+                                  "token": "brand.strong"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "feat-3-la",
+                        "kind": {
+                          "type": "icon",
+                          "name": "arrow-right"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "size": {
+                                "width": {
+                                  "px": 16.0
+                                },
+                                "height": {
+                                  "px": 16.0
+                                }
+                              },
+                              "typography": {
+                                "color": {
+                                  "token": "brand.strong"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "props": [
+    {
+      "name": "item1Title",
+      "label": "Item 1 title",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Gentle yoga"
+    },
+    {
+      "name": "item1Body",
+      "label": "Item 1 text",
+      "kind": {
+        "type": "longText"
+      },
+      "default": "Slow flows and restorative classes for every body. Props, options and no performance."
+    },
+    {
+      "name": "item1Href",
+      "label": "Item 1 link",
+      "kind": {
+        "type": "url"
+      },
+      "default": "/services"
+    },
+    {
+      "name": "item2Title",
+      "label": "Item 2 title",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Breathwork"
+    },
+    {
+      "name": "item2Body",
+      "label": "Item 2 text",
+      "kind": {
+        "type": "longText"
+      },
+      "default": "Guided sessions that settle the nervous system in under an hour. Leave softer than you came."
+    },
+    {
+      "name": "item2Href",
+      "label": "Item 2 link",
+      "kind": {
+        "type": "url"
+      },
+      "default": "/services"
+    },
+    {
+      "name": "item3Title",
+      "label": "Item 3 title",
+      "kind": {
+        "type": "text"
+      },
+      "default": "1:1 coaching"
+    },
+    {
+      "name": "item3Body",
+      "label": "Item 3 text",
+      "kind": {
+        "type": "longText"
+      },
+      "default": "Six-week programmes on sleep, stress and energy, shaped around your week — not an app's."
+    },
+    {
+      "name": "item3Href",
+      "label": "Item 3 link",
+      "kind": {
+        "type": "url"
+      },
+      "default": "/services"
+    },
+    {
+      "name": "eyebrow",
+      "label": "Eyebrow",
+      "kind": {
+        "type": "text"
+      },
+      "default": "What we offer"
+    },
+    {
+      "name": "title",
+      "label": "Title",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Three ways in, one quiet place."
+    },
+    {
+      "name": "lead",
+      "label": "Intro",
+      "kind": {
+        "type": "longText"
+      },
+      "default": "Whether you need to stretch, to breathe or to talk it through, start where you are."
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "harbor",
+  "name": "Harbor",
+  "version": "1.0.0",
+  "author": {
+    "id": "guuslab",
+    "name": "GuusLab"
+  },
+  "tagline": "A warm, appetizing theme for restaurants, cafes and local food businesses.",
+  "longDescription": "Harbor is built for places people eat, drink and linger: neighbourhood restaurants, cafes, bakeries, wine bars and small local businesses. Warm linen and toasted-sand surfaces sit under a deep harbour teal and a terracotta accent, with an expressive Fraunces serif for headlines and friendly, rounded Nunito for everything else.\n\nIt ships a complete restaurant site: a home page with a split photo hero and live 'tonight' card, a menu with dotted price leaders, opening hours and a stylised map card, a reservations band, guest quote, photo gallery, team, numbers and a journal. Every section is drawn phone-first and widened by breakpoint, every colour and type style is a design token, and all text pairs clear WCAG AA contrast.\n\nPages: Home, Our story, Menu, Visit and book, Journal and a friendly 404. Six original food and hospitality photographs are included.",
+  "categories": [
+    "restaurant",
+    "business"
+  ],
+  "accent": "#1F6F78",
+  "icon": "icon.png",
+  "screenshots": [
+    {
+      "file": "screenshots/01.png",
+      "caption": "Home: a warm hero with tonight's dish"
+    },
+    {
+      "file": "screenshots/02.png",
+      "caption": "Menu: this week's menu under a full-bleed photo"
+    },
+    {
+      "file": "screenshots/03.png",
+      "caption": "Our story: the kitchen and its people"
+    },
+    {
+      "file": "screenshots/04.png",
+      "caption": "On a phone: home, menu and our story"
+    }
+  ],
+  "fonts": [
+    {
+      "family": "Fraunces",
+      "file": "assets/fonts/fraunces-latin-600-normal.woff2",
+      "weight": 600,
+      "style": "normal"
+    },
+    {
+      "family": "Fraunces",
+      "file": "assets/fonts/fraunces-latin-400-italic.woff2",
+      "weight": 400,
+      "style": "italic"
+    },
+    {
+      "family": "Nunito",
+      "file": "assets/fonts/nunito-latin-400-normal.woff2",
+      "weight": 400,
+      "style": "normal"
+    },
+    {
+      "family": "Nunito",
+      "file": "assets/fonts/nunito-latin-700-normal.woff2",
+      "weight": 700,
+      "style": "normal"
+    }
+  ],
+  "homeTemplate": "home"
+}

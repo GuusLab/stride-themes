@@ -1,0 +1,1700 @@
+{
+  "root": {
+    "id": "root",
+    "kind": {
+      "type": "frame"
+    },
+    "children": [
+      {
+        "id": "header",
+        "kind": {
+          "type": "frame",
+          "element": "header"
+        },
+        "children": [
+          {
+            "id": "header-inner",
+            "kind": {
+              "type": "frame"
+            },
+            "children": [
+              {
+                "id": "header-brand",
+                "kind": {
+                  "type": "link",
+                  "href": "/",
+                  "target": "same"
+                },
+                "children": [
+                  {
+                    "id": "header-brand-row",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "children": [
+                      {
+                        "id": "header-mark",
+                        "kind": {
+                          "type": "frame"
+                        },
+                        "children": [
+                          {
+                            "id": "header-mark-icon",
+                            "kind": {
+                              "type": "icon",
+                              "name": "heart"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "color": {
+                                      "token": "ink.inverse"
+                                    }
+                                  },
+                                  "size": {
+                                    "width": {
+                                      "px": 16.0
+                                    },
+                                    "height": {
+                                      "px": 16.0
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "flex",
+                              "flex": {
+                                "align": "center",
+                                "justify": "center"
+                              },
+                              "size": {
+                                "width": {
+                                  "px": 36.0
+                                },
+                                "height": {
+                                  "px": 36.0
+                                }
+                              },
+                              "radius": {
+                                "token": "radius.full"
+                              },
+                              "background": {
+                                "token": "surface.accent"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "header-brand-name",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "Tidewater Kitchen"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.subtitle",
+                                "color": {
+                                  "token": "ink.body"
+                                },
+                                "size": {
+                                  "rem": 1.125
+                                }
+                              }
+                            }
+                          },
+                          "md": {
+                            "base": {
+                              "typography": {
+                                "size": {
+                                  "rem": 1.375
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "row",
+                            "gap": {
+                              "px": 10.0
+                            },
+                            "align": "center",
+                            "wrap": false
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "decoration": "none"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "header-nav",
+                "kind": {
+                  "type": "frame",
+                  "element": "nav"
+                },
+                "children": [
+                  {
+                    "id": "header-nav-1",
+                    "kind": {
+                      "type": "link",
+                      "href": "/menu",
+                      "target": "same"
+                    },
+                    "children": [
+                      {
+                        "id": "header-nav-1-label",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "Menu"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.body"
+                                },
+                                "weight": 700
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "decoration": "none"
+                          },
+                          "spacing": {
+                            "padding": {
+                              "top": {
+                                "px": 8.0
+                              },
+                              "right": {
+                                "px": 4.0
+                              },
+                              "bottom": {
+                                "px": 8.0
+                              },
+                              "left": {
+                                "px": 4.0
+                              }
+                            }
+                          },
+                          "border": {
+                            "bottom": {
+                              "width": {
+                                "px": 2.0
+                              },
+                              "style": "solid",
+                              "color": {
+                                "raw": "transparent"
+                              }
+                            }
+                          }
+                        },
+                        "hover": {
+                          "border": {
+                            "bottom": {
+                              "width": {
+                                "px": 2.0
+                              },
+                              "style": "solid",
+                              "color": {
+                                "token": "surface.accent"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "header-nav-2",
+                    "kind": {
+                      "type": "link",
+                      "href": "/about",
+                      "target": "same"
+                    },
+                    "children": [
+                      {
+                        "id": "header-nav-2-label",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "Our story"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.body"
+                                },
+                                "weight": 700
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "decoration": "none"
+                          },
+                          "spacing": {
+                            "padding": {
+                              "top": {
+                                "px": 8.0
+                              },
+                              "right": {
+                                "px": 4.0
+                              },
+                              "bottom": {
+                                "px": 8.0
+                              },
+                              "left": {
+                                "px": 4.0
+                              }
+                            }
+                          },
+                          "border": {
+                            "bottom": {
+                              "width": {
+                                "px": 2.0
+                              },
+                              "style": "solid",
+                              "color": {
+                                "raw": "transparent"
+                              }
+                            }
+                          }
+                        },
+                        "hover": {
+                          "border": {
+                            "bottom": {
+                              "width": {
+                                "px": 2.0
+                              },
+                              "style": "solid",
+                              "color": {
+                                "token": "surface.accent"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "header-nav-3",
+                    "kind": {
+                      "type": "link",
+                      "href": "/journal",
+                      "target": "same"
+                    },
+                    "children": [
+                      {
+                        "id": "header-nav-3-label",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "Journal"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.body"
+                                },
+                                "weight": 700
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "decoration": "none"
+                          },
+                          "spacing": {
+                            "padding": {
+                              "top": {
+                                "px": 8.0
+                              },
+                              "right": {
+                                "px": 4.0
+                              },
+                              "bottom": {
+                                "px": 8.0
+                              },
+                              "left": {
+                                "px": 4.0
+                              }
+                            }
+                          },
+                          "border": {
+                            "bottom": {
+                              "width": {
+                                "px": 2.0
+                              },
+                              "style": "solid",
+                              "color": {
+                                "raw": "transparent"
+                              }
+                            }
+                          }
+                        },
+                        "hover": {
+                          "border": {
+                            "bottom": {
+                              "width": {
+                                "px": 2.0
+                              },
+                              "style": "solid",
+                              "color": {
+                                "token": "surface.accent"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "header-nav-4",
+                    "kind": {
+                      "type": "link",
+                      "href": "/contact",
+                      "target": "same"
+                    },
+                    "children": [
+                      {
+                        "id": "header-nav-4-label",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "Visit"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.body"
+                                },
+                                "weight": 700
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "decoration": "none"
+                          },
+                          "spacing": {
+                            "padding": {
+                              "top": {
+                                "px": 8.0
+                              },
+                              "right": {
+                                "px": 4.0
+                              },
+                              "bottom": {
+                                "px": 8.0
+                              },
+                              "left": {
+                                "px": 4.0
+                              }
+                            }
+                          },
+                          "border": {
+                            "bottom": {
+                              "width": {
+                                "px": 2.0
+                              },
+                              "style": "solid",
+                              "color": {
+                                "raw": "transparent"
+                              }
+                            }
+                          }
+                        },
+                        "hover": {
+                          "border": {
+                            "bottom": {
+                              "width": {
+                                "px": 2.0
+                              },
+                              "style": "solid",
+                              "color": {
+                                "token": "surface.accent"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "none"
+                    }
+                  },
+                  "md": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "row",
+                        "gap": {
+                          "px": 28.0
+                        },
+                        "align": "center"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "header-cta",
+                "kind": {
+                  "type": "button",
+                  "label": "Book a table",
+                  "href": "/contact#reserve",
+                  "target": "same"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "inlineBlock",
+                      "background": {
+                        "token": "surface.accent"
+                      },
+                      "radius": {
+                        "token": "radius.full"
+                      },
+                      "size": {
+                        "width": {
+                          "raw": "fit-content"
+                        }
+                      },
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "px": 12.0
+                          },
+                          "right": {
+                            "px": 18.0
+                          },
+                          "bottom": {
+                            "px": 12.0
+                          },
+                          "left": {
+                            "px": 18.0
+                          }
+                        }
+                      },
+                      "typography": {
+                        "token": "type.button",
+                        "color": {
+                          "token": "ink.inverse"
+                        },
+                        "decoration": "none",
+                        "size": {
+                          "rem": 0.9375
+                        }
+                      },
+                      "shadow": {
+                        "token": "shadow.soft"
+                      },
+                      "transition": {
+                        "duration": 200,
+                        "easing": "easeOut",
+                        "properties": [
+                          "backgroundColor",
+                          "transform",
+                          "boxShadow"
+                        ]
+                      }
+                    },
+                    "hover": {
+                      "background": {
+                        "token": "surface.deep"
+                      },
+                      "custom": {
+                        "transform": "translateY(-2px)"
+                      },
+                      "shadow": {
+                        "token": "shadow.card"
+                      }
+                    }
+                  },
+                  "md": {
+                    "base": {
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "px": 16.0
+                          },
+                          "right": {
+                            "px": 30.0
+                          },
+                          "bottom": {
+                            "px": 16.0
+                          },
+                          "left": {
+                            "px": 30.0
+                          }
+                        }
+                      },
+                      "typography": {
+                        "size": {
+                          "rem": 1.0
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            ],
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "flex",
+                  "flex": {
+                    "direction": "row",
+                    "align": "center",
+                    "justify": "spaceBetween",
+                    "gap": {
+                      "px": 12.0
+                    },
+                    "wrap": false
+                  },
+                  "size": {
+                    "maxWidth": {
+                      "px": 1200.0
+                    },
+                    "width": {
+                      "percent": 100.0
+                    }
+                  },
+                  "spacing": {
+                    "margin": {
+                      "left": {
+                        "raw": "auto"
+                      },
+                      "right": {
+                        "raw": "auto"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "styles": {
+          "base": {
+            "base": {
+              "background": {
+                "raw": "rgb(251 246 238 / 0.88)"
+              },
+              "custom": {
+                "backdrop-filter": "saturate(1.4) blur(12px)"
+              },
+              "position": {
+                "kind": "sticky",
+                "inset": {
+                  "top": {
+                    "px": 0.0
+                  }
+                },
+                "zIndex": 20
+              },
+              "border": {
+                "bottom": {
+                  "width": {
+                    "px": 1.0
+                  },
+                  "style": "solid",
+                  "color": {
+                    "token": "line.hairline"
+                  }
+                }
+              },
+              "spacing": {
+                "padding": {
+                  "top": {
+                    "px": 14.0
+                  },
+                  "right": {
+                    "px": 20.0
+                  },
+                  "bottom": {
+                    "px": 14.0
+                  },
+                  "left": {
+                    "px": 20.0
+                  }
+                }
+              }
+            }
+          },
+          "md": {
+            "base": {
+              "spacing": {
+                "padding": {
+                  "top": {
+                    "px": 18.0
+                  },
+                  "right": {
+                    "px": 40.0
+                  },
+                  "bottom": {
+                    "px": 18.0
+                  },
+                  "left": {
+                    "px": 40.0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "main",
+        "kind": {
+          "type": "frame",
+          "element": "main"
+        },
+        "children": [
+          {
+            "id": "nf",
+            "kind": {
+              "type": "frame",
+              "element": "section"
+            },
+            "children": [
+              {
+                "id": "nf-inner",
+                "kind": {
+                  "type": "frame"
+                },
+                "children": [
+                  {
+                    "id": "nf-copy",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "children": [
+                      {
+                        "id": "nf-code",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "404"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.display",
+                                "color": {
+                                  "token": "ink.accent"
+                                },
+                                "size": {
+                                  "raw": "clamp(5rem, 14vw, 9rem)"
+                                },
+                                "align": "center"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "nf-title",
+                        "kind": {
+                          "type": "text",
+                          "tag": "h1",
+                          "content": "This table seems to be taken."
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.title",
+                                "color": {
+                                  "token": "ink.body"
+                                },
+                                "align": "center"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "nf-lead",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "The page you were looking for has moved or never existed. The kitchen, happily, is still open."
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.lead",
+                                "color": {
+                                  "token": "ink.muted"
+                                },
+                                "align": "center"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "nf-actions",
+                        "kind": {
+                          "type": "frame"
+                        },
+                        "children": [
+                          {
+                            "id": "nf-home",
+                            "kind": {
+                              "type": "button",
+                              "label": "Back to the home page",
+                              "href": "/",
+                              "target": "same"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "display": "inlineBlock",
+                                  "background": {
+                                    "token": "surface.accent"
+                                  },
+                                  "radius": {
+                                    "token": "radius.full"
+                                  },
+                                  "size": {
+                                    "width": {
+                                      "raw": "fit-content"
+                                    }
+                                  },
+                                  "spacing": {
+                                    "padding": {
+                                      "top": {
+                                        "px": 16.0
+                                      },
+                                      "right": {
+                                        "px": 30.0
+                                      },
+                                      "bottom": {
+                                        "px": 16.0
+                                      },
+                                      "left": {
+                                        "px": 30.0
+                                      }
+                                    }
+                                  },
+                                  "typography": {
+                                    "token": "type.button",
+                                    "color": {
+                                      "token": "ink.inverse"
+                                    },
+                                    "decoration": "none"
+                                  },
+                                  "shadow": {
+                                    "token": "shadow.soft"
+                                  },
+                                  "transition": {
+                                    "duration": 200,
+                                    "easing": "easeOut",
+                                    "properties": [
+                                      "backgroundColor",
+                                      "transform",
+                                      "boxShadow"
+                                    ]
+                                  }
+                                },
+                                "hover": {
+                                  "background": {
+                                    "token": "surface.deep"
+                                  },
+                                  "custom": {
+                                    "transform": "translateY(-2px)"
+                                  },
+                                  "shadow": {
+                                    "token": "shadow.card"
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "nf-menu",
+                            "kind": {
+                              "type": "link",
+                              "href": "/menu",
+                              "target": "same"
+                            },
+                            "children": [
+                              {
+                                "id": "nf-menu-label",
+                                "kind": {
+                                  "type": "text",
+                                  "tag": "span",
+                                  "content": "See the menu"
+                                },
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "typography": {
+                                        "token": "type.button",
+                                        "color": {
+                                          "token": "ink.accent"
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            ],
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "decoration": "underline",
+                                    "color": {
+                                      "token": "ink.accent"
+                                    }
+                                  },
+                                  "custom": {
+                                    "text-underline-offset": "5px",
+                                    "text-decoration-thickness": "2px"
+                                  }
+                                },
+                                "hover": {
+                                  "opacity": 0.75
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "flex",
+                              "flex": {
+                                "direction": "row",
+                                "gap": {
+                                  "px": 24.0
+                                },
+                                "align": "center",
+                                "wrap": true,
+                                "justify": "center"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "column",
+                            "gap": {
+                              "px": 20.0
+                            },
+                            "align": "center"
+                          },
+                          "size": {
+                            "maxWidth": {
+                              "px": 640.0
+                            }
+                          },
+                          "spacing": {
+                            "margin": {
+                              "left": {
+                                "raw": "auto"
+                              },
+                              "right": {
+                                "raw": "auto"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "px": 32.0
+                        }
+                      },
+                      "size": {
+                        "maxWidth": {
+                          "px": 1200.0
+                        },
+                        "width": {
+                          "percent": 100.0
+                        }
+                      },
+                      "spacing": {
+                        "margin": {
+                          "left": {
+                            "raw": "auto"
+                          },
+                          "right": {
+                            "raw": "auto"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            ],
+            "styles": {
+              "base": {
+                "base": {
+                  "background": {
+                    "token": "surface.page"
+                  },
+                  "spacing": {
+                    "padding": {
+                      "top": {
+                        "px": 96.0
+                      },
+                      "right": {
+                        "px": 20.0
+                      },
+                      "bottom": {
+                        "px": 96.0
+                      },
+                      "left": {
+                        "px": 20.0
+                      }
+                    }
+                  }
+                }
+              },
+              "md": {
+                "base": {
+                  "spacing": {
+                    "padding": {
+                      "top": {
+                        "px": 160.0
+                      },
+                      "right": {
+                        "px": 40.0
+                      },
+                      "bottom": {
+                        "px": 160.0
+                      },
+                      "left": {
+                        "px": 40.0
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "footer",
+        "kind": {
+          "type": "frame",
+          "element": "footer"
+        },
+        "children": [
+          {
+            "id": "footer-inner",
+            "kind": {
+              "type": "frame"
+            },
+            "children": [
+              {
+                "id": "footer-grid",
+                "kind": {
+                  "type": "frame"
+                },
+                "children": [
+                  {
+                    "id": "footer-about",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "children": [
+                      {
+                        "id": "footer-brand",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Tidewater Kitchen"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.subtitle",
+                                "color": {
+                                  "token": "ink.inverse"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "footer-blurb",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Seasonal plates, slow coffee and a long table by the water. Family-run since 2011."
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.inverse.muted"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "column",
+                            "gap": {
+                              "px": 12.0
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "footer-col-1",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "children": [
+                      {
+                        "id": "footer-col-1-t",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Find us"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.eyebrow",
+                                "color": {
+                                  "token": "ink.inverse.muted"
+                                },
+                                "transform": "uppercase"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "footer-col-1-0",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "14 Quay Street"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.inverse"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "footer-col-1-1",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Port Ellery, 4021"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.inverse"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "footer-col-1-2",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "hello@tidewaterkitchen.example"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.inverse"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "column",
+                            "gap": {
+                              "px": 8.0
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "footer-col-2",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "children": [
+                      {
+                        "id": "footer-col-2-t",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Hours"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.eyebrow",
+                                "color": {
+                                  "token": "ink.inverse.muted"
+                                },
+                                "transform": "uppercase"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "footer-col-2-0",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Tue to Thu  8:00 to 22:00"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.inverse"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "footer-col-2-1",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Fri and Sat  8:00 to 23:00"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.inverse"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "footer-col-2-2",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Sun  9:00 to 16:00"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.inverse"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "column",
+                            "gap": {
+                              "px": 8.0
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "footer-col-3",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "children": [
+                      {
+                        "id": "footer-col-3-t",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Explore"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.eyebrow",
+                                "color": {
+                                  "token": "ink.inverse.muted"
+                                },
+                                "transform": "uppercase"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "footer-col-3-0",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Menu"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.inverse"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "footer-col-3-1",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Our story"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.inverse"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "footer-col-3-2",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Private dining"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.inverse"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "footer-col-3-3",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Gift cards"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.inverse"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "column",
+                            "gap": {
+                              "px": 8.0
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "grid",
+                      "grid": {
+                        "columns": 1,
+                        "gap": {
+                          "px": 40.0
+                        }
+                      }
+                    }
+                  },
+                  "md": {
+                    "base": {
+                      "display": "grid",
+                      "grid": {
+                        "columns": 2
+                      }
+                    }
+                  },
+                  "lg": {
+                    "base": {
+                      "display": "grid",
+                      "grid": {
+                        "columns": 4
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "footer-rule",
+                "kind": {
+                  "type": "divider"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "border": {
+                        "top": {
+                          "width": {
+                            "px": 1.0
+                          },
+                          "style": "solid",
+                          "color": {
+                            "token": "line.inverse"
+                          }
+                        }
+                      },
+                      "spacing": {
+                        "margin": {
+                          "top": {
+                            "px": 0.0
+                          },
+                          "right": {
+                            "px": 0.0
+                          },
+                          "bottom": {
+                            "px": 0.0
+                          },
+                          "left": {
+                            "px": 0.0
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "footer-legal",
+                "kind": {
+                  "type": "frame"
+                },
+                "children": [
+                  {
+                    "id": "footer-copy",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "© 2026 Tidewater Kitchen. Made with care in Port Ellery."
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "color": {
+                              "token": "ink.inverse.muted"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "footer-note",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "Allergen information available on request."
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "color": {
+                              "token": "ink.inverse.muted"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "row",
+                        "gap": {
+                          "px": 16.0
+                        },
+                        "align": "center",
+                        "wrap": true,
+                        "justify": "spaceBetween"
+                      }
+                    }
+                  }
+                }
+              }
+            ],
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "flex",
+                  "flex": {
+                    "direction": "column",
+                    "gap": {
+                      "px": 40.0
+                    }
+                  },
+                  "size": {
+                    "maxWidth": {
+                      "px": 1200.0
+                    },
+                    "width": {
+                      "percent": 100.0
+                    }
+                  },
+                  "spacing": {
+                    "margin": {
+                      "left": {
+                        "raw": "auto"
+                      },
+                      "right": {
+                        "raw": "auto"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "styles": {
+          "base": {
+            "base": {
+              "background": {
+                "token": "surface.deep"
+              },
+              "spacing": {
+                "padding": {
+                  "top": {
+                    "px": 64.0
+                  },
+                  "right": {
+                    "px": 20.0
+                  },
+                  "bottom": {
+                    "px": 64.0
+                  },
+                  "left": {
+                    "px": 20.0
+                  }
+                }
+              }
+            }
+          },
+          "md": {
+            "base": {
+              "spacing": {
+                "padding": {
+                  "top": {
+                    "px": 88.0
+                  },
+                  "right": {
+                    "px": 40.0
+                  },
+                  "bottom": {
+                    "px": 88.0
+                  },
+                  "left": {
+                    "px": 40.0
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "styles": {
+      "base": {
+        "base": {
+          "background": {
+            "token": "surface.page"
+          },
+          "typography": {
+            "token": "type.body",
+            "color": {
+              "token": "ink.body"
+            }
+          },
+          "custom": {
+            "-webkit-font-smoothing": "antialiased"
+          }
+        }
+      }
+    }
+  }
+}

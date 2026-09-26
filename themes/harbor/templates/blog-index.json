@@ -1,0 +1,3672 @@
+{
+  "root": {
+    "id": "root",
+    "kind": {
+      "type": "frame"
+    },
+    "children": [
+      {
+        "id": "header",
+        "kind": {
+          "type": "frame",
+          "element": "header"
+        },
+        "children": [
+          {
+            "id": "header-inner",
+            "kind": {
+              "type": "frame"
+            },
+            "children": [
+              {
+                "id": "header-brand",
+                "kind": {
+                  "type": "link",
+                  "href": "/",
+                  "target": "same"
+                },
+                "children": [
+                  {
+                    "id": "header-brand-row",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "children": [
+                      {
+                        "id": "header-mark",
+                        "kind": {
+                          "type": "frame"
+                        },
+                        "children": [
+                          {
+                            "id": "header-mark-icon",
+                            "kind": {
+                              "type": "icon",
+                              "name": "heart"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "color": {
+                                      "token": "ink.inverse"
+                                    }
+                                  },
+                                  "size": {
+                                    "width": {
+                                      "px": 16.0
+                                    },
+                                    "height": {
+                                      "px": 16.0
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "flex",
+                              "flex": {
+                                "align": "center",
+                                "justify": "center"
+                              },
+                              "size": {
+                                "width": {
+                                  "px": 36.0
+                                },
+                                "height": {
+                                  "px": 36.0
+                                }
+                              },
+                              "radius": {
+                                "token": "radius.full"
+                              },
+                              "background": {
+                                "token": "surface.accent"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "header-brand-name",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "Tidewater Kitchen"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.subtitle",
+                                "color": {
+                                  "token": "ink.body"
+                                },
+                                "size": {
+                                  "rem": 1.125
+                                }
+                              }
+                            }
+                          },
+                          "md": {
+                            "base": {
+                              "typography": {
+                                "size": {
+                                  "rem": 1.375
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "row",
+                            "gap": {
+                              "px": 10.0
+                            },
+                            "align": "center",
+                            "wrap": false
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "decoration": "none"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "header-nav",
+                "kind": {
+                  "type": "frame",
+                  "element": "nav"
+                },
+                "children": [
+                  {
+                    "id": "header-nav-1",
+                    "kind": {
+                      "type": "link",
+                      "href": "/menu",
+                      "target": "same"
+                    },
+                    "children": [
+                      {
+                        "id": "header-nav-1-label",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "Menu"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.body"
+                                },
+                                "weight": 700
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "decoration": "none"
+                          },
+                          "spacing": {
+                            "padding": {
+                              "top": {
+                                "px": 8.0
+                              },
+                              "right": {
+                                "px": 4.0
+                              },
+                              "bottom": {
+                                "px": 8.0
+                              },
+                              "left": {
+                                "px": 4.0
+                              }
+                            }
+                          },
+                          "border": {
+                            "bottom": {
+                              "width": {
+                                "px": 2.0
+                              },
+                              "style": "solid",
+                              "color": {
+                                "raw": "transparent"
+                              }
+                            }
+                          }
+                        },
+                        "hover": {
+                          "border": {
+                            "bottom": {
+                              "width": {
+                                "px": 2.0
+                              },
+                              "style": "solid",
+                              "color": {
+                                "token": "surface.accent"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "header-nav-2",
+                    "kind": {
+                      "type": "link",
+                      "href": "/about",
+                      "target": "same"
+                    },
+                    "children": [
+                      {
+                        "id": "header-nav-2-label",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "Our story"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.body"
+                                },
+                                "weight": 700
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "decoration": "none"
+                          },
+                          "spacing": {
+                            "padding": {
+                              "top": {
+                                "px": 8.0
+                              },
+                              "right": {
+                                "px": 4.0
+                              },
+                              "bottom": {
+                                "px": 8.0
+                              },
+                              "left": {
+                                "px": 4.0
+                              }
+                            }
+                          },
+                          "border": {
+                            "bottom": {
+                              "width": {
+                                "px": 2.0
+                              },
+                              "style": "solid",
+                              "color": {
+                                "raw": "transparent"
+                              }
+                            }
+                          }
+                        },
+                        "hover": {
+                          "border": {
+                            "bottom": {
+                              "width": {
+                                "px": 2.0
+                              },
+                              "style": "solid",
+                              "color": {
+                                "token": "surface.accent"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "header-nav-3",
+                    "kind": {
+                      "type": "link",
+                      "href": "/journal",
+                      "target": "same"
+                    },
+                    "children": [
+                      {
+                        "id": "header-nav-3-label",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "Journal"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.body"
+                                },
+                                "weight": 700
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "decoration": "none"
+                          },
+                          "spacing": {
+                            "padding": {
+                              "top": {
+                                "px": 8.0
+                              },
+                              "right": {
+                                "px": 4.0
+                              },
+                              "bottom": {
+                                "px": 8.0
+                              },
+                              "left": {
+                                "px": 4.0
+                              }
+                            }
+                          },
+                          "border": {
+                            "bottom": {
+                              "width": {
+                                "px": 2.0
+                              },
+                              "style": "solid",
+                              "color": {
+                                "raw": "transparent"
+                              }
+                            }
+                          }
+                        },
+                        "hover": {
+                          "border": {
+                            "bottom": {
+                              "width": {
+                                "px": 2.0
+                              },
+                              "style": "solid",
+                              "color": {
+                                "token": "surface.accent"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "header-nav-4",
+                    "kind": {
+                      "type": "link",
+                      "href": "/contact",
+                      "target": "same"
+                    },
+                    "children": [
+                      {
+                        "id": "header-nav-4-label",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "Visit"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.body"
+                                },
+                                "weight": 700
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "decoration": "none"
+                          },
+                          "spacing": {
+                            "padding": {
+                              "top": {
+                                "px": 8.0
+                              },
+                              "right": {
+                                "px": 4.0
+                              },
+                              "bottom": {
+                                "px": 8.0
+                              },
+                              "left": {
+                                "px": 4.0
+                              }
+                            }
+                          },
+                          "border": {
+                            "bottom": {
+                              "width": {
+                                "px": 2.0
+                              },
+                              "style": "solid",
+                              "color": {
+                                "raw": "transparent"
+                              }
+                            }
+                          }
+                        },
+                        "hover": {
+                          "border": {
+                            "bottom": {
+                              "width": {
+                                "px": 2.0
+                              },
+                              "style": "solid",
+                              "color": {
+                                "token": "surface.accent"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "none"
+                    }
+                  },
+                  "md": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "row",
+                        "gap": {
+                          "px": 28.0
+                        },
+                        "align": "center"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "header-cta",
+                "kind": {
+                  "type": "button",
+                  "label": "Book a table",
+                  "href": "/contact#reserve",
+                  "target": "same"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "inlineBlock",
+                      "background": {
+                        "token": "surface.accent"
+                      },
+                      "radius": {
+                        "token": "radius.full"
+                      },
+                      "size": {
+                        "width": {
+                          "raw": "fit-content"
+                        }
+                      },
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "px": 12.0
+                          },
+                          "right": {
+                            "px": 18.0
+                          },
+                          "bottom": {
+                            "px": 12.0
+                          },
+                          "left": {
+                            "px": 18.0
+                          }
+                        }
+                      },
+                      "typography": {
+                        "token": "type.button",
+                        "color": {
+                          "token": "ink.inverse"
+                        },
+                        "decoration": "none",
+                        "size": {
+                          "rem": 0.9375
+                        }
+                      },
+                      "shadow": {
+                        "token": "shadow.soft"
+                      },
+                      "transition": {
+                        "duration": 200,
+                        "easing": "easeOut",
+                        "properties": [
+                          "backgroundColor",
+                          "transform",
+                          "boxShadow"
+                        ]
+                      }
+                    },
+                    "hover": {
+                      "background": {
+                        "token": "surface.deep"
+                      },
+                      "custom": {
+                        "transform": "translateY(-2px)"
+                      },
+                      "shadow": {
+                        "token": "shadow.card"
+                      }
+                    }
+                  },
+                  "md": {
+                    "base": {
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "px": 16.0
+                          },
+                          "right": {
+                            "px": 30.0
+                          },
+                          "bottom": {
+                            "px": 16.0
+                          },
+                          "left": {
+                            "px": 30.0
+                          }
+                        }
+                      },
+                      "typography": {
+                        "size": {
+                          "rem": 1.0
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            ],
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "flex",
+                  "flex": {
+                    "direction": "row",
+                    "align": "center",
+                    "justify": "spaceBetween",
+                    "gap": {
+                      "px": 12.0
+                    },
+                    "wrap": false
+                  },
+                  "size": {
+                    "maxWidth": {
+                      "px": 1200.0
+                    },
+                    "width": {
+                      "percent": 100.0
+                    }
+                  },
+                  "spacing": {
+                    "margin": {
+                      "left": {
+                        "raw": "auto"
+                      },
+                      "right": {
+                        "raw": "auto"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "styles": {
+          "base": {
+            "base": {
+              "background": {
+                "raw": "rgb(251 246 238 / 0.88)"
+              },
+              "custom": {
+                "backdrop-filter": "saturate(1.4) blur(12px)"
+              },
+              "position": {
+                "kind": "sticky",
+                "inset": {
+                  "top": {
+                    "px": 0.0
+                  }
+                },
+                "zIndex": 20
+              },
+              "border": {
+                "bottom": {
+                  "width": {
+                    "px": 1.0
+                  },
+                  "style": "solid",
+                  "color": {
+                    "token": "line.hairline"
+                  }
+                }
+              },
+              "spacing": {
+                "padding": {
+                  "top": {
+                    "px": 14.0
+                  },
+                  "right": {
+                    "px": 20.0
+                  },
+                  "bottom": {
+                    "px": 14.0
+                  },
+                  "left": {
+                    "px": 20.0
+                  }
+                }
+              }
+            }
+          },
+          "md": {
+            "base": {
+              "spacing": {
+                "padding": {
+                  "top": {
+                    "px": 18.0
+                  },
+                  "right": {
+                    "px": 40.0
+                  },
+                  "bottom": {
+                    "px": 18.0
+                  },
+                  "left": {
+                    "px": 40.0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "main",
+        "kind": {
+          "type": "frame",
+          "element": "main"
+        },
+        "children": [
+          {
+            "id": "journal-head",
+            "kind": {
+              "type": "frame",
+              "element": "section"
+            },
+            "children": [
+              {
+                "id": "journal-head-inner",
+                "kind": {
+                  "type": "frame"
+                },
+                "children": [
+                  {
+                    "id": "journal-h-head",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "children": [
+                      {
+                        "id": "journal-h-eyebrow",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "The journal"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.eyebrow",
+                                "color": {
+                                  "token": "ink.accent"
+                                },
+                                "transform": "uppercase"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "journal-h-title",
+                        "kind": {
+                          "type": "text",
+                          "tag": "h1",
+                          "content": "Notes from the kitchen and the quay."
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.display",
+                                "color": {
+                                  "token": "ink.body"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "journal-h-lead",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Seasonal recipes, the people behind the food and news from the dining room."
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.lead",
+                                "color": {
+                                  "token": "ink.muted"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "column",
+                            "gap": {
+                              "px": 16.0
+                            }
+                          },
+                          "size": {
+                            "maxWidth": {
+                              "px": 720.0
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "px": 32.0
+                        }
+                      },
+                      "size": {
+                        "maxWidth": {
+                          "px": 1200.0
+                        },
+                        "width": {
+                          "percent": 100.0
+                        }
+                      },
+                      "spacing": {
+                        "margin": {
+                          "left": {
+                            "raw": "auto"
+                          },
+                          "right": {
+                            "raw": "auto"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            ],
+            "styles": {
+              "base": {
+                "base": {
+                  "background": {
+                    "token": "surface.page"
+                  },
+                  "spacing": {
+                    "padding": {
+                      "top": {
+                        "px": 64.0
+                      },
+                      "right": {
+                        "px": 20.0
+                      },
+                      "bottom": {
+                        "px": 64.0
+                      },
+                      "left": {
+                        "px": 20.0
+                      }
+                    }
+                  }
+                }
+              },
+              "md": {
+                "base": {
+                  "spacing": {
+                    "padding": {
+                      "top": {
+                        "px": 96.0
+                      },
+                      "right": {
+                        "px": 40.0
+                      },
+                      "bottom": {
+                        "px": 96.0
+                      },
+                      "left": {
+                        "px": 40.0
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": "journal-list",
+            "kind": {
+              "type": "frame",
+              "element": "section"
+            },
+            "children": [
+              {
+                "id": "journal-list-inner",
+                "kind": {
+                  "type": "frame"
+                },
+                "children": [
+                  {
+                    "id": "journal-list-grid",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "children": [
+                      {
+                        "id": "post-1",
+                        "kind": {
+                          "type": "link",
+                          "href": "/journal/october-catch",
+                          "target": "same"
+                        },
+                        "children": [
+                          {
+                            "id": "post-1-card",
+                            "kind": {
+                              "type": "frame"
+                            },
+                            "children": [
+                              {
+                                "id": "post-1-media",
+                                "kind": {
+                                  "type": "frame"
+                                },
+                                "children": [
+                                  {
+                                    "id": "post-1-img",
+                                    "kind": {
+                                      "type": "image",
+                                      "src": "assets/images/table.webp",
+                                      "alt": ""
+                                    },
+                                    "styles": {
+                                      "base": {
+                                        "base": {
+                                          "display": "block",
+                                          "size": {
+                                            "width": {
+                                              "percent": 100.0
+                                            }
+                                          },
+                                          "objectFit": "cover",
+                                          "aspectRatio": {
+                                            "ratio": {
+                                              "width": 3.0,
+                                              "height": 2.0
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                ],
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "overflow": "hidden"
+                                    }
+                                  }
+                                }
+                              },
+                              {
+                                "id": "post-1-body",
+                                "kind": {
+                                  "type": "frame"
+                                },
+                                "children": [
+                                  {
+                                    "id": "post-1-meta",
+                                    "kind": {
+                                      "type": "frame"
+                                    },
+                                    "children": [
+                                      {
+                                        "id": "post-1-tag",
+                                        "kind": {
+                                          "type": "text",
+                                          "tag": "span",
+                                          "content": "Seasonal"
+                                        },
+                                        "styles": {
+                                          "base": {
+                                            "base": {
+                                              "typography": {
+                                                "token": "type.eyebrow",
+                                                "color": {
+                                                  "token": "ink.accent"
+                                                },
+                                                "transform": "uppercase"
+                                              }
+                                            }
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "id": "post-1-date",
+                                        "kind": {
+                                          "type": "text",
+                                          "tag": "span",
+                                          "content": "Oct 2, 2026"
+                                        },
+                                        "styles": {
+                                          "base": {
+                                            "base": {
+                                              "typography": {
+                                                "token": "type.small",
+                                                "color": {
+                                                  "token": "ink.muted"
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    ],
+                                    "styles": {
+                                      "base": {
+                                        "base": {
+                                          "display": "flex",
+                                          "flex": {
+                                            "direction": "row",
+                                            "gap": {
+                                              "px": 12.0
+                                            },
+                                            "align": "center",
+                                            "wrap": true,
+                                            "justify": "spaceBetween"
+                                          }
+                                        }
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "id": "post-1-title",
+                                    "kind": {
+                                      "type": "text",
+                                      "tag": "h3",
+                                      "content": "What the boats brought in this October"
+                                    },
+                                    "styles": {
+                                      "base": {
+                                        "base": {
+                                          "typography": {
+                                            "token": "type.subtitle",
+                                            "color": {
+                                              "token": "ink.body"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "id": "post-1-dek",
+                                    "kind": {
+                                      "type": "text",
+                                      "tag": "p",
+                                      "content": "Hake, mackerel and the first mussels of the cold months, and what we are doing with them."
+                                    },
+                                    "styles": {
+                                      "base": {
+                                        "base": {
+                                          "typography": {
+                                            "token": "type.small",
+                                            "color": {
+                                              "token": "ink.muted"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                ],
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "display": "flex",
+                                      "flex": {
+                                        "direction": "column",
+                                        "gap": {
+                                          "px": 10.0
+                                        }
+                                      },
+                                      "spacing": {
+                                        "padding": {
+                                          "top": {
+                                            "px": 22.0
+                                          },
+                                          "right": {
+                                            "px": 24.0
+                                          },
+                                          "bottom": {
+                                            "px": 28.0
+                                          },
+                                          "left": {
+                                            "px": 24.0
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            ],
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "background": {
+                                    "token": "surface.card"
+                                  },
+                                  "radius": {
+                                    "token": "radius.lg"
+                                  },
+                                  "border": {
+                                    "width": {
+                                      "px": 1.0
+                                    },
+                                    "style": "solid",
+                                    "color": {
+                                      "token": "line.hairline"
+                                    }
+                                  },
+                                  "shadow": {
+                                    "token": "shadow.soft"
+                                  },
+                                  "overflow": "hidden",
+                                  "display": "flex",
+                                  "flex": {
+                                    "direction": "column"
+                                  },
+                                  "size": {
+                                    "height": {
+                                      "percent": 100.0
+                                    }
+                                  },
+                                  "transition": {
+                                    "duration": 250,
+                                    "easing": "easeOut",
+                                    "properties": [
+                                      "transform",
+                                      "boxShadow"
+                                    ]
+                                  }
+                                },
+                                "hover": {
+                                  "shadow": {
+                                    "token": "shadow.card"
+                                  },
+                                  "custom": {
+                                    "transform": "translateY(-4px)"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "decoration": "none"
+                              },
+                              "display": "block"
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "post-2",
+                        "kind": {
+                          "type": "link",
+                          "href": "/journal/morning-coffee",
+                          "target": "same"
+                        },
+                        "children": [
+                          {
+                            "id": "post-2-card",
+                            "kind": {
+                              "type": "frame"
+                            },
+                            "children": [
+                              {
+                                "id": "post-2-media",
+                                "kind": {
+                                  "type": "frame"
+                                },
+                                "children": [
+                                  {
+                                    "id": "post-2-img",
+                                    "kind": {
+                                      "type": "image",
+                                      "src": "assets/images/coffee.webp",
+                                      "alt": ""
+                                    },
+                                    "styles": {
+                                      "base": {
+                                        "base": {
+                                          "display": "block",
+                                          "size": {
+                                            "width": {
+                                              "percent": 100.0
+                                            }
+                                          },
+                                          "objectFit": "cover",
+                                          "aspectRatio": {
+                                            "ratio": {
+                                              "width": 3.0,
+                                              "height": 2.0
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                ],
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "overflow": "hidden"
+                                    }
+                                  }
+                                }
+                              },
+                              {
+                                "id": "post-2-body",
+                                "kind": {
+                                  "type": "frame"
+                                },
+                                "children": [
+                                  {
+                                    "id": "post-2-meta",
+                                    "kind": {
+                                      "type": "frame"
+                                    },
+                                    "children": [
+                                      {
+                                        "id": "post-2-tag",
+                                        "kind": {
+                                          "type": "text",
+                                          "tag": "span",
+                                          "content": "Behind the counter"
+                                        },
+                                        "styles": {
+                                          "base": {
+                                            "base": {
+                                              "typography": {
+                                                "token": "type.eyebrow",
+                                                "color": {
+                                                  "token": "ink.accent"
+                                                },
+                                                "transform": "uppercase"
+                                              }
+                                            }
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "id": "post-2-date",
+                                        "kind": {
+                                          "type": "text",
+                                          "tag": "span",
+                                          "content": "Sep 18, 2026"
+                                        },
+                                        "styles": {
+                                          "base": {
+                                            "base": {
+                                              "typography": {
+                                                "token": "type.small",
+                                                "color": {
+                                                  "token": "ink.muted"
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    ],
+                                    "styles": {
+                                      "base": {
+                                        "base": {
+                                          "display": "flex",
+                                          "flex": {
+                                            "direction": "row",
+                                            "gap": {
+                                              "px": 12.0
+                                            },
+                                            "align": "center",
+                                            "wrap": true,
+                                            "justify": "spaceBetween"
+                                          }
+                                        }
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "id": "post-2-title",
+                                    "kind": {
+                                      "type": "text",
+                                      "tag": "h3",
+                                      "content": "Why our coffee tastes different at eight"
+                                    },
+                                    "styles": {
+                                      "base": {
+                                        "base": {
+                                          "typography": {
+                                            "token": "type.subtitle",
+                                            "color": {
+                                              "token": "ink.body"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "id": "post-2-dek",
+                                    "kind": {
+                                      "type": "text",
+                                      "tag": "p",
+                                      "content": "A short, slightly obsessive story about water temperature and a very patient roaster."
+                                    },
+                                    "styles": {
+                                      "base": {
+                                        "base": {
+                                          "typography": {
+                                            "token": "type.small",
+                                            "color": {
+                                              "token": "ink.muted"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                ],
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "display": "flex",
+                                      "flex": {
+                                        "direction": "column",
+                                        "gap": {
+                                          "px": 10.0
+                                        }
+                                      },
+                                      "spacing": {
+                                        "padding": {
+                                          "top": {
+                                            "px": 22.0
+                                          },
+                                          "right": {
+                                            "px": 24.0
+                                          },
+                                          "bottom": {
+                                            "px": 28.0
+                                          },
+                                          "left": {
+                                            "px": 24.0
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            ],
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "background": {
+                                    "token": "surface.card"
+                                  },
+                                  "radius": {
+                                    "token": "radius.lg"
+                                  },
+                                  "border": {
+                                    "width": {
+                                      "px": 1.0
+                                    },
+                                    "style": "solid",
+                                    "color": {
+                                      "token": "line.hairline"
+                                    }
+                                  },
+                                  "shadow": {
+                                    "token": "shadow.soft"
+                                  },
+                                  "overflow": "hidden",
+                                  "display": "flex",
+                                  "flex": {
+                                    "direction": "column"
+                                  },
+                                  "size": {
+                                    "height": {
+                                      "percent": 100.0
+                                    }
+                                  },
+                                  "transition": {
+                                    "duration": 250,
+                                    "easing": "easeOut",
+                                    "properties": [
+                                      "transform",
+                                      "boxShadow"
+                                    ]
+                                  }
+                                },
+                                "hover": {
+                                  "shadow": {
+                                    "token": "shadow.card"
+                                  },
+                                  "custom": {
+                                    "transform": "translateY(-4px)"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "decoration": "none"
+                              },
+                              "display": "block"
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "post-3",
+                        "kind": {
+                          "type": "link",
+                          "href": "/journal/poached-pear",
+                          "target": "same"
+                        },
+                        "children": [
+                          {
+                            "id": "post-3-card",
+                            "kind": {
+                              "type": "frame"
+                            },
+                            "children": [
+                              {
+                                "id": "post-3-media",
+                                "kind": {
+                                  "type": "frame"
+                                },
+                                "children": [
+                                  {
+                                    "id": "post-3-img",
+                                    "kind": {
+                                      "type": "image",
+                                      "src": "assets/images/dessert.webp",
+                                      "alt": ""
+                                    },
+                                    "styles": {
+                                      "base": {
+                                        "base": {
+                                          "display": "block",
+                                          "size": {
+                                            "width": {
+                                              "percent": 100.0
+                                            }
+                                          },
+                                          "objectFit": "cover",
+                                          "aspectRatio": {
+                                            "ratio": {
+                                              "width": 3.0,
+                                              "height": 2.0
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                ],
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "overflow": "hidden"
+                                    }
+                                  }
+                                }
+                              },
+                              {
+                                "id": "post-3-body",
+                                "kind": {
+                                  "type": "frame"
+                                },
+                                "children": [
+                                  {
+                                    "id": "post-3-meta",
+                                    "kind": {
+                                      "type": "frame"
+                                    },
+                                    "children": [
+                                      {
+                                        "id": "post-3-tag",
+                                        "kind": {
+                                          "type": "text",
+                                          "tag": "span",
+                                          "content": "Recipes"
+                                        },
+                                        "styles": {
+                                          "base": {
+                                            "base": {
+                                              "typography": {
+                                                "token": "type.eyebrow",
+                                                "color": {
+                                                  "token": "ink.accent"
+                                                },
+                                                "transform": "uppercase"
+                                              }
+                                            }
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "id": "post-3-date",
+                                        "kind": {
+                                          "type": "text",
+                                          "tag": "span",
+                                          "content": "Sep 3, 2026"
+                                        },
+                                        "styles": {
+                                          "base": {
+                                            "base": {
+                                              "typography": {
+                                                "token": "type.small",
+                                                "color": {
+                                                  "token": "ink.muted"
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    ],
+                                    "styles": {
+                                      "base": {
+                                        "base": {
+                                          "display": "flex",
+                                          "flex": {
+                                            "direction": "row",
+                                            "gap": {
+                                              "px": 12.0
+                                            },
+                                            "align": "center",
+                                            "wrap": true,
+                                            "justify": "spaceBetween"
+                                          }
+                                        }
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "id": "post-3-title",
+                                    "kind": {
+                                      "type": "text",
+                                      "tag": "h3",
+                                      "content": "The poached pear, at home"
+                                    },
+                                    "styles": {
+                                      "base": {
+                                        "base": {
+                                          "typography": {
+                                            "token": "type.subtitle",
+                                            "color": {
+                                              "token": "ink.body"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "id": "post-3-dek",
+                                    "kind": {
+                                      "type": "text",
+                                      "tag": "p",
+                                      "content": "Our most-asked-for pudding, written down properly for once. Serves four, easily six."
+                                    },
+                                    "styles": {
+                                      "base": {
+                                        "base": {
+                                          "typography": {
+                                            "token": "type.small",
+                                            "color": {
+                                              "token": "ink.muted"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                ],
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "display": "flex",
+                                      "flex": {
+                                        "direction": "column",
+                                        "gap": {
+                                          "px": 10.0
+                                        }
+                                      },
+                                      "spacing": {
+                                        "padding": {
+                                          "top": {
+                                            "px": 22.0
+                                          },
+                                          "right": {
+                                            "px": 24.0
+                                          },
+                                          "bottom": {
+                                            "px": 28.0
+                                          },
+                                          "left": {
+                                            "px": 24.0
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            ],
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "background": {
+                                    "token": "surface.card"
+                                  },
+                                  "radius": {
+                                    "token": "radius.lg"
+                                  },
+                                  "border": {
+                                    "width": {
+                                      "px": 1.0
+                                    },
+                                    "style": "solid",
+                                    "color": {
+                                      "token": "line.hairline"
+                                    }
+                                  },
+                                  "shadow": {
+                                    "token": "shadow.soft"
+                                  },
+                                  "overflow": "hidden",
+                                  "display": "flex",
+                                  "flex": {
+                                    "direction": "column"
+                                  },
+                                  "size": {
+                                    "height": {
+                                      "percent": 100.0
+                                    }
+                                  },
+                                  "transition": {
+                                    "duration": 250,
+                                    "easing": "easeOut",
+                                    "properties": [
+                                      "transform",
+                                      "boxShadow"
+                                    ]
+                                  }
+                                },
+                                "hover": {
+                                  "shadow": {
+                                    "token": "shadow.card"
+                                  },
+                                  "custom": {
+                                    "transform": "translateY(-4px)"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "decoration": "none"
+                              },
+                              "display": "block"
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "post-4",
+                        "kind": {
+                          "type": "link",
+                          "href": "/journal/terrace-season",
+                          "target": "same"
+                        },
+                        "children": [
+                          {
+                            "id": "post-4-card",
+                            "kind": {
+                              "type": "frame"
+                            },
+                            "children": [
+                              {
+                                "id": "post-4-media",
+                                "kind": {
+                                  "type": "frame"
+                                },
+                                "children": [
+                                  {
+                                    "id": "post-4-img",
+                                    "kind": {
+                                      "type": "image",
+                                      "src": "assets/images/terrace.webp",
+                                      "alt": ""
+                                    },
+                                    "styles": {
+                                      "base": {
+                                        "base": {
+                                          "display": "block",
+                                          "size": {
+                                            "width": {
+                                              "percent": 100.0
+                                            }
+                                          },
+                                          "objectFit": "cover",
+                                          "aspectRatio": {
+                                            "ratio": {
+                                              "width": 3.0,
+                                              "height": 2.0
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                ],
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "overflow": "hidden"
+                                    }
+                                  }
+                                }
+                              },
+                              {
+                                "id": "post-4-body",
+                                "kind": {
+                                  "type": "frame"
+                                },
+                                "children": [
+                                  {
+                                    "id": "post-4-meta",
+                                    "kind": {
+                                      "type": "frame"
+                                    },
+                                    "children": [
+                                      {
+                                        "id": "post-4-tag",
+                                        "kind": {
+                                          "type": "text",
+                                          "tag": "span",
+                                          "content": "News"
+                                        },
+                                        "styles": {
+                                          "base": {
+                                            "base": {
+                                              "typography": {
+                                                "token": "type.eyebrow",
+                                                "color": {
+                                                  "token": "ink.accent"
+                                                },
+                                                "transform": "uppercase"
+                                              }
+                                            }
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "id": "post-4-date",
+                                        "kind": {
+                                          "type": "text",
+                                          "tag": "span",
+                                          "content": "Aug 21, 2026"
+                                        },
+                                        "styles": {
+                                          "base": {
+                                            "base": {
+                                              "typography": {
+                                                "token": "type.small",
+                                                "color": {
+                                                  "token": "ink.muted"
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    ],
+                                    "styles": {
+                                      "base": {
+                                        "base": {
+                                          "display": "flex",
+                                          "flex": {
+                                            "direction": "row",
+                                            "gap": {
+                                              "px": 12.0
+                                            },
+                                            "align": "center",
+                                            "wrap": true,
+                                            "justify": "spaceBetween"
+                                          }
+                                        }
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "id": "post-4-title",
+                                    "kind": {
+                                      "type": "text",
+                                      "tag": "h3",
+                                      "content": "The terrace stays open until November"
+                                    },
+                                    "styles": {
+                                      "base": {
+                                        "base": {
+                                          "typography": {
+                                            "token": "type.subtitle",
+                                            "color": {
+                                              "token": "ink.body"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "id": "post-4-dek",
+                                    "kind": {
+                                      "type": "text",
+                                      "tag": "p",
+                                      "content": "Heaters, blankets and a short autumn menu for evenings outside."
+                                    },
+                                    "styles": {
+                                      "base": {
+                                        "base": {
+                                          "typography": {
+                                            "token": "type.small",
+                                            "color": {
+                                              "token": "ink.muted"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                ],
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "display": "flex",
+                                      "flex": {
+                                        "direction": "column",
+                                        "gap": {
+                                          "px": 10.0
+                                        }
+                                      },
+                                      "spacing": {
+                                        "padding": {
+                                          "top": {
+                                            "px": 22.0
+                                          },
+                                          "right": {
+                                            "px": 24.0
+                                          },
+                                          "bottom": {
+                                            "px": 28.0
+                                          },
+                                          "left": {
+                                            "px": 24.0
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            ],
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "background": {
+                                    "token": "surface.card"
+                                  },
+                                  "radius": {
+                                    "token": "radius.lg"
+                                  },
+                                  "border": {
+                                    "width": {
+                                      "px": 1.0
+                                    },
+                                    "style": "solid",
+                                    "color": {
+                                      "token": "line.hairline"
+                                    }
+                                  },
+                                  "shadow": {
+                                    "token": "shadow.soft"
+                                  },
+                                  "overflow": "hidden",
+                                  "display": "flex",
+                                  "flex": {
+                                    "direction": "column"
+                                  },
+                                  "size": {
+                                    "height": {
+                                      "percent": 100.0
+                                    }
+                                  },
+                                  "transition": {
+                                    "duration": 250,
+                                    "easing": "easeOut",
+                                    "properties": [
+                                      "transform",
+                                      "boxShadow"
+                                    ]
+                                  }
+                                },
+                                "hover": {
+                                  "shadow": {
+                                    "token": "shadow.card"
+                                  },
+                                  "custom": {
+                                    "transform": "translateY(-4px)"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "decoration": "none"
+                              },
+                              "display": "block"
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "post-5",
+                        "kind": {
+                          "type": "link",
+                          "href": "/journal/meet-nadia",
+                          "target": "same"
+                        },
+                        "children": [
+                          {
+                            "id": "post-5-card",
+                            "kind": {
+                              "type": "frame"
+                            },
+                            "children": [
+                              {
+                                "id": "post-5-media",
+                                "kind": {
+                                  "type": "frame"
+                                },
+                                "children": [
+                                  {
+                                    "id": "post-5-img",
+                                    "kind": {
+                                      "type": "image",
+                                      "src": "assets/images/chef.webp",
+                                      "alt": ""
+                                    },
+                                    "styles": {
+                                      "base": {
+                                        "base": {
+                                          "display": "block",
+                                          "size": {
+                                            "width": {
+                                              "percent": 100.0
+                                            }
+                                          },
+                                          "objectFit": "cover",
+                                          "aspectRatio": {
+                                            "ratio": {
+                                              "width": 3.0,
+                                              "height": 2.0
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                ],
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "overflow": "hidden"
+                                    }
+                                  }
+                                }
+                              },
+                              {
+                                "id": "post-5-body",
+                                "kind": {
+                                  "type": "frame"
+                                },
+                                "children": [
+                                  {
+                                    "id": "post-5-meta",
+                                    "kind": {
+                                      "type": "frame"
+                                    },
+                                    "children": [
+                                      {
+                                        "id": "post-5-tag",
+                                        "kind": {
+                                          "type": "text",
+                                          "tag": "span",
+                                          "content": "People"
+                                        },
+                                        "styles": {
+                                          "base": {
+                                            "base": {
+                                              "typography": {
+                                                "token": "type.eyebrow",
+                                                "color": {
+                                                  "token": "ink.accent"
+                                                },
+                                                "transform": "uppercase"
+                                              }
+                                            }
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "id": "post-5-date",
+                                        "kind": {
+                                          "type": "text",
+                                          "tag": "span",
+                                          "content": "Aug 5, 2026"
+                                        },
+                                        "styles": {
+                                          "base": {
+                                            "base": {
+                                              "typography": {
+                                                "token": "type.small",
+                                                "color": {
+                                                  "token": "ink.muted"
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    ],
+                                    "styles": {
+                                      "base": {
+                                        "base": {
+                                          "display": "flex",
+                                          "flex": {
+                                            "direction": "row",
+                                            "gap": {
+                                              "px": 12.0
+                                            },
+                                            "align": "center",
+                                            "wrap": true,
+                                            "justify": "spaceBetween"
+                                          }
+                                        }
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "id": "post-5-title",
+                                    "kind": {
+                                      "type": "text",
+                                      "tag": "h3",
+                                      "content": "Meet Nadia, our new head chef"
+                                    },
+                                    "styles": {
+                                      "base": {
+                                        "base": {
+                                          "typography": {
+                                            "token": "type.subtitle",
+                                            "color": {
+                                              "token": "ink.body"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "id": "post-5-dek",
+                                    "kind": {
+                                      "type": "text",
+                                      "tag": "p",
+                                      "content": "Twelve years in coastal kitchens, one strong opinion about butter."
+                                    },
+                                    "styles": {
+                                      "base": {
+                                        "base": {
+                                          "typography": {
+                                            "token": "type.small",
+                                            "color": {
+                                              "token": "ink.muted"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                ],
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "display": "flex",
+                                      "flex": {
+                                        "direction": "column",
+                                        "gap": {
+                                          "px": 10.0
+                                        }
+                                      },
+                                      "spacing": {
+                                        "padding": {
+                                          "top": {
+                                            "px": 22.0
+                                          },
+                                          "right": {
+                                            "px": 24.0
+                                          },
+                                          "bottom": {
+                                            "px": 28.0
+                                          },
+                                          "left": {
+                                            "px": 24.0
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            ],
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "background": {
+                                    "token": "surface.card"
+                                  },
+                                  "radius": {
+                                    "token": "radius.lg"
+                                  },
+                                  "border": {
+                                    "width": {
+                                      "px": 1.0
+                                    },
+                                    "style": "solid",
+                                    "color": {
+                                      "token": "line.hairline"
+                                    }
+                                  },
+                                  "shadow": {
+                                    "token": "shadow.soft"
+                                  },
+                                  "overflow": "hidden",
+                                  "display": "flex",
+                                  "flex": {
+                                    "direction": "column"
+                                  },
+                                  "size": {
+                                    "height": {
+                                      "percent": 100.0
+                                    }
+                                  },
+                                  "transition": {
+                                    "duration": 250,
+                                    "easing": "easeOut",
+                                    "properties": [
+                                      "transform",
+                                      "boxShadow"
+                                    ]
+                                  }
+                                },
+                                "hover": {
+                                  "shadow": {
+                                    "token": "shadow.card"
+                                  },
+                                  "custom": {
+                                    "transform": "translateY(-4px)"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "decoration": "none"
+                              },
+                              "display": "block"
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "post-6",
+                        "kind": {
+                          "type": "link",
+                          "href": "/journal/harvest-supper",
+                          "target": "same"
+                        },
+                        "children": [
+                          {
+                            "id": "post-6-card",
+                            "kind": {
+                              "type": "frame"
+                            },
+                            "children": [
+                              {
+                                "id": "post-6-media",
+                                "kind": {
+                                  "type": "frame"
+                                },
+                                "children": [
+                                  {
+                                    "id": "post-6-img",
+                                    "kind": {
+                                      "type": "image",
+                                      "src": "assets/images/hero.webp",
+                                      "alt": ""
+                                    },
+                                    "styles": {
+                                      "base": {
+                                        "base": {
+                                          "display": "block",
+                                          "size": {
+                                            "width": {
+                                              "percent": 100.0
+                                            }
+                                          },
+                                          "objectFit": "cover",
+                                          "aspectRatio": {
+                                            "ratio": {
+                                              "width": 3.0,
+                                              "height": 2.0
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                ],
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "overflow": "hidden"
+                                    }
+                                  }
+                                }
+                              },
+                              {
+                                "id": "post-6-body",
+                                "kind": {
+                                  "type": "frame"
+                                },
+                                "children": [
+                                  {
+                                    "id": "post-6-meta",
+                                    "kind": {
+                                      "type": "frame"
+                                    },
+                                    "children": [
+                                      {
+                                        "id": "post-6-tag",
+                                        "kind": {
+                                          "type": "text",
+                                          "tag": "span",
+                                          "content": "Events"
+                                        },
+                                        "styles": {
+                                          "base": {
+                                            "base": {
+                                              "typography": {
+                                                "token": "type.eyebrow",
+                                                "color": {
+                                                  "token": "ink.accent"
+                                                },
+                                                "transform": "uppercase"
+                                              }
+                                            }
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "id": "post-6-date",
+                                        "kind": {
+                                          "type": "text",
+                                          "tag": "span",
+                                          "content": "Jul 20, 2026"
+                                        },
+                                        "styles": {
+                                          "base": {
+                                            "base": {
+                                              "typography": {
+                                                "token": "type.small",
+                                                "color": {
+                                                  "token": "ink.muted"
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    ],
+                                    "styles": {
+                                      "base": {
+                                        "base": {
+                                          "display": "flex",
+                                          "flex": {
+                                            "direction": "row",
+                                            "gap": {
+                                              "px": 12.0
+                                            },
+                                            "align": "center",
+                                            "wrap": true,
+                                            "justify": "spaceBetween"
+                                          }
+                                        }
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "id": "post-6-title",
+                                    "kind": {
+                                      "type": "text",
+                                      "tag": "h3",
+                                      "content": "Harvest supper, a long-table evening"
+                                    },
+                                    "styles": {
+                                      "base": {
+                                        "base": {
+                                          "typography": {
+                                            "token": "type.subtitle",
+                                            "color": {
+                                              "token": "ink.body"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "id": "post-6-dek",
+                                    "kind": {
+                                      "type": "text",
+                                      "tag": "p",
+                                      "content": "Five courses, one table, forty neighbours. Tickets open on the first of the month."
+                                    },
+                                    "styles": {
+                                      "base": {
+                                        "base": {
+                                          "typography": {
+                                            "token": "type.small",
+                                            "color": {
+                                              "token": "ink.muted"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                ],
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "display": "flex",
+                                      "flex": {
+                                        "direction": "column",
+                                        "gap": {
+                                          "px": 10.0
+                                        }
+                                      },
+                                      "spacing": {
+                                        "padding": {
+                                          "top": {
+                                            "px": 22.0
+                                          },
+                                          "right": {
+                                            "px": 24.0
+                                          },
+                                          "bottom": {
+                                            "px": 28.0
+                                          },
+                                          "left": {
+                                            "px": 24.0
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            ],
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "background": {
+                                    "token": "surface.card"
+                                  },
+                                  "radius": {
+                                    "token": "radius.lg"
+                                  },
+                                  "border": {
+                                    "width": {
+                                      "px": 1.0
+                                    },
+                                    "style": "solid",
+                                    "color": {
+                                      "token": "line.hairline"
+                                    }
+                                  },
+                                  "shadow": {
+                                    "token": "shadow.soft"
+                                  },
+                                  "overflow": "hidden",
+                                  "display": "flex",
+                                  "flex": {
+                                    "direction": "column"
+                                  },
+                                  "size": {
+                                    "height": {
+                                      "percent": 100.0
+                                    }
+                                  },
+                                  "transition": {
+                                    "duration": 250,
+                                    "easing": "easeOut",
+                                    "properties": [
+                                      "transform",
+                                      "boxShadow"
+                                    ]
+                                  }
+                                },
+                                "hover": {
+                                  "shadow": {
+                                    "token": "shadow.card"
+                                  },
+                                  "custom": {
+                                    "transform": "translateY(-4px)"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "decoration": "none"
+                              },
+                              "display": "block"
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "grid",
+                          "grid": {
+                            "columns": 1,
+                            "gap": {
+                              "px": 28.0
+                            }
+                          }
+                        }
+                      },
+                      "md": {
+                        "base": {
+                          "display": "grid",
+                          "grid": {
+                            "columns": 2
+                          }
+                        }
+                      },
+                      "lg": {
+                        "base": {
+                          "display": "grid",
+                          "grid": {
+                            "columns": 3
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "px": 32.0
+                        }
+                      },
+                      "size": {
+                        "maxWidth": {
+                          "px": 1200.0
+                        },
+                        "width": {
+                          "percent": 100.0
+                        }
+                      },
+                      "spacing": {
+                        "margin": {
+                          "left": {
+                            "raw": "auto"
+                          },
+                          "right": {
+                            "raw": "auto"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            ],
+            "styles": {
+              "base": {
+                "base": {
+                  "background": {
+                    "token": "surface.page"
+                  },
+                  "spacing": {
+                    "padding": {
+                      "top": {
+                        "px": 0.0
+                      },
+                      "right": {
+                        "px": 20.0
+                      },
+                      "bottom": {
+                        "px": 0.0
+                      },
+                      "left": {
+                        "px": 20.0
+                      }
+                    }
+                  }
+                }
+              },
+              "md": {
+                "base": {
+                  "spacing": {
+                    "padding": {
+                      "top": {
+                        "px": 0.0
+                      },
+                      "right": {
+                        "px": 40.0
+                      },
+                      "bottom": {
+                        "px": 0.0
+                      },
+                      "left": {
+                        "px": 40.0
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": "reserve",
+            "kind": {
+              "type": "frame",
+              "element": "section"
+            },
+            "children": [
+              {
+                "id": "reserve-inner",
+                "kind": {
+                  "type": "frame"
+                },
+                "children": [
+                  {
+                    "id": "reserve-card",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "children": [
+                      {
+                        "id": "reserve-copy",
+                        "kind": {
+                          "type": "frame"
+                        },
+                        "children": [
+                          {
+                            "id": "reserve-eyebrow",
+                            "kind": {
+                              "type": "text",
+                              "tag": "p",
+                              "content": "Reservations"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.eyebrow",
+                                    "color": {
+                                      "token": "ink.inverse.muted"
+                                    },
+                                    "transform": "uppercase"
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "reserve-title",
+                            "kind": {
+                              "type": "text",
+                              "tag": "h2",
+                              "content": "Get the monthly menu letter."
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.title",
+                                    "color": {
+                                      "token": "ink.inverse"
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "bindings": {
+                              "content": "heading"
+                            }
+                          },
+                          {
+                            "id": "reserve-body",
+                            "kind": {
+                              "type": "text",
+                              "tag": "p",
+                              "content": "One short email a month: new dishes, supper club dates and the occasional recipe."
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.lead",
+                                    "color": {
+                                      "token": "ink.inverse.muted"
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "bindings": {
+                              "content": "body"
+                            }
+                          }
+                        ],
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "flex",
+                              "flex": {
+                                "direction": "column",
+                                "gap": {
+                                  "px": 14.0
+                                }
+                              },
+                              "size": {
+                                "maxWidth": {
+                                  "px": 620.0
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "reserve-actions",
+                        "kind": {
+                          "type": "frame"
+                        },
+                        "children": [
+                          {
+                            "id": "reserve-cta",
+                            "kind": {
+                              "type": "button",
+                              "label": "Subscribe",
+                              "href": "/contact",
+                              "target": "same"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "display": "inlineBlock",
+                                  "background": {
+                                    "token": "surface.page"
+                                  },
+                                  "radius": {
+                                    "token": "radius.full"
+                                  },
+                                  "size": {
+                                    "width": {
+                                      "raw": "fit-content"
+                                    }
+                                  },
+                                  "spacing": {
+                                    "padding": {
+                                      "top": {
+                                        "px": 16.0
+                                      },
+                                      "right": {
+                                        "px": 30.0
+                                      },
+                                      "bottom": {
+                                        "px": 16.0
+                                      },
+                                      "left": {
+                                        "px": 30.0
+                                      }
+                                    }
+                                  },
+                                  "typography": {
+                                    "token": "type.button",
+                                    "color": {
+                                      "token": "ink.body"
+                                    },
+                                    "decoration": "none"
+                                  },
+                                  "shadow": {
+                                    "token": "shadow.soft"
+                                  },
+                                  "transition": {
+                                    "duration": 200,
+                                    "easing": "easeOut",
+                                    "properties": [
+                                      "backgroundColor",
+                                      "transform",
+                                      "boxShadow"
+                                    ]
+                                  }
+                                },
+                                "hover": {
+                                  "background": {
+                                    "token": "surface.raised"
+                                  },
+                                  "custom": {
+                                    "transform": "translateY(-2px)"
+                                  },
+                                  "shadow": {
+                                    "token": "shadow.card"
+                                  }
+                                }
+                              }
+                            },
+                            "bindings": {
+                              "label": "ctaLabel",
+                              "href": "ctaHref"
+                            }
+                          },
+                          {
+                            "id": "reserve-phone",
+                            "kind": {
+                              "type": "frame"
+                            },
+                            "children": [
+                              {
+                                "id": "reserve-phone-icon",
+                                "kind": {
+                                  "type": "icon",
+                                  "name": "phone"
+                                },
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "typography": {
+                                        "color": {
+                                          "token": "ink.inverse"
+                                        }
+                                      },
+                                      "size": {
+                                        "width": {
+                                          "px": 20.0
+                                        },
+                                        "height": {
+                                          "px": 20.0
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              {
+                                "id": "reserve-phone-t",
+                                "kind": {
+                                  "type": "text",
+                                  "tag": "span",
+                                  "content": "+1 555 0142"
+                                },
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "typography": {
+                                        "token": "type.button",
+                                        "color": {
+                                          "token": "ink.inverse"
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            ],
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "display": "flex",
+                                  "flex": {
+                                    "direction": "row",
+                                    "gap": {
+                                      "px": 8.0
+                                    },
+                                    "align": "center",
+                                    "wrap": true
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "flex",
+                              "flex": {
+                                "direction": "row",
+                                "gap": {
+                                  "px": 24.0
+                                },
+                                "align": "center",
+                                "wrap": true
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "column",
+                            "gap": {
+                              "px": 32.0
+                            }
+                          },
+                          "background": {
+                            "token": "surface.accent"
+                          },
+                          "radius": {
+                            "token": "radius.xl"
+                          },
+                          "shadow": {
+                            "token": "shadow.lift"
+                          },
+                          "custom": {
+                            "background-image": "radial-gradient(120% 140% at 100% 0%, rgb(255 255 255 / 0.14) 0%, rgb(255 255 255 / 0) 55%)"
+                          },
+                          "spacing": {
+                            "padding": {
+                              "top": {
+                                "px": 40.0
+                              },
+                              "right": {
+                                "px": 28.0
+                              },
+                              "bottom": {
+                                "px": 40.0
+                              },
+                              "left": {
+                                "px": 28.0
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "md": {
+                        "base": {
+                          "flex": {
+                            "direction": "row",
+                            "align": "center",
+                            "justify": "spaceBetween",
+                            "gap": {
+                              "px": 48.0
+                            }
+                          },
+                          "spacing": {
+                            "padding": {
+                              "top": {
+                                "px": 64.0
+                              },
+                              "right": {
+                                "px": 64.0
+                              },
+                              "bottom": {
+                                "px": 64.0
+                              },
+                              "left": {
+                                "px": 64.0
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "px": 32.0
+                        }
+                      },
+                      "size": {
+                        "maxWidth": {
+                          "px": 1200.0
+                        },
+                        "width": {
+                          "percent": 100.0
+                        }
+                      },
+                      "spacing": {
+                        "margin": {
+                          "left": {
+                            "raw": "auto"
+                          },
+                          "right": {
+                            "raw": "auto"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            ],
+            "styles": {
+              "base": {
+                "base": {
+                  "background": {
+                    "token": "surface.page"
+                  },
+                  "spacing": {
+                    "padding": {
+                      "top": {
+                        "px": 40.0
+                      },
+                      "right": {
+                        "px": 20.0
+                      },
+                      "bottom": {
+                        "px": 40.0
+                      },
+                      "left": {
+                        "px": 20.0
+                      }
+                    }
+                  }
+                }
+              },
+              "md": {
+                "base": {
+                  "spacing": {
+                    "padding": {
+                      "top": {
+                        "px": 64.0
+                      },
+                      "right": {
+                        "px": 40.0
+                      },
+                      "bottom": {
+                        "px": 64.0
+                      },
+                      "left": {
+                        "px": 40.0
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "footer",
+        "kind": {
+          "type": "frame",
+          "element": "footer"
+        },
+        "children": [
+          {
+            "id": "footer-inner",
+            "kind": {
+              "type": "frame"
+            },
+            "children": [
+              {
+                "id": "footer-grid",
+                "kind": {
+                  "type": "frame"
+                },
+                "children": [
+                  {
+                    "id": "footer-about",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "children": [
+                      {
+                        "id": "footer-brand",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Tidewater Kitchen"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.subtitle",
+                                "color": {
+                                  "token": "ink.inverse"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "footer-blurb",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Seasonal plates, slow coffee and a long table by the water. Family-run since 2011."
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.inverse.muted"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "column",
+                            "gap": {
+                              "px": 12.0
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "footer-col-1",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "children": [
+                      {
+                        "id": "footer-col-1-t",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Find us"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.eyebrow",
+                                "color": {
+                                  "token": "ink.inverse.muted"
+                                },
+                                "transform": "uppercase"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "footer-col-1-0",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "14 Quay Street"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.inverse"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "footer-col-1-1",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Port Ellery, 4021"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.inverse"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "footer-col-1-2",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "hello@tidewaterkitchen.example"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.inverse"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "column",
+                            "gap": {
+                              "px": 8.0
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "footer-col-2",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "children": [
+                      {
+                        "id": "footer-col-2-t",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Hours"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.eyebrow",
+                                "color": {
+                                  "token": "ink.inverse.muted"
+                                },
+                                "transform": "uppercase"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "footer-col-2-0",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Tue to Thu  8:00 to 22:00"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.inverse"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "footer-col-2-1",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Fri and Sat  8:00 to 23:00"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.inverse"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "footer-col-2-2",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Sun  9:00 to 16:00"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.inverse"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "column",
+                            "gap": {
+                              "px": 8.0
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "footer-col-3",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "children": [
+                      {
+                        "id": "footer-col-3-t",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Explore"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.eyebrow",
+                                "color": {
+                                  "token": "ink.inverse.muted"
+                                },
+                                "transform": "uppercase"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "footer-col-3-0",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Menu"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.inverse"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "footer-col-3-1",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Our story"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.inverse"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "footer-col-3-2",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Private dining"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.inverse"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "footer-col-3-3",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Gift cards"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.inverse"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "column",
+                            "gap": {
+                              "px": 8.0
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "grid",
+                      "grid": {
+                        "columns": 1,
+                        "gap": {
+                          "px": 40.0
+                        }
+                      }
+                    }
+                  },
+                  "md": {
+                    "base": {
+                      "display": "grid",
+                      "grid": {
+                        "columns": 2
+                      }
+                    }
+                  },
+                  "lg": {
+                    "base": {
+                      "display": "grid",
+                      "grid": {
+                        "columns": 4
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "footer-rule",
+                "kind": {
+                  "type": "divider"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "border": {
+                        "top": {
+                          "width": {
+                            "px": 1.0
+                          },
+                          "style": "solid",
+                          "color": {
+                            "token": "line.inverse"
+                          }
+                        }
+                      },
+                      "spacing": {
+                        "margin": {
+                          "top": {
+                            "px": 0.0
+                          },
+                          "right": {
+                            "px": 0.0
+                          },
+                          "bottom": {
+                            "px": 0.0
+                          },
+                          "left": {
+                            "px": 0.0
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "footer-legal",
+                "kind": {
+                  "type": "frame"
+                },
+                "children": [
+                  {
+                    "id": "footer-copy",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "© 2026 Tidewater Kitchen. Made with care in Port Ellery."
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "color": {
+                              "token": "ink.inverse.muted"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "footer-note",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "Allergen information available on request."
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "color": {
+                              "token": "ink.inverse.muted"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "row",
+                        "gap": {
+                          "px": 16.0
+                        },
+                        "align": "center",
+                        "wrap": true,
+                        "justify": "spaceBetween"
+                      }
+                    }
+                  }
+                }
+              }
+            ],
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "flex",
+                  "flex": {
+                    "direction": "column",
+                    "gap": {
+                      "px": 40.0
+                    }
+                  },
+                  "size": {
+                    "maxWidth": {
+                      "px": 1200.0
+                    },
+                    "width": {
+                      "percent": 100.0
+                    }
+                  },
+                  "spacing": {
+                    "margin": {
+                      "left": {
+                        "raw": "auto"
+                      },
+                      "right": {
+                        "raw": "auto"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "styles": {
+          "base": {
+            "base": {
+              "background": {
+                "token": "surface.deep"
+              },
+              "spacing": {
+                "padding": {
+                  "top": {
+                    "px": 64.0
+                  },
+                  "right": {
+                    "px": 20.0
+                  },
+                  "bottom": {
+                    "px": 64.0
+                  },
+                  "left": {
+                    "px": 20.0
+                  }
+                }
+              }
+            }
+          },
+          "md": {
+            "base": {
+              "spacing": {
+                "padding": {
+                  "top": {
+                    "px": 88.0
+                  },
+                  "right": {
+                    "px": 40.0
+                  },
+                  "bottom": {
+                    "px": 88.0
+                  },
+                  "left": {
+                    "px": 40.0
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "styles": {
+      "base": {
+        "base": {
+          "background": {
+            "token": "surface.page"
+          },
+          "typography": {
+            "token": "type.body",
+            "color": {
+              "token": "ink.body"
+            }
+          },
+          "custom": {
+            "-webkit-font-smoothing": "antialiased"
+          }
+        }
+      }
+    }
+  }
+}

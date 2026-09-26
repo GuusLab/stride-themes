@@ -1,0 +1,78 @@
+{
+  "root": {
+    "id": "root",
+    "kind": {
+      "type": "frame",
+      "element": "main"
+    },
+    "styles": {
+      "base": {
+        "base": {
+          "background": {
+            "token": "surface.page"
+          },
+          "typography": {
+            "token": "type.body",
+            "color": {
+              "token": "ink.body"
+            }
+          },
+          "custom": {
+            "-webkit-font-smoothing": "antialiased"
+          }
+        }
+      }
+    },
+    "children": [
+      {
+        "id": "header",
+        "kind": {
+          "type": "instance",
+          "component": "grove-header"
+        }
+      },
+      {
+        "id": "hero",
+        "kind": {
+          "type": "instance",
+          "component": "grove-hero-centered",
+          "overrides": {
+            "eyebrow": "Contact",
+            "title": "We'd love to hear from you.",
+            "lead": "Questions about a class, an injury or a gift card? Write to us — a real person answers within a day."
+          }
+        }
+      },
+      {
+        "id": "contact",
+        "kind": {
+          "type": "instance",
+          "component": "grove-contact"
+        }
+      },
+      {
+        "id": "gallery",
+        "kind": {
+          "type": "instance",
+          "component": "grove-gallery",
+          "overrides": {
+            "eyebrow": "Finding us",
+            "title": "Down the lane, past the linden trees.",
+            "lead": "Five minutes from Riverside station. Bike racks at the gate, step-free entrance, showers and lockers inside."
+          }
+        }
+      },
+      {
+        "id": "footer",
+        "kind": {
+          "type": "instance",
+          "component": "grove-footer"
+        }
+      }
+    ]
+  },
+  "seo": {
+    "title": "Contact — Grove",
+    "description": "Visit Grove at 14 Linden Yard, Riverside, or write to hello@grove-studio.example."
+  }
+}

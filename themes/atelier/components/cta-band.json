@@ -1,0 +1,321 @@
+{
+  "id": "atelier-cta-band",
+  "name": "Atelier · Call to action",
+  "root": {
+    "id": "ct",
+    "kind": {
+      "type": "frame",
+      "element": "section"
+    },
+    "styles": {
+      "base": {
+        "base": {
+          "background": {
+            "token": "surface.page"
+          },
+          "spacing": {
+            "padding": {
+              "top": {
+                "token": "space.section"
+              },
+              "bottom": {
+                "token": "space.section"
+              },
+              "left": {
+                "token": "space.gutter"
+              },
+              "right": {
+                "token": "space.gutter"
+              }
+            }
+          }
+        }
+      }
+    },
+    "children": [
+      {
+        "id": "ct-in",
+        "kind": {
+          "type": "frame",
+          "element": "div"
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "size": {
+                "maxWidth": {
+                  "px": 1320
+                },
+                "width": {
+                  "percent": 100
+                }
+              },
+              "spacing": {
+                "margin": {
+                  "left": {
+                    "raw": "auto"
+                  },
+                  "right": {
+                    "raw": "auto"
+                  }
+                },
+                "padding": {
+                  "top": {
+                    "token": "space.12"
+                  }
+                }
+              },
+              "display": "grid",
+              "grid": {
+                "templateColumns": "minmax(0,1fr)",
+                "gap": {
+                  "token": "space.8"
+                }
+              },
+              "border": {
+                "top": {
+                  "width": {
+                    "px": 1
+                  },
+                  "style": "solid",
+                  "color": {
+                    "token": "line.strong"
+                  }
+                }
+              }
+            }
+          },
+          "md": {
+            "base": {
+              "grid": {
+                "templateColumns": "minmax(0, 8fr) minmax(0, 4fr)",
+                "gap": {
+                  "token": "space.12"
+                },
+                "align": "end"
+              }
+            }
+          }
+        },
+        "children": [
+          {
+            "id": "ct-h",
+            "kind": {
+              "type": "text",
+              "tag": "h2",
+              "content": "Tell us what you are making. We reply to every letter within two working days."
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "typography": {
+                    "token": "type.title",
+                    "color": {
+                      "token": "ink.body"
+                    }
+                  },
+                  "custom": {
+                    "text-wrap": "balance"
+                  }
+                }
+              }
+            },
+            "bindings": {
+              "content": "title"
+            }
+          },
+          {
+            "id": "ct-a",
+            "kind": {
+              "type": "frame",
+              "element": "div"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "flex",
+                  "flex": {
+                    "direction": "column",
+                    "gap": {
+                      "token": "space.6"
+                    }
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "ct-p",
+                "kind": {
+                  "type": "text",
+                  "tag": "p",
+                  "content": "Projects typically start from £28,000 and run eight to sixteen weeks."
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.body",
+                        "color": {
+                          "token": "ink.muted"
+                        }
+                      }
+                    }
+                  }
+                },
+                "bindings": {
+                  "content": "note"
+                }
+              },
+              {
+                "id": "ct-b",
+                "kind": {
+                  "type": "button",
+                  "label": "Start a conversation",
+                  "href": "/contact",
+                  "target": "same"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "inlineFlex",
+                      "size": {
+                        "width": {
+                          "raw": "fit-content"
+                        }
+                      },
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "px": 16
+                          },
+                          "bottom": {
+                            "px": 16
+                          },
+                          "left": {
+                            "px": 28
+                          },
+                          "right": {
+                            "px": 28
+                          }
+                        }
+                      },
+                      "radius": {
+                        "px": 0
+                      },
+                      "typography": {
+                        "token": "type.nav",
+                        "color": {
+                          "token": "ink.inverse"
+                        },
+                        "decoration": "none"
+                      },
+                      "background": {
+                        "token": "surface.night"
+                      },
+                      "border": {
+                        "width": {
+                          "px": 1
+                        },
+                        "style": "solid",
+                        "color": {
+                          "token": "line.strong"
+                        }
+                      },
+                      "transition": {
+                        "duration": 220,
+                        "properties": [
+                          "backgroundColor",
+                          "color",
+                          "borderColor"
+                        ]
+                      }
+                    },
+                    "hover": {
+                      "background": {
+                        "token": "brand.primary"
+                      },
+                      "border": {
+                        "width": {
+                          "px": 1
+                        },
+                        "style": "solid",
+                        "color": {
+                          "token": "brand.primary"
+                        }
+                      },
+                      "typography": {
+                        "color": {
+                          "token": "ink.on-accent"
+                        }
+                      }
+                    },
+                    "focus": {
+                      "custom": {
+                        "outline": "2px solid #C2562F",
+                        "outline-offset": "3px"
+                      }
+                    }
+                  }
+                },
+                "bindings": {
+                  "label": "ctaLabel",
+                  "href": "ctaHref"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "props": [
+    {
+      "name": "title",
+      "label": "Title",
+      "kind": {
+        "type": "longText"
+      },
+      "default": "Tell us what you are making. We reply to every letter within two working days."
+    },
+    {
+      "name": "note",
+      "label": "Note",
+      "kind": {
+        "type": "longText"
+      },
+      "default": "Projects typically start from £28,000 and run eight to sixteen weeks."
+    },
+    {
+      "name": "ctaLabel",
+      "label": "Button label",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Start a conversation"
+    },
+    {
+      "name": "ctaHref",
+      "label": "Button link",
+      "kind": {
+        "type": "url"
+      },
+      "default": "/contact"
+    }
+  ],
+  "variants": {
+    "paper": {},
+    "raised": {
+      "styles": {
+        "base": {
+          "base": {
+            "background": {
+              "token": "surface.raised"
+            }
+          }
+        }
+      }
+    }
+  },
+  "defaultVariant": "paper"
+}

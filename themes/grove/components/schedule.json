@@ -1,0 +1,2609 @@
+{
+  "id": "grove-schedule",
+  "name": "Grove / Class schedule",
+  "root": {
+    "id": "schedule",
+    "kind": {
+      "type": "frame",
+      "element": "section"
+    },
+    "styles": {
+      "base": {
+        "base": {
+          "background": {
+            "token": "surface.sand"
+          },
+          "spacing": {
+            "padding": {
+              "top": {
+                "token": "section.y"
+              },
+              "right": {
+                "token": "gutter"
+              },
+              "bottom": {
+                "token": "section.y"
+              },
+              "left": {
+                "token": "gutter"
+              }
+            }
+          },
+          "position": {
+            "kind": "relative"
+          },
+          "overflow": "hidden"
+        }
+      }
+    },
+    "children": [
+      {
+        "id": "sched-inner",
+        "kind": {
+          "type": "frame",
+          "element": "div"
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "display": "flex",
+              "flex": {
+                "direction": "column",
+                "gap": {
+                  "px": 48.0
+                }
+              },
+              "size": {
+                "maxWidth": {
+                  "token": "content.max"
+                },
+                "width": {
+                  "percent": 100.0
+                }
+              },
+              "spacing": {
+                "margin": {
+                  "left": {
+                    "raw": "auto"
+                  },
+                  "right": {
+                    "raw": "auto"
+                  }
+                }
+              },
+              "position": {
+                "kind": "relative"
+              }
+            }
+          }
+        },
+        "children": [
+          {
+            "id": "sched-top",
+            "kind": {
+              "type": "frame",
+              "element": "div"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "flex",
+                  "flex": {
+                    "direction": "column",
+                    "gap": {
+                      "px": 24.0
+                    }
+                  }
+                }
+              },
+              "lg": {
+                "base": {
+                  "display": "flex",
+                  "flex": {
+                    "direction": "row",
+                    "gap": {
+                      "px": 48.0
+                    },
+                    "align": "end",
+                    "justify": "spaceBetween"
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "sched-head",
+                "kind": {
+                  "type": "frame",
+                  "element": "div"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "px": 18.0
+                        }
+                      },
+                      "size": {
+                        "maxWidth": {
+                          "px": 720.0
+                        }
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "sched-eyebrow",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "This week at Grove"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.eyebrow",
+                            "color": {
+                              "token": "brand.strong"
+                            },
+                            "transform": "uppercase"
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "content": "eyebrow"
+                    }
+                  },
+                  {
+                    "id": "sched-title",
+                    "kind": {
+                      "type": "text",
+                      "tag": "h2",
+                      "content": "Find a class that fits your day."
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.title",
+                            "color": {
+                              "token": "ink.body"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "content": "title"
+                    }
+                  },
+                  {
+                    "id": "sched-lead",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "Every class is capped at 14 mats, so there is room to be seen and helped."
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.lead",
+                            "color": {
+                              "token": "ink.muted"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "content": "lead"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "sched-all",
+                "kind": {
+                  "type": "button",
+                  "label": "See full timetable",
+                  "href": "/classes",
+                  "target": "same"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "inlineFlex",
+                      "radius": {
+                        "token": "radius.pill"
+                      },
+                      "border": {
+                        "width": {
+                          "px": 1.5
+                        },
+                        "style": "solid",
+                        "color": {
+                          "token": "line.hairline"
+                        }
+                      },
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "px": 15.0
+                          },
+                          "right": {
+                            "px": 28.0
+                          },
+                          "bottom": {
+                            "px": 15.0
+                          },
+                          "left": {
+                            "px": 28.0
+                          }
+                        }
+                      },
+                      "typography": {
+                        "token": "type.button",
+                        "color": {
+                          "token": "ink.body"
+                        },
+                        "align": "center",
+                        "decoration": "none"
+                      },
+                      "size": {
+                        "width": {
+                          "raw": "fit-content"
+                        }
+                      },
+                      "transition": {
+                        "duration": 220,
+                        "properties": [
+                          "backgroundColor",
+                          "color",
+                          "borderColor",
+                          "boxShadow",
+                          "transform"
+                        ]
+                      }
+                    },
+                    "hover": {
+                      "border": {
+                        "width": {
+                          "px": 1.5
+                        },
+                        "style": "solid",
+                        "color": {
+                          "token": "brand.primary"
+                        }
+                      },
+                      "typography": {
+                        "color": {
+                          "token": "brand.strong"
+                        }
+                      }
+                    },
+                    "focus": {
+                      "custom": {
+                        "outline": "3px solid #6B8F71",
+                        "outline-offset": "3px"
+                      }
+                    }
+                  }
+                },
+                "bindings": {
+                  "label": "allLinkLabel",
+                  "href": "allLinkHref"
+                }
+              }
+            ]
+          },
+          {
+            "id": "sched-list",
+            "kind": {
+              "type": "frame",
+              "element": "div"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "flex",
+                  "flex": {
+                    "direction": "column",
+                    "gap": {
+                      "px": 0.0
+                    }
+                  },
+                  "background": {
+                    "token": "surface.card"
+                  },
+                  "radius": {
+                    "token": "radius.lg"
+                  },
+                  "spacing": {
+                    "padding": {
+                      "top": {
+                        "px": 8.0
+                      },
+                      "right": {
+                        "raw": "clamp(1.25rem, 3vw, 2.5rem)"
+                      },
+                      "bottom": {
+                        "px": 8.0
+                      },
+                      "left": {
+                        "raw": "clamp(1.25rem, 3vw, 2.5rem)"
+                      }
+                    }
+                  },
+                  "shadow": {
+                    "token": "shadow.soft"
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "row-1",
+                "kind": {
+                  "type": "frame",
+                  "element": "article"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "grid",
+                      "grid": {
+                        "templateColumns": "auto 1fr",
+                        "gap": {
+                          "px": 16.0
+                        },
+                        "align": "center"
+                      },
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "px": 24.0
+                          },
+                          "right": {
+                            "px": 0.0
+                          },
+                          "bottom": {
+                            "px": 24.0
+                          },
+                          "left": {
+                            "px": 0.0
+                          }
+                        }
+                      },
+                      "border": {
+                        "bottom": {
+                          "width": {
+                            "px": 1.0
+                          },
+                          "style": "solid",
+                          "color": {
+                            "token": "line.hairline"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "md": {
+                    "base": {
+                      "display": "grid",
+                      "grid": {
+                        "templateColumns": "120px 1fr auto auto",
+                        "gap": {
+                          "px": 32.0
+                        },
+                        "align": "center"
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "row-1-when",
+                    "kind": {
+                      "type": "frame",
+                      "element": "div"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "column",
+                            "gap": {
+                              "px": 4.0
+                            }
+                          },
+                          "size": {
+                            "minWidth": {
+                              "px": 96.0
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "row-1-d",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Mon"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.eyebrow",
+                                "color": {
+                                  "token": "brand.strong"
+                                },
+                                "transform": "uppercase"
+                              }
+                            }
+                          }
+                        },
+                        "bindings": {
+                          "content": "row1Day"
+                        }
+                      },
+                      {
+                        "id": "row-1-t",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "07:00"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.subtitle",
+                                "color": {
+                                  "token": "ink.body"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "bindings": {
+                          "content": "row1Time"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "row-1-what",
+                    "kind": {
+                      "type": "frame",
+                      "element": "div"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "column",
+                            "gap": {
+                              "px": 4.0
+                            }
+                          },
+                          "custom": {
+                            "flex": "1"
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "row-1-n",
+                        "kind": {
+                          "type": "text",
+                          "tag": "h3",
+                          "content": "Sunrise Flow"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.subtitle",
+                                "color": {
+                                  "token": "ink.body"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "bindings": {
+                          "content": "row1Class"
+                        }
+                      },
+                      {
+                        "id": "row-1-w",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "with Amara"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.muted"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "bindings": {
+                          "content": "row1Teacher"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "row-1-l",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "All levels"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "color": {
+                              "token": "brand.strong"
+                            },
+                            "weight": 700
+                          },
+                          "background": {
+                            "token": "surface.sage"
+                          },
+                          "radius": {
+                            "token": "radius.pill"
+                          },
+                          "spacing": {
+                            "padding": {
+                              "top": {
+                                "px": 6.0
+                              },
+                              "right": {
+                                "px": 14.0
+                              },
+                              "bottom": {
+                                "px": 6.0
+                              },
+                              "left": {
+                                "px": 14.0
+                              }
+                            }
+                          },
+                          "size": {
+                            "width": {
+                              "raw": "fit-content"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "content": "row1Level"
+                    }
+                  },
+                  {
+                    "id": "row-1-b",
+                    "kind": {
+                      "type": "link",
+                      "href": "/contact",
+                      "target": "same"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "row",
+                            "gap": {
+                              "px": 8.0
+                            },
+                            "align": "center"
+                          },
+                          "radius": {
+                            "token": "radius.pill"
+                          },
+                          "spacing": {
+                            "padding": {
+                              "top": {
+                                "px": 10.0
+                              },
+                              "right": {
+                                "px": 18.0
+                              },
+                              "bottom": {
+                                "px": 10.0
+                              },
+                              "left": {
+                                "px": 18.0
+                              }
+                            }
+                          },
+                          "border": {
+                            "width": {
+                              "px": 1.5
+                            },
+                            "style": "solid",
+                            "color": {
+                              "token": "line.hairline"
+                            }
+                          },
+                          "transition": {
+                            "duration": 220,
+                            "properties": [
+                              "backgroundColor",
+                              "color",
+                              "borderColor",
+                              "boxShadow",
+                              "transform"
+                            ]
+                          },
+                          "size": {
+                            "width": {
+                              "raw": "fit-content"
+                            }
+                          },
+                          "typography": {
+                            "decoration": "none",
+                            "color": {
+                              "token": "ink.body"
+                            }
+                          }
+                        },
+                        "hover": {
+                          "background": {
+                            "token": "brand.strong"
+                          },
+                          "typography": {
+                            "color": {
+                              "token": "ink.inverse"
+                            }
+                          },
+                          "border": {
+                            "width": {
+                              "px": 1.5
+                            },
+                            "style": "solid",
+                            "color": {
+                              "token": "brand.strong"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "href": "row1Href"
+                    },
+                    "children": [
+                      {
+                        "id": "row-1-bt",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "Reserve"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.button",
+                                "color": {
+                                  "token": "ink.body"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "row-1-bi",
+                        "kind": {
+                          "type": "icon",
+                          "name": "arrow-right"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "size": {
+                                "width": {
+                                  "px": 16.0
+                                },
+                                "height": {
+                                  "px": 16.0
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "row-2",
+                "kind": {
+                  "type": "frame",
+                  "element": "article"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "grid",
+                      "grid": {
+                        "templateColumns": "auto 1fr",
+                        "gap": {
+                          "px": 16.0
+                        },
+                        "align": "center"
+                      },
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "px": 24.0
+                          },
+                          "right": {
+                            "px": 0.0
+                          },
+                          "bottom": {
+                            "px": 24.0
+                          },
+                          "left": {
+                            "px": 0.0
+                          }
+                        }
+                      },
+                      "border": {
+                        "bottom": {
+                          "width": {
+                            "px": 1.0
+                          },
+                          "style": "solid",
+                          "color": {
+                            "token": "line.hairline"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "md": {
+                    "base": {
+                      "display": "grid",
+                      "grid": {
+                        "templateColumns": "120px 1fr auto auto",
+                        "gap": {
+                          "px": 32.0
+                        },
+                        "align": "center"
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "row-2-when",
+                    "kind": {
+                      "type": "frame",
+                      "element": "div"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "column",
+                            "gap": {
+                              "px": 4.0
+                            }
+                          },
+                          "size": {
+                            "minWidth": {
+                              "px": 96.0
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "row-2-d",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Tue"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.eyebrow",
+                                "color": {
+                                  "token": "brand.strong"
+                                },
+                                "transform": "uppercase"
+                              }
+                            }
+                          }
+                        },
+                        "bindings": {
+                          "content": "row2Day"
+                        }
+                      },
+                      {
+                        "id": "row-2-t",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "18:30"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.subtitle",
+                                "color": {
+                                  "token": "ink.body"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "bindings": {
+                          "content": "row2Time"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "row-2-what",
+                    "kind": {
+                      "type": "frame",
+                      "element": "div"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "column",
+                            "gap": {
+                              "px": 4.0
+                            }
+                          },
+                          "custom": {
+                            "flex": "1"
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "row-2-n",
+                        "kind": {
+                          "type": "text",
+                          "tag": "h3",
+                          "content": "Yin & Sound"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.subtitle",
+                                "color": {
+                                  "token": "ink.body"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "bindings": {
+                          "content": "row2Class"
+                        }
+                      },
+                      {
+                        "id": "row-2-w",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "with Tomás"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.muted"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "bindings": {
+                          "content": "row2Teacher"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "row-2-l",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "Gentle"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "color": {
+                              "token": "brand.strong"
+                            },
+                            "weight": 700
+                          },
+                          "background": {
+                            "token": "surface.sage"
+                          },
+                          "radius": {
+                            "token": "radius.pill"
+                          },
+                          "spacing": {
+                            "padding": {
+                              "top": {
+                                "px": 6.0
+                              },
+                              "right": {
+                                "px": 14.0
+                              },
+                              "bottom": {
+                                "px": 6.0
+                              },
+                              "left": {
+                                "px": 14.0
+                              }
+                            }
+                          },
+                          "size": {
+                            "width": {
+                              "raw": "fit-content"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "content": "row2Level"
+                    }
+                  },
+                  {
+                    "id": "row-2-b",
+                    "kind": {
+                      "type": "link",
+                      "href": "/contact",
+                      "target": "same"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "row",
+                            "gap": {
+                              "px": 8.0
+                            },
+                            "align": "center"
+                          },
+                          "radius": {
+                            "token": "radius.pill"
+                          },
+                          "spacing": {
+                            "padding": {
+                              "top": {
+                                "px": 10.0
+                              },
+                              "right": {
+                                "px": 18.0
+                              },
+                              "bottom": {
+                                "px": 10.0
+                              },
+                              "left": {
+                                "px": 18.0
+                              }
+                            }
+                          },
+                          "border": {
+                            "width": {
+                              "px": 1.5
+                            },
+                            "style": "solid",
+                            "color": {
+                              "token": "line.hairline"
+                            }
+                          },
+                          "transition": {
+                            "duration": 220,
+                            "properties": [
+                              "backgroundColor",
+                              "color",
+                              "borderColor",
+                              "boxShadow",
+                              "transform"
+                            ]
+                          },
+                          "size": {
+                            "width": {
+                              "raw": "fit-content"
+                            }
+                          },
+                          "typography": {
+                            "decoration": "none",
+                            "color": {
+                              "token": "ink.body"
+                            }
+                          }
+                        },
+                        "hover": {
+                          "background": {
+                            "token": "brand.strong"
+                          },
+                          "typography": {
+                            "color": {
+                              "token": "ink.inverse"
+                            }
+                          },
+                          "border": {
+                            "width": {
+                              "px": 1.5
+                            },
+                            "style": "solid",
+                            "color": {
+                              "token": "brand.strong"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "href": "row2Href"
+                    },
+                    "children": [
+                      {
+                        "id": "row-2-bt",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "Reserve"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.button",
+                                "color": {
+                                  "token": "ink.body"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "row-2-bi",
+                        "kind": {
+                          "type": "icon",
+                          "name": "arrow-right"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "size": {
+                                "width": {
+                                  "px": 16.0
+                                },
+                                "height": {
+                                  "px": 16.0
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "row-3",
+                "kind": {
+                  "type": "frame",
+                  "element": "article"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "grid",
+                      "grid": {
+                        "templateColumns": "auto 1fr",
+                        "gap": {
+                          "px": 16.0
+                        },
+                        "align": "center"
+                      },
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "px": 24.0
+                          },
+                          "right": {
+                            "px": 0.0
+                          },
+                          "bottom": {
+                            "px": 24.0
+                          },
+                          "left": {
+                            "px": 0.0
+                          }
+                        }
+                      },
+                      "border": {
+                        "bottom": {
+                          "width": {
+                            "px": 1.0
+                          },
+                          "style": "solid",
+                          "color": {
+                            "token": "line.hairline"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "md": {
+                    "base": {
+                      "display": "grid",
+                      "grid": {
+                        "templateColumns": "120px 1fr auto auto",
+                        "gap": {
+                          "px": 32.0
+                        },
+                        "align": "center"
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "row-3-when",
+                    "kind": {
+                      "type": "frame",
+                      "element": "div"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "column",
+                            "gap": {
+                              "px": 4.0
+                            }
+                          },
+                          "size": {
+                            "minWidth": {
+                              "px": 96.0
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "row-3-d",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Wed"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.eyebrow",
+                                "color": {
+                                  "token": "brand.strong"
+                                },
+                                "transform": "uppercase"
+                              }
+                            }
+                          }
+                        },
+                        "bindings": {
+                          "content": "row3Day"
+                        }
+                      },
+                      {
+                        "id": "row-3-t",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "12:15"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.subtitle",
+                                "color": {
+                                  "token": "ink.body"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "bindings": {
+                          "content": "row3Time"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "row-3-what",
+                    "kind": {
+                      "type": "frame",
+                      "element": "div"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "column",
+                            "gap": {
+                              "px": 4.0
+                            }
+                          },
+                          "custom": {
+                            "flex": "1"
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "row-3-n",
+                        "kind": {
+                          "type": "text",
+                          "tag": "h3",
+                          "content": "Lunchtime Reset"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.subtitle",
+                                "color": {
+                                  "token": "ink.body"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "bindings": {
+                          "content": "row3Class"
+                        }
+                      },
+                      {
+                        "id": "row-3-w",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "with Mei"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.muted"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "bindings": {
+                          "content": "row3Teacher"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "row-3-l",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "Beginner"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "color": {
+                              "token": "brand.strong"
+                            },
+                            "weight": 700
+                          },
+                          "background": {
+                            "token": "surface.sage"
+                          },
+                          "radius": {
+                            "token": "radius.pill"
+                          },
+                          "spacing": {
+                            "padding": {
+                              "top": {
+                                "px": 6.0
+                              },
+                              "right": {
+                                "px": 14.0
+                              },
+                              "bottom": {
+                                "px": 6.0
+                              },
+                              "left": {
+                                "px": 14.0
+                              }
+                            }
+                          },
+                          "size": {
+                            "width": {
+                              "raw": "fit-content"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "content": "row3Level"
+                    }
+                  },
+                  {
+                    "id": "row-3-b",
+                    "kind": {
+                      "type": "link",
+                      "href": "/contact",
+                      "target": "same"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "row",
+                            "gap": {
+                              "px": 8.0
+                            },
+                            "align": "center"
+                          },
+                          "radius": {
+                            "token": "radius.pill"
+                          },
+                          "spacing": {
+                            "padding": {
+                              "top": {
+                                "px": 10.0
+                              },
+                              "right": {
+                                "px": 18.0
+                              },
+                              "bottom": {
+                                "px": 10.0
+                              },
+                              "left": {
+                                "px": 18.0
+                              }
+                            }
+                          },
+                          "border": {
+                            "width": {
+                              "px": 1.5
+                            },
+                            "style": "solid",
+                            "color": {
+                              "token": "line.hairline"
+                            }
+                          },
+                          "transition": {
+                            "duration": 220,
+                            "properties": [
+                              "backgroundColor",
+                              "color",
+                              "borderColor",
+                              "boxShadow",
+                              "transform"
+                            ]
+                          },
+                          "size": {
+                            "width": {
+                              "raw": "fit-content"
+                            }
+                          },
+                          "typography": {
+                            "decoration": "none",
+                            "color": {
+                              "token": "ink.body"
+                            }
+                          }
+                        },
+                        "hover": {
+                          "background": {
+                            "token": "brand.strong"
+                          },
+                          "typography": {
+                            "color": {
+                              "token": "ink.inverse"
+                            }
+                          },
+                          "border": {
+                            "width": {
+                              "px": 1.5
+                            },
+                            "style": "solid",
+                            "color": {
+                              "token": "brand.strong"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "href": "row3Href"
+                    },
+                    "children": [
+                      {
+                        "id": "row-3-bt",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "Reserve"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.button",
+                                "color": {
+                                  "token": "ink.body"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "row-3-bi",
+                        "kind": {
+                          "type": "icon",
+                          "name": "arrow-right"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "size": {
+                                "width": {
+                                  "px": 16.0
+                                },
+                                "height": {
+                                  "px": 16.0
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "row-4",
+                "kind": {
+                  "type": "frame",
+                  "element": "article"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "grid",
+                      "grid": {
+                        "templateColumns": "auto 1fr",
+                        "gap": {
+                          "px": 16.0
+                        },
+                        "align": "center"
+                      },
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "px": 24.0
+                          },
+                          "right": {
+                            "px": 0.0
+                          },
+                          "bottom": {
+                            "px": 24.0
+                          },
+                          "left": {
+                            "px": 0.0
+                          }
+                        }
+                      },
+                      "border": {
+                        "bottom": {
+                          "width": {
+                            "px": 1.0
+                          },
+                          "style": "solid",
+                          "color": {
+                            "token": "line.hairline"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "md": {
+                    "base": {
+                      "display": "grid",
+                      "grid": {
+                        "templateColumns": "120px 1fr auto auto",
+                        "gap": {
+                          "px": 32.0
+                        },
+                        "align": "center"
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "row-4-when",
+                    "kind": {
+                      "type": "frame",
+                      "element": "div"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "column",
+                            "gap": {
+                              "px": 4.0
+                            }
+                          },
+                          "size": {
+                            "minWidth": {
+                              "px": 96.0
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "row-4-d",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Thu"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.eyebrow",
+                                "color": {
+                                  "token": "brand.strong"
+                                },
+                                "transform": "uppercase"
+                              }
+                            }
+                          }
+                        },
+                        "bindings": {
+                          "content": "row4Day"
+                        }
+                      },
+                      {
+                        "id": "row-4-t",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "19:00"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.subtitle",
+                                "color": {
+                                  "token": "ink.body"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "bindings": {
+                          "content": "row4Time"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "row-4-what",
+                    "kind": {
+                      "type": "frame",
+                      "element": "div"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "column",
+                            "gap": {
+                              "px": 4.0
+                            }
+                          },
+                          "custom": {
+                            "flex": "1"
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "row-4-n",
+                        "kind": {
+                          "type": "text",
+                          "tag": "h3",
+                          "content": "Breath & Stillness"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.subtitle",
+                                "color": {
+                                  "token": "ink.body"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "bindings": {
+                          "content": "row4Class"
+                        }
+                      },
+                      {
+                        "id": "row-4-w",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "with Amara"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.muted"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "bindings": {
+                          "content": "row4Teacher"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "row-4-l",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "All levels"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "color": {
+                              "token": "brand.strong"
+                            },
+                            "weight": 700
+                          },
+                          "background": {
+                            "token": "surface.sage"
+                          },
+                          "radius": {
+                            "token": "radius.pill"
+                          },
+                          "spacing": {
+                            "padding": {
+                              "top": {
+                                "px": 6.0
+                              },
+                              "right": {
+                                "px": 14.0
+                              },
+                              "bottom": {
+                                "px": 6.0
+                              },
+                              "left": {
+                                "px": 14.0
+                              }
+                            }
+                          },
+                          "size": {
+                            "width": {
+                              "raw": "fit-content"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "content": "row4Level"
+                    }
+                  },
+                  {
+                    "id": "row-4-b",
+                    "kind": {
+                      "type": "link",
+                      "href": "/contact",
+                      "target": "same"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "row",
+                            "gap": {
+                              "px": 8.0
+                            },
+                            "align": "center"
+                          },
+                          "radius": {
+                            "token": "radius.pill"
+                          },
+                          "spacing": {
+                            "padding": {
+                              "top": {
+                                "px": 10.0
+                              },
+                              "right": {
+                                "px": 18.0
+                              },
+                              "bottom": {
+                                "px": 10.0
+                              },
+                              "left": {
+                                "px": 18.0
+                              }
+                            }
+                          },
+                          "border": {
+                            "width": {
+                              "px": 1.5
+                            },
+                            "style": "solid",
+                            "color": {
+                              "token": "line.hairline"
+                            }
+                          },
+                          "transition": {
+                            "duration": 220,
+                            "properties": [
+                              "backgroundColor",
+                              "color",
+                              "borderColor",
+                              "boxShadow",
+                              "transform"
+                            ]
+                          },
+                          "size": {
+                            "width": {
+                              "raw": "fit-content"
+                            }
+                          },
+                          "typography": {
+                            "decoration": "none",
+                            "color": {
+                              "token": "ink.body"
+                            }
+                          }
+                        },
+                        "hover": {
+                          "background": {
+                            "token": "brand.strong"
+                          },
+                          "typography": {
+                            "color": {
+                              "token": "ink.inverse"
+                            }
+                          },
+                          "border": {
+                            "width": {
+                              "px": 1.5
+                            },
+                            "style": "solid",
+                            "color": {
+                              "token": "brand.strong"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "href": "row4Href"
+                    },
+                    "children": [
+                      {
+                        "id": "row-4-bt",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "Reserve"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.button",
+                                "color": {
+                                  "token": "ink.body"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "row-4-bi",
+                        "kind": {
+                          "type": "icon",
+                          "name": "arrow-right"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "size": {
+                                "width": {
+                                  "px": 16.0
+                                },
+                                "height": {
+                                  "px": 16.0
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "row-5",
+                "kind": {
+                  "type": "frame",
+                  "element": "article"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "grid",
+                      "grid": {
+                        "templateColumns": "auto 1fr",
+                        "gap": {
+                          "px": 16.0
+                        },
+                        "align": "center"
+                      },
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "px": 24.0
+                          },
+                          "right": {
+                            "px": 0.0
+                          },
+                          "bottom": {
+                            "px": 24.0
+                          },
+                          "left": {
+                            "px": 0.0
+                          }
+                        }
+                      },
+                      "border": {
+                        "bottom": {
+                          "width": {
+                            "px": 1.0
+                          },
+                          "style": "solid",
+                          "color": {
+                            "token": "line.hairline"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "md": {
+                    "base": {
+                      "display": "grid",
+                      "grid": {
+                        "templateColumns": "120px 1fr auto auto",
+                        "gap": {
+                          "px": 32.0
+                        },
+                        "align": "center"
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "row-5-when",
+                    "kind": {
+                      "type": "frame",
+                      "element": "div"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "column",
+                            "gap": {
+                              "px": 4.0
+                            }
+                          },
+                          "size": {
+                            "minWidth": {
+                              "px": 96.0
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "row-5-d",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Sat"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.eyebrow",
+                                "color": {
+                                  "token": "brand.strong"
+                                },
+                                "transform": "uppercase"
+                              }
+                            }
+                          }
+                        },
+                        "bindings": {
+                          "content": "row5Day"
+                        }
+                      },
+                      {
+                        "id": "row-5-t",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "09:30"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.subtitle",
+                                "color": {
+                                  "token": "ink.body"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "bindings": {
+                          "content": "row5Time"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "row-5-what",
+                    "kind": {
+                      "type": "frame",
+                      "element": "div"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "column",
+                            "gap": {
+                              "px": 4.0
+                            }
+                          },
+                          "custom": {
+                            "flex": "1"
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "row-5-n",
+                        "kind": {
+                          "type": "text",
+                          "tag": "h3",
+                          "content": "Slow Vinyasa"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.subtitle",
+                                "color": {
+                                  "token": "ink.body"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "bindings": {
+                          "content": "row5Class"
+                        }
+                      },
+                      {
+                        "id": "row-5-w",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "with Jonah"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.muted"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "bindings": {
+                          "content": "row5Teacher"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "row-5-l",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "Intermediate"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "color": {
+                              "token": "brand.strong"
+                            },
+                            "weight": 700
+                          },
+                          "background": {
+                            "token": "surface.sage"
+                          },
+                          "radius": {
+                            "token": "radius.pill"
+                          },
+                          "spacing": {
+                            "padding": {
+                              "top": {
+                                "px": 6.0
+                              },
+                              "right": {
+                                "px": 14.0
+                              },
+                              "bottom": {
+                                "px": 6.0
+                              },
+                              "left": {
+                                "px": 14.0
+                              }
+                            }
+                          },
+                          "size": {
+                            "width": {
+                              "raw": "fit-content"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "content": "row5Level"
+                    }
+                  },
+                  {
+                    "id": "row-5-b",
+                    "kind": {
+                      "type": "link",
+                      "href": "/contact",
+                      "target": "same"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "row",
+                            "gap": {
+                              "px": 8.0
+                            },
+                            "align": "center"
+                          },
+                          "radius": {
+                            "token": "radius.pill"
+                          },
+                          "spacing": {
+                            "padding": {
+                              "top": {
+                                "px": 10.0
+                              },
+                              "right": {
+                                "px": 18.0
+                              },
+                              "bottom": {
+                                "px": 10.0
+                              },
+                              "left": {
+                                "px": 18.0
+                              }
+                            }
+                          },
+                          "border": {
+                            "width": {
+                              "px": 1.5
+                            },
+                            "style": "solid",
+                            "color": {
+                              "token": "line.hairline"
+                            }
+                          },
+                          "transition": {
+                            "duration": 220,
+                            "properties": [
+                              "backgroundColor",
+                              "color",
+                              "borderColor",
+                              "boxShadow",
+                              "transform"
+                            ]
+                          },
+                          "size": {
+                            "width": {
+                              "raw": "fit-content"
+                            }
+                          },
+                          "typography": {
+                            "decoration": "none",
+                            "color": {
+                              "token": "ink.body"
+                            }
+                          }
+                        },
+                        "hover": {
+                          "background": {
+                            "token": "brand.strong"
+                          },
+                          "typography": {
+                            "color": {
+                              "token": "ink.inverse"
+                            }
+                          },
+                          "border": {
+                            "width": {
+                              "px": 1.5
+                            },
+                            "style": "solid",
+                            "color": {
+                              "token": "brand.strong"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "href": "row5Href"
+                    },
+                    "children": [
+                      {
+                        "id": "row-5-bt",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "Reserve"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.button",
+                                "color": {
+                                  "token": "ink.body"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "row-5-bi",
+                        "kind": {
+                          "type": "icon",
+                          "name": "arrow-right"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "size": {
+                                "width": {
+                                  "px": 16.0
+                                },
+                                "height": {
+                                  "px": 16.0
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "props": [
+    {
+      "name": "row1Day",
+      "label": "Row 1 day",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Mon"
+    },
+    {
+      "name": "row1Time",
+      "label": "Row 1 time",
+      "kind": {
+        "type": "text"
+      },
+      "default": "07:00"
+    },
+    {
+      "name": "row1Class",
+      "label": "Row 1 class",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Sunrise Flow"
+    },
+    {
+      "name": "row1Teacher",
+      "label": "Row 1 teacher",
+      "kind": {
+        "type": "text"
+      },
+      "default": "with Amara"
+    },
+    {
+      "name": "row1Level",
+      "label": "Row 1 level",
+      "kind": {
+        "type": "text"
+      },
+      "default": "All levels"
+    },
+    {
+      "name": "row1Href",
+      "label": "Row 1 booking link",
+      "kind": {
+        "type": "url"
+      },
+      "default": "/contact"
+    },
+    {
+      "name": "row2Day",
+      "label": "Row 2 day",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Tue"
+    },
+    {
+      "name": "row2Time",
+      "label": "Row 2 time",
+      "kind": {
+        "type": "text"
+      },
+      "default": "18:30"
+    },
+    {
+      "name": "row2Class",
+      "label": "Row 2 class",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Yin & Sound"
+    },
+    {
+      "name": "row2Teacher",
+      "label": "Row 2 teacher",
+      "kind": {
+        "type": "text"
+      },
+      "default": "with Tomás"
+    },
+    {
+      "name": "row2Level",
+      "label": "Row 2 level",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Gentle"
+    },
+    {
+      "name": "row2Href",
+      "label": "Row 2 booking link",
+      "kind": {
+        "type": "url"
+      },
+      "default": "/contact"
+    },
+    {
+      "name": "row3Day",
+      "label": "Row 3 day",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Wed"
+    },
+    {
+      "name": "row3Time",
+      "label": "Row 3 time",
+      "kind": {
+        "type": "text"
+      },
+      "default": "12:15"
+    },
+    {
+      "name": "row3Class",
+      "label": "Row 3 class",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Lunchtime Reset"
+    },
+    {
+      "name": "row3Teacher",
+      "label": "Row 3 teacher",
+      "kind": {
+        "type": "text"
+      },
+      "default": "with Mei"
+    },
+    {
+      "name": "row3Level",
+      "label": "Row 3 level",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Beginner"
+    },
+    {
+      "name": "row3Href",
+      "label": "Row 3 booking link",
+      "kind": {
+        "type": "url"
+      },
+      "default": "/contact"
+    },
+    {
+      "name": "row4Day",
+      "label": "Row 4 day",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Thu"
+    },
+    {
+      "name": "row4Time",
+      "label": "Row 4 time",
+      "kind": {
+        "type": "text"
+      },
+      "default": "19:00"
+    },
+    {
+      "name": "row4Class",
+      "label": "Row 4 class",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Breath & Stillness"
+    },
+    {
+      "name": "row4Teacher",
+      "label": "Row 4 teacher",
+      "kind": {
+        "type": "text"
+      },
+      "default": "with Amara"
+    },
+    {
+      "name": "row4Level",
+      "label": "Row 4 level",
+      "kind": {
+        "type": "text"
+      },
+      "default": "All levels"
+    },
+    {
+      "name": "row4Href",
+      "label": "Row 4 booking link",
+      "kind": {
+        "type": "url"
+      },
+      "default": "/contact"
+    },
+    {
+      "name": "row5Day",
+      "label": "Row 5 day",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Sat"
+    },
+    {
+      "name": "row5Time",
+      "label": "Row 5 time",
+      "kind": {
+        "type": "text"
+      },
+      "default": "09:30"
+    },
+    {
+      "name": "row5Class",
+      "label": "Row 5 class",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Slow Vinyasa"
+    },
+    {
+      "name": "row5Teacher",
+      "label": "Row 5 teacher",
+      "kind": {
+        "type": "text"
+      },
+      "default": "with Jonah"
+    },
+    {
+      "name": "row5Level",
+      "label": "Row 5 level",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Intermediate"
+    },
+    {
+      "name": "row5Href",
+      "label": "Row 5 booking link",
+      "kind": {
+        "type": "url"
+      },
+      "default": "/contact"
+    },
+    {
+      "name": "eyebrow",
+      "label": "Eyebrow",
+      "kind": {
+        "type": "text"
+      },
+      "default": "This week at Grove"
+    },
+    {
+      "name": "title",
+      "label": "Title",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Find a class that fits your day."
+    },
+    {
+      "name": "lead",
+      "label": "Intro",
+      "kind": {
+        "type": "longText"
+      },
+      "default": "Every class is capped at 14 mats, so there is room to be seen and helped."
+    },
+    {
+      "name": "allLinkLabel",
+      "label": "Timetable button label",
+      "kind": {
+        "type": "text"
+      },
+      "default": "See full timetable"
+    },
+    {
+      "name": "allLinkHref",
+      "label": "Timetable button link",
+      "kind": {
+        "type": "url"
+      },
+      "default": "/classes"
+    }
+  ]
+}

@@ -1,0 +1,1168 @@
+{
+  "id": "grove-footer",
+  "name": "Grove / Footer",
+  "root": {
+    "id": "footer",
+    "kind": {
+      "type": "frame",
+      "element": "footer"
+    },
+    "styles": {
+      "base": {
+        "base": {
+          "background": {
+            "token": "surface.night"
+          },
+          "spacing": {
+            "padding": {
+              "top": {
+                "token": "space.24"
+              },
+              "right": {
+                "token": "gutter"
+              },
+              "bottom": {
+                "token": "space.8"
+              },
+              "left": {
+                "token": "gutter"
+              }
+            }
+          },
+          "position": {
+            "kind": "relative"
+          },
+          "overflow": "hidden"
+        }
+      }
+    },
+    "children": [
+      {
+        "id": "f-blob",
+        "kind": {
+          "type": "frame",
+          "element": "div"
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "position": {
+                "kind": "absolute",
+                "inset": {
+                  "top": {
+                    "px": -260.0
+                  },
+                  "right": {
+                    "px": -160.0
+                  }
+                },
+                "zIndex": 0
+              },
+              "size": {
+                "width": {
+                  "px": 520.0
+                },
+                "height": {
+                  "px": 520.0
+                }
+              },
+              "background": {
+                "raw": "#2E4034"
+              },
+              "radius": {
+                "token": "radius.organic"
+              },
+              "opacity": 1,
+              "custom": {
+                "pointer-events": "none",
+                "filter": "blur(2px)"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "f-inner",
+        "kind": {
+          "type": "frame",
+          "element": "div"
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "display": "flex",
+              "flex": {
+                "direction": "column",
+                "gap": {
+                  "px": 56.0
+                }
+              },
+              "size": {
+                "maxWidth": {
+                  "token": "content.max"
+                },
+                "width": {
+                  "percent": 100.0
+                }
+              },
+              "spacing": {
+                "margin": {
+                  "left": {
+                    "raw": "auto"
+                  },
+                  "right": {
+                    "raw": "auto"
+                  }
+                }
+              },
+              "position": {
+                "kind": "relative"
+              }
+            }
+          }
+        },
+        "children": [
+          {
+            "id": "f-grid",
+            "kind": {
+              "type": "frame",
+              "element": "div"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "grid",
+                  "grid": {
+                    "columns": 1,
+                    "gap": {
+                      "px": 48.0
+                    }
+                  }
+                }
+              },
+              "md": {
+                "base": {
+                  "display": "grid",
+                  "grid": {
+                    "templateColumns": "1.4fr 1fr 1fr",
+                    "gap": {
+                      "px": 48.0
+                    }
+                  }
+                }
+              },
+              "lg": {
+                "base": {
+                  "display": "grid",
+                  "grid": {
+                    "templateColumns": "1.6fr 0.8fr 0.8fr 1.3fr",
+                    "gap": {
+                      "px": 56.0
+                    }
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "f-about",
+                "kind": {
+                  "type": "frame",
+                  "element": "div"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "px": 18.0
+                        }
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "f-brand",
+                    "kind": {
+                      "type": "frame",
+                      "element": "div"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "row",
+                            "gap": {
+                              "px": 10.0
+                            },
+                            "align": "center"
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "f-mark",
+                        "kind": {
+                          "type": "frame",
+                          "element": "div"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "size": {
+                                "width": {
+                                  "px": 28.0
+                                },
+                                "height": {
+                                  "px": 28.0
+                                }
+                              },
+                              "background": {
+                                "token": "brand.primary"
+                              },
+                              "radius": {
+                                "token": "radius.organic"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "f-name",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Grove"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.brand",
+                                "color": {
+                                  "token": "ink.inverse"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "bindings": {
+                          "content": "brandName"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "f-blurb",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "A small, unhurried studio for yoga, breath and honest coaching. Come as you are; leave a little lighter."
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.body",
+                            "color": {
+                              "token": "ink.inverse.muted"
+                            }
+                          },
+                          "size": {
+                            "maxWidth": {
+                              "px": 360.0
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "content": "blurb"
+                    }
+                  },
+                  {
+                    "id": "f-addr",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "14 Linden Yard, Riverside · Open daily 6:30–21:00"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "color": {
+                              "token": "ink.inverse.muted"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "content": "address"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "fcol-1",
+                "kind": {
+                  "type": "frame",
+                  "element": "div"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "px": 12.0
+                        }
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "f1-title",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "Studio"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.eyebrow",
+                            "color": {
+                              "token": "ink.inverse.muted"
+                            },
+                            "transform": "uppercase"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "f1-1",
+                    "kind": {
+                      "type": "link",
+                      "href": "/classes",
+                      "target": "same"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "transition": {
+                            "duration": 220,
+                            "properties": [
+                              "backgroundColor",
+                              "color",
+                              "borderColor",
+                              "boxShadow",
+                              "transform"
+                            ]
+                          },
+                          "typography": {
+                            "decoration": "none",
+                            "color": {
+                              "token": "ink.body"
+                            }
+                          }
+                        },
+                        "hover": {
+                          "opacity": 0.7
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "f1-1-t",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "Classes"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.body",
+                                "color": {
+                                  "token": "ink.inverse"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "f1-2",
+                    "kind": {
+                      "type": "link",
+                      "href": "/services",
+                      "target": "same"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "transition": {
+                            "duration": 220,
+                            "properties": [
+                              "backgroundColor",
+                              "color",
+                              "borderColor",
+                              "boxShadow",
+                              "transform"
+                            ]
+                          },
+                          "typography": {
+                            "decoration": "none",
+                            "color": {
+                              "token": "ink.body"
+                            }
+                          }
+                        },
+                        "hover": {
+                          "opacity": 0.7
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "f1-2-t",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "Coaching"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.body",
+                                "color": {
+                                  "token": "ink.inverse"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "f1-3",
+                    "kind": {
+                      "type": "link",
+                      "href": "/classes#pricing",
+                      "target": "same"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "transition": {
+                            "duration": 220,
+                            "properties": [
+                              "backgroundColor",
+                              "color",
+                              "borderColor",
+                              "boxShadow",
+                              "transform"
+                            ]
+                          },
+                          "typography": {
+                            "decoration": "none",
+                            "color": {
+                              "token": "ink.body"
+                            }
+                          }
+                        },
+                        "hover": {
+                          "opacity": 0.7
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "f1-3-t",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "Pricing"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.body",
+                                "color": {
+                                  "token": "ink.inverse"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "f1-4",
+                    "kind": {
+                      "type": "link",
+                      "href": "/contact",
+                      "target": "same"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "transition": {
+                            "duration": 220,
+                            "properties": [
+                              "backgroundColor",
+                              "color",
+                              "borderColor",
+                              "boxShadow",
+                              "transform"
+                            ]
+                          },
+                          "typography": {
+                            "decoration": "none",
+                            "color": {
+                              "token": "ink.body"
+                            }
+                          }
+                        },
+                        "hover": {
+                          "opacity": 0.7
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "f1-4-t",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "Gift cards"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.body",
+                                "color": {
+                                  "token": "ink.inverse"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "fcol-2",
+                "kind": {
+                  "type": "frame",
+                  "element": "div"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "px": 12.0
+                        }
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "f2-title",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "Grove"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.eyebrow",
+                            "color": {
+                              "token": "ink.inverse.muted"
+                            },
+                            "transform": "uppercase"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "f2-1",
+                    "kind": {
+                      "type": "link",
+                      "href": "/about",
+                      "target": "same"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "transition": {
+                            "duration": 220,
+                            "properties": [
+                              "backgroundColor",
+                              "color",
+                              "borderColor",
+                              "boxShadow",
+                              "transform"
+                            ]
+                          },
+                          "typography": {
+                            "decoration": "none",
+                            "color": {
+                              "token": "ink.body"
+                            }
+                          }
+                        },
+                        "hover": {
+                          "opacity": 0.7
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "f2-1-t",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "About"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.body",
+                                "color": {
+                                  "token": "ink.inverse"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "f2-2",
+                    "kind": {
+                      "type": "link",
+                      "href": "/about#team",
+                      "target": "same"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "transition": {
+                            "duration": 220,
+                            "properties": [
+                              "backgroundColor",
+                              "color",
+                              "borderColor",
+                              "boxShadow",
+                              "transform"
+                            ]
+                          },
+                          "typography": {
+                            "decoration": "none",
+                            "color": {
+                              "token": "ink.body"
+                            }
+                          }
+                        },
+                        "hover": {
+                          "opacity": 0.7
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "f2-2-t",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "Teachers"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.body",
+                                "color": {
+                                  "token": "ink.inverse"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "f2-3",
+                    "kind": {
+                      "type": "link",
+                      "href": "/journal",
+                      "target": "same"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "transition": {
+                            "duration": 220,
+                            "properties": [
+                              "backgroundColor",
+                              "color",
+                              "borderColor",
+                              "boxShadow",
+                              "transform"
+                            ]
+                          },
+                          "typography": {
+                            "decoration": "none",
+                            "color": {
+                              "token": "ink.body"
+                            }
+                          }
+                        },
+                        "hover": {
+                          "opacity": 0.7
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "f2-3-t",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "Journal"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.body",
+                                "color": {
+                                  "token": "ink.inverse"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "f2-4",
+                    "kind": {
+                      "type": "link",
+                      "href": "/contact",
+                      "target": "same"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "transition": {
+                            "duration": 220,
+                            "properties": [
+                              "backgroundColor",
+                              "color",
+                              "borderColor",
+                              "boxShadow",
+                              "transform"
+                            ]
+                          },
+                          "typography": {
+                            "decoration": "none",
+                            "color": {
+                              "token": "ink.body"
+                            }
+                          }
+                        },
+                        "hover": {
+                          "opacity": 0.7
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "f2-4-t",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "Contact"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.body",
+                                "color": {
+                                  "token": "ink.inverse"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "f-news",
+                "kind": {
+                  "type": "frame",
+                  "element": "div"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "px": 12.0
+                        }
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "fn-t",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "Letters from the grove"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.subtitle",
+                            "color": {
+                              "token": "ink.inverse"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "content": "newsTitle"
+                    }
+                  },
+                  {
+                    "id": "fn-b",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "One gentle email a month: a practice, a recipe, a thought worth keeping."
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "color": {
+                              "token": "ink.inverse.muted"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "content": "newsBody"
+                    }
+                  },
+                  {
+                    "id": "fn-btn",
+                    "kind": {
+                      "type": "button",
+                      "label": "Subscribe",
+                      "href": "/contact#newsletter",
+                      "target": "same"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "inlineFlex",
+                          "background": {
+                            "token": "ink.inverse"
+                          },
+                          "radius": {
+                            "token": "radius.pill"
+                          },
+                          "spacing": {
+                            "padding": {
+                              "top": {
+                                "px": 16.0
+                              },
+                              "right": {
+                                "px": 30.0
+                              },
+                              "bottom": {
+                                "px": 16.0
+                              },
+                              "left": {
+                                "px": 30.0
+                              }
+                            }
+                          },
+                          "typography": {
+                            "token": "type.button",
+                            "color": {
+                              "token": "surface.deep"
+                            },
+                            "align": "center",
+                            "decoration": "none"
+                          },
+                          "size": {
+                            "width": {
+                              "raw": "fit-content"
+                            }
+                          },
+                          "transition": {
+                            "duration": 220,
+                            "properties": [
+                              "backgroundColor",
+                              "color",
+                              "borderColor",
+                              "boxShadow",
+                              "transform"
+                            ]
+                          },
+                          "shadow": {
+                            "token": "shadow.soft"
+                          }
+                        },
+                        "hover": {
+                          "background": {
+                            "token": "surface.sand"
+                          },
+                          "custom": {
+                            "transform": "translateY(-2px)"
+                          }
+                        },
+                        "focus": {
+                          "custom": {
+                            "outline": "3px solid #6B8F71",
+                            "outline-offset": "3px"
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "label": "newsLabel",
+                      "href": "newsHref"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "f-bottom",
+            "kind": {
+              "type": "frame",
+              "element": "div"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "flex",
+                  "flex": {
+                    "direction": "column",
+                    "gap": {
+                      "px": 8.0
+                    }
+                  },
+                  "spacing": {
+                    "padding": {
+                      "top": {
+                        "px": 28.0
+                      }
+                    }
+                  },
+                  "border": {
+                    "top": {
+                      "width": {
+                        "px": 1.0
+                      },
+                      "style": "solid",
+                      "color": {
+                        "token": "line.inverse"
+                      }
+                    }
+                  }
+                }
+              },
+              "md": {
+                "base": {
+                  "display": "flex",
+                  "flex": {
+                    "direction": "row",
+                    "gap": {
+                      "px": 24.0
+                    },
+                    "align": "center",
+                    "justify": "spaceBetween"
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "f-copy",
+                "kind": {
+                  "type": "text",
+                  "tag": "p",
+                  "content": "© 2026 Grove Studio. Made slowly."
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.small",
+                        "color": {
+                          "token": "ink.inverse.muted"
+                        }
+                      }
+                    }
+                  }
+                },
+                "bindings": {
+                  "content": "copyright"
+                }
+              },
+              {
+                "id": "f-social",
+                "kind": {
+                  "type": "text",
+                  "tag": "p",
+                  "content": "Instagram  ·  Spotify playlists  ·  YouTube"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.small",
+                        "color": {
+                          "token": "ink.inverse.muted"
+                        }
+                      }
+                    }
+                  }
+                },
+                "bindings": {
+                  "content": "social"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "props": [
+    {
+      "name": "brandName",
+      "label": "Studio name",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Grove"
+    },
+    {
+      "name": "blurb",
+      "label": "Blurb",
+      "kind": {
+        "type": "longText"
+      },
+      "default": "A small, unhurried studio for yoga, breath and honest coaching. Come as you are; leave a little lighter."
+    },
+    {
+      "name": "address",
+      "label": "Address",
+      "kind": {
+        "type": "text"
+      },
+      "default": "14 Linden Yard, Riverside · Open daily 6:30–21:00"
+    },
+    {
+      "name": "newsTitle",
+      "label": "Newsletter title",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Letters from the grove"
+    },
+    {
+      "name": "newsBody",
+      "label": "Newsletter text",
+      "kind": {
+        "type": "text"
+      },
+      "default": "One gentle email a month: a practice, a recipe, a thought worth keeping."
+    },
+    {
+      "name": "newsLabel",
+      "label": "Newsletter button label",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Subscribe"
+    },
+    {
+      "name": "newsHref",
+      "label": "Newsletter button link",
+      "kind": {
+        "type": "url"
+      },
+      "default": "/contact#newsletter"
+    },
+    {
+      "name": "copyright",
+      "label": "Copyright",
+      "kind": {
+        "type": "text"
+      },
+      "default": "© 2026 Grove Studio. Made slowly."
+    },
+    {
+      "name": "social",
+      "label": "Social line",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Instagram  ·  Spotify playlists  ·  YouTube"
+    }
+  ]
+}

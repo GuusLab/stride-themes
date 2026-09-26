@@ -1,0 +1,430 @@
+{
+  "id": "pulse-testimonial",
+  "name": "Pulse testimonial",
+  "root": {
+    "id": "pulse-testimonial",
+    "kind": {
+      "type": "frame",
+      "element": "section"
+    },
+    "styles": {
+      "base": {
+        "base": {
+          "background": {
+            "token": "surface.raised"
+          },
+          "spacing": {
+            "padding": {
+              "top": {
+                "token": "space.section"
+              },
+              "bottom": {
+                "token": "space.section"
+              },
+              "left": {
+                "token": "space.gutter"
+              },
+              "right": {
+                "token": "space.gutter"
+              }
+            }
+          }
+        }
+      },
+      "md": {
+        "base": {
+          "spacing": {
+            "padding": {
+              "left": {
+                "token": "space.gutter.wide"
+              },
+              "right": {
+                "token": "space.gutter.wide"
+              }
+            }
+          }
+        }
+      }
+    },
+    "children": [
+      {
+        "id": "testimonial-inner",
+        "kind": {
+          "type": "frame"
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "display": "flex",
+              "flex": {
+                "direction": "column",
+                "gap": {
+                  "token": "space.8"
+                },
+                "align": "center"
+              },
+              "size": {
+                "maxWidth": {
+                  "px": 920
+                },
+                "width": {
+                  "percent": 100
+                }
+              },
+              "spacing": {
+                "margin": {
+                  "left": {
+                    "raw": "auto"
+                  },
+                  "right": {
+                    "raw": "auto"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "children": [
+          {
+            "id": "testimonial-stars",
+            "kind": {
+              "type": "frame"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "flex",
+                  "flex": {
+                    "direction": "row",
+                    "gap": {
+                      "token": "space.1"
+                    },
+                    "justify": "center"
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "testimonial-star-1",
+                "kind": {
+                  "type": "icon",
+                  "name": "star"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "size": {
+                        "width": {
+                          "px": 20
+                        },
+                        "height": {
+                          "px": 20
+                        }
+                      },
+                      "typography": {
+                        "color": {
+                          "token": "brand.glow"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "testimonial-star-2",
+                "kind": {
+                  "type": "icon",
+                  "name": "star"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "size": {
+                        "width": {
+                          "px": 20
+                        },
+                        "height": {
+                          "px": 20
+                        }
+                      },
+                      "typography": {
+                        "color": {
+                          "token": "brand.glow"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "testimonial-star-3",
+                "kind": {
+                  "type": "icon",
+                  "name": "star"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "size": {
+                        "width": {
+                          "px": 20
+                        },
+                        "height": {
+                          "px": 20
+                        }
+                      },
+                      "typography": {
+                        "color": {
+                          "token": "brand.glow"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "testimonial-star-4",
+                "kind": {
+                  "type": "icon",
+                  "name": "star"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "size": {
+                        "width": {
+                          "px": 20
+                        },
+                        "height": {
+                          "px": 20
+                        }
+                      },
+                      "typography": {
+                        "color": {
+                          "token": "brand.glow"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "testimonial-star-5",
+                "kind": {
+                  "type": "icon",
+                  "name": "star"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "size": {
+                        "width": {
+                          "px": 20
+                        },
+                        "height": {
+                          "px": 20
+                        }
+                      },
+                      "typography": {
+                        "color": {
+                          "token": "brand.glow"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "id": "testimonial-quote",
+            "kind": {
+              "type": "text",
+              "tag": "blockquote",
+              "content": "“We cut our time-to-value from nine days to under four minutes. Vantora didn’t just show us where people dropped off — it let us fix it the same afternoon.”"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "typography": {
+                    "token": "type.quote",
+                    "color": {
+                      "token": "ink.strong"
+                    },
+                    "align": "center"
+                  }
+                }
+              }
+            },
+            "bindings": {
+              "content": "quote"
+            }
+          },
+          {
+            "id": "testimonial-person",
+            "kind": {
+              "type": "frame"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "flex",
+                  "flex": {
+                    "direction": "row",
+                    "gap": {
+                      "token": "space.4"
+                    },
+                    "align": "center",
+                    "justify": "center"
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "testimonial-photo",
+                "kind": {
+                  "type": "image",
+                  "src": "assets/images/portrait-founder.webp",
+                  "alt": "Portrait of Lucía Ferrer"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "size": {
+                        "width": {
+                          "px": 56
+                        },
+                        "height": {
+                          "px": 56
+                        }
+                      },
+                      "radius": {
+                        "token": "radius.full"
+                      },
+                      "objectFit": "cover",
+                      "border": {
+                        "width": {
+                          "px": 2
+                        },
+                        "style": "solid",
+                        "color": {
+                          "token": "brand.glow"
+                        }
+                      }
+                    }
+                  }
+                },
+                "bindings": {
+                  "src": "photo"
+                }
+              },
+              {
+                "id": "testimonial-meta",
+                "kind": {
+                  "type": "frame"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "token": "space.1"
+                        }
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "testimonial-name",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "Lucía Ferrer"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.button",
+                            "color": {
+                              "token": "ink.strong"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "content": "name"
+                    }
+                  },
+                  {
+                    "id": "testimonial-role",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "VP Product, Halcyon Health"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "color": {
+                              "token": "ink.muted"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "content": "role"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "props": [
+    {
+      "name": "quote",
+      "label": "Quote",
+      "kind": {
+        "type": "longText"
+      },
+      "default": "“We cut our time-to-value from nine days to under four minutes. Vantora didn’t just show us where people dropped off — it let us fix it the same afternoon.”"
+    },
+    {
+      "name": "name",
+      "label": "Name",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Lucía Ferrer"
+    },
+    {
+      "name": "role",
+      "label": "Role",
+      "kind": {
+        "type": "text"
+      },
+      "default": "VP Product, Halcyon Health"
+    },
+    {
+      "name": "photo",
+      "label": "Photo",
+      "kind": {
+        "type": "image"
+      },
+      "default": "assets/images/portrait-founder.webp"
+    }
+  ]
+}

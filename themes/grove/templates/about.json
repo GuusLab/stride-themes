@@ -1,0 +1,106 @@
+{
+  "root": {
+    "id": "root",
+    "kind": {
+      "type": "frame",
+      "element": "main"
+    },
+    "styles": {
+      "base": {
+        "base": {
+          "background": {
+            "token": "surface.page"
+          },
+          "typography": {
+            "token": "type.body",
+            "color": {
+              "token": "ink.body"
+            }
+          },
+          "custom": {
+            "-webkit-font-smoothing": "antialiased"
+          }
+        }
+      }
+    },
+    "children": [
+      {
+        "id": "header",
+        "kind": {
+          "type": "instance",
+          "component": "grove-header"
+        }
+      },
+      {
+        "id": "hero",
+        "kind": {
+          "type": "instance",
+          "component": "grove-hero-centered"
+        }
+      },
+      {
+        "id": "story",
+        "kind": {
+          "type": "instance",
+          "component": "grove-about-split"
+        }
+      },
+      {
+        "id": "stats",
+        "kind": {
+          "type": "instance",
+          "component": "grove-stats",
+          "overrides": {
+            "stat1Value": "2014",
+            "stat1Label": "the year we unrolled the first mat"
+          }
+        }
+      },
+      {
+        "id": "gallery",
+        "kind": {
+          "type": "instance",
+          "component": "grove-gallery"
+        }
+      },
+      {
+        "id": "team",
+        "kind": {
+          "type": "instance",
+          "component": "grove-team"
+        }
+      },
+      {
+        "id": "quote",
+        "kind": {
+          "type": "instance",
+          "component": "grove-testimonial",
+          "overrides": {
+            "quote": "Amara has a way of making you feel like the only person in the room — and like you already know what to do. Six weeks in, I sleep through the night.",
+            "name": "Daniel Weiss",
+            "role": "Coaching client, 2025",
+            "avatarAlt": "Portrait of Daniel"
+          }
+        }
+      },
+      {
+        "id": "cta",
+        "kind": {
+          "type": "instance",
+          "component": "grove-cta"
+        }
+      },
+      {
+        "id": "footer",
+        "kind": {
+          "type": "instance",
+          "component": "grove-footer"
+        }
+      }
+    ]
+  },
+  "seo": {
+    "title": "About Grove",
+    "description": "The story, the space and the teachers behind Grove, a small riverside studio for yoga, breath and coaching."
+  }
+}

@@ -1,0 +1,730 @@
+{
+  "id": "ledger-header",
+  "name": "Ledger · Header",
+  "root": {
+    "id": "header",
+    "kind": {
+      "type": "frame",
+      "element": "header"
+    },
+    "children": [
+      {
+        "id": "header-inner",
+        "kind": {
+          "type": "frame"
+        },
+        "children": [
+          {
+            "id": "header-brand",
+            "kind": {
+              "type": "link",
+              "href": "/",
+              "target": "same"
+            },
+            "children": [
+              {
+                "id": "header-brand-row",
+                "kind": {
+                  "type": "frame"
+                },
+                "children": [
+                  {
+                    "id": "header-brand-mark",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "children": [
+                      {
+                        "id": "header-brand-mark-t",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "H/V"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.eyebrow",
+                                "color": {
+                                  "token": "ink.inverse"
+                                },
+                                "letterSpacing": {
+                                  "raw": "0.02em"
+                                },
+                                "weight": 700
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "align": "center",
+                            "justify": "center"
+                          },
+                          "size": {
+                            "width": {
+                              "px": 38.0
+                            },
+                            "height": {
+                              "px": 38.0
+                            }
+                          },
+                          "radius": {
+                            "token": "radius.sm"
+                          },
+                          "background": {
+                            "token": "surface.accent"
+                          },
+                          "border": {
+                            "bottom": {
+                              "width": {
+                                "px": 3.0
+                              },
+                              "style": "solid",
+                              "color": {
+                                "token": "surface.warm"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "header-brand-name",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "Halden & Vorst"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.subtitle",
+                            "color": {
+                              "token": "ink.body"
+                            },
+                            "size": {
+                              "rem": 1.1875
+                            },
+                            "letterSpacing": {
+                              "raw": "-0.02em"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "content": "brand"
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "row",
+                        "gap": {
+                          "px": 12.0
+                        },
+                        "align": "center",
+                        "wrap": false
+                      }
+                    }
+                  }
+                }
+              }
+            ],
+            "styles": {
+              "base": {
+                "base": {
+                  "typography": {
+                    "decoration": "none"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": "header-nav",
+            "kind": {
+              "type": "frame",
+              "element": "nav"
+            },
+            "children": [
+              {
+                "id": "header-nav-1",
+                "kind": {
+                  "type": "link",
+                  "href": "/services",
+                  "target": "same"
+                },
+                "children": [
+                  {
+                    "id": "header-nav-1-label",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "Services"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "color": {
+                              "token": "ink.body"
+                            },
+                            "weight": 500
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "decoration": "none"
+                      },
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "px": 6.0
+                          },
+                          "right": {
+                            "px": 0.0
+                          },
+                          "bottom": {
+                            "px": 6.0
+                          },
+                          "left": {
+                            "px": 0.0
+                          }
+                        }
+                      },
+                      "border": {
+                        "bottom": {
+                          "width": {
+                            "px": 1.0
+                          },
+                          "style": "solid",
+                          "color": {
+                            "raw": "transparent"
+                          }
+                        }
+                      }
+                    },
+                    "hover": {
+                      "border": {
+                        "bottom": {
+                          "width": {
+                            "px": 1.0
+                          },
+                          "style": "solid",
+                          "color": {
+                            "token": "surface.warm"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "header-nav-2",
+                "kind": {
+                  "type": "link",
+                  "href": "/about",
+                  "target": "same"
+                },
+                "children": [
+                  {
+                    "id": "header-nav-2-label",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "Firm"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "color": {
+                              "token": "ink.body"
+                            },
+                            "weight": 500
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "decoration": "none"
+                      },
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "px": 6.0
+                          },
+                          "right": {
+                            "px": 0.0
+                          },
+                          "bottom": {
+                            "px": 6.0
+                          },
+                          "left": {
+                            "px": 0.0
+                          }
+                        }
+                      },
+                      "border": {
+                        "bottom": {
+                          "width": {
+                            "px": 1.0
+                          },
+                          "style": "solid",
+                          "color": {
+                            "raw": "transparent"
+                          }
+                        }
+                      }
+                    },
+                    "hover": {
+                      "border": {
+                        "bottom": {
+                          "width": {
+                            "px": 1.0
+                          },
+                          "style": "solid",
+                          "color": {
+                            "token": "surface.warm"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "header-nav-3",
+                "kind": {
+                  "type": "link",
+                  "href": "/insights",
+                  "target": "same"
+                },
+                "children": [
+                  {
+                    "id": "header-nav-3-label",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "Insights"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "color": {
+                              "token": "ink.body"
+                            },
+                            "weight": 500
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "decoration": "none"
+                      },
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "px": 6.0
+                          },
+                          "right": {
+                            "px": 0.0
+                          },
+                          "bottom": {
+                            "px": 6.0
+                          },
+                          "left": {
+                            "px": 0.0
+                          }
+                        }
+                      },
+                      "border": {
+                        "bottom": {
+                          "width": {
+                            "px": 1.0
+                          },
+                          "style": "solid",
+                          "color": {
+                            "raw": "transparent"
+                          }
+                        }
+                      }
+                    },
+                    "hover": {
+                      "border": {
+                        "bottom": {
+                          "width": {
+                            "px": 1.0
+                          },
+                          "style": "solid",
+                          "color": {
+                            "token": "surface.warm"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "header-nav-4",
+                "kind": {
+                  "type": "link",
+                  "href": "/contact",
+                  "target": "same"
+                },
+                "children": [
+                  {
+                    "id": "header-nav-4-label",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "Contact"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "color": {
+                              "token": "ink.body"
+                            },
+                            "weight": 500
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "decoration": "none"
+                      },
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "px": 6.0
+                          },
+                          "right": {
+                            "px": 0.0
+                          },
+                          "bottom": {
+                            "px": 6.0
+                          },
+                          "left": {
+                            "px": 0.0
+                          }
+                        }
+                      },
+                      "border": {
+                        "bottom": {
+                          "width": {
+                            "px": 1.0
+                          },
+                          "style": "solid",
+                          "color": {
+                            "raw": "transparent"
+                          }
+                        }
+                      }
+                    },
+                    "hover": {
+                      "border": {
+                        "bottom": {
+                          "width": {
+                            "px": 1.0
+                          },
+                          "style": "solid",
+                          "color": {
+                            "token": "surface.warm"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            ],
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "none"
+                }
+              },
+              "md": {
+                "base": {
+                  "display": "flex",
+                  "flex": {
+                    "direction": "row",
+                    "gap": {
+                      "px": 36.0
+                    },
+                    "align": "center"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": "header-cta",
+            "kind": {
+              "type": "button",
+              "label": "Book a consultation",
+              "href": "/contact",
+              "target": "same"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "none",
+                  "background": {
+                    "token": "surface.accent"
+                  },
+                  "radius": {
+                    "token": "radius.sm"
+                  },
+                  "size": {
+                    "width": {
+                      "raw": "fit-content"
+                    }
+                  },
+                  "spacing": {
+                    "padding": {
+                      "top": {
+                        "px": 11.0
+                      },
+                      "right": {
+                        "px": 16.0
+                      },
+                      "bottom": {
+                        "px": 11.0
+                      },
+                      "left": {
+                        "px": 16.0
+                      }
+                    }
+                  },
+                  "typography": {
+                    "token": "type.button",
+                    "color": {
+                      "token": "ink.inverse"
+                    },
+                    "decoration": "none",
+                    "size": {
+                      "rem": 0.875
+                    }
+                  },
+                  "border": {
+                    "width": {
+                      "px": 1.0
+                    },
+                    "style": "solid",
+                    "color": {
+                      "token": "surface.accent"
+                    }
+                  },
+                  "transition": {
+                    "duration": 180,
+                    "easing": "easeOut",
+                    "properties": [
+                      "backgroundColor",
+                      "borderColor",
+                      "transform"
+                    ]
+                  }
+                },
+                "hover": {
+                  "background": {
+                    "token": "surface.deep"
+                  },
+                  "border": {
+                    "width": {
+                      "px": 1.0
+                    },
+                    "style": "solid",
+                    "color": {
+                      "token": "surface.deep"
+                    }
+                  }
+                }
+              },
+              "md": {
+                "base": {
+                  "display": "inlineBlock"
+                }
+              }
+            },
+            "bindings": {
+              "label": "ctaLabel",
+              "href": "ctaHref"
+            }
+          }
+        ],
+        "styles": {
+          "base": {
+            "base": {
+              "display": "flex",
+              "flex": {
+                "direction": "row",
+                "align": "center",
+                "justify": "spaceBetween",
+                "gap": {
+                  "px": 12.0
+                },
+                "wrap": false
+              },
+              "size": {
+                "maxWidth": {
+                  "px": 1240.0
+                },
+                "width": {
+                  "percent": 100.0
+                }
+              },
+              "spacing": {
+                "margin": {
+                  "left": {
+                    "raw": "auto"
+                  },
+                  "right": {
+                    "raw": "auto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "styles": {
+      "base": {
+        "base": {
+          "background": {
+            "raw": "rgb(255 255 255 / 0.9)"
+          },
+          "custom": {
+            "backdrop-filter": "saturate(1.6) blur(14px)"
+          },
+          "position": {
+            "kind": "sticky",
+            "inset": {
+              "top": {
+                "px": 0.0
+              }
+            },
+            "zIndex": 20
+          },
+          "border": {
+            "bottom": {
+              "width": {
+                "px": 1.0
+              },
+              "style": "solid",
+              "color": {
+                "token": "line.hairline"
+              }
+            }
+          },
+          "spacing": {
+            "padding": {
+              "top": {
+                "px": 14.0
+              },
+              "right": {
+                "px": 20.0
+              },
+              "bottom": {
+                "px": 14.0
+              },
+              "left": {
+                "px": 20.0
+              }
+            }
+          }
+        }
+      },
+      "md": {
+        "base": {
+          "spacing": {
+            "padding": {
+              "top": {
+                "px": 18.0
+              },
+              "right": {
+                "px": 40.0
+              },
+              "bottom": {
+                "px": 18.0
+              },
+              "left": {
+                "px": 40.0
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "props": [
+    {
+      "name": "brand",
+      "label": "Firm name",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Halden & Vorst"
+    },
+    {
+      "name": "ctaLabel",
+      "label": "Button label",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Book a consultation"
+    },
+    {
+      "name": "ctaHref",
+      "label": "Button link",
+      "kind": {
+        "type": "url"
+      },
+      "default": "/contact"
+    }
+  ]
+}

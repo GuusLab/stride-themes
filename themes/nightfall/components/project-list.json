@@ -1,0 +1,1383 @@
+{
+  "id": "nightfall-project-list",
+  "name": "Nightfall · Project index",
+  "root": {
+    "id": "projects",
+    "kind": {
+      "type": "frame",
+      "element": "section"
+    },
+    "children": [
+      {
+        "id": "projects-inner",
+        "kind": {
+          "type": "frame"
+        },
+        "children": [
+          {
+            "id": "projects-head",
+            "kind": {
+              "type": "frame"
+            },
+            "children": [
+              {
+                "id": "projects-hl",
+                "kind": {
+                  "type": "frame"
+                },
+                "children": [
+                  {
+                    "id": "projects-idx",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "children": [
+                      {
+                        "id": "projects-idx-n",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "02"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.eyebrow",
+                                "color": {
+                                  "token": "ink.accent"
+                                },
+                                "transform": "uppercase"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "projects-idx-rule",
+                        "kind": {
+                          "type": "frame"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "size": {
+                                "width": {
+                                  "px": 32.0
+                                },
+                                "height": {
+                                  "px": 1.0
+                                }
+                              },
+                              "background": {
+                                "token": "line.strong"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "projects-idx-t",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "Index"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.eyebrow",
+                                "color": {
+                                  "token": "ink.muted"
+                                },
+                                "transform": "uppercase"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "row",
+                            "gap": {
+                              "px": 14.0
+                            },
+                            "align": "center",
+                            "wrap": false
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "projects-title",
+                    "kind": {
+                      "type": "text",
+                      "tag": "h2",
+                      "content": "Every project, in order."
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.title",
+                            "color": {
+                              "token": "ink.body"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "px": 20.0
+                        }
+                      },
+                      "size": {
+                        "maxWidth": {
+                          "px": 820.0
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            ],
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "flex",
+                  "flex": {
+                    "direction": "row",
+                    "gap": {
+                      "px": 24.0
+                    },
+                    "align": "end",
+                    "wrap": true,
+                    "justify": "spaceBetween"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": "projects-list",
+            "kind": {
+              "type": "frame"
+            },
+            "children": [
+              {
+                "id": "projects-1",
+                "kind": {
+                  "type": "link",
+                  "href": "/work",
+                  "target": "same"
+                },
+                "children": [
+                  {
+                    "id": "projects-1-g",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "children": [
+                      {
+                        "id": "projects-1-n",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "01"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.eyebrow",
+                                "color": {
+                                  "token": "ink.accent"
+                                },
+                                "transform": "uppercase"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "projects-1-t",
+                        "kind": {
+                          "type": "text",
+                          "tag": "h3",
+                          "content": "Wet Light"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.subtitle",
+                                "color": {
+                                  "token": "ink.body"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "projects-1-d",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "A city after rain, lit only by sodium lamps and whoever is still out."
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.muted"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "projects-1-c",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "Street · Porto"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.eyebrow",
+                                "color": {
+                                  "token": "ink.faint"
+                                },
+                                "transform": "uppercase"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "projects-1-y",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "2026"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.eyebrow",
+                                "color": {
+                                  "token": "ink.faint"
+                                },
+                                "transform": "uppercase"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "grid",
+                          "grid": {
+                            "columns": 1,
+                            "gap": {
+                              "px": 8.0
+                            }
+                          }
+                        }
+                      },
+                      "md": {
+                        "base": {
+                          "grid": {
+                            "templateColumns": "64px 1.3fr 1.6fr 1fr 60px",
+                            "gap": {
+                              "px": 24.0
+                            },
+                            "align": "center"
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "decoration": "none"
+                      },
+                      "display": "block",
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "px": 28.0
+                          },
+                          "bottom": {
+                            "px": 28.0
+                          }
+                        }
+                      },
+                      "border": {
+                        "bottom": {
+                          "width": {
+                            "px": 1.0
+                          },
+                          "style": "solid",
+                          "color": {
+                            "token": "line.hairline"
+                          }
+                        }
+                      },
+                      "transition": {
+                        "duration": 250,
+                        "properties": [
+                          "backgroundColor"
+                        ]
+                      }
+                    },
+                    "hover": {
+                      "background": {
+                        "token": "surface.raised"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "projects-2",
+                "kind": {
+                  "type": "link",
+                  "href": "/work",
+                  "target": "same"
+                },
+                "children": [
+                  {
+                    "id": "projects-2-g",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "children": [
+                      {
+                        "id": "projects-2-n",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "02"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.eyebrow",
+                                "color": {
+                                  "token": "ink.accent"
+                                },
+                                "transform": "uppercase"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "projects-2-t",
+                        "kind": {
+                          "type": "text",
+                          "tag": "h3",
+                          "content": "Adaeze"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.subtitle",
+                                "color": {
+                                  "token": "ink.body"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "projects-2-d",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "One light, one hour, one face. From the long-running Sitters series."
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.muted"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "projects-2-c",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "Portrait · Studio"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.eyebrow",
+                                "color": {
+                                  "token": "ink.faint"
+                                },
+                                "transform": "uppercase"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "projects-2-y",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "2025"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.eyebrow",
+                                "color": {
+                                  "token": "ink.faint"
+                                },
+                                "transform": "uppercase"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "grid",
+                          "grid": {
+                            "columns": 1,
+                            "gap": {
+                              "px": 8.0
+                            }
+                          }
+                        }
+                      },
+                      "md": {
+                        "base": {
+                          "grid": {
+                            "templateColumns": "64px 1.3fr 1.6fr 1fr 60px",
+                            "gap": {
+                              "px": 24.0
+                            },
+                            "align": "center"
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "decoration": "none"
+                      },
+                      "display": "block",
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "px": 28.0
+                          },
+                          "bottom": {
+                            "px": 28.0
+                          }
+                        }
+                      },
+                      "border": {
+                        "bottom": {
+                          "width": {
+                            "px": 1.0
+                          },
+                          "style": "solid",
+                          "color": {
+                            "token": "line.hairline"
+                          }
+                        }
+                      },
+                      "transition": {
+                        "duration": 250,
+                        "properties": [
+                          "backgroundColor"
+                        ]
+                      }
+                    },
+                    "hover": {
+                      "background": {
+                        "token": "surface.raised"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "projects-3",
+                "kind": {
+                  "type": "link",
+                  "href": "/work",
+                  "target": "same"
+                },
+                "children": [
+                  {
+                    "id": "projects-3-g",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "children": [
+                      {
+                        "id": "projects-3-n",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "03"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.eyebrow",
+                                "color": {
+                                  "token": "ink.accent"
+                                },
+                                "transform": "uppercase"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "projects-3-t",
+                        "kind": {
+                          "type": "text",
+                          "tag": "h3",
+                          "content": "Erg"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.subtitle",
+                                "color": {
+                                  "token": "ink.body"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "projects-3-d",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Dune ridges at the last minute of sun, shot from four hundred metres."
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.muted"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "projects-3-c",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "Landscape · Aerial"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.eyebrow",
+                                "color": {
+                                  "token": "ink.faint"
+                                },
+                                "transform": "uppercase"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "projects-3-y",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "2025"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.eyebrow",
+                                "color": {
+                                  "token": "ink.faint"
+                                },
+                                "transform": "uppercase"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "grid",
+                          "grid": {
+                            "columns": 1,
+                            "gap": {
+                              "px": 8.0
+                            }
+                          }
+                        }
+                      },
+                      "md": {
+                        "base": {
+                          "grid": {
+                            "templateColumns": "64px 1.3fr 1.6fr 1fr 60px",
+                            "gap": {
+                              "px": 24.0
+                            },
+                            "align": "center"
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "decoration": "none"
+                      },
+                      "display": "block",
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "px": 28.0
+                          },
+                          "bottom": {
+                            "px": 28.0
+                          }
+                        }
+                      },
+                      "border": {
+                        "bottom": {
+                          "width": {
+                            "px": 1.0
+                          },
+                          "style": "solid",
+                          "color": {
+                            "token": "line.hairline"
+                          }
+                        }
+                      },
+                      "transition": {
+                        "duration": 250,
+                        "properties": [
+                          "backgroundColor"
+                        ]
+                      }
+                    },
+                    "hover": {
+                      "background": {
+                        "token": "surface.raised"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "projects-4",
+                "kind": {
+                  "type": "link",
+                  "href": "/work",
+                  "target": "same"
+                },
+                "children": [
+                  {
+                    "id": "projects-4-g",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "children": [
+                      {
+                        "id": "projects-4-n",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "04"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.eyebrow",
+                                "color": {
+                                  "token": "ink.accent"
+                                },
+                                "transform": "uppercase"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "projects-4-t",
+                        "kind": {
+                          "type": "text",
+                          "tag": "h3",
+                          "content": "Concrete Hours"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.subtitle",
+                                "color": {
+                                  "token": "ink.body"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "projects-4-d",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "A study of one stairwell over a single afternoon, for Holm & Arden Architects."
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.muted"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "projects-4-c",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "Architecture · Commission"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.eyebrow",
+                                "color": {
+                                  "token": "ink.faint"
+                                },
+                                "transform": "uppercase"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "projects-4-y",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "2024"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.eyebrow",
+                                "color": {
+                                  "token": "ink.faint"
+                                },
+                                "transform": "uppercase"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "grid",
+                          "grid": {
+                            "columns": 1,
+                            "gap": {
+                              "px": 8.0
+                            }
+                          }
+                        }
+                      },
+                      "md": {
+                        "base": {
+                          "grid": {
+                            "templateColumns": "64px 1.3fr 1.6fr 1fr 60px",
+                            "gap": {
+                              "px": 24.0
+                            },
+                            "align": "center"
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "decoration": "none"
+                      },
+                      "display": "block",
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "px": 28.0
+                          },
+                          "bottom": {
+                            "px": 28.0
+                          }
+                        }
+                      },
+                      "border": {
+                        "bottom": {
+                          "width": {
+                            "px": 1.0
+                          },
+                          "style": "solid",
+                          "color": {
+                            "token": "line.hairline"
+                          }
+                        }
+                      },
+                      "transition": {
+                        "duration": 250,
+                        "properties": [
+                          "backgroundColor"
+                        ]
+                      }
+                    },
+                    "hover": {
+                      "background": {
+                        "token": "surface.raised"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "projects-5",
+                "kind": {
+                  "type": "link",
+                  "href": "/work",
+                  "target": "same"
+                },
+                "children": [
+                  {
+                    "id": "projects-5-g",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "children": [
+                      {
+                        "id": "projects-5-n",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "05"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.eyebrow",
+                                "color": {
+                                  "token": "ink.accent"
+                                },
+                                "transform": "uppercase"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "projects-5-t",
+                        "kind": {
+                          "type": "text",
+                          "tag": "h3",
+                          "content": "Under the Lantern"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.subtitle",
+                                "color": {
+                                  "token": "ink.body"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "projects-5-d",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Yuna and Diego, the last dance, by the light of one lantern."
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.muted"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "projects-5-c",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "Wedding · Tuscany"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.eyebrow",
+                                "color": {
+                                  "token": "ink.faint"
+                                },
+                                "transform": "uppercase"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "projects-5-y",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "2024"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.eyebrow",
+                                "color": {
+                                  "token": "ink.faint"
+                                },
+                                "transform": "uppercase"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "grid",
+                          "grid": {
+                            "columns": 1,
+                            "gap": {
+                              "px": 8.0
+                            }
+                          }
+                        }
+                      },
+                      "md": {
+                        "base": {
+                          "grid": {
+                            "templateColumns": "64px 1.3fr 1.6fr 1fr 60px",
+                            "gap": {
+                              "px": 24.0
+                            },
+                            "align": "center"
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "decoration": "none"
+                      },
+                      "display": "block",
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "px": 28.0
+                          },
+                          "bottom": {
+                            "px": 28.0
+                          }
+                        }
+                      },
+                      "border": {
+                        "bottom": {
+                          "width": {
+                            "px": 1.0
+                          },
+                          "style": "solid",
+                          "color": {
+                            "token": "line.hairline"
+                          }
+                        }
+                      },
+                      "transition": {
+                        "duration": 250,
+                        "properties": [
+                          "backgroundColor"
+                        ]
+                      }
+                    },
+                    "hover": {
+                      "background": {
+                        "token": "surface.raised"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "projects-6",
+                "kind": {
+                  "type": "link",
+                  "href": "/work",
+                  "target": "same"
+                },
+                "children": [
+                  {
+                    "id": "projects-6-g",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "children": [
+                      {
+                        "id": "projects-6-n",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "06"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.eyebrow",
+                                "color": {
+                                  "token": "ink.accent"
+                                },
+                                "transform": "uppercase"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "projects-6-t",
+                        "kind": {
+                          "type": "text",
+                          "tag": "h3",
+                          "content": "Black Sand"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.subtitle",
+                                "color": {
+                                  "token": "ink.body"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "projects-6-d",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Blue hour on a volcanic beach; the figure is my assistant, waiting."
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.muted"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "projects-6-c",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "Landscape · Iceland"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.eyebrow",
+                                "color": {
+                                  "token": "ink.faint"
+                                },
+                                "transform": "uppercase"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "projects-6-y",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "2025"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.eyebrow",
+                                "color": {
+                                  "token": "ink.faint"
+                                },
+                                "transform": "uppercase"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "grid",
+                          "grid": {
+                            "columns": 1,
+                            "gap": {
+                              "px": 8.0
+                            }
+                          }
+                        }
+                      },
+                      "md": {
+                        "base": {
+                          "grid": {
+                            "templateColumns": "64px 1.3fr 1.6fr 1fr 60px",
+                            "gap": {
+                              "px": 24.0
+                            },
+                            "align": "center"
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "decoration": "none"
+                      },
+                      "display": "block",
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "px": 28.0
+                          },
+                          "bottom": {
+                            "px": 28.0
+                          }
+                        }
+                      },
+                      "border": {
+                        "bottom": {
+                          "width": {
+                            "px": 1.0
+                          },
+                          "style": "solid",
+                          "color": {
+                            "token": "line.hairline"
+                          }
+                        }
+                      },
+                      "transition": {
+                        "duration": 250,
+                        "properties": [
+                          "backgroundColor"
+                        ]
+                      }
+                    },
+                    "hover": {
+                      "background": {
+                        "token": "surface.raised"
+                      }
+                    }
+                  }
+                }
+              }
+            ],
+            "styles": {
+              "base": {
+                "base": {
+                  "border": {
+                    "top": {
+                      "width": {
+                        "px": 1.0
+                      },
+                      "style": "solid",
+                      "color": {
+                        "token": "line.hairline"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "styles": {
+          "base": {
+            "base": {
+              "display": "flex",
+              "flex": {
+                "direction": "column",
+                "gap": {
+                  "px": 56.0
+                }
+              },
+              "size": {
+                "maxWidth": {
+                  "px": 1440.0
+                },
+                "width": {
+                  "percent": 100.0
+                }
+              },
+              "spacing": {
+                "margin": {
+                  "left": {
+                    "raw": "auto"
+                  },
+                  "right": {
+                    "raw": "auto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "styles": {
+      "base": {
+        "base": {
+          "background": {
+            "token": "surface.page"
+          },
+          "spacing": {
+            "padding": {
+              "top": {
+                "token": "space.section"
+              },
+              "bottom": {
+                "token": "space.section"
+              },
+              "left": {
+                "token": "space.gutter"
+              },
+              "right": {
+                "token": "space.gutter"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "props": []
+}

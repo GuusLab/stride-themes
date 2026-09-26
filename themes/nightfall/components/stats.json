@@ -1,0 +1,429 @@
+{
+  "id": "nightfall-stats",
+  "name": "Nightfall · Numbers",
+  "root": {
+    "id": "stats",
+    "kind": {
+      "type": "frame",
+      "element": "section"
+    },
+    "children": [
+      {
+        "id": "stats-inner",
+        "kind": {
+          "type": "frame"
+        },
+        "children": [
+          {
+            "id": "stats-grid",
+            "kind": {
+              "type": "frame"
+            },
+            "children": [
+              {
+                "id": "stats-1",
+                "kind": {
+                  "type": "frame"
+                },
+                "children": [
+                  {
+                    "id": "stats-1-n",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "12"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.numeral",
+                            "color": {
+                              "token": "ink.body"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "stats-1-l",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "years behind the camera"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.eyebrow",
+                            "color": {
+                              "token": "ink.muted"
+                            },
+                            "transform": "uppercase"
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "px": 10.0
+                        }
+                      },
+                      "border": {
+                        "top": {
+                          "width": {
+                            "px": 1.0
+                          },
+                          "style": "solid",
+                          "color": {
+                            "token": "line.strong"
+                          }
+                        }
+                      },
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "px": 24.0
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "stats-2",
+                "kind": {
+                  "type": "frame"
+                },
+                "children": [
+                  {
+                    "id": "stats-2-n",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "31"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.numeral",
+                            "color": {
+                              "token": "ink.body"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "stats-2-l",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "countries photographed"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.eyebrow",
+                            "color": {
+                              "token": "ink.muted"
+                            },
+                            "transform": "uppercase"
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "px": 10.0
+                        }
+                      },
+                      "border": {
+                        "top": {
+                          "width": {
+                            "px": 1.0
+                          },
+                          "style": "solid",
+                          "color": {
+                            "token": "line.strong"
+                          }
+                        }
+                      },
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "px": 24.0
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "stats-3",
+                "kind": {
+                  "type": "frame"
+                },
+                "children": [
+                  {
+                    "id": "stats-3-n",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "140+"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.numeral",
+                            "color": {
+                              "token": "ink.body"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "stats-3-l",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "editorial commissions"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.eyebrow",
+                            "color": {
+                              "token": "ink.muted"
+                            },
+                            "transform": "uppercase"
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "px": 10.0
+                        }
+                      },
+                      "border": {
+                        "top": {
+                          "width": {
+                            "px": 1.0
+                          },
+                          "style": "solid",
+                          "color": {
+                            "token": "line.strong"
+                          }
+                        }
+                      },
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "px": 24.0
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "stats-4",
+                "kind": {
+                  "type": "frame"
+                },
+                "children": [
+                  {
+                    "id": "stats-4-n",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "6"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.numeral",
+                            "color": {
+                              "token": "ink.body"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "stats-4-l",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "solo exhibitions"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.eyebrow",
+                            "color": {
+                              "token": "ink.muted"
+                            },
+                            "transform": "uppercase"
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "px": 10.0
+                        }
+                      },
+                      "border": {
+                        "top": {
+                          "width": {
+                            "px": 1.0
+                          },
+                          "style": "solid",
+                          "color": {
+                            "token": "line.strong"
+                          }
+                        }
+                      },
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "px": 24.0
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            ],
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "grid",
+                  "grid": {
+                    "columns": 2,
+                    "gap": {
+                      "px": 32.0
+                    }
+                  }
+                }
+              },
+              "lg": {
+                "base": {
+                  "grid": {
+                    "columns": 4,
+                    "gap": {
+                      "px": 40.0
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "styles": {
+          "base": {
+            "base": {
+              "display": "flex",
+              "flex": {
+                "direction": "column",
+                "gap": {
+                  "px": 48.0
+                }
+              },
+              "size": {
+                "maxWidth": {
+                  "px": 1440.0
+                },
+                "width": {
+                  "percent": 100.0
+                }
+              },
+              "spacing": {
+                "margin": {
+                  "left": {
+                    "raw": "auto"
+                  },
+                  "right": {
+                    "raw": "auto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "styles": {
+      "base": {
+        "base": {
+          "background": {
+            "token": "surface.page"
+          },
+          "spacing": {
+            "padding": {
+              "top": {
+                "token": "space.16"
+              },
+              "bottom": {
+                "token": "space.16"
+              },
+              "left": {
+                "token": "space.gutter"
+              },
+              "right": {
+                "token": "space.gutter"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "props": []
+}

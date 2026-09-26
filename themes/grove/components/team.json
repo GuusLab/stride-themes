@@ -1,0 +1,730 @@
+{
+  "id": "grove-team",
+  "name": "Grove / Teachers",
+  "root": {
+    "id": "team",
+    "kind": {
+      "type": "frame",
+      "element": "section"
+    },
+    "props": {
+      "id": "team"
+    },
+    "styles": {
+      "base": {
+        "base": {
+          "background": {
+            "token": "surface.sand"
+          },
+          "spacing": {
+            "padding": {
+              "top": {
+                "token": "section.y"
+              },
+              "right": {
+                "token": "gutter"
+              },
+              "bottom": {
+                "token": "section.y"
+              },
+              "left": {
+                "token": "gutter"
+              }
+            }
+          },
+          "position": {
+            "kind": "relative"
+          },
+          "overflow": "hidden"
+        }
+      }
+    },
+    "children": [
+      {
+        "id": "tm-inner",
+        "kind": {
+          "type": "frame",
+          "element": "div"
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "display": "flex",
+              "flex": {
+                "direction": "column",
+                "gap": {
+                  "px": 56.0
+                }
+              },
+              "size": {
+                "maxWidth": {
+                  "token": "content.max"
+                },
+                "width": {
+                  "percent": 100.0
+                }
+              },
+              "spacing": {
+                "margin": {
+                  "left": {
+                    "raw": "auto"
+                  },
+                  "right": {
+                    "raw": "auto"
+                  }
+                }
+              },
+              "position": {
+                "kind": "relative"
+              }
+            }
+          }
+        },
+        "children": [
+          {
+            "id": "tm-head",
+            "kind": {
+              "type": "frame",
+              "element": "div"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "flex",
+                  "flex": {
+                    "direction": "column",
+                    "gap": {
+                      "px": 18.0
+                    }
+                  },
+                  "size": {
+                    "maxWidth": {
+                      "px": 720.0
+                    }
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "tm-eyebrow",
+                "kind": {
+                  "type": "text",
+                  "tag": "p",
+                  "content": "Teachers"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.eyebrow",
+                        "color": {
+                          "token": "brand.strong"
+                        },
+                        "transform": "uppercase"
+                      }
+                    }
+                  }
+                },
+                "bindings": {
+                  "content": "eyebrow"
+                }
+              },
+              {
+                "id": "tm-title",
+                "kind": {
+                  "type": "text",
+                  "tag": "h2",
+                  "content": "The people who hold the room."
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.title",
+                        "color": {
+                          "token": "ink.body"
+                        }
+                      }
+                    }
+                  }
+                },
+                "bindings": {
+                  "content": "title"
+                }
+              },
+              {
+                "id": "tm-lead",
+                "kind": {
+                  "type": "text",
+                  "tag": "p",
+                  "content": "Small team, long tenure. Every teacher has at least 500 hours of training and a lot of patience."
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.lead",
+                        "color": {
+                          "token": "ink.muted"
+                        }
+                      }
+                    }
+                  }
+                },
+                "bindings": {
+                  "content": "lead"
+                }
+              }
+            ]
+          },
+          {
+            "id": "tm-grid",
+            "kind": {
+              "type": "frame",
+              "element": "div"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "grid",
+                  "grid": {
+                    "columns": 1,
+                    "gap": {
+                      "px": 40.0
+                    }
+                  }
+                }
+              },
+              "md": {
+                "base": {
+                  "display": "grid",
+                  "grid": {
+                    "columns": 3,
+                    "gap": {
+                      "px": 32.0
+                    }
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "tm-1",
+                "kind": {
+                  "type": "frame",
+                  "element": "article"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "px": 12.0
+                        }
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "tm-1-img",
+                    "kind": {
+                      "type": "image",
+                      "src": "assets/images/coach.jpg",
+                      "alt": "Portrait of Amara Ellis"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "size": {
+                            "width": {
+                              "percent": 100.0
+                            },
+                            "height": {
+                              "px": 340.0
+                            }
+                          },
+                          "objectFit": "cover",
+                          "radius": {
+                            "token": "radius.organic"
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "src": "person1Src",
+                      "alt": "person1Alt"
+                    }
+                  },
+                  {
+                    "id": "tm-1-n",
+                    "kind": {
+                      "type": "text",
+                      "tag": "h3",
+                      "content": "Amara Ellis"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.subtitle",
+                            "color": {
+                              "token": "ink.body"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "content": "person1Name"
+                    }
+                  },
+                  {
+                    "id": "tm-1-r",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "Founder · Yoga & coaching"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.eyebrow",
+                            "color": {
+                              "token": "brand.strong"
+                            },
+                            "transform": "uppercase"
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "content": "person1Role"
+                    }
+                  },
+                  {
+                    "id": "tm-1-b",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "Twenty years of practice, a decade of teaching, and an unshakable belief in the nap."
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.body",
+                            "color": {
+                              "token": "ink.muted"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "content": "person1Bio"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "tm-2",
+                "kind": {
+                  "type": "frame",
+                  "element": "article"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "px": 12.0
+                        }
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "tm-2-img",
+                    "kind": {
+                      "type": "image",
+                      "src": "assets/images/studio.jpg",
+                      "alt": "Portrait of Mei Tanaka"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "size": {
+                            "width": {
+                              "percent": 100.0
+                            },
+                            "height": {
+                              "px": 340.0
+                            }
+                          },
+                          "objectFit": "cover",
+                          "radius": {
+                            "token": "radius.organic"
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "src": "person2Src",
+                      "alt": "person2Alt"
+                    }
+                  },
+                  {
+                    "id": "tm-2-n",
+                    "kind": {
+                      "type": "text",
+                      "tag": "h3",
+                      "content": "Mei Tanaka"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.subtitle",
+                            "color": {
+                              "token": "ink.body"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "content": "person2Name"
+                    }
+                  },
+                  {
+                    "id": "tm-2-r",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "Yin & restorative"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.eyebrow",
+                            "color": {
+                              "token": "brand.strong"
+                            },
+                            "transform": "uppercase"
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "content": "person2Role"
+                    }
+                  },
+                  {
+                    "id": "tm-2-b",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "Former physiotherapist who teaches anatomy with a very light touch."
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.body",
+                            "color": {
+                              "token": "ink.muted"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "content": "person2Bio"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "tm-3",
+                "kind": {
+                  "type": "frame",
+                  "element": "article"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "px": 12.0
+                        }
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "tm-3-img",
+                    "kind": {
+                      "type": "image",
+                      "src": "assets/images/outdoor.jpg",
+                      "alt": "Portrait of Tomás Rivera"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "size": {
+                            "width": {
+                              "percent": 100.0
+                            },
+                            "height": {
+                              "px": 340.0
+                            }
+                          },
+                          "objectFit": "cover",
+                          "radius": {
+                            "token": "radius.organic"
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "src": "person3Src",
+                      "alt": "person3Alt"
+                    }
+                  },
+                  {
+                    "id": "tm-3-n",
+                    "kind": {
+                      "type": "text",
+                      "tag": "h3",
+                      "content": "Tomás Rivera"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.subtitle",
+                            "color": {
+                              "token": "ink.body"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "content": "person3Name"
+                    }
+                  },
+                  {
+                    "id": "tm-3-r",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "Breathwork & sound"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.eyebrow",
+                            "color": {
+                              "token": "brand.strong"
+                            },
+                            "transform": "uppercase"
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "content": "person3Role"
+                    }
+                  },
+                  {
+                    "id": "tm-3-b",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "Leads our Tuesday Yin & Sound and the summer dune sessions."
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.body",
+                            "color": {
+                              "token": "ink.muted"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "content": "person3Bio"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "props": [
+    {
+      "name": "person1Src",
+      "label": "Person 1 image",
+      "kind": {
+        "type": "image"
+      },
+      "default": "assets/images/coach.jpg"
+    },
+    {
+      "name": "person1Alt",
+      "label": "Person 1 alt text",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Portrait of Amara Ellis"
+    },
+    {
+      "name": "person1Name",
+      "label": "Person 1 name",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Amara Ellis"
+    },
+    {
+      "name": "person1Role",
+      "label": "Person 1 role",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Founder · Yoga & coaching"
+    },
+    {
+      "name": "person1Bio",
+      "label": "Person 1 bio",
+      "kind": {
+        "type": "longText"
+      },
+      "default": "Twenty years of practice, a decade of teaching, and an unshakable belief in the nap."
+    },
+    {
+      "name": "person2Src",
+      "label": "Person 2 image",
+      "kind": {
+        "type": "image"
+      },
+      "default": "assets/images/studio.jpg"
+    },
+    {
+      "name": "person2Alt",
+      "label": "Person 2 alt text",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Portrait of Mei Tanaka"
+    },
+    {
+      "name": "person2Name",
+      "label": "Person 2 name",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Mei Tanaka"
+    },
+    {
+      "name": "person2Role",
+      "label": "Person 2 role",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Yin & restorative"
+    },
+    {
+      "name": "person2Bio",
+      "label": "Person 2 bio",
+      "kind": {
+        "type": "longText"
+      },
+      "default": "Former physiotherapist who teaches anatomy with a very light touch."
+    },
+    {
+      "name": "person3Src",
+      "label": "Person 3 image",
+      "kind": {
+        "type": "image"
+      },
+      "default": "assets/images/outdoor.jpg"
+    },
+    {
+      "name": "person3Alt",
+      "label": "Person 3 alt text",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Portrait of Tomás Rivera"
+    },
+    {
+      "name": "person3Name",
+      "label": "Person 3 name",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Tomás Rivera"
+    },
+    {
+      "name": "person3Role",
+      "label": "Person 3 role",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Breathwork & sound"
+    },
+    {
+      "name": "person3Bio",
+      "label": "Person 3 bio",
+      "kind": {
+        "type": "longText"
+      },
+      "default": "Leads our Tuesday Yin & Sound and the summer dune sessions."
+    },
+    {
+      "name": "eyebrow",
+      "label": "Eyebrow",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Teachers"
+    },
+    {
+      "name": "title",
+      "label": "Title",
+      "kind": {
+        "type": "text"
+      },
+      "default": "The people who hold the room."
+    },
+    {
+      "name": "lead",
+      "label": "Intro",
+      "kind": {
+        "type": "longText"
+      },
+      "default": "Small team, long tenure. Every teacher has at least 500 hours of training and a lot of patience."
+    }
+  ]
+}

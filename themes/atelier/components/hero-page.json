@@ -1,0 +1,277 @@
+{
+  "id": "atelier-hero-page",
+  "name": "Atelier · Hero — Page title",
+  "root": {
+    "id": "hp",
+    "kind": {
+      "type": "frame",
+      "element": "section"
+    },
+    "styles": {
+      "base": {
+        "base": {
+          "background": {
+            "token": "surface.page"
+          },
+          "spacing": {
+            "padding": {
+              "top": {
+                "token": "space.16"
+              },
+              "bottom": {
+                "token": "space.16"
+              },
+              "left": {
+                "token": "space.gutter"
+              },
+              "right": {
+                "token": "space.gutter"
+              }
+            }
+          }
+        }
+      },
+      "lg": {
+        "base": {
+          "spacing": {
+            "padding": {
+              "top": {
+                "token": "space.24"
+              },
+              "bottom": {
+                "token": "space.16"
+              },
+              "left": {
+                "token": "space.gutter"
+              },
+              "right": {
+                "token": "space.gutter"
+              }
+            }
+          }
+        }
+      }
+    },
+    "children": [
+      {
+        "id": "hp-in",
+        "kind": {
+          "type": "frame",
+          "element": "div"
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "size": {
+                "maxWidth": {
+                  "px": 1320
+                },
+                "width": {
+                  "percent": 100
+                }
+              },
+              "spacing": {
+                "margin": {
+                  "left": {
+                    "raw": "auto"
+                  },
+                  "right": {
+                    "raw": "auto"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "children": [
+          {
+            "id": "hp-g",
+            "kind": {
+              "type": "frame",
+              "element": "div"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "grid",
+                  "grid": {
+                    "templateColumns": "minmax(0, 1fr)",
+                    "gap": {
+                      "token": "space.8"
+                    }
+                  }
+                }
+              },
+              "md": {
+                "base": {
+                  "grid": {
+                    "templateColumns": "minmax(0, 8fr) minmax(0, 4fr)",
+                    "gap": {
+                      "token": "space.8"
+                    }
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "hp-t",
+                "kind": {
+                  "type": "frame",
+                  "element": "div"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "token": "space.6"
+                        }
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "hp-ey",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "Studio"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.label",
+                            "color": {
+                              "token": "ink.accent"
+                            },
+                            "transform": "uppercase"
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "content": "eyebrow"
+                    }
+                  },
+                  {
+                    "id": "hp-h",
+                    "kind": {
+                      "type": "text",
+                      "tag": "h1",
+                      "content": "A small studio with long memory."
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.display",
+                            "color": {
+                              "token": "ink.body"
+                            }
+                          },
+                          "custom": {
+                            "text-wrap": "balance"
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "content": "title"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "hp-p",
+                "kind": {
+                  "type": "text",
+                  "tag": "p",
+                  "content": "Fifteen years, two cities and one conviction: the best work comes from staying close to the people who make things."
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.lead",
+                        "color": {
+                          "token": "ink.muted"
+                        }
+                      }
+                    }
+                  },
+                  "md": {
+                    "base": {
+                      "custom": {
+                        "align-self": "end"
+                      }
+                    }
+                  }
+                },
+                "bindings": {
+                  "content": "lead"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "props": [
+    {
+      "name": "eyebrow",
+      "label": "Eyebrow",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Studio"
+    },
+    {
+      "name": "title",
+      "label": "Title",
+      "kind": {
+        "type": "longText"
+      },
+      "default": "A small studio with long memory."
+    },
+    {
+      "name": "lead",
+      "label": "Lead",
+      "kind": {
+        "type": "longText"
+      },
+      "default": "Fifteen years, two cities and one conviction: the best work comes from staying close to the people who make things."
+    }
+  ],
+  "variants": {
+    "plain": {},
+    "raised": {
+      "styles": {
+        "base": {
+          "base": {
+            "background": {
+              "token": "surface.raised"
+            }
+          }
+        }
+      }
+    },
+    "dark": {
+      "styles": {
+        "base": {
+          "base": {
+            "background": {
+              "token": "surface.deep"
+            }
+          }
+        }
+      }
+    }
+  },
+  "defaultVariant": "plain"
+}

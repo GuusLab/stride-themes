@@ -1,0 +1,3676 @@
+{
+  "root": {
+    "id": "root",
+    "kind": {
+      "type": "frame"
+    },
+    "children": [
+      {
+        "id": "header",
+        "kind": {
+          "type": "frame",
+          "element": "header"
+        },
+        "children": [
+          {
+            "id": "header-inner",
+            "kind": {
+              "type": "frame"
+            },
+            "children": [
+              {
+                "id": "header-brand",
+                "kind": {
+                  "type": "link",
+                  "href": "/",
+                  "target": "same"
+                },
+                "children": [
+                  {
+                    "id": "header-brand-row",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "children": [
+                      {
+                        "id": "header-brand-mark",
+                        "kind": {
+                          "type": "frame"
+                        },
+                        "children": [
+                          {
+                            "id": "header-brand-mark-t",
+                            "kind": {
+                              "type": "text",
+                              "tag": "span",
+                              "content": "H/V"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.eyebrow",
+                                    "color": {
+                                      "token": "ink.inverse"
+                                    },
+                                    "letterSpacing": {
+                                      "raw": "0.02em"
+                                    },
+                                    "weight": 700
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "flex",
+                              "flex": {
+                                "align": "center",
+                                "justify": "center"
+                              },
+                              "size": {
+                                "width": {
+                                  "px": 38.0
+                                },
+                                "height": {
+                                  "px": 38.0
+                                }
+                              },
+                              "radius": {
+                                "token": "radius.sm"
+                              },
+                              "background": {
+                                "token": "surface.accent"
+                              },
+                              "border": {
+                                "bottom": {
+                                  "width": {
+                                    "px": 3.0
+                                  },
+                                  "style": "solid",
+                                  "color": {
+                                    "token": "surface.warm"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "header-brand-name",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "Halden & Vorst"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.subtitle",
+                                "color": {
+                                  "token": "ink.body"
+                                },
+                                "size": {
+                                  "rem": 1.1875
+                                },
+                                "letterSpacing": {
+                                  "raw": "-0.02em"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "row",
+                            "gap": {
+                              "px": 12.0
+                            },
+                            "align": "center",
+                            "wrap": false
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "decoration": "none"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "header-nav",
+                "kind": {
+                  "type": "frame",
+                  "element": "nav"
+                },
+                "children": [
+                  {
+                    "id": "header-nav-1",
+                    "kind": {
+                      "type": "link",
+                      "href": "/services",
+                      "target": "same"
+                    },
+                    "children": [
+                      {
+                        "id": "header-nav-1-label",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "Services"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.body"
+                                },
+                                "weight": 500
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "decoration": "none"
+                          },
+                          "spacing": {
+                            "padding": {
+                              "top": {
+                                "px": 6.0
+                              },
+                              "right": {
+                                "px": 0.0
+                              },
+                              "bottom": {
+                                "px": 6.0
+                              },
+                              "left": {
+                                "px": 0.0
+                              }
+                            }
+                          },
+                          "border": {
+                            "bottom": {
+                              "width": {
+                                "px": 1.0
+                              },
+                              "style": "solid",
+                              "color": {
+                                "raw": "transparent"
+                              }
+                            }
+                          }
+                        },
+                        "hover": {
+                          "border": {
+                            "bottom": {
+                              "width": {
+                                "px": 1.0
+                              },
+                              "style": "solid",
+                              "color": {
+                                "token": "surface.warm"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "header-nav-2",
+                    "kind": {
+                      "type": "link",
+                      "href": "/about",
+                      "target": "same"
+                    },
+                    "children": [
+                      {
+                        "id": "header-nav-2-label",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "Firm"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.body"
+                                },
+                                "weight": 500
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "decoration": "none"
+                          },
+                          "spacing": {
+                            "padding": {
+                              "top": {
+                                "px": 6.0
+                              },
+                              "right": {
+                                "px": 0.0
+                              },
+                              "bottom": {
+                                "px": 6.0
+                              },
+                              "left": {
+                                "px": 0.0
+                              }
+                            }
+                          },
+                          "border": {
+                            "bottom": {
+                              "width": {
+                                "px": 1.0
+                              },
+                              "style": "solid",
+                              "color": {
+                                "raw": "transparent"
+                              }
+                            }
+                          }
+                        },
+                        "hover": {
+                          "border": {
+                            "bottom": {
+                              "width": {
+                                "px": 1.0
+                              },
+                              "style": "solid",
+                              "color": {
+                                "token": "surface.warm"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "header-nav-3",
+                    "kind": {
+                      "type": "link",
+                      "href": "/insights",
+                      "target": "same"
+                    },
+                    "children": [
+                      {
+                        "id": "header-nav-3-label",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "Insights"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.body"
+                                },
+                                "weight": 500
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "decoration": "none"
+                          },
+                          "spacing": {
+                            "padding": {
+                              "top": {
+                                "px": 6.0
+                              },
+                              "right": {
+                                "px": 0.0
+                              },
+                              "bottom": {
+                                "px": 6.0
+                              },
+                              "left": {
+                                "px": 0.0
+                              }
+                            }
+                          },
+                          "border": {
+                            "bottom": {
+                              "width": {
+                                "px": 1.0
+                              },
+                              "style": "solid",
+                              "color": {
+                                "raw": "transparent"
+                              }
+                            }
+                          }
+                        },
+                        "hover": {
+                          "border": {
+                            "bottom": {
+                              "width": {
+                                "px": 1.0
+                              },
+                              "style": "solid",
+                              "color": {
+                                "token": "surface.warm"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "header-nav-4",
+                    "kind": {
+                      "type": "link",
+                      "href": "/contact",
+                      "target": "same"
+                    },
+                    "children": [
+                      {
+                        "id": "header-nav-4-label",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "Contact"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.body"
+                                },
+                                "weight": 500
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "decoration": "none"
+                          },
+                          "spacing": {
+                            "padding": {
+                              "top": {
+                                "px": 6.0
+                              },
+                              "right": {
+                                "px": 0.0
+                              },
+                              "bottom": {
+                                "px": 6.0
+                              },
+                              "left": {
+                                "px": 0.0
+                              }
+                            }
+                          },
+                          "border": {
+                            "bottom": {
+                              "width": {
+                                "px": 1.0
+                              },
+                              "style": "solid",
+                              "color": {
+                                "raw": "transparent"
+                              }
+                            }
+                          }
+                        },
+                        "hover": {
+                          "border": {
+                            "bottom": {
+                              "width": {
+                                "px": 1.0
+                              },
+                              "style": "solid",
+                              "color": {
+                                "token": "surface.warm"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "none"
+                    }
+                  },
+                  "md": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "row",
+                        "gap": {
+                          "px": 36.0
+                        },
+                        "align": "center"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "header-cta",
+                "kind": {
+                  "type": "button",
+                  "label": "Book a consultation",
+                  "href": "/contact",
+                  "target": "same"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "none",
+                      "background": {
+                        "token": "surface.accent"
+                      },
+                      "radius": {
+                        "token": "radius.sm"
+                      },
+                      "size": {
+                        "width": {
+                          "raw": "fit-content"
+                        }
+                      },
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "px": 11.0
+                          },
+                          "right": {
+                            "px": 16.0
+                          },
+                          "bottom": {
+                            "px": 11.0
+                          },
+                          "left": {
+                            "px": 16.0
+                          }
+                        }
+                      },
+                      "typography": {
+                        "token": "type.button",
+                        "color": {
+                          "token": "ink.inverse"
+                        },
+                        "decoration": "none",
+                        "size": {
+                          "rem": 0.875
+                        }
+                      },
+                      "border": {
+                        "width": {
+                          "px": 1.0
+                        },
+                        "style": "solid",
+                        "color": {
+                          "token": "surface.accent"
+                        }
+                      },
+                      "transition": {
+                        "duration": 180,
+                        "easing": "easeOut",
+                        "properties": [
+                          "backgroundColor",
+                          "borderColor",
+                          "transform"
+                        ]
+                      }
+                    },
+                    "hover": {
+                      "background": {
+                        "token": "surface.deep"
+                      },
+                      "border": {
+                        "width": {
+                          "px": 1.0
+                        },
+                        "style": "solid",
+                        "color": {
+                          "token": "surface.deep"
+                        }
+                      }
+                    }
+                  },
+                  "md": {
+                    "base": {
+                      "display": "inlineBlock"
+                    }
+                  }
+                }
+              }
+            ],
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "flex",
+                  "flex": {
+                    "direction": "row",
+                    "align": "center",
+                    "justify": "spaceBetween",
+                    "gap": {
+                      "px": 12.0
+                    },
+                    "wrap": false
+                  },
+                  "size": {
+                    "maxWidth": {
+                      "px": 1240.0
+                    },
+                    "width": {
+                      "percent": 100.0
+                    }
+                  },
+                  "spacing": {
+                    "margin": {
+                      "left": {
+                        "raw": "auto"
+                      },
+                      "right": {
+                        "raw": "auto"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "styles": {
+          "base": {
+            "base": {
+              "background": {
+                "raw": "rgb(255 255 255 / 0.9)"
+              },
+              "custom": {
+                "backdrop-filter": "saturate(1.6) blur(14px)"
+              },
+              "position": {
+                "kind": "sticky",
+                "inset": {
+                  "top": {
+                    "px": 0.0
+                  }
+                },
+                "zIndex": 20
+              },
+              "border": {
+                "bottom": {
+                  "width": {
+                    "px": 1.0
+                  },
+                  "style": "solid",
+                  "color": {
+                    "token": "line.hairline"
+                  }
+                }
+              },
+              "spacing": {
+                "padding": {
+                  "top": {
+                    "px": 14.0
+                  },
+                  "right": {
+                    "px": 20.0
+                  },
+                  "bottom": {
+                    "px": 14.0
+                  },
+                  "left": {
+                    "px": 20.0
+                  }
+                }
+              }
+            }
+          },
+          "md": {
+            "base": {
+              "spacing": {
+                "padding": {
+                  "top": {
+                    "px": 18.0
+                  },
+                  "right": {
+                    "px": 40.0
+                  },
+                  "bottom": {
+                    "px": 18.0
+                  },
+                  "left": {
+                    "px": 40.0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "main",
+        "kind": {
+          "type": "frame",
+          "element": "main"
+        },
+        "children": [
+          {
+            "id": "contact-hero",
+            "kind": {
+              "type": "frame",
+              "element": "section"
+            },
+            "children": [
+              {
+                "id": "contact-hero-inner",
+                "kind": {
+                  "type": "frame"
+                },
+                "children": [
+                  {
+                    "id": "contact-hero-copy",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "children": [
+                      {
+                        "id": "contact-hero-eyebrow-row",
+                        "kind": {
+                          "type": "frame"
+                        },
+                        "children": [
+                          {
+                            "id": "contact-hero-eyebrow-rule",
+                            "kind": {
+                              "type": "frame"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "size": {
+                                    "width": {
+                                      "px": 28.0
+                                    },
+                                    "height": {
+                                      "px": 1.0
+                                    }
+                                  },
+                                  "background": {
+                                    "token": "surface.warm"
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "contact-hero-eyebrow",
+                            "kind": {
+                              "type": "text",
+                              "tag": "p",
+                              "content": "Contact"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.eyebrow",
+                                    "color": {
+                                      "token": "ink.brass"
+                                    },
+                                    "transform": "uppercase"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "flex",
+                              "flex": {
+                                "direction": "row",
+                                "gap": {
+                                  "px": 12.0
+                                },
+                                "align": "center",
+                                "wrap": false
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "contact-hero-title",
+                        "kind": {
+                          "type": "text",
+                          "tag": "h1",
+                          "content": "Start with a confidential conversation."
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.display",
+                                "color": {
+                                  "token": "ink.inverse"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "contact-hero-lead",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "The first 30 minutes are free. A partner will call you back within one working day."
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.lead",
+                                "color": {
+                                  "token": "ink.inverse.muted"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "column",
+                            "gap": {
+                              "px": 20.0
+                            }
+                          },
+                          "size": {
+                            "maxWidth": {
+                              "px": 760.0
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "px": 32.0
+                        }
+                      },
+                      "size": {
+                        "maxWidth": {
+                          "px": 1240.0
+                        },
+                        "width": {
+                          "percent": 100.0
+                        }
+                      },
+                      "spacing": {
+                        "margin": {
+                          "left": {
+                            "raw": "auto"
+                          },
+                          "right": {
+                            "raw": "auto"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            ],
+            "styles": {
+              "base": {
+                "base": {
+                  "background": {
+                    "token": "surface.deep"
+                  },
+                  "backgroundImage": {
+                    "url": "assets/images/meeting.webp"
+                  },
+                  "backgroundSize": "cover",
+                  "backgroundPosition": "center",
+                  "custom": {
+                    "background-image": "linear-gradient(100deg, rgb(14 27 44 / 0.96) 0%, rgb(14 27 44 / 0.86) 45%, rgb(30 58 95 / 0.45) 100%), url(assets/images/meeting.webp)"
+                  },
+                  "display": "flex",
+                  "flex": {
+                    "direction": "column",
+                    "justify": "end"
+                  },
+                  "size": {
+                    "minHeight": {
+                      "px": 420.0
+                    }
+                  },
+                  "spacing": {
+                    "padding": {
+                      "top": {
+                        "px": 112.0
+                      },
+                      "right": {
+                        "px": 20.0
+                      },
+                      "bottom": {
+                        "px": 64.0
+                      },
+                      "left": {
+                        "px": 20.0
+                      }
+                    }
+                  }
+                }
+              },
+              "md": {
+                "base": {
+                  "size": {
+                    "minHeight": {
+                      "px": 520.0
+                    }
+                  },
+                  "spacing": {
+                    "padding": {
+                      "top": {
+                        "px": 160.0
+                      },
+                      "right": {
+                        "px": 40.0
+                      },
+                      "bottom": {
+                        "px": 96.0
+                      },
+                      "left": {
+                        "px": 40.0
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": "enquiry",
+            "kind": {
+              "type": "frame",
+              "element": "section"
+            },
+            "children": [
+              {
+                "id": "enquiry-inner",
+                "kind": {
+                  "type": "frame"
+                },
+                "children": [
+                  {
+                    "id": "enquiry-grid",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "children": [
+                      {
+                        "id": "enquiry-left",
+                        "kind": {
+                          "type": "frame"
+                        },
+                        "children": [
+                          {
+                            "id": "enquiry-h-head",
+                            "kind": {
+                              "type": "frame"
+                            },
+                            "children": [
+                              {
+                                "id": "enquiry-h-eyebrow-row",
+                                "kind": {
+                                  "type": "frame"
+                                },
+                                "children": [
+                                  {
+                                    "id": "enquiry-h-eyebrow-rule",
+                                    "kind": {
+                                      "type": "frame"
+                                    },
+                                    "styles": {
+                                      "base": {
+                                        "base": {
+                                          "size": {
+                                            "width": {
+                                              "px": 28.0
+                                            },
+                                            "height": {
+                                              "px": 1.0
+                                            }
+                                          },
+                                          "background": {
+                                            "token": "surface.warm"
+                                          }
+                                        }
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "id": "enquiry-h-eyebrow",
+                                    "kind": {
+                                      "type": "text",
+                                      "tag": "p",
+                                      "content": "Contact"
+                                    },
+                                    "styles": {
+                                      "base": {
+                                        "base": {
+                                          "typography": {
+                                            "token": "type.eyebrow",
+                                            "color": {
+                                              "token": "ink.warm"
+                                            },
+                                            "transform": "uppercase"
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                ],
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "display": "flex",
+                                      "flex": {
+                                        "direction": "row",
+                                        "gap": {
+                                          "px": 12.0
+                                        },
+                                        "align": "center",
+                                        "wrap": false
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              {
+                                "id": "enquiry-h-title",
+                                "kind": {
+                                  "type": "text",
+                                  "tag": "h2",
+                                  "content": "Tell us about your matter."
+                                },
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "typography": {
+                                        "token": "type.title",
+                                        "color": {
+                                          "token": "ink.body"
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              {
+                                "id": "enquiry-h-lead",
+                                "kind": {
+                                  "type": "text",
+                                  "tag": "p",
+                                  "content": "Share as much or as little as you like. A partner reads every enquiry and replies within one working day, under strict confidentiality."
+                                },
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "typography": {
+                                        "token": "type.lead",
+                                        "color": {
+                                          "token": "ink.muted"
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            ],
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "display": "flex",
+                                  "flex": {
+                                    "direction": "column",
+                                    "gap": {
+                                      "px": 18.0
+                                    }
+                                  },
+                                  "size": {
+                                    "maxWidth": {
+                                      "px": 760.0
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "enquiry-m1",
+                            "kind": {
+                              "type": "frame"
+                            },
+                            "children": [
+                              {
+                                "id": "enquiry-m1-b",
+                                "kind": {
+                                  "type": "frame"
+                                },
+                                "children": [
+                                  {
+                                    "id": "enquiry-m1-i",
+                                    "kind": {
+                                      "type": "icon",
+                                      "name": "phone"
+                                    },
+                                    "styles": {
+                                      "base": {
+                                        "base": {
+                                          "typography": {
+                                            "color": {
+                                              "token": "ink.accent"
+                                            }
+                                          },
+                                          "size": {
+                                            "width": {
+                                              "px": 20.0
+                                            },
+                                            "height": {
+                                              "px": 20.0
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                ],
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "display": "flex",
+                                      "flex": {
+                                        "align": "center",
+                                        "justify": "center"
+                                      },
+                                      "size": {
+                                        "width": {
+                                          "px": 44.0
+                                        },
+                                        "height": {
+                                          "px": 44.0
+                                        }
+                                      },
+                                      "radius": {
+                                        "token": "radius.sm"
+                                      },
+                                      "background": {
+                                        "token": "surface.tint"
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              {
+                                "id": "enquiry-m1-t",
+                                "kind": {
+                                  "type": "frame"
+                                },
+                                "children": [
+                                  {
+                                    "id": "enquiry-m1-k",
+                                    "kind": {
+                                      "type": "text",
+                                      "tag": "span",
+                                      "content": "Call the duty partner"
+                                    },
+                                    "styles": {
+                                      "base": {
+                                        "base": {
+                                          "typography": {
+                                            "token": "type.body",
+                                            "color": {
+                                              "token": "ink.body"
+                                            },
+                                            "weight": 500
+                                          }
+                                        }
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "id": "enquiry-m1-v",
+                                    "kind": {
+                                      "type": "text",
+                                      "tag": "span",
+                                      "content": "+31 20 555 0190, weekdays 8:30 to 18:30"
+                                    },
+                                    "styles": {
+                                      "base": {
+                                        "base": {
+                                          "typography": {
+                                            "token": "type.small",
+                                            "color": {
+                                              "token": "ink.muted"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                ],
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "display": "flex",
+                                      "flex": {
+                                        "direction": "column",
+                                        "gap": {
+                                          "px": 2.0
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            ],
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "display": "flex",
+                                  "flex": {
+                                    "direction": "row",
+                                    "gap": {
+                                      "px": 16.0
+                                    },
+                                    "align": "center",
+                                    "wrap": false
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "enquiry-m2",
+                            "kind": {
+                              "type": "frame"
+                            },
+                            "children": [
+                              {
+                                "id": "enquiry-m2-b",
+                                "kind": {
+                                  "type": "frame"
+                                },
+                                "children": [
+                                  {
+                                    "id": "enquiry-m2-i",
+                                    "kind": {
+                                      "type": "icon",
+                                      "name": "mail"
+                                    },
+                                    "styles": {
+                                      "base": {
+                                        "base": {
+                                          "typography": {
+                                            "color": {
+                                              "token": "ink.accent"
+                                            }
+                                          },
+                                          "size": {
+                                            "width": {
+                                              "px": 20.0
+                                            },
+                                            "height": {
+                                              "px": 20.0
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                ],
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "display": "flex",
+                                      "flex": {
+                                        "align": "center",
+                                        "justify": "center"
+                                      },
+                                      "size": {
+                                        "width": {
+                                          "px": 44.0
+                                        },
+                                        "height": {
+                                          "px": 44.0
+                                        }
+                                      },
+                                      "radius": {
+                                        "token": "radius.sm"
+                                      },
+                                      "background": {
+                                        "token": "surface.tint"
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              {
+                                "id": "enquiry-m2-t",
+                                "kind": {
+                                  "type": "frame"
+                                },
+                                "children": [
+                                  {
+                                    "id": "enquiry-m2-k",
+                                    "kind": {
+                                      "type": "text",
+                                      "tag": "span",
+                                      "content": "Write to us"
+                                    },
+                                    "styles": {
+                                      "base": {
+                                        "base": {
+                                          "typography": {
+                                            "token": "type.body",
+                                            "color": {
+                                              "token": "ink.body"
+                                            },
+                                            "weight": 500
+                                          }
+                                        }
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "id": "enquiry-m2-v",
+                                    "kind": {
+                                      "type": "text",
+                                      "tag": "span",
+                                      "content": "office@haldenvorst.example"
+                                    },
+                                    "styles": {
+                                      "base": {
+                                        "base": {
+                                          "typography": {
+                                            "token": "type.small",
+                                            "color": {
+                                              "token": "ink.muted"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                ],
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "display": "flex",
+                                      "flex": {
+                                        "direction": "column",
+                                        "gap": {
+                                          "px": 2.0
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            ],
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "display": "flex",
+                                  "flex": {
+                                    "direction": "row",
+                                    "gap": {
+                                      "px": 16.0
+                                    },
+                                    "align": "center",
+                                    "wrap": false
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "enquiry-m3",
+                            "kind": {
+                              "type": "frame"
+                            },
+                            "children": [
+                              {
+                                "id": "enquiry-m3-b",
+                                "kind": {
+                                  "type": "frame"
+                                },
+                                "children": [
+                                  {
+                                    "id": "enquiry-m3-i",
+                                    "kind": {
+                                      "type": "icon",
+                                      "name": "location"
+                                    },
+                                    "styles": {
+                                      "base": {
+                                        "base": {
+                                          "typography": {
+                                            "color": {
+                                              "token": "ink.accent"
+                                            }
+                                          },
+                                          "size": {
+                                            "width": {
+                                              "px": 20.0
+                                            },
+                                            "height": {
+                                              "px": 20.0
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                ],
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "display": "flex",
+                                      "flex": {
+                                        "align": "center",
+                                        "justify": "center"
+                                      },
+                                      "size": {
+                                        "width": {
+                                          "px": 44.0
+                                        },
+                                        "height": {
+                                          "px": 44.0
+                                        }
+                                      },
+                                      "radius": {
+                                        "token": "radius.sm"
+                                      },
+                                      "background": {
+                                        "token": "surface.tint"
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              {
+                                "id": "enquiry-m3-t",
+                                "kind": {
+                                  "type": "frame"
+                                },
+                                "children": [
+                                  {
+                                    "id": "enquiry-m3-k",
+                                    "kind": {
+                                      "type": "text",
+                                      "tag": "span",
+                                      "content": "Visit"
+                                    },
+                                    "styles": {
+                                      "base": {
+                                        "base": {
+                                          "typography": {
+                                            "token": "type.body",
+                                            "color": {
+                                              "token": "ink.body"
+                                            },
+                                            "weight": 500
+                                          }
+                                        }
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "id": "enquiry-m3-v",
+                                    "kind": {
+                                      "type": "text",
+                                      "tag": "span",
+                                      "content": "Amstel Quay 41, 1018 Amsterdam"
+                                    },
+                                    "styles": {
+                                      "base": {
+                                        "base": {
+                                          "typography": {
+                                            "token": "type.small",
+                                            "color": {
+                                              "token": "ink.muted"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                ],
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "display": "flex",
+                                      "flex": {
+                                        "direction": "column",
+                                        "gap": {
+                                          "px": 2.0
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            ],
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "display": "flex",
+                                  "flex": {
+                                    "direction": "row",
+                                    "gap": {
+                                      "px": 16.0
+                                    },
+                                    "align": "center",
+                                    "wrap": false
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "flex",
+                              "flex": {
+                                "direction": "column",
+                                "gap": {
+                                  "px": 24.0
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "enquiry-form",
+                        "kind": {
+                          "type": "frame"
+                        },
+                        "children": [
+                          {
+                            "id": "enquiry-row1",
+                            "kind": {
+                              "type": "frame"
+                            },
+                            "children": [
+                              {
+                                "id": "enquiry-f1",
+                                "kind": {
+                                  "type": "frame"
+                                },
+                                "children": [
+                                  {
+                                    "id": "enquiry-f1-l",
+                                    "kind": {
+                                      "type": "text",
+                                      "tag": "span",
+                                      "content": "Full name"
+                                    },
+                                    "styles": {
+                                      "base": {
+                                        "base": {
+                                          "typography": {
+                                            "token": "type.small",
+                                            "color": {
+                                              "token": "ink.body"
+                                            },
+                                            "weight": 500
+                                          }
+                                        }
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "id": "enquiry-f1-box",
+                                    "kind": {
+                                      "type": "frame"
+                                    },
+                                    "children": [
+                                      {
+                                        "id": "enquiry-f1-h",
+                                        "kind": {
+                                          "type": "text",
+                                          "tag": "span",
+                                          "content": "Jane Mercer"
+                                        },
+                                        "styles": {
+                                          "base": {
+                                            "base": {
+                                              "typography": {
+                                                "token": "type.body",
+                                                "color": {
+                                                  "token": "ink.muted"
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    ],
+                                    "styles": {
+                                      "base": {
+                                        "base": {
+                                          "background": {
+                                            "token": "surface.page"
+                                          },
+                                          "radius": {
+                                            "token": "radius.sm"
+                                          },
+                                          "border": {
+                                            "width": {
+                                              "px": 1.0
+                                            },
+                                            "style": "solid",
+                                            "color": {
+                                              "token": "line.hairline"
+                                            }
+                                          },
+                                          "spacing": {
+                                            "padding": {
+                                              "top": {
+                                                "px": 13.0
+                                              },
+                                              "right": {
+                                                "px": 14.0
+                                              },
+                                              "bottom": {
+                                                "px": 13.0
+                                              },
+                                              "left": {
+                                                "px": 14.0
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                ],
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "display": "flex",
+                                      "flex": {
+                                        "direction": "column",
+                                        "gap": {
+                                          "px": 8.0
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              {
+                                "id": "enquiry-f2",
+                                "kind": {
+                                  "type": "frame"
+                                },
+                                "children": [
+                                  {
+                                    "id": "enquiry-f2-l",
+                                    "kind": {
+                                      "type": "text",
+                                      "tag": "span",
+                                      "content": "Company"
+                                    },
+                                    "styles": {
+                                      "base": {
+                                        "base": {
+                                          "typography": {
+                                            "token": "type.small",
+                                            "color": {
+                                              "token": "ink.body"
+                                            },
+                                            "weight": 500
+                                          }
+                                        }
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "id": "enquiry-f2-box",
+                                    "kind": {
+                                      "type": "frame"
+                                    },
+                                    "children": [
+                                      {
+                                        "id": "enquiry-f2-h",
+                                        "kind": {
+                                          "type": "text",
+                                          "tag": "span",
+                                          "content": "Mercer Holdings"
+                                        },
+                                        "styles": {
+                                          "base": {
+                                            "base": {
+                                              "typography": {
+                                                "token": "type.body",
+                                                "color": {
+                                                  "token": "ink.muted"
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    ],
+                                    "styles": {
+                                      "base": {
+                                        "base": {
+                                          "background": {
+                                            "token": "surface.page"
+                                          },
+                                          "radius": {
+                                            "token": "radius.sm"
+                                          },
+                                          "border": {
+                                            "width": {
+                                              "px": 1.0
+                                            },
+                                            "style": "solid",
+                                            "color": {
+                                              "token": "line.hairline"
+                                            }
+                                          },
+                                          "spacing": {
+                                            "padding": {
+                                              "top": {
+                                                "px": 13.0
+                                              },
+                                              "right": {
+                                                "px": 14.0
+                                              },
+                                              "bottom": {
+                                                "px": 13.0
+                                              },
+                                              "left": {
+                                                "px": 14.0
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                ],
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "display": "flex",
+                                      "flex": {
+                                        "direction": "column",
+                                        "gap": {
+                                          "px": 8.0
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            ],
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "display": "grid",
+                                  "grid": {
+                                    "columns": 1,
+                                    "gap": {
+                                      "px": 16.0
+                                    }
+                                  }
+                                }
+                              },
+                              "md": {
+                                "base": {
+                                  "display": "grid",
+                                  "grid": {
+                                    "columns": 2
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "enquiry-row2",
+                            "kind": {
+                              "type": "frame"
+                            },
+                            "children": [
+                              {
+                                "id": "enquiry-f3",
+                                "kind": {
+                                  "type": "frame"
+                                },
+                                "children": [
+                                  {
+                                    "id": "enquiry-f3-l",
+                                    "kind": {
+                                      "type": "text",
+                                      "tag": "span",
+                                      "content": "Email"
+                                    },
+                                    "styles": {
+                                      "base": {
+                                        "base": {
+                                          "typography": {
+                                            "token": "type.small",
+                                            "color": {
+                                              "token": "ink.body"
+                                            },
+                                            "weight": 500
+                                          }
+                                        }
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "id": "enquiry-f3-box",
+                                    "kind": {
+                                      "type": "frame"
+                                    },
+                                    "children": [
+                                      {
+                                        "id": "enquiry-f3-h",
+                                        "kind": {
+                                          "type": "text",
+                                          "tag": "span",
+                                          "content": "jane@company.com"
+                                        },
+                                        "styles": {
+                                          "base": {
+                                            "base": {
+                                              "typography": {
+                                                "token": "type.body",
+                                                "color": {
+                                                  "token": "ink.muted"
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    ],
+                                    "styles": {
+                                      "base": {
+                                        "base": {
+                                          "background": {
+                                            "token": "surface.page"
+                                          },
+                                          "radius": {
+                                            "token": "radius.sm"
+                                          },
+                                          "border": {
+                                            "width": {
+                                              "px": 1.0
+                                            },
+                                            "style": "solid",
+                                            "color": {
+                                              "token": "line.hairline"
+                                            }
+                                          },
+                                          "spacing": {
+                                            "padding": {
+                                              "top": {
+                                                "px": 13.0
+                                              },
+                                              "right": {
+                                                "px": 14.0
+                                              },
+                                              "bottom": {
+                                                "px": 13.0
+                                              },
+                                              "left": {
+                                                "px": 14.0
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                ],
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "display": "flex",
+                                      "flex": {
+                                        "direction": "column",
+                                        "gap": {
+                                          "px": 8.0
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              {
+                                "id": "enquiry-f4",
+                                "kind": {
+                                  "type": "frame"
+                                },
+                                "children": [
+                                  {
+                                    "id": "enquiry-f4-l",
+                                    "kind": {
+                                      "type": "text",
+                                      "tag": "span",
+                                      "content": "Practice area"
+                                    },
+                                    "styles": {
+                                      "base": {
+                                        "base": {
+                                          "typography": {
+                                            "token": "type.small",
+                                            "color": {
+                                              "token": "ink.body"
+                                            },
+                                            "weight": 500
+                                          }
+                                        }
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "id": "enquiry-f4-box",
+                                    "kind": {
+                                      "type": "frame"
+                                    },
+                                    "children": [
+                                      {
+                                        "id": "enquiry-f4-h",
+                                        "kind": {
+                                          "type": "text",
+                                          "tag": "span",
+                                          "content": "Corporate & M&A"
+                                        },
+                                        "styles": {
+                                          "base": {
+                                            "base": {
+                                              "typography": {
+                                                "token": "type.body",
+                                                "color": {
+                                                  "token": "ink.muted"
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    ],
+                                    "styles": {
+                                      "base": {
+                                        "base": {
+                                          "background": {
+                                            "token": "surface.page"
+                                          },
+                                          "radius": {
+                                            "token": "radius.sm"
+                                          },
+                                          "border": {
+                                            "width": {
+                                              "px": 1.0
+                                            },
+                                            "style": "solid",
+                                            "color": {
+                                              "token": "line.hairline"
+                                            }
+                                          },
+                                          "spacing": {
+                                            "padding": {
+                                              "top": {
+                                                "px": 13.0
+                                              },
+                                              "right": {
+                                                "px": 14.0
+                                              },
+                                              "bottom": {
+                                                "px": 13.0
+                                              },
+                                              "left": {
+                                                "px": 14.0
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                ],
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "display": "flex",
+                                      "flex": {
+                                        "direction": "column",
+                                        "gap": {
+                                          "px": 8.0
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            ],
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "display": "grid",
+                                  "grid": {
+                                    "columns": 1,
+                                    "gap": {
+                                      "px": 16.0
+                                    }
+                                  }
+                                }
+                              },
+                              "md": {
+                                "base": {
+                                  "display": "grid",
+                                  "grid": {
+                                    "columns": 2
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "enquiry-f5",
+                            "kind": {
+                              "type": "frame"
+                            },
+                            "children": [
+                              {
+                                "id": "enquiry-f5-l",
+                                "kind": {
+                                  "type": "text",
+                                  "tag": "span",
+                                  "content": "How can we help?"
+                                },
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "typography": {
+                                        "token": "type.small",
+                                        "color": {
+                                          "token": "ink.body"
+                                        },
+                                        "weight": 500
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              {
+                                "id": "enquiry-f5-box",
+                                "kind": {
+                                  "type": "frame"
+                                },
+                                "children": [
+                                  {
+                                    "id": "enquiry-f5-h",
+                                    "kind": {
+                                      "type": "text",
+                                      "tag": "span",
+                                      "content": "A short description of the matter and any deadlines"
+                                    },
+                                    "styles": {
+                                      "base": {
+                                        "base": {
+                                          "typography": {
+                                            "token": "type.body",
+                                            "color": {
+                                              "token": "ink.muted"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                ],
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "background": {
+                                        "token": "surface.page"
+                                      },
+                                      "radius": {
+                                        "token": "radius.sm"
+                                      },
+                                      "border": {
+                                        "width": {
+                                          "px": 1.0
+                                        },
+                                        "style": "solid",
+                                        "color": {
+                                          "token": "line.hairline"
+                                        }
+                                      },
+                                      "spacing": {
+                                        "padding": {
+                                          "top": {
+                                            "px": 13.0
+                                          },
+                                          "right": {
+                                            "px": 14.0
+                                          },
+                                          "bottom": {
+                                            "px": 13.0
+                                          },
+                                          "left": {
+                                            "px": 14.0
+                                          }
+                                        }
+                                      },
+                                      "size": {
+                                        "minHeight": {
+                                          "px": 120.0
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            ],
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "display": "flex",
+                                  "flex": {
+                                    "direction": "column",
+                                    "gap": {
+                                      "px": 8.0
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "enquiry-submit",
+                            "kind": {
+                              "type": "button",
+                              "label": "Send enquiry  →",
+                              "href": "mailto:office@haldenvorst.example",
+                              "target": "same"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "display": "inlineBlock",
+                                  "background": {
+                                    "token": "surface.accent"
+                                  },
+                                  "radius": {
+                                    "token": "radius.sm"
+                                  },
+                                  "size": {
+                                    "width": {
+                                      "raw": "fit-content"
+                                    }
+                                  },
+                                  "spacing": {
+                                    "padding": {
+                                      "top": {
+                                        "px": 15.0
+                                      },
+                                      "right": {
+                                        "px": 24.0
+                                      },
+                                      "bottom": {
+                                        "px": 15.0
+                                      },
+                                      "left": {
+                                        "px": 24.0
+                                      }
+                                    }
+                                  },
+                                  "typography": {
+                                    "token": "type.button",
+                                    "color": {
+                                      "token": "ink.inverse"
+                                    },
+                                    "decoration": "none"
+                                  },
+                                  "border": {
+                                    "width": {
+                                      "px": 1.0
+                                    },
+                                    "style": "solid",
+                                    "color": {
+                                      "token": "surface.accent"
+                                    }
+                                  },
+                                  "transition": {
+                                    "duration": 180,
+                                    "easing": "easeOut",
+                                    "properties": [
+                                      "backgroundColor",
+                                      "borderColor",
+                                      "transform"
+                                    ]
+                                  }
+                                },
+                                "hover": {
+                                  "background": {
+                                    "token": "surface.deep"
+                                  },
+                                  "border": {
+                                    "width": {
+                                      "px": 1.0
+                                    },
+                                    "style": "solid",
+                                    "color": {
+                                      "token": "surface.deep"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "enquiry-fine",
+                            "kind": {
+                              "type": "text",
+                              "tag": "p",
+                              "content": "Connect a Stride form here to route enquiries to your inbox. Sending this does not create a client relationship."
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.small",
+                                    "color": {
+                                      "token": "ink.muted"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "flex",
+                              "flex": {
+                                "direction": "column",
+                                "gap": {
+                                  "px": 18.0
+                                }
+                              },
+                              "background": {
+                                "token": "surface.card"
+                              },
+                              "radius": {
+                                "token": "radius.md"
+                              },
+                              "border": {
+                                "top": {
+                                  "width": {
+                                    "px": 3.0
+                                  },
+                                  "style": "solid",
+                                  "color": {
+                                    "token": "surface.accent"
+                                  }
+                                }
+                              },
+                              "overflow": "hidden",
+                              "shadow": {
+                                "token": "shadow.card"
+                              },
+                              "spacing": {
+                                "padding": {
+                                  "top": {
+                                    "px": 32.0
+                                  },
+                                  "right": {
+                                    "px": 32.0
+                                  },
+                                  "bottom": {
+                                    "px": 32.0
+                                  },
+                                  "left": {
+                                    "px": 32.0
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "grid",
+                          "grid": {
+                            "columns": 1,
+                            "gap": {
+                              "px": 48.0
+                            }
+                          }
+                        }
+                      },
+                      "md": {
+                        "base": {
+                          "display": "grid",
+                          "grid": {
+                            "columns": 2,
+                            "gap": {
+                              "px": 72.0
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "px": 32.0
+                        }
+                      },
+                      "size": {
+                        "maxWidth": {
+                          "px": 1240.0
+                        },
+                        "width": {
+                          "percent": 100.0
+                        }
+                      },
+                      "spacing": {
+                        "margin": {
+                          "left": {
+                            "raw": "auto"
+                          },
+                          "right": {
+                            "raw": "auto"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            ],
+            "styles": {
+              "base": {
+                "base": {
+                  "background": {
+                    "token": "surface.raised"
+                  },
+                  "spacing": {
+                    "padding": {
+                      "top": {
+                        "px": 72.0
+                      },
+                      "right": {
+                        "px": 20.0
+                      },
+                      "bottom": {
+                        "px": 72.0
+                      },
+                      "left": {
+                        "px": 20.0
+                      }
+                    }
+                  }
+                }
+              },
+              "md": {
+                "base": {
+                  "spacing": {
+                    "padding": {
+                      "top": {
+                        "px": 112.0
+                      },
+                      "right": {
+                        "px": 40.0
+                      },
+                      "bottom": {
+                        "px": 112.0
+                      },
+                      "left": {
+                        "px": 40.0
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": "offices",
+            "kind": {
+              "type": "frame",
+              "element": "section"
+            },
+            "children": [
+              {
+                "id": "offices-inner",
+                "kind": {
+                  "type": "frame"
+                },
+                "children": [
+                  {
+                    "id": "offices-head",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "children": [
+                      {
+                        "id": "offices-eyebrow-row",
+                        "kind": {
+                          "type": "frame"
+                        },
+                        "children": [
+                          {
+                            "id": "offices-eyebrow-rule",
+                            "kind": {
+                              "type": "frame"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "size": {
+                                    "width": {
+                                      "px": 28.0
+                                    },
+                                    "height": {
+                                      "px": 1.0
+                                    }
+                                  },
+                                  "background": {
+                                    "token": "surface.warm"
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "offices-eyebrow",
+                            "kind": {
+                              "type": "text",
+                              "tag": "p",
+                              "content": "Our offices"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.eyebrow",
+                                    "color": {
+                                      "token": "ink.warm"
+                                    },
+                                    "transform": "uppercase"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "flex",
+                              "flex": {
+                                "direction": "row",
+                                "gap": {
+                                  "px": 12.0
+                                },
+                                "align": "center",
+                                "wrap": false
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "offices-title",
+                        "kind": {
+                          "type": "text",
+                          "tag": "h2",
+                          "content": "Quiet rooms for serious conversations."
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.title",
+                                "color": {
+                                  "token": "ink.body"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "offices-lead",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Amsterdam and London, ten minutes from the central stations. Meeting rooms are soundproofed and screened; nothing you say leaves them."
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.lead",
+                                "color": {
+                                  "token": "ink.muted"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "column",
+                            "gap": {
+                              "px": 18.0
+                            }
+                          },
+                          "size": {
+                            "maxWidth": {
+                              "px": 760.0
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "offices-grid",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "children": [
+                      {
+                        "id": "offices-1",
+                        "kind": {
+                          "type": "frame"
+                        },
+                        "children": [
+                          {
+                            "id": "offices-1-img",
+                            "kind": {
+                              "type": "image",
+                              "src": "assets/images/lobby.webp",
+                              "alt": "The reception at Amstel Quay, with navy chairs and stone floors"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "display": "block",
+                                  "size": {
+                                    "width": {
+                                      "percent": 100.0
+                                    },
+                                    "height": {
+                                      "percent": 100.0
+                                    }
+                                  },
+                                  "objectFit": "cover",
+                                  "aspectRatio": {
+                                    "ratio": {
+                                      "width": 4.0,
+                                      "height": 3.0
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "overflow": "hidden",
+                              "radius": {
+                                "token": "radius.md"
+                              }
+                            }
+                          },
+                          "md": {
+                            "base": {
+                              "custom": {
+                                "grid-column": "span 2",
+                                "grid-row": "span 2"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "offices-2",
+                        "kind": {
+                          "type": "frame"
+                        },
+                        "children": [
+                          {
+                            "id": "offices-2-img",
+                            "kind": {
+                              "type": "image",
+                              "src": "assets/images/meeting.webp",
+                              "alt": "Partners in a client meeting overlooking the city"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "display": "block",
+                                  "size": {
+                                    "width": {
+                                      "percent": 100.0
+                                    },
+                                    "height": {
+                                      "percent": 100.0
+                                    }
+                                  },
+                                  "objectFit": "cover",
+                                  "aspectRatio": {
+                                    "ratio": {
+                                      "width": 4.0,
+                                      "height": 3.0
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "overflow": "hidden",
+                              "radius": {
+                                "token": "radius.md"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "offices-3",
+                        "kind": {
+                          "type": "frame"
+                        },
+                        "children": [
+                          {
+                            "id": "offices-3-img",
+                            "kind": {
+                              "type": "image",
+                              "src": "assets/images/desk.webp",
+                              "alt": "An adviser annotating financial charts with a fountain pen"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "display": "block",
+                                  "size": {
+                                    "width": {
+                                      "percent": 100.0
+                                    },
+                                    "height": {
+                                      "percent": 100.0
+                                    }
+                                  },
+                                  "objectFit": "cover",
+                                  "aspectRatio": {
+                                    "ratio": {
+                                      "width": 4.0,
+                                      "height": 3.0
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "overflow": "hidden",
+                              "radius": {
+                                "token": "radius.md"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "offices-4",
+                        "kind": {
+                          "type": "frame"
+                        },
+                        "children": [
+                          {
+                            "id": "offices-4-img",
+                            "kind": {
+                              "type": "image",
+                              "src": "assets/images/tower.webp",
+                              "alt": "The glass and stone facade of the Amstel Quay building"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "display": "block",
+                                  "size": {
+                                    "width": {
+                                      "percent": 100.0
+                                    },
+                                    "height": {
+                                      "percent": 100.0
+                                    }
+                                  },
+                                  "objectFit": "cover",
+                                  "aspectRatio": {
+                                    "ratio": {
+                                      "width": 4.0,
+                                      "height": 3.0
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "overflow": "hidden",
+                              "radius": {
+                                "token": "radius.md"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "grid",
+                          "grid": {
+                            "columns": 1,
+                            "gap": {
+                              "px": 16.0
+                            }
+                          }
+                        }
+                      },
+                      "md": {
+                        "base": {
+                          "grid": {
+                            "templateColumns": "repeat(4, 1fr)",
+                            "gap": {
+                              "px": 16.0
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "px": 44.0
+                        }
+                      },
+                      "size": {
+                        "maxWidth": {
+                          "px": 1240.0
+                        },
+                        "width": {
+                          "percent": 100.0
+                        }
+                      },
+                      "spacing": {
+                        "margin": {
+                          "left": {
+                            "raw": "auto"
+                          },
+                          "right": {
+                            "raw": "auto"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            ],
+            "styles": {
+              "base": {
+                "base": {
+                  "background": {
+                    "token": "surface.page"
+                  },
+                  "spacing": {
+                    "padding": {
+                      "top": {
+                        "px": 72.0
+                      },
+                      "right": {
+                        "px": 20.0
+                      },
+                      "bottom": {
+                        "px": 72.0
+                      },
+                      "left": {
+                        "px": 20.0
+                      }
+                    }
+                  }
+                }
+              },
+              "md": {
+                "base": {
+                  "spacing": {
+                    "padding": {
+                      "top": {
+                        "px": 112.0
+                      },
+                      "right": {
+                        "px": 40.0
+                      },
+                      "bottom": {
+                        "px": 112.0
+                      },
+                      "left": {
+                        "px": 40.0
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "footer",
+        "kind": {
+          "type": "frame",
+          "element": "footer"
+        },
+        "children": [
+          {
+            "id": "footer-inner",
+            "kind": {
+              "type": "frame"
+            },
+            "children": [
+              {
+                "id": "footer-grid",
+                "kind": {
+                  "type": "frame"
+                },
+                "children": [
+                  {
+                    "id": "footer-about",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "children": [
+                      {
+                        "id": "footer-brand",
+                        "kind": {
+                          "type": "link",
+                          "href": "/",
+                          "target": "same"
+                        },
+                        "children": [
+                          {
+                            "id": "footer-brand-row",
+                            "kind": {
+                              "type": "frame"
+                            },
+                            "children": [
+                              {
+                                "id": "footer-brand-mark",
+                                "kind": {
+                                  "type": "frame"
+                                },
+                                "children": [
+                                  {
+                                    "id": "footer-brand-mark-t",
+                                    "kind": {
+                                      "type": "text",
+                                      "tag": "span",
+                                      "content": "H/V"
+                                    },
+                                    "styles": {
+                                      "base": {
+                                        "base": {
+                                          "typography": {
+                                            "token": "type.eyebrow",
+                                            "color": {
+                                              "token": "ink.inverse"
+                                            },
+                                            "letterSpacing": {
+                                              "raw": "0.02em"
+                                            },
+                                            "weight": 700
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                ],
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "display": "flex",
+                                      "flex": {
+                                        "align": "center",
+                                        "justify": "center"
+                                      },
+                                      "size": {
+                                        "width": {
+                                          "px": 38.0
+                                        },
+                                        "height": {
+                                          "px": 38.0
+                                        }
+                                      },
+                                      "radius": {
+                                        "token": "radius.sm"
+                                      },
+                                      "background": {
+                                        "token": "surface.accent"
+                                      },
+                                      "border": {
+                                        "bottom": {
+                                          "width": {
+                                            "px": 3.0
+                                          },
+                                          "style": "solid",
+                                          "color": {
+                                            "token": "surface.warm"
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              {
+                                "id": "footer-brand-name",
+                                "kind": {
+                                  "type": "text",
+                                  "tag": "span",
+                                  "content": "Halden & Vorst"
+                                },
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "typography": {
+                                        "token": "type.subtitle",
+                                        "color": {
+                                          "token": "ink.inverse"
+                                        },
+                                        "size": {
+                                          "rem": 1.1875
+                                        },
+                                        "letterSpacing": {
+                                          "raw": "-0.02em"
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            ],
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "display": "flex",
+                                  "flex": {
+                                    "direction": "row",
+                                    "gap": {
+                                      "px": 12.0
+                                    },
+                                    "align": "center",
+                                    "wrap": false
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "decoration": "none"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "footer-blurb",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Independent advisers in corporate law, finance and governance. Partner-led since 1998."
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.inverse.muted"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "column",
+                            "gap": {
+                              "px": 18.0
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "footer-col-1",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "children": [
+                      {
+                        "id": "footer-col-1-t",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Practice"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.eyebrow",
+                                "color": {
+                                  "token": "ink.brass"
+                                },
+                                "transform": "uppercase"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "footer-col-1-0",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Corporate & M&A"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.inverse"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "footer-col-1-1",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Tax & structuring"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.inverse"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "footer-col-1-2",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Disputes"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.inverse"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "footer-col-1-3",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Governance"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.inverse"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "column",
+                            "gap": {
+                              "px": 10.0
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "footer-col-2",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "children": [
+                      {
+                        "id": "footer-col-2-t",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Firm"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.eyebrow",
+                                "color": {
+                                  "token": "ink.brass"
+                                },
+                                "transform": "uppercase"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "footer-col-2-0",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "About"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.inverse"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "footer-col-2-1",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Partners"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.inverse"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "footer-col-2-2",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Case studies"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.inverse"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "footer-col-2-3",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Careers"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.inverse"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "column",
+                            "gap": {
+                              "px": 10.0
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "footer-col-3",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "children": [
+                      {
+                        "id": "footer-col-3-t",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Offices"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.eyebrow",
+                                "color": {
+                                  "token": "ink.brass"
+                                },
+                                "transform": "uppercase"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "footer-col-3-0",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Amstel Quay 41, Amsterdam"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.inverse"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "footer-col-3-1",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "4 Clement Row, London"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.inverse"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "footer-col-3-2",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "+31 20 555 0190"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.inverse"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "footer-col-3-3",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "office@haldenvorst.example"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.inverse"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "column",
+                            "gap": {
+                              "px": 10.0
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "grid",
+                      "grid": {
+                        "columns": 1,
+                        "gap": {
+                          "px": 40.0
+                        }
+                      }
+                    }
+                  },
+                  "md": {
+                    "base": {
+                      "grid": {
+                        "templateColumns": "1.4fr 1fr 1fr 1.3fr",
+                        "gap": {
+                          "px": 48.0
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "footer-rule",
+                "kind": {
+                  "type": "divider"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "border": {
+                        "top": {
+                          "width": {
+                            "px": 1.0
+                          },
+                          "style": "solid",
+                          "color": {
+                            "token": "line.inverse"
+                          }
+                        }
+                      },
+                      "spacing": {
+                        "margin": {
+                          "top": {
+                            "px": 0.0
+                          },
+                          "right": {
+                            "px": 0.0
+                          },
+                          "bottom": {
+                            "px": 0.0
+                          },
+                          "left": {
+                            "px": 0.0
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "footer-legal",
+                "kind": {
+                  "type": "frame"
+                },
+                "children": [
+                  {
+                    "id": "footer-copy",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "© 2026 Halden & Vorst Advisory B.V. All rights reserved."
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "color": {
+                              "token": "ink.inverse.muted"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "footer-note",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "Privacy  ·  Terms of engagement  ·  Complaints procedure"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "color": {
+                              "token": "ink.inverse.muted"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "row",
+                        "gap": {
+                          "px": 16.0
+                        },
+                        "align": "center",
+                        "wrap": true,
+                        "justify": "spaceBetween"
+                      }
+                    }
+                  }
+                }
+              }
+            ],
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "flex",
+                  "flex": {
+                    "direction": "column",
+                    "gap": {
+                      "px": 48.0
+                    }
+                  },
+                  "size": {
+                    "maxWidth": {
+                      "px": 1240.0
+                    },
+                    "width": {
+                      "percent": 100.0
+                    }
+                  },
+                  "spacing": {
+                    "margin": {
+                      "left": {
+                        "raw": "auto"
+                      },
+                      "right": {
+                        "raw": "auto"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "styles": {
+          "base": {
+            "base": {
+              "background": {
+                "token": "surface.deep"
+              },
+              "spacing": {
+                "padding": {
+                  "top": {
+                    "px": 64.0
+                  },
+                  "right": {
+                    "px": 20.0
+                  },
+                  "bottom": {
+                    "px": 64.0
+                  },
+                  "left": {
+                    "px": 20.0
+                  }
+                }
+              }
+            }
+          },
+          "md": {
+            "base": {
+              "spacing": {
+                "padding": {
+                  "top": {
+                    "px": 88.0
+                  },
+                  "right": {
+                    "px": 40.0
+                  },
+                  "bottom": {
+                    "px": 88.0
+                  },
+                  "left": {
+                    "px": 40.0
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "styles": {
+      "base": {
+        "base": {
+          "background": {
+            "token": "surface.page"
+          },
+          "typography": {
+            "token": "type.body",
+            "color": {
+              "token": "ink.body"
+            }
+          },
+          "custom": {
+            "-webkit-font-smoothing": "antialiased",
+            "font-feature-settings": "'tnum' 1, 'ss01' 1"
+          }
+        }
+      }
+    }
+  }
+}

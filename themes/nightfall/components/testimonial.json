@@ -1,0 +1,224 @@
+{
+  "id": "nightfall-testimonial",
+  "name": "Nightfall · Testimonial",
+  "root": {
+    "id": "quote",
+    "kind": {
+      "type": "frame",
+      "element": "section"
+    },
+    "children": [
+      {
+        "id": "quote-grid",
+        "kind": {
+          "type": "frame"
+        },
+        "children": [
+          {
+            "id": "quote-image",
+            "kind": {
+              "type": "image",
+              "src": "assets/images/photographer.webp",
+              "alt": "The photographer at work with a medium format camera in a warm-lit studio"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "block",
+                  "size": {
+                    "width": {
+                      "percent": 100.0
+                    }
+                  },
+                  "objectFit": "cover",
+                  "aspectRatio": {
+                    "ratio": {
+                      "width": 4.0,
+                      "height": 5.0
+                    }
+                  },
+                  "radius": {
+                    "token": "radius.none"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": "quote-copy",
+            "kind": {
+              "type": "frame"
+            },
+            "children": [
+              {
+                "id": "quote-idx",
+                "kind": {
+                  "type": "text",
+                  "tag": "span",
+                  "content": "In their words"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.eyebrow",
+                        "color": {
+                          "token": "ink.accent"
+                        },
+                        "transform": "uppercase"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "quote-quote",
+                "kind": {
+                  "type": "quote",
+                  "attribution": "Imogen Achterberg, Photo director, Meridian Quarterly"
+                },
+                "children": [
+                  {
+                    "id": "quote-text",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "“Mara sees the frame before anyone else in the room does. The pictures she brought back from Porto carried the whole issue.”"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.statement",
+                            "color": {
+                              "token": "ink.body"
+                            }
+                          },
+                          "custom": {
+                            "font-style": "italic"
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "content": "quote"
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "px": 28.0
+                        }
+                      },
+                      "typography": {
+                        "color": {
+                          "token": "ink.muted"
+                        },
+                        "token": "type.small"
+                      }
+                    }
+                  }
+                }
+              }
+            ],
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "flex",
+                  "flex": {
+                    "direction": "column",
+                    "gap": {
+                      "px": 32.0
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "styles": {
+          "base": {
+            "base": {
+              "display": "grid",
+              "grid": {
+                "columns": 1,
+                "gap": {
+                  "px": 40.0
+                }
+              },
+              "size": {
+                "maxWidth": {
+                  "px": 1440.0
+                },
+                "width": {
+                  "percent": 100.0
+                }
+              },
+              "spacing": {
+                "margin": {
+                  "left": {
+                    "raw": "auto"
+                  },
+                  "right": {
+                    "raw": "auto"
+                  }
+                }
+              }
+            }
+          },
+          "md": {
+            "base": {
+              "grid": {
+                "templateColumns": "0.7fr 1.3fr",
+                "gap": {
+                  "px": 96.0
+                },
+                "align": "center"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "styles": {
+      "base": {
+        "base": {
+          "background": {
+            "token": "surface.raised"
+          },
+          "spacing": {
+            "padding": {
+              "top": {
+                "token": "space.section"
+              },
+              "bottom": {
+                "token": "space.section"
+              },
+              "left": {
+                "token": "space.gutter"
+              },
+              "right": {
+                "token": "space.gutter"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "props": [
+    {
+      "name": "quote",
+      "label": "Quote",
+      "kind": {
+        "type": "longText"
+      },
+      "default": "“Mara sees the frame before anyone else in the room does.”"
+    }
+  ]
+}

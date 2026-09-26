@@ -1,0 +1,68 @@
+{
+  "id": "nightfall",
+  "name": "Nightfall",
+  "version": "1.0.0",
+  "author": {
+    "id": "guuslab",
+    "name": "GuusLab"
+  },
+  "tagline": "Dark, image-led photography portfolio: full-bleed plates, quiet serif, gold.",
+  "longDescription": "Nightfall is a portfolio theme for photographers and visual artists who want the work to do the talking. Pages sit on a warm darkroom black so photographs glow the way they do on a lightbox, and a single safelight-gold accent marks the few things that matter: an index number, a button, one italic line in the footer.\n\nThe home page opens on a full-bleed photograph with a vertical plate caption, then moves through a short statement, a staggered 12-column gallery with numbered captions, numbers, commissions, a testimonial, journal entries and a photographic call to action. Type is minimal: Cormorant Garamond Light for headlines and Manrope for small, widely tracked labels.\n\nIncluded: 14 components (header with an overlay variant, footer, full-bleed and portrait-split heroes, statement, staggered gallery, project index, commissions, numbers, testimonial, call to action, contact block, clients and journal card) and six page templates (home, about, work, journal, contact and a 404), with copy for an invented photographer and seven original photographs. Every grid collapses to one column on phones.",
+  "categories": [
+    "portfolio",
+    "personal"
+  ],
+  "accent": "#E0B45C",
+  "icon": "icon.png",
+  "screenshots": [
+    {
+      "file": "screenshots/01.png",
+      "caption": "Home: a full-bleed plate with a quiet serif headline"
+    },
+    {
+      "file": "screenshots/02.png",
+      "caption": "Work: featured series"
+    },
+    {
+      "file": "screenshots/03.png",
+      "caption": "About: the photographer"
+    },
+    {
+      "file": "screenshots/04.png",
+      "caption": "On a phone: home, work and about"
+    }
+  ],
+  "fonts": [
+    {
+      "family": "Cormorant Garamond",
+      "file": "assets/fonts/cormorant-garamond-normal-300.woff2",
+      "weight": 300,
+      "style": "normal"
+    },
+    {
+      "family": "Cormorant Garamond",
+      "file": "assets/fonts/cormorant-garamond-italic-300.woff2",
+      "weight": 300,
+      "style": "italic"
+    },
+    {
+      "family": "Manrope",
+      "file": "assets/fonts/manrope-normal-400-600.woff2",
+      "weight": 400,
+      "style": "normal"
+    },
+    {
+      "family": "Manrope",
+      "file": "assets/fonts/manrope-normal-400-600.woff2",
+      "weight": 500,
+      "style": "normal"
+    },
+    {
+      "family": "Manrope",
+      "file": "assets/fonts/manrope-normal-400-600.woff2",
+      "weight": 600,
+      "style": "normal"
+    }
+  ],
+  "homeTemplate": "home"
+}

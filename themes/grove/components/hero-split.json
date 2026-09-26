@@ -1,0 +1,1165 @@
+{
+  "id": "grove-hero-split",
+  "name": "Grove / Hero — split with photo",
+  "root": {
+    "id": "hero",
+    "kind": {
+      "type": "frame",
+      "element": "section"
+    },
+    "styles": {
+      "base": {
+        "base": {
+          "background": {
+            "token": "surface.page"
+          },
+          "spacing": {
+            "padding": {
+              "top": {
+                "token": "space.16"
+              },
+              "right": {
+                "token": "gutter"
+              },
+              "bottom": {
+                "token": "space.24"
+              },
+              "left": {
+                "token": "gutter"
+              }
+            }
+          },
+          "position": {
+            "kind": "relative"
+          },
+          "overflow": "hidden"
+        }
+      }
+    },
+    "children": [
+      {
+        "id": "hero-blob",
+        "kind": {
+          "type": "frame",
+          "element": "div"
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "position": {
+                "kind": "absolute",
+                "inset": {
+                  "top": {
+                    "px": -220.0
+                  },
+                  "right": {
+                    "px": -200.0
+                  }
+                },
+                "zIndex": 0
+              },
+              "size": {
+                "width": {
+                  "px": 640.0
+                },
+                "height": {
+                  "px": 640.0
+                }
+              },
+              "background": {
+                "raw": "#DFE7DA"
+              },
+              "radius": {
+                "token": "radius.organic"
+              },
+              "opacity": 0.9,
+              "custom": {
+                "pointer-events": "none",
+                "filter": "blur(2px)"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "hero-blob2",
+        "kind": {
+          "type": "frame",
+          "element": "div"
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "position": {
+                "kind": "absolute",
+                "inset": {
+                  "bottom": {
+                    "px": -180.0
+                  },
+                  "left": {
+                    "px": -140.0
+                  }
+                },
+                "zIndex": 0
+              },
+              "size": {
+                "width": {
+                  "px": 380.0
+                },
+                "height": {
+                  "px": 380.0
+                }
+              },
+              "background": {
+                "raw": "#EDE3D1"
+              },
+              "radius": {
+                "token": "radius.organic"
+              },
+              "opacity": 0.9,
+              "custom": {
+                "pointer-events": "none",
+                "filter": "blur(2px)"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "hero-inner",
+        "kind": {
+          "type": "frame",
+          "element": "div"
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "display": "flex",
+              "flex": {
+                "direction": "column",
+                "gap": {
+                  "px": 0.0
+                }
+              },
+              "size": {
+                "maxWidth": {
+                  "token": "content.max"
+                },
+                "width": {
+                  "percent": 100.0
+                }
+              },
+              "spacing": {
+                "margin": {
+                  "left": {
+                    "raw": "auto"
+                  },
+                  "right": {
+                    "raw": "auto"
+                  }
+                }
+              },
+              "position": {
+                "kind": "relative"
+              }
+            }
+          }
+        },
+        "children": [
+          {
+            "id": "hero-grid",
+            "kind": {
+              "type": "frame",
+              "element": "div"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "grid",
+                  "grid": {
+                    "columns": 1,
+                    "gap": {
+                      "px": 48.0
+                    },
+                    "align": "center"
+                  }
+                }
+              },
+              "lg": {
+                "base": {
+                  "display": "grid",
+                  "grid": {
+                    "templateColumns": "1.05fr 0.95fr",
+                    "gap": {
+                      "px": 80.0
+                    },
+                    "align": "center"
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "hero-copy",
+                "kind": {
+                  "type": "frame",
+                  "element": "div"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "px": 28.0
+                        }
+                      },
+                      "position": {
+                        "kind": "relative",
+                        "zIndex": 2
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "hero-pill",
+                    "kind": {
+                      "type": "frame",
+                      "element": "div"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "inlineFlex",
+                          "flex": {
+                            "direction": "row",
+                            "gap": {
+                              "px": 10.0
+                            },
+                            "align": "center"
+                          },
+                          "size": {
+                            "width": {
+                              "raw": "fit-content"
+                            }
+                          },
+                          "background": {
+                            "token": "surface.sage"
+                          },
+                          "radius": {
+                            "token": "radius.pill"
+                          },
+                          "spacing": {
+                            "padding": {
+                              "top": {
+                                "px": 8.0
+                              },
+                              "right": {
+                                "px": 16.0
+                              },
+                              "bottom": {
+                                "px": 8.0
+                              },
+                              "left": {
+                                "px": 16.0
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "hero-dot",
+                        "kind": {
+                          "type": "frame",
+                          "element": "div"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "size": {
+                                "width": {
+                                  "px": 8.0
+                                },
+                                "height": {
+                                  "px": 8.0
+                                }
+                              },
+                              "background": {
+                                "token": "brand.primary"
+                              },
+                              "radius": {
+                                "token": "radius.pill"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "hero-eyebrow",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "Yoga · Breathwork · Coaching"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.eyebrow",
+                                "color": {
+                                  "token": "brand.strong"
+                                },
+                                "transform": "uppercase"
+                              }
+                            }
+                          }
+                        },
+                        "bindings": {
+                          "content": "eyebrow"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "hero-title",
+                    "kind": {
+                      "type": "text",
+                      "tag": "h1",
+                      "content": "Slow down. Come home to your body."
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.display",
+                            "color": {
+                              "token": "ink.body"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "content": "title"
+                    }
+                  },
+                  {
+                    "id": "hero-lead",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "Small classes, warm light and teachers who know your name. Grove is a place to breathe out, move with care and build a practice that fits your real life."
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.lead",
+                            "color": {
+                              "token": "ink.muted"
+                            }
+                          },
+                          "size": {
+                            "maxWidth": {
+                              "px": 520.0
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "content": "lead"
+                    }
+                  },
+                  {
+                    "id": "hero-actions",
+                    "kind": {
+                      "type": "frame",
+                      "element": "div"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "row",
+                            "gap": {
+                              "px": 14.0
+                            },
+                            "align": "center",
+                            "wrap": true
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "hero-cta",
+                        "kind": {
+                          "type": "button",
+                          "label": "Book your first class",
+                          "href": "/classes",
+                          "target": "same"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "inlineFlex",
+                              "background": {
+                                "token": "brand.strong"
+                              },
+                              "radius": {
+                                "token": "radius.pill"
+                              },
+                              "spacing": {
+                                "padding": {
+                                  "top": {
+                                    "px": 16.0
+                                  },
+                                  "right": {
+                                    "px": 30.0
+                                  },
+                                  "bottom": {
+                                    "px": 16.0
+                                  },
+                                  "left": {
+                                    "px": 30.0
+                                  }
+                                }
+                              },
+                              "typography": {
+                                "token": "type.button",
+                                "color": {
+                                  "token": "ink.inverse"
+                                },
+                                "align": "center",
+                                "decoration": "none"
+                              },
+                              "size": {
+                                "width": {
+                                  "raw": "fit-content"
+                                }
+                              },
+                              "transition": {
+                                "duration": 220,
+                                "properties": [
+                                  "backgroundColor",
+                                  "color",
+                                  "borderColor",
+                                  "boxShadow",
+                                  "transform"
+                                ]
+                              },
+                              "shadow": {
+                                "token": "shadow.soft"
+                              }
+                            },
+                            "hover": {
+                              "background": {
+                                "token": "surface.deep"
+                              },
+                              "custom": {
+                                "transform": "translateY(-2px)"
+                              }
+                            },
+                            "focus": {
+                              "custom": {
+                                "outline": "3px solid #6B8F71",
+                                "outline-offset": "3px"
+                              }
+                            }
+                          }
+                        },
+                        "bindings": {
+                          "label": "primaryLabel",
+                          "href": "primaryHref"
+                        }
+                      },
+                      {
+                        "id": "hero-cta2",
+                        "kind": {
+                          "type": "button",
+                          "label": "Meet the teachers",
+                          "href": "/about",
+                          "target": "same"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "inlineFlex",
+                              "radius": {
+                                "token": "radius.pill"
+                              },
+                              "border": {
+                                "width": {
+                                  "px": 1.5
+                                },
+                                "style": "solid",
+                                "color": {
+                                  "token": "line.hairline"
+                                }
+                              },
+                              "spacing": {
+                                "padding": {
+                                  "top": {
+                                    "px": 15.0
+                                  },
+                                  "right": {
+                                    "px": 28.0
+                                  },
+                                  "bottom": {
+                                    "px": 15.0
+                                  },
+                                  "left": {
+                                    "px": 28.0
+                                  }
+                                }
+                              },
+                              "typography": {
+                                "token": "type.button",
+                                "color": {
+                                  "token": "ink.body"
+                                },
+                                "align": "center",
+                                "decoration": "none"
+                              },
+                              "size": {
+                                "width": {
+                                  "raw": "fit-content"
+                                }
+                              },
+                              "transition": {
+                                "duration": 220,
+                                "properties": [
+                                  "backgroundColor",
+                                  "color",
+                                  "borderColor",
+                                  "boxShadow",
+                                  "transform"
+                                ]
+                              }
+                            },
+                            "hover": {
+                              "border": {
+                                "width": {
+                                  "px": 1.5
+                                },
+                                "style": "solid",
+                                "color": {
+                                  "token": "brand.primary"
+                                }
+                              },
+                              "typography": {
+                                "color": {
+                                  "token": "brand.strong"
+                                }
+                              }
+                            },
+                            "focus": {
+                              "custom": {
+                                "outline": "3px solid #6B8F71",
+                                "outline-offset": "3px"
+                              }
+                            }
+                          }
+                        },
+                        "bindings": {
+                          "label": "secondaryLabel",
+                          "href": "secondaryHref"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "hero-proof",
+                    "kind": {
+                      "type": "frame",
+                      "element": "div"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "row",
+                            "gap": {
+                              "px": 12.0
+                            },
+                            "align": "center",
+                            "wrap": true
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "hero-stars",
+                        "kind": {
+                          "type": "frame",
+                          "element": "div"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "flex",
+                              "flex": {
+                                "direction": "row",
+                                "gap": {
+                                  "px": 2.0
+                                },
+                                "align": "center"
+                              }
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": "star-0",
+                            "kind": {
+                              "type": "icon",
+                              "name": "star"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "size": {
+                                    "width": {
+                                      "px": 16.0
+                                    },
+                                    "height": {
+                                      "px": 16.0
+                                    }
+                                  },
+                                  "typography": {
+                                    "color": {
+                                      "token": "accent.clay"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "star-1",
+                            "kind": {
+                              "type": "icon",
+                              "name": "star"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "size": {
+                                    "width": {
+                                      "px": 16.0
+                                    },
+                                    "height": {
+                                      "px": 16.0
+                                    }
+                                  },
+                                  "typography": {
+                                    "color": {
+                                      "token": "accent.clay"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "star-2",
+                            "kind": {
+                              "type": "icon",
+                              "name": "star"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "size": {
+                                    "width": {
+                                      "px": 16.0
+                                    },
+                                    "height": {
+                                      "px": 16.0
+                                    }
+                                  },
+                                  "typography": {
+                                    "color": {
+                                      "token": "accent.clay"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "star-3",
+                            "kind": {
+                              "type": "icon",
+                              "name": "star"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "size": {
+                                    "width": {
+                                      "px": 16.0
+                                    },
+                                    "height": {
+                                      "px": 16.0
+                                    }
+                                  },
+                                  "typography": {
+                                    "color": {
+                                      "token": "accent.clay"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "star-4",
+                            "kind": {
+                              "type": "icon",
+                              "name": "star"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "size": {
+                                    "width": {
+                                      "px": 16.0
+                                    },
+                                    "height": {
+                                      "px": 16.0
+                                    }
+                                  },
+                                  "typography": {
+                                    "color": {
+                                      "token": "accent.clay"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "hero-proof-t",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "4.9 from 320 students · First class free"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.muted"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "bindings": {
+                          "content": "proof"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "hero-media",
+                "kind": {
+                  "type": "frame",
+                  "element": "div"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "position": {
+                        "kind": "relative"
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "hero-img",
+                    "kind": {
+                      "type": "image",
+                      "src": "assets/images/studio.jpg",
+                      "alt": "A woman sits cross-legged on a sand-coloured mat in a sunlit studio with linen curtains"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "size": {
+                            "width": {
+                              "percent": 100.0
+                            },
+                            "height": {
+                              "px": 440.0
+                            }
+                          },
+                          "objectFit": "cover",
+                          "corners": {
+                            "topLeft": {
+                              "px": 200.0
+                            },
+                            "topRight": {
+                              "px": 32.0
+                            },
+                            "bottomRight": {
+                              "px": 200.0
+                            },
+                            "bottomLeft": {
+                              "px": 32.0
+                            }
+                          },
+                          "shadow": {
+                            "token": "shadow.float"
+                          }
+                        }
+                      },
+                      "md": {
+                        "base": {
+                          "size": {
+                            "width": {
+                              "percent": 100.0
+                            },
+                            "height": {
+                              "px": 620.0
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "src": "imageSrc",
+                      "alt": "imageAlt"
+                    }
+                  },
+                  {
+                    "id": "hero-card",
+                    "kind": {
+                      "type": "frame",
+                      "element": "div"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "row",
+                            "gap": {
+                              "px": 14.0
+                            },
+                            "align": "center"
+                          },
+                          "background": {
+                            "token": "surface.card"
+                          },
+                          "radius": {
+                            "token": "radius.lg"
+                          },
+                          "spacing": {
+                            "padding": {
+                              "top": {
+                                "px": 14.0
+                              },
+                              "right": {
+                                "px": 22.0
+                              },
+                              "bottom": {
+                                "px": 14.0
+                              },
+                              "left": {
+                                "px": 14.0
+                              }
+                            }
+                          },
+                          "shadow": {
+                            "token": "shadow.float"
+                          },
+                          "position": {
+                            "kind": "absolute",
+                            "inset": {
+                              "left": {
+                                "px": 16.0
+                              },
+                              "bottom": {
+                                "px": 24.0
+                              }
+                            },
+                            "zIndex": 3
+                          }
+                        }
+                      },
+                      "md": {
+                        "base": {
+                          "position": {
+                            "kind": "absolute",
+                            "inset": {
+                              "left": {
+                                "px": -40.0
+                              },
+                              "bottom": {
+                                "px": 56.0
+                              }
+                            },
+                            "zIndex": 3
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "hc-ic",
+                        "kind": {
+                          "type": "frame",
+                          "element": "div"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "flex",
+                              "flex": {
+                                "direction": "row",
+                                "align": "center",
+                                "justify": "center"
+                              },
+                              "size": {
+                                "width": {
+                                  "px": 44.0
+                                },
+                                "height": {
+                                  "px": 44.0
+                                }
+                              },
+                              "background": {
+                                "token": "brand.primary"
+                              },
+                              "radius": {
+                                "token": "radius.md"
+                              },
+                              "custom": {
+                                "flex-shrink": "0"
+                              }
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": "hc-icon",
+                            "kind": {
+                              "type": "icon",
+                              "name": "calendar"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "size": {
+                                    "width": {
+                                      "px": 20.0
+                                    },
+                                    "height": {
+                                      "px": 20.0
+                                    }
+                                  },
+                                  "typography": {
+                                    "color": {
+                                      "token": "ink.inverse"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "hc-txt",
+                        "kind": {
+                          "type": "frame",
+                          "element": "div"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "flex",
+                              "flex": {
+                                "direction": "column",
+                                "gap": {
+                                  "px": 2.0
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": "hc-k",
+                            "kind": {
+                              "type": "text",
+                              "tag": "p",
+                              "content": "Next class"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.small",
+                                    "color": {
+                                      "token": "ink.muted"
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "bindings": {
+                              "content": "cardKicker"
+                            }
+                          },
+                          {
+                            "id": "hc-v",
+                            "kind": {
+                              "type": "text",
+                              "tag": "p",
+                              "content": "Morning Flow · Tue 7:30"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.button",
+                                    "color": {
+                                      "token": "ink.body"
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "bindings": {
+                              "content": "cardText"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "props": [
+    {
+      "name": "eyebrow",
+      "label": "Eyebrow",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Yoga · Breathwork · Coaching"
+    },
+    {
+      "name": "title",
+      "label": "Headline",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Slow down. Come home to your body."
+    },
+    {
+      "name": "lead",
+      "label": "Intro",
+      "kind": {
+        "type": "longText"
+      },
+      "default": "Small classes, warm light and teachers who know your name. Grove is a place to breathe out, move with care and build a practice that fits your real life."
+    },
+    {
+      "name": "primaryLabel",
+      "label": "Primary button label",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Book your first class"
+    },
+    {
+      "name": "primaryHref",
+      "label": "Primary button link",
+      "kind": {
+        "type": "url"
+      },
+      "default": "/classes"
+    },
+    {
+      "name": "secondaryLabel",
+      "label": "Secondary button label",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Meet the teachers"
+    },
+    {
+      "name": "secondaryHref",
+      "label": "Secondary button link",
+      "kind": {
+        "type": "url"
+      },
+      "default": "/about"
+    },
+    {
+      "name": "proof",
+      "label": "Proof line",
+      "kind": {
+        "type": "text"
+      },
+      "default": "4.9 from 320 students · First class free"
+    },
+    {
+      "name": "imageSrc",
+      "label": "Hero image",
+      "kind": {
+        "type": "image"
+      },
+      "default": "assets/images/studio.jpg"
+    },
+    {
+      "name": "imageAlt",
+      "label": "Hero alt text",
+      "kind": {
+        "type": "text"
+      },
+      "default": "A woman sits cross-legged on a sand-coloured mat in a sunlit studio with linen curtains"
+    },
+    {
+      "name": "cardKicker",
+      "label": "Card kicker",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Next class"
+    },
+    {
+      "name": "cardText",
+      "label": "Card text",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Morning Flow · Tue 7:30"
+    }
+  ]
+}

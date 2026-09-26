@@ -1,0 +1,2507 @@
+{
+  "root": {
+    "id": "root",
+    "kind": {
+      "type": "frame"
+    },
+    "children": [
+      {
+        "id": "header",
+        "kind": {
+          "type": "frame",
+          "element": "header"
+        },
+        "children": [
+          {
+            "id": "header-inner",
+            "kind": {
+              "type": "frame"
+            },
+            "children": [
+              {
+                "id": "header-brand",
+                "kind": {
+                  "type": "link",
+                  "href": "/",
+                  "target": "same"
+                },
+                "children": [
+                  {
+                    "id": "header-brand-name",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "Mara Ellison"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.subtitle",
+                            "color": {
+                              "token": "ink.body"
+                            },
+                            "size": {
+                              "raw": "1.625rem"
+                            },
+                            "lineHeight": 1
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "header-brand-role",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "Photographer"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.eyebrow",
+                            "color": {
+                              "token": "ink.accent"
+                            },
+                            "transform": "uppercase"
+                          },
+                          "display": "none"
+                        }
+                      },
+                      "md": {
+                        "base": {
+                          "display": "inline"
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "decoration": "none"
+                      },
+                      "display": "flex",
+                      "flex": {
+                        "direction": "row",
+                        "align": "baseline",
+                        "gap": {
+                          "px": 14.0
+                        },
+                        "wrap": true
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "header-nav",
+                "kind": {
+                  "type": "frame",
+                  "element": "nav"
+                },
+                "children": [
+                  {
+                    "id": "header-nav-1",
+                    "kind": {
+                      "type": "link",
+                      "href": "/work",
+                      "target": "same"
+                    },
+                    "children": [
+                      {
+                        "id": "header-nav-1-label",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "Work"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.nav",
+                                "color": {
+                                  "token": "ink.body"
+                                },
+                                "transform": "uppercase"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "decoration": "none"
+                          },
+                          "opacity": 0.78,
+                          "transition": {
+                            "duration": 180,
+                            "properties": [
+                              "opacity"
+                            ]
+                          }
+                        },
+                        "hover": {
+                          "opacity": 1.0
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "header-nav-2",
+                    "kind": {
+                      "type": "link",
+                      "href": "/about",
+                      "target": "same"
+                    },
+                    "children": [
+                      {
+                        "id": "header-nav-2-label",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "About"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.nav",
+                                "color": {
+                                  "token": "ink.body"
+                                },
+                                "transform": "uppercase"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "decoration": "none"
+                          },
+                          "opacity": 0.78,
+                          "transition": {
+                            "duration": 180,
+                            "properties": [
+                              "opacity"
+                            ]
+                          }
+                        },
+                        "hover": {
+                          "opacity": 1.0
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "header-nav-3",
+                    "kind": {
+                      "type": "link",
+                      "href": "/journal",
+                      "target": "same"
+                    },
+                    "children": [
+                      {
+                        "id": "header-nav-3-label",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "Journal"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.nav",
+                                "color": {
+                                  "token": "ink.body"
+                                },
+                                "transform": "uppercase"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "decoration": "none"
+                          },
+                          "opacity": 0.78,
+                          "transition": {
+                            "duration": 180,
+                            "properties": [
+                              "opacity"
+                            ]
+                          }
+                        },
+                        "hover": {
+                          "opacity": 1.0
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "header-nav-4",
+                    "kind": {
+                      "type": "link",
+                      "href": "/contact",
+                      "target": "same"
+                    },
+                    "children": [
+                      {
+                        "id": "header-nav-4-label",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "Contact"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.nav",
+                                "color": {
+                                  "token": "ink.body"
+                                },
+                                "transform": "uppercase"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "decoration": "none"
+                          },
+                          "opacity": 0.78,
+                          "transition": {
+                            "duration": 180,
+                            "properties": [
+                              "opacity"
+                            ]
+                          }
+                        },
+                        "hover": {
+                          "opacity": 1.0
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "row",
+                        "gap": {
+                          "px": 18.0
+                        },
+                        "align": "center",
+                        "wrap": true
+                      }
+                    }
+                  },
+                  "md": {
+                    "base": {
+                      "flex": {
+                        "direction": "row",
+                        "gap": {
+                          "px": 40.0
+                        },
+                        "align": "center"
+                      }
+                    }
+                  }
+                }
+              }
+            ],
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "flex",
+                  "flex": {
+                    "direction": "row",
+                    "align": "center",
+                    "justify": "spaceBetween",
+                    "gap": {
+                      "px": 16.0
+                    },
+                    "wrap": true
+                  },
+                  "size": {
+                    "maxWidth": {
+                      "px": 1440.0
+                    },
+                    "width": {
+                      "percent": 100.0
+                    }
+                  },
+                  "spacing": {
+                    "margin": {
+                      "left": {
+                        "raw": "auto"
+                      },
+                      "right": {
+                        "raw": "auto"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "styles": {
+          "base": {
+            "base": {
+              "spacing": {
+                "padding": {
+                  "top": {
+                    "px": 22.0
+                  },
+                  "bottom": {
+                    "px": 22.0
+                  },
+                  "left": {
+                    "token": "space.gutter"
+                  },
+                  "right": {
+                    "token": "space.gutter"
+                  }
+                }
+              },
+              "background": {
+                "raw": "rgb(11 11 12 / 0.86)"
+              },
+              "custom": {
+                "backdrop-filter": "blur(14px) saturate(1.2)"
+              },
+              "position": {
+                "kind": "sticky",
+                "inset": {
+                  "top": {
+                    "px": 0.0
+                  }
+                },
+                "zIndex": 20
+              },
+              "border": {
+                "bottom": {
+                  "width": {
+                    "px": 1.0
+                  },
+                  "style": "solid",
+                  "color": {
+                    "token": "line.hairline"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "main",
+        "kind": {
+          "type": "frame",
+          "element": "main"
+        },
+        "children": [
+          {
+            "id": "contact",
+            "kind": {
+              "type": "frame",
+              "element": "section"
+            },
+            "children": [
+              {
+                "id": "contact-grid",
+                "kind": {
+                  "type": "frame"
+                },
+                "children": [
+                  {
+                    "id": "contact-left",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "children": [
+                      {
+                        "id": "contact-eyebrow",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "Contact"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.eyebrow",
+                                "color": {
+                                  "token": "ink.accent"
+                                },
+                                "transform": "uppercase"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "contact-title",
+                        "kind": {
+                          "type": "text",
+                          "tag": "h1",
+                          "content": "Tell me about the light you have in mind."
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.display",
+                                "color": {
+                                  "token": "ink.body"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "contact-lead",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "I reply to every message within two working days. For weddings, please include the date and the place; for commissions, a rough brief and deadline."
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.lead",
+                                "color": {
+                                  "token": "ink.muted"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "contact-methods",
+                        "kind": {
+                          "type": "frame"
+                        },
+                        "children": [
+                          {
+                            "id": "contact-m1",
+                            "kind": {
+                              "type": "frame"
+                            },
+                            "children": [
+                              {
+                                "id": "contact-m1-k",
+                                "kind": {
+                                  "type": "text",
+                                  "tag": "span",
+                                  "content": "Email"
+                                },
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "typography": {
+                                        "token": "type.eyebrow",
+                                        "color": {
+                                          "token": "ink.faint"
+                                        },
+                                        "transform": "uppercase"
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              {
+                                "id": "contact-m1-v",
+                                "kind": {
+                                  "type": "text",
+                                  "tag": "p",
+                                  "content": "studio@maraellison.example"
+                                },
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "typography": {
+                                        "token": "type.body",
+                                        "color": {
+                                          "token": "ink.body"
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            ],
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "display": "flex",
+                                  "flex": {
+                                    "direction": "column",
+                                    "gap": {
+                                      "px": 6.0
+                                    }
+                                  },
+                                  "spacing": {
+                                    "padding": {
+                                      "top": {
+                                        "px": 18.0
+                                      },
+                                      "bottom": {
+                                        "px": 18.0
+                                      }
+                                    }
+                                  },
+                                  "border": {
+                                    "top": {
+                                      "width": {
+                                        "px": 1.0
+                                      },
+                                      "style": "solid",
+                                      "color": {
+                                        "token": "line.hairline"
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "contact-m2",
+                            "kind": {
+                              "type": "frame"
+                            },
+                            "children": [
+                              {
+                                "id": "contact-m2-k",
+                                "kind": {
+                                  "type": "text",
+                                  "tag": "span",
+                                  "content": "Telephone"
+                                },
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "typography": {
+                                        "token": "type.eyebrow",
+                                        "color": {
+                                          "token": "ink.faint"
+                                        },
+                                        "transform": "uppercase"
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              {
+                                "id": "contact-m2-v",
+                                "kind": {
+                                  "type": "text",
+                                  "tag": "p",
+                                  "content": "+44 20 7946 0321"
+                                },
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "typography": {
+                                        "token": "type.body",
+                                        "color": {
+                                          "token": "ink.body"
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            ],
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "display": "flex",
+                                  "flex": {
+                                    "direction": "column",
+                                    "gap": {
+                                      "px": 6.0
+                                    }
+                                  },
+                                  "spacing": {
+                                    "padding": {
+                                      "top": {
+                                        "px": 18.0
+                                      },
+                                      "bottom": {
+                                        "px": 18.0
+                                      }
+                                    }
+                                  },
+                                  "border": {
+                                    "top": {
+                                      "width": {
+                                        "px": 1.0
+                                      },
+                                      "style": "solid",
+                                      "color": {
+                                        "token": "line.hairline"
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "contact-m3",
+                            "kind": {
+                              "type": "frame"
+                            },
+                            "children": [
+                              {
+                                "id": "contact-m3-k",
+                                "kind": {
+                                  "type": "text",
+                                  "tag": "span",
+                                  "content": "Studio"
+                                },
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "typography": {
+                                        "token": "type.eyebrow",
+                                        "color": {
+                                          "token": "ink.faint"
+                                        },
+                                        "transform": "uppercase"
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              {
+                                "id": "contact-m3-v",
+                                "kind": {
+                                  "type": "text",
+                                  "tag": "p",
+                                  "content": "Studio 4, Kelder Works, Harrow Lane, Norwick"
+                                },
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "typography": {
+                                        "token": "type.body",
+                                        "color": {
+                                          "token": "ink.body"
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            ],
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "display": "flex",
+                                  "flex": {
+                                    "direction": "column",
+                                    "gap": {
+                                      "px": 6.0
+                                    }
+                                  },
+                                  "spacing": {
+                                    "padding": {
+                                      "top": {
+                                        "px": 18.0
+                                      },
+                                      "bottom": {
+                                        "px": 18.0
+                                      }
+                                    }
+                                  },
+                                  "border": {
+                                    "top": {
+                                      "width": {
+                                        "px": 1.0
+                                      },
+                                      "style": "solid",
+                                      "color": {
+                                        "token": "line.hairline"
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "contact-m4",
+                            "kind": {
+                              "type": "frame"
+                            },
+                            "children": [
+                              {
+                                "id": "contact-m4-k",
+                                "kind": {
+                                  "type": "text",
+                                  "tag": "span",
+                                  "content": "Representation"
+                                },
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "typography": {
+                                        "token": "type.eyebrow",
+                                        "color": {
+                                          "token": "ink.faint"
+                                        },
+                                        "transform": "uppercase"
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              {
+                                "id": "contact-m4-v",
+                                "kind": {
+                                  "type": "text",
+                                  "tag": "p",
+                                  "content": "Northlight Agency — bookings@northlight.example"
+                                },
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "typography": {
+                                        "token": "type.body",
+                                        "color": {
+                                          "token": "ink.body"
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            ],
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "display": "flex",
+                                  "flex": {
+                                    "direction": "column",
+                                    "gap": {
+                                      "px": 6.0
+                                    }
+                                  },
+                                  "spacing": {
+                                    "padding": {
+                                      "top": {
+                                        "px": 18.0
+                                      },
+                                      "bottom": {
+                                        "px": 18.0
+                                      }
+                                    }
+                                  },
+                                  "border": {
+                                    "top": {
+                                      "width": {
+                                        "px": 1.0
+                                      },
+                                      "style": "solid",
+                                      "color": {
+                                        "token": "line.hairline"
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "flex",
+                              "flex": {
+                                "direction": "column",
+                                "gap": {
+                                  "px": 0.0
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "column",
+                            "gap": {
+                              "px": 28.0
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "contact-form",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "children": [
+                      {
+                        "id": "contact-r1",
+                        "kind": {
+                          "type": "frame"
+                        },
+                        "children": [
+                          {
+                            "id": "contact-f1",
+                            "kind": {
+                              "type": "frame"
+                            },
+                            "children": [
+                              {
+                                "id": "contact-f1-l",
+                                "kind": {
+                                  "type": "text",
+                                  "tag": "span",
+                                  "content": "Name"
+                                },
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "typography": {
+                                        "token": "type.eyebrow",
+                                        "color": {
+                                          "token": "ink.muted"
+                                        },
+                                        "transform": "uppercase"
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              {
+                                "id": "contact-f1-box",
+                                "kind": {
+                                  "type": "frame"
+                                },
+                                "children": [
+                                  {
+                                    "id": "contact-f1-h",
+                                    "kind": {
+                                      "type": "text",
+                                      "tag": "span",
+                                      "content": "Your name"
+                                    },
+                                    "styles": {
+                                      "base": {
+                                        "base": {
+                                          "typography": {
+                                            "token": "type.body",
+                                            "color": {
+                                              "token": "ink.faint"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                ],
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "border": {
+                                        "bottom": {
+                                          "width": {
+                                            "px": 1.0
+                                          },
+                                          "style": "solid",
+                                          "color": {
+                                            "token": "line.strong"
+                                          }
+                                        }
+                                      },
+                                      "size": {
+                                        "minHeight": {
+                                          "px": 0.0
+                                        }
+                                      },
+                                      "spacing": {
+                                        "padding": {
+                                          "top": {
+                                            "px": 12.0
+                                          },
+                                          "bottom": {
+                                            "px": 14.0
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            ],
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "display": "flex",
+                                  "flex": {
+                                    "direction": "column",
+                                    "gap": {
+                                      "px": 6.0
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "contact-f2",
+                            "kind": {
+                              "type": "frame"
+                            },
+                            "children": [
+                              {
+                                "id": "contact-f2-l",
+                                "kind": {
+                                  "type": "text",
+                                  "tag": "span",
+                                  "content": "Email"
+                                },
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "typography": {
+                                        "token": "type.eyebrow",
+                                        "color": {
+                                          "token": "ink.muted"
+                                        },
+                                        "transform": "uppercase"
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              {
+                                "id": "contact-f2-box",
+                                "kind": {
+                                  "type": "frame"
+                                },
+                                "children": [
+                                  {
+                                    "id": "contact-f2-h",
+                                    "kind": {
+                                      "type": "text",
+                                      "tag": "span",
+                                      "content": "you@example.com"
+                                    },
+                                    "styles": {
+                                      "base": {
+                                        "base": {
+                                          "typography": {
+                                            "token": "type.body",
+                                            "color": {
+                                              "token": "ink.faint"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                ],
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "border": {
+                                        "bottom": {
+                                          "width": {
+                                            "px": 1.0
+                                          },
+                                          "style": "solid",
+                                          "color": {
+                                            "token": "line.strong"
+                                          }
+                                        }
+                                      },
+                                      "size": {
+                                        "minHeight": {
+                                          "px": 0.0
+                                        }
+                                      },
+                                      "spacing": {
+                                        "padding": {
+                                          "top": {
+                                            "px": 12.0
+                                          },
+                                          "bottom": {
+                                            "px": 14.0
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            ],
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "display": "flex",
+                                  "flex": {
+                                    "direction": "column",
+                                    "gap": {
+                                      "px": 6.0
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "grid",
+                              "grid": {
+                                "columns": 1,
+                                "gap": {
+                                  "px": 28.0
+                                }
+                              }
+                            }
+                          },
+                          "md": {
+                            "base": {
+                              "grid": {
+                                "columns": 2,
+                                "gap": {
+                                  "px": 28.0
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "contact-r2",
+                        "kind": {
+                          "type": "frame"
+                        },
+                        "children": [
+                          {
+                            "id": "contact-f3",
+                            "kind": {
+                              "type": "frame"
+                            },
+                            "children": [
+                              {
+                                "id": "contact-f3-l",
+                                "kind": {
+                                  "type": "text",
+                                  "tag": "span",
+                                  "content": "Kind of work"
+                                },
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "typography": {
+                                        "token": "type.eyebrow",
+                                        "color": {
+                                          "token": "ink.muted"
+                                        },
+                                        "transform": "uppercase"
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              {
+                                "id": "contact-f3-box",
+                                "kind": {
+                                  "type": "frame"
+                                },
+                                "children": [
+                                  {
+                                    "id": "contact-f3-h",
+                                    "kind": {
+                                      "type": "text",
+                                      "tag": "span",
+                                      "content": "Portrait, editorial, wedding"
+                                    },
+                                    "styles": {
+                                      "base": {
+                                        "base": {
+                                          "typography": {
+                                            "token": "type.body",
+                                            "color": {
+                                              "token": "ink.faint"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                ],
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "border": {
+                                        "bottom": {
+                                          "width": {
+                                            "px": 1.0
+                                          },
+                                          "style": "solid",
+                                          "color": {
+                                            "token": "line.strong"
+                                          }
+                                        }
+                                      },
+                                      "size": {
+                                        "minHeight": {
+                                          "px": 0.0
+                                        }
+                                      },
+                                      "spacing": {
+                                        "padding": {
+                                          "top": {
+                                            "px": 12.0
+                                          },
+                                          "bottom": {
+                                            "px": 14.0
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            ],
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "display": "flex",
+                                  "flex": {
+                                    "direction": "column",
+                                    "gap": {
+                                      "px": 6.0
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "contact-f4",
+                            "kind": {
+                              "type": "frame"
+                            },
+                            "children": [
+                              {
+                                "id": "contact-f4-l",
+                                "kind": {
+                                  "type": "text",
+                                  "tag": "span",
+                                  "content": "Date"
+                                },
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "typography": {
+                                        "token": "type.eyebrow",
+                                        "color": {
+                                          "token": "ink.muted"
+                                        },
+                                        "transform": "uppercase"
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              {
+                                "id": "contact-f4-box",
+                                "kind": {
+                                  "type": "frame"
+                                },
+                                "children": [
+                                  {
+                                    "id": "contact-f4-h",
+                                    "kind": {
+                                      "type": "text",
+                                      "tag": "span",
+                                      "content": "When and where"
+                                    },
+                                    "styles": {
+                                      "base": {
+                                        "base": {
+                                          "typography": {
+                                            "token": "type.body",
+                                            "color": {
+                                              "token": "ink.faint"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                ],
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "border": {
+                                        "bottom": {
+                                          "width": {
+                                            "px": 1.0
+                                          },
+                                          "style": "solid",
+                                          "color": {
+                                            "token": "line.strong"
+                                          }
+                                        }
+                                      },
+                                      "size": {
+                                        "minHeight": {
+                                          "px": 0.0
+                                        }
+                                      },
+                                      "spacing": {
+                                        "padding": {
+                                          "top": {
+                                            "px": 12.0
+                                          },
+                                          "bottom": {
+                                            "px": 14.0
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            ],
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "display": "flex",
+                                  "flex": {
+                                    "direction": "column",
+                                    "gap": {
+                                      "px": 6.0
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "grid",
+                              "grid": {
+                                "columns": 1,
+                                "gap": {
+                                  "px": 28.0
+                                }
+                              }
+                            }
+                          },
+                          "md": {
+                            "base": {
+                              "grid": {
+                                "columns": 2,
+                                "gap": {
+                                  "px": 28.0
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "contact-f5",
+                        "kind": {
+                          "type": "frame"
+                        },
+                        "children": [
+                          {
+                            "id": "contact-f5-l",
+                            "kind": {
+                              "type": "text",
+                              "tag": "span",
+                              "content": "Message"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.eyebrow",
+                                    "color": {
+                                      "token": "ink.muted"
+                                    },
+                                    "transform": "uppercase"
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "contact-f5-box",
+                            "kind": {
+                              "type": "frame"
+                            },
+                            "children": [
+                              {
+                                "id": "contact-f5-h",
+                                "kind": {
+                                  "type": "text",
+                                  "tag": "span",
+                                  "content": "A few lines about the idea, the people and the place."
+                                },
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "typography": {
+                                        "token": "type.body",
+                                        "color": {
+                                          "token": "ink.faint"
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            ],
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "border": {
+                                    "bottom": {
+                                      "width": {
+                                        "px": 1.0
+                                      },
+                                      "style": "solid",
+                                      "color": {
+                                        "token": "line.strong"
+                                      }
+                                    }
+                                  },
+                                  "size": {
+                                    "minHeight": {
+                                      "px": 120.0
+                                    }
+                                  },
+                                  "spacing": {
+                                    "padding": {
+                                      "top": {
+                                        "px": 12.0
+                                      },
+                                      "bottom": {
+                                        "px": 14.0
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "flex",
+                              "flex": {
+                                "direction": "column",
+                                "gap": {
+                                  "px": 6.0
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "contact-submit",
+                        "kind": {
+                          "type": "button",
+                          "label": "Send enquiry",
+                          "href": "mailto:studio@maraellison.example",
+                          "target": "same"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "inlineBlock",
+                              "background": {
+                                "token": "surface.accent"
+                              },
+                              "radius": {
+                                "token": "radius.sm"
+                              },
+                              "size": {
+                                "width": {
+                                  "raw": "fit-content"
+                                }
+                              },
+                              "spacing": {
+                                "padding": {
+                                  "top": {
+                                    "px": 17.0
+                                  },
+                                  "right": {
+                                    "px": 30.0
+                                  },
+                                  "bottom": {
+                                    "px": 17.0
+                                  },
+                                  "left": {
+                                    "px": 30.0
+                                  }
+                                }
+                              },
+                              "typography": {
+                                "token": "type.button",
+                                "color": {
+                                  "token": "ink.on-accent"
+                                },
+                                "decoration": "none",
+                                "transform": "uppercase"
+                              },
+                              "transition": {
+                                "duration": 200,
+                                "easing": "easeOut",
+                                "properties": [
+                                  "backgroundColor",
+                                  "transform",
+                                  "boxShadow"
+                                ]
+                              }
+                            },
+                            "hover": {
+                              "background": {
+                                "token": "brand.primary.hover"
+                              },
+                              "custom": {
+                                "transform": "translateY(-2px)"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "contact-fine",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Connect a Stride form here to receive enquiries in your inbox."
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.faint"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "column",
+                            "gap": {
+                              "px": 32.0
+                            }
+                          },
+                          "background": {
+                            "token": "surface.card"
+                          },
+                          "radius": {
+                            "token": "radius.md"
+                          },
+                          "border": {
+                            "width": {
+                              "px": 1.0
+                            },
+                            "style": "solid",
+                            "color": {
+                              "token": "line.hairline"
+                            }
+                          },
+                          "overflow": "hidden",
+                          "spacing": {
+                            "padding": {
+                              "top": {
+                                "px": 40.0
+                              },
+                              "right": {
+                                "px": 36.0
+                              },
+                              "bottom": {
+                                "px": 40.0
+                              },
+                              "left": {
+                                "px": 36.0
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "grid",
+                      "grid": {
+                        "columns": 1,
+                        "gap": {
+                          "px": 56.0
+                        }
+                      },
+                      "size": {
+                        "maxWidth": {
+                          "px": 1440.0
+                        },
+                        "width": {
+                          "percent": 100.0
+                        }
+                      },
+                      "spacing": {
+                        "margin": {
+                          "left": {
+                            "raw": "auto"
+                          },
+                          "right": {
+                            "raw": "auto"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "md": {
+                    "base": {
+                      "grid": {
+                        "templateColumns": "1fr 1fr",
+                        "gap": {
+                          "px": 96.0
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            ],
+            "styles": {
+              "base": {
+                "base": {
+                  "background": {
+                    "token": "surface.page"
+                  },
+                  "spacing": {
+                    "padding": {
+                      "top": {
+                        "token": "space.16"
+                      },
+                      "bottom": {
+                        "token": "space.section"
+                      },
+                      "left": {
+                        "token": "space.gutter"
+                      },
+                      "right": {
+                        "token": "space.gutter"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": "cta",
+            "kind": {
+              "type": "frame",
+              "element": "section"
+            },
+            "children": [
+              {
+                "id": "cta-inner",
+                "kind": {
+                  "type": "frame"
+                },
+                "children": [
+                  {
+                    "id": "cta-copy",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "children": [
+                      {
+                        "id": "cta-eyebrow",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "Now booking"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.eyebrow",
+                                "color": {
+                                  "token": "ink.accent"
+                                },
+                                "transform": "uppercase"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "cta-title",
+                        "kind": {
+                          "type": "text",
+                          "tag": "h2",
+                          "content": "Prefer to talk it through?"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.title",
+                                "color": {
+                                  "token": "ink.body"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "bindings": {
+                          "content": "heading"
+                        }
+                      },
+                      {
+                        "id": "cta-body",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Book a free twenty-minute call and we’ll work out whether we are a good fit."
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.lead",
+                                "color": {
+                                  "token": "ink.inverse.muted"
+                                }
+                              },
+                              "size": {
+                                "maxWidth": {
+                                  "px": 560.0
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "bindings": {
+                          "content": "body"
+                        }
+                      },
+                      {
+                        "id": "cta-btn",
+                        "kind": {
+                          "type": "button",
+                          "label": "Book a call",
+                          "href": "mailto:studio@maraellison.example",
+                          "target": "same"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "inlineBlock",
+                              "background": {
+                                "token": "surface.accent"
+                              },
+                              "radius": {
+                                "token": "radius.sm"
+                              },
+                              "size": {
+                                "width": {
+                                  "raw": "fit-content"
+                                }
+                              },
+                              "spacing": {
+                                "padding": {
+                                  "top": {
+                                    "px": 17.0
+                                  },
+                                  "right": {
+                                    "px": 30.0
+                                  },
+                                  "bottom": {
+                                    "px": 17.0
+                                  },
+                                  "left": {
+                                    "px": 30.0
+                                  }
+                                }
+                              },
+                              "typography": {
+                                "token": "type.button",
+                                "color": {
+                                  "token": "ink.on-accent"
+                                },
+                                "decoration": "none",
+                                "transform": "uppercase"
+                              },
+                              "transition": {
+                                "duration": 200,
+                                "easing": "easeOut",
+                                "properties": [
+                                  "backgroundColor",
+                                  "transform",
+                                  "boxShadow"
+                                ]
+                              }
+                            },
+                            "hover": {
+                              "background": {
+                                "token": "brand.primary.hover"
+                              },
+                              "custom": {
+                                "transform": "translateY(-2px)"
+                              }
+                            }
+                          }
+                        },
+                        "bindings": {
+                          "label": "ctaLabel",
+                          "href": "ctaHref"
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "column",
+                            "gap": {
+                              "px": 24.0
+                            }
+                          },
+                          "size": {
+                            "maxWidth": {
+                              "px": 720.0
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "size": {
+                        "maxWidth": {
+                          "px": 1440.0
+                        },
+                        "width": {
+                          "percent": 100.0
+                        }
+                      },
+                      "spacing": {
+                        "margin": {
+                          "left": {
+                            "raw": "auto"
+                          },
+                          "right": {
+                            "raw": "auto"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            ],
+            "styles": {
+              "base": {
+                "base": {
+                  "background": {
+                    "token": "surface.page"
+                  },
+                  "custom": {
+                    "background-image": "linear-gradient(90deg, rgb(11 11 12 / 0.96) 0%, rgb(11 11 12 / 0.8) 45%, rgb(11 11 12 / 0.2) 100%), url(assets/images/photographer.webp)",
+                    "background-size": "cover",
+                    "background-position": "center right"
+                  },
+                  "border": {
+                    "top": {
+                      "width": {
+                        "px": 1.0
+                      },
+                      "style": "solid",
+                      "color": {
+                        "token": "line.hairline"
+                      }
+                    }
+                  },
+                  "spacing": {
+                    "padding": {
+                      "top": {
+                        "token": "space.section"
+                      },
+                      "bottom": {
+                        "token": "space.section"
+                      },
+                      "left": {
+                        "token": "space.gutter"
+                      },
+                      "right": {
+                        "token": "space.gutter"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "footer",
+        "kind": {
+          "type": "frame",
+          "element": "footer"
+        },
+        "children": [
+          {
+            "id": "footer-inner",
+            "kind": {
+              "type": "frame"
+            },
+            "children": [
+              {
+                "id": "footer-big",
+                "kind": {
+                  "type": "link",
+                  "href": "/contact",
+                  "target": "same"
+                },
+                "children": [
+                  {
+                    "id": "footer-big-1",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "Let’s make"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.hero",
+                            "color": {
+                              "token": "ink.body"
+                            }
+                          },
+                          "display": "block"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "footer-big-2",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "something quiet."
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.hero",
+                            "color": {
+                              "token": "ink.accent"
+                            }
+                          },
+                          "display": "block",
+                          "custom": {
+                            "font-style": "italic"
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "decoration": "none"
+                      },
+                      "display": "block",
+                      "transition": {
+                        "duration": 300,
+                        "properties": [
+                          "opacity"
+                        ]
+                      }
+                    },
+                    "hover": {
+                      "opacity": 0.8
+                    }
+                  }
+                }
+              },
+              {
+                "id": "footer-rule",
+                "kind": {
+                  "type": "frame"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "size": {
+                        "height": {
+                          "px": 1.0
+                        },
+                        "width": {
+                          "percent": 100.0
+                        }
+                      },
+                      "background": {
+                        "token": "line.hairline"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "footer-cols",
+                "kind": {
+                  "type": "frame"
+                },
+                "children": [
+                  {
+                    "id": "footer-c1",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "children": [
+                      {
+                        "id": "footer-c1-t",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "Studio"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.eyebrow",
+                                "color": {
+                                  "token": "ink.faint"
+                                },
+                                "transform": "uppercase"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "footer-c1-0",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Studio 4, Kelder Works"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.muted"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "footer-c1-1",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Harrow Lane, Norwick"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.muted"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "footer-c1-2",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "By appointment"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.muted"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "column",
+                            "gap": {
+                              "px": 10.0
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "footer-c2",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "children": [
+                      {
+                        "id": "footer-c2-t",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "Contact"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.eyebrow",
+                                "color": {
+                                  "token": "ink.faint"
+                                },
+                                "transform": "uppercase"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "footer-c2-0",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "studio@maraellison.example"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.muted"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "footer-c2-1",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "+44 20 7946 0321"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.muted"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "footer-c2-2",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Represented by Northlight Agency"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.muted"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "column",
+                            "gap": {
+                              "px": 10.0
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "footer-c3",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "children": [
+                      {
+                        "id": "footer-c3-t",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "Elsewhere"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.eyebrow",
+                                "color": {
+                                  "token": "ink.faint"
+                                },
+                                "transform": "uppercase"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "footer-c3-0",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Journal"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.muted"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "footer-c3-1",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Print shop"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.muted"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "footer-c3-2",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Newsletter"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.muted"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "column",
+                            "gap": {
+                              "px": 10.0
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "grid",
+                      "grid": {
+                        "columns": 1,
+                        "gap": {
+                          "px": 32.0
+                        }
+                      }
+                    }
+                  },
+                  "md": {
+                    "base": {
+                      "grid": {
+                        "columns": 3,
+                        "gap": {
+                          "px": 48.0
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "footer-legal",
+                "kind": {
+                  "type": "frame"
+                },
+                "children": [
+                  {
+                    "id": "footer-copy",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "© 2026 Mara Ellison. All photographs by the studio."
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.eyebrow",
+                            "color": {
+                              "token": "ink.faint"
+                            },
+                            "transform": "uppercase"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "footer-top",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "Made in the dark"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.eyebrow",
+                            "color": {
+                              "token": "ink.faint"
+                            },
+                            "transform": "uppercase"
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "row",
+                        "gap": {
+                          "px": 16.0
+                        },
+                        "align": "center",
+                        "wrap": true,
+                        "justify": "spaceBetween"
+                      }
+                    }
+                  }
+                }
+              }
+            ],
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "flex",
+                  "flex": {
+                    "direction": "column",
+                    "gap": {
+                      "px": 56.0
+                    }
+                  },
+                  "size": {
+                    "maxWidth": {
+                      "px": 1440.0
+                    },
+                    "width": {
+                      "percent": 100.0
+                    }
+                  },
+                  "spacing": {
+                    "margin": {
+                      "left": {
+                        "raw": "auto"
+                      },
+                      "right": {
+                        "raw": "auto"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "styles": {
+          "base": {
+            "base": {
+              "background": {
+                "token": "surface.deep"
+              },
+              "spacing": {
+                "padding": {
+                  "top": {
+                    "token": "space.24"
+                  },
+                  "bottom": {
+                    "token": "space.12"
+                  },
+                  "left": {
+                    "token": "space.gutter"
+                  },
+                  "right": {
+                    "token": "space.gutter"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "styles": {
+      "base": {
+        "base": {
+          "background": {
+            "token": "surface.page"
+          },
+          "typography": {
+            "token": "type.body",
+            "color": {
+              "token": "ink.body"
+            }
+          },
+          "custom": {
+            "-webkit-font-smoothing": "antialiased",
+            "position": "relative"
+          }
+        }
+      }
+    }
+  }
+}

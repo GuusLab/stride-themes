@@ -1,0 +1,388 @@
+{
+  "id": "pulse-cta",
+  "name": "Pulse CTA band",
+  "root": {
+    "id": "pulse-cta",
+    "kind": {
+      "type": "frame",
+      "element": "section"
+    },
+    "styles": {
+      "base": {
+        "base": {
+          "background": {
+            "token": "surface.page"
+          },
+          "spacing": {
+            "padding": {
+              "top": {
+                "token": "space.section"
+              },
+              "bottom": {
+                "token": "space.section"
+              },
+              "left": {
+                "token": "space.gutter"
+              },
+              "right": {
+                "token": "space.gutter"
+              }
+            }
+          }
+        }
+      },
+      "md": {
+        "base": {
+          "spacing": {
+            "padding": {
+              "left": {
+                "token": "space.gutter.wide"
+              },
+              "right": {
+                "token": "space.gutter.wide"
+              }
+            }
+          }
+        }
+      }
+    },
+    "children": [
+      {
+        "id": "cta-panel",
+        "kind": {
+          "type": "frame"
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "display": "flex",
+              "flex": {
+                "direction": "column",
+                "gap": {
+                  "token": "space.6"
+                },
+                "align": "center"
+              },
+              "size": {
+                "maxWidth": {
+                  "token": "space.measure"
+                },
+                "width": {
+                  "percent": 100
+                }
+              },
+              "spacing": {
+                "margin": {
+                  "left": {
+                    "raw": "auto"
+                  },
+                  "right": {
+                    "raw": "auto"
+                  }
+                },
+                "padding": {
+                  "top": {
+                    "token": "space.16"
+                  },
+                  "bottom": {
+                    "token": "space.16"
+                  },
+                  "left": {
+                    "token": "space.6"
+                  },
+                  "right": {
+                    "token": "space.6"
+                  }
+                }
+              },
+              "background": {
+                "token": "surface.accent"
+              },
+              "backgroundImage": {
+                "gradient": "radial-gradient(80% 120% at 0% 0%, #8B5CF6 0%, rgb(139 92 246 / 0) 60%), radial-gradient(70% 120% at 100% 100%, #C026D3 0%, rgb(192 38 211 / 0) 60%), linear-gradient(135deg, #5B21B6 0%, #6D28D9 100%)"
+              },
+              "radius": {
+                "token": "radius.xl"
+              },
+              "shadow": {
+                "token": "shadow.float"
+              },
+              "overflow": "hidden"
+            }
+          },
+          "md": {
+            "base": {
+              "spacing": {
+                "padding": {
+                  "top": {
+                    "token": "space.20"
+                  },
+                  "bottom": {
+                    "token": "space.20"
+                  },
+                  "left": {
+                    "token": "space.16"
+                  },
+                  "right": {
+                    "token": "space.16"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "children": [
+          {
+            "id": "cta-title",
+            "kind": {
+              "type": "text",
+              "tag": "h2",
+              "content": "Your next release deserves a number."
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "typography": {
+                    "token": "type.title",
+                    "color": {
+                      "token": "ink.on-accent"
+                    },
+                    "align": "center"
+                  }
+                }
+              }
+            },
+            "bindings": {
+              "content": "title"
+            }
+          },
+          {
+            "id": "cta-body",
+            "kind": {
+              "type": "text",
+              "tag": "p",
+              "content": "Join 2,400 teams who stopped guessing. Free for your first 10,000 users."
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "typography": {
+                    "token": "type.lead",
+                    "color": {
+                      "token": "ink.on-accent"
+                    },
+                    "align": "center"
+                  },
+                  "opacity": 0.9,
+                  "size": {
+                    "maxWidth": {
+                      "px": 560
+                    }
+                  }
+                }
+              }
+            },
+            "bindings": {
+              "content": "body"
+            }
+          },
+          {
+            "id": "cta-actions",
+            "kind": {
+              "type": "frame"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "flex",
+                  "flex": {
+                    "direction": "row",
+                    "gap": {
+                      "token": "space.3"
+                    },
+                    "justify": "center",
+                    "wrap": true
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "cta-primary",
+                "kind": {
+                  "type": "button",
+                  "label": "Start free",
+                  "href": "/pricing",
+                  "target": "same"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "background": {
+                        "token": "surface.inverse"
+                      },
+                      "display": "inlineBlock",
+                      "radius": {
+                        "token": "radius.full"
+                      },
+                      "size": {
+                        "width": {
+                          "raw": "fit-content"
+                        }
+                      },
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "px": 14
+                          },
+                          "bottom": {
+                            "px": 14
+                          },
+                          "left": {
+                            "px": 26
+                          },
+                          "right": {
+                            "px": 26
+                          }
+                        }
+                      },
+                      "typography": {
+                        "token": "type.button",
+                        "color": {
+                          "token": "ink.inverse"
+                        },
+                        "decoration": "none"
+                      },
+                      "transition": {
+                        "duration": 200,
+                        "properties": [
+                          "transform"
+                        ]
+                      }
+                    },
+                    "hover": {
+                      "custom": {
+                        "transform": "translateY(-2px)"
+                      }
+                    },
+                    "focus": {
+                      "custom": {
+                        "outline": "2px solid #FFFFFF",
+                        "outline-offset": "3px"
+                      }
+                    }
+                  }
+                },
+                "bindings": {
+                  "label": "ctaLabel",
+                  "href": "ctaHref"
+                }
+              },
+              {
+                "id": "cta-secondary",
+                "kind": {
+                  "type": "button",
+                  "label": "Talk to sales",
+                  "href": "/contact",
+                  "target": "same"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "inlineBlock",
+                      "radius": {
+                        "token": "radius.full"
+                      },
+                      "border": {
+                        "width": {
+                          "px": 1
+                        },
+                        "style": "solid",
+                        "color": {
+                          "raw": "rgb(255 255 255 / 0.5)"
+                        }
+                      },
+                      "size": {
+                        "width": {
+                          "raw": "fit-content"
+                        }
+                      },
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "px": 13
+                          },
+                          "bottom": {
+                            "px": 13
+                          },
+                          "left": {
+                            "px": 24
+                          },
+                          "right": {
+                            "px": 24
+                          }
+                        }
+                      },
+                      "typography": {
+                        "token": "type.button",
+                        "color": {
+                          "token": "ink.on-accent"
+                        },
+                        "decoration": "none"
+                      }
+                    },
+                    "hover": {
+                      "background": {
+                        "raw": "rgb(255 255 255 / 0.12)"
+                      }
+                    },
+                    "focus": {
+                      "custom": {
+                        "outline": "2px solid #FFFFFF",
+                        "outline-offset": "3px"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "props": [
+    {
+      "name": "title",
+      "label": "Heading",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Your next release deserves a number."
+    },
+    {
+      "name": "body",
+      "label": "Body",
+      "kind": {
+        "type": "longText"
+      },
+      "default": "Join 2,400 teams who stopped guessing. Free for your first 10,000 users."
+    },
+    {
+      "name": "ctaLabel",
+      "label": "Button label",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Start free"
+    },
+    {
+      "name": "ctaHref",
+      "label": "Button link",
+      "kind": {
+        "type": "url"
+      },
+      "default": "/pricing"
+    }
+  ]
+}

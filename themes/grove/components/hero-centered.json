@@ -1,0 +1,311 @@
+{
+  "id": "grove-hero-centered",
+  "name": "Grove / Hero — centred on sage",
+  "root": {
+    "id": "hcx",
+    "kind": {
+      "type": "frame",
+      "element": "section"
+    },
+    "styles": {
+      "base": {
+        "base": {
+          "background": {
+            "token": "surface.sage"
+          },
+          "spacing": {
+            "padding": {
+              "top": {
+                "raw": "clamp(5rem, 11vw, 9rem)"
+              },
+              "right": {
+                "token": "gutter"
+              },
+              "bottom": {
+                "raw": "clamp(5rem, 11vw, 9rem)"
+              },
+              "left": {
+                "token": "gutter"
+              }
+            }
+          },
+          "position": {
+            "kind": "relative"
+          },
+          "overflow": "hidden",
+          "corners": {
+            "bottomLeft": {
+              "token": "radius.xl"
+            },
+            "bottomRight": {
+              "token": "radius.xl"
+            }
+          }
+        }
+      }
+    },
+    "children": [
+      {
+        "id": "hcx-b1",
+        "kind": {
+          "type": "frame",
+          "element": "div"
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "position": {
+                "kind": "absolute",
+                "inset": {
+                  "top": {
+                    "px": -160.0
+                  },
+                  "left": {
+                    "px": -120.0
+                  }
+                },
+                "zIndex": 0
+              },
+              "size": {
+                "width": {
+                  "px": 420.0
+                },
+                "height": {
+                  "px": 420.0
+                }
+              },
+              "background": {
+                "raw": "#C9D8C4"
+              },
+              "radius": {
+                "token": "radius.organic"
+              },
+              "opacity": 0.7,
+              "custom": {
+                "pointer-events": "none",
+                "filter": "blur(2px)"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "hcx-b2",
+        "kind": {
+          "type": "frame",
+          "element": "div"
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "position": {
+                "kind": "absolute",
+                "inset": {
+                  "bottom": {
+                    "px": -200.0
+                  },
+                  "right": {
+                    "px": -80.0
+                  }
+                },
+                "zIndex": 0
+              },
+              "size": {
+                "width": {
+                  "px": 360.0
+                },
+                "height": {
+                  "px": 360.0
+                }
+              },
+              "background": {
+                "raw": "#EDE3D1"
+              },
+              "radius": {
+                "token": "radius.organic"
+              },
+              "opacity": 1,
+              "custom": {
+                "pointer-events": "none",
+                "filter": "blur(2px)"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "hc-inner",
+        "kind": {
+          "type": "frame",
+          "element": "div"
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "display": "flex",
+              "flex": {
+                "direction": "column",
+                "gap": {
+                  "px": 22.0
+                },
+                "align": "center"
+              },
+              "size": {
+                "maxWidth": {
+                  "px": 900.0
+                },
+                "width": {
+                  "percent": 100.0
+                }
+              },
+              "spacing": {
+                "margin": {
+                  "left": {
+                    "raw": "auto"
+                  },
+                  "right": {
+                    "raw": "auto"
+                  }
+                }
+              },
+              "position": {
+                "kind": "relative",
+                "zIndex": 2
+              }
+            }
+          }
+        },
+        "children": [
+          {
+            "id": "hcx-eyebrow",
+            "kind": {
+              "type": "text",
+              "tag": "p",
+              "content": "About Grove"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "typography": {
+                    "token": "type.eyebrow",
+                    "color": {
+                      "token": "brand.strong"
+                    },
+                    "transform": "uppercase"
+                  }
+                }
+              }
+            },
+            "bindings": {
+              "content": "eyebrow"
+            }
+          },
+          {
+            "id": "hcx-title",
+            "kind": {
+              "type": "text",
+              "tag": "h1",
+              "content": "A studio built around the slow breath."
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "typography": {
+                    "token": "type.display",
+                    "color": {
+                      "token": "ink.body"
+                    },
+                    "align": "center"
+                  }
+                }
+              }
+            },
+            "bindings": {
+              "content": "title"
+            }
+          },
+          {
+            "id": "hcx-lead",
+            "kind": {
+              "type": "text",
+              "tag": "p",
+              "content": "We opened Grove in a converted timber yard with one idea: movement should leave you calmer than it found you."
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "typography": {
+                    "token": "type.lead",
+                    "color": {
+                      "token": "ink.muted"
+                    },
+                    "align": "center"
+                  },
+                  "size": {
+                    "maxWidth": {
+                      "px": 620.0
+                    }
+                  }
+                }
+              }
+            },
+            "bindings": {
+              "content": "lead"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "props": [
+    {
+      "name": "eyebrow",
+      "label": "Eyebrow",
+      "kind": {
+        "type": "text"
+      },
+      "default": "About Grove"
+    },
+    {
+      "name": "title",
+      "label": "Headline",
+      "kind": {
+        "type": "text"
+      },
+      "default": "A studio built around the slow breath."
+    },
+    {
+      "name": "lead",
+      "label": "Intro",
+      "kind": {
+        "type": "longText"
+      },
+      "default": "We opened Grove in a converted timber yard with one idea: movement should leave you calmer than it found you."
+    }
+  ],
+  "variants": {
+    "sand": {
+      "styles": {
+        "base": {
+          "base": {
+            "background": {
+              "token": "surface.sand"
+            }
+          }
+        }
+      }
+    },
+    "sage": {
+      "styles": {
+        "base": {
+          "base": {
+            "background": {
+              "token": "surface.sage"
+            }
+          }
+        }
+      }
+    }
+  },
+  "defaultVariant": "sage"
+}

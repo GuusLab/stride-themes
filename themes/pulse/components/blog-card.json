@@ -1,0 +1,293 @@
+{
+  "id": "pulse-blog-card",
+  "name": "Pulse blog card",
+  "root": {
+    "id": "pulse-blog-card",
+    "kind": {
+      "type": "link",
+      "href": "/blog/four-minute-onboarding",
+      "target": "same"
+    },
+    "styles": {
+      "base": {
+        "base": {
+          "display": "block",
+          "typography": {
+            "decoration": "none"
+          }
+        }
+      }
+    },
+    "children": [
+      {
+        "id": "pulse-blog-card-card",
+        "kind": {
+          "type": "frame",
+          "element": "article"
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "display": "flex",
+              "flex": {
+                "direction": "column",
+                "gap": {
+                  "token": "space.4"
+                }
+              },
+              "background": {
+                "token": "surface.card"
+              },
+              "border": {
+                "width": {
+                  "px": 1
+                },
+                "style": "solid",
+                "color": {
+                  "token": "line.subtle"
+                }
+              },
+              "radius": {
+                "token": "radius.lg"
+              },
+              "shadow": {
+                "token": "shadow.card"
+              },
+              "spacing": {
+                "padding": {
+                  "top": {
+                    "token": "space.4"
+                  },
+                  "bottom": {
+                    "token": "space.6"
+                  },
+                  "left": {
+                    "token": "space.4"
+                  },
+                  "right": {
+                    "token": "space.4"
+                  }
+                }
+              },
+              "transition": {
+                "duration": 220,
+                "properties": [
+                  "borderColor",
+                  "transform"
+                ]
+              },
+              "size": {
+                "height": {
+                  "percent": 100
+                }
+              }
+            },
+            "hover": {
+              "border": {
+                "width": {
+                  "px": 1
+                },
+                "style": "solid",
+                "color": {
+                  "raw": "rgb(167 139 250 / 0.45)"
+                }
+              },
+              "custom": {
+                "transform": "translateY(-3px)"
+              }
+            }
+          }
+        },
+        "children": [
+          {
+            "id": "pulse-blog-card-image",
+            "kind": {
+              "type": "image",
+              "src": "assets/images/whiteboard.webp",
+              "alt": "Two colleagues sketching a user journey on a whiteboard"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "size": {
+                    "width": {
+                      "percent": 100
+                    }
+                  },
+                  "radius": {
+                    "token": "radius.md"
+                  },
+                  "aspectRatio": {
+                    "ratio": {
+                      "width": 16,
+                      "height": 9
+                    }
+                  },
+                  "objectFit": "cover"
+                }
+              }
+            },
+            "bindings": {
+              "src": "image",
+              "alt": "imageAlt"
+            }
+          },
+          {
+            "id": "pulse-blog-card-tag",
+            "kind": {
+              "type": "text",
+              "tag": "span",
+              "content": "Playbook"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "typography": {
+                    "token": "type.label",
+                    "color": {
+                      "token": "ink.accent"
+                    },
+                    "transform": "uppercase"
+                  }
+                }
+              }
+            },
+            "bindings": {
+              "content": "tag"
+            }
+          },
+          {
+            "id": "pulse-blog-card-title",
+            "kind": {
+              "type": "text",
+              "tag": "h3",
+              "content": "The four-minute onboarding: how Halcyon rebuilt its first session"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "typography": {
+                    "token": "type.heading",
+                    "color": {
+                      "token": "ink.strong"
+                    }
+                  }
+                }
+              }
+            },
+            "bindings": {
+              "content": "title"
+            }
+          },
+          {
+            "id": "pulse-blog-card-excerpt",
+            "kind": {
+              "type": "text",
+              "tag": "p",
+              "content": "They deleted six screens, added one checklist and doubled activation in a quarter. Here is the whole teardown."
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "typography": {
+                    "token": "type.body",
+                    "color": {
+                      "token": "ink.muted"
+                    }
+                  }
+                }
+              }
+            },
+            "bindings": {
+              "content": "excerpt"
+            }
+          },
+          {
+            "id": "pulse-blog-card-meta",
+            "kind": {
+              "type": "text",
+              "tag": "p",
+              "content": "Lucía Ferrer · 8 min read"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "typography": {
+                    "token": "type.small",
+                    "color": {
+                      "token": "ink.muted"
+                    }
+                  }
+                }
+              }
+            },
+            "bindings": {
+              "content": "meta"
+            }
+          }
+        ]
+      }
+    ],
+    "bindings": {
+      "href": "href"
+    }
+  },
+  "props": [
+    {
+      "name": "href",
+      "label": "Link",
+      "kind": {
+        "type": "url"
+      },
+      "default": "/blog/four-minute-onboarding"
+    },
+    {
+      "name": "image",
+      "label": "Image",
+      "kind": {
+        "type": "image"
+      },
+      "default": "assets/images/whiteboard.webp"
+    },
+    {
+      "name": "imageAlt",
+      "label": "Image description",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Two colleagues sketching a user journey on a whiteboard"
+    },
+    {
+      "name": "tag",
+      "label": "Tag",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Playbook"
+    },
+    {
+      "name": "title",
+      "label": "Title",
+      "kind": {
+        "type": "text"
+      },
+      "default": "The four-minute onboarding: how Halcyon rebuilt its first session"
+    },
+    {
+      "name": "excerpt",
+      "label": "Excerpt",
+      "kind": {
+        "type": "longText"
+      },
+      "default": "They deleted six screens, added one checklist and doubled activation in a quarter. Here is the whole teardown."
+    },
+    {
+      "name": "meta",
+      "label": "Byline",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Lucía Ferrer · 8 min read"
+    }
+  ]
+}

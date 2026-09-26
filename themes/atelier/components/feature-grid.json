@@ -1,0 +1,468 @@
+{
+  "id": "atelier-feature-grid",
+  "name": "Atelier · Feature grid",
+  "root": {
+    "id": "fg",
+    "kind": {
+      "type": "frame",
+      "element": "div"
+    },
+    "styles": {
+      "base": {
+        "base": {
+          "display": "grid",
+          "grid": {
+            "templateColumns": "minmax(0, 1fr)",
+            "gap": {
+              "token": "space.12"
+            }
+          }
+        }
+      },
+      "md": {
+        "base": {
+          "grid": {
+            "templateColumns": "minmax(0,1fr) minmax(0,1fr) minmax(0,1fr)",
+            "gap": {
+              "token": "space.12"
+            }
+          }
+        }
+      }
+    },
+    "children": [
+      {
+        "id": "fg-1",
+        "kind": {
+          "type": "frame",
+          "element": "div"
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "display": "flex",
+              "flex": {
+                "direction": "column",
+                "gap": {
+                  "token": "space.4"
+                }
+              },
+              "border": {
+                "top": {
+                  "width": {
+                    "px": 1
+                  },
+                  "style": "solid",
+                  "color": {
+                    "token": "line.strong"
+                  }
+                }
+              },
+              "spacing": {
+                "padding": {
+                  "top": {
+                    "token": "space.6"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "children": [
+          {
+            "id": "fg-n1",
+            "kind": {
+              "type": "text",
+              "tag": "p",
+              "content": "I."
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "typography": {
+                    "token": "type.subtitle",
+                    "color": {
+                      "token": "ink.accent"
+                    }
+                  }
+                }
+              }
+            },
+            "bindings": {
+              "content": "item1Mark"
+            }
+          },
+          {
+            "id": "fg-t1",
+            "kind": {
+              "type": "text",
+              "tag": "h3",
+              "content": "Fewer, better."
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "typography": {
+                    "token": "type.subtitle",
+                    "color": {
+                      "token": "ink.body"
+                    }
+                  }
+                }
+              }
+            },
+            "bindings": {
+              "content": "item1Title"
+            }
+          },
+          {
+            "id": "fg-d1",
+            "kind": {
+              "type": "text",
+              "tag": "p",
+              "content": "We take on eight projects a year so that each one gets the senior people who pitched it."
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "typography": {
+                    "token": "type.body",
+                    "color": {
+                      "token": "ink.muted"
+                    }
+                  }
+                }
+              }
+            },
+            "bindings": {
+              "content": "item1Text"
+            }
+          }
+        ]
+      },
+      {
+        "id": "fg-2",
+        "kind": {
+          "type": "frame",
+          "element": "div"
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "display": "flex",
+              "flex": {
+                "direction": "column",
+                "gap": {
+                  "token": "space.4"
+                }
+              },
+              "border": {
+                "top": {
+                  "width": {
+                    "px": 1
+                  },
+                  "style": "solid",
+                  "color": {
+                    "token": "line.strong"
+                  }
+                }
+              },
+              "spacing": {
+                "padding": {
+                  "top": {
+                    "token": "space.6"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "children": [
+          {
+            "id": "fg-n2",
+            "kind": {
+              "type": "text",
+              "tag": "p",
+              "content": "II."
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "typography": {
+                    "token": "type.subtitle",
+                    "color": {
+                      "token": "ink.accent"
+                    }
+                  }
+                }
+              }
+            },
+            "bindings": {
+              "content": "item2Mark"
+            }
+          },
+          {
+            "id": "fg-t2",
+            "kind": {
+              "type": "text",
+              "tag": "h3",
+              "content": "Words first."
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "typography": {
+                    "token": "type.subtitle",
+                    "color": {
+                      "token": "ink.body"
+                    }
+                  }
+                }
+              }
+            },
+            "bindings": {
+              "content": "item2Title"
+            }
+          },
+          {
+            "id": "fg-d2",
+            "kind": {
+              "type": "text",
+              "tag": "p",
+              "content": "A writer sits in every kickoff. If we cannot say it plainly, we are not ready to draw it."
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "typography": {
+                    "token": "type.body",
+                    "color": {
+                      "token": "ink.muted"
+                    }
+                  }
+                }
+              }
+            },
+            "bindings": {
+              "content": "item2Text"
+            }
+          }
+        ]
+      },
+      {
+        "id": "fg-3",
+        "kind": {
+          "type": "frame",
+          "element": "div"
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "display": "flex",
+              "flex": {
+                "direction": "column",
+                "gap": {
+                  "token": "space.4"
+                }
+              },
+              "border": {
+                "top": {
+                  "width": {
+                    "px": 1
+                  },
+                  "style": "solid",
+                  "color": {
+                    "token": "line.strong"
+                  }
+                }
+              },
+              "spacing": {
+                "padding": {
+                  "top": {
+                    "token": "space.6"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "children": [
+          {
+            "id": "fg-n3",
+            "kind": {
+              "type": "text",
+              "tag": "p",
+              "content": "III."
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "typography": {
+                    "token": "type.subtitle",
+                    "color": {
+                      "token": "ink.accent"
+                    }
+                  }
+                }
+              }
+            },
+            "bindings": {
+              "content": "item3Mark"
+            }
+          },
+          {
+            "id": "fg-t3",
+            "kind": {
+              "type": "text",
+              "tag": "h3",
+              "content": "Built to be handed over."
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "typography": {
+                    "token": "type.subtitle",
+                    "color": {
+                      "token": "ink.body"
+                    }
+                  }
+                }
+              }
+            },
+            "bindings": {
+              "content": "item3Title"
+            }
+          },
+          {
+            "id": "fg-d3",
+            "kind": {
+              "type": "text",
+              "tag": "p",
+              "content": "Every system ships with guidelines your own team can use on a Tuesday afternoon."
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "typography": {
+                    "token": "type.body",
+                    "color": {
+                      "token": "ink.muted"
+                    }
+                  }
+                }
+              }
+            },
+            "bindings": {
+              "content": "item3Text"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "props": [
+    {
+      "name": "item1Mark",
+      "label": "Item 1 numeral",
+      "kind": {
+        "type": "text"
+      },
+      "default": "I."
+    },
+    {
+      "name": "item1Title",
+      "label": "Item 1 title",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Fewer, better."
+    },
+    {
+      "name": "item1Text",
+      "label": "Item 1 text",
+      "kind": {
+        "type": "longText"
+      },
+      "default": "We take on eight projects a year so that each one gets the senior people who pitched it."
+    },
+    {
+      "name": "item2Mark",
+      "label": "Item 2 numeral",
+      "kind": {
+        "type": "text"
+      },
+      "default": "II."
+    },
+    {
+      "name": "item2Title",
+      "label": "Item 2 title",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Words first."
+    },
+    {
+      "name": "item2Text",
+      "label": "Item 2 text",
+      "kind": {
+        "type": "longText"
+      },
+      "default": "A writer sits in every kickoff. If we cannot say it plainly, we are not ready to draw it."
+    },
+    {
+      "name": "item3Mark",
+      "label": "Item 3 numeral",
+      "kind": {
+        "type": "text"
+      },
+      "default": "III."
+    },
+    {
+      "name": "item3Title",
+      "label": "Item 3 title",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Built to be handed over."
+    },
+    {
+      "name": "item3Text",
+      "label": "Item 3 text",
+      "kind": {
+        "type": "longText"
+      },
+      "default": "Every system ships with guidelines your own team can use on a Tuesday afternoon."
+    }
+  ],
+  "variants": {
+    "paper": {},
+    "raised": {
+      "styles": {
+        "base": {
+          "base": {
+            "background": {
+              "token": "surface.raised"
+            },
+            "spacing": {
+              "padding": {
+                "top": {
+                  "token": "space.12"
+                },
+                "bottom": {
+                  "token": "space.12"
+                },
+                "left": {
+                  "token": "space.8"
+                },
+                "right": {
+                  "token": "space.8"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "defaultVariant": "paper"
+}

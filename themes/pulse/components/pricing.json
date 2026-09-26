@@ -1,0 +1,2346 @@
+{
+  "id": "pulse-pricing",
+  "name": "Pulse pricing table",
+  "root": {
+    "id": "pulse-pricing",
+    "kind": {
+      "type": "frame",
+      "element": "section"
+    },
+    "styles": {
+      "base": {
+        "base": {
+          "background": {
+            "token": "surface.page"
+          },
+          "spacing": {
+            "padding": {
+              "top": {
+                "token": "space.section"
+              },
+              "bottom": {
+                "token": "space.section"
+              },
+              "left": {
+                "token": "space.gutter"
+              },
+              "right": {
+                "token": "space.gutter"
+              }
+            }
+          }
+        }
+      },
+      "md": {
+        "base": {
+          "spacing": {
+            "padding": {
+              "left": {
+                "token": "space.gutter.wide"
+              },
+              "right": {
+                "token": "space.gutter.wide"
+              }
+            }
+          }
+        }
+      }
+    },
+    "children": [
+      {
+        "id": "pricing-inner",
+        "kind": {
+          "type": "frame"
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "display": "flex",
+              "flex": {
+                "direction": "column",
+                "gap": {
+                  "token": "space.12"
+                }
+              },
+              "size": {
+                "maxWidth": {
+                  "token": "space.measure"
+                },
+                "width": {
+                  "percent": 100
+                }
+              },
+              "spacing": {
+                "margin": {
+                  "left": {
+                    "raw": "auto"
+                  },
+                  "right": {
+                    "raw": "auto"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "children": [
+          {
+            "id": "pricing-heading",
+            "kind": {
+              "type": "frame"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "flex",
+                  "flex": {
+                    "direction": "column",
+                    "gap": {
+                      "token": "space.4"
+                    },
+                    "align": "center"
+                  },
+                  "size": {
+                    "maxWidth": {
+                      "px": 760
+                    }
+                  },
+                  "spacing": {
+                    "margin": {
+                      "left": {
+                        "raw": "auto"
+                      },
+                      "right": {
+                        "raw": "auto"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "pricing-heading-eyebrow",
+                "kind": {
+                  "type": "frame"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "inlineFlex",
+                      "flex": {
+                        "align": "center",
+                        "gap": {
+                          "token": "space.2"
+                        }
+                      },
+                      "size": {
+                        "width": {
+                          "raw": "fit-content"
+                        }
+                      },
+                      "background": {
+                        "raw": "rgb(109 40 217 / 0.16)"
+                      },
+                      "border": {
+                        "width": {
+                          "px": 1
+                        },
+                        "style": "solid",
+                        "color": {
+                          "raw": "rgb(167 139 250 / 0.35)"
+                        }
+                      },
+                      "radius": {
+                        "token": "radius.full"
+                      },
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "px": 6
+                          },
+                          "bottom": {
+                            "px": 6
+                          },
+                          "left": {
+                            "px": 12
+                          },
+                          "right": {
+                            "px": 14
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "pricing-heading-eyebrow-dot",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "size": {
+                            "width": {
+                              "px": 8
+                            },
+                            "height": {
+                              "px": 8
+                            }
+                          },
+                          "radius": {
+                            "token": "radius.full"
+                          },
+                          "background": {
+                            "token": "brand.glow"
+                          },
+                          "shadow": {
+                            "raw": "0 0 12px 2px rgb(167 139 250 / 0.9)"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "pricing-heading-eyebrow-text",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "Pricing"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.label",
+                            "color": {
+                              "token": "ink.accent"
+                            },
+                            "transform": "uppercase"
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "content": "eyebrow"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "pricing-heading-title",
+                "kind": {
+                  "type": "text",
+                  "tag": "h2",
+                  "content": "Simple plans that grow with you."
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.title",
+                        "color": {
+                          "token": "ink.strong"
+                        },
+                        "align": "center"
+                      }
+                    }
+                  }
+                },
+                "bindings": {
+                  "content": "title"
+                }
+              },
+              {
+                "id": "pricing-heading-lead",
+                "kind": {
+                  "type": "text",
+                  "tag": "p",
+                  "content": "Start free. Upgrade when the numbers say so. Every plan includes unlimited seats."
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.lead",
+                        "color": {
+                          "token": "ink.muted"
+                        },
+                        "align": "center"
+                      }
+                    }
+                  }
+                },
+                "bindings": {
+                  "content": "lead"
+                }
+              }
+            ]
+          },
+          {
+            "id": "pricing-grid",
+            "kind": {
+              "type": "columns",
+              "count": 3
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "grid",
+                  "grid": {
+                    "columns": 1,
+                    "gap": {
+                      "token": "space.5"
+                    }
+                  }
+                }
+              },
+              "md": {
+                "base": {
+                  "display": "grid",
+                  "grid": {
+                    "columns": 3
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "tier-1",
+                "kind": {
+                  "type": "frame",
+                  "element": "article"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "token": "space.5"
+                        }
+                      },
+                      "background": {
+                        "token": "surface.card"
+                      },
+                      "border": {
+                        "width": {
+                          "px": 1
+                        },
+                        "style": "solid",
+                        "color": {
+                          "token": "line.subtle"
+                        }
+                      },
+                      "radius": {
+                        "token": "radius.lg"
+                      },
+                      "shadow": {
+                        "token": "shadow.card"
+                      },
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "token": "space.8"
+                          },
+                          "bottom": {
+                            "token": "space.8"
+                          },
+                          "left": {
+                            "token": "space.6"
+                          },
+                          "right": {
+                            "token": "space.6"
+                          }
+                        }
+                      },
+                      "transition": {
+                        "duration": 220,
+                        "properties": [
+                          "borderColor",
+                          "transform"
+                        ]
+                      }
+                    },
+                    "hover": {
+                      "border": {
+                        "width": {
+                          "px": 1
+                        },
+                        "style": "solid",
+                        "color": {
+                          "raw": "rgb(167 139 250 / 0.45)"
+                        }
+                      },
+                      "custom": {
+                        "transform": "translateY(-3px)"
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "tier-1-top",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "row",
+                            "gap": {
+                              "token": "space.3"
+                            },
+                            "align": "center",
+                            "justify": "spaceBetween"
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "tier-1-name",
+                        "kind": {
+                          "type": "text",
+                          "tag": "h3",
+                          "content": "Starter"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.heading",
+                                "color": {
+                                  "token": "ink.strong"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "tier-1-price-row",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "row",
+                            "gap": {
+                              "token": "space.2"
+                            },
+                            "align": "baseline",
+                            "wrap": true
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "tier-1-price",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "$0"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.price",
+                                "color": {
+                                  "token": "ink.strong"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "tier-1-per",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "per month, forever"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.muted"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "tier-1-desc",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "For new products finding their first thousand users."
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.body",
+                            "color": {
+                              "token": "ink.muted"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "tier-1-list",
+                    "kind": {
+                      "type": "list",
+                      "ordered": false
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "column",
+                            "gap": {
+                              "token": "space.3"
+                            }
+                          },
+                          "spacing": {
+                            "padding": {
+                              "left": {
+                                "px": 0
+                              },
+                              "top": {
+                                "token": "space.4"
+                              },
+                              "bottom": {
+                                "token": "space.4"
+                              }
+                            },
+                            "margin": {
+                              "top": {
+                                "px": 0
+                              },
+                              "bottom": {
+                                "px": 0
+                              }
+                            }
+                          },
+                          "border": {
+                            "top": {
+                              "width": {
+                                "px": 1
+                              },
+                              "style": "solid",
+                              "color": {
+                                "token": "line.subtle"
+                              }
+                            }
+                          },
+                          "custom": {
+                            "list-style": "none"
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "tier-1-item-1",
+                        "kind": {
+                          "type": "listItem"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "flex",
+                              "flex": {
+                                "direction": "row",
+                                "gap": {
+                                  "token": "space.3"
+                                },
+                                "align": "center"
+                              }
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": "tier-1-check-1",
+                            "kind": {
+                              "type": "icon",
+                              "name": "check"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "size": {
+                                    "width": {
+                                      "px": 18
+                                    },
+                                    "height": {
+                                      "px": 18
+                                    }
+                                  },
+                                  "typography": {
+                                    "color": {
+                                      "token": "status.success"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "tier-1-item-1-text",
+                            "kind": {
+                              "type": "text",
+                              "tag": "span",
+                              "content": "10,000 monthly tracked users"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.body",
+                                    "color": {
+                                      "token": "ink.body"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "tier-1-item-2",
+                        "kind": {
+                          "type": "listItem"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "flex",
+                              "flex": {
+                                "direction": "row",
+                                "gap": {
+                                  "token": "space.3"
+                                },
+                                "align": "center"
+                              }
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": "tier-1-check-2",
+                            "kind": {
+                              "type": "icon",
+                              "name": "check"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "size": {
+                                    "width": {
+                                      "px": 18
+                                    },
+                                    "height": {
+                                      "px": 18
+                                    }
+                                  },
+                                  "typography": {
+                                    "color": {
+                                      "token": "status.success"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "tier-1-item-2-text",
+                            "kind": {
+                              "type": "text",
+                              "tag": "span",
+                              "content": "Core analytics and funnels"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.body",
+                                    "color": {
+                                      "token": "ink.body"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "tier-1-item-3",
+                        "kind": {
+                          "type": "listItem"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "flex",
+                              "flex": {
+                                "direction": "row",
+                                "gap": {
+                                  "token": "space.3"
+                                },
+                                "align": "center"
+                              }
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": "tier-1-check-3",
+                            "kind": {
+                              "type": "icon",
+                              "name": "check"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "size": {
+                                    "width": {
+                                      "px": 18
+                                    },
+                                    "height": {
+                                      "px": 18
+                                    }
+                                  },
+                                  "typography": {
+                                    "color": {
+                                      "token": "status.success"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "tier-1-item-3-text",
+                            "kind": {
+                              "type": "text",
+                              "tag": "span",
+                              "content": "3 live experiments"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.body",
+                                    "color": {
+                                      "token": "ink.body"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "tier-1-item-4",
+                        "kind": {
+                          "type": "listItem"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "flex",
+                              "flex": {
+                                "direction": "row",
+                                "gap": {
+                                  "token": "space.3"
+                                },
+                                "align": "center"
+                              }
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": "tier-1-check-4",
+                            "kind": {
+                              "type": "icon",
+                              "name": "check"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "size": {
+                                    "width": {
+                                      "px": 18
+                                    },
+                                    "height": {
+                                      "px": 18
+                                    }
+                                  },
+                                  "typography": {
+                                    "color": {
+                                      "token": "status.success"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "tier-1-item-4-text",
+                            "kind": {
+                              "type": "text",
+                              "tag": "span",
+                              "content": "Community support"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.body",
+                                    "color": {
+                                      "token": "ink.body"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "tier-1-spacer",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "custom": {
+                            "flex-grow": "1"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "tier-1-cta",
+                    "kind": {
+                      "type": "button",
+                      "label": "Start free",
+                      "href": "/contact",
+                      "target": "same"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "background": {
+                            "raw": "rgb(255 255 255 / 0.04)"
+                          },
+                          "border": {
+                            "width": {
+                              "px": 1
+                            },
+                            "style": "solid",
+                            "color": {
+                              "token": "line.strong"
+                            }
+                          },
+                          "display": "inlineBlock",
+                          "radius": {
+                            "token": "radius.full"
+                          },
+                          "size": {
+                            "width": {
+                              "raw": "fit-content"
+                            }
+                          },
+                          "spacing": {
+                            "padding": {
+                              "top": {
+                                "px": 13
+                              },
+                              "bottom": {
+                                "px": 13
+                              },
+                              "left": {
+                                "px": 22
+                              },
+                              "right": {
+                                "px": 22
+                              }
+                            }
+                          },
+                          "typography": {
+                            "token": "type.button",
+                            "color": {
+                              "token": "ink.strong"
+                            },
+                            "decoration": "none",
+                            "align": "center"
+                          },
+                          "transition": {
+                            "duration": 200,
+                            "properties": [
+                              "backgroundColor",
+                              "borderColor"
+                            ]
+                          }
+                        },
+                        "hover": {
+                          "background": {
+                            "token": "surface.elevated"
+                          },
+                          "border": {
+                            "width": {
+                              "px": 1
+                            },
+                            "style": "solid",
+                            "color": {
+                              "token": "brand.glow"
+                            }
+                          }
+                        },
+                        "focus": {
+                          "custom": {
+                            "outline": "2px solid #C4B5FD",
+                            "outline-offset": "3px"
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "tier-2",
+                "kind": {
+                  "type": "frame",
+                  "element": "article"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "token": "space.5"
+                        }
+                      },
+                      "background": {
+                        "token": "surface.elevated"
+                      },
+                      "border": {
+                        "width": {
+                          "px": 1
+                        },
+                        "style": "solid",
+                        "color": {
+                          "token": "brand.glow"
+                        }
+                      },
+                      "radius": {
+                        "token": "radius.lg"
+                      },
+                      "shadow": {
+                        "token": "shadow.glow"
+                      },
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "token": "space.8"
+                          },
+                          "bottom": {
+                            "token": "space.8"
+                          },
+                          "left": {
+                            "token": "space.6"
+                          },
+                          "right": {
+                            "token": "space.6"
+                          }
+                        }
+                      },
+                      "transition": {
+                        "duration": 220,
+                        "properties": [
+                          "borderColor",
+                          "transform"
+                        ]
+                      }
+                    },
+                    "hover": {
+                      "border": {
+                        "width": {
+                          "px": 1
+                        },
+                        "style": "solid",
+                        "color": {
+                          "raw": "rgb(167 139 250 / 0.45)"
+                        }
+                      },
+                      "custom": {
+                        "transform": "translateY(-3px)"
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "tier-2-top",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "row",
+                            "gap": {
+                              "token": "space.3"
+                            },
+                            "align": "center",
+                            "justify": "spaceBetween"
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "tier-2-name",
+                        "kind": {
+                          "type": "text",
+                          "tag": "h3",
+                          "content": "Growth"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.heading",
+                                "color": {
+                                  "token": "ink.strong"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "tier-2-badge",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "Most popular"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.label",
+                                "color": {
+                                  "token": "ink.on-accent"
+                                },
+                                "transform": "uppercase"
+                              },
+                              "background": {
+                                "token": "surface.accent"
+                              },
+                              "radius": {
+                                "token": "radius.full"
+                              },
+                              "spacing": {
+                                "padding": {
+                                  "top": {
+                                    "px": 5
+                                  },
+                                  "bottom": {
+                                    "px": 5
+                                  },
+                                  "left": {
+                                    "px": 10
+                                  },
+                                  "right": {
+                                    "px": 10
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "tier-2-price-row",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "row",
+                            "gap": {
+                              "token": "space.2"
+                            },
+                            "align": "baseline",
+                            "wrap": true
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "tier-2-price",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "$249"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.price",
+                                "color": {
+                                  "token": "ink.strong"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "tier-2-per",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "per month, billed yearly"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.muted"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "tier-2-desc",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "For teams shipping every week and measuring every release."
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.body",
+                            "color": {
+                              "token": "ink.muted"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "tier-2-list",
+                    "kind": {
+                      "type": "list",
+                      "ordered": false
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "column",
+                            "gap": {
+                              "token": "space.3"
+                            }
+                          },
+                          "spacing": {
+                            "padding": {
+                              "left": {
+                                "px": 0
+                              },
+                              "top": {
+                                "token": "space.4"
+                              },
+                              "bottom": {
+                                "token": "space.4"
+                              }
+                            },
+                            "margin": {
+                              "top": {
+                                "px": 0
+                              },
+                              "bottom": {
+                                "px": 0
+                              }
+                            }
+                          },
+                          "border": {
+                            "top": {
+                              "width": {
+                                "px": 1
+                              },
+                              "style": "solid",
+                              "color": {
+                                "token": "line.subtle"
+                              }
+                            }
+                          },
+                          "custom": {
+                            "list-style": "none"
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "tier-2-item-1",
+                        "kind": {
+                          "type": "listItem"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "flex",
+                              "flex": {
+                                "direction": "row",
+                                "gap": {
+                                  "token": "space.3"
+                                },
+                                "align": "center"
+                              }
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": "tier-2-check-1",
+                            "kind": {
+                              "type": "icon",
+                              "name": "check"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "size": {
+                                    "width": {
+                                      "px": 18
+                                    },
+                                    "height": {
+                                      "px": 18
+                                    }
+                                  },
+                                  "typography": {
+                                    "color": {
+                                      "token": "status.success"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "tier-2-item-1-text",
+                            "kind": {
+                              "type": "text",
+                              "tag": "span",
+                              "content": "100,000 monthly tracked users"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.body",
+                                    "color": {
+                                      "token": "ink.body"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "tier-2-item-2",
+                        "kind": {
+                          "type": "listItem"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "flex",
+                              "flex": {
+                                "direction": "row",
+                                "gap": {
+                                  "token": "space.3"
+                                },
+                                "align": "center"
+                              }
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": "tier-2-check-2",
+                            "kind": {
+                              "type": "icon",
+                              "name": "check"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "size": {
+                                    "width": {
+                                      "px": 18
+                                    },
+                                    "height": {
+                                      "px": 18
+                                    }
+                                  },
+                                  "typography": {
+                                    "color": {
+                                      "token": "status.success"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "tier-2-item-2-text",
+                            "kind": {
+                              "type": "text",
+                              "tag": "span",
+                              "content": "Unlimited experiments"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.body",
+                                    "color": {
+                                      "token": "ink.body"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "tier-2-item-3",
+                        "kind": {
+                          "type": "listItem"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "flex",
+                              "flex": {
+                                "direction": "row",
+                                "gap": {
+                                  "token": "space.3"
+                                },
+                                "align": "center"
+                              }
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": "tier-2-check-3",
+                            "kind": {
+                              "type": "icon",
+                              "name": "check"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "size": {
+                                    "width": {
+                                      "px": 18
+                                    },
+                                    "height": {
+                                      "px": 18
+                                    }
+                                  },
+                                  "typography": {
+                                    "color": {
+                                      "token": "status.success"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "tier-2-item-3-text",
+                            "kind": {
+                              "type": "text",
+                              "tag": "span",
+                              "content": "Guided onboarding flows"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.body",
+                                    "color": {
+                                      "token": "ink.body"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "tier-2-item-4",
+                        "kind": {
+                          "type": "listItem"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "flex",
+                              "flex": {
+                                "direction": "row",
+                                "gap": {
+                                  "token": "space.3"
+                                },
+                                "align": "center"
+                              }
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": "tier-2-check-4",
+                            "kind": {
+                              "type": "icon",
+                              "name": "check"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "size": {
+                                    "width": {
+                                      "px": 18
+                                    },
+                                    "height": {
+                                      "px": 18
+                                    }
+                                  },
+                                  "typography": {
+                                    "color": {
+                                      "token": "status.success"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "tier-2-item-4-text",
+                            "kind": {
+                              "type": "text",
+                              "tag": "span",
+                              "content": "Real-time alerts in Slack or Teams"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.body",
+                                    "color": {
+                                      "token": "ink.body"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "tier-2-item-5",
+                        "kind": {
+                          "type": "listItem"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "flex",
+                              "flex": {
+                                "direction": "row",
+                                "gap": {
+                                  "token": "space.3"
+                                },
+                                "align": "center"
+                              }
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": "tier-2-check-5",
+                            "kind": {
+                              "type": "icon",
+                              "name": "check"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "size": {
+                                    "width": {
+                                      "px": 18
+                                    },
+                                    "height": {
+                                      "px": 18
+                                    }
+                                  },
+                                  "typography": {
+                                    "color": {
+                                      "token": "status.success"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "tier-2-item-5-text",
+                            "kind": {
+                              "type": "text",
+                              "tag": "span",
+                              "content": "Priority support, 4-hour response"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.body",
+                                    "color": {
+                                      "token": "ink.body"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "tier-2-spacer",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "custom": {
+                            "flex-grow": "1"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "tier-2-cta",
+                    "kind": {
+                      "type": "button",
+                      "label": "Start 14-day trial",
+                      "href": "/contact",
+                      "target": "same"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "background": {
+                            "token": "brand.primary"
+                          },
+                          "backgroundImage": {
+                            "gradient": "linear-gradient(135deg, #7C3AED 0%, #6D28D9 55%, #A21CAF 100%)"
+                          },
+                          "display": "inlineBlock",
+                          "radius": {
+                            "token": "radius.full"
+                          },
+                          "shadow": {
+                            "token": "shadow.button"
+                          },
+                          "size": {
+                            "width": {
+                              "raw": "fit-content"
+                            }
+                          },
+                          "spacing": {
+                            "padding": {
+                              "top": {
+                                "px": 14
+                              },
+                              "bottom": {
+                                "px": 14
+                              },
+                              "left": {
+                                "px": 24
+                              },
+                              "right": {
+                                "px": 24
+                              }
+                            }
+                          },
+                          "typography": {
+                            "token": "type.button",
+                            "color": {
+                              "token": "ink.on-accent"
+                            },
+                            "decoration": "none",
+                            "align": "center"
+                          },
+                          "transition": {
+                            "duration": 200,
+                            "properties": [
+                              "transform",
+                              "boxShadow"
+                            ]
+                          }
+                        },
+                        "hover": {
+                          "custom": {
+                            "transform": "translateY(-2px)"
+                          },
+                          "shadow": {
+                            "token": "shadow.glow"
+                          }
+                        },
+                        "focus": {
+                          "custom": {
+                            "outline": "2px solid #C4B5FD",
+                            "outline-offset": "3px"
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "tier-3",
+                "kind": {
+                  "type": "frame",
+                  "element": "article"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "token": "space.5"
+                        }
+                      },
+                      "background": {
+                        "token": "surface.card"
+                      },
+                      "border": {
+                        "width": {
+                          "px": 1
+                        },
+                        "style": "solid",
+                        "color": {
+                          "token": "line.subtle"
+                        }
+                      },
+                      "radius": {
+                        "token": "radius.lg"
+                      },
+                      "shadow": {
+                        "token": "shadow.card"
+                      },
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "token": "space.8"
+                          },
+                          "bottom": {
+                            "token": "space.8"
+                          },
+                          "left": {
+                            "token": "space.6"
+                          },
+                          "right": {
+                            "token": "space.6"
+                          }
+                        }
+                      },
+                      "transition": {
+                        "duration": 220,
+                        "properties": [
+                          "borderColor",
+                          "transform"
+                        ]
+                      }
+                    },
+                    "hover": {
+                      "border": {
+                        "width": {
+                          "px": 1
+                        },
+                        "style": "solid",
+                        "color": {
+                          "raw": "rgb(167 139 250 / 0.45)"
+                        }
+                      },
+                      "custom": {
+                        "transform": "translateY(-3px)"
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "tier-3-top",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "row",
+                            "gap": {
+                              "token": "space.3"
+                            },
+                            "align": "center",
+                            "justify": "spaceBetween"
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "tier-3-name",
+                        "kind": {
+                          "type": "text",
+                          "tag": "h3",
+                          "content": "Scale"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.heading",
+                                "color": {
+                                  "token": "ink.strong"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "tier-3-price-row",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "row",
+                            "gap": {
+                              "token": "space.2"
+                            },
+                            "align": "baseline",
+                            "wrap": true
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "tier-3-price",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Custom"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.price",
+                                "color": {
+                                  "token": "ink.strong"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "tier-3-per",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "annual agreement"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.muted"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "tier-3-desc",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "For companies with many products, regions and rules."
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.body",
+                            "color": {
+                              "token": "ink.muted"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "tier-3-list",
+                    "kind": {
+                      "type": "list",
+                      "ordered": false
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "column",
+                            "gap": {
+                              "token": "space.3"
+                            }
+                          },
+                          "spacing": {
+                            "padding": {
+                              "left": {
+                                "px": 0
+                              },
+                              "top": {
+                                "token": "space.4"
+                              },
+                              "bottom": {
+                                "token": "space.4"
+                              }
+                            },
+                            "margin": {
+                              "top": {
+                                "px": 0
+                              },
+                              "bottom": {
+                                "px": 0
+                              }
+                            }
+                          },
+                          "border": {
+                            "top": {
+                              "width": {
+                                "px": 1
+                              },
+                              "style": "solid",
+                              "color": {
+                                "token": "line.subtle"
+                              }
+                            }
+                          },
+                          "custom": {
+                            "list-style": "none"
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "tier-3-item-1",
+                        "kind": {
+                          "type": "listItem"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "flex",
+                              "flex": {
+                                "direction": "row",
+                                "gap": {
+                                  "token": "space.3"
+                                },
+                                "align": "center"
+                              }
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": "tier-3-check-1",
+                            "kind": {
+                              "type": "icon",
+                              "name": "check"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "size": {
+                                    "width": {
+                                      "px": 18
+                                    },
+                                    "height": {
+                                      "px": 18
+                                    }
+                                  },
+                                  "typography": {
+                                    "color": {
+                                      "token": "status.success"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "tier-3-item-1-text",
+                            "kind": {
+                              "type": "text",
+                              "tag": "span",
+                              "content": "Unlimited tracked users"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.body",
+                                    "color": {
+                                      "token": "ink.body"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "tier-3-item-2",
+                        "kind": {
+                          "type": "listItem"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "flex",
+                              "flex": {
+                                "direction": "row",
+                                "gap": {
+                                  "token": "space.3"
+                                },
+                                "align": "center"
+                              }
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": "tier-3-check-2",
+                            "kind": {
+                              "type": "icon",
+                              "name": "check"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "size": {
+                                    "width": {
+                                      "px": 18
+                                    },
+                                    "height": {
+                                      "px": 18
+                                    }
+                                  },
+                                  "typography": {
+                                    "color": {
+                                      "token": "status.success"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "tier-3-item-2-text",
+                            "kind": {
+                              "type": "text",
+                              "tag": "span",
+                              "content": "SSO, SCIM and audit log"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.body",
+                                    "color": {
+                                      "token": "ink.body"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "tier-3-item-3",
+                        "kind": {
+                          "type": "listItem"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "flex",
+                              "flex": {
+                                "direction": "row",
+                                "gap": {
+                                  "token": "space.3"
+                                },
+                                "align": "center"
+                              }
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": "tier-3-check-3",
+                            "kind": {
+                              "type": "icon",
+                              "name": "check"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "size": {
+                                    "width": {
+                                      "px": 18
+                                    },
+                                    "height": {
+                                      "px": 18
+                                    }
+                                  },
+                                  "typography": {
+                                    "color": {
+                                      "token": "status.success"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "tier-3-item-3-text",
+                            "kind": {
+                              "type": "text",
+                              "tag": "span",
+                              "content": "Data residency in EU or US"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.body",
+                                    "color": {
+                                      "token": "ink.body"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "tier-3-item-4",
+                        "kind": {
+                          "type": "listItem"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "flex",
+                              "flex": {
+                                "direction": "row",
+                                "gap": {
+                                  "token": "space.3"
+                                },
+                                "align": "center"
+                              }
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": "tier-3-check-4",
+                            "kind": {
+                              "type": "icon",
+                              "name": "check"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "size": {
+                                    "width": {
+                                      "px": 18
+                                    },
+                                    "height": {
+                                      "px": 18
+                                    }
+                                  },
+                                  "typography": {
+                                    "color": {
+                                      "token": "status.success"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "tier-3-item-4-text",
+                            "kind": {
+                              "type": "text",
+                              "tag": "span",
+                              "content": "Dedicated success manager"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.body",
+                                    "color": {
+                                      "token": "ink.body"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "tier-3-spacer",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "custom": {
+                            "flex-grow": "1"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "tier-3-cta",
+                    "kind": {
+                      "type": "button",
+                      "label": "Talk to sales",
+                      "href": "/contact",
+                      "target": "same"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "background": {
+                            "raw": "rgb(255 255 255 / 0.04)"
+                          },
+                          "border": {
+                            "width": {
+                              "px": 1
+                            },
+                            "style": "solid",
+                            "color": {
+                              "token": "line.strong"
+                            }
+                          },
+                          "display": "inlineBlock",
+                          "radius": {
+                            "token": "radius.full"
+                          },
+                          "size": {
+                            "width": {
+                              "raw": "fit-content"
+                            }
+                          },
+                          "spacing": {
+                            "padding": {
+                              "top": {
+                                "px": 13
+                              },
+                              "bottom": {
+                                "px": 13
+                              },
+                              "left": {
+                                "px": 22
+                              },
+                              "right": {
+                                "px": 22
+                              }
+                            }
+                          },
+                          "typography": {
+                            "token": "type.button",
+                            "color": {
+                              "token": "ink.strong"
+                            },
+                            "decoration": "none",
+                            "align": "center"
+                          },
+                          "transition": {
+                            "duration": 200,
+                            "properties": [
+                              "backgroundColor",
+                              "borderColor"
+                            ]
+                          }
+                        },
+                        "hover": {
+                          "background": {
+                            "token": "surface.elevated"
+                          },
+                          "border": {
+                            "width": {
+                              "px": 1
+                            },
+                            "style": "solid",
+                            "color": {
+                              "token": "brand.glow"
+                            }
+                          }
+                        },
+                        "focus": {
+                          "custom": {
+                            "outline": "2px solid #C4B5FD",
+                            "outline-offset": "3px"
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "props": [
+    {
+      "name": "eyebrow",
+      "label": "Eyebrow",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Pricing"
+    },
+    {
+      "name": "title",
+      "label": "Heading",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Simple plans that grow with you."
+    },
+    {
+      "name": "lead",
+      "label": "Lead",
+      "kind": {
+        "type": "longText"
+      },
+      "default": "Start free. Upgrade when the numbers say so. Every plan includes unlimited seats."
+    }
+  ]
+}

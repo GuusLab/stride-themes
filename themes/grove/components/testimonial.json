@@ -1,0 +1,469 @@
+{
+  "id": "grove-testimonial",
+  "name": "Grove / Testimonial",
+  "root": {
+    "id": "testimonial",
+    "kind": {
+      "type": "frame",
+      "element": "section"
+    },
+    "styles": {
+      "base": {
+        "base": {
+          "background": {
+            "token": "surface.deep"
+          },
+          "spacing": {
+            "padding": {
+              "top": {
+                "token": "section.y"
+              },
+              "right": {
+                "token": "gutter"
+              },
+              "bottom": {
+                "token": "section.y"
+              },
+              "left": {
+                "token": "gutter"
+              }
+            }
+          },
+          "position": {
+            "kind": "relative"
+          },
+          "overflow": "hidden"
+        }
+      }
+    },
+    "children": [
+      {
+        "id": "tq-blob",
+        "kind": {
+          "type": "frame",
+          "element": "div"
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "position": {
+                "kind": "absolute",
+                "inset": {
+                  "top": {
+                    "px": -200.0
+                  },
+                  "left": {
+                    "px": -240.0
+                  }
+                },
+                "zIndex": 0
+              },
+              "size": {
+                "width": {
+                  "px": 560.0
+                },
+                "height": {
+                  "px": 560.0
+                }
+              },
+              "background": {
+                "raw": "#3B5243"
+              },
+              "radius": {
+                "token": "radius.organic"
+              },
+              "opacity": 1,
+              "custom": {
+                "pointer-events": "none",
+                "filter": "blur(2px)"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "tq-inner",
+        "kind": {
+          "type": "frame",
+          "element": "div"
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "display": "flex",
+              "flex": {
+                "direction": "column",
+                "gap": {
+                  "px": 0.0
+                }
+              },
+              "size": {
+                "maxWidth": {
+                  "token": "content.max"
+                },
+                "width": {
+                  "percent": 100.0
+                }
+              },
+              "spacing": {
+                "margin": {
+                  "left": {
+                    "raw": "auto"
+                  },
+                  "right": {
+                    "raw": "auto"
+                  }
+                }
+              },
+              "position": {
+                "kind": "relative"
+              }
+            }
+          }
+        },
+        "children": [
+          {
+            "id": "tq-grid",
+            "kind": {
+              "type": "frame",
+              "element": "div"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "grid",
+                  "grid": {
+                    "columns": 1,
+                    "gap": {
+                      "px": 56.0
+                    },
+                    "align": "center"
+                  }
+                }
+              },
+              "lg": {
+                "base": {
+                  "display": "grid",
+                  "grid": {
+                    "templateColumns": "1.3fr 0.9fr",
+                    "gap": {
+                      "px": 80.0
+                    },
+                    "align": "center"
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "tq",
+                "kind": {
+                  "type": "frame",
+                  "element": "div"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "px": 28.0
+                        }
+                      },
+                      "size": {
+                        "maxWidth": {
+                          "px": 820.0
+                        }
+                      },
+                      "position": {
+                        "kind": "relative",
+                        "zIndex": 2
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "tq-mark",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "“"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "family": "'Fraunces', 'Iowan Old Style', 'Palatino Linotype', Georgia, serif",
+                            "size": {
+                              "rem": 7.0
+                            },
+                            "lineHeight": 0.6,
+                            "color": {
+                              "token": "brand.primary"
+                            }
+                          },
+                          "custom": {
+                            "height": "3.2rem"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "tq-quote",
+                    "kind": {
+                      "type": "text",
+                      "tag": "blockquote",
+                      "content": "I came for my back and stayed for the quiet. Grove is the first place I've practised where nobody is performing — it has honestly changed how I get through a week."
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.quote",
+                            "color": {
+                              "token": "ink.inverse"
+                            }
+                          },
+                          "custom": {
+                            "font-style": "italic"
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "content": "quote"
+                    }
+                  },
+                  {
+                    "id": "tq-by",
+                    "kind": {
+                      "type": "frame",
+                      "element": "div"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "row",
+                            "gap": {
+                              "px": 16.0
+                            },
+                            "align": "center"
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "tq-img",
+                        "kind": {
+                          "type": "image",
+                          "src": "assets/images/coach.jpg",
+                          "alt": "Portrait of Nadia, a student at Grove"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "size": {
+                                "width": {
+                                  "px": 56.0
+                                },
+                                "height": {
+                                  "px": 56.0
+                                }
+                              },
+                              "radius": {
+                                "token": "radius.pill"
+                              },
+                              "objectFit": "cover"
+                            }
+                          }
+                        },
+                        "bindings": {
+                          "src": "avatarSrc",
+                          "alt": "avatarAlt"
+                        }
+                      },
+                      {
+                        "id": "tq-who",
+                        "kind": {
+                          "type": "frame",
+                          "element": "div"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "flex",
+                              "flex": {
+                                "direction": "column",
+                                "gap": {
+                                  "px": 2.0
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": "tq-name",
+                            "kind": {
+                              "type": "text",
+                              "tag": "p",
+                              "content": "Nadia Okafor"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.button",
+                                    "color": {
+                                      "token": "ink.inverse"
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "bindings": {
+                              "content": "name"
+                            }
+                          },
+                          {
+                            "id": "tq-role",
+                            "kind": {
+                              "type": "text",
+                              "tag": "p",
+                              "content": "Student since 2021 · Tuesday Yin regular"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.small",
+                                    "color": {
+                                      "token": "ink.inverse.muted"
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "bindings": {
+                              "content": "role"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "tq-photo",
+                "kind": {
+                  "type": "image",
+                  "src": "assets/images/class.jpg",
+                  "alt": "A small group of students stretching together in a sunlit studio"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "size": {
+                        "width": {
+                          "percent": 100.0
+                        },
+                        "height": {
+                          "px": 320.0
+                        }
+                      },
+                      "objectFit": "cover",
+                      "radius": {
+                        "token": "radius.organic"
+                      }
+                    }
+                  },
+                  "lg": {
+                    "base": {
+                      "size": {
+                        "width": {
+                          "percent": 100.0
+                        },
+                        "height": {
+                          "px": 460.0
+                        }
+                      }
+                    }
+                  }
+                },
+                "bindings": {
+                  "src": "photoSrc",
+                  "alt": "photoAlt"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "props": [
+    {
+      "name": "quote",
+      "label": "Quote",
+      "kind": {
+        "type": "longText"
+      },
+      "default": "I came for my back and stayed for the quiet. Grove is the first place I've practised where nobody is performing — it has honestly changed how I get through a week."
+    },
+    {
+      "name": "avatarSrc",
+      "label": "Avatar image",
+      "kind": {
+        "type": "image"
+      },
+      "default": "assets/images/coach.jpg"
+    },
+    {
+      "name": "avatarAlt",
+      "label": "Avatar alt text",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Portrait of Nadia, a student at Grove"
+    },
+    {
+      "name": "name",
+      "label": "Name",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Nadia Okafor"
+    },
+    {
+      "name": "role",
+      "label": "Role",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Student since 2021 · Tuesday Yin regular"
+    },
+    {
+      "name": "photoSrc",
+      "label": "Photo image",
+      "kind": {
+        "type": "image"
+      },
+      "default": "assets/images/class.jpg"
+    },
+    {
+      "name": "photoAlt",
+      "label": "Photo alt text",
+      "kind": {
+        "type": "text"
+      },
+      "default": "A small group of students stretching together in a sunlit studio"
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "id": "atelier-hero-image",
+  "name": "Atelier · Hero — Full-bleed image",
+  "root": {
+    "id": "hi",
+    "kind": {
+      "type": "frame",
+      "element": "section"
+    },
+    "styles": {
+      "base": {
+        "base": {
+          "background": {
+            "token": "surface.night"
+          },
+          "position": {
+            "kind": "relative"
+          },
+          "overflow": "hidden"
+        }
+      }
+    },
+    "children": [
+      {
+        "id": "hi-img",
+        "kind": {
+          "type": "image",
+          "src": "assets/images/gallery.webp",
+          "alt": "A sunlit plaster gallery with a terracotta arched doorway"
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "size": {
+                "width": {
+                  "percent": 100
+                },
+                "height": {
+                  "raw": "auto"
+                }
+              },
+              "aspectRatio": {
+                "ratio": {
+                  "width": 4,
+                  "height": 5
+                }
+              },
+              "objectFit": "cover",
+              "display": "block",
+              "opacity": 0.82
+            }
+          },
+          "md": {
+            "base": {
+              "aspectRatio": {
+                "ratio": {
+                  "width": 21,
+                  "height": 9
+                }
+              }
+            }
+          }
+        },
+        "bindings": {
+          "src": "image",
+          "alt": "imageAlt"
+        }
+      },
+      {
+        "id": "hi-cap",
+        "kind": {
+          "type": "frame",
+          "element": "div"
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "position": {
+                "kind": "absolute",
+                "inset": {
+                  "left": {
+                    "token": "space.gutter"
+                  },
+                  "right": {
+                    "token": "space.gutter"
+                  },
+                  "bottom": {
+                    "token": "space.8"
+                  }
+                }
+              },
+              "display": "flex",
+              "flex": {
+                "direction": "column",
+                "gap": {
+                  "token": "space.4"
+                }
+              }
+            }
+          },
+          "md": {
+            "base": {
+              "position": {
+                "kind": "absolute",
+                "inset": {
+                  "left": {
+                    "token": "space.gutter"
+                  },
+                  "bottom": {
+                    "token": "space.16"
+                  }
+                }
+              },
+              "size": {
+                "maxWidth": {
+                  "px": 760
+                }
+              }
+            }
+          }
+        },
+        "children": [
+          {
+            "id": "hi-ey",
+            "kind": {
+              "type": "text",
+              "tag": "p",
+              "content": "Featured — Casa Ribeira, Lisbon"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "typography": {
+                    "token": "type.label",
+                    "color": {
+                      "token": "ink.inverse"
+                    },
+                    "transform": "uppercase"
+                  }
+                }
+              }
+            },
+            "bindings": {
+              "content": "eyebrow"
+            }
+          },
+          {
+            "id": "hi-h",
+            "kind": {
+              "type": "text",
+              "tag": "h2",
+              "content": "Rooms that tell you where you are."
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "typography": {
+                    "token": "type.display",
+                    "color": {
+                      "token": "ink.inverse"
+                    }
+                  },
+                  "custom": {
+                    "text-wrap": "balance",
+                    "text-shadow": "0 2px 30px rgb(0 0 0 / 0.35)"
+                  }
+                }
+              }
+            },
+            "bindings": {
+              "content": "title"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "props": [
+    {
+      "name": "eyebrow",
+      "label": "Caption",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Featured — Casa Ribeira, Lisbon"
+    },
+    {
+      "name": "title",
+      "label": "Title",
+      "kind": {
+        "type": "longText"
+      },
+      "default": "Rooms that tell you where you are."
+    },
+    {
+      "name": "image",
+      "label": "Image",
+      "kind": {
+        "type": "image"
+      },
+      "default": "assets/images/gallery.webp"
+    },
+    {
+      "name": "imageAlt",
+      "label": "Image description",
+      "kind": {
+        "type": "text"
+      },
+      "default": "A sunlit plaster gallery with a terracotta arched doorway"
+    }
+  ]
+}

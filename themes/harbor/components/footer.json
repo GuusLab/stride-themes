@@ -1,0 +1,625 @@
+{
+  "id": "harbor-footer",
+  "name": "Harbor · Footer",
+  "root": {
+    "id": "footer",
+    "kind": {
+      "type": "frame",
+      "element": "footer"
+    },
+    "children": [
+      {
+        "id": "footer-inner",
+        "kind": {
+          "type": "frame"
+        },
+        "children": [
+          {
+            "id": "footer-grid",
+            "kind": {
+              "type": "frame"
+            },
+            "children": [
+              {
+                "id": "footer-about",
+                "kind": {
+                  "type": "frame"
+                },
+                "children": [
+                  {
+                    "id": "footer-brand",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "Tidewater Kitchen"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.subtitle",
+                            "color": {
+                              "token": "ink.inverse"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "footer-blurb",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "Seasonal plates, slow coffee and a long table by the water. Family-run since 2011."
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "color": {
+                              "token": "ink.inverse.muted"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "px": 12.0
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "footer-col-1",
+                "kind": {
+                  "type": "frame"
+                },
+                "children": [
+                  {
+                    "id": "footer-col-1-t",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "Find us"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.eyebrow",
+                            "color": {
+                              "token": "ink.inverse.muted"
+                            },
+                            "transform": "uppercase"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "footer-col-1-0",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "14 Quay Street"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "color": {
+                              "token": "ink.inverse"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "footer-col-1-1",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "Port Ellery, 4021"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "color": {
+                              "token": "ink.inverse"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "footer-col-1-2",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "hello@tidewaterkitchen.example"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "color": {
+                              "token": "ink.inverse"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "px": 8.0
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "footer-col-2",
+                "kind": {
+                  "type": "frame"
+                },
+                "children": [
+                  {
+                    "id": "footer-col-2-t",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "Hours"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.eyebrow",
+                            "color": {
+                              "token": "ink.inverse.muted"
+                            },
+                            "transform": "uppercase"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "footer-col-2-0",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "Tue to Thu  8:00 to 22:00"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "color": {
+                              "token": "ink.inverse"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "footer-col-2-1",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "Fri and Sat  8:00 to 23:00"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "color": {
+                              "token": "ink.inverse"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "footer-col-2-2",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "Sun  9:00 to 16:00"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "color": {
+                              "token": "ink.inverse"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "px": 8.0
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "footer-col-3",
+                "kind": {
+                  "type": "frame"
+                },
+                "children": [
+                  {
+                    "id": "footer-col-3-t",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "Explore"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.eyebrow",
+                            "color": {
+                              "token": "ink.inverse.muted"
+                            },
+                            "transform": "uppercase"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "footer-col-3-0",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "Menu"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "color": {
+                              "token": "ink.inverse"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "footer-col-3-1",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "Our story"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "color": {
+                              "token": "ink.inverse"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "footer-col-3-2",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "Private dining"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "color": {
+                              "token": "ink.inverse"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "footer-col-3-3",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "Gift cards"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "color": {
+                              "token": "ink.inverse"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "px": 8.0
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            ],
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "grid",
+                  "grid": {
+                    "columns": 1,
+                    "gap": {
+                      "px": 40.0
+                    }
+                  }
+                }
+              },
+              "md": {
+                "base": {
+                  "display": "grid",
+                  "grid": {
+                    "columns": 2
+                  }
+                }
+              },
+              "lg": {
+                "base": {
+                  "display": "grid",
+                  "grid": {
+                    "columns": 4
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": "footer-rule",
+            "kind": {
+              "type": "divider"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "border": {
+                    "top": {
+                      "width": {
+                        "px": 1.0
+                      },
+                      "style": "solid",
+                      "color": {
+                        "token": "line.inverse"
+                      }
+                    }
+                  },
+                  "spacing": {
+                    "margin": {
+                      "top": {
+                        "px": 0.0
+                      },
+                      "right": {
+                        "px": 0.0
+                      },
+                      "bottom": {
+                        "px": 0.0
+                      },
+                      "left": {
+                        "px": 0.0
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": "footer-legal",
+            "kind": {
+              "type": "frame"
+            },
+            "children": [
+              {
+                "id": "footer-copy",
+                "kind": {
+                  "type": "text",
+                  "tag": "p",
+                  "content": "© 2026 Tidewater Kitchen. Made with care in Port Ellery."
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.small",
+                        "color": {
+                          "token": "ink.inverse.muted"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "footer-note",
+                "kind": {
+                  "type": "text",
+                  "tag": "p",
+                  "content": "Allergen information available on request."
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.small",
+                        "color": {
+                          "token": "ink.inverse.muted"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            ],
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "flex",
+                  "flex": {
+                    "direction": "row",
+                    "gap": {
+                      "px": 16.0
+                    },
+                    "align": "center",
+                    "wrap": true,
+                    "justify": "spaceBetween"
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "styles": {
+          "base": {
+            "base": {
+              "display": "flex",
+              "flex": {
+                "direction": "column",
+                "gap": {
+                  "px": 40.0
+                }
+              },
+              "size": {
+                "maxWidth": {
+                  "px": 1200.0
+                },
+                "width": {
+                  "percent": 100.0
+                }
+              },
+              "spacing": {
+                "margin": {
+                  "left": {
+                    "raw": "auto"
+                  },
+                  "right": {
+                    "raw": "auto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "styles": {
+      "base": {
+        "base": {
+          "background": {
+            "token": "surface.deep"
+          },
+          "spacing": {
+            "padding": {
+              "top": {
+                "px": 64.0
+              },
+              "right": {
+                "px": 20.0
+              },
+              "bottom": {
+                "px": 64.0
+              },
+              "left": {
+                "px": 20.0
+              }
+            }
+          }
+        }
+      },
+      "md": {
+        "base": {
+          "spacing": {
+            "padding": {
+              "top": {
+                "px": 88.0
+              },
+              "right": {
+                "px": 40.0
+              },
+              "bottom": {
+                "px": 88.0
+              },
+              "left": {
+                "px": 40.0
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "props": []
+}

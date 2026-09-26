@@ -1,0 +1,50 @@
+{
+  "id": "pulse",
+  "name": "Pulse",
+  "version": "1.0.0",
+  "author": {
+    "id": "guuslab",
+    "name": "GuusLab"
+  },
+  "tagline": "Dark-first SaaS landing theme: violet glow, bold geometric type, pricing, FAQ.",
+  "longDescription": "Pulse is a launch-ready theme for software products and startups. It is dark first: a near-black page with a violet cast, lit by soft radial glows in the brand violet (#6D28D9) and a magenta partner, with headlines set tight in Sora and running text in Inter.\n\nIt ships seven pages built from its own component library: a landing page (glowing hero with a framed product screenshot, customer logos strip, six-card feature grid, stats, an alternating feature story, testimonial, three-tier pricing table with a highlighted plan, FAQ and a gradient call-to-action band), a product tour, a pricing page, an about page with team and gallery, a blog index with post cards, a contact page and a 404.\n\nFourteen components come with it — header, footer, two heroes, logos strip, feature grid, testimonial, pricing table, FAQ, CTA band, gallery, team, contact block and blog card — each with editable props and, where it makes sense, variants. Everything is drawn narrow-first and widens by breakpoint, uses design tokens rather than literal colours for all text, and keeps secondary text at 4.5:1 or better on every surface.\n\nPhotography is original and generated for this theme, with a diverse cast and a consistent violet dusk grade; the product screenshot is a rendered mock you can swap for your own.",
+  "categories": [
+    "landing",
+    "business"
+  ],
+  "accent": "#6D28D9",
+  "icon": "icon.png",
+  "screenshots": [
+    {
+      "file": "screenshots/01.png",
+      "caption": "Home: glowing hero with a framed product dashboard"
+    },
+    {
+      "file": "screenshots/02.png",
+      "caption": "Pricing: three plans with a highlighted favourite"
+    },
+    {
+      "file": "screenshots/03.png",
+      "caption": "Product tour: one platform for the growth loop"
+    },
+    {
+      "file": "screenshots/04.png",
+      "caption": "On a phone: home, pricing and product"
+    }
+  ],
+  "fonts": [
+    {
+      "family": "Sora",
+      "file": "assets/fonts/sora-variable.woff2",
+      "weight": "100 800",
+      "style": "normal"
+    },
+    {
+      "family": "Inter",
+      "file": "assets/fonts/inter-variable.woff2",
+      "weight": "100 900",
+      "style": "normal"
+    }
+  ],
+  "homeTemplate": "home"
+}

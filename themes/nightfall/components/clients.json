@@ -1,0 +1,250 @@
+{
+  "id": "nightfall-clients",
+  "name": "Nightfall · Clients",
+  "root": {
+    "id": "clients",
+    "kind": {
+      "type": "frame",
+      "element": "section"
+    },
+    "children": [
+      {
+        "id": "clients-inner",
+        "kind": {
+          "type": "frame"
+        },
+        "children": [
+          {
+            "id": "clients-t",
+            "kind": {
+              "type": "text",
+              "tag": "span",
+              "content": "Selected clients and publications"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "typography": {
+                    "token": "type.eyebrow",
+                    "color": {
+                      "token": "ink.faint"
+                    },
+                    "transform": "uppercase"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": "clients-g",
+            "kind": {
+              "type": "frame"
+            },
+            "children": [
+              {
+                "id": "clients-1",
+                "kind": {
+                  "type": "text",
+                  "tag": "p",
+                  "content": "Meridian Quarterly"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.subtitle",
+                        "color": {
+                          "token": "ink.muted"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "clients-2",
+                "kind": {
+                  "type": "text",
+                  "tag": "p",
+                  "content": "Holm & Arden"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.subtitle",
+                        "color": {
+                          "token": "ink.muted"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "clients-3",
+                "kind": {
+                  "type": "text",
+                  "tag": "p",
+                  "content": "The Coastline Review"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.subtitle",
+                        "color": {
+                          "token": "ink.muted"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "clients-4",
+                "kind": {
+                  "type": "text",
+                  "tag": "p",
+                  "content": "Northlight Agency"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.subtitle",
+                        "color": {
+                          "token": "ink.muted"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "clients-5",
+                "kind": {
+                  "type": "text",
+                  "tag": "p",
+                  "content": "Saltmarsh Press"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.subtitle",
+                        "color": {
+                          "token": "ink.muted"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "clients-6",
+                "kind": {
+                  "type": "text",
+                  "tag": "p",
+                  "content": "Atlas Hotels Group"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.subtitle",
+                        "color": {
+                          "token": "ink.muted"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            ],
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "grid",
+                  "grid": {
+                    "columns": 1,
+                    "gap": {
+                      "px": 16.0
+                    }
+                  }
+                }
+              },
+              "md": {
+                "base": {
+                  "grid": {
+                    "columns": 3,
+                    "gap": {
+                      "px": 28.0
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "styles": {
+          "base": {
+            "base": {
+              "display": "flex",
+              "flex": {
+                "direction": "column",
+                "gap": {
+                  "px": 36.0
+                }
+              },
+              "size": {
+                "maxWidth": {
+                  "px": 1440.0
+                },
+                "width": {
+                  "percent": 100.0
+                }
+              },
+              "spacing": {
+                "margin": {
+                  "left": {
+                    "raw": "auto"
+                  },
+                  "right": {
+                    "raw": "auto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "styles": {
+      "base": {
+        "base": {
+          "background": {
+            "token": "surface.page"
+          },
+          "spacing": {
+            "padding": {
+              "top": {
+                "token": "space.16"
+              },
+              "bottom": {
+                "token": "space.16"
+              },
+              "left": {
+                "token": "space.gutter"
+              },
+              "right": {
+                "token": "space.gutter"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "props": []
+}

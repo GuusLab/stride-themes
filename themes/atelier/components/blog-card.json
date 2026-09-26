@@ -1,0 +1,293 @@
+{
+  "id": "atelier-blog-card",
+  "name": "Atelier · Journal card",
+  "root": {
+    "id": "bc",
+    "kind": {
+      "type": "frame",
+      "element": "article"
+    },
+    "styles": {
+      "base": {
+        "base": {
+          "display": "flex",
+          "flex": {
+            "direction": "column",
+            "gap": {
+              "token": "space.4"
+            }
+          },
+          "border": {
+            "top": {
+              "width": {
+                "px": 1
+              },
+              "style": "solid",
+              "color": {
+                "token": "line.strong"
+              }
+            }
+          },
+          "spacing": {
+            "padding": {
+              "top": {
+                "token": "space.4"
+              }
+            }
+          }
+        }
+      }
+    },
+    "children": [
+      {
+        "id": "bc-meta",
+        "kind": {
+          "type": "frame",
+          "element": "div"
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "display": "flex",
+              "flex": {
+                "direction": "row",
+                "justify": "spaceBetween",
+                "gap": {
+                  "px": 12
+                }
+              }
+            }
+          }
+        },
+        "children": [
+          {
+            "id": "bc-cat",
+            "kind": {
+              "type": "text",
+              "tag": "p",
+              "content": "Essay"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "typography": {
+                    "token": "type.label",
+                    "color": {
+                      "token": "ink.accent"
+                    },
+                    "transform": "uppercase"
+                  }
+                }
+              }
+            },
+            "bindings": {
+              "content": "category"
+            }
+          },
+          {
+            "id": "bc-date",
+            "kind": {
+              "type": "text",
+              "tag": "p",
+              "content": "12 September 2026"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "typography": {
+                    "token": "type.small",
+                    "color": {
+                      "token": "ink.muted"
+                    }
+                  }
+                }
+              }
+            },
+            "bindings": {
+              "content": "date"
+            }
+          }
+        ]
+      },
+      {
+        "id": "bc-img",
+        "kind": {
+          "type": "image",
+          "src": "assets/images/sketch.webp",
+          "alt": "A hand drawing brush letterforms in black ink"
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "size": {
+                "width": {
+                  "percent": 100
+                },
+                "height": {
+                  "raw": "auto"
+                }
+              },
+              "aspectRatio": {
+                "ratio": {
+                  "width": 3,
+                  "height": 2
+                }
+              },
+              "objectFit": "cover",
+              "display": "block"
+            }
+          }
+        },
+        "bindings": {
+          "src": "image",
+          "alt": "imageAlt"
+        }
+      },
+      {
+        "id": "bc-link",
+        "kind": {
+          "type": "link",
+          "href": "/journal",
+          "target": "same"
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "typography": {
+                "color": {
+                  "token": "ink.body"
+                },
+                "decoration": "none"
+              },
+              "transition": {
+                "duration": 180,
+                "properties": [
+                  "color"
+                ]
+              }
+            },
+            "hover": {
+              "typography": {
+                "color": {
+                  "token": "ink.accent"
+                }
+              }
+            }
+          }
+        },
+        "bindings": {
+          "href": "href"
+        },
+        "children": [
+          {
+            "id": "bc-t",
+            "kind": {
+              "type": "text",
+              "tag": "h3",
+              "content": "Why every identity we make starts with a typeface nobody sees"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "typography": {
+                    "token": "type.subtitle",
+                    "color": {
+                      "token": "ink.body"
+                    }
+                  },
+                  "custom": {
+                    "text-wrap": "balance"
+                  }
+                }
+              }
+            },
+            "bindings": {
+              "content": "title"
+            }
+          }
+        ]
+      },
+      {
+        "id": "bc-x",
+        "kind": {
+          "type": "text",
+          "tag": "p",
+          "content": "On drawing letters before logos, and what a lowercase “a” tells you about a company."
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "typography": {
+                "token": "type.body",
+                "color": {
+                  "token": "ink.muted"
+                }
+              }
+            }
+          }
+        },
+        "bindings": {
+          "content": "excerpt"
+        }
+      }
+    ]
+  },
+  "props": [
+    {
+      "name": "category",
+      "label": "Category",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Essay"
+    },
+    {
+      "name": "date",
+      "label": "Date",
+      "kind": {
+        "type": "text"
+      },
+      "default": "12 September 2026"
+    },
+    {
+      "name": "title",
+      "label": "Title",
+      "kind": {
+        "type": "longText"
+      },
+      "default": "Why every identity we make starts with a typeface nobody sees"
+    },
+    {
+      "name": "excerpt",
+      "label": "Excerpt",
+      "kind": {
+        "type": "longText"
+      },
+      "default": "On drawing letters before logos, and what a lowercase “a” tells you about a company."
+    },
+    {
+      "name": "href",
+      "label": "Link",
+      "kind": {
+        "type": "url"
+      },
+      "default": "/journal"
+    },
+    {
+      "name": "image",
+      "label": "Image",
+      "kind": {
+        "type": "image"
+      },
+      "default": "assets/images/sketch.webp"
+    },
+    {
+      "name": "imageAlt",
+      "label": "Image description",
+      "kind": {
+        "type": "text"
+      },
+      "default": "A hand drawing brush letterforms in black ink"
+    }
+  ]
+}

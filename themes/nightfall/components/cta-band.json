@@ -1,0 +1,290 @@
+{
+  "id": "nightfall-cta-band",
+  "name": "Nightfall · Call to action",
+  "root": {
+    "id": "cta",
+    "kind": {
+      "type": "frame",
+      "element": "section"
+    },
+    "children": [
+      {
+        "id": "cta-inner",
+        "kind": {
+          "type": "frame"
+        },
+        "children": [
+          {
+            "id": "cta-copy",
+            "kind": {
+              "type": "frame"
+            },
+            "children": [
+              {
+                "id": "cta-eyebrow",
+                "kind": {
+                  "type": "text",
+                  "tag": "span",
+                  "content": "Now booking"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.eyebrow",
+                        "color": {
+                          "token": "ink.accent"
+                        },
+                        "transform": "uppercase"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "cta-title",
+                "kind": {
+                  "type": "text",
+                  "tag": "h2",
+                  "content": "Booking autumn and winter 2026."
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.title",
+                        "color": {
+                          "token": "ink.body"
+                        }
+                      }
+                    }
+                  }
+                },
+                "bindings": {
+                  "content": "heading"
+                }
+              },
+              {
+                "id": "cta-body",
+                "kind": {
+                  "type": "text",
+                  "tag": "p",
+                  "content": "Two portrait days and three weddings left this season. Tell me about the light you have in mind."
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.lead",
+                        "color": {
+                          "token": "ink.inverse.muted"
+                        }
+                      },
+                      "size": {
+                        "maxWidth": {
+                          "px": 560.0
+                        }
+                      }
+                    }
+                  }
+                },
+                "bindings": {
+                  "content": "body"
+                }
+              },
+              {
+                "id": "cta-btn",
+                "kind": {
+                  "type": "button",
+                  "label": "Start a conversation",
+                  "href": "/contact",
+                  "target": "same"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "inlineBlock",
+                      "background": {
+                        "token": "surface.accent"
+                      },
+                      "radius": {
+                        "token": "radius.sm"
+                      },
+                      "size": {
+                        "width": {
+                          "raw": "fit-content"
+                        }
+                      },
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "px": 17.0
+                          },
+                          "right": {
+                            "px": 30.0
+                          },
+                          "bottom": {
+                            "px": 17.0
+                          },
+                          "left": {
+                            "px": 30.0
+                          }
+                        }
+                      },
+                      "typography": {
+                        "token": "type.button",
+                        "color": {
+                          "token": "ink.on-accent"
+                        },
+                        "decoration": "none",
+                        "transform": "uppercase"
+                      },
+                      "transition": {
+                        "duration": 200,
+                        "easing": "easeOut",
+                        "properties": [
+                          "backgroundColor",
+                          "transform",
+                          "boxShadow"
+                        ]
+                      }
+                    },
+                    "hover": {
+                      "background": {
+                        "token": "brand.primary.hover"
+                      },
+                      "custom": {
+                        "transform": "translateY(-2px)"
+                      }
+                    }
+                  }
+                },
+                "bindings": {
+                  "label": "ctaLabel",
+                  "href": "ctaHref"
+                }
+              }
+            ],
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "flex",
+                  "flex": {
+                    "direction": "column",
+                    "gap": {
+                      "px": 24.0
+                    }
+                  },
+                  "size": {
+                    "maxWidth": {
+                      "px": 720.0
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "styles": {
+          "base": {
+            "base": {
+              "size": {
+                "maxWidth": {
+                  "px": 1440.0
+                },
+                "width": {
+                  "percent": 100.0
+                }
+              },
+              "spacing": {
+                "margin": {
+                  "left": {
+                    "raw": "auto"
+                  },
+                  "right": {
+                    "raw": "auto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "styles": {
+      "base": {
+        "base": {
+          "background": {
+            "token": "surface.page"
+          },
+          "custom": {
+            "background-image": "linear-gradient(90deg, rgb(11 11 12 / 0.96) 0%, rgb(11 11 12 / 0.8) 45%, rgb(11 11 12 / 0.2) 100%), url(assets/images/stairs.webp)",
+            "background-size": "cover",
+            "background-position": "center right"
+          },
+          "border": {
+            "top": {
+              "width": {
+                "px": 1.0
+              },
+              "style": "solid",
+              "color": {
+                "token": "line.hairline"
+              }
+            }
+          },
+          "spacing": {
+            "padding": {
+              "top": {
+                "token": "space.section"
+              },
+              "bottom": {
+                "token": "space.section"
+              },
+              "left": {
+                "token": "space.gutter"
+              },
+              "right": {
+                "token": "space.gutter"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "props": [
+    {
+      "name": "heading",
+      "label": "Heading",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Booking autumn and winter 2026."
+    },
+    {
+      "name": "body",
+      "label": "Body",
+      "kind": {
+        "type": "longText"
+      },
+      "default": "Two portrait days and three weddings left this season."
+    },
+    {
+      "name": "ctaLabel",
+      "label": "Button label",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Start a conversation"
+    },
+    {
+      "name": "ctaHref",
+      "label": "Button link",
+      "kind": {
+        "type": "url"
+      },
+      "default": "/contact"
+    }
+  ]
+}

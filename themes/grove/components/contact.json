@@ -1,0 +1,1088 @@
+{
+  "id": "grove-contact",
+  "name": "Grove / Contact block",
+  "root": {
+    "id": "contact",
+    "kind": {
+      "type": "frame",
+      "element": "section"
+    },
+    "styles": {
+      "base": {
+        "base": {
+          "background": {
+            "token": "surface.page"
+          },
+          "spacing": {
+            "padding": {
+              "top": {
+                "token": "section.y"
+              },
+              "right": {
+                "token": "gutter"
+              },
+              "bottom": {
+                "token": "section.y"
+              },
+              "left": {
+                "token": "gutter"
+              }
+            }
+          },
+          "position": {
+            "kind": "relative"
+          },
+          "overflow": "hidden"
+        }
+      }
+    },
+    "children": [
+      {
+        "id": "ct-inner",
+        "kind": {
+          "type": "frame",
+          "element": "div"
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "display": "flex",
+              "flex": {
+                "direction": "column",
+                "gap": {
+                  "px": 0.0
+                }
+              },
+              "size": {
+                "maxWidth": {
+                  "token": "content.max"
+                },
+                "width": {
+                  "percent": 100.0
+                }
+              },
+              "spacing": {
+                "margin": {
+                  "left": {
+                    "raw": "auto"
+                  },
+                  "right": {
+                    "raw": "auto"
+                  }
+                }
+              },
+              "position": {
+                "kind": "relative"
+              }
+            }
+          }
+        },
+        "children": [
+          {
+            "id": "ct-grid",
+            "kind": {
+              "type": "frame",
+              "element": "div"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "grid",
+                  "grid": {
+                    "columns": 1,
+                    "gap": {
+                      "px": 56.0
+                    },
+                    "align": "center"
+                  }
+                }
+              },
+              "lg": {
+                "base": {
+                  "display": "grid",
+                  "grid": {
+                    "templateColumns": "1fr 1fr",
+                    "gap": {
+                      "px": 88.0
+                    },
+                    "align": "center"
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "ct-left",
+                "kind": {
+                  "type": "frame",
+                  "element": "div"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "px": 24.0
+                        }
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "ctx-head",
+                    "kind": {
+                      "type": "frame",
+                      "element": "div"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "column",
+                            "gap": {
+                              "px": 18.0
+                            }
+                          },
+                          "size": {
+                            "maxWidth": {
+                              "px": 720.0
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "ctx-eyebrow",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Visit or write"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.eyebrow",
+                                "color": {
+                                  "token": "brand.strong"
+                                },
+                                "transform": "uppercase"
+                              }
+                            }
+                          }
+                        },
+                        "bindings": {
+                          "content": "eyebrow"
+                        }
+                      },
+                      {
+                        "id": "ctx-title",
+                        "kind": {
+                          "type": "text",
+                          "tag": "h2",
+                          "content": "Come and say hello."
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.title",
+                                "color": {
+                                  "token": "ink.body"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "bindings": {
+                          "content": "title"
+                        }
+                      },
+                      {
+                        "id": "ctx-lead",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "The kettle is usually on. Drop by before a class, send us a note, or book a free 15-minute call to find your fit."
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.lead",
+                                "color": {
+                                  "token": "ink.muted"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "bindings": {
+                          "content": "lead"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "ct-1",
+                    "kind": {
+                      "type": "frame",
+                      "element": "div"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "row",
+                            "gap": {
+                              "px": 16.0
+                            },
+                            "align": "center"
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "ct-1-ic",
+                        "kind": {
+                          "type": "frame",
+                          "element": "div"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "flex",
+                              "flex": {
+                                "direction": "row",
+                                "align": "center",
+                                "justify": "center"
+                              },
+                              "size": {
+                                "width": {
+                                  "px": 48.0
+                                },
+                                "height": {
+                                  "px": 48.0
+                                }
+                              },
+                              "background": {
+                                "token": "surface.sage"
+                              },
+                              "radius": {
+                                "token": "radius.organic"
+                              },
+                              "custom": {
+                                "flex-shrink": "0"
+                              }
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": "ct-1-i",
+                            "kind": {
+                              "type": "icon",
+                              "name": "location"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "size": {
+                                    "width": {
+                                      "px": 20.0
+                                    },
+                                    "height": {
+                                      "px": 20.0
+                                    }
+                                  },
+                                  "typography": {
+                                    "color": {
+                                      "token": "brand.strong"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "ct-1-t",
+                        "kind": {
+                          "type": "frame",
+                          "element": "div"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "flex",
+                              "flex": {
+                                "direction": "column",
+                                "gap": {
+                                  "px": 4.0
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": "ct-1-k",
+                            "kind": {
+                              "type": "text",
+                              "tag": "p",
+                              "content": "Studio"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.eyebrow",
+                                    "color": {
+                                      "token": "ink.muted"
+                                    },
+                                    "transform": "uppercase"
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "ct-1-v",
+                            "kind": {
+                              "type": "text",
+                              "tag": "p",
+                              "content": "14 Linden Yard, Riverside"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.body",
+                                    "color": {
+                                      "token": "ink.body"
+                                    },
+                                    "weight": 600
+                                  }
+                                }
+                              }
+                            },
+                            "bindings": {
+                              "content": "address"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "ct-2",
+                    "kind": {
+                      "type": "frame",
+                      "element": "div"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "row",
+                            "gap": {
+                              "px": 16.0
+                            },
+                            "align": "center"
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "ct-2-ic",
+                        "kind": {
+                          "type": "frame",
+                          "element": "div"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "flex",
+                              "flex": {
+                                "direction": "row",
+                                "align": "center",
+                                "justify": "center"
+                              },
+                              "size": {
+                                "width": {
+                                  "px": 48.0
+                                },
+                                "height": {
+                                  "px": 48.0
+                                }
+                              },
+                              "background": {
+                                "token": "surface.sage"
+                              },
+                              "radius": {
+                                "token": "radius.organic"
+                              },
+                              "custom": {
+                                "flex-shrink": "0"
+                              }
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": "ct-2-i",
+                            "kind": {
+                              "type": "icon",
+                              "name": "mail"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "size": {
+                                    "width": {
+                                      "px": 20.0
+                                    },
+                                    "height": {
+                                      "px": 20.0
+                                    }
+                                  },
+                                  "typography": {
+                                    "color": {
+                                      "token": "brand.strong"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "ct-2-t",
+                        "kind": {
+                          "type": "frame",
+                          "element": "div"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "flex",
+                              "flex": {
+                                "direction": "column",
+                                "gap": {
+                                  "px": 4.0
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": "ct-2-k",
+                            "kind": {
+                              "type": "text",
+                              "tag": "p",
+                              "content": "Email"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.eyebrow",
+                                    "color": {
+                                      "token": "ink.muted"
+                                    },
+                                    "transform": "uppercase"
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "ct-2-v",
+                            "kind": {
+                              "type": "text",
+                              "tag": "p",
+                              "content": "hello@grove-studio.example"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.body",
+                                    "color": {
+                                      "token": "ink.body"
+                                    },
+                                    "weight": 600
+                                  }
+                                }
+                              }
+                            },
+                            "bindings": {
+                              "content": "email"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "ct-3",
+                    "kind": {
+                      "type": "frame",
+                      "element": "div"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "row",
+                            "gap": {
+                              "px": 16.0
+                            },
+                            "align": "center"
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "ct-3-ic",
+                        "kind": {
+                          "type": "frame",
+                          "element": "div"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "flex",
+                              "flex": {
+                                "direction": "row",
+                                "align": "center",
+                                "justify": "center"
+                              },
+                              "size": {
+                                "width": {
+                                  "px": 48.0
+                                },
+                                "height": {
+                                  "px": 48.0
+                                }
+                              },
+                              "background": {
+                                "token": "surface.sage"
+                              },
+                              "radius": {
+                                "token": "radius.organic"
+                              },
+                              "custom": {
+                                "flex-shrink": "0"
+                              }
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": "ct-3-i",
+                            "kind": {
+                              "type": "icon",
+                              "name": "phone"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "size": {
+                                    "width": {
+                                      "px": 20.0
+                                    },
+                                    "height": {
+                                      "px": 20.0
+                                    }
+                                  },
+                                  "typography": {
+                                    "color": {
+                                      "token": "brand.strong"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "ct-3-t",
+                        "kind": {
+                          "type": "frame",
+                          "element": "div"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "flex",
+                              "flex": {
+                                "direction": "column",
+                                "gap": {
+                                  "px": 4.0
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": "ct-3-k",
+                            "kind": {
+                              "type": "text",
+                              "tag": "p",
+                              "content": "Phone"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.eyebrow",
+                                    "color": {
+                                      "token": "ink.muted"
+                                    },
+                                    "transform": "uppercase"
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "ct-3-v",
+                            "kind": {
+                              "type": "text",
+                              "tag": "p",
+                              "content": "+31 20 555 0142"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.body",
+                                    "color": {
+                                      "token": "ink.body"
+                                    },
+                                    "weight": 600
+                                  }
+                                }
+                              }
+                            },
+                            "bindings": {
+                              "content": "phone"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "ct-4",
+                    "kind": {
+                      "type": "frame",
+                      "element": "div"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "row",
+                            "gap": {
+                              "px": 16.0
+                            },
+                            "align": "center"
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "ct-4-ic",
+                        "kind": {
+                          "type": "frame",
+                          "element": "div"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "flex",
+                              "flex": {
+                                "direction": "row",
+                                "align": "center",
+                                "justify": "center"
+                              },
+                              "size": {
+                                "width": {
+                                  "px": 48.0
+                                },
+                                "height": {
+                                  "px": 48.0
+                                }
+                              },
+                              "background": {
+                                "token": "surface.sage"
+                              },
+                              "radius": {
+                                "token": "radius.organic"
+                              },
+                              "custom": {
+                                "flex-shrink": "0"
+                              }
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": "ct-4-i",
+                            "kind": {
+                              "type": "icon",
+                              "name": "clock"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "size": {
+                                    "width": {
+                                      "px": 20.0
+                                    },
+                                    "height": {
+                                      "px": 20.0
+                                    }
+                                  },
+                                  "typography": {
+                                    "color": {
+                                      "token": "brand.strong"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "ct-4-t",
+                        "kind": {
+                          "type": "frame",
+                          "element": "div"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "flex",
+                              "flex": {
+                                "direction": "column",
+                                "gap": {
+                                  "px": 4.0
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": "ct-4-k",
+                            "kind": {
+                              "type": "text",
+                              "tag": "p",
+                              "content": "Hours"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.eyebrow",
+                                    "color": {
+                                      "token": "ink.muted"
+                                    },
+                                    "transform": "uppercase"
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "ct-4-v",
+                            "kind": {
+                              "type": "text",
+                              "tag": "p",
+                              "content": "Mon–Fri 6:30–21:00 · Weekends 8:00–18:00"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.body",
+                                    "color": {
+                                      "token": "ink.body"
+                                    },
+                                    "weight": 600
+                                  }
+                                }
+                              }
+                            },
+                            "bindings": {
+                              "content": "hours"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "ct-actions",
+                    "kind": {
+                      "type": "frame",
+                      "element": "div"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex"
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "ct-btn",
+                        "kind": {
+                          "type": "button",
+                          "label": "Book a free intro call",
+                          "href": "mailto:hello@grove-studio.example",
+                          "target": "same"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "inlineFlex",
+                              "background": {
+                                "token": "brand.strong"
+                              },
+                              "radius": {
+                                "token": "radius.pill"
+                              },
+                              "spacing": {
+                                "padding": {
+                                  "top": {
+                                    "px": 16.0
+                                  },
+                                  "right": {
+                                    "px": 30.0
+                                  },
+                                  "bottom": {
+                                    "px": 16.0
+                                  },
+                                  "left": {
+                                    "px": 30.0
+                                  }
+                                }
+                              },
+                              "typography": {
+                                "token": "type.button",
+                                "color": {
+                                  "token": "ink.inverse"
+                                },
+                                "align": "center",
+                                "decoration": "none"
+                              },
+                              "size": {
+                                "width": {
+                                  "raw": "fit-content"
+                                }
+                              },
+                              "transition": {
+                                "duration": 220,
+                                "properties": [
+                                  "backgroundColor",
+                                  "color",
+                                  "borderColor",
+                                  "boxShadow",
+                                  "transform"
+                                ]
+                              },
+                              "shadow": {
+                                "token": "shadow.soft"
+                              }
+                            },
+                            "hover": {
+                              "background": {
+                                "token": "surface.deep"
+                              },
+                              "custom": {
+                                "transform": "translateY(-2px)"
+                              }
+                            },
+                            "focus": {
+                              "custom": {
+                                "outline": "3px solid #6B8F71",
+                                "outline-offset": "3px"
+                              }
+                            }
+                          }
+                        },
+                        "bindings": {
+                          "label": "buttonLabel",
+                          "href": "buttonHref"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "ct-img",
+                "kind": {
+                  "type": "image",
+                  "src": "assets/images/ritual.jpg",
+                  "alt": "A cup of herbal tea and a sprig of sage on a plaster table in soft morning light"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "size": {
+                        "width": {
+                          "percent": 100.0
+                        },
+                        "height": {
+                          "px": 380.0
+                        }
+                      },
+                      "objectFit": "cover",
+                      "radius": {
+                        "token": "radius.organic"
+                      },
+                      "shadow": {
+                        "token": "shadow.float"
+                      }
+                    }
+                  },
+                  "lg": {
+                    "base": {
+                      "size": {
+                        "width": {
+                          "percent": 100.0
+                        },
+                        "height": {
+                          "px": 560.0
+                        }
+                      }
+                    }
+                  }
+                },
+                "bindings": {
+                  "src": "imageSrc",
+                  "alt": "imageAlt"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "props": [
+    {
+      "name": "eyebrow",
+      "label": "Eyebrow",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Visit or write"
+    },
+    {
+      "name": "title",
+      "label": "Title",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Come and say hello."
+    },
+    {
+      "name": "lead",
+      "label": "Intro",
+      "kind": {
+        "type": "longText"
+      },
+      "default": "The kettle is usually on. Drop by before a class, send us a note, or book a free 15-minute call to find your fit."
+    },
+    {
+      "name": "address",
+      "label": "Studio",
+      "kind": {
+        "type": "text"
+      },
+      "default": "14 Linden Yard, Riverside"
+    },
+    {
+      "name": "email",
+      "label": "Email",
+      "kind": {
+        "type": "text"
+      },
+      "default": "hello@grove-studio.example"
+    },
+    {
+      "name": "phone",
+      "label": "Phone",
+      "kind": {
+        "type": "text"
+      },
+      "default": "+31 20 555 0142"
+    },
+    {
+      "name": "hours",
+      "label": "Hours",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Mon–Fri 6:30–21:00 · Weekends 8:00–18:00"
+    },
+    {
+      "name": "buttonLabel",
+      "label": "Button label",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Book a free intro call"
+    },
+    {
+      "name": "buttonHref",
+      "label": "Button link",
+      "kind": {
+        "type": "url"
+      },
+      "default": "mailto:hello@grove-studio.example"
+    },
+    {
+      "name": "imageSrc",
+      "label": "Photo image",
+      "kind": {
+        "type": "image"
+      },
+      "default": "assets/images/ritual.jpg"
+    },
+    {
+      "name": "imageAlt",
+      "label": "Photo alt text",
+      "kind": {
+        "type": "text"
+      },
+      "default": "A cup of herbal tea and a sprig of sage on a plaster table in soft morning light"
+    }
+  ]
+}

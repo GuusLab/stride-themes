@@ -1,0 +1,5 @@
+node_modules/
+*.key
+.demo/
+.DS_Store
+themes/*/screenshots/draft-*.png

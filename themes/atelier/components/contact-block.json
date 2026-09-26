@@ -1,0 +1,655 @@
+{
+  "id": "atelier-contact-block",
+  "name": "Atelier · Contact",
+  "root": {
+    "id": "cb",
+    "kind": {
+      "type": "frame",
+      "element": "div"
+    },
+    "styles": {
+      "base": {
+        "base": {
+          "display": "grid",
+          "grid": {
+            "templateColumns": "minmax(0, 1fr)",
+            "gap": {
+              "token": "space.16"
+            }
+          }
+        }
+      },
+      "md": {
+        "base": {
+          "grid": {
+            "templateColumns": "minmax(0, 6fr) minmax(0, 6fr)",
+            "gap": {
+              "token": "space.16"
+            }
+          }
+        }
+      }
+    },
+    "children": [
+      {
+        "id": "cb-l",
+        "kind": {
+          "type": "frame",
+          "element": "div"
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "display": "flex",
+              "flex": {
+                "direction": "column",
+                "gap": {
+                  "token": "space.6"
+                }
+              }
+            }
+          }
+        },
+        "children": [
+          {
+            "id": "cb-h",
+            "kind": {
+              "type": "text",
+              "tag": "h2",
+              "content": "Write, call, or come by for coffee."
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "typography": {
+                    "token": "type.title",
+                    "color": {
+                      "token": "ink.body"
+                    }
+                  },
+                  "custom": {
+                    "text-wrap": "balance"
+                  }
+                }
+              }
+            },
+            "bindings": {
+              "content": "title"
+            }
+          },
+          {
+            "id": "cb-p",
+            "kind": {
+              "type": "text",
+              "tag": "p",
+              "content": "Tell us a little about the project, the timing and who is involved. A partner — not an inbox — reads every enquiry."
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "typography": {
+                    "token": "type.lead",
+                    "color": {
+                      "token": "ink.muted"
+                    }
+                  }
+                }
+              }
+            },
+            "bindings": {
+              "content": "lead"
+            }
+          }
+        ]
+      },
+      {
+        "id": "cb-r",
+        "kind": {
+          "type": "frame",
+          "element": "div"
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "display": "flex",
+              "flex": {
+                "direction": "column",
+                "gap": {
+                  "token": "space.8"
+                }
+              }
+            }
+          }
+        },
+        "children": [
+          {
+            "id": "cb-e",
+            "kind": {
+              "type": "frame",
+              "element": "div"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "flex",
+                  "flex": {
+                    "direction": "column",
+                    "gap": {
+                      "token": "space.2"
+                    }
+                  },
+                  "border": {
+                    "top": {
+                      "width": {
+                        "px": 1
+                      },
+                      "style": "solid",
+                      "color": {
+                        "token": "line.hairline"
+                      }
+                    }
+                  },
+                  "spacing": {
+                    "padding": {
+                      "top": {
+                        "token": "space.4"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "cb-e-l",
+                "kind": {
+                  "type": "text",
+                  "tag": "p",
+                  "content": "New projects"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.label",
+                        "color": {
+                          "token": "ink.muted"
+                        },
+                        "transform": "uppercase"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "cb-e-a",
+                "kind": {
+                  "type": "link",
+                  "href": "mailto:studio@hollisvane.example",
+                  "target": "same"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.subtitle",
+                        "color": {
+                          "token": "ink.body"
+                        },
+                        "decoration": "none"
+                      },
+                      "transition": {
+                        "duration": 180,
+                        "properties": [
+                          "color"
+                        ]
+                      }
+                    },
+                    "hover": {
+                      "typography": {
+                        "color": {
+                          "token": "ink.accent"
+                        }
+                      }
+                    }
+                  }
+                },
+                "bindings": {
+                  "href": "emailHref"
+                },
+                "children": [
+                  {
+                    "id": "cb-e-t",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "studio@hollisvane.example"
+                    },
+                    "bindings": {
+                      "content": "email"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "cb-t",
+            "kind": {
+              "type": "frame",
+              "element": "div"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "flex",
+                  "flex": {
+                    "direction": "column",
+                    "gap": {
+                      "token": "space.2"
+                    }
+                  },
+                  "border": {
+                    "top": {
+                      "width": {
+                        "px": 1
+                      },
+                      "style": "solid",
+                      "color": {
+                        "token": "line.hairline"
+                      }
+                    }
+                  },
+                  "spacing": {
+                    "padding": {
+                      "top": {
+                        "token": "space.4"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "cb-t-l",
+                "kind": {
+                  "type": "text",
+                  "tag": "p",
+                  "content": "Telephone"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.label",
+                        "color": {
+                          "token": "ink.muted"
+                        },
+                        "transform": "uppercase"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "cb-t-a",
+                "kind": {
+                  "type": "link",
+                  "href": "tel:+441315550142",
+                  "target": "same"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.subtitle",
+                        "color": {
+                          "token": "ink.body"
+                        },
+                        "decoration": "none"
+                      },
+                      "transition": {
+                        "duration": 180,
+                        "properties": [
+                          "color"
+                        ]
+                      }
+                    },
+                    "hover": {
+                      "typography": {
+                        "color": {
+                          "token": "ink.accent"
+                        }
+                      }
+                    }
+                  }
+                },
+                "bindings": {
+                  "href": "phoneHref"
+                },
+                "children": [
+                  {
+                    "id": "cb-t-t",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "+44 131 555 0142"
+                    },
+                    "bindings": {
+                      "content": "phone"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "cb-a",
+            "kind": {
+              "type": "frame",
+              "element": "div"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "flex",
+                  "flex": {
+                    "direction": "column",
+                    "gap": {
+                      "token": "space.2"
+                    }
+                  },
+                  "border": {
+                    "top": {
+                      "width": {
+                        "px": 1
+                      },
+                      "style": "solid",
+                      "color": {
+                        "token": "line.hairline"
+                      }
+                    }
+                  },
+                  "spacing": {
+                    "padding": {
+                      "top": {
+                        "token": "space.4"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "cb-a-l",
+                "kind": {
+                  "type": "text",
+                  "tag": "p",
+                  "content": "Edinburgh"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.label",
+                        "color": {
+                          "token": "ink.muted"
+                        },
+                        "transform": "uppercase"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "cb-a-a",
+                "kind": {
+                  "type": "link",
+                  "href": "/contact",
+                  "target": "same"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.subtitle",
+                        "color": {
+                          "token": "ink.body"
+                        },
+                        "decoration": "none"
+                      },
+                      "transition": {
+                        "duration": 180,
+                        "properties": [
+                          "color"
+                        ]
+                      }
+                    },
+                    "hover": {
+                      "typography": {
+                        "color": {
+                          "token": "ink.accent"
+                        }
+                      }
+                    }
+                  }
+                },
+                "bindings": {
+                  "href": "edinburghHref"
+                },
+                "children": [
+                  {
+                    "id": "cb-a-t",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "14 Canal Row, Leith"
+                    },
+                    "bindings": {
+                      "content": "edinburgh"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "cb-b",
+            "kind": {
+              "type": "frame",
+              "element": "div"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "flex",
+                  "flex": {
+                    "direction": "column",
+                    "gap": {
+                      "token": "space.2"
+                    }
+                  },
+                  "border": {
+                    "top": {
+                      "width": {
+                        "px": 1
+                      },
+                      "style": "solid",
+                      "color": {
+                        "token": "line.hairline"
+                      }
+                    }
+                  },
+                  "spacing": {
+                    "padding": {
+                      "top": {
+                        "token": "space.4"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "cb-b-l",
+                "kind": {
+                  "type": "text",
+                  "tag": "p",
+                  "content": "Lisbon"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.label",
+                        "color": {
+                          "token": "ink.muted"
+                        },
+                        "transform": "uppercase"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "cb-b-a",
+                "kind": {
+                  "type": "link",
+                  "href": "/contact",
+                  "target": "same"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.subtitle",
+                        "color": {
+                          "token": "ink.body"
+                        },
+                        "decoration": "none"
+                      },
+                      "transition": {
+                        "duration": 180,
+                        "properties": [
+                          "color"
+                        ]
+                      }
+                    },
+                    "hover": {
+                      "typography": {
+                        "color": {
+                          "token": "ink.accent"
+                        }
+                      }
+                    }
+                  }
+                },
+                "bindings": {
+                  "href": "lisbonHref"
+                },
+                "children": [
+                  {
+                    "id": "cb-b-t",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "Rua das Flores 62, 2º"
+                    },
+                    "bindings": {
+                      "content": "lisbon"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "props": [
+    {
+      "name": "title",
+      "label": "Title",
+      "kind": {
+        "type": "longText"
+      },
+      "default": "Write, call, or come by for coffee."
+    },
+    {
+      "name": "lead",
+      "label": "Lead",
+      "kind": {
+        "type": "longText"
+      },
+      "default": "Tell us a little about the project, the timing and who is involved. A partner — not an inbox — reads every enquiry."
+    },
+    {
+      "name": "email",
+      "label": "Email",
+      "kind": {
+        "type": "text"
+      },
+      "default": "studio@hollisvane.example"
+    },
+    {
+      "name": "emailHref",
+      "label": "Email link",
+      "kind": {
+        "type": "url"
+      },
+      "default": "mailto:studio@hollisvane.example"
+    },
+    {
+      "name": "phone",
+      "label": "Telephone",
+      "kind": {
+        "type": "text"
+      },
+      "default": "+44 131 555 0142"
+    },
+    {
+      "name": "phoneHref",
+      "label": "Telephone link",
+      "kind": {
+        "type": "url"
+      },
+      "default": "tel:+441315550142"
+    },
+    {
+      "name": "edinburgh",
+      "label": "Studio 1",
+      "kind": {
+        "type": "text"
+      },
+      "default": "14 Canal Row, Leith"
+    },
+    {
+      "name": "edinburghHref",
+      "label": "Studio 1 link",
+      "kind": {
+        "type": "url"
+      },
+      "default": "/contact"
+    },
+    {
+      "name": "lisbon",
+      "label": "Studio 2",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Rua das Flores 62, 2º"
+    },
+    {
+      "name": "lisbonHref",
+      "label": "Studio 2 link",
+      "kind": {
+        "type": "url"
+      },
+      "default": "/contact"
+    }
+  ]
+}

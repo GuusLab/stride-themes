@@ -1,0 +1,323 @@
+{
+  "id": "ledger-blog-card",
+  "name": "Ledger · Insight card",
+  "root": {
+    "id": "blog-card",
+    "kind": {
+      "type": "link",
+      "href": "/insights/holding-regime-2027",
+      "target": "same"
+    },
+    "children": [
+      {
+        "id": "blog-card-card",
+        "kind": {
+          "type": "frame"
+        },
+        "children": [
+          {
+            "id": "blog-card-media",
+            "kind": {
+              "type": "frame"
+            },
+            "children": [
+              {
+                "id": "blog-card-img",
+                "kind": {
+                  "type": "image",
+                  "src": "assets/images/desk.webp",
+                  "alt": ""
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "block",
+                      "size": {
+                        "width": {
+                          "percent": 100.0
+                        }
+                      },
+                      "objectFit": "cover",
+                      "aspectRatio": {
+                        "ratio": {
+                          "width": 3.0,
+                          "height": 2.0
+                        }
+                      }
+                    }
+                  }
+                },
+                "bindings": {
+                  "src": "image"
+                }
+              }
+            ],
+            "styles": {
+              "base": {
+                "base": {
+                  "overflow": "hidden",
+                  "radius": {
+                    "token": "radius.md"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": "blog-card-body",
+            "kind": {
+              "type": "frame"
+            },
+            "children": [
+              {
+                "id": "blog-card-meta",
+                "kind": {
+                  "type": "frame"
+                },
+                "children": [
+                  {
+                    "id": "blog-card-tag",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "Tax"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.eyebrow",
+                            "color": {
+                              "token": "ink.warm"
+                            },
+                            "transform": "uppercase"
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "content": "tag"
+                    }
+                  },
+                  {
+                    "id": "blog-card-date",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "Sep 18, 2026"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "color": {
+                              "token": "ink.muted"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "content": "date"
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "row",
+                        "gap": {
+                          "px": 12.0
+                        },
+                        "align": "center",
+                        "wrap": true,
+                        "justify": "spaceBetween"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "blog-card-title",
+                "kind": {
+                  "type": "text",
+                  "tag": "h3",
+                  "content": "What the 2027 holding regime means for family companies"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.subtitle",
+                        "color": {
+                          "token": "ink.body"
+                        }
+                      }
+                    }
+                  }
+                },
+                "bindings": {
+                  "content": "title"
+                }
+              },
+              {
+                "id": "blog-card-dek",
+                "kind": {
+                  "type": "text",
+                  "tag": "p",
+                  "content": "Three changes that matter, one that does not, and what to do before year end."
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.small",
+                        "color": {
+                          "token": "ink.muted"
+                        }
+                      }
+                    }
+                  }
+                },
+                "bindings": {
+                  "content": "excerpt"
+                }
+              }
+            ],
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "flex",
+                  "flex": {
+                    "direction": "column",
+                    "gap": {
+                      "px": 10.0
+                    }
+                  },
+                  "spacing": {
+                    "padding": {
+                      "top": {
+                        "px": 20.0
+                      },
+                      "right": {
+                        "px": 0.0
+                      },
+                      "bottom": {
+                        "px": 8.0
+                      },
+                      "left": {
+                        "px": 0.0
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "styles": {
+          "base": {
+            "base": {
+              "display": "flex",
+              "flex": {
+                "direction": "column"
+              },
+              "size": {
+                "height": {
+                  "percent": 100.0
+                }
+              },
+              "border": {
+                "top": {
+                  "width": {
+                    "px": 1.0
+                  },
+                  "style": "solid",
+                  "color": {
+                    "token": "line.strong"
+                  }
+                }
+              },
+              "spacing": {
+                "padding": {
+                  "top": {
+                    "px": 20.0
+                  }
+                }
+              }
+            },
+            "hover": {
+              "opacity": 0.85
+            }
+          }
+        }
+      }
+    ],
+    "styles": {
+      "base": {
+        "base": {
+          "typography": {
+            "decoration": "none"
+          },
+          "display": "block"
+        }
+      }
+    },
+    "bindings": {
+      "href": "href"
+    }
+  },
+  "props": [
+    {
+      "name": "image",
+      "label": "Photo",
+      "kind": {
+        "type": "image"
+      },
+      "default": "assets/images/desk.webp"
+    },
+    {
+      "name": "tag",
+      "label": "Category",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Tax"
+    },
+    {
+      "name": "date",
+      "label": "Date",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Sep 18, 2026"
+    },
+    {
+      "name": "title",
+      "label": "Title",
+      "kind": {
+        "type": "text"
+      },
+      "default": "What the 2027 holding regime means for family companies"
+    },
+    {
+      "name": "excerpt",
+      "label": "Excerpt",
+      "kind": {
+        "type": "longText"
+      },
+      "default": "Three changes that matter, one that does not, and what to do before year end."
+    },
+    {
+      "name": "href",
+      "label": "Link",
+      "kind": {
+        "type": "url"
+      },
+      "default": "/insights/holding-regime-2027"
+    }
+  ]
+}

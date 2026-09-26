@@ -1,0 +1,257 @@
+{
+  "id": "harbor-hero-photo",
+  "name": "Harbor · Full-bleed photo hero",
+  "root": {
+    "id": "hero-photo",
+    "kind": {
+      "type": "frame",
+      "element": "section"
+    },
+    "children": [
+      {
+        "id": "hero-photo-inner",
+        "kind": {
+          "type": "frame"
+        },
+        "children": [
+          {
+            "id": "hero-photo-copy",
+            "kind": {
+              "type": "frame"
+            },
+            "children": [
+              {
+                "id": "hero-photo-eyebrow",
+                "kind": {
+                  "type": "text",
+                  "tag": "p",
+                  "content": "Tidewater Kitchen"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.eyebrow",
+                        "color": {
+                          "token": "ink.inverse.muted"
+                        },
+                        "transform": "uppercase"
+                      }
+                    }
+                  }
+                },
+                "bindings": {
+                  "content": "eyebrow"
+                }
+              },
+              {
+                "id": "hero-photo-title",
+                "kind": {
+                  "type": "text",
+                  "tag": "h1",
+                  "content": "A small kitchen with a long memory."
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.display",
+                        "color": {
+                          "token": "ink.inverse"
+                        }
+                      }
+                    }
+                  }
+                },
+                "bindings": {
+                  "content": "heading"
+                }
+              },
+              {
+                "id": "hero-photo-lead",
+                "kind": {
+                  "type": "text",
+                  "tag": "p",
+                  "content": "Fifteen years of early bread, day-boat fish and neighbours who became regulars."
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.lead",
+                        "color": {
+                          "token": "ink.inverse"
+                        }
+                      }
+                    }
+                  }
+                },
+                "bindings": {
+                  "content": "body"
+                }
+              }
+            ],
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "flex",
+                  "flex": {
+                    "direction": "column",
+                    "gap": {
+                      "px": 18.0
+                    }
+                  },
+                  "size": {
+                    "maxWidth": {
+                      "px": 680.0
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "styles": {
+          "base": {
+            "base": {
+              "display": "flex",
+              "flex": {
+                "direction": "column",
+                "gap": {
+                  "px": 32.0
+                }
+              },
+              "size": {
+                "maxWidth": {
+                  "px": 1200.0
+                },
+                "width": {
+                  "percent": 100.0
+                }
+              },
+              "spacing": {
+                "margin": {
+                  "left": {
+                    "raw": "auto"
+                  },
+                  "right": {
+                    "raw": "auto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "styles": {
+      "base": {
+        "base": {
+          "background": {
+            "token": "surface.deep"
+          },
+          "backgroundImage": {
+            "url": "assets/images/terrace.webp"
+          },
+          "backgroundSize": "cover",
+          "backgroundPosition": "center",
+          "custom": {
+            "background-image": "linear-gradient(180deg, rgb(18 54 59 / 0.15) 0%, rgb(18 54 59 / 0.82) 85%), url(assets/images/terrace.webp)"
+          },
+          "display": "flex",
+          "flex": {
+            "direction": "column",
+            "justify": "end"
+          },
+          "size": {
+            "minHeight": {
+              "px": 440.0
+            }
+          },
+          "spacing": {
+            "padding": {
+              "top": {
+                "px": 120.0
+              },
+              "right": {
+                "px": 20.0
+              },
+              "bottom": {
+                "px": 56.0
+              },
+              "left": {
+                "px": 20.0
+              }
+            }
+          }
+        }
+      },
+      "md": {
+        "base": {
+          "size": {
+            "minHeight": {
+              "px": 560.0
+            }
+          },
+          "spacing": {
+            "padding": {
+              "top": {
+                "px": 160.0
+              },
+              "right": {
+                "px": 40.0
+              },
+              "bottom": {
+                "px": 88.0
+              },
+              "left": {
+                "px": 40.0
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "props": [
+    {
+      "name": "eyebrow",
+      "label": "Eyebrow",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Tidewater Kitchen"
+    },
+    {
+      "name": "heading",
+      "label": "Heading",
+      "kind": {
+        "type": "text"
+      },
+      "default": "A small kitchen with a long memory."
+    },
+    {
+      "name": "body",
+      "label": "Intro",
+      "kind": {
+        "type": "longText"
+      },
+      "default": "Fifteen years of early bread, day-boat fish and neighbours who became regulars."
+    }
+  ],
+  "variants": {
+    "tall": {
+      "styles": {
+        "md": {
+          "base": {
+            "size": {
+              "minHeight": {
+                "vh": 80.0
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,467 @@
+{
+  "id": "ledger-stats",
+  "name": "Ledger · Key figures",
+  "root": {
+    "id": "stats",
+    "kind": {
+      "type": "frame",
+      "element": "section"
+    },
+    "children": [
+      {
+        "id": "stats-inner",
+        "kind": {
+          "type": "frame"
+        },
+        "children": [
+          {
+            "id": "stats-grid",
+            "kind": {
+              "type": "frame"
+            },
+            "children": [
+              {
+                "id": "stats-1",
+                "kind": {
+                  "type": "frame"
+                },
+                "children": [
+                  {
+                    "id": "stats-1-n",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "26"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.figure",
+                            "color": {
+                              "token": "ink.accent"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "stats-1-l",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "years of partner-led practice"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "color": {
+                              "token": "ink.muted"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "px": 10.0
+                        }
+                      },
+                      "border": {
+                        "top": {
+                          "width": {
+                            "px": 1.0
+                          },
+                          "style": "solid",
+                          "color": {
+                            "token": "line.strong"
+                          }
+                        }
+                      },
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "px": 22.0
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "stats-2",
+                "kind": {
+                  "type": "frame"
+                },
+                "children": [
+                  {
+                    "id": "stats-2-n",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "€2.4bn"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.figure",
+                            "color": {
+                              "token": "ink.accent"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "stats-2-l",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "in transactions advised last year"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "color": {
+                              "token": "ink.muted"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "px": 10.0
+                        }
+                      },
+                      "border": {
+                        "top": {
+                          "width": {
+                            "px": 1.0
+                          },
+                          "style": "solid",
+                          "color": {
+                            "token": "line.strong"
+                          }
+                        }
+                      },
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "px": 22.0
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "stats-3",
+                "kind": {
+                  "type": "frame"
+                },
+                "children": [
+                  {
+                    "id": "stats-3-n",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "94%"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.figure",
+                            "color": {
+                              "token": "ink.accent"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "stats-3-l",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "of clients return within three years"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "color": {
+                              "token": "ink.muted"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "px": 10.0
+                        }
+                      },
+                      "border": {
+                        "top": {
+                          "width": {
+                            "px": 1.0
+                          },
+                          "style": "solid",
+                          "color": {
+                            "token": "line.strong"
+                          }
+                        }
+                      },
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "px": 22.0
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "stats-4",
+                "kind": {
+                  "type": "frame"
+                },
+                "children": [
+                  {
+                    "id": "stats-4-n",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "9"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.figure",
+                            "color": {
+                              "token": "ink.accent"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "stats-4-l",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "jurisdictions, one accountable team"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "color": {
+                              "token": "ink.muted"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "px": 10.0
+                        }
+                      },
+                      "border": {
+                        "top": {
+                          "width": {
+                            "px": 1.0
+                          },
+                          "style": "solid",
+                          "color": {
+                            "token": "line.strong"
+                          }
+                        }
+                      },
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "px": 22.0
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            ],
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "grid",
+                  "grid": {
+                    "columns": 1,
+                    "gap": {
+                      "px": 36.0
+                    }
+                  }
+                }
+              },
+              "md": {
+                "base": {
+                  "display": "grid",
+                  "grid": {
+                    "columns": 2,
+                    "gap": {
+                      "px": 40.0
+                    }
+                  }
+                }
+              },
+              "lg": {
+                "base": {
+                  "display": "grid",
+                  "grid": {
+                    "columns": 4
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "styles": {
+          "base": {
+            "base": {
+              "display": "flex",
+              "flex": {
+                "direction": "column",
+                "gap": {
+                  "px": 32.0
+                }
+              },
+              "size": {
+                "maxWidth": {
+                  "px": 1240.0
+                },
+                "width": {
+                  "percent": 100.0
+                }
+              },
+              "spacing": {
+                "margin": {
+                  "left": {
+                    "raw": "auto"
+                  },
+                  "right": {
+                    "raw": "auto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "styles": {
+      "base": {
+        "base": {
+          "background": {
+            "token": "surface.page"
+          },
+          "spacing": {
+            "padding": {
+              "top": {
+                "px": 56.0
+              },
+              "right": {
+                "px": 20.0
+              },
+              "bottom": {
+                "px": 56.0
+              },
+              "left": {
+                "px": 20.0
+              }
+            }
+          }
+        }
+      },
+      "md": {
+        "base": {
+          "spacing": {
+            "padding": {
+              "top": {
+                "px": 88.0
+              },
+              "right": {
+                "px": 40.0
+              },
+              "bottom": {
+                "px": 88.0
+              },
+              "left": {
+                "px": 40.0
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "props": [],
+  "variants": {
+    "mist": {
+      "styles": {
+        "base": {
+          "base": {
+            "background": {
+              "token": "surface.raised"
+            }
+          }
+        }
+      }
+    }
+  }
+}

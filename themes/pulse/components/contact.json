@@ -1,0 +1,1299 @@
+{
+  "id": "pulse-contact",
+  "name": "Pulse contact",
+  "root": {
+    "id": "pulse-contact",
+    "kind": {
+      "type": "frame",
+      "element": "section"
+    },
+    "styles": {
+      "base": {
+        "base": {
+          "background": {
+            "token": "surface.page"
+          },
+          "spacing": {
+            "padding": {
+              "top": {
+                "token": "space.section"
+              },
+              "bottom": {
+                "token": "space.section"
+              },
+              "left": {
+                "token": "space.gutter"
+              },
+              "right": {
+                "token": "space.gutter"
+              }
+            }
+          }
+        }
+      },
+      "md": {
+        "base": {
+          "spacing": {
+            "padding": {
+              "left": {
+                "token": "space.gutter.wide"
+              },
+              "right": {
+                "token": "space.gutter.wide"
+              }
+            }
+          }
+        }
+      }
+    },
+    "children": [
+      {
+        "id": "contact-inner",
+        "kind": {
+          "type": "frame"
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "display": "grid",
+              "grid": {
+                "columns": 1,
+                "gap": {
+                  "token": "space.12"
+                }
+              },
+              "size": {
+                "maxWidth": {
+                  "token": "space.measure"
+                },
+                "width": {
+                  "percent": 100
+                }
+              },
+              "spacing": {
+                "margin": {
+                  "left": {
+                    "raw": "auto"
+                  },
+                  "right": {
+                    "raw": "auto"
+                  }
+                }
+              }
+            }
+          },
+          "md": {
+            "base": {
+              "display": "grid",
+              "grid": {
+                "templateColumns": "1fr 1.2fr",
+                "gap": {
+                  "token": "space.16"
+                }
+              }
+            }
+          }
+        },
+        "children": [
+          {
+            "id": "contact-intro",
+            "kind": {
+              "type": "frame"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "flex",
+                  "flex": {
+                    "direction": "column",
+                    "gap": {
+                      "token": "space.5"
+                    }
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "contact-eyebrow",
+                "kind": {
+                  "type": "frame"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "inlineFlex",
+                      "flex": {
+                        "align": "center",
+                        "gap": {
+                          "token": "space.2"
+                        }
+                      },
+                      "size": {
+                        "width": {
+                          "raw": "fit-content"
+                        }
+                      },
+                      "background": {
+                        "raw": "rgb(109 40 217 / 0.16)"
+                      },
+                      "border": {
+                        "width": {
+                          "px": 1
+                        },
+                        "style": "solid",
+                        "color": {
+                          "raw": "rgb(167 139 250 / 0.35)"
+                        }
+                      },
+                      "radius": {
+                        "token": "radius.full"
+                      },
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "px": 6
+                          },
+                          "bottom": {
+                            "px": 6
+                          },
+                          "left": {
+                            "px": 12
+                          },
+                          "right": {
+                            "px": 14
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "contact-eyebrow-dot",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "size": {
+                            "width": {
+                              "px": 8
+                            },
+                            "height": {
+                              "px": 8
+                            }
+                          },
+                          "radius": {
+                            "token": "radius.full"
+                          },
+                          "background": {
+                            "token": "brand.glow"
+                          },
+                          "shadow": {
+                            "raw": "0 0 12px 2px rgb(167 139 250 / 0.9)"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "contact-eyebrow-text",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "Contact"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.label",
+                            "color": {
+                              "token": "ink.accent"
+                            },
+                            "transform": "uppercase"
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "content": "eyebrow"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "contact-title",
+                "kind": {
+                  "type": "text",
+                  "tag": "h2",
+                  "content": "Let’s talk about your numbers."
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.title",
+                        "color": {
+                          "token": "ink.strong"
+                        }
+                      }
+                    }
+                  }
+                },
+                "bindings": {
+                  "content": "title"
+                }
+              },
+              {
+                "id": "contact-lead",
+                "kind": {
+                  "type": "text",
+                  "tag": "p",
+                  "content": "Tell us what you are building and where it hurts. A product specialist — not a bot — will reply with a plan, usually the same day."
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.lead",
+                        "color": {
+                          "token": "ink.muted"
+                        }
+                      }
+                    }
+                  }
+                },
+                "bindings": {
+                  "content": "lead"
+                }
+              },
+              {
+                "id": "contact-photo",
+                "kind": {
+                  "type": "image",
+                  "src": "assets/images/whiteboard.webp",
+                  "alt": "Two colleagues planning at a whiteboard"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "size": {
+                        "width": {
+                          "percent": 100
+                        }
+                      },
+                      "radius": {
+                        "token": "radius.lg"
+                      },
+                      "objectFit": "cover",
+                      "aspectRatio": {
+                        "ratio": {
+                          "width": 3,
+                          "height": 2
+                        }
+                      },
+                      "spacing": {
+                        "margin": {
+                          "top": {
+                            "token": "space.4"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "id": "contact-grid",
+            "kind": {
+              "type": "columns",
+              "count": 2
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "grid",
+                  "grid": {
+                    "columns": 1,
+                    "gap": {
+                      "token": "space.5"
+                    }
+                  }
+                }
+              },
+              "md": {
+                "base": {
+                  "display": "grid",
+                  "grid": {
+                    "columns": 2
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "channel-1",
+                "kind": {
+                  "type": "frame",
+                  "element": "article"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "token": "space.3"
+                        }
+                      },
+                      "background": {
+                        "token": "surface.card"
+                      },
+                      "border": {
+                        "width": {
+                          "px": 1
+                        },
+                        "style": "solid",
+                        "color": {
+                          "token": "line.subtle"
+                        }
+                      },
+                      "radius": {
+                        "token": "radius.lg"
+                      },
+                      "shadow": {
+                        "token": "shadow.card"
+                      },
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "token": "space.8"
+                          },
+                          "bottom": {
+                            "token": "space.8"
+                          },
+                          "left": {
+                            "token": "space.6"
+                          },
+                          "right": {
+                            "token": "space.6"
+                          }
+                        }
+                      },
+                      "transition": {
+                        "duration": 220,
+                        "properties": [
+                          "borderColor",
+                          "transform"
+                        ]
+                      }
+                    },
+                    "hover": {
+                      "border": {
+                        "width": {
+                          "px": 1
+                        },
+                        "style": "solid",
+                        "color": {
+                          "raw": "rgb(167 139 250 / 0.45)"
+                        }
+                      },
+                      "custom": {
+                        "transform": "translateY(-3px)"
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "channel-1-icon",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "align": "center",
+                            "justify": "center"
+                          },
+                          "size": {
+                            "width": {
+                              "px": 40
+                            },
+                            "height": {
+                              "px": 40
+                            }
+                          },
+                          "radius": {
+                            "token": "radius.md"
+                          },
+                          "background": {
+                            "raw": "rgb(109 40 217 / 0.18)"
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "channel-1-glyph",
+                        "kind": {
+                          "type": "icon",
+                          "name": "mail"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "size": {
+                                "width": {
+                                  "px": 22
+                                },
+                                "height": {
+                                  "px": 22
+                                }
+                              },
+                              "typography": {
+                                "color": {
+                                  "token": "ink.accent"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "channel-1-title",
+                    "kind": {
+                      "type": "text",
+                      "tag": "h3",
+                      "content": "Sales"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.heading",
+                            "color": {
+                              "token": "ink.strong"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "channel-1-body",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "Plans, pilots and procurement."
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "color": {
+                              "token": "ink.muted"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "channel-1-link",
+                    "kind": {
+                      "type": "link",
+                      "href": "mailto:sales@vantora.example",
+                      "target": "same"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.button",
+                            "color": {
+                              "token": "ink.accent"
+                            },
+                            "decoration": "none"
+                          },
+                          "transition": {
+                            "duration": 150,
+                            "properties": [
+                              "color"
+                            ]
+                          }
+                        },
+                        "hover": {
+                          "typography": {
+                            "color": {
+                              "token": "ink.strong"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "channel-1-link-label",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "sales@vantora.example"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.button",
+                                "color": {
+                                  "token": "ink.accent"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "channel-2",
+                "kind": {
+                  "type": "frame",
+                  "element": "article"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "token": "space.3"
+                        }
+                      },
+                      "background": {
+                        "token": "surface.card"
+                      },
+                      "border": {
+                        "width": {
+                          "px": 1
+                        },
+                        "style": "solid",
+                        "color": {
+                          "token": "line.subtle"
+                        }
+                      },
+                      "radius": {
+                        "token": "radius.lg"
+                      },
+                      "shadow": {
+                        "token": "shadow.card"
+                      },
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "token": "space.8"
+                          },
+                          "bottom": {
+                            "token": "space.8"
+                          },
+                          "left": {
+                            "token": "space.6"
+                          },
+                          "right": {
+                            "token": "space.6"
+                          }
+                        }
+                      },
+                      "transition": {
+                        "duration": 220,
+                        "properties": [
+                          "borderColor",
+                          "transform"
+                        ]
+                      }
+                    },
+                    "hover": {
+                      "border": {
+                        "width": {
+                          "px": 1
+                        },
+                        "style": "solid",
+                        "color": {
+                          "raw": "rgb(167 139 250 / 0.45)"
+                        }
+                      },
+                      "custom": {
+                        "transform": "translateY(-3px)"
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "channel-2-icon",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "align": "center",
+                            "justify": "center"
+                          },
+                          "size": {
+                            "width": {
+                              "px": 40
+                            },
+                            "height": {
+                              "px": 40
+                            }
+                          },
+                          "radius": {
+                            "token": "radius.md"
+                          },
+                          "background": {
+                            "raw": "rgb(109 40 217 / 0.18)"
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "channel-2-glyph",
+                        "kind": {
+                          "type": "icon",
+                          "name": "info"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "size": {
+                                "width": {
+                                  "px": 22
+                                },
+                                "height": {
+                                  "px": 22
+                                }
+                              },
+                              "typography": {
+                                "color": {
+                                  "token": "ink.accent"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "channel-2-title",
+                    "kind": {
+                      "type": "text",
+                      "tag": "h3",
+                      "content": "Support"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.heading",
+                            "color": {
+                              "token": "ink.strong"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "channel-2-body",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "Replies within one working day."
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "color": {
+                              "token": "ink.muted"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "channel-2-link",
+                    "kind": {
+                      "type": "link",
+                      "href": "mailto:help@vantora.example",
+                      "target": "same"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.button",
+                            "color": {
+                              "token": "ink.accent"
+                            },
+                            "decoration": "none"
+                          },
+                          "transition": {
+                            "duration": 150,
+                            "properties": [
+                              "color"
+                            ]
+                          }
+                        },
+                        "hover": {
+                          "typography": {
+                            "color": {
+                              "token": "ink.strong"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "channel-2-link-label",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "help@vantora.example"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.button",
+                                "color": {
+                                  "token": "ink.accent"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "channel-3",
+                "kind": {
+                  "type": "frame",
+                  "element": "article"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "token": "space.3"
+                        }
+                      },
+                      "background": {
+                        "token": "surface.card"
+                      },
+                      "border": {
+                        "width": {
+                          "px": 1
+                        },
+                        "style": "solid",
+                        "color": {
+                          "token": "line.subtle"
+                        }
+                      },
+                      "radius": {
+                        "token": "radius.lg"
+                      },
+                      "shadow": {
+                        "token": "shadow.card"
+                      },
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "token": "space.8"
+                          },
+                          "bottom": {
+                            "token": "space.8"
+                          },
+                          "left": {
+                            "token": "space.6"
+                          },
+                          "right": {
+                            "token": "space.6"
+                          }
+                        }
+                      },
+                      "transition": {
+                        "duration": 220,
+                        "properties": [
+                          "borderColor",
+                          "transform"
+                        ]
+                      }
+                    },
+                    "hover": {
+                      "border": {
+                        "width": {
+                          "px": 1
+                        },
+                        "style": "solid",
+                        "color": {
+                          "raw": "rgb(167 139 250 / 0.45)"
+                        }
+                      },
+                      "custom": {
+                        "transform": "translateY(-3px)"
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "channel-3-icon",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "align": "center",
+                            "justify": "center"
+                          },
+                          "size": {
+                            "width": {
+                              "px": 40
+                            },
+                            "height": {
+                              "px": 40
+                            }
+                          },
+                          "radius": {
+                            "token": "radius.md"
+                          },
+                          "background": {
+                            "raw": "rgb(109 40 217 / 0.18)"
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "channel-3-glyph",
+                        "kind": {
+                          "type": "icon",
+                          "name": "phone"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "size": {
+                                "width": {
+                                  "px": 22
+                                },
+                                "height": {
+                                  "px": 22
+                                }
+                              },
+                              "typography": {
+                                "color": {
+                                  "token": "ink.accent"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "channel-3-title",
+                    "kind": {
+                      "type": "text",
+                      "tag": "h3",
+                      "content": "Phone"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.heading",
+                            "color": {
+                              "token": "ink.strong"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "channel-3-body",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "Mon–Fri, 9:00–18:00 CET."
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "color": {
+                              "token": "ink.muted"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "channel-3-link",
+                    "kind": {
+                      "type": "link",
+                      "href": "tel:+351210000000",
+                      "target": "same"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.button",
+                            "color": {
+                              "token": "ink.accent"
+                            },
+                            "decoration": "none"
+                          },
+                          "transition": {
+                            "duration": 150,
+                            "properties": [
+                              "color"
+                            ]
+                          }
+                        },
+                        "hover": {
+                          "typography": {
+                            "color": {
+                              "token": "ink.strong"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "channel-3-link-label",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "+351 21 000 0000"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.button",
+                                "color": {
+                                  "token": "ink.accent"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "channel-4",
+                "kind": {
+                  "type": "frame",
+                  "element": "article"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "token": "space.3"
+                        }
+                      },
+                      "background": {
+                        "token": "surface.card"
+                      },
+                      "border": {
+                        "width": {
+                          "px": 1
+                        },
+                        "style": "solid",
+                        "color": {
+                          "token": "line.subtle"
+                        }
+                      },
+                      "radius": {
+                        "token": "radius.lg"
+                      },
+                      "shadow": {
+                        "token": "shadow.card"
+                      },
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "token": "space.8"
+                          },
+                          "bottom": {
+                            "token": "space.8"
+                          },
+                          "left": {
+                            "token": "space.6"
+                          },
+                          "right": {
+                            "token": "space.6"
+                          }
+                        }
+                      },
+                      "transition": {
+                        "duration": 220,
+                        "properties": [
+                          "borderColor",
+                          "transform"
+                        ]
+                      }
+                    },
+                    "hover": {
+                      "border": {
+                        "width": {
+                          "px": 1
+                        },
+                        "style": "solid",
+                        "color": {
+                          "raw": "rgb(167 139 250 / 0.45)"
+                        }
+                      },
+                      "custom": {
+                        "transform": "translateY(-3px)"
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "channel-4-icon",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "align": "center",
+                            "justify": "center"
+                          },
+                          "size": {
+                            "width": {
+                              "px": 40
+                            },
+                            "height": {
+                              "px": 40
+                            }
+                          },
+                          "radius": {
+                            "token": "radius.md"
+                          },
+                          "background": {
+                            "raw": "rgb(109 40 217 / 0.18)"
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "channel-4-glyph",
+                        "kind": {
+                          "type": "icon",
+                          "name": "location"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "size": {
+                                "width": {
+                                  "px": 22
+                                },
+                                "height": {
+                                  "px": 22
+                                }
+                              },
+                              "typography": {
+                                "color": {
+                                  "token": "ink.accent"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "channel-4-title",
+                    "kind": {
+                      "type": "text",
+                      "tag": "h3",
+                      "content": "Office"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.heading",
+                            "color": {
+                              "token": "ink.strong"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "channel-4-body",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "Rua das Flores 28, 1200-195 Lisbon"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "color": {
+                              "token": "ink.muted"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "channel-4-link",
+                    "kind": {
+                      "type": "link",
+                      "href": "https://www.openstreetmap.org/",
+                      "target": "same"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.button",
+                            "color": {
+                              "token": "ink.accent"
+                            },
+                            "decoration": "none"
+                          },
+                          "transition": {
+                            "duration": 150,
+                            "properties": [
+                              "color"
+                            ]
+                          }
+                        },
+                        "hover": {
+                          "typography": {
+                            "color": {
+                              "token": "ink.strong"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "channel-4-link-label",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "Get directions"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.button",
+                                "color": {
+                                  "token": "ink.accent"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "props": [
+    {
+      "name": "eyebrow",
+      "label": "Eyebrow",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Contact"
+    },
+    {
+      "name": "title",
+      "label": "Heading",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Let’s talk about your numbers."
+    },
+    {
+      "name": "lead",
+      "label": "Lead",
+      "kind": {
+        "type": "longText"
+      },
+      "default": "Tell us what you are building and where it hurts. A product specialist — not a bot — will reply with a plan, usually the same day."
+    }
+  ]
+}

@@ -1,0 +1,532 @@
+{
+  "id": "ledger-cta",
+  "name": "Ledger · Consultation band",
+  "root": {
+    "id": "cta",
+    "kind": {
+      "type": "frame",
+      "element": "section"
+    },
+    "children": [
+      {
+        "id": "cta-inner",
+        "kind": {
+          "type": "frame"
+        },
+        "children": [
+          {
+            "id": "cta-card",
+            "kind": {
+              "type": "frame"
+            },
+            "children": [
+              {
+                "id": "cta-copy",
+                "kind": {
+                  "type": "frame"
+                },
+                "children": [
+                  {
+                    "id": "cta-eyebrow-row",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "children": [
+                      {
+                        "id": "cta-eyebrow-rule",
+                        "kind": {
+                          "type": "frame"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "size": {
+                                "width": {
+                                  "px": 28.0
+                                },
+                                "height": {
+                                  "px": 1.0
+                                }
+                              },
+                              "background": {
+                                "token": "surface.warm"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "cta-eyebrow",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "First consultation"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.eyebrow",
+                                "color": {
+                                  "token": "ink.brass"
+                                },
+                                "transform": "uppercase"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "row",
+                            "gap": {
+                              "px": 12.0
+                            },
+                            "align": "center",
+                            "wrap": false
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "cta-title",
+                    "kind": {
+                      "type": "text",
+                      "tag": "h2",
+                      "content": "Talk to a partner this week."
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.title",
+                            "color": {
+                              "token": "ink.inverse"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "content": "heading"
+                    }
+                  },
+                  {
+                    "id": "cta-body",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "A 30-minute first conversation is free and confidential. You will leave it knowing your options and what they cost."
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.lead",
+                            "color": {
+                              "token": "ink.inverse.muted"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "content": "body"
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "px": 16.0
+                        }
+                      },
+                      "size": {
+                        "maxWidth": {
+                          "px": 640.0
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "cta-actions",
+                "kind": {
+                  "type": "frame"
+                },
+                "children": [
+                  {
+                    "id": "cta-cta",
+                    "kind": {
+                      "type": "button",
+                      "label": "Book a consultation  →",
+                      "href": "/contact",
+                      "target": "same"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "inlineBlock",
+                          "background": {
+                            "token": "surface.warm"
+                          },
+                          "radius": {
+                            "token": "radius.sm"
+                          },
+                          "size": {
+                            "width": {
+                              "raw": "fit-content"
+                            }
+                          },
+                          "spacing": {
+                            "padding": {
+                              "top": {
+                                "px": 15.0
+                              },
+                              "right": {
+                                "px": 24.0
+                              },
+                              "bottom": {
+                                "px": 15.0
+                              },
+                              "left": {
+                                "px": 24.0
+                              }
+                            }
+                          },
+                          "typography": {
+                            "token": "type.button",
+                            "color": {
+                              "token": "ink.body"
+                            },
+                            "decoration": "none"
+                          },
+                          "border": {
+                            "width": {
+                              "px": 1.0
+                            },
+                            "style": "solid",
+                            "color": {
+                              "token": "surface.warm"
+                            }
+                          },
+                          "transition": {
+                            "duration": 180,
+                            "easing": "easeOut",
+                            "properties": [
+                              "backgroundColor",
+                              "borderColor",
+                              "transform"
+                            ]
+                          }
+                        },
+                        "hover": {
+                          "background": {
+                            "token": "ink.brass"
+                          },
+                          "border": {
+                            "width": {
+                              "px": 1.0
+                            },
+                            "style": "solid",
+                            "color": {
+                              "token": "ink.brass"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "label": "ctaLabel",
+                      "href": "ctaHref"
+                    }
+                  },
+                  {
+                    "id": "cta-phone",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "children": [
+                      {
+                        "id": "cta-phone-icon",
+                        "kind": {
+                          "type": "icon",
+                          "name": "phone"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "color": {
+                                  "token": "ink.brass"
+                                }
+                              },
+                              "size": {
+                                "width": {
+                                  "px": 18.0
+                                },
+                                "height": {
+                                  "px": 18.0
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "cta-phone-t",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "+31 20 555 0190"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.button",
+                                "color": {
+                                  "token": "ink.inverse"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "row",
+                            "gap": {
+                              "px": 10.0
+                            },
+                            "align": "center",
+                            "wrap": true
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "px": 18.0
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            ],
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "flex",
+                  "flex": {
+                    "direction": "column",
+                    "gap": {
+                      "px": 36.0
+                    }
+                  },
+                  "background": {
+                    "token": "surface.accent"
+                  },
+                  "radius": {
+                    "token": "radius.md"
+                  },
+                  "custom": {
+                    "background-image": "linear-gradient(90deg, rgb(255 255 255 / 0.05) 1px, transparent 1px)",
+                    "background-size": "96px 100%"
+                  },
+                  "border": {
+                    "left": {
+                      "width": {
+                        "px": 4.0
+                      },
+                      "style": "solid",
+                      "color": {
+                        "token": "surface.warm"
+                      }
+                    }
+                  },
+                  "spacing": {
+                    "padding": {
+                      "top": {
+                        "px": 40.0
+                      },
+                      "right": {
+                        "px": 28.0
+                      },
+                      "bottom": {
+                        "px": 40.0
+                      },
+                      "left": {
+                        "px": 28.0
+                      }
+                    }
+                  }
+                }
+              },
+              "md": {
+                "base": {
+                  "flex": {
+                    "direction": "row",
+                    "align": "center",
+                    "justify": "spaceBetween",
+                    "gap": {
+                      "px": 56.0
+                    }
+                  },
+                  "spacing": {
+                    "padding": {
+                      "top": {
+                        "px": 64.0
+                      },
+                      "right": {
+                        "px": 64.0
+                      },
+                      "bottom": {
+                        "px": 64.0
+                      },
+                      "left": {
+                        "px": 64.0
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "styles": {
+          "base": {
+            "base": {
+              "display": "flex",
+              "flex": {
+                "direction": "column",
+                "gap": {
+                  "px": 32.0
+                }
+              },
+              "size": {
+                "maxWidth": {
+                  "px": 1240.0
+                },
+                "width": {
+                  "percent": 100.0
+                }
+              },
+              "spacing": {
+                "margin": {
+                  "left": {
+                    "raw": "auto"
+                  },
+                  "right": {
+                    "raw": "auto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "styles": {
+      "base": {
+        "base": {
+          "background": {
+            "token": "surface.page"
+          },
+          "spacing": {
+            "padding": {
+              "top": {
+                "px": 48.0
+              },
+              "right": {
+                "px": 20.0
+              },
+              "bottom": {
+                "px": 48.0
+              },
+              "left": {
+                "px": 20.0
+              }
+            }
+          }
+        }
+      },
+      "md": {
+        "base": {
+          "spacing": {
+            "padding": {
+              "top": {
+                "px": 88.0
+              },
+              "right": {
+                "px": 40.0
+              },
+              "bottom": {
+                "px": 88.0
+              },
+              "left": {
+                "px": 40.0
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "props": [
+    {
+      "name": "heading",
+      "label": "Heading",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Talk to a partner this week."
+    },
+    {
+      "name": "body",
+      "label": "Body",
+      "kind": {
+        "type": "longText"
+      },
+      "default": "A 30-minute first conversation is free and confidential."
+    },
+    {
+      "name": "ctaLabel",
+      "label": "Button label",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Book a consultation"
+    },
+    {
+      "name": "ctaHref",
+      "label": "Button link",
+      "kind": {
+        "type": "url"
+      },
+      "default": "/contact"
+    }
+  ]
+}

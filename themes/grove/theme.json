@@ -1,0 +1,74 @@
+{
+  "id": "grove",
+  "name": "Grove",
+  "version": "1.0.0",
+  "author": {
+    "id": "guuslab",
+    "name": "GuusLab"
+  },
+  "tagline": "A calm, organic theme for yoga teachers, studios and wellness coaches.",
+  "longDescription": "Grove is a soft, unhurried design system for yoga studios, breathwork teachers and wellness coaches. Sage and warm sand, pebble-shaped photo crops and a gentle serif headline (Fraunces) paired with a humanist sans (Nunito Sans) give it a quiet, premium feel without looking like a template.\n\nIt ships with fifteen components built on the site tokens: a sticky translucent header, a split hero with a floating 'next class' card, a centred hero with sage and sand variants, an offer grid, a weekly class schedule with level badges and booking links, a large testimonial on deep forest green, three membership plans, a bento gallery, stats, teachers, a coach introduction, a booking call-to-action band, a contact block and a journal card.\n\nSix ready pages (home, about, classes & coaching, contact, journal and a friendly 404) come with realistic English copy and five original photographs. Every text, image and link in a component is a prop, so you can change the words without touching the layout.",
+  "categories": [
+    "personal",
+    "business"
+  ],
+  "accent": "#6B8F71",
+  "icon": "icon.png",
+  "screenshots": [
+    {
+      "file": "screenshots/01.png",
+      "caption": "Home: a soft hero with the next class and ratings"
+    },
+    {
+      "file": "screenshots/02.png",
+      "caption": "Classes and coaching, with ways to practise"
+    },
+    {
+      "file": "screenshots/03.png",
+      "caption": "About: the studio and its coach"
+    },
+    {
+      "file": "screenshots/04.png",
+      "caption": "On a phone: home, classes and about"
+    }
+  ],
+  "fonts": [
+    {
+      "family": "Fraunces",
+      "file": "assets/fonts/fraunces-latin-400-normal.woff2",
+      "weight": 400,
+      "style": "normal"
+    },
+    {
+      "family": "Fraunces",
+      "file": "assets/fonts/fraunces-latin-400-italic.woff2",
+      "weight": 400,
+      "style": "italic"
+    },
+    {
+      "family": "Fraunces",
+      "file": "assets/fonts/fraunces-latin-600-normal.woff2",
+      "weight": 600,
+      "style": "normal"
+    },
+    {
+      "family": "Nunito Sans",
+      "file": "assets/fonts/nunito-sans-latin-400-normal.woff2",
+      "weight": 400,
+      "style": "normal"
+    },
+    {
+      "family": "Nunito Sans",
+      "file": "assets/fonts/nunito-sans-latin-600-normal.woff2",
+      "weight": 600,
+      "style": "normal"
+    },
+    {
+      "family": "Nunito Sans",
+      "file": "assets/fonts/nunito-sans-latin-700-normal.woff2",
+      "weight": 700,
+      "style": "normal"
+    }
+  ],
+  "homeTemplate": "home"
+}

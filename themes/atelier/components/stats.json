@@ -1,0 +1,456 @@
+{
+  "id": "atelier-stats",
+  "name": "Atelier · Stats",
+  "root": {
+    "id": "sx",
+    "kind": {
+      "type": "frame",
+      "element": "div"
+    },
+    "styles": {
+      "base": {
+        "base": {
+          "display": "grid",
+          "grid": {
+            "templateColumns": "minmax(0, 1fr)",
+            "gap": {
+              "token": "space.8"
+            }
+          }
+        }
+      },
+      "md": {
+        "base": {
+          "grid": {
+            "templateColumns": "minmax(0,1fr) minmax(0,1fr)",
+            "gap": {
+              "token": "space.8"
+            }
+          }
+        }
+      },
+      "lg": {
+        "base": {
+          "grid": {
+            "templateColumns": "repeat(4, minmax(0,1fr))",
+            "gap": {
+              "token": "space.8"
+            }
+          }
+        }
+      }
+    },
+    "children": [
+      {
+        "id": "sx-1",
+        "kind": {
+          "type": "frame",
+          "element": "div"
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "display": "flex",
+              "flex": {
+                "direction": "column",
+                "gap": {
+                  "token": "space.2"
+                }
+              },
+              "border": {
+                "top": {
+                  "width": {
+                    "px": 1
+                  },
+                  "style": "solid",
+                  "color": {
+                    "token": "line.hairline"
+                  }
+                }
+              },
+              "spacing": {
+                "padding": {
+                  "top": {
+                    "token": "space.4"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "children": [
+          {
+            "id": "sx-n1",
+            "kind": {
+              "type": "text",
+              "tag": "p",
+              "content": "15"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "typography": {
+                    "token": "type.numeral",
+                    "color": {
+                      "token": "ink.body"
+                    }
+                  }
+                }
+              }
+            },
+            "bindings": {
+              "content": "stat1Value"
+            }
+          },
+          {
+            "id": "sx-l1",
+            "kind": {
+              "type": "text",
+              "tag": "p",
+              "content": "years in practice"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "typography": {
+                    "token": "type.small",
+                    "color": {
+                      "token": "ink.muted"
+                    }
+                  }
+                }
+              }
+            },
+            "bindings": {
+              "content": "stat1Label"
+            }
+          }
+        ]
+      },
+      {
+        "id": "sx-2",
+        "kind": {
+          "type": "frame",
+          "element": "div"
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "display": "flex",
+              "flex": {
+                "direction": "column",
+                "gap": {
+                  "token": "space.2"
+                }
+              },
+              "border": {
+                "top": {
+                  "width": {
+                    "px": 1
+                  },
+                  "style": "solid",
+                  "color": {
+                    "token": "line.hairline"
+                  }
+                }
+              },
+              "spacing": {
+                "padding": {
+                  "top": {
+                    "token": "space.4"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "children": [
+          {
+            "id": "sx-n2",
+            "kind": {
+              "type": "text",
+              "tag": "p",
+              "content": "140+"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "typography": {
+                    "token": "type.numeral",
+                    "color": {
+                      "token": "ink.body"
+                    }
+                  }
+                }
+              }
+            },
+            "bindings": {
+              "content": "stat2Value"
+            }
+          },
+          {
+            "id": "sx-l2",
+            "kind": {
+              "type": "text",
+              "tag": "p",
+              "content": "identities launched"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "typography": {
+                    "token": "type.small",
+                    "color": {
+                      "token": "ink.muted"
+                    }
+                  }
+                }
+              }
+            },
+            "bindings": {
+              "content": "stat2Label"
+            }
+          }
+        ]
+      },
+      {
+        "id": "sx-3",
+        "kind": {
+          "type": "frame",
+          "element": "div"
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "display": "flex",
+              "flex": {
+                "direction": "column",
+                "gap": {
+                  "token": "space.2"
+                }
+              },
+              "border": {
+                "top": {
+                  "width": {
+                    "px": 1
+                  },
+                  "style": "solid",
+                  "color": {
+                    "token": "line.hairline"
+                  }
+                }
+              },
+              "spacing": {
+                "padding": {
+                  "top": {
+                    "token": "space.4"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "children": [
+          {
+            "id": "sx-n3",
+            "kind": {
+              "type": "text",
+              "tag": "p",
+              "content": "11"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "typography": {
+                    "token": "type.numeral",
+                    "color": {
+                      "token": "ink.body"
+                    }
+                  }
+                }
+              }
+            },
+            "bindings": {
+              "content": "stat3Value"
+            }
+          },
+          {
+            "id": "sx-l3",
+            "kind": {
+              "type": "text",
+              "tag": "p",
+              "content": "people, two studios"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "typography": {
+                    "token": "type.small",
+                    "color": {
+                      "token": "ink.muted"
+                    }
+                  }
+                }
+              }
+            },
+            "bindings": {
+              "content": "stat3Label"
+            }
+          }
+        ]
+      },
+      {
+        "id": "sx-4",
+        "kind": {
+          "type": "frame",
+          "element": "div"
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "display": "flex",
+              "flex": {
+                "direction": "column",
+                "gap": {
+                  "token": "space.2"
+                }
+              },
+              "border": {
+                "top": {
+                  "width": {
+                    "px": 1
+                  },
+                  "style": "solid",
+                  "color": {
+                    "token": "line.hairline"
+                  }
+                }
+              },
+              "spacing": {
+                "padding": {
+                  "top": {
+                    "token": "space.4"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "children": [
+          {
+            "id": "sx-n4",
+            "kind": {
+              "type": "text",
+              "tag": "p",
+              "content": "8"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "typography": {
+                    "token": "type.numeral",
+                    "color": {
+                      "token": "ink.body"
+                    }
+                  }
+                }
+              }
+            },
+            "bindings": {
+              "content": "stat4Value"
+            }
+          },
+          {
+            "id": "sx-l4",
+            "kind": {
+              "type": "text",
+              "tag": "p",
+              "content": "projects a year, by choice"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "typography": {
+                    "token": "type.small",
+                    "color": {
+                      "token": "ink.muted"
+                    }
+                  }
+                }
+              }
+            },
+            "bindings": {
+              "content": "stat4Label"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "props": [
+    {
+      "name": "stat1Value",
+      "label": "Figure 1",
+      "kind": {
+        "type": "text"
+      },
+      "default": "15"
+    },
+    {
+      "name": "stat1Label",
+      "label": "Figure 1 label",
+      "kind": {
+        "type": "text"
+      },
+      "default": "years in practice"
+    },
+    {
+      "name": "stat2Value",
+      "label": "Figure 2",
+      "kind": {
+        "type": "text"
+      },
+      "default": "140+"
+    },
+    {
+      "name": "stat2Label",
+      "label": "Figure 2 label",
+      "kind": {
+        "type": "text"
+      },
+      "default": "identities launched"
+    },
+    {
+      "name": "stat3Value",
+      "label": "Figure 3",
+      "kind": {
+        "type": "text"
+      },
+      "default": "11"
+    },
+    {
+      "name": "stat3Label",
+      "label": "Figure 3 label",
+      "kind": {
+        "type": "text"
+      },
+      "default": "people, two studios"
+    },
+    {
+      "name": "stat4Value",
+      "label": "Figure 4",
+      "kind": {
+        "type": "text"
+      },
+      "default": "8"
+    },
+    {
+      "name": "stat4Label",
+      "label": "Figure 4 label",
+      "kind": {
+        "type": "text"
+      },
+      "default": "projects a year, by choice"
+    }
+  ]
+}

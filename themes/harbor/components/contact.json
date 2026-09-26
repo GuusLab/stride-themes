@@ -1,0 +1,1412 @@
+{
+  "id": "harbor-contact",
+  "name": "Harbor · Booking block",
+  "root": {
+    "id": "reserve-form",
+    "kind": {
+      "type": "frame",
+      "element": "section"
+    },
+    "children": [
+      {
+        "id": "reserve-form-inner",
+        "kind": {
+          "type": "frame"
+        },
+        "children": [
+          {
+            "id": "reserve-form-grid",
+            "kind": {
+              "type": "frame"
+            },
+            "children": [
+              {
+                "id": "reserve-form-left",
+                "kind": {
+                  "type": "frame"
+                },
+                "children": [
+                  {
+                    "id": "reserve-form-h-head",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "children": [
+                      {
+                        "id": "reserve-form-h-eyebrow",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Reservations"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.eyebrow",
+                                "color": {
+                                  "token": "ink.accent"
+                                },
+                                "transform": "uppercase"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "reserve-form-h-title",
+                        "kind": {
+                          "type": "text",
+                          "tag": "h2",
+                          "content": "Book a table"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.title",
+                                "color": {
+                                  "token": "ink.body"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "reserve-form-h-lead",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Tell us when you would like to come and how many of you there will be. We reply within a few hours, usually sooner."
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.lead",
+                                "color": {
+                                  "token": "ink.muted"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "column",
+                            "gap": {
+                              "px": 16.0
+                            }
+                          },
+                          "size": {
+                            "maxWidth": {
+                              "px": 720.0
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "reserve-form-m1",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "children": [
+                      {
+                        "id": "reserve-form-m1-b",
+                        "kind": {
+                          "type": "frame"
+                        },
+                        "children": [
+                          {
+                            "id": "reserve-form-m1-i",
+                            "kind": {
+                              "type": "icon",
+                              "name": "phone"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "color": {
+                                      "token": "ink.accent"
+                                    }
+                                  },
+                                  "size": {
+                                    "width": {
+                                      "px": 22.0
+                                    },
+                                    "height": {
+                                      "px": 22.0
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "flex",
+                              "flex": {
+                                "align": "center",
+                                "justify": "center"
+                              },
+                              "size": {
+                                "width": {
+                                  "px": 48.0
+                                },
+                                "height": {
+                                  "px": 48.0
+                                }
+                              },
+                              "radius": {
+                                "token": "radius.md"
+                              },
+                              "background": {
+                                "raw": "#DCEBEA"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "reserve-form-m1-t",
+                        "kind": {
+                          "type": "frame"
+                        },
+                        "children": [
+                          {
+                            "id": "reserve-form-m1-k",
+                            "kind": {
+                              "type": "text",
+                              "tag": "span",
+                              "content": "Call us"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.body",
+                                    "color": {
+                                      "token": "ink.body"
+                                    },
+                                    "weight": 700
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "reserve-form-m1-v",
+                            "kind": {
+                              "type": "text",
+                              "tag": "span",
+                              "content": "+1 555 0142, 10:00 to 18:00"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.small",
+                                    "color": {
+                                      "token": "ink.muted"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "flex",
+                              "flex": {
+                                "direction": "column",
+                                "gap": {
+                                  "px": 2.0
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "row",
+                            "gap": {
+                              "px": 16.0
+                            },
+                            "align": "center",
+                            "wrap": false
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "reserve-form-m2",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "children": [
+                      {
+                        "id": "reserve-form-m2-b",
+                        "kind": {
+                          "type": "frame"
+                        },
+                        "children": [
+                          {
+                            "id": "reserve-form-m2-i",
+                            "kind": {
+                              "type": "icon",
+                              "name": "mail"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "color": {
+                                      "token": "ink.accent"
+                                    }
+                                  },
+                                  "size": {
+                                    "width": {
+                                      "px": 22.0
+                                    },
+                                    "height": {
+                                      "px": 22.0
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "flex",
+                              "flex": {
+                                "align": "center",
+                                "justify": "center"
+                              },
+                              "size": {
+                                "width": {
+                                  "px": 48.0
+                                },
+                                "height": {
+                                  "px": 48.0
+                                }
+                              },
+                              "radius": {
+                                "token": "radius.md"
+                              },
+                              "background": {
+                                "raw": "#DCEBEA"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "reserve-form-m2-t",
+                        "kind": {
+                          "type": "frame"
+                        },
+                        "children": [
+                          {
+                            "id": "reserve-form-m2-k",
+                            "kind": {
+                              "type": "text",
+                              "tag": "span",
+                              "content": "Email"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.body",
+                                    "color": {
+                                      "token": "ink.body"
+                                    },
+                                    "weight": 700
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "reserve-form-m2-v",
+                            "kind": {
+                              "type": "text",
+                              "tag": "span",
+                              "content": "hello@tidewaterkitchen.example"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.small",
+                                    "color": {
+                                      "token": "ink.muted"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "flex",
+                              "flex": {
+                                "direction": "column",
+                                "gap": {
+                                  "px": 2.0
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "row",
+                            "gap": {
+                              "px": 16.0
+                            },
+                            "align": "center",
+                            "wrap": false
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "reserve-form-m3",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "children": [
+                      {
+                        "id": "reserve-form-m3-b",
+                        "kind": {
+                          "type": "frame"
+                        },
+                        "children": [
+                          {
+                            "id": "reserve-form-m3-i",
+                            "kind": {
+                              "type": "icon",
+                              "name": "calendar"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "color": {
+                                      "token": "ink.accent"
+                                    }
+                                  },
+                                  "size": {
+                                    "width": {
+                                      "px": 22.0
+                                    },
+                                    "height": {
+                                      "px": 22.0
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "flex",
+                              "flex": {
+                                "align": "center",
+                                "justify": "center"
+                              },
+                              "size": {
+                                "width": {
+                                  "px": 48.0
+                                },
+                                "height": {
+                                  "px": 48.0
+                                }
+                              },
+                              "radius": {
+                                "token": "radius.md"
+                              },
+                              "background": {
+                                "raw": "#DCEBEA"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "reserve-form-m3-t",
+                        "kind": {
+                          "type": "frame"
+                        },
+                        "children": [
+                          {
+                            "id": "reserve-form-m3-k",
+                            "kind": {
+                              "type": "text",
+                              "tag": "span",
+                              "content": "Groups of 8+"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.body",
+                                    "color": {
+                                      "token": "ink.body"
+                                    },
+                                    "weight": 700
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "reserve-form-m3-v",
+                            "kind": {
+                              "type": "text",
+                              "tag": "span",
+                              "content": "Ask about the private room"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.small",
+                                    "color": {
+                                      "token": "ink.muted"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "flex",
+                              "flex": {
+                                "direction": "column",
+                                "gap": {
+                                  "px": 2.0
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "row",
+                            "gap": {
+                              "px": 16.0
+                            },
+                            "align": "center",
+                            "wrap": false
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "px": 24.0
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "reserve-form-form",
+                "kind": {
+                  "type": "frame"
+                },
+                "children": [
+                  {
+                    "id": "reserve-form-row1",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "children": [
+                      {
+                        "id": "reserve-form-f1",
+                        "kind": {
+                          "type": "frame"
+                        },
+                        "children": [
+                          {
+                            "id": "reserve-form-f1-l",
+                            "kind": {
+                              "type": "text",
+                              "tag": "span",
+                              "content": "Date"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.small",
+                                    "color": {
+                                      "token": "ink.body"
+                                    },
+                                    "weight": 700
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "reserve-form-f1-box",
+                            "kind": {
+                              "type": "frame"
+                            },
+                            "children": [
+                              {
+                                "id": "reserve-form-f1-h",
+                                "kind": {
+                                  "type": "text",
+                                  "tag": "span",
+                                  "content": "Friday 10 October"
+                                },
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "typography": {
+                                        "token": "type.body",
+                                        "color": {
+                                          "token": "ink.muted"
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            ],
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "background": {
+                                    "token": "surface.page"
+                                  },
+                                  "radius": {
+                                    "token": "radius.md"
+                                  },
+                                  "border": {
+                                    "width": {
+                                      "px": 1.0
+                                    },
+                                    "style": "solid",
+                                    "color": {
+                                      "token": "line.hairline"
+                                    }
+                                  },
+                                  "spacing": {
+                                    "padding": {
+                                      "top": {
+                                        "px": 14.0
+                                      },
+                                      "right": {
+                                        "px": 16.0
+                                      },
+                                      "bottom": {
+                                        "px": 14.0
+                                      },
+                                      "left": {
+                                        "px": 16.0
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "flex",
+                              "flex": {
+                                "direction": "column",
+                                "gap": {
+                                  "px": 6.0
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "reserve-form-f2",
+                        "kind": {
+                          "type": "frame"
+                        },
+                        "children": [
+                          {
+                            "id": "reserve-form-f2-l",
+                            "kind": {
+                              "type": "text",
+                              "tag": "span",
+                              "content": "Time"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.small",
+                                    "color": {
+                                      "token": "ink.body"
+                                    },
+                                    "weight": 700
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "reserve-form-f2-box",
+                            "kind": {
+                              "type": "frame"
+                            },
+                            "children": [
+                              {
+                                "id": "reserve-form-f2-h",
+                                "kind": {
+                                  "type": "text",
+                                  "tag": "span",
+                                  "content": "19:30"
+                                },
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "typography": {
+                                        "token": "type.body",
+                                        "color": {
+                                          "token": "ink.muted"
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            ],
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "background": {
+                                    "token": "surface.page"
+                                  },
+                                  "radius": {
+                                    "token": "radius.md"
+                                  },
+                                  "border": {
+                                    "width": {
+                                      "px": 1.0
+                                    },
+                                    "style": "solid",
+                                    "color": {
+                                      "token": "line.hairline"
+                                    }
+                                  },
+                                  "spacing": {
+                                    "padding": {
+                                      "top": {
+                                        "px": 14.0
+                                      },
+                                      "right": {
+                                        "px": 16.0
+                                      },
+                                      "bottom": {
+                                        "px": 14.0
+                                      },
+                                      "left": {
+                                        "px": 16.0
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "flex",
+                              "flex": {
+                                "direction": "column",
+                                "gap": {
+                                  "px": 6.0
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "grid",
+                          "grid": {
+                            "columns": 1,
+                            "gap": {
+                              "px": 16.0
+                            }
+                          }
+                        }
+                      },
+                      "md": {
+                        "base": {
+                          "display": "grid",
+                          "grid": {
+                            "columns": 2
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "reserve-form-row2",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "children": [
+                      {
+                        "id": "reserve-form-f3",
+                        "kind": {
+                          "type": "frame"
+                        },
+                        "children": [
+                          {
+                            "id": "reserve-form-f3-l",
+                            "kind": {
+                              "type": "text",
+                              "tag": "span",
+                              "content": "Guests"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.small",
+                                    "color": {
+                                      "token": "ink.body"
+                                    },
+                                    "weight": 700
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "reserve-form-f3-box",
+                            "kind": {
+                              "type": "frame"
+                            },
+                            "children": [
+                              {
+                                "id": "reserve-form-f3-h",
+                                "kind": {
+                                  "type": "text",
+                                  "tag": "span",
+                                  "content": "2 people"
+                                },
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "typography": {
+                                        "token": "type.body",
+                                        "color": {
+                                          "token": "ink.muted"
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            ],
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "background": {
+                                    "token": "surface.page"
+                                  },
+                                  "radius": {
+                                    "token": "radius.md"
+                                  },
+                                  "border": {
+                                    "width": {
+                                      "px": 1.0
+                                    },
+                                    "style": "solid",
+                                    "color": {
+                                      "token": "line.hairline"
+                                    }
+                                  },
+                                  "spacing": {
+                                    "padding": {
+                                      "top": {
+                                        "px": 14.0
+                                      },
+                                      "right": {
+                                        "px": 16.0
+                                      },
+                                      "bottom": {
+                                        "px": 14.0
+                                      },
+                                      "left": {
+                                        "px": 16.0
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "flex",
+                              "flex": {
+                                "direction": "column",
+                                "gap": {
+                                  "px": 6.0
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "reserve-form-f4",
+                        "kind": {
+                          "type": "frame"
+                        },
+                        "children": [
+                          {
+                            "id": "reserve-form-f4-l",
+                            "kind": {
+                              "type": "text",
+                              "tag": "span",
+                              "content": "Name"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.small",
+                                    "color": {
+                                      "token": "ink.body"
+                                    },
+                                    "weight": 700
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "reserve-form-f4-box",
+                            "kind": {
+                              "type": "frame"
+                            },
+                            "children": [
+                              {
+                                "id": "reserve-form-f4-h",
+                                "kind": {
+                                  "type": "text",
+                                  "tag": "span",
+                                  "content": "Your name"
+                                },
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "typography": {
+                                        "token": "type.body",
+                                        "color": {
+                                          "token": "ink.muted"
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            ],
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "background": {
+                                    "token": "surface.page"
+                                  },
+                                  "radius": {
+                                    "token": "radius.md"
+                                  },
+                                  "border": {
+                                    "width": {
+                                      "px": 1.0
+                                    },
+                                    "style": "solid",
+                                    "color": {
+                                      "token": "line.hairline"
+                                    }
+                                  },
+                                  "spacing": {
+                                    "padding": {
+                                      "top": {
+                                        "px": 14.0
+                                      },
+                                      "right": {
+                                        "px": 16.0
+                                      },
+                                      "bottom": {
+                                        "px": 14.0
+                                      },
+                                      "left": {
+                                        "px": 16.0
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "flex",
+                              "flex": {
+                                "direction": "column",
+                                "gap": {
+                                  "px": 6.0
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "grid",
+                          "grid": {
+                            "columns": 1,
+                            "gap": {
+                              "px": 16.0
+                            }
+                          }
+                        }
+                      },
+                      "md": {
+                        "base": {
+                          "display": "grid",
+                          "grid": {
+                            "columns": 2
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "reserve-form-f5",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "children": [
+                      {
+                        "id": "reserve-form-f5-l",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "Anything we should know?"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.body"
+                                },
+                                "weight": 700
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "reserve-form-f5-box",
+                        "kind": {
+                          "type": "frame"
+                        },
+                        "children": [
+                          {
+                            "id": "reserve-form-f5-h",
+                            "kind": {
+                              "type": "text",
+                              "tag": "span",
+                              "content": "Allergies, a birthday, a high chair"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.body",
+                                    "color": {
+                                      "token": "ink.muted"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "background": {
+                                "token": "surface.page"
+                              },
+                              "radius": {
+                                "token": "radius.md"
+                              },
+                              "border": {
+                                "width": {
+                                  "px": 1.0
+                                },
+                                "style": "solid",
+                                "color": {
+                                  "token": "line.hairline"
+                                }
+                              },
+                              "spacing": {
+                                "padding": {
+                                  "top": {
+                                    "px": 14.0
+                                  },
+                                  "right": {
+                                    "px": 16.0
+                                  },
+                                  "bottom": {
+                                    "px": 14.0
+                                  },
+                                  "left": {
+                                    "px": 16.0
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "column",
+                            "gap": {
+                              "px": 6.0
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "reserve-form-submit",
+                    "kind": {
+                      "type": "button",
+                      "label": "Request a table",
+                      "href": "mailto:hello@tidewaterkitchen.example",
+                      "target": "same"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "inlineBlock",
+                          "background": {
+                            "token": "surface.accent"
+                          },
+                          "radius": {
+                            "token": "radius.full"
+                          },
+                          "size": {
+                            "width": {
+                              "raw": "fit-content"
+                            }
+                          },
+                          "spacing": {
+                            "padding": {
+                              "top": {
+                                "px": 16.0
+                              },
+                              "right": {
+                                "px": 30.0
+                              },
+                              "bottom": {
+                                "px": 16.0
+                              },
+                              "left": {
+                                "px": 30.0
+                              }
+                            }
+                          },
+                          "typography": {
+                            "token": "type.button",
+                            "color": {
+                              "token": "ink.inverse"
+                            },
+                            "decoration": "none"
+                          },
+                          "shadow": {
+                            "token": "shadow.soft"
+                          },
+                          "transition": {
+                            "duration": 200,
+                            "easing": "easeOut",
+                            "properties": [
+                              "backgroundColor",
+                              "transform",
+                              "boxShadow"
+                            ]
+                          }
+                        },
+                        "hover": {
+                          "background": {
+                            "token": "surface.deep"
+                          },
+                          "custom": {
+                            "transform": "translateY(-2px)"
+                          },
+                          "shadow": {
+                            "token": "shadow.card"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "reserve-form-fine",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "Connect a Stride form here to take bookings straight into your inbox."
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "color": {
+                              "token": "ink.muted"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "px": 18.0
+                        }
+                      },
+                      "background": {
+                        "token": "surface.card"
+                      },
+                      "radius": {
+                        "token": "radius.lg"
+                      },
+                      "border": {
+                        "width": {
+                          "px": 1.0
+                        },
+                        "style": "solid",
+                        "color": {
+                          "token": "line.hairline"
+                        }
+                      },
+                      "shadow": {
+                        "token": "shadow.card"
+                      },
+                      "overflow": "hidden",
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "px": 28.0
+                          },
+                          "right": {
+                            "px": 28.0
+                          },
+                          "bottom": {
+                            "px": 28.0
+                          },
+                          "left": {
+                            "px": 28.0
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            ],
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "grid",
+                  "grid": {
+                    "columns": 1,
+                    "gap": {
+                      "px": 48.0
+                    }
+                  }
+                }
+              },
+              "md": {
+                "base": {
+                  "display": "grid",
+                  "grid": {
+                    "columns": 2,
+                    "gap": {
+                      "px": 64.0
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "styles": {
+          "base": {
+            "base": {
+              "display": "flex",
+              "flex": {
+                "direction": "column",
+                "gap": {
+                  "px": 32.0
+                }
+              },
+              "size": {
+                "maxWidth": {
+                  "px": 1200.0
+                },
+                "width": {
+                  "percent": 100.0
+                }
+              },
+              "spacing": {
+                "margin": {
+                  "left": {
+                    "raw": "auto"
+                  },
+                  "right": {
+                    "raw": "auto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "styles": {
+      "base": {
+        "base": {
+          "background": {
+            "token": "surface.raised"
+          },
+          "spacing": {
+            "padding": {
+              "top": {
+                "px": 72.0
+              },
+              "right": {
+                "px": 20.0
+              },
+              "bottom": {
+                "px": 72.0
+              },
+              "left": {
+                "px": 20.0
+              }
+            }
+          }
+        }
+      },
+      "md": {
+        "base": {
+          "spacing": {
+            "padding": {
+              "top": {
+                "px": 112.0
+              },
+              "right": {
+                "px": 40.0
+              },
+              "bottom": {
+                "px": 112.0
+              },
+              "left": {
+                "px": 40.0
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "props": []
+}

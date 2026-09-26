@@ -1,0 +1,462 @@
+{
+  "root": {
+    "id": "root",
+    "kind": {
+      "type": "frame",
+      "element": "div"
+    },
+    "styles": {
+      "base": {
+        "base": {
+          "background": {
+            "token": "surface.page"
+          },
+          "display": "flex",
+          "flex": {
+            "direction": "column"
+          },
+          "size": {
+            "minHeight": {
+              "raw": "100vh"
+            }
+          }
+        }
+      }
+    },
+    "children": [
+      {
+        "id": "i-header-1",
+        "kind": {
+          "type": "instance",
+          "component": "atelier-header"
+        }
+      },
+      {
+        "id": "main",
+        "kind": {
+          "type": "frame",
+          "element": "main"
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "display": "flex",
+              "flex": {
+                "direction": "column"
+              },
+              "custom": {
+                "flex-grow": "1"
+              }
+            }
+          }
+        },
+        "children": [
+          {
+            "id": "i-hero-page-2",
+            "kind": {
+              "type": "instance",
+              "component": "atelier-hero-page"
+            }
+          },
+          {
+            "id": "a-img",
+            "kind": {
+              "type": "frame",
+              "element": "section"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "background": {
+                    "token": "surface.page"
+                  },
+                  "spacing": {
+                    "padding": {
+                      "top": {
+                        "token": "space.4"
+                      },
+                      "bottom": {
+                        "token": "space.4"
+                      },
+                      "left": {
+                        "token": "space.gutter"
+                      },
+                      "right": {
+                        "token": "space.gutter"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "a-img-in",
+                "kind": {
+                  "type": "frame",
+                  "element": "div"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "size": {
+                        "maxWidth": {
+                          "px": 1320
+                        },
+                        "width": {
+                          "percent": 100
+                        }
+                      },
+                      "spacing": {
+                        "margin": {
+                          "left": {
+                            "raw": "auto"
+                          },
+                          "right": {
+                            "raw": "auto"
+                          }
+                        }
+                      },
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "token": "space.12"
+                        }
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "a-photo",
+                    "kind": {
+                      "type": "image",
+                      "src": "assets/images/team.webp",
+                      "alt": "Three members of the studio discussing posters pinned to a wall"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "size": {
+                            "width": {
+                              "percent": 100
+                            },
+                            "height": {
+                              "raw": "auto"
+                            }
+                          },
+                          "aspectRatio": {
+                            "ratio": {
+                              "width": 21,
+                              "height": 9
+                            }
+                          },
+                          "objectFit": "cover",
+                          "display": "block"
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "a-principles",
+            "kind": {
+              "type": "frame",
+              "element": "section"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "background": {
+                    "token": "surface.page"
+                  },
+                  "spacing": {
+                    "padding": {
+                      "top": {
+                        "token": "space.section"
+                      },
+                      "bottom": {
+                        "token": "space.section"
+                      },
+                      "left": {
+                        "token": "space.gutter"
+                      },
+                      "right": {
+                        "token": "space.gutter"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "a-principles-in",
+                "kind": {
+                  "type": "frame",
+                  "element": "div"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "size": {
+                        "maxWidth": {
+                          "px": 1320
+                        },
+                        "width": {
+                          "percent": 100
+                        }
+                      },
+                      "spacing": {
+                        "margin": {
+                          "left": {
+                            "raw": "auto"
+                          },
+                          "right": {
+                            "raw": "auto"
+                          }
+                        }
+                      },
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "token": "space.12"
+                        }
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "i-section-intro-3",
+                    "kind": {
+                      "type": "instance",
+                      "component": "atelier-section-intro",
+                      "overrides": {
+                        "eyebrow": "(01) — How we work",
+                        "title": "Three rules we have kept since the first project.",
+                        "lead": "They cost us work occasionally. They have never cost us a client."
+                      }
+                    }
+                  },
+                  {
+                    "id": "i-feature-grid-4",
+                    "kind": {
+                      "type": "instance",
+                      "component": "atelier-feature-grid"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "a-team",
+            "kind": {
+              "type": "frame",
+              "element": "section"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "background": {
+                    "token": "surface.raised"
+                  },
+                  "spacing": {
+                    "padding": {
+                      "top": {
+                        "token": "space.section"
+                      },
+                      "bottom": {
+                        "token": "space.section"
+                      },
+                      "left": {
+                        "token": "space.gutter"
+                      },
+                      "right": {
+                        "token": "space.gutter"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "a-team-in",
+                "kind": {
+                  "type": "frame",
+                  "element": "div"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "size": {
+                        "maxWidth": {
+                          "px": 1320
+                        },
+                        "width": {
+                          "percent": 100
+                        }
+                      },
+                      "spacing": {
+                        "margin": {
+                          "left": {
+                            "raw": "auto"
+                          },
+                          "right": {
+                            "raw": "auto"
+                          }
+                        }
+                      },
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "token": "space.12"
+                        }
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "i-section-intro-5",
+                    "kind": {
+                      "type": "instance",
+                      "component": "atelier-section-intro",
+                      "overrides": {
+                        "eyebrow": "(02) — People",
+                        "title": "Led by the people who do the work.",
+                        "lead": "No account layer, no hand-offs to juniors after the pitch."
+                      }
+                    }
+                  },
+                  {
+                    "id": "i-team-6",
+                    "kind": {
+                      "type": "instance",
+                      "component": "atelier-team"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "a-stats",
+            "kind": {
+              "type": "frame",
+              "element": "section"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "background": {
+                    "token": "surface.page"
+                  },
+                  "spacing": {
+                    "padding": {
+                      "top": {
+                        "token": "space.16"
+                      },
+                      "bottom": {
+                        "token": "space.16"
+                      },
+                      "left": {
+                        "token": "space.gutter"
+                      },
+                      "right": {
+                        "token": "space.gutter"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "a-stats-in",
+                "kind": {
+                  "type": "frame",
+                  "element": "div"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "size": {
+                        "maxWidth": {
+                          "px": 1320
+                        },
+                        "width": {
+                          "percent": 100
+                        }
+                      },
+                      "spacing": {
+                        "margin": {
+                          "left": {
+                            "raw": "auto"
+                          },
+                          "right": {
+                            "raw": "auto"
+                          }
+                        }
+                      },
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "token": "space.12"
+                        }
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "i-stats-7",
+                    "kind": {
+                      "type": "instance",
+                      "component": "atelier-stats"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "i-testimonial-8",
+            "kind": {
+              "type": "instance",
+              "component": "atelier-testimonial",
+              "variant": "ink"
+            }
+          },
+          {
+            "id": "i-cta-band-9",
+            "kind": {
+              "type": "instance",
+              "component": "atelier-cta-band"
+            }
+          }
+        ]
+      },
+      {
+        "id": "i-footer-10",
+        "kind": {
+          "type": "instance",
+          "component": "atelier-footer"
+        }
+      }
+    ]
+  },
+  "seo": {
+    "title": "Studio — Hollis & Vane",
+    "description": "Who we are: eleven designers, writers and strategists in Edinburgh and Lisbon."
+  }
+}

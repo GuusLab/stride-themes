@@ -1,0 +1,657 @@
+{
+  "id": "pulse-header",
+  "name": "Pulse header",
+  "root": {
+    "id": "pulse-header",
+    "kind": {
+      "type": "frame",
+      "element": "header"
+    },
+    "styles": {
+      "base": {
+        "base": {
+          "position": {
+            "kind": "sticky",
+            "inset": {
+              "top": {
+                "px": 0
+              }
+            },
+            "zIndex": 50
+          },
+          "background": {
+            "raw": "rgb(11 10 18 / 0.72)"
+          },
+          "border": {
+            "bottom": {
+              "width": {
+                "px": 1
+              },
+              "style": "solid",
+              "color": {
+                "token": "line.subtle"
+              }
+            }
+          },
+          "custom": {
+            "backdrop-filter": "saturate(160%) blur(16px)",
+            "-webkit-backdrop-filter": "saturate(160%) blur(16px)"
+          },
+          "spacing": {
+            "padding": {
+              "top": {
+                "px": 14
+              },
+              "bottom": {
+                "px": 14
+              },
+              "left": {
+                "token": "space.gutter"
+              },
+              "right": {
+                "token": "space.gutter"
+              }
+            }
+          }
+        }
+      },
+      "md": {
+        "base": {
+          "spacing": {
+            "padding": {
+              "left": {
+                "token": "space.gutter.wide"
+              },
+              "right": {
+                "token": "space.gutter.wide"
+              }
+            }
+          }
+        }
+      }
+    },
+    "children": [
+      {
+        "id": "header-row",
+        "kind": {
+          "type": "frame"
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "display": "flex",
+              "flex": {
+                "direction": "row",
+                "gap": {
+                  "token": "space.6"
+                },
+                "align": "center",
+                "justify": "spaceBetween"
+              },
+              "size": {
+                "maxWidth": {
+                  "token": "space.measure"
+                },
+                "width": {
+                  "percent": 100
+                }
+              },
+              "spacing": {
+                "margin": {
+                  "left": {
+                    "raw": "auto"
+                  },
+                  "right": {
+                    "raw": "auto"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "children": [
+          {
+            "id": "header-home",
+            "kind": {
+              "type": "link",
+              "href": "/",
+              "target": "same"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "flex",
+                  "flex": {
+                    "direction": "row",
+                    "gap": {
+                      "token": "space.2"
+                    },
+                    "align": "center"
+                  },
+                  "typography": {
+                    "decoration": "none"
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "header-mark",
+                "kind": {
+                  "type": "frame"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "size": {
+                        "width": {
+                          "px": 28
+                        },
+                        "height": {
+                          "px": 28
+                        }
+                      },
+                      "radius": {
+                        "px": 9
+                      },
+                      "backgroundImage": {
+                        "gradient": "linear-gradient(135deg, #A78BFA 0%, #6D28D9 50%, #D946EF 100%)"
+                      },
+                      "shadow": {
+                        "raw": "0 0 20px rgb(167 139 250 / 0.5)"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "header-brand",
+                "kind": {
+                  "type": "text",
+                  "tag": "span",
+                  "content": "Vantora"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.brand",
+                        "color": {
+                          "token": "ink.strong"
+                        }
+                      }
+                    }
+                  }
+                },
+                "bindings": {
+                  "content": "brand"
+                }
+              }
+            ]
+          },
+          {
+            "id": "header-nav",
+            "kind": {
+              "type": "frame",
+              "element": "nav"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "none"
+                }
+              },
+              "md": {
+                "base": {
+                  "display": "flex",
+                  "flex": {
+                    "direction": "row",
+                    "align": "center",
+                    "gap": {
+                      "token": "space.8"
+                    }
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "header-nav-product",
+                "kind": {
+                  "type": "link",
+                  "href": "/features",
+                  "target": "same"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.button",
+                        "color": {
+                          "token": "ink.body"
+                        },
+                        "decoration": "none"
+                      },
+                      "transition": {
+                        "duration": 150,
+                        "properties": [
+                          "color"
+                        ]
+                      }
+                    },
+                    "hover": {
+                      "typography": {
+                        "color": {
+                          "token": "ink.strong"
+                        }
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "header-nav-product-label",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "Product"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.button",
+                            "color": {
+                              "token": "ink.body"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "header-nav-pricing",
+                "kind": {
+                  "type": "link",
+                  "href": "/pricing",
+                  "target": "same"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.button",
+                        "color": {
+                          "token": "ink.body"
+                        },
+                        "decoration": "none"
+                      },
+                      "transition": {
+                        "duration": 150,
+                        "properties": [
+                          "color"
+                        ]
+                      }
+                    },
+                    "hover": {
+                      "typography": {
+                        "color": {
+                          "token": "ink.strong"
+                        }
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "header-nav-pricing-label",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "Pricing"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.button",
+                            "color": {
+                              "token": "ink.body"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "header-nav-about",
+                "kind": {
+                  "type": "link",
+                  "href": "/about",
+                  "target": "same"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.button",
+                        "color": {
+                          "token": "ink.body"
+                        },
+                        "decoration": "none"
+                      },
+                      "transition": {
+                        "duration": 150,
+                        "properties": [
+                          "color"
+                        ]
+                      }
+                    },
+                    "hover": {
+                      "typography": {
+                        "color": {
+                          "token": "ink.strong"
+                        }
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "header-nav-about-label",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "Company"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.button",
+                            "color": {
+                              "token": "ink.body"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "header-nav-blog",
+                "kind": {
+                  "type": "link",
+                  "href": "/blog",
+                  "target": "same"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.button",
+                        "color": {
+                          "token": "ink.body"
+                        },
+                        "decoration": "none"
+                      },
+                      "transition": {
+                        "duration": 150,
+                        "properties": [
+                          "color"
+                        ]
+                      }
+                    },
+                    "hover": {
+                      "typography": {
+                        "color": {
+                          "token": "ink.strong"
+                        }
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "header-nav-blog-label",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "Blog"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.button",
+                            "color": {
+                              "token": "ink.body"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            ],
+            "props": {
+              "aria-label": "Main"
+            }
+          },
+          {
+            "id": "header-actions",
+            "kind": {
+              "type": "frame"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "flex",
+                  "flex": {
+                    "direction": "row",
+                    "gap": {
+                      "token": "space.4"
+                    },
+                    "align": "center"
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "header-login-wrap",
+                "kind": {
+                  "type": "frame"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "none"
+                    }
+                  },
+                  "md": {
+                    "base": {
+                      "display": "block"
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "header-login",
+                    "kind": {
+                      "type": "link",
+                      "href": "/contact",
+                      "target": "same"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.button",
+                            "color": {
+                              "token": "ink.body"
+                            },
+                            "decoration": "none"
+                          },
+                          "transition": {
+                            "duration": 150,
+                            "properties": [
+                              "color"
+                            ]
+                          }
+                        },
+                        "hover": {
+                          "typography": {
+                            "color": {
+                              "token": "ink.strong"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "header-login-label",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "Talk to sales"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.button",
+                                "color": {
+                                  "token": "ink.body"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "header-cta",
+                "kind": {
+                  "type": "button",
+                  "label": "Start free",
+                  "href": "/pricing",
+                  "target": "same"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "background": {
+                        "token": "brand.primary"
+                      },
+                      "backgroundImage": {
+                        "gradient": "linear-gradient(135deg, #7C3AED 0%, #6D28D9 55%, #A21CAF 100%)"
+                      },
+                      "display": "inlineBlock",
+                      "radius": {
+                        "token": "radius.full"
+                      },
+                      "shadow": {
+                        "token": "shadow.button"
+                      },
+                      "size": {
+                        "width": {
+                          "raw": "fit-content"
+                        }
+                      },
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "px": 14
+                          },
+                          "bottom": {
+                            "px": 14
+                          },
+                          "left": {
+                            "px": 24
+                          },
+                          "right": {
+                            "px": 24
+                          }
+                        }
+                      },
+                      "typography": {
+                        "token": "type.button",
+                        "color": {
+                          "token": "ink.on-accent"
+                        },
+                        "decoration": "none",
+                        "align": "center"
+                      },
+                      "transition": {
+                        "duration": 200,
+                        "properties": [
+                          "transform",
+                          "boxShadow"
+                        ]
+                      }
+                    },
+                    "hover": {
+                      "custom": {
+                        "transform": "translateY(-2px)"
+                      },
+                      "shadow": {
+                        "token": "shadow.glow"
+                      }
+                    },
+                    "focus": {
+                      "custom": {
+                        "outline": "2px solid #C4B5FD",
+                        "outline-offset": "3px"
+                      }
+                    }
+                  }
+                },
+                "bindings": {
+                  "label": "ctaLabel",
+                  "href": "ctaHref"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "props": [
+    {
+      "name": "brand",
+      "label": "Brand",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Vantora"
+    },
+    {
+      "name": "ctaLabel",
+      "label": "Button label",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Start free"
+    },
+    {
+      "name": "ctaHref",
+      "label": "Button link",
+      "kind": {
+        "type": "url"
+      },
+      "default": "/pricing"
+    }
+  ]
+}

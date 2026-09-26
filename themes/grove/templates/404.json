@@ -1,0 +1,470 @@
+{
+  "root": {
+    "id": "root",
+    "kind": {
+      "type": "frame",
+      "element": "main"
+    },
+    "styles": {
+      "base": {
+        "base": {
+          "background": {
+            "token": "surface.page"
+          },
+          "typography": {
+            "token": "type.body",
+            "color": {
+              "token": "ink.body"
+            }
+          },
+          "custom": {
+            "-webkit-font-smoothing": "antialiased"
+          }
+        }
+      }
+    },
+    "children": [
+      {
+        "id": "header",
+        "kind": {
+          "type": "instance",
+          "component": "grove-header"
+        }
+      },
+      {
+        "id": "nf",
+        "kind": {
+          "type": "frame",
+          "element": "section"
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "background": {
+                "token": "surface.page"
+              },
+              "spacing": {
+                "padding": {
+                  "top": {
+                    "raw": "clamp(6rem, 14vw, 11rem)"
+                  },
+                  "right": {
+                    "token": "gutter"
+                  },
+                  "bottom": {
+                    "raw": "clamp(6rem, 14vw, 11rem)"
+                  },
+                  "left": {
+                    "token": "gutter"
+                  }
+                }
+              },
+              "position": {
+                "kind": "relative"
+              },
+              "overflow": "hidden"
+            }
+          }
+        },
+        "children": [
+          {
+            "id": "nf-b1",
+            "kind": {
+              "type": "frame",
+              "element": "div"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "position": {
+                    "kind": "absolute",
+                    "inset": {
+                      "top": {
+                        "px": -120.0
+                      },
+                      "left": {
+                        "px": -160.0
+                      }
+                    },
+                    "zIndex": 0
+                  },
+                  "size": {
+                    "width": {
+                      "px": 520.0
+                    },
+                    "height": {
+                      "px": 520.0
+                    }
+                  },
+                  "background": {
+                    "raw": "#DFE7DA"
+                  },
+                  "radius": {
+                    "token": "radius.organic"
+                  },
+                  "opacity": 0.9,
+                  "custom": {
+                    "pointer-events": "none",
+                    "filter": "blur(2px)"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": "nf-b2",
+            "kind": {
+              "type": "frame",
+              "element": "div"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "position": {
+                    "kind": "absolute",
+                    "inset": {
+                      "bottom": {
+                        "px": -160.0
+                      },
+                      "right": {
+                        "px": -120.0
+                      }
+                    },
+                    "zIndex": 0
+                  },
+                  "size": {
+                    "width": {
+                      "px": 420.0
+                    },
+                    "height": {
+                      "px": 420.0
+                    }
+                  },
+                  "background": {
+                    "raw": "#EDE3D1"
+                  },
+                  "radius": {
+                    "token": "radius.organic"
+                  },
+                  "opacity": 0.9,
+                  "custom": {
+                    "pointer-events": "none",
+                    "filter": "blur(2px)"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": "nf-inner",
+            "kind": {
+              "type": "frame",
+              "element": "div"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "flex",
+                  "flex": {
+                    "direction": "column",
+                    "gap": {
+                      "px": 22.0
+                    },
+                    "align": "center"
+                  },
+                  "position": {
+                    "kind": "relative",
+                    "zIndex": 2
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "nf-code",
+                "kind": {
+                  "type": "text",
+                  "tag": "p",
+                  "content": "404"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "family": "'Fraunces', 'Iowan Old Style', 'Palatino Linotype', Georgia, serif",
+                        "size": {
+                          "raw": "clamp(6rem, 18vw, 12rem)"
+                        },
+                        "lineHeight": 0.9,
+                        "color": {
+                          "token": "brand.primary"
+                        },
+                        "letterSpacing": {
+                          "raw": "-0.05em"
+                        }
+                      },
+                      "custom": {
+                        "font-style": "italic"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "nf-title",
+                "kind": {
+                  "type": "text",
+                  "tag": "h1",
+                  "content": "This path leads nowhere — take a breath."
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.title",
+                        "color": {
+                          "token": "ink.body"
+                        },
+                        "align": "center"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "nf-lead",
+                "kind": {
+                  "type": "text",
+                  "tag": "p",
+                  "content": "The page you were looking for has moved or never existed. In for four, out for six, and let's get you back on the trail."
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.lead",
+                        "color": {
+                          "token": "ink.muted"
+                        },
+                        "align": "center"
+                      },
+                      "size": {
+                        "maxWidth": {
+                          "px": 540.0
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "nf-actions",
+                "kind": {
+                  "type": "frame",
+                  "element": "div"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "row",
+                        "gap": {
+                          "px": 14.0
+                        },
+                        "align": "center",
+                        "justify": "center",
+                        "wrap": true
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "nf-home",
+                    "kind": {
+                      "type": "button",
+                      "label": "Back to home",
+                      "href": "/",
+                      "target": "same"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "inlineFlex",
+                          "background": {
+                            "token": "brand.strong"
+                          },
+                          "radius": {
+                            "token": "radius.pill"
+                          },
+                          "spacing": {
+                            "padding": {
+                              "top": {
+                                "px": 16.0
+                              },
+                              "right": {
+                                "px": 30.0
+                              },
+                              "bottom": {
+                                "px": 16.0
+                              },
+                              "left": {
+                                "px": 30.0
+                              }
+                            }
+                          },
+                          "typography": {
+                            "token": "type.button",
+                            "color": {
+                              "token": "ink.inverse"
+                            },
+                            "align": "center",
+                            "decoration": "none"
+                          },
+                          "size": {
+                            "width": {
+                              "raw": "fit-content"
+                            }
+                          },
+                          "transition": {
+                            "duration": 220,
+                            "properties": [
+                              "backgroundColor",
+                              "color",
+                              "borderColor",
+                              "boxShadow",
+                              "transform"
+                            ]
+                          },
+                          "shadow": {
+                            "token": "shadow.soft"
+                          }
+                        },
+                        "hover": {
+                          "background": {
+                            "token": "surface.deep"
+                          },
+                          "custom": {
+                            "transform": "translateY(-2px)"
+                          }
+                        },
+                        "focus": {
+                          "custom": {
+                            "outline": "3px solid #6B8F71",
+                            "outline-offset": "3px"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "nf-classes",
+                    "kind": {
+                      "type": "button",
+                      "label": "See the timetable",
+                      "href": "/classes",
+                      "target": "same"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "inlineFlex",
+                          "radius": {
+                            "token": "radius.pill"
+                          },
+                          "border": {
+                            "width": {
+                              "px": 1.5
+                            },
+                            "style": "solid",
+                            "color": {
+                              "token": "line.hairline"
+                            }
+                          },
+                          "spacing": {
+                            "padding": {
+                              "top": {
+                                "px": 15.0
+                              },
+                              "right": {
+                                "px": 28.0
+                              },
+                              "bottom": {
+                                "px": 15.0
+                              },
+                              "left": {
+                                "px": 28.0
+                              }
+                            }
+                          },
+                          "typography": {
+                            "token": "type.button",
+                            "color": {
+                              "token": "ink.body"
+                            },
+                            "align": "center",
+                            "decoration": "none"
+                          },
+                          "size": {
+                            "width": {
+                              "raw": "fit-content"
+                            }
+                          },
+                          "transition": {
+                            "duration": 220,
+                            "properties": [
+                              "backgroundColor",
+                              "color",
+                              "borderColor",
+                              "boxShadow",
+                              "transform"
+                            ]
+                          }
+                        },
+                        "hover": {
+                          "border": {
+                            "width": {
+                              "px": 1.5
+                            },
+                            "style": "solid",
+                            "color": {
+                              "token": "brand.primary"
+                            }
+                          },
+                          "typography": {
+                            "color": {
+                              "token": "brand.strong"
+                            }
+                          }
+                        },
+                        "focus": {
+                          "custom": {
+                            "outline": "3px solid #6B8F71",
+                            "outline-offset": "3px"
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "footer",
+        "kind": {
+          "type": "instance",
+          "component": "grove-footer"
+        }
+      }
+    ]
+  },
+  "seo": {
+    "title": "Page not found — Grove",
+    "description": "This page could not be found.",
+    "noindex": true
+  }
+}

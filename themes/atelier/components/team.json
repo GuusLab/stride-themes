@@ -1,0 +1,317 @@
+{
+  "id": "atelier-team",
+  "name": "Atelier · Team",
+  "root": {
+    "id": "tt",
+    "kind": {
+      "type": "frame",
+      "element": "div"
+    },
+    "styles": {
+      "base": {
+        "base": {
+          "display": "grid",
+          "grid": {
+            "templateColumns": "minmax(0, 1fr)",
+            "gap": {
+              "token": "space.12"
+            }
+          }
+        }
+      },
+      "md": {
+        "base": {
+          "grid": {
+            "templateColumns": "minmax(0, 5fr) minmax(0, 7fr)",
+            "gap": {
+              "token": "space.12"
+            }
+          }
+        }
+      }
+    },
+    "children": [
+      {
+        "id": "tt-1",
+        "kind": {
+          "type": "frame",
+          "element": "article"
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "display": "flex",
+              "flex": {
+                "direction": "column",
+                "gap": {
+                  "token": "space.4"
+                }
+              }
+            }
+          }
+        },
+        "children": [
+          {
+            "id": "tt-i1",
+            "kind": {
+              "type": "image",
+              "src": "assets/images/portrait.webp",
+              "alt": "Portrait of Marta Solano in a bright studio"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "size": {
+                    "width": {
+                      "percent": 100
+                    },
+                    "height": {
+                      "raw": "auto"
+                    }
+                  },
+                  "aspectRatio": {
+                    "ratio": {
+                      "width": 4,
+                      "height": 5
+                    }
+                  },
+                  "objectFit": "cover",
+                  "display": "block"
+                }
+              }
+            },
+            "bindings": {
+              "src": "person1Image",
+              "alt": "person1Alt"
+            }
+          },
+          {
+            "id": "tt-n1",
+            "kind": {
+              "type": "text",
+              "tag": "h3",
+              "content": "Marta Solano"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "typography": {
+                    "token": "type.subtitle",
+                    "color": {
+                      "token": "ink.body"
+                    }
+                  }
+                }
+              }
+            },
+            "bindings": {
+              "content": "person1Name"
+            }
+          },
+          {
+            "id": "tt-r1",
+            "kind": {
+              "type": "text",
+              "tag": "p",
+              "content": "Founder & creative director"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "typography": {
+                    "token": "type.small",
+                    "color": {
+                      "token": "ink.muted"
+                    }
+                  }
+                }
+              }
+            },
+            "bindings": {
+              "content": "person1Role"
+            }
+          }
+        ]
+      },
+      {
+        "id": "tt-2",
+        "kind": {
+          "type": "frame",
+          "element": "article"
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "display": "flex",
+              "flex": {
+                "direction": "column",
+                "gap": {
+                  "token": "space.4"
+                }
+              }
+            }
+          },
+          "md": {
+            "base": {
+              "spacing": {
+                "padding": {
+                  "top": {
+                    "token": "space.32"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "children": [
+          {
+            "id": "tt-i2",
+            "kind": {
+              "type": "image",
+              "src": "assets/images/team.webp",
+              "alt": "Three members of the studio discussing posters pinned to a wall"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "size": {
+                    "width": {
+                      "percent": 100
+                    },
+                    "height": {
+                      "raw": "auto"
+                    }
+                  },
+                  "aspectRatio": {
+                    "ratio": {
+                      "width": 3,
+                      "height": 2
+                    }
+                  },
+                  "objectFit": "cover",
+                  "display": "block"
+                }
+              }
+            },
+            "bindings": {
+              "src": "person2Image",
+              "alt": "person2Alt"
+            }
+          },
+          {
+            "id": "tt-n2",
+            "kind": {
+              "type": "text",
+              "tag": "h3",
+              "content": "The studio"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "typography": {
+                    "token": "type.subtitle",
+                    "color": {
+                      "token": "ink.body"
+                    }
+                  }
+                }
+              }
+            },
+            "bindings": {
+              "content": "person2Name"
+            }
+          },
+          {
+            "id": "tt-r2",
+            "kind": {
+              "type": "text",
+              "tag": "p",
+              "content": "Designers, writers, strategists"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "typography": {
+                    "token": "type.small",
+                    "color": {
+                      "token": "ink.muted"
+                    }
+                  }
+                }
+              }
+            },
+            "bindings": {
+              "content": "person2Role"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "props": [
+    {
+      "name": "person1Name",
+      "label": "Person 1 name",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Marta Solano"
+    },
+    {
+      "name": "person1Role",
+      "label": "Person 1 role",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Founder & creative director"
+    },
+    {
+      "name": "person1Image",
+      "label": "Person 1 photo",
+      "kind": {
+        "type": "image"
+      },
+      "default": "assets/images/portrait.webp"
+    },
+    {
+      "name": "person1Alt",
+      "label": "Person 1 photo description",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Portrait of Marta Solano in a bright studio"
+    },
+    {
+      "name": "person2Name",
+      "label": "Person 2 name",
+      "kind": {
+        "type": "text"
+      },
+      "default": "The studio"
+    },
+    {
+      "name": "person2Role",
+      "label": "Person 2 role",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Designers, writers, strategists"
+    },
+    {
+      "name": "person2Image",
+      "label": "Person 2 photo",
+      "kind": {
+        "type": "image"
+      },
+      "default": "assets/images/team.webp"
+    },
+    {
+      "name": "person2Alt",
+      "label": "Person 2 photo description",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Three members of the studio discussing posters pinned to a wall"
+    }
+  ]
+}

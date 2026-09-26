@@ -1,0 +1,662 @@
+{
+  "id": "harbor-feature-grid",
+  "name": "Harbor · Feature grid",
+  "root": {
+    "id": "features",
+    "kind": {
+      "type": "frame",
+      "element": "section"
+    },
+    "children": [
+      {
+        "id": "features-inner",
+        "kind": {
+          "type": "frame"
+        },
+        "children": [
+          {
+            "id": "features-head",
+            "kind": {
+              "type": "frame"
+            },
+            "children": [
+              {
+                "id": "features-eyebrow",
+                "kind": {
+                  "type": "text",
+                  "tag": "p",
+                  "content": "Why people stay"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.eyebrow",
+                        "color": {
+                          "token": "ink.accent"
+                        },
+                        "transform": "uppercase"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "features-title",
+                "kind": {
+                  "type": "text",
+                  "tag": "h2",
+                  "content": "A kitchen that feels like somebody's home."
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.title",
+                        "color": {
+                          "token": "ink.body"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            ],
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "flex",
+                  "flex": {
+                    "direction": "column",
+                    "gap": {
+                      "px": 16.0
+                    }
+                  },
+                  "size": {
+                    "maxWidth": {
+                      "px": 720.0
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": "features-grid",
+            "kind": {
+              "type": "frame"
+            },
+            "children": [
+              {
+                "id": "features-1",
+                "kind": {
+                  "type": "frame"
+                },
+                "children": [
+                  {
+                    "id": "features-1-badge",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "children": [
+                      {
+                        "id": "features-1-icon",
+                        "kind": {
+                          "type": "icon",
+                          "name": "clock"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "color": {
+                                  "token": "ink.accent"
+                                }
+                              },
+                              "size": {
+                                "width": {
+                                  "px": 24.0
+                                },
+                                "height": {
+                                  "px": 24.0
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "align": "center",
+                            "justify": "center"
+                          },
+                          "size": {
+                            "width": {
+                              "px": 52.0
+                            },
+                            "height": {
+                              "px": 52.0
+                            }
+                          },
+                          "radius": {
+                            "token": "radius.md"
+                          },
+                          "background": {
+                            "raw": "#DCEBEA"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "features-1-title",
+                    "kind": {
+                      "type": "text",
+                      "tag": "h3",
+                      "content": "Breakfast from eight"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.subtitle",
+                            "color": {
+                              "token": "ink.body"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "features-1-body",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "Sourdough from our own starter, eggs from Hollin Farm and coffee roasted two streets away."
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.body",
+                            "color": {
+                              "token": "ink.muted"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "px": 14.0
+                        }
+                      },
+                      "background": {
+                        "token": "surface.card"
+                      },
+                      "radius": {
+                        "token": "radius.lg"
+                      },
+                      "border": {
+                        "width": {
+                          "px": 1.0
+                        },
+                        "style": "solid",
+                        "color": {
+                          "token": "line.hairline"
+                        }
+                      },
+                      "shadow": {
+                        "token": "shadow.soft"
+                      },
+                      "overflow": "hidden",
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "px": 28.0
+                          },
+                          "right": {
+                            "px": 28.0
+                          },
+                          "bottom": {
+                            "px": 28.0
+                          },
+                          "left": {
+                            "px": 28.0
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "features-2",
+                "kind": {
+                  "type": "frame"
+                },
+                "children": [
+                  {
+                    "id": "features-2-badge",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "children": [
+                      {
+                        "id": "features-2-icon",
+                        "kind": {
+                          "type": "icon",
+                          "name": "heart"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "color": {
+                                  "token": "ink.accent"
+                                }
+                              },
+                              "size": {
+                                "width": {
+                                  "px": 24.0
+                                },
+                                "height": {
+                                  "px": 24.0
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "align": "center",
+                            "justify": "center"
+                          },
+                          "size": {
+                            "width": {
+                              "px": 52.0
+                            },
+                            "height": {
+                              "px": 52.0
+                            }
+                          },
+                          "radius": {
+                            "token": "radius.md"
+                          },
+                          "background": {
+                            "raw": "#DCEBEA"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "features-2-title",
+                    "kind": {
+                      "type": "text",
+                      "tag": "h3",
+                      "content": "Cooked from the catch"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.subtitle",
+                            "color": {
+                              "token": "ink.body"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "features-2-body",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "The dinner menu is written each afternoon around what the day boats bring in."
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.body",
+                            "color": {
+                              "token": "ink.muted"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "px": 14.0
+                        }
+                      },
+                      "background": {
+                        "token": "surface.card"
+                      },
+                      "radius": {
+                        "token": "radius.lg"
+                      },
+                      "border": {
+                        "width": {
+                          "px": 1.0
+                        },
+                        "style": "solid",
+                        "color": {
+                          "token": "line.hairline"
+                        }
+                      },
+                      "shadow": {
+                        "token": "shadow.soft"
+                      },
+                      "overflow": "hidden",
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "px": 28.0
+                          },
+                          "right": {
+                            "px": 28.0
+                          },
+                          "bottom": {
+                            "px": 28.0
+                          },
+                          "left": {
+                            "px": 28.0
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "features-3",
+                "kind": {
+                  "type": "frame"
+                },
+                "children": [
+                  {
+                    "id": "features-3-badge",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "children": [
+                      {
+                        "id": "features-3-icon",
+                        "kind": {
+                          "type": "icon",
+                          "name": "calendar"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "color": {
+                                  "token": "ink.accent"
+                                }
+                              },
+                              "size": {
+                                "width": {
+                                  "px": 24.0
+                                },
+                                "height": {
+                                  "px": 24.0
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "align": "center",
+                            "justify": "center"
+                          },
+                          "size": {
+                            "width": {
+                              "px": 52.0
+                            },
+                            "height": {
+                              "px": 52.0
+                            }
+                          },
+                          "radius": {
+                            "token": "radius.md"
+                          },
+                          "background": {
+                            "raw": "#DCEBEA"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "features-3-title",
+                    "kind": {
+                      "type": "text",
+                      "tag": "h3",
+                      "content": "Tables for twelve"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.subtitle",
+                            "color": {
+                              "token": "ink.body"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "features-3-body",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "A private room for birthdays, rehearsals and the long lunches that turn into dinner."
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.body",
+                            "color": {
+                              "token": "ink.muted"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "px": 14.0
+                        }
+                      },
+                      "background": {
+                        "token": "surface.card"
+                      },
+                      "radius": {
+                        "token": "radius.lg"
+                      },
+                      "border": {
+                        "width": {
+                          "px": 1.0
+                        },
+                        "style": "solid",
+                        "color": {
+                          "token": "line.hairline"
+                        }
+                      },
+                      "shadow": {
+                        "token": "shadow.soft"
+                      },
+                      "overflow": "hidden",
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "px": 28.0
+                          },
+                          "right": {
+                            "px": 28.0
+                          },
+                          "bottom": {
+                            "px": 28.0
+                          },
+                          "left": {
+                            "px": 28.0
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            ],
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "grid",
+                  "grid": {
+                    "columns": 1,
+                    "gap": {
+                      "px": 20.0
+                    }
+                  }
+                }
+              },
+              "md": {
+                "base": {
+                  "display": "grid",
+                  "grid": {
+                    "columns": 3,
+                    "gap": {
+                      "px": 24.0
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "styles": {
+          "base": {
+            "base": {
+              "display": "flex",
+              "flex": {
+                "direction": "column",
+                "gap": {
+                  "px": 48.0
+                }
+              },
+              "size": {
+                "maxWidth": {
+                  "px": 1200.0
+                },
+                "width": {
+                  "percent": 100.0
+                }
+              },
+              "spacing": {
+                "margin": {
+                  "left": {
+                    "raw": "auto"
+                  },
+                  "right": {
+                    "raw": "auto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "styles": {
+      "base": {
+        "base": {
+          "background": {
+            "token": "surface.page"
+          },
+          "spacing": {
+            "padding": {
+              "top": {
+                "px": 72.0
+              },
+              "right": {
+                "px": 20.0
+              },
+              "bottom": {
+                "px": 72.0
+              },
+              "left": {
+                "px": 20.0
+              }
+            }
+          }
+        }
+      },
+      "md": {
+        "base": {
+          "spacing": {
+            "padding": {
+              "top": {
+                "px": 112.0
+              },
+              "right": {
+                "px": 40.0
+              },
+              "bottom": {
+                "px": 112.0
+              },
+              "left": {
+                "px": 40.0
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "props": []
+}

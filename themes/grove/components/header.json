@@ -1,0 +1,925 @@
+{
+  "id": "grove-header",
+  "name": "Grove / Header",
+  "root": {
+    "id": "header",
+    "kind": {
+      "type": "frame",
+      "element": "header"
+    },
+    "styles": {
+      "base": {
+        "base": {
+          "background": {
+            "raw": "rgb(247 242 233 / 0.86)"
+          },
+          "spacing": {
+            "padding": {
+              "top": {
+                "px": 18.0
+              },
+              "right": {
+                "token": "gutter"
+              },
+              "bottom": {
+                "px": 18.0
+              },
+              "left": {
+                "token": "gutter"
+              }
+            }
+          },
+          "border": {
+            "bottom": {
+              "width": {
+                "px": 1.0
+              },
+              "style": "solid",
+              "color": {
+                "token": "line.hairline"
+              }
+            }
+          },
+          "position": {
+            "kind": "sticky",
+            "inset": {
+              "top": {
+                "px": 0.0
+              }
+            },
+            "zIndex": 50
+          },
+          "custom": {
+            "backdrop-filter": "saturate(1.2) blur(14px)",
+            "-webkit-backdrop-filter": "saturate(1.2) blur(14px)"
+          }
+        }
+      }
+    },
+    "children": [
+      {
+        "id": "header-row",
+        "kind": {
+          "type": "frame",
+          "element": "div"
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "display": "flex",
+              "flex": {
+                "direction": "row",
+                "gap": {
+                  "px": 16.0
+                },
+                "align": "center",
+                "justify": "spaceBetween",
+                "wrap": true
+              },
+              "size": {
+                "maxWidth": {
+                  "token": "content.max"
+                },
+                "width": {
+                  "percent": 100.0
+                }
+              },
+              "spacing": {
+                "margin": {
+                  "left": {
+                    "raw": "auto"
+                  },
+                  "right": {
+                    "raw": "auto"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "children": [
+          {
+            "id": "brand",
+            "kind": {
+              "type": "link",
+              "href": "/",
+              "target": "same"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "flex",
+                  "flex": {
+                    "direction": "row",
+                    "gap": {
+                      "px": 10.0
+                    },
+                    "align": "center"
+                  },
+                  "typography": {
+                    "decoration": "none",
+                    "color": {
+                      "token": "ink.body"
+                    }
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "brand-mark",
+                "kind": {
+                  "type": "frame",
+                  "element": "div"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "size": {
+                        "width": {
+                          "px": 26.0
+                        },
+                        "height": {
+                          "px": 26.0
+                        }
+                      },
+                      "background": {
+                        "token": "brand.primary"
+                      },
+                      "radius": {
+                        "token": "radius.organic"
+                      },
+                      "custom": {
+                        "flex-shrink": "0"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "brand-name",
+                "kind": {
+                  "type": "text",
+                  "tag": "span",
+                  "content": "Grove"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.brand",
+                        "color": {
+                          "token": "ink.body"
+                        }
+                      }
+                    }
+                  }
+                },
+                "bindings": {
+                  "content": "brandName"
+                }
+              }
+            ]
+          },
+          {
+            "id": "nav",
+            "kind": {
+              "type": "frame",
+              "element": "nav"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "flex",
+                  "flex": {
+                    "direction": "row",
+                    "gap": {
+                      "px": 8.0
+                    },
+                    "align": "center",
+                    "wrap": true
+                  },
+                  "overflow": "auto",
+                  "size": {
+                    "width": {
+                      "percent": 100.0
+                    }
+                  },
+                  "custom": {
+                    "order": "3",
+                    "scrollbar-width": "none",
+                    "column-gap": "16px"
+                  }
+                }
+              },
+              "md": {
+                "base": {
+                  "size": {
+                    "width": {
+                      "raw": "auto"
+                    }
+                  },
+                  "flex": {
+                    "direction": "row",
+                    "gap": {
+                      "px": 28.0
+                    },
+                    "align": "center"
+                  },
+                  "custom": {
+                    "order": "0"
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "nav-1",
+                "kind": {
+                  "type": "link",
+                  "href": "/classes",
+                  "target": "same"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "px": 8.0
+                          },
+                          "right": {
+                            "px": 4.0
+                          },
+                          "bottom": {
+                            "px": 8.0
+                          },
+                          "left": {
+                            "px": 4.0
+                          }
+                        }
+                      },
+                      "transition": {
+                        "duration": 220,
+                        "properties": [
+                          "backgroundColor",
+                          "color",
+                          "borderColor",
+                          "boxShadow",
+                          "transform"
+                        ]
+                      },
+                      "border": {
+                        "bottom": {
+                          "width": {
+                            "px": 1.5
+                          },
+                          "style": "solid",
+                          "color": {
+                            "raw": "transparent"
+                          }
+                        }
+                      },
+                      "typography": {
+                        "decoration": "none",
+                        "color": {
+                          "token": "ink.body"
+                        }
+                      }
+                    },
+                    "hover": {
+                      "border": {
+                        "bottom": {
+                          "width": {
+                            "px": 1.5
+                          },
+                          "style": "solid",
+                          "color": {
+                            "token": "brand.primary"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "bindings": {
+                  "href": "nav1Href"
+                },
+                "children": [
+                  {
+                    "id": "nav-1-label",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "Classes"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.button",
+                            "color": {
+                              "token": "ink.body"
+                            },
+                            "weight": 600
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "content": "nav1Label"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "nav-2",
+                "kind": {
+                  "type": "link",
+                  "href": "/services",
+                  "target": "same"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "px": 8.0
+                          },
+                          "right": {
+                            "px": 4.0
+                          },
+                          "bottom": {
+                            "px": 8.0
+                          },
+                          "left": {
+                            "px": 4.0
+                          }
+                        }
+                      },
+                      "transition": {
+                        "duration": 220,
+                        "properties": [
+                          "backgroundColor",
+                          "color",
+                          "borderColor",
+                          "boxShadow",
+                          "transform"
+                        ]
+                      },
+                      "border": {
+                        "bottom": {
+                          "width": {
+                            "px": 1.5
+                          },
+                          "style": "solid",
+                          "color": {
+                            "raw": "transparent"
+                          }
+                        }
+                      },
+                      "typography": {
+                        "decoration": "none",
+                        "color": {
+                          "token": "ink.body"
+                        }
+                      }
+                    },
+                    "hover": {
+                      "border": {
+                        "bottom": {
+                          "width": {
+                            "px": 1.5
+                          },
+                          "style": "solid",
+                          "color": {
+                            "token": "brand.primary"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "bindings": {
+                  "href": "nav2Href"
+                },
+                "children": [
+                  {
+                    "id": "nav-2-label",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "Coaching"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.button",
+                            "color": {
+                              "token": "ink.body"
+                            },
+                            "weight": 600
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "content": "nav2Label"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "nav-3",
+                "kind": {
+                  "type": "link",
+                  "href": "/about",
+                  "target": "same"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "px": 8.0
+                          },
+                          "right": {
+                            "px": 4.0
+                          },
+                          "bottom": {
+                            "px": 8.0
+                          },
+                          "left": {
+                            "px": 4.0
+                          }
+                        }
+                      },
+                      "transition": {
+                        "duration": 220,
+                        "properties": [
+                          "backgroundColor",
+                          "color",
+                          "borderColor",
+                          "boxShadow",
+                          "transform"
+                        ]
+                      },
+                      "border": {
+                        "bottom": {
+                          "width": {
+                            "px": 1.5
+                          },
+                          "style": "solid",
+                          "color": {
+                            "raw": "transparent"
+                          }
+                        }
+                      },
+                      "typography": {
+                        "decoration": "none",
+                        "color": {
+                          "token": "ink.body"
+                        }
+                      }
+                    },
+                    "hover": {
+                      "border": {
+                        "bottom": {
+                          "width": {
+                            "px": 1.5
+                          },
+                          "style": "solid",
+                          "color": {
+                            "token": "brand.primary"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "bindings": {
+                  "href": "nav3Href"
+                },
+                "children": [
+                  {
+                    "id": "nav-3-label",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "About"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.button",
+                            "color": {
+                              "token": "ink.body"
+                            },
+                            "weight": 600
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "content": "nav3Label"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "nav-4",
+                "kind": {
+                  "type": "link",
+                  "href": "/journal",
+                  "target": "same"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "px": 8.0
+                          },
+                          "right": {
+                            "px": 4.0
+                          },
+                          "bottom": {
+                            "px": 8.0
+                          },
+                          "left": {
+                            "px": 4.0
+                          }
+                        }
+                      },
+                      "transition": {
+                        "duration": 220,
+                        "properties": [
+                          "backgroundColor",
+                          "color",
+                          "borderColor",
+                          "boxShadow",
+                          "transform"
+                        ]
+                      },
+                      "border": {
+                        "bottom": {
+                          "width": {
+                            "px": 1.5
+                          },
+                          "style": "solid",
+                          "color": {
+                            "raw": "transparent"
+                          }
+                        }
+                      },
+                      "typography": {
+                        "decoration": "none",
+                        "color": {
+                          "token": "ink.body"
+                        }
+                      }
+                    },
+                    "hover": {
+                      "border": {
+                        "bottom": {
+                          "width": {
+                            "px": 1.5
+                          },
+                          "style": "solid",
+                          "color": {
+                            "token": "brand.primary"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "bindings": {
+                  "href": "nav4Href"
+                },
+                "children": [
+                  {
+                    "id": "nav-4-label",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "Journal"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.button",
+                            "color": {
+                              "token": "ink.body"
+                            },
+                            "weight": 600
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "content": "nav4Label"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "nav-5",
+                "kind": {
+                  "type": "link",
+                  "href": "/contact",
+                  "target": "same"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "px": 8.0
+                          },
+                          "right": {
+                            "px": 4.0
+                          },
+                          "bottom": {
+                            "px": 8.0
+                          },
+                          "left": {
+                            "px": 4.0
+                          }
+                        }
+                      },
+                      "transition": {
+                        "duration": 220,
+                        "properties": [
+                          "backgroundColor",
+                          "color",
+                          "borderColor",
+                          "boxShadow",
+                          "transform"
+                        ]
+                      },
+                      "border": {
+                        "bottom": {
+                          "width": {
+                            "px": 1.5
+                          },
+                          "style": "solid",
+                          "color": {
+                            "raw": "transparent"
+                          }
+                        }
+                      },
+                      "typography": {
+                        "decoration": "none",
+                        "color": {
+                          "token": "ink.body"
+                        }
+                      }
+                    },
+                    "hover": {
+                      "border": {
+                        "bottom": {
+                          "width": {
+                            "px": 1.5
+                          },
+                          "style": "solid",
+                          "color": {
+                            "token": "brand.primary"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "bindings": {
+                  "href": "nav5Href"
+                },
+                "children": [
+                  {
+                    "id": "nav-5-label",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "Contact"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.button",
+                            "color": {
+                              "token": "ink.body"
+                            },
+                            "weight": 600
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "content": "nav5Label"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "header-cta",
+            "kind": {
+              "type": "button",
+              "label": "Book a class",
+              "href": "/classes",
+              "target": "same"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "inlineFlex",
+                  "background": {
+                    "token": "brand.strong"
+                  },
+                  "radius": {
+                    "token": "radius.pill"
+                  },
+                  "spacing": {
+                    "padding": {
+                      "top": {
+                        "px": 12.0
+                      },
+                      "right": {
+                        "px": 22.0
+                      },
+                      "bottom": {
+                        "px": 12.0
+                      },
+                      "left": {
+                        "px": 22.0
+                      }
+                    }
+                  },
+                  "typography": {
+                    "token": "type.button",
+                    "color": {
+                      "token": "ink.inverse"
+                    },
+                    "align": "center",
+                    "decoration": "none"
+                  },
+                  "size": {
+                    "width": {
+                      "raw": "fit-content"
+                    }
+                  },
+                  "transition": {
+                    "duration": 220,
+                    "properties": [
+                      "backgroundColor",
+                      "color",
+                      "borderColor",
+                      "boxShadow",
+                      "transform"
+                    ]
+                  },
+                  "shadow": {
+                    "token": "shadow.soft"
+                  }
+                },
+                "hover": {
+                  "background": {
+                    "token": "surface.deep"
+                  },
+                  "custom": {
+                    "transform": "translateY(-2px)"
+                  }
+                },
+                "focus": {
+                  "custom": {
+                    "outline": "3px solid #6B8F71",
+                    "outline-offset": "3px"
+                  }
+                }
+              }
+            },
+            "bindings": {
+              "label": "ctaLabel",
+              "href": "ctaHref"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "props": [
+    {
+      "name": "nav1Label",
+      "label": "Menu item 1",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Classes"
+    },
+    {
+      "name": "nav1Href",
+      "label": "Menu item 1 link",
+      "kind": {
+        "type": "url"
+      },
+      "default": "/classes"
+    },
+    {
+      "name": "nav2Label",
+      "label": "Menu item 2",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Coaching"
+    },
+    {
+      "name": "nav2Href",
+      "label": "Menu item 2 link",
+      "kind": {
+        "type": "url"
+      },
+      "default": "/services"
+    },
+    {
+      "name": "nav3Label",
+      "label": "Menu item 3",
+      "kind": {
+        "type": "text"
+      },
+      "default": "About"
+    },
+    {
+      "name": "nav3Href",
+      "label": "Menu item 3 link",
+      "kind": {
+        "type": "url"
+      },
+      "default": "/about"
+    },
+    {
+      "name": "nav4Label",
+      "label": "Menu item 4",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Journal"
+    },
+    {
+      "name": "nav4Href",
+      "label": "Menu item 4 link",
+      "kind": {
+        "type": "url"
+      },
+      "default": "/journal"
+    },
+    {
+      "name": "nav5Label",
+      "label": "Menu item 5",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Contact"
+    },
+    {
+      "name": "nav5Href",
+      "label": "Menu item 5 link",
+      "kind": {
+        "type": "url"
+      },
+      "default": "/contact"
+    },
+    {
+      "name": "brandName",
+      "label": "Studio name",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Grove"
+    },
+    {
+      "name": "ctaLabel",
+      "label": "Button label",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Book a class"
+    },
+    {
+      "name": "ctaHref",
+      "label": "Button link",
+      "kind": {
+        "type": "url"
+      },
+      "default": "/classes"
+    }
+  ]
+}

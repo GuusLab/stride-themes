@@ -1,0 +1,749 @@
+{
+  "id": "atelier-services-list",
+  "name": "Atelier · Services list",
+  "root": {
+    "id": "sv",
+    "kind": {
+      "type": "frame",
+      "element": "div"
+    },
+    "styles": {
+      "base": {
+        "base": {
+          "display": "flex",
+          "flex": {
+            "direction": "column"
+          }
+        }
+      }
+    },
+    "children": [
+      {
+        "id": "sv-r1",
+        "kind": {
+          "type": "frame",
+          "element": "article"
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "display": "grid",
+              "grid": {
+                "templateColumns": "minmax(0,1fr)",
+                "gap": {
+                  "token": "space.3"
+                }
+              },
+              "spacing": {
+                "padding": {
+                  "top": {
+                    "token": "space.8"
+                  },
+                  "bottom": {
+                    "token": "space.8"
+                  }
+                }
+              },
+              "border": {
+                "bottom": {
+                  "width": {
+                    "px": 1
+                  },
+                  "style": "solid",
+                  "color": {
+                    "token": "line.hairline"
+                  }
+                }
+              },
+              "transition": {
+                "duration": 250,
+                "properties": [
+                  "backgroundColor"
+                ]
+              }
+            },
+            "hover": {
+              "background": {
+                "token": "surface.raised"
+              }
+            }
+          },
+          "md": {
+            "base": {
+              "grid": {
+                "templateColumns": "minmax(0, 1fr) minmax(0, 4fr) minmax(0, 5fr) minmax(0, 3fr)",
+                "gap": {
+                  "token": "space.8"
+                },
+                "align": "baseline"
+              }
+            }
+          }
+        },
+        "children": [
+          {
+            "id": "sv-n1",
+            "kind": {
+              "type": "text",
+              "tag": "p",
+              "content": "01"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "typography": {
+                    "token": "type.label",
+                    "color": {
+                      "token": "ink.accent"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": "sv-t1",
+            "kind": {
+              "type": "text",
+              "tag": "h3",
+              "content": "Identity"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "typography": {
+                    "token": "type.subtitle",
+                    "color": {
+                      "token": "ink.body"
+                    },
+                    "size": {
+                      "raw": "clamp(1.75rem, 3vw, 2.75rem)"
+                    }
+                  }
+                }
+              }
+            },
+            "bindings": {
+              "content": "item1Title"
+            }
+          },
+          {
+            "id": "sv-d1",
+            "kind": {
+              "type": "text",
+              "tag": "p",
+              "content": "Names, marks, type and the rules that let a brand speak without you in the room."
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "typography": {
+                    "token": "type.body",
+                    "color": {
+                      "token": "ink.muted"
+                    }
+                  }
+                }
+              }
+            },
+            "bindings": {
+              "content": "item1Text"
+            }
+          },
+          {
+            "id": "sv-m1",
+            "kind": {
+              "type": "text",
+              "tag": "p",
+              "content": "Strategy · Naming · Visual identity"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "typography": {
+                    "token": "type.small",
+                    "color": {
+                      "token": "ink.muted"
+                    }
+                  }
+                }
+              }
+            },
+            "bindings": {
+              "content": "item1Meta"
+            }
+          }
+        ]
+      },
+      {
+        "id": "sv-r2",
+        "kind": {
+          "type": "frame",
+          "element": "article"
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "display": "grid",
+              "grid": {
+                "templateColumns": "minmax(0,1fr)",
+                "gap": {
+                  "token": "space.3"
+                }
+              },
+              "spacing": {
+                "padding": {
+                  "top": {
+                    "token": "space.8"
+                  },
+                  "bottom": {
+                    "token": "space.8"
+                  }
+                }
+              },
+              "border": {
+                "bottom": {
+                  "width": {
+                    "px": 1
+                  },
+                  "style": "solid",
+                  "color": {
+                    "token": "line.hairline"
+                  }
+                }
+              },
+              "transition": {
+                "duration": 250,
+                "properties": [
+                  "backgroundColor"
+                ]
+              }
+            },
+            "hover": {
+              "background": {
+                "token": "surface.raised"
+              }
+            }
+          },
+          "md": {
+            "base": {
+              "grid": {
+                "templateColumns": "minmax(0, 1fr) minmax(0, 4fr) minmax(0, 5fr) minmax(0, 3fr)",
+                "gap": {
+                  "token": "space.8"
+                },
+                "align": "baseline"
+              }
+            }
+          }
+        },
+        "children": [
+          {
+            "id": "sv-n2",
+            "kind": {
+              "type": "text",
+              "tag": "p",
+              "content": "02"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "typography": {
+                    "token": "type.label",
+                    "color": {
+                      "token": "ink.accent"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": "sv-t2",
+            "kind": {
+              "type": "text",
+              "tag": "h3",
+              "content": "Editorial"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "typography": {
+                    "token": "type.subtitle",
+                    "color": {
+                      "token": "ink.body"
+                    },
+                    "size": {
+                      "raw": "clamp(1.75rem, 3vw, 2.75rem)"
+                    }
+                  }
+                }
+              }
+            },
+            "bindings": {
+              "content": "item2Title"
+            }
+          },
+          {
+            "id": "sv-d2",
+            "kind": {
+              "type": "text",
+              "tag": "p",
+              "content": "Books, annuals and journals that people keep on the shelf rather than in the recycling."
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "typography": {
+                    "token": "type.body",
+                    "color": {
+                      "token": "ink.muted"
+                    }
+                  }
+                }
+              }
+            },
+            "bindings": {
+              "content": "item2Text"
+            }
+          },
+          {
+            "id": "sv-m2",
+            "kind": {
+              "type": "text",
+              "tag": "p",
+              "content": "Books · Magazines · Reports"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "typography": {
+                    "token": "type.small",
+                    "color": {
+                      "token": "ink.muted"
+                    }
+                  }
+                }
+              }
+            },
+            "bindings": {
+              "content": "item2Meta"
+            }
+          }
+        ]
+      },
+      {
+        "id": "sv-r3",
+        "kind": {
+          "type": "frame",
+          "element": "article"
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "display": "grid",
+              "grid": {
+                "templateColumns": "minmax(0,1fr)",
+                "gap": {
+                  "token": "space.3"
+                }
+              },
+              "spacing": {
+                "padding": {
+                  "top": {
+                    "token": "space.8"
+                  },
+                  "bottom": {
+                    "token": "space.8"
+                  }
+                }
+              },
+              "border": {
+                "bottom": {
+                  "width": {
+                    "px": 1
+                  },
+                  "style": "solid",
+                  "color": {
+                    "token": "line.hairline"
+                  }
+                }
+              },
+              "transition": {
+                "duration": 250,
+                "properties": [
+                  "backgroundColor"
+                ]
+              }
+            },
+            "hover": {
+              "background": {
+                "token": "surface.raised"
+              }
+            }
+          },
+          "md": {
+            "base": {
+              "grid": {
+                "templateColumns": "minmax(0, 1fr) minmax(0, 4fr) minmax(0, 5fr) minmax(0, 3fr)",
+                "gap": {
+                  "token": "space.8"
+                },
+                "align": "baseline"
+              }
+            }
+          }
+        },
+        "children": [
+          {
+            "id": "sv-n3",
+            "kind": {
+              "type": "text",
+              "tag": "p",
+              "content": "03"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "typography": {
+                    "token": "type.label",
+                    "color": {
+                      "token": "ink.accent"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": "sv-t3",
+            "kind": {
+              "type": "text",
+              "tag": "h3",
+              "content": "Digital"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "typography": {
+                    "token": "type.subtitle",
+                    "color": {
+                      "token": "ink.body"
+                    },
+                    "size": {
+                      "raw": "clamp(1.75rem, 3vw, 2.75rem)"
+                    }
+                  }
+                }
+              }
+            },
+            "bindings": {
+              "content": "item3Title"
+            }
+          },
+          {
+            "id": "sv-d3",
+            "kind": {
+              "type": "text",
+              "tag": "p",
+              "content": "Websites that read like a well-set page and load before the kettle clicks."
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "typography": {
+                    "token": "type.body",
+                    "color": {
+                      "token": "ink.muted"
+                    }
+                  }
+                }
+              }
+            },
+            "bindings": {
+              "content": "item3Text"
+            }
+          },
+          {
+            "id": "sv-m3",
+            "kind": {
+              "type": "text",
+              "tag": "p",
+              "content": "Websites · Product · Motion"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "typography": {
+                    "token": "type.small",
+                    "color": {
+                      "token": "ink.muted"
+                    }
+                  }
+                }
+              }
+            },
+            "bindings": {
+              "content": "item3Meta"
+            }
+          }
+        ]
+      },
+      {
+        "id": "sv-r4",
+        "kind": {
+          "type": "frame",
+          "element": "article"
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "display": "grid",
+              "grid": {
+                "templateColumns": "minmax(0,1fr)",
+                "gap": {
+                  "token": "space.3"
+                }
+              },
+              "spacing": {
+                "padding": {
+                  "top": {
+                    "token": "space.8"
+                  },
+                  "bottom": {
+                    "token": "space.8"
+                  }
+                }
+              },
+              "border": {
+                "bottom": {
+                  "width": {
+                    "px": 1
+                  },
+                  "style": "solid",
+                  "color": {
+                    "token": "line.hairline"
+                  }
+                }
+              },
+              "transition": {
+                "duration": 250,
+                "properties": [
+                  "backgroundColor"
+                ]
+              }
+            },
+            "hover": {
+              "background": {
+                "token": "surface.raised"
+              }
+            }
+          },
+          "md": {
+            "base": {
+              "grid": {
+                "templateColumns": "minmax(0, 1fr) minmax(0, 4fr) minmax(0, 5fr) minmax(0, 3fr)",
+                "gap": {
+                  "token": "space.8"
+                },
+                "align": "baseline"
+              }
+            }
+          }
+        },
+        "children": [
+          {
+            "id": "sv-n4",
+            "kind": {
+              "type": "text",
+              "tag": "p",
+              "content": "04"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "typography": {
+                    "token": "type.label",
+                    "color": {
+                      "token": "ink.accent"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": "sv-t4",
+            "kind": {
+              "type": "text",
+              "tag": "h3",
+              "content": "Spaces"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "typography": {
+                    "token": "type.subtitle",
+                    "color": {
+                      "token": "ink.body"
+                    },
+                    "size": {
+                      "raw": "clamp(1.75rem, 3vw, 2.75rem)"
+                    }
+                  }
+                }
+              }
+            },
+            "bindings": {
+              "content": "item4Title"
+            }
+          },
+          {
+            "id": "sv-d4",
+            "kind": {
+              "type": "text",
+              "tag": "p",
+              "content": "Signage, exhibitions and interiors where the brand is something you walk through."
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "typography": {
+                    "token": "type.body",
+                    "color": {
+                      "token": "ink.muted"
+                    }
+                  }
+                }
+              }
+            },
+            "bindings": {
+              "content": "item4Text"
+            }
+          },
+          {
+            "id": "sv-m4",
+            "kind": {
+              "type": "text",
+              "tag": "p",
+              "content": "Wayfinding · Exhibition · Retail"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "typography": {
+                    "token": "type.small",
+                    "color": {
+                      "token": "ink.muted"
+                    }
+                  }
+                }
+              }
+            },
+            "bindings": {
+              "content": "item4Meta"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "props": [
+    {
+      "name": "item1Title",
+      "label": "Service 1 title",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Identity"
+    },
+    {
+      "name": "item1Text",
+      "label": "Service 1 text",
+      "kind": {
+        "type": "longText"
+      },
+      "default": "Names, marks, type and the rules that let a brand speak without you in the room."
+    },
+    {
+      "name": "item1Meta",
+      "label": "Service 1 disciplines",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Strategy · Naming · Visual identity"
+    },
+    {
+      "name": "item2Title",
+      "label": "Service 2 title",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Editorial"
+    },
+    {
+      "name": "item2Text",
+      "label": "Service 2 text",
+      "kind": {
+        "type": "longText"
+      },
+      "default": "Books, annuals and journals that people keep on the shelf rather than in the recycling."
+    },
+    {
+      "name": "item2Meta",
+      "label": "Service 2 disciplines",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Books · Magazines · Reports"
+    },
+    {
+      "name": "item3Title",
+      "label": "Service 3 title",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Digital"
+    },
+    {
+      "name": "item3Text",
+      "label": "Service 3 text",
+      "kind": {
+        "type": "longText"
+      },
+      "default": "Websites that read like a well-set page and load before the kettle clicks."
+    },
+    {
+      "name": "item3Meta",
+      "label": "Service 3 disciplines",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Websites · Product · Motion"
+    },
+    {
+      "name": "item4Title",
+      "label": "Service 4 title",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Spaces"
+    },
+    {
+      "name": "item4Text",
+      "label": "Service 4 text",
+      "kind": {
+        "type": "longText"
+      },
+      "default": "Signage, exhibitions and interiors where the brand is something you walk through."
+    },
+    {
+      "name": "item4Meta",
+      "label": "Service 4 disciplines",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Wayfinding · Exhibition · Retail"
+    }
+  ]
+}

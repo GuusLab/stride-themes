@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1A1A1D"/><stop offset="1" stop-color="#050506"/></linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.62" r="0.5"><stop offset="0" stop-color="#E0B45C" stop-opacity="0.35"/><stop offset="1" stop-color="#E0B45C" stop-opacity="0"/></radialGradient>
+    <linearGradient id="sun" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F0CB7E"/><stop offset="1" stop-color="#C9963A"/></linearGradient>
+    <clipPath id="hz"><rect x="0" y="0" width="512" height="318"/></clipPath>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <rect width="512" height="512" rx="112" fill="url(#glow)"/>
+  <circle cx="256" cy="318" r="118" fill="url(#sun)" clip-path="url(#hz)"/>
+  <rect x="96" y="317" width="320" height="4" rx="2" fill="#EDE8DF"/>
+  <rect x="150" y="345" width="212" height="3" rx="1.5" fill="#EDE8DF" opacity="0.45"/>
+  <rect x="200" y="370" width="112" height="3" rx="1.5" fill="#EDE8DF" opacity="0.22"/>
+  <rect x="1" y="1" width="510" height="510" rx="111" fill="none" stroke="#FFFFFF" stroke-opacity="0.06" stroke-width="2"/>
+</svg>

@@ -1,0 +1,540 @@
+{
+  "id": "grove-gallery",
+  "name": "Grove / Gallery",
+  "root": {
+    "id": "gallery",
+    "kind": {
+      "type": "frame",
+      "element": "section"
+    },
+    "styles": {
+      "base": {
+        "base": {
+          "background": {
+            "token": "surface.page"
+          },
+          "spacing": {
+            "padding": {
+              "top": {
+                "token": "section.y"
+              },
+              "right": {
+                "token": "gutter"
+              },
+              "bottom": {
+                "token": "section.y"
+              },
+              "left": {
+                "token": "gutter"
+              }
+            }
+          },
+          "position": {
+            "kind": "relative"
+          },
+          "overflow": "hidden"
+        }
+      }
+    },
+    "children": [
+      {
+        "id": "gal-inner",
+        "kind": {
+          "type": "frame",
+          "element": "div"
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "display": "flex",
+              "flex": {
+                "direction": "column",
+                "gap": {
+                  "px": 48.0
+                }
+              },
+              "size": {
+                "maxWidth": {
+                  "token": "content.max"
+                },
+                "width": {
+                  "percent": 100.0
+                }
+              },
+              "spacing": {
+                "margin": {
+                  "left": {
+                    "raw": "auto"
+                  },
+                  "right": {
+                    "raw": "auto"
+                  }
+                }
+              },
+              "position": {
+                "kind": "relative"
+              }
+            }
+          }
+        },
+        "children": [
+          {
+            "id": "gal-head",
+            "kind": {
+              "type": "frame",
+              "element": "div"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "flex",
+                  "flex": {
+                    "direction": "column",
+                    "gap": {
+                      "px": 18.0
+                    }
+                  },
+                  "size": {
+                    "maxWidth": {
+                      "px": 720.0
+                    }
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "gal-eyebrow",
+                "kind": {
+                  "type": "text",
+                  "tag": "p",
+                  "content": "The space"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.eyebrow",
+                        "color": {
+                          "token": "brand.strong"
+                        },
+                        "transform": "uppercase"
+                      }
+                    }
+                  }
+                },
+                "bindings": {
+                  "content": "eyebrow"
+                }
+              },
+              {
+                "id": "gal-title",
+                "kind": {
+                  "type": "text",
+                  "tag": "h2",
+                  "content": "Timber, linen and a lot of daylight."
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.title",
+                        "color": {
+                          "token": "ink.body"
+                        }
+                      }
+                    }
+                  }
+                },
+                "bindings": {
+                  "content": "title"
+                }
+              },
+              {
+                "id": "gal-lead",
+                "kind": {
+                  "type": "text",
+                  "tag": "p",
+                  "content": "A converted yard on the river, with underfloor heating, a tea corner and a garden for summer mornings."
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.lead",
+                        "color": {
+                          "token": "ink.muted"
+                        }
+                      }
+                    }
+                  }
+                },
+                "bindings": {
+                  "content": "lead"
+                }
+              }
+            ]
+          },
+          {
+            "id": "gal-grid",
+            "kind": {
+              "type": "frame",
+              "element": "div"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "grid",
+                  "grid": {
+                    "columns": 1,
+                    "gap": {
+                      "px": 16.0
+                    }
+                  }
+                }
+              },
+              "md": {
+                "base": {
+                  "display": "grid",
+                  "grid": {
+                    "templateColumns": "1.2fr 1fr 1fr",
+                    "gap": {
+                      "px": 20.0
+                    }
+                  },
+                  "custom": {
+                    "grid-auto-rows": "280px"
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "gal-1",
+                "kind": {
+                  "type": "image",
+                  "src": "assets/images/studio.jpg",
+                  "alt": "Morning light across the main studio"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "size": {
+                        "width": {
+                          "percent": 100.0
+                        },
+                        "height": {
+                          "px": 260.0
+                        }
+                      },
+                      "objectFit": "cover",
+                      "corners": {
+                        "topLeft": {
+                          "px": 160.0
+                        },
+                        "topRight": {
+                          "px": 24.0
+                        },
+                        "bottomRight": {
+                          "px": 24.0
+                        },
+                        "bottomLeft": {
+                          "px": 24.0
+                        }
+                      }
+                    }
+                  },
+                  "md": {
+                    "base": {
+                      "size": {
+                        "width": {
+                          "percent": 100.0
+                        },
+                        "height": {
+                          "percent": 100.0
+                        },
+                        "minHeight": {
+                          "px": 260.0
+                        }
+                      },
+                      "custom": {
+                        "grid-row": "span 2"
+                      }
+                    }
+                  }
+                },
+                "bindings": {
+                  "src": "image1Src",
+                  "alt": "image1Alt"
+                }
+              },
+              {
+                "id": "gal-2",
+                "kind": {
+                  "type": "image",
+                  "src": "assets/images/ritual.jpg",
+                  "alt": "Herbal tea, a sprig of sage and a cork block on plaster"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "size": {
+                        "width": {
+                          "percent": 100.0
+                        },
+                        "height": {
+                          "px": 260.0
+                        }
+                      },
+                      "objectFit": "cover",
+                      "corners": {
+                        "topLeft": {
+                          "px": 24.0
+                        },
+                        "topRight": {
+                          "px": 24.0
+                        },
+                        "bottomRight": {
+                          "px": 24.0
+                        },
+                        "bottomLeft": {
+                          "px": 24.0
+                        }
+                      }
+                    }
+                  },
+                  "md": {
+                    "base": {
+                      "size": {
+                        "width": {
+                          "percent": 100.0
+                        },
+                        "height": {
+                          "percent": 100.0
+                        },
+                        "minHeight": {
+                          "px": 260.0
+                        }
+                      },
+                      "custom": {}
+                    }
+                  }
+                },
+                "bindings": {
+                  "src": "image2Src",
+                  "alt": "image2Alt"
+                }
+              },
+              {
+                "id": "gal-3",
+                "kind": {
+                  "type": "image",
+                  "src": "assets/images/class.jpg",
+                  "alt": "Students in a gentle group stretch"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "size": {
+                        "width": {
+                          "percent": 100.0
+                        },
+                        "height": {
+                          "px": 260.0
+                        }
+                      },
+                      "objectFit": "cover",
+                      "corners": {
+                        "topLeft": {
+                          "px": 24.0
+                        },
+                        "topRight": {
+                          "px": 24.0
+                        },
+                        "bottomRight": {
+                          "px": 24.0
+                        },
+                        "bottomLeft": {
+                          "px": 24.0
+                        }
+                      }
+                    }
+                  },
+                  "md": {
+                    "base": {
+                      "size": {
+                        "width": {
+                          "percent": 100.0
+                        },
+                        "height": {
+                          "percent": 100.0
+                        },
+                        "minHeight": {
+                          "px": 260.0
+                        }
+                      },
+                      "custom": {}
+                    }
+                  }
+                },
+                "bindings": {
+                  "src": "image3Src",
+                  "alt": "image3Alt"
+                }
+              },
+              {
+                "id": "gal-4",
+                "kind": {
+                  "type": "image",
+                  "src": "assets/images/outdoor.jpg",
+                  "alt": "Summer practice on the dunes at golden hour"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "size": {
+                        "width": {
+                          "percent": 100.0
+                        },
+                        "height": {
+                          "px": 260.0
+                        }
+                      },
+                      "objectFit": "cover",
+                      "corners": {
+                        "topLeft": {
+                          "px": 24.0
+                        },
+                        "topRight": {
+                          "px": 24.0
+                        },
+                        "bottomRight": {
+                          "px": 160.0
+                        },
+                        "bottomLeft": {
+                          "px": 24.0
+                        }
+                      }
+                    }
+                  },
+                  "md": {
+                    "base": {
+                      "size": {
+                        "width": {
+                          "percent": 100.0
+                        },
+                        "height": {
+                          "percent": 100.0
+                        },
+                        "minHeight": {
+                          "px": 260.0
+                        }
+                      },
+                      "custom": {
+                        "grid-column": "span 2"
+                      }
+                    }
+                  }
+                },
+                "bindings": {
+                  "src": "image4Src",
+                  "alt": "image4Alt"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "props": [
+    {
+      "name": "image1Src",
+      "label": "Image 1 image",
+      "kind": {
+        "type": "image"
+      },
+      "default": "assets/images/studio.jpg"
+    },
+    {
+      "name": "image1Alt",
+      "label": "Image 1 alt text",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Morning light across the main studio"
+    },
+    {
+      "name": "image2Src",
+      "label": "Image 2 image",
+      "kind": {
+        "type": "image"
+      },
+      "default": "assets/images/ritual.jpg"
+    },
+    {
+      "name": "image2Alt",
+      "label": "Image 2 alt text",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Herbal tea, a sprig of sage and a cork block on plaster"
+    },
+    {
+      "name": "image3Src",
+      "label": "Image 3 image",
+      "kind": {
+        "type": "image"
+      },
+      "default": "assets/images/class.jpg"
+    },
+    {
+      "name": "image3Alt",
+      "label": "Image 3 alt text",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Students in a gentle group stretch"
+    },
+    {
+      "name": "image4Src",
+      "label": "Image 4 image",
+      "kind": {
+        "type": "image"
+      },
+      "default": "assets/images/outdoor.jpg"
+    },
+    {
+      "name": "image4Alt",
+      "label": "Image 4 alt text",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Summer practice on the dunes at golden hour"
+    },
+    {
+      "name": "eyebrow",
+      "label": "Eyebrow",
+      "kind": {
+        "type": "text"
+      },
+      "default": "The space"
+    },
+    {
+      "name": "title",
+      "label": "Title",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Timber, linen and a lot of daylight."
+    },
+    {
+      "name": "lead",
+      "label": "Intro",
+      "kind": {
+        "type": "longText"
+      },
+      "default": "A converted yard on the river, with underfloor heating, a tea corner and a garden for summer mornings."
+    }
+  ]
+}

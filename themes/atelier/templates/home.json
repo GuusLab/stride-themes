@@ -1,0 +1,631 @@
+{
+  "root": {
+    "id": "root",
+    "kind": {
+      "type": "frame",
+      "element": "div"
+    },
+    "styles": {
+      "base": {
+        "base": {
+          "background": {
+            "token": "surface.page"
+          },
+          "display": "flex",
+          "flex": {
+            "direction": "column"
+          },
+          "size": {
+            "minHeight": {
+              "raw": "100vh"
+            }
+          }
+        }
+      }
+    },
+    "children": [
+      {
+        "id": "i-header-1",
+        "kind": {
+          "type": "instance",
+          "component": "atelier-header"
+        }
+      },
+      {
+        "id": "main",
+        "kind": {
+          "type": "frame",
+          "element": "main"
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "display": "flex",
+              "flex": {
+                "direction": "column"
+              },
+              "custom": {
+                "flex-grow": "1"
+              }
+            }
+          }
+        },
+        "children": [
+          {
+            "id": "i-hero-editorial-2",
+            "kind": {
+              "type": "instance",
+              "component": "atelier-hero-editorial"
+            }
+          },
+          {
+            "id": "h-work",
+            "kind": {
+              "type": "frame",
+              "element": "section"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "background": {
+                    "token": "surface.page"
+                  },
+                  "spacing": {
+                    "padding": {
+                      "top": {
+                        "token": "space.12"
+                      },
+                      "bottom": {
+                        "token": "space.12"
+                      },
+                      "left": {
+                        "token": "space.gutter"
+                      },
+                      "right": {
+                        "token": "space.gutter"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "h-work-in",
+                "kind": {
+                  "type": "frame",
+                  "element": "div"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "size": {
+                        "maxWidth": {
+                          "px": 1320
+                        },
+                        "width": {
+                          "percent": 100
+                        }
+                      },
+                      "spacing": {
+                        "margin": {
+                          "left": {
+                            "raw": "auto"
+                          },
+                          "right": {
+                            "raw": "auto"
+                          }
+                        }
+                      },
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "token": "space.12"
+                        }
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "i-section-intro-3",
+                    "kind": {
+                      "type": "instance",
+                      "component": "atelier-section-intro",
+                      "overrides": {
+                        "eyebrow": "(01) — Selected work",
+                        "title": "Recent work, chosen carefully.",
+                        "lead": "Three of the eight projects we took on last year. Each one began with a conversation and ended with something people keep."
+                      }
+                    }
+                  },
+                  {
+                    "id": "i-gallery-4",
+                    "kind": {
+                      "type": "instance",
+                      "component": "atelier-gallery"
+                    }
+                  },
+                  {
+                    "id": "h-work-all",
+                    "kind": {
+                      "type": "link",
+                      "href": "/work",
+                      "target": "same"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "inlineFlex",
+                          "flex": {
+                            "align": "center",
+                            "gap": {
+                              "px": 10
+                            }
+                          },
+                          "typography": {
+                            "token": "type.nav",
+                            "color": {
+                              "token": "ink.body"
+                            },
+                            "decoration": "none"
+                          },
+                          "border": {
+                            "bottom": {
+                              "width": {
+                                "px": 1
+                              },
+                              "style": "solid",
+                              "color": {
+                                "token": "ink.body"
+                              }
+                            }
+                          },
+                          "spacing": {
+                            "padding": {
+                              "bottom": {
+                                "px": 6
+                              }
+                            }
+                          },
+                          "size": {
+                            "width": {
+                              "raw": "fit-content"
+                            }
+                          },
+                          "transition": {
+                            "duration": 200,
+                            "properties": [
+                              "color",
+                              "borderColor"
+                            ]
+                          }
+                        },
+                        "hover": {
+                          "typography": {
+                            "color": {
+                              "token": "ink.accent"
+                            }
+                          },
+                          "border": {
+                            "bottom": {
+                              "width": {
+                                "px": 1
+                              },
+                              "style": "solid",
+                              "color": {
+                                "token": "ink.accent"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "h-work-all-t",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "All projects"
+                        }
+                      },
+                      {
+                        "id": "h-work-all-i",
+                        "kind": {
+                          "type": "icon",
+                          "name": "arrow-right"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "size": {
+                                "width": {
+                                  "px": 16
+                                },
+                                "height": {
+                                  "px": 16
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "h-svc",
+            "kind": {
+              "type": "frame",
+              "element": "section"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "background": {
+                    "token": "surface.page"
+                  },
+                  "spacing": {
+                    "padding": {
+                      "top": {
+                        "token": "space.section"
+                      },
+                      "bottom": {
+                        "token": "space.section"
+                      },
+                      "left": {
+                        "token": "space.gutter"
+                      },
+                      "right": {
+                        "token": "space.gutter"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "h-svc-in",
+                "kind": {
+                  "type": "frame",
+                  "element": "div"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "size": {
+                        "maxWidth": {
+                          "px": 1320
+                        },
+                        "width": {
+                          "percent": 100
+                        }
+                      },
+                      "spacing": {
+                        "margin": {
+                          "left": {
+                            "raw": "auto"
+                          },
+                          "right": {
+                            "raw": "auto"
+                          }
+                        }
+                      },
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "token": "space.12"
+                        }
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "i-section-intro-5",
+                    "kind": {
+                      "type": "instance",
+                      "component": "atelier-section-intro",
+                      "overrides": {
+                        "eyebrow": "(02) — Services",
+                        "title": "What we do, and what we will not.",
+                        "lead": "Four disciplines under one roof, so the logo, the book and the building are drawn by the same hands."
+                      }
+                    }
+                  },
+                  {
+                    "id": "i-services-list-6",
+                    "kind": {
+                      "type": "instance",
+                      "component": "atelier-services-list"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "i-testimonial-7",
+            "kind": {
+              "type": "instance",
+              "component": "atelier-testimonial"
+            }
+          },
+          {
+            "id": "h-stats",
+            "kind": {
+              "type": "frame",
+              "element": "section"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "background": {
+                    "token": "surface.page"
+                  },
+                  "spacing": {
+                    "padding": {
+                      "top": {
+                        "token": "space.section"
+                      },
+                      "bottom": {
+                        "token": "space.section"
+                      },
+                      "left": {
+                        "token": "space.gutter"
+                      },
+                      "right": {
+                        "token": "space.gutter"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "h-stats-in",
+                "kind": {
+                  "type": "frame",
+                  "element": "div"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "size": {
+                        "maxWidth": {
+                          "px": 1320
+                        },
+                        "width": {
+                          "percent": 100
+                        }
+                      },
+                      "spacing": {
+                        "margin": {
+                          "left": {
+                            "raw": "auto"
+                          },
+                          "right": {
+                            "raw": "auto"
+                          }
+                        }
+                      },
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "token": "space.12"
+                        }
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "i-section-intro-8",
+                    "kind": {
+                      "type": "instance",
+                      "component": "atelier-section-intro",
+                      "overrides": {
+                        "eyebrow": "(03) — Studio",
+                        "title": "Small by design. Stubborn about craft.",
+                        "lead": "Two studios, eleven people, and a waiting list we are not embarrassed about."
+                      }
+                    }
+                  },
+                  {
+                    "id": "i-stats-9",
+                    "kind": {
+                      "type": "instance",
+                      "component": "atelier-stats"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "h-journal",
+            "kind": {
+              "type": "frame",
+              "element": "section"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "background": {
+                    "token": "surface.raised"
+                  },
+                  "spacing": {
+                    "padding": {
+                      "top": {
+                        "token": "space.section"
+                      },
+                      "bottom": {
+                        "token": "space.section"
+                      },
+                      "left": {
+                        "token": "space.gutter"
+                      },
+                      "right": {
+                        "token": "space.gutter"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "h-journal-in",
+                "kind": {
+                  "type": "frame",
+                  "element": "div"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "size": {
+                        "maxWidth": {
+                          "px": 1320
+                        },
+                        "width": {
+                          "percent": 100
+                        }
+                      },
+                      "spacing": {
+                        "margin": {
+                          "left": {
+                            "raw": "auto"
+                          },
+                          "right": {
+                            "raw": "auto"
+                          }
+                        }
+                      },
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "token": "space.12"
+                        }
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "i-section-intro-10",
+                    "kind": {
+                      "type": "instance",
+                      "component": "atelier-section-intro",
+                      "overrides": {
+                        "eyebrow": "(04) — Journal",
+                        "title": "Notes from the studio floor.",
+                        "lead": "Essays, process and the occasional argument about kerning."
+                      }
+                    }
+                  },
+                  {
+                    "id": "h-j-g",
+                    "kind": {
+                      "type": "frame",
+                      "element": "div"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "grid",
+                          "grid": {
+                            "templateColumns": "minmax(0, 1fr)",
+                            "gap": {
+                              "token": "space.8"
+                            }
+                          }
+                        }
+                      },
+                      "md": {
+                        "base": {
+                          "grid": {
+                            "templateColumns": "minmax(0,1fr) minmax(0,1fr) minmax(0,1fr)",
+                            "gap": {
+                              "token": "space.8"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "i-blog-card-11",
+                        "kind": {
+                          "type": "instance",
+                          "component": "atelier-blog-card"
+                        }
+                      },
+                      {
+                        "id": "i-blog-card-12",
+                        "kind": {
+                          "type": "instance",
+                          "component": "atelier-blog-card",
+                          "overrides": {
+                            "category": "Process",
+                            "date": "28 August 2026",
+                            "title": "A hotel should smell like its signage looks",
+                            "excerpt": "What we learned wayfinding Casa Ribeira: materials first, arrows last.",
+                            "image": "assets/images/gallery.webp",
+                            "imageAlt": "A sunlit plaster corridor through a terracotta arch"
+                          }
+                        }
+                      },
+                      {
+                        "id": "i-blog-card-13",
+                        "kind": {
+                          "type": "instance",
+                          "component": "atelier-blog-card",
+                          "overrides": {
+                            "category": "Studio",
+                            "date": "2 August 2026",
+                            "title": "Eight projects a year is not a slogan",
+                            "excerpt": "The arithmetic behind saying no, and why our clients thank us for it.",
+                            "image": "assets/images/team.webp",
+                            "imageAlt": "Three members of the studio discussing posters pinned to a wall"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "i-cta-band-14",
+            "kind": {
+              "type": "instance",
+              "component": "atelier-cta-band"
+            }
+          }
+        ]
+      },
+      {
+        "id": "i-footer-15",
+        "kind": {
+          "type": "instance",
+          "component": "atelier-footer"
+        }
+      }
+    ]
+  },
+  "seo": {
+    "title": "Home — Hollis & Vane",
+    "description": "An independent design and brand studio in Edinburgh and Lisbon."
+  }
+}

@@ -1,0 +1,568 @@
+{
+  "id": "nightfall-header",
+  "name": "Nightfall · Header",
+  "root": {
+    "id": "header",
+    "kind": {
+      "type": "frame",
+      "element": "header"
+    },
+    "children": [
+      {
+        "id": "header-inner",
+        "kind": {
+          "type": "frame"
+        },
+        "children": [
+          {
+            "id": "header-brand",
+            "kind": {
+              "type": "link",
+              "href": "/",
+              "target": "same"
+            },
+            "children": [
+              {
+                "id": "header-brand-name",
+                "kind": {
+                  "type": "text",
+                  "tag": "span",
+                  "content": "Mara Ellison"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.subtitle",
+                        "color": {
+                          "token": "ink.body"
+                        },
+                        "size": {
+                          "raw": "1.625rem"
+                        },
+                        "lineHeight": 1
+                      }
+                    }
+                  }
+                },
+                "bindings": {
+                  "content": "brand"
+                }
+              },
+              {
+                "id": "header-brand-role",
+                "kind": {
+                  "type": "text",
+                  "tag": "span",
+                  "content": "Photographer"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.eyebrow",
+                        "color": {
+                          "token": "ink.accent"
+                        },
+                        "transform": "uppercase"
+                      },
+                      "display": "none"
+                    }
+                  },
+                  "md": {
+                    "base": {
+                      "display": "inline"
+                    }
+                  }
+                },
+                "bindings": {
+                  "content": "role"
+                }
+              }
+            ],
+            "styles": {
+              "base": {
+                "base": {
+                  "typography": {
+                    "decoration": "none"
+                  },
+                  "display": "flex",
+                  "flex": {
+                    "direction": "row",
+                    "align": "baseline",
+                    "gap": {
+                      "px": 14.0
+                    },
+                    "wrap": true
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": "header-nav",
+            "kind": {
+              "type": "frame",
+              "element": "nav"
+            },
+            "children": [
+              {
+                "id": "header-nav-1",
+                "kind": {
+                  "type": "link",
+                  "href": "/work",
+                  "target": "same"
+                },
+                "children": [
+                  {
+                    "id": "header-nav-1-label",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "Work"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.nav",
+                            "color": {
+                              "token": "ink.body"
+                            },
+                            "transform": "uppercase"
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "content": "nav1Label"
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "decoration": "none"
+                      },
+                      "opacity": 0.78,
+                      "transition": {
+                        "duration": 180,
+                        "properties": [
+                          "opacity"
+                        ]
+                      }
+                    },
+                    "hover": {
+                      "opacity": 1.0
+                    }
+                  }
+                },
+                "bindings": {
+                  "href": "nav1Href"
+                }
+              },
+              {
+                "id": "header-nav-2",
+                "kind": {
+                  "type": "link",
+                  "href": "/about",
+                  "target": "same"
+                },
+                "children": [
+                  {
+                    "id": "header-nav-2-label",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "About"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.nav",
+                            "color": {
+                              "token": "ink.body"
+                            },
+                            "transform": "uppercase"
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "content": "nav2Label"
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "decoration": "none"
+                      },
+                      "opacity": 0.78,
+                      "transition": {
+                        "duration": 180,
+                        "properties": [
+                          "opacity"
+                        ]
+                      }
+                    },
+                    "hover": {
+                      "opacity": 1.0
+                    }
+                  }
+                },
+                "bindings": {
+                  "href": "nav2Href"
+                }
+              },
+              {
+                "id": "header-nav-3",
+                "kind": {
+                  "type": "link",
+                  "href": "/journal",
+                  "target": "same"
+                },
+                "children": [
+                  {
+                    "id": "header-nav-3-label",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "Journal"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.nav",
+                            "color": {
+                              "token": "ink.body"
+                            },
+                            "transform": "uppercase"
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "content": "nav3Label"
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "decoration": "none"
+                      },
+                      "opacity": 0.78,
+                      "transition": {
+                        "duration": 180,
+                        "properties": [
+                          "opacity"
+                        ]
+                      }
+                    },
+                    "hover": {
+                      "opacity": 1.0
+                    }
+                  }
+                },
+                "bindings": {
+                  "href": "nav3Href"
+                }
+              },
+              {
+                "id": "header-nav-4",
+                "kind": {
+                  "type": "link",
+                  "href": "/contact",
+                  "target": "same"
+                },
+                "children": [
+                  {
+                    "id": "header-nav-4-label",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "Contact"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.nav",
+                            "color": {
+                              "token": "ink.body"
+                            },
+                            "transform": "uppercase"
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "content": "nav4Label"
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "decoration": "none"
+                      },
+                      "opacity": 0.78,
+                      "transition": {
+                        "duration": 180,
+                        "properties": [
+                          "opacity"
+                        ]
+                      }
+                    },
+                    "hover": {
+                      "opacity": 1.0
+                    }
+                  }
+                },
+                "bindings": {
+                  "href": "nav4Href"
+                }
+              }
+            ],
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "flex",
+                  "flex": {
+                    "direction": "row",
+                    "gap": {
+                      "px": 18.0
+                    },
+                    "align": "center",
+                    "wrap": true
+                  }
+                }
+              },
+              "md": {
+                "base": {
+                  "flex": {
+                    "direction": "row",
+                    "gap": {
+                      "px": 40.0
+                    },
+                    "align": "center"
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "styles": {
+          "base": {
+            "base": {
+              "display": "flex",
+              "flex": {
+                "direction": "row",
+                "align": "center",
+                "justify": "spaceBetween",
+                "gap": {
+                  "px": 16.0
+                },
+                "wrap": true
+              },
+              "size": {
+                "maxWidth": {
+                  "px": 1440.0
+                },
+                "width": {
+                  "percent": 100.0
+                }
+              },
+              "spacing": {
+                "margin": {
+                  "left": {
+                    "raw": "auto"
+                  },
+                  "right": {
+                    "raw": "auto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "styles": {
+      "base": {
+        "base": {
+          "spacing": {
+            "padding": {
+              "top": {
+                "px": 22.0
+              },
+              "bottom": {
+                "px": 22.0
+              },
+              "left": {
+                "token": "space.gutter"
+              },
+              "right": {
+                "token": "space.gutter"
+              }
+            }
+          },
+          "background": {
+            "raw": "rgb(11 11 12 / 0.86)"
+          },
+          "custom": {
+            "backdrop-filter": "blur(14px) saturate(1.2)"
+          },
+          "position": {
+            "kind": "sticky",
+            "inset": {
+              "top": {
+                "px": 0.0
+              }
+            },
+            "zIndex": 20
+          },
+          "border": {
+            "bottom": {
+              "width": {
+                "px": 1.0
+              },
+              "style": "solid",
+              "color": {
+                "token": "line.hairline"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "props": [
+    {
+      "name": "brand",
+      "label": "Name",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Mara Ellison"
+    },
+    {
+      "name": "role",
+      "label": "Discipline",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Photographer"
+    },
+    {
+      "name": "nav1Label",
+      "label": "Link 1 label",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Work"
+    },
+    {
+      "name": "nav1Href",
+      "label": "Link 1 address",
+      "kind": {
+        "type": "url"
+      },
+      "default": "/work"
+    },
+    {
+      "name": "nav2Label",
+      "label": "Link 2 label",
+      "kind": {
+        "type": "text"
+      },
+      "default": "About"
+    },
+    {
+      "name": "nav2Href",
+      "label": "Link 2 address",
+      "kind": {
+        "type": "url"
+      },
+      "default": "/about"
+    },
+    {
+      "name": "nav3Label",
+      "label": "Link 3 label",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Journal"
+    },
+    {
+      "name": "nav3Href",
+      "label": "Link 3 address",
+      "kind": {
+        "type": "url"
+      },
+      "default": "/journal"
+    },
+    {
+      "name": "nav4Label",
+      "label": "Link 4 label",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Contact"
+    },
+    {
+      "name": "nav4Href",
+      "label": "Link 4 address",
+      "kind": {
+        "type": "url"
+      },
+      "default": "/contact"
+    }
+  ],
+  "variants": {
+    "overlay": {
+      "styles": {
+        "base": {
+          "base": {
+            "background": {
+              "raw": "transparent"
+            },
+            "border": {
+              "bottom": {
+                "width": {
+                  "px": 0.0
+                },
+                "style": "none",
+                "color": {
+                  "raw": "transparent"
+                }
+              }
+            },
+            "position": {
+              "kind": "absolute",
+              "inset": {
+                "top": {
+                  "px": 0.0
+                },
+                "left": {
+                  "px": 0.0
+                },
+                "right": {
+                  "px": 0.0
+                }
+              },
+              "zIndex": 20
+            }
+          }
+        }
+      }
+    }
+  }
+}

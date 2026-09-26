@@ -1,0 +1,470 @@
+{
+  "id": "harbor-reserve-cta",
+  "name": "Harbor · Reservation band",
+  "root": {
+    "id": "reserve",
+    "kind": {
+      "type": "frame",
+      "element": "section"
+    },
+    "children": [
+      {
+        "id": "reserve-inner",
+        "kind": {
+          "type": "frame"
+        },
+        "children": [
+          {
+            "id": "reserve-card",
+            "kind": {
+              "type": "frame"
+            },
+            "children": [
+              {
+                "id": "reserve-copy",
+                "kind": {
+                  "type": "frame"
+                },
+                "children": [
+                  {
+                    "id": "reserve-eyebrow",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "Reservations"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.eyebrow",
+                            "color": {
+                              "token": "ink.inverse.muted"
+                            },
+                            "transform": "uppercase"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "reserve-title",
+                    "kind": {
+                      "type": "text",
+                      "tag": "h2",
+                      "content": "Save me a seat by the window."
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.title",
+                            "color": {
+                              "token": "ink.inverse"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "content": "heading"
+                    }
+                  },
+                  {
+                    "id": "reserve-body",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "Tables are held for fifteen minutes. Walk-ins are always welcome at the bar and on the terrace."
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.lead",
+                            "color": {
+                              "token": "ink.inverse.muted"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "content": "body"
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "px": 14.0
+                        }
+                      },
+                      "size": {
+                        "maxWidth": {
+                          "px": 620.0
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "reserve-actions",
+                "kind": {
+                  "type": "frame"
+                },
+                "children": [
+                  {
+                    "id": "reserve-cta",
+                    "kind": {
+                      "type": "button",
+                      "label": "Reserve a table",
+                      "href": "/contact#reserve",
+                      "target": "same"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "inlineBlock",
+                          "background": {
+                            "token": "surface.page"
+                          },
+                          "radius": {
+                            "token": "radius.full"
+                          },
+                          "size": {
+                            "width": {
+                              "raw": "fit-content"
+                            }
+                          },
+                          "spacing": {
+                            "padding": {
+                              "top": {
+                                "px": 16.0
+                              },
+                              "right": {
+                                "px": 30.0
+                              },
+                              "bottom": {
+                                "px": 16.0
+                              },
+                              "left": {
+                                "px": 30.0
+                              }
+                            }
+                          },
+                          "typography": {
+                            "token": "type.button",
+                            "color": {
+                              "token": "ink.body"
+                            },
+                            "decoration": "none"
+                          },
+                          "shadow": {
+                            "token": "shadow.soft"
+                          },
+                          "transition": {
+                            "duration": 200,
+                            "easing": "easeOut",
+                            "properties": [
+                              "backgroundColor",
+                              "transform",
+                              "boxShadow"
+                            ]
+                          }
+                        },
+                        "hover": {
+                          "background": {
+                            "token": "surface.raised"
+                          },
+                          "custom": {
+                            "transform": "translateY(-2px)"
+                          },
+                          "shadow": {
+                            "token": "shadow.card"
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "label": "ctaLabel",
+                      "href": "ctaHref"
+                    }
+                  },
+                  {
+                    "id": "reserve-phone",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "children": [
+                      {
+                        "id": "reserve-phone-icon",
+                        "kind": {
+                          "type": "icon",
+                          "name": "phone"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "color": {
+                                  "token": "ink.inverse"
+                                }
+                              },
+                              "size": {
+                                "width": {
+                                  "px": 20.0
+                                },
+                                "height": {
+                                  "px": 20.0
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "reserve-phone-t",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "+1 555 0142"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.button",
+                                "color": {
+                                  "token": "ink.inverse"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "row",
+                            "gap": {
+                              "px": 8.0
+                            },
+                            "align": "center",
+                            "wrap": true
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "row",
+                        "gap": {
+                          "px": 24.0
+                        },
+                        "align": "center",
+                        "wrap": true
+                      }
+                    }
+                  }
+                }
+              }
+            ],
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "flex",
+                  "flex": {
+                    "direction": "column",
+                    "gap": {
+                      "px": 32.0
+                    }
+                  },
+                  "background": {
+                    "token": "surface.accent"
+                  },
+                  "radius": {
+                    "token": "radius.xl"
+                  },
+                  "shadow": {
+                    "token": "shadow.lift"
+                  },
+                  "custom": {
+                    "background-image": "radial-gradient(120% 140% at 100% 0%, rgb(255 255 255 / 0.14) 0%, rgb(255 255 255 / 0) 55%)"
+                  },
+                  "spacing": {
+                    "padding": {
+                      "top": {
+                        "px": 40.0
+                      },
+                      "right": {
+                        "px": 28.0
+                      },
+                      "bottom": {
+                        "px": 40.0
+                      },
+                      "left": {
+                        "px": 28.0
+                      }
+                    }
+                  }
+                }
+              },
+              "md": {
+                "base": {
+                  "flex": {
+                    "direction": "row",
+                    "align": "center",
+                    "justify": "spaceBetween",
+                    "gap": {
+                      "px": 48.0
+                    }
+                  },
+                  "spacing": {
+                    "padding": {
+                      "top": {
+                        "px": 64.0
+                      },
+                      "right": {
+                        "px": 64.0
+                      },
+                      "bottom": {
+                        "px": 64.0
+                      },
+                      "left": {
+                        "px": 64.0
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "styles": {
+          "base": {
+            "base": {
+              "display": "flex",
+              "flex": {
+                "direction": "column",
+                "gap": {
+                  "px": 32.0
+                }
+              },
+              "size": {
+                "maxWidth": {
+                  "px": 1200.0
+                },
+                "width": {
+                  "percent": 100.0
+                }
+              },
+              "spacing": {
+                "margin": {
+                  "left": {
+                    "raw": "auto"
+                  },
+                  "right": {
+                    "raw": "auto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "styles": {
+      "base": {
+        "base": {
+          "background": {
+            "token": "surface.page"
+          },
+          "spacing": {
+            "padding": {
+              "top": {
+                "px": 40.0
+              },
+              "right": {
+                "px": 20.0
+              },
+              "bottom": {
+                "px": 40.0
+              },
+              "left": {
+                "px": 20.0
+              }
+            }
+          }
+        }
+      },
+      "md": {
+        "base": {
+          "spacing": {
+            "padding": {
+              "top": {
+                "px": 64.0
+              },
+              "right": {
+                "px": 40.0
+              },
+              "bottom": {
+                "px": 64.0
+              },
+              "left": {
+                "px": 40.0
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "props": [
+    {
+      "name": "heading",
+      "label": "Heading",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Save me a seat by the window."
+    },
+    {
+      "name": "body",
+      "label": "Body",
+      "kind": {
+        "type": "longText"
+      },
+      "default": "Tables are held for fifteen minutes."
+    },
+    {
+      "name": "ctaLabel",
+      "label": "Button label",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Reserve a table"
+    },
+    {
+      "name": "ctaHref",
+      "label": "Button link",
+      "kind": {
+        "type": "url"
+      },
+      "default": "/contact#reserve"
+    }
+  ]
+}

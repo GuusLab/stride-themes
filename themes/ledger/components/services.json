@@ -1,0 +1,1364 @@
+{
+  "id": "ledger-services",
+  "name": "Ledger · Practice areas",
+  "root": {
+    "id": "services",
+    "kind": {
+      "type": "frame",
+      "element": "section"
+    },
+    "children": [
+      {
+        "id": "services-inner",
+        "kind": {
+          "type": "frame"
+        },
+        "children": [
+          {
+            "id": "services-top",
+            "kind": {
+              "type": "frame"
+            },
+            "children": [
+              {
+                "id": "services-head",
+                "kind": {
+                  "type": "frame"
+                },
+                "children": [
+                  {
+                    "id": "services-eyebrow-row",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "children": [
+                      {
+                        "id": "services-eyebrow-rule",
+                        "kind": {
+                          "type": "frame"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "size": {
+                                "width": {
+                                  "px": 28.0
+                                },
+                                "height": {
+                                  "px": 1.0
+                                }
+                              },
+                              "background": {
+                                "token": "surface.warm"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "services-eyebrow",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Practice areas"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.eyebrow",
+                                "color": {
+                                  "token": "ink.warm"
+                                },
+                                "transform": "uppercase"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "row",
+                            "gap": {
+                              "px": 12.0
+                            },
+                            "align": "center",
+                            "wrap": false
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "services-title",
+                    "kind": {
+                      "type": "text",
+                      "tag": "h2",
+                      "content": "Five practices. One standard of work."
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.title",
+                            "color": {
+                              "token": "ink.body"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "services-lead",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "Every matter is led by a named partner and scoped in writing before we start, with a fee you can plan around."
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.lead",
+                            "color": {
+                              "token": "ink.muted"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "px": 18.0
+                        }
+                      },
+                      "size": {
+                        "maxWidth": {
+                          "px": 760.0
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "services-cta",
+                "kind": {
+                  "type": "button",
+                  "label": "Discuss your matter",
+                  "href": "/contact",
+                  "target": "same"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "inlineBlock",
+                      "background": {
+                        "raw": "transparent"
+                      },
+                      "radius": {
+                        "token": "radius.sm"
+                      },
+                      "size": {
+                        "width": {
+                          "raw": "fit-content"
+                        }
+                      },
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "px": 15.0
+                          },
+                          "right": {
+                            "px": 24.0
+                          },
+                          "bottom": {
+                            "px": 15.0
+                          },
+                          "left": {
+                            "px": 24.0
+                          }
+                        }
+                      },
+                      "typography": {
+                        "token": "type.button",
+                        "color": {
+                          "token": "ink.body"
+                        },
+                        "decoration": "none"
+                      },
+                      "border": {
+                        "width": {
+                          "px": 1.0
+                        },
+                        "style": "solid",
+                        "color": {
+                          "token": "line.strong"
+                        }
+                      },
+                      "transition": {
+                        "duration": 180,
+                        "easing": "easeOut",
+                        "properties": [
+                          "backgroundColor",
+                          "borderColor",
+                          "transform"
+                        ]
+                      }
+                    },
+                    "hover": {
+                      "background": {
+                        "token": "surface.raised"
+                      },
+                      "border": {
+                        "width": {
+                          "px": 1.0
+                        },
+                        "style": "solid",
+                        "color": {
+                          "token": "line.strong"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            ],
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "flex",
+                  "flex": {
+                    "direction": "row",
+                    "gap": {
+                      "px": 24.0
+                    },
+                    "align": "end",
+                    "wrap": true,
+                    "justify": "spaceBetween"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": "services-list",
+            "kind": {
+              "type": "frame"
+            },
+            "children": [
+              {
+                "id": "services-1",
+                "kind": {
+                  "type": "link",
+                  "href": "/contact",
+                  "target": "same"
+                },
+                "children": [
+                  {
+                    "id": "services-1-grid",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "children": [
+                      {
+                        "id": "services-1-n",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "01"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.price",
+                                "color": {
+                                  "token": "ink.warm"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "services-1-name",
+                        "kind": {
+                          "type": "text",
+                          "tag": "h3",
+                          "content": "Corporate & M&A"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.subtitle",
+                                "color": {
+                                  "token": "ink.body"
+                                }
+                              }
+                            }
+                          },
+                          "md": {
+                            "base": {
+                              "typography": {
+                                "size": {
+                                  "rem": 1.625
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "services-1-desc",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Acquisitions, disposals, joint ventures and shareholder agreements for mid-market companies and their owners."
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.body",
+                                "color": {
+                                  "token": "ink.muted"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "services-1-fee",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "From €18,000"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.accent"
+                                },
+                                "weight": 500
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "grid",
+                          "grid": {
+                            "columns": 1,
+                            "gap": {
+                              "px": 8.0
+                            }
+                          },
+                          "spacing": {
+                            "padding": {
+                              "top": {
+                                "px": 28.0
+                              },
+                              "right": {
+                                "px": 0.0
+                              },
+                              "bottom": {
+                                "px": 28.0
+                              },
+                              "left": {
+                                "px": 0.0
+                              }
+                            }
+                          },
+                          "border": {
+                            "top": {
+                              "width": {
+                                "px": 1.0
+                              },
+                              "style": "solid",
+                              "color": {
+                                "token": "line.hairline"
+                              }
+                            }
+                          },
+                          "transition": {
+                            "duration": 200,
+                            "easing": "easeOut",
+                            "properties": [
+                              "backgroundColor"
+                            ]
+                          }
+                        },
+                        "hover": {
+                          "background": {
+                            "token": "surface.raised"
+                          }
+                        }
+                      },
+                      "md": {
+                        "base": {
+                          "grid": {
+                            "templateColumns": "72px 1fr 1.3fr 150px",
+                            "gap": {
+                              "px": 32.0
+                            },
+                            "align": "baseline"
+                          },
+                          "spacing": {
+                            "padding": {
+                              "top": {
+                                "px": 36.0
+                              },
+                              "right": {
+                                "px": 12.0
+                              },
+                              "bottom": {
+                                "px": 36.0
+                              },
+                              "left": {
+                                "px": 12.0
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "decoration": "none"
+                      },
+                      "display": "block"
+                    }
+                  }
+                }
+              },
+              {
+                "id": "services-2",
+                "kind": {
+                  "type": "link",
+                  "href": "/contact",
+                  "target": "same"
+                },
+                "children": [
+                  {
+                    "id": "services-2-grid",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "children": [
+                      {
+                        "id": "services-2-n",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "02"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.price",
+                                "color": {
+                                  "token": "ink.warm"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "services-2-name",
+                        "kind": {
+                          "type": "text",
+                          "tag": "h3",
+                          "content": "Tax & structuring"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.subtitle",
+                                "color": {
+                                  "token": "ink.body"
+                                }
+                              }
+                            }
+                          },
+                          "md": {
+                            "base": {
+                              "typography": {
+                                "size": {
+                                  "rem": 1.625
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "services-2-desc",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Holding structures, succession planning and cross-border tax positions that hold up under scrutiny."
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.body",
+                                "color": {
+                                  "token": "ink.muted"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "services-2-fee",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "From €9,500"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.accent"
+                                },
+                                "weight": 500
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "grid",
+                          "grid": {
+                            "columns": 1,
+                            "gap": {
+                              "px": 8.0
+                            }
+                          },
+                          "spacing": {
+                            "padding": {
+                              "top": {
+                                "px": 28.0
+                              },
+                              "right": {
+                                "px": 0.0
+                              },
+                              "bottom": {
+                                "px": 28.0
+                              },
+                              "left": {
+                                "px": 0.0
+                              }
+                            }
+                          },
+                          "border": {
+                            "top": {
+                              "width": {
+                                "px": 1.0
+                              },
+                              "style": "solid",
+                              "color": {
+                                "token": "line.hairline"
+                              }
+                            }
+                          },
+                          "transition": {
+                            "duration": 200,
+                            "easing": "easeOut",
+                            "properties": [
+                              "backgroundColor"
+                            ]
+                          }
+                        },
+                        "hover": {
+                          "background": {
+                            "token": "surface.raised"
+                          }
+                        }
+                      },
+                      "md": {
+                        "base": {
+                          "grid": {
+                            "templateColumns": "72px 1fr 1.3fr 150px",
+                            "gap": {
+                              "px": 32.0
+                            },
+                            "align": "baseline"
+                          },
+                          "spacing": {
+                            "padding": {
+                              "top": {
+                                "px": 36.0
+                              },
+                              "right": {
+                                "px": 12.0
+                              },
+                              "bottom": {
+                                "px": 36.0
+                              },
+                              "left": {
+                                "px": 12.0
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "decoration": "none"
+                      },
+                      "display": "block"
+                    }
+                  }
+                }
+              },
+              {
+                "id": "services-3",
+                "kind": {
+                  "type": "link",
+                  "href": "/contact",
+                  "target": "same"
+                },
+                "children": [
+                  {
+                    "id": "services-3-grid",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "children": [
+                      {
+                        "id": "services-3-n",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "03"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.price",
+                                "color": {
+                                  "token": "ink.warm"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "services-3-name",
+                        "kind": {
+                          "type": "text",
+                          "tag": "h3",
+                          "content": "Disputes & arbitration"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.subtitle",
+                                "color": {
+                                  "token": "ink.body"
+                                }
+                              }
+                            }
+                          },
+                          "md": {
+                            "base": {
+                              "typography": {
+                                "size": {
+                                  "rem": 1.625
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "services-3-desc",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Commercial litigation and arbitration, led by partners who have argued in the courts they recommend."
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.body",
+                                "color": {
+                                  "token": "ink.muted"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "services-3-fee",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "Fixed-fee phases"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.accent"
+                                },
+                                "weight": 500
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "grid",
+                          "grid": {
+                            "columns": 1,
+                            "gap": {
+                              "px": 8.0
+                            }
+                          },
+                          "spacing": {
+                            "padding": {
+                              "top": {
+                                "px": 28.0
+                              },
+                              "right": {
+                                "px": 0.0
+                              },
+                              "bottom": {
+                                "px": 28.0
+                              },
+                              "left": {
+                                "px": 0.0
+                              }
+                            }
+                          },
+                          "border": {
+                            "top": {
+                              "width": {
+                                "px": 1.0
+                              },
+                              "style": "solid",
+                              "color": {
+                                "token": "line.hairline"
+                              }
+                            }
+                          },
+                          "transition": {
+                            "duration": 200,
+                            "easing": "easeOut",
+                            "properties": [
+                              "backgroundColor"
+                            ]
+                          }
+                        },
+                        "hover": {
+                          "background": {
+                            "token": "surface.raised"
+                          }
+                        }
+                      },
+                      "md": {
+                        "base": {
+                          "grid": {
+                            "templateColumns": "72px 1fr 1.3fr 150px",
+                            "gap": {
+                              "px": 32.0
+                            },
+                            "align": "baseline"
+                          },
+                          "spacing": {
+                            "padding": {
+                              "top": {
+                                "px": 36.0
+                              },
+                              "right": {
+                                "px": 12.0
+                              },
+                              "bottom": {
+                                "px": 36.0
+                              },
+                              "left": {
+                                "px": 12.0
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "decoration": "none"
+                      },
+                      "display": "block"
+                    }
+                  }
+                }
+              },
+              {
+                "id": "services-4",
+                "kind": {
+                  "type": "link",
+                  "href": "/contact",
+                  "target": "same"
+                },
+                "children": [
+                  {
+                    "id": "services-4-grid",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "children": [
+                      {
+                        "id": "services-4-n",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "04"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.price",
+                                "color": {
+                                  "token": "ink.warm"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "services-4-name",
+                        "kind": {
+                          "type": "text",
+                          "tag": "h3",
+                          "content": "Governance & boards"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.subtitle",
+                                "color": {
+                                  "token": "ink.body"
+                                }
+                              }
+                            }
+                          },
+                          "md": {
+                            "base": {
+                              "typography": {
+                                "size": {
+                                  "rem": 1.625
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "services-4-desc",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Board evaluations, director duties, investigations and the quiet work of keeping a company defensible."
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.body",
+                                "color": {
+                                  "token": "ink.muted"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "services-4-fee",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "Retainer"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.accent"
+                                },
+                                "weight": 500
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "grid",
+                          "grid": {
+                            "columns": 1,
+                            "gap": {
+                              "px": 8.0
+                            }
+                          },
+                          "spacing": {
+                            "padding": {
+                              "top": {
+                                "px": 28.0
+                              },
+                              "right": {
+                                "px": 0.0
+                              },
+                              "bottom": {
+                                "px": 28.0
+                              },
+                              "left": {
+                                "px": 0.0
+                              }
+                            }
+                          },
+                          "border": {
+                            "top": {
+                              "width": {
+                                "px": 1.0
+                              },
+                              "style": "solid",
+                              "color": {
+                                "token": "line.hairline"
+                              }
+                            }
+                          },
+                          "transition": {
+                            "duration": 200,
+                            "easing": "easeOut",
+                            "properties": [
+                              "backgroundColor"
+                            ]
+                          }
+                        },
+                        "hover": {
+                          "background": {
+                            "token": "surface.raised"
+                          }
+                        }
+                      },
+                      "md": {
+                        "base": {
+                          "grid": {
+                            "templateColumns": "72px 1fr 1.3fr 150px",
+                            "gap": {
+                              "px": 32.0
+                            },
+                            "align": "baseline"
+                          },
+                          "spacing": {
+                            "padding": {
+                              "top": {
+                                "px": 36.0
+                              },
+                              "right": {
+                                "px": 12.0
+                              },
+                              "bottom": {
+                                "px": 36.0
+                              },
+                              "left": {
+                                "px": 12.0
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "decoration": "none"
+                      },
+                      "display": "block"
+                    }
+                  }
+                }
+              },
+              {
+                "id": "services-5",
+                "kind": {
+                  "type": "link",
+                  "href": "/contact",
+                  "target": "same"
+                },
+                "children": [
+                  {
+                    "id": "services-5-grid",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "children": [
+                      {
+                        "id": "services-5-n",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "05"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.price",
+                                "color": {
+                                  "token": "ink.warm"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "services-5-name",
+                        "kind": {
+                          "type": "text",
+                          "tag": "h3",
+                          "content": "Finance & restructuring"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.subtitle",
+                                "color": {
+                                  "token": "ink.body"
+                                }
+                              }
+                            }
+                          },
+                          "md": {
+                            "base": {
+                              "typography": {
+                                "size": {
+                                  "rem": 1.625
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "services-5-desc",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Lender negotiations, refinancing and turnaround plans before the pressure turns into a crisis."
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.body",
+                                "color": {
+                                  "token": "ink.muted"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "services-5-fee",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "From €12,000"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.accent"
+                                },
+                                "weight": 500
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "grid",
+                          "grid": {
+                            "columns": 1,
+                            "gap": {
+                              "px": 8.0
+                            }
+                          },
+                          "spacing": {
+                            "padding": {
+                              "top": {
+                                "px": 28.0
+                              },
+                              "right": {
+                                "px": 0.0
+                              },
+                              "bottom": {
+                                "px": 28.0
+                              },
+                              "left": {
+                                "px": 0.0
+                              }
+                            }
+                          },
+                          "border": {
+                            "top": {
+                              "width": {
+                                "px": 1.0
+                              },
+                              "style": "solid",
+                              "color": {
+                                "token": "line.hairline"
+                              }
+                            }
+                          },
+                          "transition": {
+                            "duration": 200,
+                            "easing": "easeOut",
+                            "properties": [
+                              "backgroundColor"
+                            ]
+                          }
+                        },
+                        "hover": {
+                          "background": {
+                            "token": "surface.raised"
+                          }
+                        }
+                      },
+                      "md": {
+                        "base": {
+                          "grid": {
+                            "templateColumns": "72px 1fr 1.3fr 150px",
+                            "gap": {
+                              "px": 32.0
+                            },
+                            "align": "baseline"
+                          },
+                          "spacing": {
+                            "padding": {
+                              "top": {
+                                "px": 36.0
+                              },
+                              "right": {
+                                "px": 12.0
+                              },
+                              "bottom": {
+                                "px": 36.0
+                              },
+                              "left": {
+                                "px": 12.0
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "decoration": "none"
+                      },
+                      "display": "block"
+                    }
+                  }
+                }
+              }
+            ],
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "flex",
+                  "flex": {
+                    "direction": "column"
+                  },
+                  "border": {
+                    "bottom": {
+                      "width": {
+                        "px": 1.0
+                      },
+                      "style": "solid",
+                      "color": {
+                        "token": "line.hairline"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "styles": {
+          "base": {
+            "base": {
+              "display": "flex",
+              "flex": {
+                "direction": "column",
+                "gap": {
+                  "px": 56.0
+                }
+              },
+              "size": {
+                "maxWidth": {
+                  "px": 1240.0
+                },
+                "width": {
+                  "percent": 100.0
+                }
+              },
+              "spacing": {
+                "margin": {
+                  "left": {
+                    "raw": "auto"
+                  },
+                  "right": {
+                    "raw": "auto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "styles": {
+      "base": {
+        "base": {
+          "background": {
+            "token": "surface.page"
+          },
+          "spacing": {
+            "padding": {
+              "top": {
+                "px": 72.0
+              },
+              "right": {
+                "px": 20.0
+              },
+              "bottom": {
+                "px": 72.0
+              },
+              "left": {
+                "px": 20.0
+              }
+            }
+          }
+        }
+      },
+      "md": {
+        "base": {
+          "spacing": {
+            "padding": {
+              "top": {
+                "px": 112.0
+              },
+              "right": {
+                "px": 40.0
+              },
+              "bottom": {
+                "px": 112.0
+              },
+              "left": {
+                "px": 40.0
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "props": [],
+  "variants": {
+    "mist": {
+      "styles": {
+        "base": {
+          "base": {
+            "background": {
+              "token": "surface.raised"
+            }
+          }
+        }
+      }
+    }
+  }
+}

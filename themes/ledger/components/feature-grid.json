@@ -1,0 +1,831 @@
+{
+  "id": "ledger-feature-grid",
+  "name": "Ledger · Principles",
+  "root": {
+    "id": "principles",
+    "kind": {
+      "type": "frame",
+      "element": "section"
+    },
+    "children": [
+      {
+        "id": "principles-inner",
+        "kind": {
+          "type": "frame"
+        },
+        "children": [
+          {
+            "id": "principles-head",
+            "kind": {
+              "type": "frame"
+            },
+            "children": [
+              {
+                "id": "principles-eyebrow-row",
+                "kind": {
+                  "type": "frame"
+                },
+                "children": [
+                  {
+                    "id": "principles-eyebrow-rule",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "size": {
+                            "width": {
+                              "px": 28.0
+                            },
+                            "height": {
+                              "px": 1.0
+                            }
+                          },
+                          "background": {
+                            "token": "surface.warm"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "principles-eyebrow",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "Our principles"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.eyebrow",
+                            "color": {
+                              "token": "ink.warm"
+                            },
+                            "transform": "uppercase"
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "row",
+                        "gap": {
+                          "px": 12.0
+                        },
+                        "align": "center",
+                        "wrap": false
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "principles-title",
+                "kind": {
+                  "type": "text",
+                  "tag": "h2",
+                  "content": "How we work with you."
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.title",
+                        "color": {
+                          "token": "ink.body"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            ],
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "flex",
+                  "flex": {
+                    "direction": "column",
+                    "gap": {
+                      "px": 18.0
+                    }
+                  },
+                  "size": {
+                    "maxWidth": {
+                      "px": 760.0
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": "principles-grid",
+            "kind": {
+              "type": "frame"
+            },
+            "children": [
+              {
+                "id": "principles-1",
+                "kind": {
+                  "type": "frame"
+                },
+                "children": [
+                  {
+                    "id": "principles-1-top",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "children": [
+                      {
+                        "id": "principles-1-badge",
+                        "kind": {
+                          "type": "frame"
+                        },
+                        "children": [
+                          {
+                            "id": "principles-1-icon",
+                            "kind": {
+                              "type": "icon",
+                              "name": "check"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "color": {
+                                      "token": "ink.accent"
+                                    }
+                                  },
+                                  "size": {
+                                    "width": {
+                                      "px": 20.0
+                                    },
+                                    "height": {
+                                      "px": 20.0
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "flex",
+                              "flex": {
+                                "align": "center",
+                                "justify": "center"
+                              },
+                              "size": {
+                                "width": {
+                                  "px": 44.0
+                                },
+                                "height": {
+                                  "px": 44.0
+                                }
+                              },
+                              "radius": {
+                                "token": "radius.sm"
+                              },
+                              "background": {
+                                "token": "surface.tint"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "principles-1-n",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "01"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.price",
+                                "color": {
+                                  "token": "ink.warm"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "row",
+                            "gap": {
+                              "px": 16.0
+                            },
+                            "align": "center",
+                            "wrap": true,
+                            "justify": "spaceBetween"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "principles-1-title",
+                    "kind": {
+                      "type": "text",
+                      "tag": "h3",
+                      "content": "A partner on every matter"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.subtitle",
+                            "color": {
+                              "token": "ink.body"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "principles-1-body",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "The person you meet in the first meeting is the person who signs the advice. No hand-offs to a junior team you never met."
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.body",
+                            "color": {
+                              "token": "ink.muted"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "px": 16.0
+                        }
+                      },
+                      "background": {
+                        "token": "surface.card"
+                      },
+                      "radius": {
+                        "token": "radius.md"
+                      },
+                      "border": {
+                        "width": {
+                          "px": 1.0
+                        },
+                        "style": "solid",
+                        "color": {
+                          "token": "line.hairline"
+                        }
+                      },
+                      "overflow": "hidden",
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "px": 32.0
+                          },
+                          "right": {
+                            "px": 32.0
+                          },
+                          "bottom": {
+                            "px": 32.0
+                          },
+                          "left": {
+                            "px": 32.0
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "principles-2",
+                "kind": {
+                  "type": "frame"
+                },
+                "children": [
+                  {
+                    "id": "principles-2-top",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "children": [
+                      {
+                        "id": "principles-2-badge",
+                        "kind": {
+                          "type": "frame"
+                        },
+                        "children": [
+                          {
+                            "id": "principles-2-icon",
+                            "kind": {
+                              "type": "icon",
+                              "name": "clock"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "color": {
+                                      "token": "ink.accent"
+                                    }
+                                  },
+                                  "size": {
+                                    "width": {
+                                      "px": 20.0
+                                    },
+                                    "height": {
+                                      "px": 20.0
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "flex",
+                              "flex": {
+                                "align": "center",
+                                "justify": "center"
+                              },
+                              "size": {
+                                "width": {
+                                  "px": 44.0
+                                },
+                                "height": {
+                                  "px": 44.0
+                                }
+                              },
+                              "radius": {
+                                "token": "radius.sm"
+                              },
+                              "background": {
+                                "token": "surface.tint"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "principles-2-n",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "02"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.price",
+                                "color": {
+                                  "token": "ink.warm"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "row",
+                            "gap": {
+                              "px": 16.0
+                            },
+                            "align": "center",
+                            "wrap": true,
+                            "justify": "spaceBetween"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "principles-2-title",
+                    "kind": {
+                      "type": "text",
+                      "tag": "h3",
+                      "content": "Answers in one working day"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.subtitle",
+                            "color": {
+                              "token": "ink.body"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "principles-2-body",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "Every client has a direct line. Routine questions are answered the same day, urgent ones the same hour."
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.body",
+                            "color": {
+                              "token": "ink.muted"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "px": 16.0
+                        }
+                      },
+                      "background": {
+                        "token": "surface.card"
+                      },
+                      "radius": {
+                        "token": "radius.md"
+                      },
+                      "border": {
+                        "width": {
+                          "px": 1.0
+                        },
+                        "style": "solid",
+                        "color": {
+                          "token": "line.hairline"
+                        }
+                      },
+                      "overflow": "hidden",
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "px": 32.0
+                          },
+                          "right": {
+                            "px": 32.0
+                          },
+                          "bottom": {
+                            "px": 32.0
+                          },
+                          "left": {
+                            "px": 32.0
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "principles-3",
+                "kind": {
+                  "type": "frame"
+                },
+                "children": [
+                  {
+                    "id": "principles-3-top",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "children": [
+                      {
+                        "id": "principles-3-badge",
+                        "kind": {
+                          "type": "frame"
+                        },
+                        "children": [
+                          {
+                            "id": "principles-3-icon",
+                            "kind": {
+                              "type": "icon",
+                              "name": "info"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "color": {
+                                      "token": "ink.accent"
+                                    }
+                                  },
+                                  "size": {
+                                    "width": {
+                                      "px": 20.0
+                                    },
+                                    "height": {
+                                      "px": 20.0
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "flex",
+                              "flex": {
+                                "align": "center",
+                                "justify": "center"
+                              },
+                              "size": {
+                                "width": {
+                                  "px": 44.0
+                                },
+                                "height": {
+                                  "px": 44.0
+                                }
+                              },
+                              "radius": {
+                                "token": "radius.sm"
+                              },
+                              "background": {
+                                "token": "surface.tint"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "principles-3-n",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "03"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.price",
+                                "color": {
+                                  "token": "ink.warm"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "row",
+                            "gap": {
+                              "px": 16.0
+                            },
+                            "align": "center",
+                            "wrap": true,
+                            "justify": "spaceBetween"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "principles-3-title",
+                    "kind": {
+                      "type": "text",
+                      "tag": "h3",
+                      "content": "Fees agreed in writing"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.subtitle",
+                            "color": {
+                              "token": "ink.body"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "principles-3-body",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "Fixed or capped fees for each phase, set out before we start. If the scope changes, you hear it from us first."
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.body",
+                            "color": {
+                              "token": "ink.muted"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "px": 16.0
+                        }
+                      },
+                      "background": {
+                        "token": "surface.card"
+                      },
+                      "radius": {
+                        "token": "radius.md"
+                      },
+                      "border": {
+                        "width": {
+                          "px": 1.0
+                        },
+                        "style": "solid",
+                        "color": {
+                          "token": "line.hairline"
+                        }
+                      },
+                      "overflow": "hidden",
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "px": 32.0
+                          },
+                          "right": {
+                            "px": 32.0
+                          },
+                          "bottom": {
+                            "px": 32.0
+                          },
+                          "left": {
+                            "px": 32.0
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            ],
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "grid",
+                  "grid": {
+                    "columns": 1,
+                    "gap": {
+                      "px": 20.0
+                    }
+                  }
+                }
+              },
+              "md": {
+                "base": {
+                  "display": "grid",
+                  "grid": {
+                    "columns": 3,
+                    "gap": {
+                      "px": 24.0
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "styles": {
+          "base": {
+            "base": {
+              "display": "flex",
+              "flex": {
+                "direction": "column",
+                "gap": {
+                  "px": 48.0
+                }
+              },
+              "size": {
+                "maxWidth": {
+                  "px": 1240.0
+                },
+                "width": {
+                  "percent": 100.0
+                }
+              },
+              "spacing": {
+                "margin": {
+                  "left": {
+                    "raw": "auto"
+                  },
+                  "right": {
+                    "raw": "auto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "styles": {
+      "base": {
+        "base": {
+          "background": {
+            "token": "surface.raised"
+          },
+          "spacing": {
+            "padding": {
+              "top": {
+                "px": 72.0
+              },
+              "right": {
+                "px": 20.0
+              },
+              "bottom": {
+                "px": 72.0
+              },
+              "left": {
+                "px": 20.0
+              }
+            }
+          }
+        }
+      },
+      "md": {
+        "base": {
+          "spacing": {
+            "padding": {
+              "top": {
+                "px": 112.0
+              },
+              "right": {
+                "px": 40.0
+              },
+              "bottom": {
+                "px": 112.0
+              },
+              "left": {
+                "px": 40.0
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "props": []
+}

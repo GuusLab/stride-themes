@@ -1,0 +1,2689 @@
+{
+  "root": {
+    "id": "root",
+    "kind": {
+      "type": "frame"
+    },
+    "children": [
+      {
+        "id": "header",
+        "kind": {
+          "type": "frame",
+          "element": "header"
+        },
+        "children": [
+          {
+            "id": "header-inner",
+            "kind": {
+              "type": "frame"
+            },
+            "children": [
+              {
+                "id": "header-brand",
+                "kind": {
+                  "type": "link",
+                  "href": "/",
+                  "target": "same"
+                },
+                "children": [
+                  {
+                    "id": "header-brand-name",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "Mara Ellison"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.subtitle",
+                            "color": {
+                              "token": "ink.body"
+                            },
+                            "size": {
+                              "raw": "1.625rem"
+                            },
+                            "lineHeight": 1
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "header-brand-role",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "Photographer"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.eyebrow",
+                            "color": {
+                              "token": "ink.accent"
+                            },
+                            "transform": "uppercase"
+                          },
+                          "display": "none"
+                        }
+                      },
+                      "md": {
+                        "base": {
+                          "display": "inline"
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "decoration": "none"
+                      },
+                      "display": "flex",
+                      "flex": {
+                        "direction": "row",
+                        "align": "baseline",
+                        "gap": {
+                          "px": 14.0
+                        },
+                        "wrap": true
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "header-nav",
+                "kind": {
+                  "type": "frame",
+                  "element": "nav"
+                },
+                "children": [
+                  {
+                    "id": "header-nav-1",
+                    "kind": {
+                      "type": "link",
+                      "href": "/work",
+                      "target": "same"
+                    },
+                    "children": [
+                      {
+                        "id": "header-nav-1-label",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "Work"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.nav",
+                                "color": {
+                                  "token": "ink.body"
+                                },
+                                "transform": "uppercase"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "decoration": "none"
+                          },
+                          "opacity": 0.78,
+                          "transition": {
+                            "duration": 180,
+                            "properties": [
+                              "opacity"
+                            ]
+                          }
+                        },
+                        "hover": {
+                          "opacity": 1.0
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "header-nav-2",
+                    "kind": {
+                      "type": "link",
+                      "href": "/about",
+                      "target": "same"
+                    },
+                    "children": [
+                      {
+                        "id": "header-nav-2-label",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "About"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.nav",
+                                "color": {
+                                  "token": "ink.body"
+                                },
+                                "transform": "uppercase"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "decoration": "none"
+                          },
+                          "opacity": 0.78,
+                          "transition": {
+                            "duration": 180,
+                            "properties": [
+                              "opacity"
+                            ]
+                          }
+                        },
+                        "hover": {
+                          "opacity": 1.0
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "header-nav-3",
+                    "kind": {
+                      "type": "link",
+                      "href": "/journal",
+                      "target": "same"
+                    },
+                    "children": [
+                      {
+                        "id": "header-nav-3-label",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "Journal"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.nav",
+                                "color": {
+                                  "token": "ink.body"
+                                },
+                                "transform": "uppercase"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "decoration": "none"
+                          },
+                          "opacity": 0.78,
+                          "transition": {
+                            "duration": 180,
+                            "properties": [
+                              "opacity"
+                            ]
+                          }
+                        },
+                        "hover": {
+                          "opacity": 1.0
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "header-nav-4",
+                    "kind": {
+                      "type": "link",
+                      "href": "/contact",
+                      "target": "same"
+                    },
+                    "children": [
+                      {
+                        "id": "header-nav-4-label",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "Contact"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.nav",
+                                "color": {
+                                  "token": "ink.body"
+                                },
+                                "transform": "uppercase"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "decoration": "none"
+                          },
+                          "opacity": 0.78,
+                          "transition": {
+                            "duration": 180,
+                            "properties": [
+                              "opacity"
+                            ]
+                          }
+                        },
+                        "hover": {
+                          "opacity": 1.0
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "row",
+                        "gap": {
+                          "px": 18.0
+                        },
+                        "align": "center",
+                        "wrap": true
+                      }
+                    }
+                  },
+                  "md": {
+                    "base": {
+                      "flex": {
+                        "direction": "row",
+                        "gap": {
+                          "px": 40.0
+                        },
+                        "align": "center"
+                      }
+                    }
+                  }
+                }
+              }
+            ],
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "flex",
+                  "flex": {
+                    "direction": "row",
+                    "align": "center",
+                    "justify": "spaceBetween",
+                    "gap": {
+                      "px": 16.0
+                    },
+                    "wrap": true
+                  },
+                  "size": {
+                    "maxWidth": {
+                      "px": 1440.0
+                    },
+                    "width": {
+                      "percent": 100.0
+                    }
+                  },
+                  "spacing": {
+                    "margin": {
+                      "left": {
+                        "raw": "auto"
+                      },
+                      "right": {
+                        "raw": "auto"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "styles": {
+          "base": {
+            "base": {
+              "spacing": {
+                "padding": {
+                  "top": {
+                    "px": 22.0
+                  },
+                  "bottom": {
+                    "px": 22.0
+                  },
+                  "left": {
+                    "token": "space.gutter"
+                  },
+                  "right": {
+                    "token": "space.gutter"
+                  }
+                }
+              },
+              "background": {
+                "raw": "rgb(11 11 12 / 0.86)"
+              },
+              "custom": {
+                "backdrop-filter": "blur(14px) saturate(1.2)"
+              },
+              "position": {
+                "kind": "sticky",
+                "inset": {
+                  "top": {
+                    "px": 0.0
+                  }
+                },
+                "zIndex": 20
+              },
+              "border": {
+                "bottom": {
+                  "width": {
+                    "px": 1.0
+                  },
+                  "style": "solid",
+                  "color": {
+                    "token": "line.hairline"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "main",
+        "kind": {
+          "type": "frame",
+          "element": "main"
+        },
+        "children": [
+          {
+            "id": "journal-head",
+            "kind": {
+              "type": "frame",
+              "element": "section"
+            },
+            "children": [
+              {
+                "id": "journal-head-inner",
+                "kind": {
+                  "type": "frame"
+                },
+                "children": [
+                  {
+                    "id": "journal-head-copy",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "children": [
+                      {
+                        "id": "journal-head-eyebrow",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "Journal"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.eyebrow",
+                                "color": {
+                                  "token": "ink.accent"
+                                },
+                                "transform": "uppercase"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "journal-head-title",
+                        "kind": {
+                          "type": "text",
+                          "tag": "h1",
+                          "content": "Notes from the field."
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.display",
+                                "color": {
+                                  "token": "ink.body"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "journal-head-lead",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Field notes, process and the occasional quiet opinion about light, printing and the people in front of the lens."
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.lead",
+                                "color": {
+                                  "token": "ink.muted"
+                                }
+                              },
+                              "size": {
+                                "maxWidth": {
+                                  "px": 560.0
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "column",
+                            "gap": {
+                              "px": 28.0
+                            }
+                          },
+                          "size": {
+                            "maxWidth": {
+                              "px": 1000.0
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "px": 48.0
+                        }
+                      },
+                      "size": {
+                        "maxWidth": {
+                          "px": 1440.0
+                        },
+                        "width": {
+                          "percent": 100.0
+                        }
+                      },
+                      "spacing": {
+                        "margin": {
+                          "left": {
+                            "raw": "auto"
+                          },
+                          "right": {
+                            "raw": "auto"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            ],
+            "styles": {
+              "base": {
+                "base": {
+                  "background": {
+                    "token": "surface.page"
+                  },
+                  "spacing": {
+                    "padding": {
+                      "top": {
+                        "token": "space.16"
+                      },
+                      "bottom": {
+                        "token": "space.12"
+                      },
+                      "left": {
+                        "token": "space.gutter"
+                      },
+                      "right": {
+                        "token": "space.gutter"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": "journal-list",
+            "kind": {
+              "type": "frame",
+              "element": "section"
+            },
+            "children": [
+              {
+                "id": "journal-list-inner",
+                "kind": {
+                  "type": "frame"
+                },
+                "children": [
+                  {
+                    "id": "journal-list-grid",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "children": [
+                      {
+                        "id": "post-1",
+                        "kind": {
+                          "type": "link",
+                          "href": "/journal/porto-rain",
+                          "target": "same"
+                        },
+                        "children": [
+                          {
+                            "id": "post-1-media",
+                            "kind": {
+                              "type": "frame"
+                            },
+                            "children": [
+                              {
+                                "id": "post-1-img",
+                                "kind": {
+                                  "type": "image",
+                                  "src": "assets/images/street.webp",
+                                  "alt": ""
+                                },
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "display": "block",
+                                      "size": {
+                                        "width": {
+                                          "percent": 100.0
+                                        }
+                                      },
+                                      "objectFit": "cover",
+                                      "aspectRatio": {
+                                        "ratio": {
+                                          "width": 4.0,
+                                          "height": 3.0
+                                        }
+                                      },
+                                      "radius": {
+                                        "token": "radius.none"
+                                      },
+                                      "transition": {
+                                        "duration": 700,
+                                        "easing": "easeOut",
+                                        "properties": [
+                                          "transform"
+                                        ]
+                                      }
+                                    },
+                                    "hover": {
+                                      "custom": {
+                                        "transform": "scale(1.03)"
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            ],
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "overflow": "hidden"
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "post-1-meta",
+                            "kind": {
+                              "type": "frame"
+                            },
+                            "children": [
+                              {
+                                "id": "post-1-tag",
+                                "kind": {
+                                  "type": "text",
+                                  "tag": "span",
+                                  "content": "Field notes"
+                                },
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "typography": {
+                                        "token": "type.eyebrow",
+                                        "color": {
+                                          "token": "ink.accent"
+                                        },
+                                        "transform": "uppercase"
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              {
+                                "id": "post-1-date",
+                                "kind": {
+                                  "type": "text",
+                                  "tag": "span",
+                                  "content": "Sep 14, 2026"
+                                },
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "typography": {
+                                        "token": "type.eyebrow",
+                                        "color": {
+                                          "token": "ink.faint"
+                                        },
+                                        "transform": "uppercase"
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            ],
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "display": "flex",
+                                  "flex": {
+                                    "direction": "row",
+                                    "gap": {
+                                      "px": 12.0
+                                    },
+                                    "align": "center",
+                                    "wrap": true,
+                                    "justify": "spaceBetween"
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "post-1-title",
+                            "kind": {
+                              "type": "text",
+                              "tag": "h3",
+                              "content": "Nine nights in Porto, waiting for rain"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.subtitle",
+                                    "color": {
+                                      "token": "ink.body"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "post-1-dek",
+                            "kind": {
+                              "type": "text",
+                              "tag": "p",
+                              "content": "What sodium light does to skin, stone and patience, and why I stopped carrying a tripod."
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.small",
+                                    "color": {
+                                      "token": "ink.muted"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "decoration": "none"
+                              },
+                              "display": "flex",
+                              "flex": {
+                                "direction": "column",
+                                "gap": {
+                                  "px": 16.0
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "post-2",
+                        "kind": {
+                          "type": "link",
+                          "href": "/journal/concrete-hours",
+                          "target": "same"
+                        },
+                        "children": [
+                          {
+                            "id": "post-2-media",
+                            "kind": {
+                              "type": "frame"
+                            },
+                            "children": [
+                              {
+                                "id": "post-2-img",
+                                "kind": {
+                                  "type": "image",
+                                  "src": "assets/images/stairs.webp",
+                                  "alt": ""
+                                },
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "display": "block",
+                                      "size": {
+                                        "width": {
+                                          "percent": 100.0
+                                        }
+                                      },
+                                      "objectFit": "cover",
+                                      "aspectRatio": {
+                                        "ratio": {
+                                          "width": 4.0,
+                                          "height": 3.0
+                                        }
+                                      },
+                                      "radius": {
+                                        "token": "radius.none"
+                                      },
+                                      "transition": {
+                                        "duration": 700,
+                                        "easing": "easeOut",
+                                        "properties": [
+                                          "transform"
+                                        ]
+                                      }
+                                    },
+                                    "hover": {
+                                      "custom": {
+                                        "transform": "scale(1.03)"
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            ],
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "overflow": "hidden"
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "post-2-meta",
+                            "kind": {
+                              "type": "frame"
+                            },
+                            "children": [
+                              {
+                                "id": "post-2-tag",
+                                "kind": {
+                                  "type": "text",
+                                  "tag": "span",
+                                  "content": "Process"
+                                },
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "typography": {
+                                        "token": "type.eyebrow",
+                                        "color": {
+                                          "token": "ink.accent"
+                                        },
+                                        "transform": "uppercase"
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              {
+                                "id": "post-2-date",
+                                "kind": {
+                                  "type": "text",
+                                  "tag": "span",
+                                  "content": "Aug 29, 2026"
+                                },
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "typography": {
+                                        "token": "type.eyebrow",
+                                        "color": {
+                                          "token": "ink.faint"
+                                        },
+                                        "transform": "uppercase"
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            ],
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "display": "flex",
+                                  "flex": {
+                                    "direction": "row",
+                                    "gap": {
+                                      "px": 12.0
+                                    },
+                                    "align": "center",
+                                    "wrap": true,
+                                    "justify": "spaceBetween"
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "post-2-title",
+                            "kind": {
+                              "type": "text",
+                              "tag": "h3",
+                              "content": "One stairwell, one afternoon"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.subtitle",
+                                    "color": {
+                                      "token": "ink.body"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "post-2-dek",
+                            "kind": {
+                              "type": "text",
+                              "tag": "p",
+                              "content": "Behind the Concrete Hours commission: sixty frames, one shaft of light, no retouching."
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.small",
+                                    "color": {
+                                      "token": "ink.muted"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "decoration": "none"
+                              },
+                              "display": "flex",
+                              "flex": {
+                                "direction": "column",
+                                "gap": {
+                                  "px": 16.0
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "post-3",
+                        "kind": {
+                          "type": "link",
+                          "href": "/journal/being-still",
+                          "target": "same"
+                        },
+                        "children": [
+                          {
+                            "id": "post-3-media",
+                            "kind": {
+                              "type": "frame"
+                            },
+                            "children": [
+                              {
+                                "id": "post-3-img",
+                                "kind": {
+                                  "type": "image",
+                                  "src": "assets/images/portrait.webp",
+                                  "alt": ""
+                                },
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "display": "block",
+                                      "size": {
+                                        "width": {
+                                          "percent": 100.0
+                                        }
+                                      },
+                                      "objectFit": "cover",
+                                      "aspectRatio": {
+                                        "ratio": {
+                                          "width": 4.0,
+                                          "height": 3.0
+                                        }
+                                      },
+                                      "radius": {
+                                        "token": "radius.none"
+                                      },
+                                      "transition": {
+                                        "duration": 700,
+                                        "easing": "easeOut",
+                                        "properties": [
+                                          "transform"
+                                        ]
+                                      }
+                                    },
+                                    "hover": {
+                                      "custom": {
+                                        "transform": "scale(1.03)"
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            ],
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "overflow": "hidden"
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "post-3-meta",
+                            "kind": {
+                              "type": "frame"
+                            },
+                            "children": [
+                              {
+                                "id": "post-3-tag",
+                                "kind": {
+                                  "type": "text",
+                                  "tag": "span",
+                                  "content": "Sitters"
+                                },
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "typography": {
+                                        "token": "type.eyebrow",
+                                        "color": {
+                                          "token": "ink.accent"
+                                        },
+                                        "transform": "uppercase"
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              {
+                                "id": "post-3-date",
+                                "kind": {
+                                  "type": "text",
+                                  "tag": "span",
+                                  "content": "Aug 2, 2026"
+                                },
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "typography": {
+                                        "token": "type.eyebrow",
+                                        "color": {
+                                          "token": "ink.faint"
+                                        },
+                                        "transform": "uppercase"
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            ],
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "display": "flex",
+                                  "flex": {
+                                    "direction": "row",
+                                    "gap": {
+                                      "px": 12.0
+                                    },
+                                    "align": "center",
+                                    "wrap": true,
+                                    "justify": "spaceBetween"
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "post-3-title",
+                            "kind": {
+                              "type": "text",
+                              "tag": "h3",
+                              "content": "On asking people to be still"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.subtitle",
+                                    "color": {
+                                      "token": "ink.body"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "post-3-dek",
+                            "kind": {
+                              "type": "text",
+                              "tag": "p",
+                              "content": "The first ten minutes of every portrait are for talking. The picture usually arrives after."
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.small",
+                                    "color": {
+                                      "token": "ink.muted"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "decoration": "none"
+                              },
+                              "display": "flex",
+                              "flex": {
+                                "direction": "column",
+                                "gap": {
+                                  "px": 16.0
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "post-4",
+                        "kind": {
+                          "type": "link",
+                          "href": "/journal/erg",
+                          "target": "same"
+                        },
+                        "children": [
+                          {
+                            "id": "post-4-media",
+                            "kind": {
+                              "type": "frame"
+                            },
+                            "children": [
+                              {
+                                "id": "post-4-img",
+                                "kind": {
+                                  "type": "image",
+                                  "src": "assets/images/dunes.webp",
+                                  "alt": ""
+                                },
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "display": "block",
+                                      "size": {
+                                        "width": {
+                                          "percent": 100.0
+                                        }
+                                      },
+                                      "objectFit": "cover",
+                                      "aspectRatio": {
+                                        "ratio": {
+                                          "width": 4.0,
+                                          "height": 3.0
+                                        }
+                                      },
+                                      "radius": {
+                                        "token": "radius.none"
+                                      },
+                                      "transition": {
+                                        "duration": 700,
+                                        "easing": "easeOut",
+                                        "properties": [
+                                          "transform"
+                                        ]
+                                      }
+                                    },
+                                    "hover": {
+                                      "custom": {
+                                        "transform": "scale(1.03)"
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            ],
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "overflow": "hidden"
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "post-4-meta",
+                            "kind": {
+                              "type": "frame"
+                            },
+                            "children": [
+                              {
+                                "id": "post-4-tag",
+                                "kind": {
+                                  "type": "text",
+                                  "tag": "span",
+                                  "content": "Field notes"
+                                },
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "typography": {
+                                        "token": "type.eyebrow",
+                                        "color": {
+                                          "token": "ink.accent"
+                                        },
+                                        "transform": "uppercase"
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              {
+                                "id": "post-4-date",
+                                "kind": {
+                                  "type": "text",
+                                  "tag": "span",
+                                  "content": "Jul 11, 2026"
+                                },
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "typography": {
+                                        "token": "type.eyebrow",
+                                        "color": {
+                                          "token": "ink.faint"
+                                        },
+                                        "transform": "uppercase"
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            ],
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "display": "flex",
+                                  "flex": {
+                                    "direction": "row",
+                                    "gap": {
+                                      "px": 12.0
+                                    },
+                                    "align": "center",
+                                    "wrap": true,
+                                    "justify": "spaceBetween"
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "post-4-title",
+                            "kind": {
+                              "type": "text",
+                              "tag": "h3",
+                              "content": "Four hundred metres above the erg"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.subtitle",
+                                    "color": {
+                                      "token": "ink.body"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "post-4-dek",
+                            "kind": {
+                              "type": "text",
+                              "tag": "p",
+                              "content": "Shooting dunes from a light aircraft, and the one lens that survived the sand."
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.small",
+                                    "color": {
+                                      "token": "ink.muted"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "decoration": "none"
+                              },
+                              "display": "flex",
+                              "flex": {
+                                "direction": "column",
+                                "gap": {
+                                  "px": 16.0
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "post-5",
+                        "kind": {
+                          "type": "link",
+                          "href": "/journal/no-flash",
+                          "target": "same"
+                        },
+                        "children": [
+                          {
+                            "id": "post-5-media",
+                            "kind": {
+                              "type": "frame"
+                            },
+                            "children": [
+                              {
+                                "id": "post-5-img",
+                                "kind": {
+                                  "type": "image",
+                                  "src": "assets/images/lantern.webp",
+                                  "alt": ""
+                                },
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "display": "block",
+                                      "size": {
+                                        "width": {
+                                          "percent": 100.0
+                                        }
+                                      },
+                                      "objectFit": "cover",
+                                      "aspectRatio": {
+                                        "ratio": {
+                                          "width": 4.0,
+                                          "height": 3.0
+                                        }
+                                      },
+                                      "radius": {
+                                        "token": "radius.none"
+                                      },
+                                      "transition": {
+                                        "duration": 700,
+                                        "easing": "easeOut",
+                                        "properties": [
+                                          "transform"
+                                        ]
+                                      }
+                                    },
+                                    "hover": {
+                                      "custom": {
+                                        "transform": "scale(1.03)"
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            ],
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "overflow": "hidden"
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "post-5-meta",
+                            "kind": {
+                              "type": "frame"
+                            },
+                            "children": [
+                              {
+                                "id": "post-5-tag",
+                                "kind": {
+                                  "type": "text",
+                                  "tag": "span",
+                                  "content": "Weddings"
+                                },
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "typography": {
+                                        "token": "type.eyebrow",
+                                        "color": {
+                                          "token": "ink.accent"
+                                        },
+                                        "transform": "uppercase"
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              {
+                                "id": "post-5-date",
+                                "kind": {
+                                  "type": "text",
+                                  "tag": "span",
+                                  "content": "Jun 20, 2026"
+                                },
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "typography": {
+                                        "token": "type.eyebrow",
+                                        "color": {
+                                          "token": "ink.faint"
+                                        },
+                                        "transform": "uppercase"
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            ],
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "display": "flex",
+                                  "flex": {
+                                    "direction": "row",
+                                    "gap": {
+                                      "px": 12.0
+                                    },
+                                    "align": "center",
+                                    "wrap": true,
+                                    "justify": "spaceBetween"
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "post-5-title",
+                            "kind": {
+                              "type": "text",
+                              "tag": "h3",
+                              "content": "Why I don’t use flash at weddings"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.subtitle",
+                                    "color": {
+                                      "token": "ink.body"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "post-5-dek",
+                            "kind": {
+                              "type": "text",
+                              "tag": "p",
+                              "content": "Candlelight, a fast lens and trusting the dark: notes for couples planning an evening ceremony."
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.small",
+                                    "color": {
+                                      "token": "ink.muted"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "decoration": "none"
+                              },
+                              "display": "flex",
+                              "flex": {
+                                "direction": "column",
+                                "gap": {
+                                  "px": 16.0
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "post-6",
+                        "kind": {
+                          "type": "link",
+                          "href": "/journal/darkroom",
+                          "target": "same"
+                        },
+                        "children": [
+                          {
+                            "id": "post-6-media",
+                            "kind": {
+                              "type": "frame"
+                            },
+                            "children": [
+                              {
+                                "id": "post-6-img",
+                                "kind": {
+                                  "type": "image",
+                                  "src": "assets/images/photographer.webp",
+                                  "alt": ""
+                                },
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "display": "block",
+                                      "size": {
+                                        "width": {
+                                          "percent": 100.0
+                                        }
+                                      },
+                                      "objectFit": "cover",
+                                      "aspectRatio": {
+                                        "ratio": {
+                                          "width": 4.0,
+                                          "height": 3.0
+                                        }
+                                      },
+                                      "radius": {
+                                        "token": "radius.none"
+                                      },
+                                      "transition": {
+                                        "duration": 700,
+                                        "easing": "easeOut",
+                                        "properties": [
+                                          "transform"
+                                        ]
+                                      }
+                                    },
+                                    "hover": {
+                                      "custom": {
+                                        "transform": "scale(1.03)"
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            ],
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "overflow": "hidden"
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "post-6-meta",
+                            "kind": {
+                              "type": "frame"
+                            },
+                            "children": [
+                              {
+                                "id": "post-6-tag",
+                                "kind": {
+                                  "type": "text",
+                                  "tag": "span",
+                                  "content": "Studio"
+                                },
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "typography": {
+                                        "token": "type.eyebrow",
+                                        "color": {
+                                          "token": "ink.accent"
+                                        },
+                                        "transform": "uppercase"
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              {
+                                "id": "post-6-date",
+                                "kind": {
+                                  "type": "text",
+                                  "tag": "span",
+                                  "content": "May 30, 2026"
+                                },
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "typography": {
+                                        "token": "type.eyebrow",
+                                        "color": {
+                                          "token": "ink.faint"
+                                        },
+                                        "transform": "uppercase"
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            ],
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "display": "flex",
+                                  "flex": {
+                                    "direction": "row",
+                                    "gap": {
+                                      "px": 12.0
+                                    },
+                                    "align": "center",
+                                    "wrap": true,
+                                    "justify": "spaceBetween"
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "post-6-title",
+                            "kind": {
+                              "type": "text",
+                              "tag": "h3",
+                              "content": "The darkroom is still open"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.subtitle",
+                                    "color": {
+                                      "token": "ink.body"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "post-6-dek",
+                            "kind": {
+                              "type": "text",
+                              "tag": "p",
+                              "content": "Printing silver gelatin in 2026, and why every client now gets one real print."
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.small",
+                                    "color": {
+                                      "token": "ink.muted"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "decoration": "none"
+                              },
+                              "display": "flex",
+                              "flex": {
+                                "direction": "column",
+                                "gap": {
+                                  "px": 16.0
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "grid",
+                          "grid": {
+                            "columns": 1,
+                            "gap": {
+                              "px": 56.0
+                            }
+                          }
+                        }
+                      },
+                      "md": {
+                        "base": {
+                          "grid": {
+                            "columns": 2,
+                            "gap": {
+                              "px": 40.0
+                            }
+                          }
+                        }
+                      },
+                      "lg": {
+                        "base": {
+                          "grid": {
+                            "columns": 3,
+                            "gap": {
+                              "px": 40.0
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "px": 48.0
+                        }
+                      },
+                      "size": {
+                        "maxWidth": {
+                          "px": 1440.0
+                        },
+                        "width": {
+                          "percent": 100.0
+                        }
+                      },
+                      "spacing": {
+                        "margin": {
+                          "left": {
+                            "raw": "auto"
+                          },
+                          "right": {
+                            "raw": "auto"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            ],
+            "styles": {
+              "base": {
+                "base": {
+                  "background": {
+                    "token": "surface.page"
+                  },
+                  "spacing": {
+                    "padding": {
+                      "top": {
+                        "token": "space.8"
+                      },
+                      "bottom": {
+                        "token": "space.section"
+                      },
+                      "left": {
+                        "token": "space.gutter"
+                      },
+                      "right": {
+                        "token": "space.gutter"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": "cta",
+            "kind": {
+              "type": "frame",
+              "element": "section"
+            },
+            "children": [
+              {
+                "id": "cta-inner",
+                "kind": {
+                  "type": "frame"
+                },
+                "children": [
+                  {
+                    "id": "cta-copy",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "children": [
+                      {
+                        "id": "cta-eyebrow",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "Now booking"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.eyebrow",
+                                "color": {
+                                  "token": "ink.accent"
+                                },
+                                "transform": "uppercase"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "cta-title",
+                        "kind": {
+                          "type": "text",
+                          "tag": "h2",
+                          "content": "One letter a season."
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.title",
+                                "color": {
+                                  "token": "ink.body"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "bindings": {
+                          "content": "heading"
+                        }
+                      },
+                      {
+                        "id": "cta-body",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "New work, print releases and workshop dates, four times a year. Never more."
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.lead",
+                                "color": {
+                                  "token": "ink.inverse.muted"
+                                }
+                              },
+                              "size": {
+                                "maxWidth": {
+                                  "px": 560.0
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "bindings": {
+                          "content": "body"
+                        }
+                      },
+                      {
+                        "id": "cta-btn",
+                        "kind": {
+                          "type": "button",
+                          "label": "Subscribe",
+                          "href": "/contact",
+                          "target": "same"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "inlineBlock",
+                              "background": {
+                                "token": "surface.accent"
+                              },
+                              "radius": {
+                                "token": "radius.sm"
+                              },
+                              "size": {
+                                "width": {
+                                  "raw": "fit-content"
+                                }
+                              },
+                              "spacing": {
+                                "padding": {
+                                  "top": {
+                                    "px": 17.0
+                                  },
+                                  "right": {
+                                    "px": 30.0
+                                  },
+                                  "bottom": {
+                                    "px": 17.0
+                                  },
+                                  "left": {
+                                    "px": 30.0
+                                  }
+                                }
+                              },
+                              "typography": {
+                                "token": "type.button",
+                                "color": {
+                                  "token": "ink.on-accent"
+                                },
+                                "decoration": "none",
+                                "transform": "uppercase"
+                              },
+                              "transition": {
+                                "duration": 200,
+                                "easing": "easeOut",
+                                "properties": [
+                                  "backgroundColor",
+                                  "transform",
+                                  "boxShadow"
+                                ]
+                              }
+                            },
+                            "hover": {
+                              "background": {
+                                "token": "brand.primary.hover"
+                              },
+                              "custom": {
+                                "transform": "translateY(-2px)"
+                              }
+                            }
+                          }
+                        },
+                        "bindings": {
+                          "label": "ctaLabel",
+                          "href": "ctaHref"
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "column",
+                            "gap": {
+                              "px": 24.0
+                            }
+                          },
+                          "size": {
+                            "maxWidth": {
+                              "px": 720.0
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "size": {
+                        "maxWidth": {
+                          "px": 1440.0
+                        },
+                        "width": {
+                          "percent": 100.0
+                        }
+                      },
+                      "spacing": {
+                        "margin": {
+                          "left": {
+                            "raw": "auto"
+                          },
+                          "right": {
+                            "raw": "auto"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            ],
+            "styles": {
+              "base": {
+                "base": {
+                  "background": {
+                    "token": "surface.page"
+                  },
+                  "custom": {
+                    "background-image": "linear-gradient(90deg, rgb(11 11 12 / 0.96) 0%, rgb(11 11 12 / 0.8) 45%, rgb(11 11 12 / 0.2) 100%), url(assets/images/shore.webp)",
+                    "background-size": "cover",
+                    "background-position": "center right"
+                  },
+                  "border": {
+                    "top": {
+                      "width": {
+                        "px": 1.0
+                      },
+                      "style": "solid",
+                      "color": {
+                        "token": "line.hairline"
+                      }
+                    }
+                  },
+                  "spacing": {
+                    "padding": {
+                      "top": {
+                        "token": "space.section"
+                      },
+                      "bottom": {
+                        "token": "space.section"
+                      },
+                      "left": {
+                        "token": "space.gutter"
+                      },
+                      "right": {
+                        "token": "space.gutter"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "footer",
+        "kind": {
+          "type": "frame",
+          "element": "footer"
+        },
+        "children": [
+          {
+            "id": "footer-inner",
+            "kind": {
+              "type": "frame"
+            },
+            "children": [
+              {
+                "id": "footer-big",
+                "kind": {
+                  "type": "link",
+                  "href": "/contact",
+                  "target": "same"
+                },
+                "children": [
+                  {
+                    "id": "footer-big-1",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "Let’s make"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.hero",
+                            "color": {
+                              "token": "ink.body"
+                            }
+                          },
+                          "display": "block"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "footer-big-2",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "something quiet."
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.hero",
+                            "color": {
+                              "token": "ink.accent"
+                            }
+                          },
+                          "display": "block",
+                          "custom": {
+                            "font-style": "italic"
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "decoration": "none"
+                      },
+                      "display": "block",
+                      "transition": {
+                        "duration": 300,
+                        "properties": [
+                          "opacity"
+                        ]
+                      }
+                    },
+                    "hover": {
+                      "opacity": 0.8
+                    }
+                  }
+                }
+              },
+              {
+                "id": "footer-rule",
+                "kind": {
+                  "type": "frame"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "size": {
+                        "height": {
+                          "px": 1.0
+                        },
+                        "width": {
+                          "percent": 100.0
+                        }
+                      },
+                      "background": {
+                        "token": "line.hairline"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "footer-cols",
+                "kind": {
+                  "type": "frame"
+                },
+                "children": [
+                  {
+                    "id": "footer-c1",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "children": [
+                      {
+                        "id": "footer-c1-t",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "Studio"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.eyebrow",
+                                "color": {
+                                  "token": "ink.faint"
+                                },
+                                "transform": "uppercase"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "footer-c1-0",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Studio 4, Kelder Works"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.muted"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "footer-c1-1",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Harrow Lane, Norwick"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.muted"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "footer-c1-2",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "By appointment"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.muted"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "column",
+                            "gap": {
+                              "px": 10.0
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "footer-c2",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "children": [
+                      {
+                        "id": "footer-c2-t",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "Contact"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.eyebrow",
+                                "color": {
+                                  "token": "ink.faint"
+                                },
+                                "transform": "uppercase"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "footer-c2-0",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "studio@maraellison.example"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.muted"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "footer-c2-1",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "+44 20 7946 0321"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.muted"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "footer-c2-2",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Represented by Northlight Agency"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.muted"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "column",
+                            "gap": {
+                              "px": 10.0
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "footer-c3",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "children": [
+                      {
+                        "id": "footer-c3-t",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "Elsewhere"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.eyebrow",
+                                "color": {
+                                  "token": "ink.faint"
+                                },
+                                "transform": "uppercase"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "footer-c3-0",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Journal"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.muted"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "footer-c3-1",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Print shop"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.muted"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "footer-c3-2",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Newsletter"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.muted"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "column",
+                            "gap": {
+                              "px": 10.0
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "grid",
+                      "grid": {
+                        "columns": 1,
+                        "gap": {
+                          "px": 32.0
+                        }
+                      }
+                    }
+                  },
+                  "md": {
+                    "base": {
+                      "grid": {
+                        "columns": 3,
+                        "gap": {
+                          "px": 48.0
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "footer-legal",
+                "kind": {
+                  "type": "frame"
+                },
+                "children": [
+                  {
+                    "id": "footer-copy",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "© 2026 Mara Ellison. All photographs by the studio."
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.eyebrow",
+                            "color": {
+                              "token": "ink.faint"
+                            },
+                            "transform": "uppercase"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "footer-top",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "Made in the dark"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.eyebrow",
+                            "color": {
+                              "token": "ink.faint"
+                            },
+                            "transform": "uppercase"
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "row",
+                        "gap": {
+                          "px": 16.0
+                        },
+                        "align": "center",
+                        "wrap": true,
+                        "justify": "spaceBetween"
+                      }
+                    }
+                  }
+                }
+              }
+            ],
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "flex",
+                  "flex": {
+                    "direction": "column",
+                    "gap": {
+                      "px": 56.0
+                    }
+                  },
+                  "size": {
+                    "maxWidth": {
+                      "px": 1440.0
+                    },
+                    "width": {
+                      "percent": 100.0
+                    }
+                  },
+                  "spacing": {
+                    "margin": {
+                      "left": {
+                        "raw": "auto"
+                      },
+                      "right": {
+                        "raw": "auto"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "styles": {
+          "base": {
+            "base": {
+              "background": {
+                "token": "surface.deep"
+              },
+              "spacing": {
+                "padding": {
+                  "top": {
+                    "token": "space.24"
+                  },
+                  "bottom": {
+                    "token": "space.12"
+                  },
+                  "left": {
+                    "token": "space.gutter"
+                  },
+                  "right": {
+                    "token": "space.gutter"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "styles": {
+      "base": {
+        "base": {
+          "background": {
+            "token": "surface.page"
+          },
+          "typography": {
+            "token": "type.body",
+            "color": {
+              "token": "ink.body"
+            }
+          },
+          "custom": {
+            "-webkit-font-smoothing": "antialiased",
+            "position": "relative"
+          }
+        }
+      }
+    }
+  }
+}

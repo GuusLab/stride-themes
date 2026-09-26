@@ -1,0 +1,212 @@
+{
+  "id": "nightfall-statement",
+  "name": "Nightfall · Statement",
+  "root": {
+    "id": "statement",
+    "kind": {
+      "type": "frame",
+      "element": "section"
+    },
+    "children": [
+      {
+        "id": "statement-grid",
+        "kind": {
+          "type": "frame"
+        },
+        "children": [
+          {
+            "id": "statement-idx",
+            "kind": {
+              "type": "text",
+              "tag": "span",
+              "content": "(About)"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "typography": {
+                    "token": "type.eyebrow",
+                    "color": {
+                      "token": "ink.accent"
+                    },
+                    "transform": "uppercase"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": "statement-copy",
+            "kind": {
+              "type": "frame"
+            },
+            "children": [
+              {
+                "id": "statement-text",
+                "kind": {
+                  "type": "text",
+                  "tag": "p",
+                  "content": "I don’t chase the picture. I wait for the light to arrive, and for people to forget I’m there. The result is work that feels less taken than found."
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.statement",
+                        "color": {
+                          "token": "ink.body"
+                        }
+                      }
+                    }
+                  }
+                },
+                "bindings": {
+                  "content": "body"
+                }
+              },
+              {
+                "id": "statement-link",
+                "kind": {
+                  "type": "link",
+                  "href": "/about",
+                  "target": "same"
+                },
+                "children": [
+                  {
+                    "id": "statement-link-label",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "More about the studio"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.eyebrow",
+                            "color": {
+                              "token": "ink.accent"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "decoration": "underline",
+                        "color": {
+                          "token": "ink.accent"
+                        }
+                      },
+                      "custom": {
+                        "text-underline-offset": "8px",
+                        "text-decoration-thickness": "1px",
+                        "text-transform": "uppercase"
+                      }
+                    },
+                    "hover": {
+                      "opacity": 0.75
+                    }
+                  }
+                }
+              }
+            ],
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "flex",
+                  "flex": {
+                    "direction": "column",
+                    "gap": {
+                      "px": 36.0
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "styles": {
+          "base": {
+            "base": {
+              "display": "grid",
+              "grid": {
+                "columns": 1,
+                "gap": {
+                  "px": 24.0
+                }
+              },
+              "size": {
+                "maxWidth": {
+                  "px": 1440.0
+                },
+                "width": {
+                  "percent": 100.0
+                }
+              },
+              "spacing": {
+                "margin": {
+                  "left": {
+                    "raw": "auto"
+                  },
+                  "right": {
+                    "raw": "auto"
+                  }
+                }
+              }
+            }
+          },
+          "md": {
+            "base": {
+              "grid": {
+                "templateColumns": "1fr 3fr",
+                "gap": {
+                  "px": 48.0
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "styles": {
+      "base": {
+        "base": {
+          "background": {
+            "token": "surface.page"
+          },
+          "spacing": {
+            "padding": {
+              "top": {
+                "token": "space.section"
+              },
+              "bottom": {
+                "token": "space.section"
+              },
+              "left": {
+                "token": "space.gutter"
+              },
+              "right": {
+                "token": "space.gutter"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "props": [
+    {
+      "name": "body",
+      "label": "Statement",
+      "kind": {
+        "type": "longText"
+      },
+      "default": "I don’t chase the picture. I wait for the light to arrive, and for people to forget I’m there."
+    }
+  ]
+}

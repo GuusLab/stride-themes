@@ -1,0 +1,291 @@
+{
+  "id": "grove-blog-card",
+  "name": "Grove / Journal card",
+  "root": {
+    "id": "bc",
+    "kind": {
+      "type": "frame",
+      "element": "article"
+    },
+    "styles": {
+      "base": {
+        "base": {
+          "display": "flex",
+          "flex": {
+            "direction": "column",
+            "gap": {
+              "px": 14.0
+            }
+          }
+        }
+      }
+    },
+    "children": [
+      {
+        "id": "bc-imglink",
+        "kind": {
+          "type": "link",
+          "href": "/journal/breathing-for-sleep",
+          "target": "same"
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "display": "block",
+              "overflow": "hidden",
+              "radius": {
+                "token": "radius.lg"
+              },
+              "typography": {
+                "decoration": "none",
+                "color": {
+                  "token": "ink.body"
+                }
+              }
+            }
+          }
+        },
+        "bindings": {
+          "href": "href"
+        },
+        "children": [
+          {
+            "id": "bc-img",
+            "kind": {
+              "type": "image",
+              "src": "assets/images/ritual.jpg",
+              "alt": "Herbal tea and sage on a plaster surface"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "size": {
+                    "width": {
+                      "percent": 100.0
+                    },
+                    "height": {
+                      "px": 260.0
+                    }
+                  },
+                  "objectFit": "cover",
+                  "radius": {
+                    "token": "radius.lg"
+                  },
+                  "transition": {
+                    "duration": 400,
+                    "properties": [
+                      "transform"
+                    ]
+                  }
+                },
+                "hover": {
+                  "custom": {
+                    "transform": "scale(1.02)"
+                  }
+                }
+              }
+            },
+            "bindings": {
+              "src": "imageSrc",
+              "alt": "imageAlt"
+            }
+          }
+        ]
+      },
+      {
+        "id": "bc-meta",
+        "kind": {
+          "type": "frame",
+          "element": "div"
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "display": "flex",
+              "flex": {
+                "direction": "row",
+                "gap": {
+                  "px": 10.0
+                },
+                "align": "center"
+              }
+            }
+          }
+        },
+        "children": [
+          {
+            "id": "bc-cat",
+            "kind": {
+              "type": "text",
+              "tag": "span",
+              "content": "Breath"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "typography": {
+                    "token": "type.eyebrow",
+                    "color": {
+                      "token": "brand.strong"
+                    },
+                    "transform": "uppercase"
+                  }
+                }
+              }
+            },
+            "bindings": {
+              "content": "category"
+            }
+          },
+          {
+            "id": "bc-dot",
+            "kind": {
+              "type": "text",
+              "tag": "span",
+              "content": "·"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "typography": {
+                    "token": "type.small",
+                    "color": {
+                      "token": "ink.muted"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": "bc-read",
+            "kind": {
+              "type": "text",
+              "tag": "span",
+              "content": "5 min read"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "typography": {
+                    "token": "type.small",
+                    "color": {
+                      "token": "ink.muted"
+                    }
+                  }
+                }
+              }
+            },
+            "bindings": {
+              "content": "readTime"
+            }
+          }
+        ]
+      },
+      {
+        "id": "bc-title",
+        "kind": {
+          "type": "text",
+          "tag": "h3",
+          "content": "A four-minute breath for nights you can't switch off"
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "typography": {
+                "token": "type.subtitle",
+                "color": {
+                  "token": "ink.body"
+                }
+              }
+            }
+          }
+        },
+        "bindings": {
+          "content": "title"
+        }
+      },
+      {
+        "id": "bc-excerpt",
+        "kind": {
+          "type": "text",
+          "tag": "p",
+          "content": "The simplest thing we teach, and the one students thank us for most. Here's how to do it lying down, lights off."
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "typography": {
+                "token": "type.body",
+                "color": {
+                  "token": "ink.muted"
+                }
+              }
+            }
+          }
+        },
+        "bindings": {
+          "content": "excerpt"
+        }
+      }
+    ]
+  },
+  "props": [
+    {
+      "name": "imageSrc",
+      "label": "Cover image",
+      "kind": {
+        "type": "image"
+      },
+      "default": "assets/images/ritual.jpg"
+    },
+    {
+      "name": "imageAlt",
+      "label": "Cover alt text",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Herbal tea and sage on a plaster surface"
+    },
+    {
+      "name": "href",
+      "label": "Post link",
+      "kind": {
+        "type": "url"
+      },
+      "default": "/journal/breathing-for-sleep"
+    },
+    {
+      "name": "category",
+      "label": "Category",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Breath"
+    },
+    {
+      "name": "readTime",
+      "label": "Read time",
+      "kind": {
+        "type": "text"
+      },
+      "default": "5 min read"
+    },
+    {
+      "name": "title",
+      "label": "Title",
+      "kind": {
+        "type": "text"
+      },
+      "default": "A four-minute breath for nights you can't switch off"
+    },
+    {
+      "name": "excerpt",
+      "label": "Excerpt",
+      "kind": {
+        "type": "longText"
+      },
+      "default": "The simplest thing we teach, and the one students thank us for most. Here's how to do it lying down, lights off."
+    }
+  ]
+}

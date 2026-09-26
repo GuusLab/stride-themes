@@ -1,0 +1,304 @@
+{
+  "id": "pulse-logos",
+  "name": "Pulse logos strip",
+  "root": {
+    "id": "pulse-logos",
+    "kind": {
+      "type": "frame",
+      "element": "section"
+    },
+    "styles": {
+      "base": {
+        "base": {
+          "background": {
+            "token": "surface.page"
+          },
+          "spacing": {
+            "padding": {
+              "top": {
+                "token": "space.12"
+              },
+              "bottom": {
+                "token": "space.12"
+              },
+              "left": {
+                "token": "space.gutter"
+              },
+              "right": {
+                "token": "space.gutter"
+              }
+            }
+          },
+          "border": {
+            "top": {
+              "width": {
+                "px": 1
+              },
+              "style": "solid",
+              "color": {
+                "token": "line.subtle"
+              }
+            },
+            "bottom": {
+              "width": {
+                "px": 1
+              },
+              "style": "solid",
+              "color": {
+                "token": "line.subtle"
+              }
+            }
+          }
+        }
+      }
+    },
+    "children": [
+      {
+        "id": "logos-inner",
+        "kind": {
+          "type": "frame"
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "display": "flex",
+              "flex": {
+                "direction": "column",
+                "gap": {
+                  "token": "space.8"
+                }
+              },
+              "size": {
+                "maxWidth": {
+                  "token": "space.measure"
+                },
+                "width": {
+                  "percent": 100
+                }
+              },
+              "spacing": {
+                "margin": {
+                  "left": {
+                    "raw": "auto"
+                  },
+                  "right": {
+                    "raw": "auto"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "children": [
+          {
+            "id": "logos-title",
+            "kind": {
+              "type": "text",
+              "tag": "p",
+              "content": "Trusted by product teams at 2,400 companies"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "typography": {
+                    "token": "type.small",
+                    "color": {
+                      "token": "ink.muted"
+                    },
+                    "align": "center"
+                  }
+                }
+              }
+            },
+            "bindings": {
+              "content": "title"
+            }
+          },
+          {
+            "id": "logos-row",
+            "kind": {
+              "type": "columns",
+              "count": 6
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "grid",
+                  "grid": {
+                    "columns": 2,
+                    "gap": {
+                      "token": "space.8"
+                    }
+                  }
+                }
+              },
+              "md": {
+                "base": {
+                  "display": "grid",
+                  "grid": {
+                    "columns": 3
+                  }
+                }
+              },
+              "lg": {
+                "base": {
+                  "display": "grid",
+                  "grid": {
+                    "columns": 6
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "logo-1",
+                "kind": {
+                  "type": "text",
+                  "tag": "span",
+                  "content": "Northbeam"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.wordmark",
+                        "color": {
+                          "token": "ink.muted"
+                        },
+                        "align": "center"
+                      },
+                      "opacity": 0.8
+                    }
+                  }
+                }
+              },
+              {
+                "id": "logo-2",
+                "kind": {
+                  "type": "text",
+                  "tag": "span",
+                  "content": "Halcyon"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.wordmark",
+                        "color": {
+                          "token": "ink.muted"
+                        },
+                        "align": "center"
+                      },
+                      "opacity": 0.8
+                    }
+                  }
+                }
+              },
+              {
+                "id": "logo-3",
+                "kind": {
+                  "type": "text",
+                  "tag": "span",
+                  "content": "Quillstack"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.wordmark",
+                        "color": {
+                          "token": "ink.muted"
+                        },
+                        "align": "center"
+                      },
+                      "opacity": 0.8
+                    }
+                  }
+                }
+              },
+              {
+                "id": "logo-4",
+                "kind": {
+                  "type": "text",
+                  "tag": "span",
+                  "content": "Meridian"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.wordmark",
+                        "color": {
+                          "token": "ink.muted"
+                        },
+                        "align": "center"
+                      },
+                      "opacity": 0.8
+                    }
+                  }
+                }
+              },
+              {
+                "id": "logo-5",
+                "kind": {
+                  "type": "text",
+                  "tag": "span",
+                  "content": "Parcelly"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.wordmark",
+                        "color": {
+                          "token": "ink.muted"
+                        },
+                        "align": "center"
+                      },
+                      "opacity": 0.8
+                    }
+                  }
+                }
+              },
+              {
+                "id": "logo-6",
+                "kind": {
+                  "type": "text",
+                  "tag": "span",
+                  "content": "Oakfield"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.wordmark",
+                        "color": {
+                          "token": "ink.muted"
+                        },
+                        "align": "center"
+                      },
+                      "opacity": 0.8
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "props": {
+      "aria-label": "Customers"
+    }
+  },
+  "props": [
+    {
+      "name": "title",
+      "label": "Caption",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Trusted by product teams at 2,400 companies"
+    }
+  ]
+}

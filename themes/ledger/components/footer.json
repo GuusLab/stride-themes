@@ -1,0 +1,775 @@
+{
+  "id": "ledger-footer",
+  "name": "Ledger · Footer",
+  "root": {
+    "id": "footer",
+    "kind": {
+      "type": "frame",
+      "element": "footer"
+    },
+    "children": [
+      {
+        "id": "footer-inner",
+        "kind": {
+          "type": "frame"
+        },
+        "children": [
+          {
+            "id": "footer-grid",
+            "kind": {
+              "type": "frame"
+            },
+            "children": [
+              {
+                "id": "footer-about",
+                "kind": {
+                  "type": "frame"
+                },
+                "children": [
+                  {
+                    "id": "footer-brand",
+                    "kind": {
+                      "type": "link",
+                      "href": "/",
+                      "target": "same"
+                    },
+                    "children": [
+                      {
+                        "id": "footer-brand-row",
+                        "kind": {
+                          "type": "frame"
+                        },
+                        "children": [
+                          {
+                            "id": "footer-brand-mark",
+                            "kind": {
+                              "type": "frame"
+                            },
+                            "children": [
+                              {
+                                "id": "footer-brand-mark-t",
+                                "kind": {
+                                  "type": "text",
+                                  "tag": "span",
+                                  "content": "H/V"
+                                },
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "typography": {
+                                        "token": "type.eyebrow",
+                                        "color": {
+                                          "token": "ink.inverse"
+                                        },
+                                        "letterSpacing": {
+                                          "raw": "0.02em"
+                                        },
+                                        "weight": 700
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            ],
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "display": "flex",
+                                  "flex": {
+                                    "align": "center",
+                                    "justify": "center"
+                                  },
+                                  "size": {
+                                    "width": {
+                                      "px": 38.0
+                                    },
+                                    "height": {
+                                      "px": 38.0
+                                    }
+                                  },
+                                  "radius": {
+                                    "token": "radius.sm"
+                                  },
+                                  "background": {
+                                    "token": "surface.accent"
+                                  },
+                                  "border": {
+                                    "bottom": {
+                                      "width": {
+                                        "px": 3.0
+                                      },
+                                      "style": "solid",
+                                      "color": {
+                                        "token": "surface.warm"
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "footer-brand-name",
+                            "kind": {
+                              "type": "text",
+                              "tag": "span",
+                              "content": "Halden & Vorst"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.subtitle",
+                                    "color": {
+                                      "token": "ink.inverse"
+                                    },
+                                    "size": {
+                                      "rem": 1.1875
+                                    },
+                                    "letterSpacing": {
+                                      "raw": "-0.02em"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "flex",
+                              "flex": {
+                                "direction": "row",
+                                "gap": {
+                                  "px": 12.0
+                                },
+                                "align": "center",
+                                "wrap": false
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "decoration": "none"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "footer-blurb",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "Independent advisers in corporate law, finance and governance. Partner-led since 1998."
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "color": {
+                              "token": "ink.inverse.muted"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "px": 18.0
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "footer-col-1",
+                "kind": {
+                  "type": "frame"
+                },
+                "children": [
+                  {
+                    "id": "footer-col-1-t",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "Practice"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.eyebrow",
+                            "color": {
+                              "token": "ink.brass"
+                            },
+                            "transform": "uppercase"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "footer-col-1-0",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "Corporate & M&A"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "color": {
+                              "token": "ink.inverse"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "footer-col-1-1",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "Tax & structuring"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "color": {
+                              "token": "ink.inverse"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "footer-col-1-2",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "Disputes"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "color": {
+                              "token": "ink.inverse"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "footer-col-1-3",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "Governance"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "color": {
+                              "token": "ink.inverse"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "px": 10.0
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "footer-col-2",
+                "kind": {
+                  "type": "frame"
+                },
+                "children": [
+                  {
+                    "id": "footer-col-2-t",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "Firm"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.eyebrow",
+                            "color": {
+                              "token": "ink.brass"
+                            },
+                            "transform": "uppercase"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "footer-col-2-0",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "About"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "color": {
+                              "token": "ink.inverse"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "footer-col-2-1",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "Partners"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "color": {
+                              "token": "ink.inverse"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "footer-col-2-2",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "Case studies"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "color": {
+                              "token": "ink.inverse"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "footer-col-2-3",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "Careers"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "color": {
+                              "token": "ink.inverse"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "px": 10.0
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "footer-col-3",
+                "kind": {
+                  "type": "frame"
+                },
+                "children": [
+                  {
+                    "id": "footer-col-3-t",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "Offices"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.eyebrow",
+                            "color": {
+                              "token": "ink.brass"
+                            },
+                            "transform": "uppercase"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "footer-col-3-0",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "Amstel Quay 41, Amsterdam"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "color": {
+                              "token": "ink.inverse"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "footer-col-3-1",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "4 Clement Row, London"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "color": {
+                              "token": "ink.inverse"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "footer-col-3-2",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "+31 20 555 0190"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "color": {
+                              "token": "ink.inverse"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "footer-col-3-3",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "office@haldenvorst.example"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "color": {
+                              "token": "ink.inverse"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "px": 10.0
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            ],
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "grid",
+                  "grid": {
+                    "columns": 1,
+                    "gap": {
+                      "px": 40.0
+                    }
+                  }
+                }
+              },
+              "md": {
+                "base": {
+                  "grid": {
+                    "templateColumns": "1.4fr 1fr 1fr 1.3fr",
+                    "gap": {
+                      "px": 48.0
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": "footer-rule",
+            "kind": {
+              "type": "divider"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "border": {
+                    "top": {
+                      "width": {
+                        "px": 1.0
+                      },
+                      "style": "solid",
+                      "color": {
+                        "token": "line.inverse"
+                      }
+                    }
+                  },
+                  "spacing": {
+                    "margin": {
+                      "top": {
+                        "px": 0.0
+                      },
+                      "right": {
+                        "px": 0.0
+                      },
+                      "bottom": {
+                        "px": 0.0
+                      },
+                      "left": {
+                        "px": 0.0
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": "footer-legal",
+            "kind": {
+              "type": "frame"
+            },
+            "children": [
+              {
+                "id": "footer-copy",
+                "kind": {
+                  "type": "text",
+                  "tag": "p",
+                  "content": "© 2026 Halden & Vorst Advisory B.V. All rights reserved."
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.small",
+                        "color": {
+                          "token": "ink.inverse.muted"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "footer-note",
+                "kind": {
+                  "type": "text",
+                  "tag": "p",
+                  "content": "Privacy  ·  Terms of engagement  ·  Complaints procedure"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.small",
+                        "color": {
+                          "token": "ink.inverse.muted"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            ],
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "flex",
+                  "flex": {
+                    "direction": "row",
+                    "gap": {
+                      "px": 16.0
+                    },
+                    "align": "center",
+                    "wrap": true,
+                    "justify": "spaceBetween"
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "styles": {
+          "base": {
+            "base": {
+              "display": "flex",
+              "flex": {
+                "direction": "column",
+                "gap": {
+                  "px": 48.0
+                }
+              },
+              "size": {
+                "maxWidth": {
+                  "px": 1240.0
+                },
+                "width": {
+                  "percent": 100.0
+                }
+              },
+              "spacing": {
+                "margin": {
+                  "left": {
+                    "raw": "auto"
+                  },
+                  "right": {
+                    "raw": "auto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "styles": {
+      "base": {
+        "base": {
+          "background": {
+            "token": "surface.deep"
+          },
+          "spacing": {
+            "padding": {
+              "top": {
+                "px": 64.0
+              },
+              "right": {
+                "px": 20.0
+              },
+              "bottom": {
+                "px": 64.0
+              },
+              "left": {
+                "px": 20.0
+              }
+            }
+          }
+        }
+      },
+      "md": {
+        "base": {
+          "spacing": {
+            "padding": {
+              "top": {
+                "px": 88.0
+              },
+              "right": {
+                "px": 40.0
+              },
+              "bottom": {
+                "px": 88.0
+              },
+              "left": {
+                "px": 40.0
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "props": []
+}

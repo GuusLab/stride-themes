@@ -1,0 +1,471 @@
+{
+  "id": "atelier-footer",
+  "name": "Atelier · Footer",
+  "root": {
+    "id": "ft",
+    "kind": {
+      "type": "frame",
+      "element": "footer"
+    },
+    "styles": {
+      "base": {
+        "base": {
+          "background": {
+            "token": "surface.night"
+          },
+          "spacing": {
+            "padding": {
+              "top": {
+                "token": "space.24"
+              },
+              "bottom": {
+                "token": "space.8"
+              },
+              "left": {
+                "token": "space.gutter"
+              },
+              "right": {
+                "token": "space.gutter"
+              }
+            }
+          }
+        }
+      }
+    },
+    "children": [
+      {
+        "id": "ft-in",
+        "kind": {
+          "type": "frame",
+          "element": "div"
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "size": {
+                "maxWidth": {
+                  "px": 1320
+                },
+                "width": {
+                  "percent": 100
+                }
+              },
+              "spacing": {
+                "margin": {
+                  "left": {
+                    "raw": "auto"
+                  },
+                  "right": {
+                    "raw": "auto"
+                  }
+                }
+              },
+              "display": "flex",
+              "flex": {
+                "direction": "column",
+                "gap": {
+                  "token": "space.16"
+                }
+              }
+            }
+          }
+        },
+        "children": [
+          {
+            "id": "ft-top",
+            "kind": {
+              "type": "frame",
+              "element": "div"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "grid",
+                  "grid": {
+                    "templateColumns": "minmax(0, 1fr)",
+                    "gap": {
+                      "token": "space.12"
+                    }
+                  }
+                }
+              },
+              "md": {
+                "base": {
+                  "grid": {
+                    "templateColumns": "minmax(0, 7fr) minmax(0, 5fr)",
+                    "gap": {
+                      "token": "space.12"
+                    }
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "ft-big",
+                "kind": {
+                  "type": "link",
+                  "href": "mailto:studio@hollisvane.example",
+                  "target": "same"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.display",
+                        "color": {
+                          "token": "ink.inverse"
+                        },
+                        "decoration": "none"
+                      },
+                      "custom": {
+                        "text-wrap": "balance"
+                      },
+                      "transition": {
+                        "duration": 200,
+                        "properties": [
+                          "color"
+                        ]
+                      }
+                    },
+                    "hover": {
+                      "typography": {
+                        "color": {
+                          "token": "brand.primary"
+                        }
+                      }
+                    }
+                  }
+                },
+                "bindings": {
+                  "href": "emailHref"
+                },
+                "children": [
+                  {
+                    "id": "ft-big-t",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "Have something worth making? Write to us."
+                    },
+                    "bindings": {
+                      "content": "signoff"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "ft-cols",
+                "kind": {
+                  "type": "frame",
+                  "element": "div"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "grid",
+                      "grid": {
+                        "templateColumns": "minmax(0, 1fr)",
+                        "gap": {
+                          "token": "space.8"
+                        }
+                      }
+                    }
+                  },
+                  "md": {
+                    "base": {
+                      "grid": {
+                        "templateColumns": "minmax(0,1fr) minmax(0,1fr)",
+                        "gap": {
+                          "token": "space.8"
+                        }
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "ft-c1",
+                    "kind": {
+                      "type": "frame",
+                      "element": "div"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "column",
+                            "gap": {
+                              "token": "space.3"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "ft-c1-l",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Studio"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.label",
+                                "color": {
+                                  "token": "ink.inverse.muted"
+                                },
+                                "transform": "uppercase"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "ft-c1-a",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "14 Canal Row, Unit 3\nLeith, Edinburgh EH6 6JQ"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.inverse"
+                                }
+                              },
+                              "custom": {
+                                "white-space": "pre-line"
+                              }
+                            }
+                          }
+                        },
+                        "bindings": {
+                          "content": "address"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "ft-c2",
+                    "kind": {
+                      "type": "frame",
+                      "element": "div"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "column",
+                            "gap": {
+                              "token": "space.3"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "ft-c2-l",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Elsewhere"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.label",
+                                "color": {
+                                  "token": "ink.inverse.muted"
+                                },
+                                "transform": "uppercase"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "ft-c2-a",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "studio@hollisvane.example\n+44 131 555 0142"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.inverse"
+                                }
+                              },
+                              "custom": {
+                                "white-space": "pre-line"
+                              }
+                            }
+                          }
+                        },
+                        "bindings": {
+                          "content": "contact"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "ft-bar",
+            "kind": {
+              "type": "frame",
+              "element": "div"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "flex",
+                  "flex": {
+                    "direction": "row",
+                    "wrap": true,
+                    "justify": "spaceBetween",
+                    "gap": {
+                      "px": 12
+                    }
+                  },
+                  "spacing": {
+                    "padding": {
+                      "top": {
+                        "token": "space.6"
+                      }
+                    }
+                  },
+                  "border": {
+                    "top": {
+                      "width": {
+                        "px": 1
+                      },
+                      "style": "solid",
+                      "color": {
+                        "token": "line.inverse"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "ft-copy",
+                "kind": {
+                  "type": "text",
+                  "tag": "p",
+                  "content": "© 2026 Hollis & Vane Studio Ltd."
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.small",
+                        "color": {
+                          "token": "ink.inverse.muted"
+                        }
+                      }
+                    }
+                  }
+                },
+                "bindings": {
+                  "content": "legal"
+                }
+              },
+              {
+                "id": "ft-made",
+                "kind": {
+                  "type": "text",
+                  "tag": "p",
+                  "content": "Independent since 2011 · Edinburgh & Lisbon"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.small",
+                        "color": {
+                          "token": "ink.inverse.muted"
+                        }
+                      }
+                    }
+                  }
+                },
+                "bindings": {
+                  "content": "tagline"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "props": [
+    {
+      "name": "signoff",
+      "label": "Sign-off",
+      "kind": {
+        "type": "longText"
+      },
+      "default": "Have something worth making? Write to us."
+    },
+    {
+      "name": "emailHref",
+      "label": "Email link",
+      "kind": {
+        "type": "url"
+      },
+      "default": "mailto:studio@hollisvane.example"
+    },
+    {
+      "name": "address",
+      "label": "Address",
+      "kind": {
+        "type": "longText"
+      },
+      "default": "14 Canal Row, Unit 3\nLeith, Edinburgh EH6 6JQ"
+    },
+    {
+      "name": "contact",
+      "label": "Contact",
+      "kind": {
+        "type": "longText"
+      },
+      "default": "studio@hollisvane.example\n+44 131 555 0142"
+    },
+    {
+      "name": "legal",
+      "label": "Legal line",
+      "kind": {
+        "type": "text"
+      },
+      "default": "© 2026 Hollis & Vane Studio Ltd."
+    },
+    {
+      "name": "tagline",
+      "label": "Tagline",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Independent since 2011 · Edinburgh & Lisbon"
+    }
+  ]
+}

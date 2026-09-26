@@ -1,0 +1,1475 @@
+{
+  "id": "pulse-features",
+  "name": "Pulse feature grid",
+  "root": {
+    "id": "pulse-features",
+    "kind": {
+      "type": "frame",
+      "element": "section"
+    },
+    "styles": {
+      "base": {
+        "base": {
+          "background": {
+            "token": "surface.page"
+          },
+          "spacing": {
+            "padding": {
+              "top": {
+                "token": "space.section"
+              },
+              "bottom": {
+                "token": "space.section"
+              },
+              "left": {
+                "token": "space.gutter"
+              },
+              "right": {
+                "token": "space.gutter"
+              }
+            }
+          }
+        }
+      },
+      "md": {
+        "base": {
+          "spacing": {
+            "padding": {
+              "left": {
+                "token": "space.gutter.wide"
+              },
+              "right": {
+                "token": "space.gutter.wide"
+              }
+            }
+          }
+        }
+      }
+    },
+    "children": [
+      {
+        "id": "features-inner",
+        "kind": {
+          "type": "frame"
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "display": "flex",
+              "flex": {
+                "direction": "column",
+                "gap": {
+                  "token": "space.12"
+                }
+              },
+              "size": {
+                "maxWidth": {
+                  "token": "space.measure"
+                },
+                "width": {
+                  "percent": 100
+                }
+              },
+              "spacing": {
+                "margin": {
+                  "left": {
+                    "raw": "auto"
+                  },
+                  "right": {
+                    "raw": "auto"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "children": [
+          {
+            "id": "features-heading",
+            "kind": {
+              "type": "frame"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "flex",
+                  "flex": {
+                    "direction": "column",
+                    "gap": {
+                      "token": "space.4"
+                    },
+                    "align": "center"
+                  },
+                  "size": {
+                    "maxWidth": {
+                      "px": 760
+                    }
+                  },
+                  "spacing": {
+                    "margin": {
+                      "left": {
+                        "raw": "auto"
+                      },
+                      "right": {
+                        "raw": "auto"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "features-heading-eyebrow",
+                "kind": {
+                  "type": "frame"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "inlineFlex",
+                      "flex": {
+                        "align": "center",
+                        "gap": {
+                          "token": "space.2"
+                        }
+                      },
+                      "size": {
+                        "width": {
+                          "raw": "fit-content"
+                        }
+                      },
+                      "background": {
+                        "raw": "rgb(109 40 217 / 0.16)"
+                      },
+                      "border": {
+                        "width": {
+                          "px": 1
+                        },
+                        "style": "solid",
+                        "color": {
+                          "raw": "rgb(167 139 250 / 0.35)"
+                        }
+                      },
+                      "radius": {
+                        "token": "radius.full"
+                      },
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "px": 6
+                          },
+                          "bottom": {
+                            "px": 6
+                          },
+                          "left": {
+                            "px": 12
+                          },
+                          "right": {
+                            "px": 14
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "features-heading-eyebrow-dot",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "size": {
+                            "width": {
+                              "px": 8
+                            },
+                            "height": {
+                              "px": 8
+                            }
+                          },
+                          "radius": {
+                            "token": "radius.full"
+                          },
+                          "background": {
+                            "token": "brand.glow"
+                          },
+                          "shadow": {
+                            "raw": "0 0 12px 2px rgb(167 139 250 / 0.9)"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "features-heading-eyebrow-text",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "Platform"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.label",
+                            "color": {
+                              "token": "ink.accent"
+                            },
+                            "transform": "uppercase"
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "content": "eyebrow"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "features-heading-title",
+                "kind": {
+                  "type": "text",
+                  "tag": "h2",
+                  "content": "Everything between the idea and the result."
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.title",
+                        "color": {
+                          "token": "ink.strong"
+                        },
+                        "align": "center"
+                      }
+                    }
+                  }
+                },
+                "bindings": {
+                  "content": "title"
+                }
+              },
+              {
+                "id": "features-heading-lead",
+                "kind": {
+                  "type": "text",
+                  "tag": "p",
+                  "content": "Six tools that used to live in six tabs, now sharing one model of your customer."
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.lead",
+                        "color": {
+                          "token": "ink.muted"
+                        },
+                        "align": "center"
+                      }
+                    }
+                  }
+                },
+                "bindings": {
+                  "content": "lead"
+                }
+              }
+            ]
+          },
+          {
+            "id": "features-grid",
+            "kind": {
+              "type": "columns",
+              "count": 3
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "grid",
+                  "grid": {
+                    "columns": 1,
+                    "gap": {
+                      "token": "space.5"
+                    }
+                  }
+                }
+              },
+              "md": {
+                "base": {
+                  "display": "grid",
+                  "grid": {
+                    "columns": 2
+                  }
+                }
+              },
+              "lg": {
+                "base": {
+                  "display": "grid",
+                  "grid": {
+                    "columns": 3
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "feature-1",
+                "kind": {
+                  "type": "frame",
+                  "element": "article"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "token": "space.4"
+                        }
+                      },
+                      "background": {
+                        "token": "surface.card"
+                      },
+                      "border": {
+                        "width": {
+                          "px": 1
+                        },
+                        "style": "solid",
+                        "color": {
+                          "token": "line.subtle"
+                        }
+                      },
+                      "radius": {
+                        "token": "radius.lg"
+                      },
+                      "shadow": {
+                        "token": "shadow.card"
+                      },
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "token": "space.8"
+                          },
+                          "bottom": {
+                            "token": "space.8"
+                          },
+                          "left": {
+                            "token": "space.6"
+                          },
+                          "right": {
+                            "token": "space.6"
+                          }
+                        }
+                      },
+                      "transition": {
+                        "duration": 220,
+                        "properties": [
+                          "borderColor",
+                          "transform"
+                        ]
+                      }
+                    },
+                    "hover": {
+                      "border": {
+                        "width": {
+                          "px": 1
+                        },
+                        "style": "solid",
+                        "color": {
+                          "raw": "rgb(167 139 250 / 0.45)"
+                        }
+                      },
+                      "custom": {
+                        "transform": "translateY(-3px)"
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "feature-1-icon",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "align": "center",
+                            "justify": "center"
+                          },
+                          "size": {
+                            "width": {
+                              "px": 44
+                            },
+                            "height": {
+                              "px": 44
+                            }
+                          },
+                          "radius": {
+                            "token": "radius.md"
+                          },
+                          "background": {
+                            "raw": "rgb(109 40 217 / 0.18)"
+                          },
+                          "border": {
+                            "width": {
+                              "px": 1
+                            },
+                            "style": "solid",
+                            "color": {
+                              "raw": "rgb(167 139 250 / 0.3)"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "feature-1-glyph",
+                        "kind": {
+                          "type": "icon",
+                          "name": "star"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "size": {
+                                "width": {
+                                  "px": 22
+                                },
+                                "height": {
+                                  "px": 22
+                                }
+                              },
+                              "typography": {
+                                "color": {
+                                  "token": "ink.accent"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "feature-1-title",
+                    "kind": {
+                      "type": "text",
+                      "tag": "h3",
+                      "content": "Live product analytics"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.heading",
+                            "color": {
+                              "token": "ink.strong"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "feature-1-body",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "Every click, screen and funnel, queryable in plain English. Answers in seconds, not sprint cycles."
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.body",
+                            "color": {
+                              "token": "ink.muted"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "feature-2",
+                "kind": {
+                  "type": "frame",
+                  "element": "article"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "token": "space.4"
+                        }
+                      },
+                      "background": {
+                        "token": "surface.card"
+                      },
+                      "border": {
+                        "width": {
+                          "px": 1
+                        },
+                        "style": "solid",
+                        "color": {
+                          "token": "line.subtle"
+                        }
+                      },
+                      "radius": {
+                        "token": "radius.lg"
+                      },
+                      "shadow": {
+                        "token": "shadow.card"
+                      },
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "token": "space.8"
+                          },
+                          "bottom": {
+                            "token": "space.8"
+                          },
+                          "left": {
+                            "token": "space.6"
+                          },
+                          "right": {
+                            "token": "space.6"
+                          }
+                        }
+                      },
+                      "transition": {
+                        "duration": 220,
+                        "properties": [
+                          "borderColor",
+                          "transform"
+                        ]
+                      }
+                    },
+                    "hover": {
+                      "border": {
+                        "width": {
+                          "px": 1
+                        },
+                        "style": "solid",
+                        "color": {
+                          "raw": "rgb(167 139 250 / 0.45)"
+                        }
+                      },
+                      "custom": {
+                        "transform": "translateY(-3px)"
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "feature-2-icon",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "align": "center",
+                            "justify": "center"
+                          },
+                          "size": {
+                            "width": {
+                              "px": 44
+                            },
+                            "height": {
+                              "px": 44
+                            }
+                          },
+                          "radius": {
+                            "token": "radius.md"
+                          },
+                          "background": {
+                            "raw": "rgb(109 40 217 / 0.18)"
+                          },
+                          "border": {
+                            "width": {
+                              "px": 1
+                            },
+                            "style": "solid",
+                            "color": {
+                              "raw": "rgb(167 139 250 / 0.3)"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "feature-2-glyph",
+                        "kind": {
+                          "type": "icon",
+                          "name": "play"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "size": {
+                                "width": {
+                                  "px": 22
+                                },
+                                "height": {
+                                  "px": 22
+                                }
+                              },
+                              "typography": {
+                                "color": {
+                                  "token": "ink.accent"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "feature-2-title",
+                    "kind": {
+                      "type": "text",
+                      "tag": "h3",
+                      "content": "Experiments without engineers"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.heading",
+                            "color": {
+                              "token": "ink.strong"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "feature-2-body",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "Launch A/B tests from the dashboard. Vantora calls the winner when the maths is sure, not before."
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.body",
+                            "color": {
+                              "token": "ink.muted"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "feature-3",
+                "kind": {
+                  "type": "frame",
+                  "element": "article"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "token": "space.4"
+                        }
+                      },
+                      "background": {
+                        "token": "surface.card"
+                      },
+                      "border": {
+                        "width": {
+                          "px": 1
+                        },
+                        "style": "solid",
+                        "color": {
+                          "token": "line.subtle"
+                        }
+                      },
+                      "radius": {
+                        "token": "radius.lg"
+                      },
+                      "shadow": {
+                        "token": "shadow.card"
+                      },
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "token": "space.8"
+                          },
+                          "bottom": {
+                            "token": "space.8"
+                          },
+                          "left": {
+                            "token": "space.6"
+                          },
+                          "right": {
+                            "token": "space.6"
+                          }
+                        }
+                      },
+                      "transition": {
+                        "duration": 220,
+                        "properties": [
+                          "borderColor",
+                          "transform"
+                        ]
+                      }
+                    },
+                    "hover": {
+                      "border": {
+                        "width": {
+                          "px": 1
+                        },
+                        "style": "solid",
+                        "color": {
+                          "raw": "rgb(167 139 250 / 0.45)"
+                        }
+                      },
+                      "custom": {
+                        "transform": "translateY(-3px)"
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "feature-3-icon",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "align": "center",
+                            "justify": "center"
+                          },
+                          "size": {
+                            "width": {
+                              "px": 44
+                            },
+                            "height": {
+                              "px": 44
+                            }
+                          },
+                          "radius": {
+                            "token": "radius.md"
+                          },
+                          "background": {
+                            "raw": "rgb(109 40 217 / 0.18)"
+                          },
+                          "border": {
+                            "width": {
+                              "px": 1
+                            },
+                            "style": "solid",
+                            "color": {
+                              "raw": "rgb(167 139 250 / 0.3)"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "feature-3-glyph",
+                        "kind": {
+                          "type": "icon",
+                          "name": "check"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "size": {
+                                "width": {
+                                  "px": 22
+                                },
+                                "height": {
+                                  "px": 22
+                                }
+                              },
+                              "typography": {
+                                "color": {
+                                  "token": "ink.accent"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "feature-3-title",
+                    "kind": {
+                      "type": "text",
+                      "tag": "h3",
+                      "content": "Guided onboarding"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.heading",
+                            "color": {
+                              "token": "ink.strong"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "feature-3-body",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "Checklists, tooltips and empty states that adapt to what each user has already done."
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.body",
+                            "color": {
+                              "token": "ink.muted"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "feature-4",
+                "kind": {
+                  "type": "frame",
+                  "element": "article"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "token": "space.4"
+                        }
+                      },
+                      "background": {
+                        "token": "surface.card"
+                      },
+                      "border": {
+                        "width": {
+                          "px": 1
+                        },
+                        "style": "solid",
+                        "color": {
+                          "token": "line.subtle"
+                        }
+                      },
+                      "radius": {
+                        "token": "radius.lg"
+                      },
+                      "shadow": {
+                        "token": "shadow.card"
+                      },
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "token": "space.8"
+                          },
+                          "bottom": {
+                            "token": "space.8"
+                          },
+                          "left": {
+                            "token": "space.6"
+                          },
+                          "right": {
+                            "token": "space.6"
+                          }
+                        }
+                      },
+                      "transition": {
+                        "duration": 220,
+                        "properties": [
+                          "borderColor",
+                          "transform"
+                        ]
+                      }
+                    },
+                    "hover": {
+                      "border": {
+                        "width": {
+                          "px": 1
+                        },
+                        "style": "solid",
+                        "color": {
+                          "raw": "rgb(167 139 250 / 0.45)"
+                        }
+                      },
+                      "custom": {
+                        "transform": "translateY(-3px)"
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "feature-4-icon",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "align": "center",
+                            "justify": "center"
+                          },
+                          "size": {
+                            "width": {
+                              "px": 44
+                            },
+                            "height": {
+                              "px": 44
+                            }
+                          },
+                          "radius": {
+                            "token": "radius.md"
+                          },
+                          "background": {
+                            "raw": "rgb(109 40 217 / 0.18)"
+                          },
+                          "border": {
+                            "width": {
+                              "px": 1
+                            },
+                            "style": "solid",
+                            "color": {
+                              "raw": "rgb(167 139 250 / 0.3)"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "feature-4-glyph",
+                        "kind": {
+                          "type": "icon",
+                          "name": "clock"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "size": {
+                                "width": {
+                                  "px": 22
+                                },
+                                "height": {
+                                  "px": 22
+                                }
+                              },
+                              "typography": {
+                                "color": {
+                                  "token": "ink.accent"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "feature-4-title",
+                    "kind": {
+                      "type": "text",
+                      "tag": "h3",
+                      "content": "Real-time alerts"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.heading",
+                            "color": {
+                              "token": "ink.strong"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "feature-4-body",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "A drop in sign-ups at 3 a.m. becomes a message in your team channel at 3:01."
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.body",
+                            "color": {
+                              "token": "ink.muted"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "feature-5",
+                "kind": {
+                  "type": "frame",
+                  "element": "article"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "token": "space.4"
+                        }
+                      },
+                      "background": {
+                        "token": "surface.card"
+                      },
+                      "border": {
+                        "width": {
+                          "px": 1
+                        },
+                        "style": "solid",
+                        "color": {
+                          "token": "line.subtle"
+                        }
+                      },
+                      "radius": {
+                        "token": "radius.lg"
+                      },
+                      "shadow": {
+                        "token": "shadow.card"
+                      },
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "token": "space.8"
+                          },
+                          "bottom": {
+                            "token": "space.8"
+                          },
+                          "left": {
+                            "token": "space.6"
+                          },
+                          "right": {
+                            "token": "space.6"
+                          }
+                        }
+                      },
+                      "transition": {
+                        "duration": 220,
+                        "properties": [
+                          "borderColor",
+                          "transform"
+                        ]
+                      }
+                    },
+                    "hover": {
+                      "border": {
+                        "width": {
+                          "px": 1
+                        },
+                        "style": "solid",
+                        "color": {
+                          "raw": "rgb(167 139 250 / 0.45)"
+                        }
+                      },
+                      "custom": {
+                        "transform": "translateY(-3px)"
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "feature-5-icon",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "align": "center",
+                            "justify": "center"
+                          },
+                          "size": {
+                            "width": {
+                              "px": 44
+                            },
+                            "height": {
+                              "px": 44
+                            }
+                          },
+                          "radius": {
+                            "token": "radius.md"
+                          },
+                          "background": {
+                            "raw": "rgb(109 40 217 / 0.18)"
+                          },
+                          "border": {
+                            "width": {
+                              "px": 1
+                            },
+                            "style": "solid",
+                            "color": {
+                              "raw": "rgb(167 139 250 / 0.3)"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "feature-5-glyph",
+                        "kind": {
+                          "type": "icon",
+                          "name": "heart"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "size": {
+                                "width": {
+                                  "px": 22
+                                },
+                                "height": {
+                                  "px": 22
+                                }
+                              },
+                              "typography": {
+                                "color": {
+                                  "token": "ink.accent"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "feature-5-title",
+                    "kind": {
+                      "type": "text",
+                      "tag": "h3",
+                      "content": "Customer health"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.heading",
+                            "color": {
+                              "token": "ink.strong"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "feature-5-body",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "One score per account, built from usage, support tickets and billing — so renewals never surprise you."
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.body",
+                            "color": {
+                              "token": "ink.muted"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "feature-6",
+                "kind": {
+                  "type": "frame",
+                  "element": "article"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "token": "space.4"
+                        }
+                      },
+                      "background": {
+                        "token": "surface.card"
+                      },
+                      "border": {
+                        "width": {
+                          "px": 1
+                        },
+                        "style": "solid",
+                        "color": {
+                          "token": "line.subtle"
+                        }
+                      },
+                      "radius": {
+                        "token": "radius.lg"
+                      },
+                      "shadow": {
+                        "token": "shadow.card"
+                      },
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "token": "space.8"
+                          },
+                          "bottom": {
+                            "token": "space.8"
+                          },
+                          "left": {
+                            "token": "space.6"
+                          },
+                          "right": {
+                            "token": "space.6"
+                          }
+                        }
+                      },
+                      "transition": {
+                        "duration": 220,
+                        "properties": [
+                          "borderColor",
+                          "transform"
+                        ]
+                      }
+                    },
+                    "hover": {
+                      "border": {
+                        "width": {
+                          "px": 1
+                        },
+                        "style": "solid",
+                        "color": {
+                          "raw": "rgb(167 139 250 / 0.45)"
+                        }
+                      },
+                      "custom": {
+                        "transform": "translateY(-3px)"
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "feature-6-icon",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "align": "center",
+                            "justify": "center"
+                          },
+                          "size": {
+                            "width": {
+                              "px": 44
+                            },
+                            "height": {
+                              "px": 44
+                            }
+                          },
+                          "radius": {
+                            "token": "radius.md"
+                          },
+                          "background": {
+                            "raw": "rgb(109 40 217 / 0.18)"
+                          },
+                          "border": {
+                            "width": {
+                              "px": 1
+                            },
+                            "style": "solid",
+                            "color": {
+                              "raw": "rgb(167 139 250 / 0.3)"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "feature-6-glyph",
+                        "kind": {
+                          "type": "icon",
+                          "name": "external"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "size": {
+                                "width": {
+                                  "px": 22
+                                },
+                                "height": {
+                                  "px": 22
+                                }
+                              },
+                              "typography": {
+                                "color": {
+                                  "token": "ink.accent"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "feature-6-title",
+                    "kind": {
+                      "type": "text",
+                      "tag": "h3",
+                      "content": "120+ integrations"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.heading",
+                            "color": {
+                              "token": "ink.strong"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "feature-6-body",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "Warehouse, CRM, billing and messaging tools connect in minutes, and stay in sync both ways."
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.body",
+                            "color": {
+                              "token": "ink.muted"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "props": [
+    {
+      "name": "eyebrow",
+      "label": "Eyebrow",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Platform"
+    },
+    {
+      "name": "title",
+      "label": "Heading",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Everything between the idea and the result."
+    },
+    {
+      "name": "lead",
+      "label": "Lead",
+      "kind": {
+        "type": "longText"
+      },
+      "default": "Six tools that used to live in six tabs, now sharing one model of your customer."
+    }
+  ],
+  "variants": {
+    "Page": {},
+    "Raised": {
+      "styles": {
+        "base": {
+          "base": {
+            "background": {
+              "token": "surface.raised"
+            }
+          }
+        }
+      }
+    }
+  },
+  "defaultVariant": "Page"
+}

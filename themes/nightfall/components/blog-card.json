@@ -1,0 +1,261 @@
+{
+  "id": "nightfall-blog-card",
+  "name": "Nightfall · Journal card",
+  "root": {
+    "id": "blog-card",
+    "kind": {
+      "type": "link",
+      "href": "/journal/porto-rain",
+      "target": "same"
+    },
+    "children": [
+      {
+        "id": "blog-card-media",
+        "kind": {
+          "type": "frame"
+        },
+        "children": [
+          {
+            "id": "blog-card-img",
+            "kind": {
+              "type": "image",
+              "src": "assets/images/street.webp",
+              "alt": ""
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "block",
+                  "size": {
+                    "width": {
+                      "percent": 100.0
+                    }
+                  },
+                  "objectFit": "cover",
+                  "aspectRatio": {
+                    "ratio": {
+                      "width": 4.0,
+                      "height": 3.0
+                    }
+                  },
+                  "radius": {
+                    "token": "radius.none"
+                  },
+                  "transition": {
+                    "duration": 700,
+                    "easing": "easeOut",
+                    "properties": [
+                      "transform"
+                    ]
+                  }
+                },
+                "hover": {
+                  "custom": {
+                    "transform": "scale(1.03)"
+                  }
+                }
+              }
+            },
+            "bindings": {
+              "src": "image"
+            }
+          }
+        ],
+        "styles": {
+          "base": {
+            "base": {
+              "overflow": "hidden"
+            }
+          }
+        }
+      },
+      {
+        "id": "blog-card-meta",
+        "kind": {
+          "type": "frame"
+        },
+        "children": [
+          {
+            "id": "blog-card-tag",
+            "kind": {
+              "type": "text",
+              "tag": "span",
+              "content": "Field notes"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "typography": {
+                    "token": "type.eyebrow",
+                    "color": {
+                      "token": "ink.accent"
+                    },
+                    "transform": "uppercase"
+                  }
+                }
+              }
+            },
+            "bindings": {
+              "content": "tag"
+            }
+          },
+          {
+            "id": "blog-card-date",
+            "kind": {
+              "type": "text",
+              "tag": "span",
+              "content": "Sep 14, 2026"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "typography": {
+                    "token": "type.eyebrow",
+                    "color": {
+                      "token": "ink.faint"
+                    },
+                    "transform": "uppercase"
+                  }
+                }
+              }
+            },
+            "bindings": {
+              "content": "date"
+            }
+          }
+        ],
+        "styles": {
+          "base": {
+            "base": {
+              "display": "flex",
+              "flex": {
+                "direction": "row",
+                "gap": {
+                  "px": 12.0
+                },
+                "align": "center",
+                "wrap": true,
+                "justify": "spaceBetween"
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "blog-card-title",
+        "kind": {
+          "type": "text",
+          "tag": "h3",
+          "content": "Nine nights in Porto, waiting for rain"
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "typography": {
+                "token": "type.subtitle",
+                "color": {
+                  "token": "ink.body"
+                }
+              }
+            }
+          }
+        },
+        "bindings": {
+          "content": "title"
+        }
+      },
+      {
+        "id": "blog-card-dek",
+        "kind": {
+          "type": "text",
+          "tag": "p",
+          "content": "What sodium light does to skin, stone and patience, and why I stopped carrying a tripod."
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "typography": {
+                "token": "type.small",
+                "color": {
+                  "token": "ink.muted"
+                }
+              }
+            }
+          }
+        },
+        "bindings": {
+          "content": "excerpt"
+        }
+      }
+    ],
+    "styles": {
+      "base": {
+        "base": {
+          "typography": {
+            "decoration": "none"
+          },
+          "display": "flex",
+          "flex": {
+            "direction": "column",
+            "gap": {
+              "px": 16.0
+            }
+          }
+        }
+      }
+    },
+    "bindings": {
+      "href": "href"
+    }
+  },
+  "props": [
+    {
+      "name": "image",
+      "label": "Photo",
+      "kind": {
+        "type": "image"
+      },
+      "default": "assets/images/street.webp"
+    },
+    {
+      "name": "tag",
+      "label": "Category",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Field notes"
+    },
+    {
+      "name": "date",
+      "label": "Date",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Sep 14, 2026"
+    },
+    {
+      "name": "title",
+      "label": "Title",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Nine nights in Porto, waiting for rain"
+    },
+    {
+      "name": "excerpt",
+      "label": "Excerpt",
+      "kind": {
+        "type": "longText"
+      },
+      "default": "What sodium light does to skin, stone and patience, and why I stopped carrying a tripod."
+    },
+    {
+      "name": "href",
+      "label": "Link",
+      "kind": {
+        "type": "url"
+      },
+      "default": "/journal/porto-rain"
+    }
+  ]
+}

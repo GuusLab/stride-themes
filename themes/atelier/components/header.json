@@ -1,0 +1,560 @@
+{
+  "id": "atelier-header",
+  "name": "Atelier · Header",
+  "root": {
+    "id": "hd",
+    "kind": {
+      "type": "frame",
+      "element": "header"
+    },
+    "styles": {
+      "base": {
+        "base": {
+          "background": {
+            "token": "surface.page"
+          },
+          "spacing": {
+            "padding": {
+              "top": {
+                "px": 22
+              },
+              "bottom": {
+                "px": 22
+              },
+              "left": {
+                "token": "space.gutter"
+              },
+              "right": {
+                "token": "space.gutter"
+              }
+            }
+          },
+          "border": {
+            "bottom": {
+              "width": {
+                "px": 1
+              },
+              "style": "solid",
+              "color": {
+                "token": "line.hairline"
+              }
+            }
+          }
+        }
+      }
+    },
+    "children": [
+      {
+        "id": "hd-row",
+        "kind": {
+          "type": "frame",
+          "element": "div"
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "size": {
+                "maxWidth": {
+                  "px": 1320
+                },
+                "width": {
+                  "percent": 100
+                }
+              },
+              "spacing": {
+                "margin": {
+                  "left": {
+                    "raw": "auto"
+                  },
+                  "right": {
+                    "raw": "auto"
+                  }
+                }
+              },
+              "display": "flex",
+              "flex": {
+                "direction": "row",
+                "wrap": true,
+                "align": "center",
+                "justify": "spaceBetween",
+                "gap": {
+                  "px": 16
+                }
+              }
+            }
+          }
+        },
+        "children": [
+          {
+            "id": "hd-brand",
+            "kind": {
+              "type": "link",
+              "href": "/",
+              "target": "same"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "inlineFlex",
+                  "flex": {
+                    "align": "baseline",
+                    "gap": {
+                      "px": 6
+                    }
+                  },
+                  "typography": {
+                    "decoration": "none"
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "hd-brand-t",
+                "kind": {
+                  "type": "text",
+                  "tag": "span",
+                  "content": "Hollis & Vane"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.subtitle",
+                        "color": {
+                          "token": "ink.body"
+                        },
+                        "size": {
+                          "raw": "1.625rem"
+                        },
+                        "lineHeight": 1
+                      }
+                    }
+                  }
+                },
+                "bindings": {
+                  "content": "brand"
+                }
+              },
+              {
+                "id": "hd-brand-dot",
+                "kind": {
+                  "type": "text",
+                  "tag": "span",
+                  "content": "●"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "color": {
+                          "token": "brand.primary"
+                        },
+                        "size": {
+                          "px": 9
+                        }
+                      }
+                    }
+                  }
+                },
+                "props": {
+                  "aria-hidden": "true"
+                }
+              }
+            ]
+          },
+          {
+            "id": "hd-nav",
+            "kind": {
+              "type": "frame",
+              "element": "nav"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "flex",
+                  "flex": {
+                    "direction": "row",
+                    "wrap": true,
+                    "align": "center",
+                    "gap": {
+                      "px": 20
+                    }
+                  }
+                }
+              },
+              "md": {
+                "base": {
+                  "flex": {
+                    "direction": "row",
+                    "gap": {
+                      "px": 36
+                    },
+                    "align": "center"
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "hd-n0",
+                "kind": {
+                  "type": "link",
+                  "href": "/work",
+                  "target": "same"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.nav",
+                        "color": {
+                          "token": "ink.body"
+                        },
+                        "decoration": "none"
+                      },
+                      "transition": {
+                        "duration": 180,
+                        "properties": [
+                          "color"
+                        ]
+                      }
+                    },
+                    "hover": {
+                      "typography": {
+                        "color": {
+                          "token": "ink.accent"
+                        }
+                      }
+                    }
+                  }
+                },
+                "bindings": {
+                  "href": "nav1Href"
+                },
+                "children": [
+                  {
+                    "id": "hd-n0-t",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "Work"
+                    },
+                    "bindings": {
+                      "content": "nav1Label"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "hd-n1",
+                "kind": {
+                  "type": "link",
+                  "href": "/about",
+                  "target": "same"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.nav",
+                        "color": {
+                          "token": "ink.body"
+                        },
+                        "decoration": "none"
+                      },
+                      "transition": {
+                        "duration": 180,
+                        "properties": [
+                          "color"
+                        ]
+                      }
+                    },
+                    "hover": {
+                      "typography": {
+                        "color": {
+                          "token": "ink.accent"
+                        }
+                      }
+                    }
+                  }
+                },
+                "bindings": {
+                  "href": "nav2Href"
+                },
+                "children": [
+                  {
+                    "id": "hd-n1-t",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "Studio"
+                    },
+                    "bindings": {
+                      "content": "nav2Label"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "hd-n2",
+                "kind": {
+                  "type": "link",
+                  "href": "/journal",
+                  "target": "same"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.nav",
+                        "color": {
+                          "token": "ink.body"
+                        },
+                        "decoration": "none"
+                      },
+                      "transition": {
+                        "duration": 180,
+                        "properties": [
+                          "color"
+                        ]
+                      }
+                    },
+                    "hover": {
+                      "typography": {
+                        "color": {
+                          "token": "ink.accent"
+                        }
+                      }
+                    }
+                  }
+                },
+                "bindings": {
+                  "href": "nav3Href"
+                },
+                "children": [
+                  {
+                    "id": "hd-n2-t",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "Journal"
+                    },
+                    "bindings": {
+                      "content": "nav3Label"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "hd-n3",
+                "kind": {
+                  "type": "link",
+                  "href": "/contact",
+                  "target": "same"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.nav",
+                        "color": {
+                          "token": "ink.body"
+                        },
+                        "decoration": "none"
+                      },
+                      "transition": {
+                        "duration": 180,
+                        "properties": [
+                          "color"
+                        ]
+                      }
+                    },
+                    "hover": {
+                      "typography": {
+                        "color": {
+                          "token": "ink.accent"
+                        }
+                      }
+                    }
+                  }
+                },
+                "bindings": {
+                  "href": "nav4Href"
+                },
+                "children": [
+                  {
+                    "id": "hd-n3-t",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "Contact"
+                    },
+                    "bindings": {
+                      "content": "nav4Label"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "hd-cta",
+                "kind": {
+                  "type": "button",
+                  "label": "Start a project",
+                  "href": "/contact",
+                  "target": "same"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "none",
+                      "typography": {
+                        "token": "type.nav",
+                        "color": {
+                          "token": "ink.inverse"
+                        },
+                        "decoration": "none"
+                      },
+                      "background": {
+                        "token": "surface.night"
+                      },
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "px": 11
+                          },
+                          "bottom": {
+                            "px": 11
+                          },
+                          "left": {
+                            "px": 20
+                          },
+                          "right": {
+                            "px": 20
+                          }
+                        }
+                      },
+                      "radius": {
+                        "token": "radius.full"
+                      },
+                      "transition": {
+                        "duration": 200,
+                        "properties": [
+                          "backgroundColor"
+                        ]
+                      }
+                    },
+                    "hover": {
+                      "background": {
+                        "token": "brand.primary"
+                      }
+                    }
+                  },
+                  "md": {
+                    "base": {
+                      "display": "inlineFlex"
+                    }
+                  }
+                },
+                "bindings": {
+                  "label": "ctaLabel",
+                  "href": "ctaHref"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "props": [
+    {
+      "name": "brand",
+      "label": "Studio name",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Hollis & Vane"
+    },
+    {
+      "name": "nav1Label",
+      "label": "Link 1 label",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Work"
+    },
+    {
+      "name": "nav1Href",
+      "label": "Link 1 address",
+      "kind": {
+        "type": "url"
+      },
+      "default": "/work"
+    },
+    {
+      "name": "nav2Label",
+      "label": "Link 2 label",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Studio"
+    },
+    {
+      "name": "nav2Href",
+      "label": "Link 2 address",
+      "kind": {
+        "type": "url"
+      },
+      "default": "/about"
+    },
+    {
+      "name": "nav3Label",
+      "label": "Link 3 label",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Journal"
+    },
+    {
+      "name": "nav3Href",
+      "label": "Link 3 address",
+      "kind": {
+        "type": "url"
+      },
+      "default": "/journal"
+    },
+    {
+      "name": "nav4Label",
+      "label": "Link 4 label",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Contact"
+    },
+    {
+      "name": "nav4Href",
+      "label": "Link 4 address",
+      "kind": {
+        "type": "url"
+      },
+      "default": "/contact"
+    },
+    {
+      "name": "ctaLabel",
+      "label": "Button label",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Start a project"
+    },
+    {
+      "name": "ctaHref",
+      "label": "Button link",
+      "kind": {
+        "type": "url"
+      },
+      "default": "/contact"
+    }
+  ]
+}

@@ -1,0 +1,351 @@
+{
+  "formatVersion": 1,
+  "registry": "https://guuslab.github.io/stride-themes",
+  "generatedAt": "2026-09-26T16:45:27Z",
+  "themes": [
+    {
+      "id": "atelier",
+      "name": "Atelier",
+      "author": {
+        "id": "guuslab",
+        "name": "GuusLab"
+      },
+      "tagline": "Editorial theme for studios and agencies: serif type, paper, ink, terracotta.",
+      "longDescription": "Atelier is a theme for creative studios, agencies and independent practices that want their site to read like a well-made book. It pairs a high-contrast editorial serif (Instrument Serif) with a precise grotesque (Inter Tight), sets everything on warm off-white paper with ink-black type, and reserves a single terracotta accent for the moments that matter: a rule, a numeral, a testimonial band.\n\nLayouts are deliberately asymmetric: 7/5 and 4/8 column splits, staggered work galleries and generous whitespace give pages rhythm without decoration. Every grid collapses to a single column on phones.\n\nIncluded: 15 components (header, footer, three heroes, section intro, services list, feature grid, testimonial with two variants, call to action, work gallery, stats, team, contact block and journal card) and six page templates (home, studio/about, services, journal, contact and a 404), with realistic copy for an invented studio and six original photographs.",
+      "categories": [
+        "agency",
+        "portfolio",
+        "business"
+      ],
+      "accent": "#C2562F",
+      "latest": "1.0.0",
+      "releases": [
+        {
+          "version": "1.0.0",
+          "url": "https://guuslab.github.io/stride-themes/themes/atelier/1.0.0/theme.zip",
+          "sha256": "7444704b81b27e83d770e82e4d77c324d262ad1c788cda7a4bafc91a93b95d88",
+          "size": 2239913,
+          "signature": "29ab684c3f1403c4867d2a0417ef145fb6d3a5dfb66b9245d92599c0094de8d1400f7c7bd6653bfb1f320c2e12c66494e4fc1c3d6bdb552376214de3fd8c4d05",
+          "publishedAt": "2026-09-26T16:45:27Z"
+        }
+      ],
+      "icon": {
+        "url": "https://guuslab.github.io/stride-themes/themes/atelier/icon.png",
+        "sha256": "5dcbeb77fb73fb75e1a2a7b8e13889df410e661cc47d01d743ea522058e7fb7a",
+        "size": 11850
+      },
+      "screenshots": [
+        {
+          "url": "https://guuslab.github.io/stride-themes/themes/atelier/screenshots/01.png",
+          "sha256": "3d1cb172fb07367958ba4f0b240514df406d191a274bad2ff140a23cb42828a6",
+          "size": 428083,
+          "caption": "Home: an editorial hero set in Instrument Serif"
+        },
+        {
+          "url": "https://guuslab.github.io/stride-themes/themes/atelier/screenshots/02.png",
+          "sha256": "c823aa27c144d5937cc6abc22485197685300c1d8bf88a7cba54534e2e73d756",
+          "size": 120109,
+          "caption": "Services: four practices as a numbered list"
+        },
+        {
+          "url": "https://guuslab.github.io/stride-themes/themes/atelier/screenshots/03.png",
+          "sha256": "e425988f069f2ac1e12371f0a8eb9257f6ba7e1be11bff0a5840190c2d262393",
+          "size": 717533,
+          "caption": "Studio page: story, team and how the studio works"
+        },
+        {
+          "url": "https://guuslab.github.io/stride-themes/themes/atelier/screenshots/04.png",
+          "sha256": "a761fd3db0034d55478c45467341e0962b08eaebe0abd866e932f5fe86623647",
+          "size": 472948,
+          "caption": "On a phone: home, services and studio"
+        }
+      ]
+    },
+    {
+      "id": "grove",
+      "name": "Grove",
+      "author": {
+        "id": "guuslab",
+        "name": "GuusLab"
+      },
+      "tagline": "A calm, organic theme for yoga teachers, studios and wellness coaches.",
+      "longDescription": "Grove is a soft, unhurried design system for yoga studios, breathwork teachers and wellness coaches. Sage and warm sand, pebble-shaped photo crops and a gentle serif headline (Fraunces) paired with a humanist sans (Nunito Sans) give it a quiet, premium feel without looking like a template.\n\nIt ships with fifteen components built on the site tokens: a sticky translucent header, a split hero with a floating 'next class' card, a centred hero with sage and sand variants, an offer grid, a weekly class schedule with level badges and booking links, a large testimonial on deep forest green, three membership plans, a bento gallery, stats, teachers, a coach introduction, a booking call-to-action band, a contact block and a journal card.\n\nSix ready pages (home, about, classes & coaching, contact, journal and a friendly 404) come with realistic English copy and five original photographs. Every text, image and link in a component is a prop, so you can change the words without touching the layout.",
+      "categories": [
+        "personal",
+        "business"
+      ],
+      "accent": "#6B8F71",
+      "latest": "1.0.0",
+      "releases": [
+        {
+          "version": "1.0.0",
+          "url": "https://guuslab.github.io/stride-themes/themes/grove/1.0.0/theme.zip",
+          "sha256": "76c432409e57f06fa1f842f7e5de4a16c8bb8dd9d0b63e502bfcc379745b5a28",
+          "size": 2736224,
+          "signature": "9d2820baa19d21618595a79f84dce99dcefa08b01bd142fd621e348918ecd55718076d8e9f15fecba767d5cf638700b439e09d4a2a015becf0f4425663718808",
+          "publishedAt": "2026-09-26T16:45:27Z"
+        }
+      ],
+      "icon": {
+        "url": "https://guuslab.github.io/stride-themes/themes/grove/icon.png",
+        "sha256": "d92acec06243a8241e9d2a0b2c30e7eb9cafd2b1048aceff575ebab18bc39a51",
+        "size": 101504
+      },
+      "screenshots": [
+        {
+          "url": "https://guuslab.github.io/stride-themes/themes/grove/screenshots/01.png",
+          "sha256": "69d87d64fb8f20420dac1f147197b275c0a8e533eafa20b26af433596e623183",
+          "size": 513337,
+          "caption": "Home: a soft hero with the next class and ratings"
+        },
+        {
+          "url": "https://guuslab.github.io/stride-themes/themes/grove/screenshots/02.png",
+          "sha256": "f1a28eb858db062b86303b891b1e94502b7567afd32f0354343064449183c410",
+          "size": 103530,
+          "caption": "Classes and coaching, with ways to practise"
+        },
+        {
+          "url": "https://guuslab.github.io/stride-themes/themes/grove/screenshots/03.png",
+          "sha256": "92ed599b4f36952cc4342278b2c11a53a7b324d049fc3aa84162b1bbe3cbe5e8",
+          "size": 207842,
+          "caption": "About: the studio and its coach"
+        },
+        {
+          "url": "https://guuslab.github.io/stride-themes/themes/grove/screenshots/04.png",
+          "sha256": "8a181be34c0827c32ff950c30649e281ecb8980db9d39189fb207c06072f57aa",
+          "size": 353912,
+          "caption": "On a phone: home, classes and about"
+        }
+      ]
+    },
+    {
+      "id": "harbor",
+      "name": "Harbor",
+      "author": {
+        "id": "guuslab",
+        "name": "GuusLab"
+      },
+      "tagline": "A warm, appetizing theme for restaurants, cafes and local food businesses.",
+      "longDescription": "Harbor is built for places people eat, drink and linger: neighbourhood restaurants, cafes, bakeries, wine bars and small local businesses. Warm linen and toasted-sand surfaces sit under a deep harbour teal and a terracotta accent, with an expressive Fraunces serif for headlines and friendly, rounded Nunito for everything else.\n\nIt ships a complete restaurant site: a home page with a split photo hero and live 'tonight' card, a menu with dotted price leaders, opening hours and a stylised map card, a reservations band, guest quote, photo gallery, team, numbers and a journal. Every section is drawn phone-first and widened by breakpoint, every colour and type style is a design token, and all text pairs clear WCAG AA contrast.\n\nPages: Home, Our story, Menu, Visit and book, Journal and a friendly 404. Six original food and hospitality photographs are included.",
+      "categories": [
+        "restaurant",
+        "business"
+      ],
+      "accent": "#1F6F78",
+      "latest": "1.0.0",
+      "releases": [
+        {
+          "version": "1.0.0",
+          "url": "https://guuslab.github.io/stride-themes/themes/harbor/1.0.0/theme.zip",
+          "sha256": "2d0a4154e66d3c32668fae0b708673147b4d5ad940ee81358a89d6c294771b12",
+          "size": 5416226,
+          "signature": "c10cf173d54cb7d01558ed746cc6909665544b6113a86b883aa7ce3ef4d848c6d10712e280f79c340474958c7230b56c222114591817c6e9580bffc1ea574d09",
+          "publishedAt": "2026-09-26T16:45:27Z"
+        }
+      ],
+      "icon": {
+        "url": "https://guuslab.github.io/stride-themes/themes/harbor/icon.png",
+        "sha256": "e65a6d16286423f5223d03adde00ef4dc4a365ae4e42ee714c1dd33db01ca4fe",
+        "size": 34701
+      },
+      "screenshots": [
+        {
+          "url": "https://guuslab.github.io/stride-themes/themes/harbor/screenshots/01.png",
+          "sha256": "5d8f307c13f92e8059f63b6fb7b94e1442369bacad5f9d3ced049577f9ef443c",
+          "size": 630873,
+          "caption": "Home: a warm hero with tonight's dish"
+        },
+        {
+          "url": "https://guuslab.github.io/stride-themes/themes/harbor/screenshots/02.png",
+          "sha256": "d30ccd07e1f28e7a23ef557d9135e424bf90d97e91fdc4f441acaeccee904684",
+          "size": 1452221,
+          "caption": "Menu: this week's menu under a full-bleed photo"
+        },
+        {
+          "url": "https://guuslab.github.io/stride-themes/themes/harbor/screenshots/03.png",
+          "sha256": "9511905b98692b87185719fbbe16c07738952ae6f6c2c4eb6058184da55a202c",
+          "size": 1337611,
+          "caption": "Our story: the kitchen and its people"
+        },
+        {
+          "url": "https://guuslab.github.io/stride-themes/themes/harbor/screenshots/04.png",
+          "sha256": "9cafb7da8859258622b7f7aa1d1fc9ba937fe3bd79463a2a26cdf79439f14eec",
+          "size": 1048624,
+          "caption": "On a phone: home, menu and our story"
+        }
+      ]
+    },
+    {
+      "id": "ledger",
+      "name": "Ledger",
+      "author": {
+        "id": "guuslab",
+        "name": "GuusLab"
+      },
+      "tagline": "A composed navy-and-slate theme for consultancies, law firms and finance.",
+      "longDescription": "Ledger is built for firms whose clients are trusting them with something that matters: law firms, consultancies, accountants, wealth managers and advisory boutiques. Midnight navy and cool slate carry the page, a restrained brass accent marks rules and labels, and a crisp Inter Tight / Inter pairing with tabular figures keeps every number honest.\n\nIt ships a complete firm site: a navy split hero with a floating key-figure card, a figures strip, numbered practice areas laid out like a ledger with fees, case studies that lead with the result, a client quote, working principles, partner profiles, insight briefings, a consultation band and a full enquiry block. Every section is phone-first and widened by breakpoint, every colour and type style is a design token, and text pairs meet WCAG AA contrast.\n\nPages: Home, The firm, Practice areas, Contact, Insights and a 404. Seven original photographs (meeting room, reception, desk detail, facade and three partner portraits) are included.",
+      "categories": [
+        "business",
+        "agency"
+      ],
+      "accent": "#1E3A5F",
+      "latest": "1.0.0",
+      "releases": [
+        {
+          "version": "1.0.0",
+          "url": "https://guuslab.github.io/stride-themes/themes/ledger/1.0.0/theme.zip",
+          "sha256": "5cda9eba766022cc713cb2097b5f36ed781f44157fbe919b412f0dff05cecfec",
+          "size": 3652489,
+          "signature": "27c383add01afe37e6583a976ad5f5f596eb67d65214d31e578879175ea219b0b74c33594fb52c7d80dd47faa50f3c5fad0d11d7e10cff8ab734d0838670520a",
+          "publishedAt": "2026-09-26T16:45:27Z"
+        }
+      ],
+      "icon": {
+        "url": "https://guuslab.github.io/stride-themes/themes/ledger/icon.png",
+        "sha256": "4446ab18c85187a5286a1d28e5a5f9339a71b9575d03b7f6ad10f8749474f9f8",
+        "size": 130077
+      },
+      "screenshots": [
+        {
+          "url": "https://guuslab.github.io/stride-themes/themes/ledger/screenshots/01.png",
+          "sha256": "a7d55df760cd398127596fb64a69138fce03297a88dfea757732d386cb6ceddf",
+          "size": 657441,
+          "caption": "Home: navy hero with a key figure card"
+        },
+        {
+          "url": "https://guuslab.github.io/stride-themes/themes/ledger/screenshots/02.png",
+          "sha256": "38ff9b606d9123cad5aec402f74fd77e8755ab819e6f680dc62ce17564dd5f0e",
+          "size": 663473,
+          "caption": "Services: five practice areas"
+        },
+        {
+          "url": "https://guuslab.github.io/stride-themes/themes/ledger/screenshots/03.png",
+          "sha256": "4d52a82a25b5a14184b1772aa357596cfd4eceb9f59a1648addb055fe71d8676",
+          "size": 865222,
+          "caption": "The firm: partners and history"
+        },
+        {
+          "url": "https://guuslab.github.io/stride-themes/themes/ledger/screenshots/04.png",
+          "sha256": "769272f4549bf28398bdf1be57e8916358fa27f50c44f1f92e36f0f490041a92",
+          "size": 750875,
+          "caption": "On a phone: home, services and the firm"
+        }
+      ]
+    },
+    {
+      "id": "nightfall",
+      "name": "Nightfall",
+      "author": {
+        "id": "guuslab",
+        "name": "GuusLab"
+      },
+      "tagline": "Dark, image-led photography portfolio: full-bleed plates, quiet serif, gold.",
+      "longDescription": "Nightfall is a portfolio theme for photographers and visual artists who want the work to do the talking. Pages sit on a warm darkroom black so photographs glow the way they do on a lightbox, and a single safelight-gold accent marks the few things that matter: an index number, a button, one italic line in the footer.\n\nThe home page opens on a full-bleed photograph with a vertical plate caption, then moves through a short statement, a staggered 12-column gallery with numbered captions, numbers, commissions, a testimonial, journal entries and a photographic call to action. Type is minimal: Cormorant Garamond Light for headlines and Manrope for small, widely tracked labels.\n\nIncluded: 14 components (header with an overlay variant, footer, full-bleed and portrait-split heroes, statement, staggered gallery, project index, commissions, numbers, testimonial, call to action, contact block, clients and journal card) and six page templates (home, about, work, journal, contact and a 404), with copy for an invented photographer and seven original photographs. Every grid collapses to one column on phones.",
+      "categories": [
+        "portfolio",
+        "personal"
+      ],
+      "accent": "#E0B45C",
+      "latest": "1.0.0",
+      "releases": [
+        {
+          "version": "1.0.0",
+          "url": "https://guuslab.github.io/stride-themes/themes/nightfall/1.0.0/theme.zip",
+          "sha256": "30200fac60fb84351f305b0dda4af864ebcc1e832bf9e917a4b4703519d5aba9",
+          "size": 3287716,
+          "signature": "534dd5bb5de444f489670b5fca4353347672c0fcd179272be932fb1cf41fb0f674e622b9107491f272329da72fe5d37cb0bc7a73877f300681a8ea26abdf2c0c",
+          "publishedAt": "2026-09-26T16:45:27Z"
+        }
+      ],
+      "icon": {
+        "url": "https://guuslab.github.io/stride-themes/themes/nightfall/icon.png",
+        "sha256": "673798335f84273f3a19e6a89168c8296705a7831c1c263aee76e6c014b66057",
+        "size": 123035
+      },
+      "screenshots": [
+        {
+          "url": "https://guuslab.github.io/stride-themes/themes/nightfall/screenshots/01.png",
+          "sha256": "1b562fd76aff9b0102eb7ab29826e720756d70be4116364427bee242d48700cf",
+          "size": 1046271,
+          "caption": "Home: a full-bleed plate with a quiet serif headline"
+        },
+        {
+          "url": "https://guuslab.github.io/stride-themes/themes/nightfall/screenshots/02.png",
+          "sha256": "4c8014ae6d6e53ad5c9454f7429f0dd6bd702cd62b1b1cabbf0dcbd2dd7f1c66",
+          "size": 196763,
+          "caption": "Work: featured series"
+        },
+        {
+          "url": "https://guuslab.github.io/stride-themes/themes/nightfall/screenshots/03.png",
+          "sha256": "addb1bf4952e0c2aa4f1996227bc1dcffb34f3af0b0d9449360365b720bbd38c",
+          "size": 413188,
+          "caption": "About: the photographer"
+        },
+        {
+          "url": "https://guuslab.github.io/stride-themes/themes/nightfall/screenshots/04.png",
+          "sha256": "47e64a44fa7ebd74102bda82eb73092f566fb8d1705d33c1d8214f58d8a70e81",
+          "size": 674629,
+          "caption": "On a phone: home, work and about"
+        }
+      ]
+    },
+    {
+      "id": "pulse",
+      "name": "Pulse",
+      "author": {
+        "id": "guuslab",
+        "name": "GuusLab"
+      },
+      "tagline": "Dark-first SaaS landing theme: violet glow, bold geometric type, pricing, FAQ.",
+      "longDescription": "Pulse is a launch-ready theme for software products and startups. It is dark first: a near-black page with a violet cast, lit by soft radial glows in the brand violet (#6D28D9) and a magenta partner, with headlines set tight in Sora and running text in Inter.\n\nIt ships seven pages built from its own component library: a landing page (glowing hero with a framed product screenshot, customer logos strip, six-card feature grid, stats, an alternating feature story, testimonial, three-tier pricing table with a highlighted plan, FAQ and a gradient call-to-action band), a product tour, a pricing page, an about page with team and gallery, a blog index with post cards, a contact page and a 404.\n\nFourteen components come with it — header, footer, two heroes, logos strip, feature grid, testimonial, pricing table, FAQ, CTA band, gallery, team, contact block and blog card — each with editable props and, where it makes sense, variants. Everything is drawn narrow-first and widens by breakpoint, uses design tokens rather than literal colours for all text, and keeps secondary text at 4.5:1 or better on every surface.\n\nPhotography is original and generated for this theme, with a diverse cast and a consistent violet dusk grade; the product screenshot is a rendered mock you can swap for your own.",
+      "categories": [
+        "landing",
+        "business"
+      ],
+      "accent": "#6D28D9",
+      "latest": "1.0.0",
+      "releases": [
+        {
+          "version": "1.0.0",
+          "url": "https://guuslab.github.io/stride-themes/themes/pulse/1.0.0/theme.zip",
+          "sha256": "d67425b838e4839bb4a845bc2cba772570e75bd8b5d5875c3ddcb433563feba2",
+          "size": 2337182,
+          "signature": "1141e15c10833d927d62c8c0c8414a7bb0ce06545bbb2364b1580472d2320a48eec4d9286ee20c5b694f1963cfb5ec305723c80ac110b850016610f766056708",
+          "publishedAt": "2026-09-26T16:45:27Z"
+        }
+      ],
+      "icon": {
+        "url": "https://guuslab.github.io/stride-themes/themes/pulse/icon.png",
+        "sha256": "d62e0a2c7586b33446a79ce2afb5534993226a2eb55fbb52b1704a3037d9d65e",
+        "size": 191583
+      },
+      "screenshots": [
+        {
+          "url": "https://guuslab.github.io/stride-themes/themes/pulse/screenshots/01.png",
+          "sha256": "b87d83beb97c40b29aaed337ee4a68018ee9fda40c812fccf6634b84383380b3",
+          "size": 624690,
+          "caption": "Home: glowing hero with a framed product dashboard"
+        },
+        {
+          "url": "https://guuslab.github.io/stride-themes/themes/pulse/screenshots/02.png",
+          "sha256": "17a1aae440b91b51c0c0af9992fca7f2f6f0badd8cc860568e4e64a15ae33ce1",
+          "size": 245703,
+          "caption": "Pricing: three plans with a highlighted favourite"
+        },
+        {
+          "url": "https://guuslab.github.io/stride-themes/themes/pulse/screenshots/03.png",
+          "sha256": "4ea7ce3e4115d9bb3dd659340947e1d55327443e664e37e9e7488717913cfe9a",
+          "size": 358339,
+          "caption": "Product tour: one platform for the growth loop"
+        },
+        {
+          "url": "https://guuslab.github.io/stride-themes/themes/pulse/screenshots/04.png",
+          "sha256": "6e02cb2823ed4ab71278fec0652fbc107ef4bd82c6699b4c94cdb495356c99f9",
+          "size": 519108,
+          "caption": "On a phone: home, pricing and product"
+        }
+      ]
+    }
+  ],
+  "signature": "6f7405f09f6c482754e90a32d155b4351a9e12d43f3333c97a62ef18e9e982c59d89b92ff91efc37c646eadb49bac7e9bde231334e9e0ab8896873433699de0d"
+}

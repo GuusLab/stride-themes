@@ -1,0 +1,903 @@
+{
+  "id": "pulse-team",
+  "name": "Pulse team",
+  "root": {
+    "id": "pulse-team",
+    "kind": {
+      "type": "frame",
+      "element": "section"
+    },
+    "styles": {
+      "base": {
+        "base": {
+          "background": {
+            "token": "surface.raised"
+          },
+          "spacing": {
+            "padding": {
+              "top": {
+                "token": "space.section"
+              },
+              "bottom": {
+                "token": "space.section"
+              },
+              "left": {
+                "token": "space.gutter"
+              },
+              "right": {
+                "token": "space.gutter"
+              }
+            }
+          }
+        }
+      },
+      "md": {
+        "base": {
+          "spacing": {
+            "padding": {
+              "left": {
+                "token": "space.gutter.wide"
+              },
+              "right": {
+                "token": "space.gutter.wide"
+              }
+            }
+          }
+        }
+      }
+    },
+    "children": [
+      {
+        "id": "team-inner",
+        "kind": {
+          "type": "frame"
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "display": "flex",
+              "flex": {
+                "direction": "column",
+                "gap": {
+                  "token": "space.12"
+                }
+              },
+              "size": {
+                "maxWidth": {
+                  "token": "space.measure"
+                },
+                "width": {
+                  "percent": 100
+                }
+              },
+              "spacing": {
+                "margin": {
+                  "left": {
+                    "raw": "auto"
+                  },
+                  "right": {
+                    "raw": "auto"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "children": [
+          {
+            "id": "team-heading",
+            "kind": {
+              "type": "frame"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "flex",
+                  "flex": {
+                    "direction": "column",
+                    "gap": {
+                      "token": "space.4"
+                    },
+                    "align": "center"
+                  },
+                  "size": {
+                    "maxWidth": {
+                      "px": 760
+                    }
+                  },
+                  "spacing": {
+                    "margin": {
+                      "left": {
+                        "raw": "auto"
+                      },
+                      "right": {
+                        "raw": "auto"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "team-heading-eyebrow",
+                "kind": {
+                  "type": "frame"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "inlineFlex",
+                      "flex": {
+                        "align": "center",
+                        "gap": {
+                          "token": "space.2"
+                        }
+                      },
+                      "size": {
+                        "width": {
+                          "raw": "fit-content"
+                        }
+                      },
+                      "background": {
+                        "raw": "rgb(109 40 217 / 0.16)"
+                      },
+                      "border": {
+                        "width": {
+                          "px": 1
+                        },
+                        "style": "solid",
+                        "color": {
+                          "raw": "rgb(167 139 250 / 0.35)"
+                        }
+                      },
+                      "radius": {
+                        "token": "radius.full"
+                      },
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "px": 6
+                          },
+                          "bottom": {
+                            "px": 6
+                          },
+                          "left": {
+                            "px": 12
+                          },
+                          "right": {
+                            "px": 14
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "team-heading-eyebrow-dot",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "size": {
+                            "width": {
+                              "px": 8
+                            },
+                            "height": {
+                              "px": 8
+                            }
+                          },
+                          "radius": {
+                            "token": "radius.full"
+                          },
+                          "background": {
+                            "token": "brand.glow"
+                          },
+                          "shadow": {
+                            "raw": "0 0 12px 2px rgb(167 139 250 / 0.9)"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "team-heading-eyebrow-text",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "Team"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.label",
+                            "color": {
+                              "token": "ink.accent"
+                            },
+                            "transform": "uppercase"
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "content": "eyebrow"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "team-heading-title",
+                "kind": {
+                  "type": "text",
+                  "tag": "h2",
+                  "content": "The people behind the pulse."
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.title",
+                        "color": {
+                          "token": "ink.strong"
+                        },
+                        "align": "center"
+                      }
+                    }
+                  }
+                },
+                "bindings": {
+                  "content": "title"
+                }
+              },
+              {
+                "id": "team-heading-lead",
+                "kind": {
+                  "type": "text",
+                  "tag": "p",
+                  "content": "Small on purpose. Every one of us talks to customers every week."
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.lead",
+                        "color": {
+                          "token": "ink.muted"
+                        },
+                        "align": "center"
+                      }
+                    }
+                  }
+                },
+                "bindings": {
+                  "content": "lead"
+                }
+              }
+            ]
+          },
+          {
+            "id": "team-grid",
+            "kind": {
+              "type": "columns",
+              "count": 3
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "grid",
+                  "grid": {
+                    "columns": 1,
+                    "gap": {
+                      "token": "space.5"
+                    }
+                  }
+                }
+              },
+              "md": {
+                "base": {
+                  "display": "grid",
+                  "grid": {
+                    "columns": 3
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "member-1",
+                "kind": {
+                  "type": "frame",
+                  "element": "article"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "token": "space.4"
+                        }
+                      },
+                      "background": {
+                        "token": "surface.card"
+                      },
+                      "border": {
+                        "width": {
+                          "px": 1
+                        },
+                        "style": "solid",
+                        "color": {
+                          "token": "line.subtle"
+                        }
+                      },
+                      "radius": {
+                        "token": "radius.lg"
+                      },
+                      "shadow": {
+                        "token": "shadow.card"
+                      },
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "token": "space.4"
+                          },
+                          "bottom": {
+                            "token": "space.6"
+                          },
+                          "left": {
+                            "token": "space.4"
+                          },
+                          "right": {
+                            "token": "space.4"
+                          }
+                        }
+                      },
+                      "transition": {
+                        "duration": 220,
+                        "properties": [
+                          "borderColor",
+                          "transform"
+                        ]
+                      }
+                    },
+                    "hover": {
+                      "border": {
+                        "width": {
+                          "px": 1
+                        },
+                        "style": "solid",
+                        "color": {
+                          "raw": "rgb(167 139 250 / 0.45)"
+                        }
+                      },
+                      "custom": {
+                        "transform": "translateY(-3px)"
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "member-1-photo",
+                    "kind": {
+                      "type": "image",
+                      "src": "assets/images/portrait-founder.webp",
+                      "alt": "Portrait of Lucía Ferrer"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "size": {
+                            "width": {
+                              "percent": 100
+                            }
+                          },
+                          "radius": {
+                            "token": "radius.md"
+                          },
+                          "aspectRatio": {
+                            "ratio": {
+                              "width": 1,
+                              "height": 1
+                            }
+                          },
+                          "objectFit": "cover"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "member-1-meta",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "column",
+                            "gap": {
+                              "token": "space.1"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "member-1-name",
+                        "kind": {
+                          "type": "text",
+                          "tag": "h3",
+                          "content": "Lucía Ferrer"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.heading",
+                                "color": {
+                                  "token": "ink.strong"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "member-1-role",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Co-founder & CEO"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.accent"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "member-1-bio",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "Ran growth at two marketplaces before deciding the tools were the problem."
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.body",
+                            "color": {
+                              "token": "ink.muted"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "member-2",
+                "kind": {
+                  "type": "frame",
+                  "element": "article"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "token": "space.4"
+                        }
+                      },
+                      "background": {
+                        "token": "surface.card"
+                      },
+                      "border": {
+                        "width": {
+                          "px": 1
+                        },
+                        "style": "solid",
+                        "color": {
+                          "token": "line.subtle"
+                        }
+                      },
+                      "radius": {
+                        "token": "radius.lg"
+                      },
+                      "shadow": {
+                        "token": "shadow.card"
+                      },
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "token": "space.4"
+                          },
+                          "bottom": {
+                            "token": "space.6"
+                          },
+                          "left": {
+                            "token": "space.4"
+                          },
+                          "right": {
+                            "token": "space.4"
+                          }
+                        }
+                      },
+                      "transition": {
+                        "duration": 220,
+                        "properties": [
+                          "borderColor",
+                          "transform"
+                        ]
+                      }
+                    },
+                    "hover": {
+                      "border": {
+                        "width": {
+                          "px": 1
+                        },
+                        "style": "solid",
+                        "color": {
+                          "raw": "rgb(167 139 250 / 0.45)"
+                        }
+                      },
+                      "custom": {
+                        "transform": "translateY(-3px)"
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "member-2-photo",
+                    "kind": {
+                      "type": "image",
+                      "src": "assets/images/portrait-engineer.webp",
+                      "alt": "Portrait of Kwame Asante"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "size": {
+                            "width": {
+                              "percent": 100
+                            }
+                          },
+                          "radius": {
+                            "token": "radius.md"
+                          },
+                          "aspectRatio": {
+                            "ratio": {
+                              "width": 1,
+                              "height": 1
+                            }
+                          },
+                          "objectFit": "cover"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "member-2-meta",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "column",
+                            "gap": {
+                              "token": "space.1"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "member-2-name",
+                        "kind": {
+                          "type": "text",
+                          "tag": "h3",
+                          "content": "Kwame Asante"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.heading",
+                                "color": {
+                                  "token": "ink.strong"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "member-2-role",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Co-founder & CTO"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.accent"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "member-2-bio",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "Builds the event pipeline that answers a billion queries a day."
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.body",
+                            "color": {
+                              "token": "ink.muted"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "member-3",
+                "kind": {
+                  "type": "frame",
+                  "element": "article"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "token": "space.4"
+                        }
+                      },
+                      "background": {
+                        "token": "surface.card"
+                      },
+                      "border": {
+                        "width": {
+                          "px": 1
+                        },
+                        "style": "solid",
+                        "color": {
+                          "token": "line.subtle"
+                        }
+                      },
+                      "radius": {
+                        "token": "radius.lg"
+                      },
+                      "shadow": {
+                        "token": "shadow.card"
+                      },
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "token": "space.4"
+                          },
+                          "bottom": {
+                            "token": "space.6"
+                          },
+                          "left": {
+                            "token": "space.4"
+                          },
+                          "right": {
+                            "token": "space.4"
+                          }
+                        }
+                      },
+                      "transition": {
+                        "duration": 220,
+                        "properties": [
+                          "borderColor",
+                          "transform"
+                        ]
+                      }
+                    },
+                    "hover": {
+                      "border": {
+                        "width": {
+                          "px": 1
+                        },
+                        "style": "solid",
+                        "color": {
+                          "raw": "rgb(167 139 250 / 0.45)"
+                        }
+                      },
+                      "custom": {
+                        "transform": "translateY(-3px)"
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "member-3-photo",
+                    "kind": {
+                      "type": "image",
+                      "src": "assets/images/portrait-operations.webp",
+                      "alt": "Portrait of Mei Tanaka"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "size": {
+                            "width": {
+                              "percent": 100
+                            }
+                          },
+                          "radius": {
+                            "token": "radius.md"
+                          },
+                          "aspectRatio": {
+                            "ratio": {
+                              "width": 1,
+                              "height": 1
+                            }
+                          },
+                          "objectFit": "cover"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "member-3-meta",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "column",
+                            "gap": {
+                              "token": "space.1"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "member-3-name",
+                        "kind": {
+                          "type": "text",
+                          "tag": "h3",
+                          "content": "Mei Tanaka"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.heading",
+                                "color": {
+                                  "token": "ink.strong"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "member-3-role",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Head of Operations"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.accent"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "member-3-bio",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "Keeps 64 people in nine time zones pointed at the same number."
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.body",
+                            "color": {
+                              "token": "ink.muted"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "props": [
+    {
+      "name": "eyebrow",
+      "label": "Eyebrow",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Team"
+    },
+    {
+      "name": "title",
+      "label": "Heading",
+      "kind": {
+        "type": "text"
+      },
+      "default": "The people behind the pulse."
+    },
+    {
+      "name": "lead",
+      "label": "Lead",
+      "kind": {
+        "type": "longText"
+      },
+      "default": "Small on purpose. Every one of us talks to customers every week."
+    }
+  ]
+}

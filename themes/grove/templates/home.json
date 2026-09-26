@@ -1,0 +1,443 @@
+{
+  "root": {
+    "id": "root",
+    "kind": {
+      "type": "frame",
+      "element": "main"
+    },
+    "styles": {
+      "base": {
+        "base": {
+          "background": {
+            "token": "surface.page"
+          },
+          "typography": {
+            "token": "type.body",
+            "color": {
+              "token": "ink.body"
+            }
+          },
+          "custom": {
+            "-webkit-font-smoothing": "antialiased"
+          }
+        }
+      }
+    },
+    "children": [
+      {
+        "id": "header",
+        "kind": {
+          "type": "instance",
+          "component": "grove-header"
+        }
+      },
+      {
+        "id": "hero",
+        "kind": {
+          "type": "instance",
+          "component": "grove-hero-split"
+        }
+      },
+      {
+        "id": "stats",
+        "kind": {
+          "type": "instance",
+          "component": "grove-stats"
+        }
+      },
+      {
+        "id": "offer",
+        "kind": {
+          "type": "instance",
+          "component": "grove-features"
+        }
+      },
+      {
+        "id": "schedule",
+        "kind": {
+          "type": "instance",
+          "component": "grove-schedule"
+        }
+      },
+      {
+        "id": "testimonial",
+        "kind": {
+          "type": "instance",
+          "component": "grove-testimonial"
+        }
+      },
+      {
+        "id": "pricing",
+        "kind": {
+          "type": "instance",
+          "component": "grove-pricing"
+        }
+      },
+      {
+        "id": "journal",
+        "kind": {
+          "type": "frame",
+          "element": "section"
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "background": {
+                "token": "surface.sand"
+              },
+              "spacing": {
+                "padding": {
+                  "top": {
+                    "token": "section.y"
+                  },
+                  "right": {
+                    "token": "gutter"
+                  },
+                  "bottom": {
+                    "token": "section.y"
+                  },
+                  "left": {
+                    "token": "gutter"
+                  }
+                }
+              },
+              "position": {
+                "kind": "relative"
+              },
+              "overflow": "hidden"
+            }
+          }
+        },
+        "children": [
+          {
+            "id": "journal-inner",
+            "kind": {
+              "type": "frame",
+              "element": "div"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "flex",
+                  "flex": {
+                    "direction": "column",
+                    "gap": {
+                      "px": 48.0
+                    }
+                  },
+                  "size": {
+                    "maxWidth": {
+                      "token": "content.max"
+                    },
+                    "width": {
+                      "percent": 100.0
+                    }
+                  },
+                  "spacing": {
+                    "margin": {
+                      "left": {
+                        "raw": "auto"
+                      },
+                      "right": {
+                        "raw": "auto"
+                      }
+                    }
+                  },
+                  "position": {
+                    "kind": "relative"
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "jr-top",
+                "kind": {
+                  "type": "frame",
+                  "element": "div"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "px": 20.0
+                        }
+                      }
+                    }
+                  },
+                  "md": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "row",
+                        "gap": {
+                          "px": 24.0
+                        },
+                        "align": "end",
+                        "justify": "spaceBetween"
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "jr-head",
+                    "kind": {
+                      "type": "frame",
+                      "element": "div"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "column",
+                            "gap": {
+                              "px": 18.0
+                            }
+                          },
+                          "size": {
+                            "maxWidth": {
+                              "px": 720.0
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "jr-eyebrow",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "From the journal"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.eyebrow",
+                                "color": {
+                                  "token": "brand.strong"
+                                },
+                                "transform": "uppercase"
+                              }
+                            }
+                          }
+                        },
+                        "bindings": {
+                          "content": "eyebrow"
+                        }
+                      },
+                      {
+                        "id": "jr-title",
+                        "kind": {
+                          "type": "text",
+                          "tag": "h2",
+                          "content": "Small practices for ordinary days."
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.title",
+                                "color": {
+                                  "token": "ink.body"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "bindings": {
+                          "content": "title"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "jr-all",
+                    "kind": {
+                      "type": "link",
+                      "href": "/journal",
+                      "target": "same"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "row",
+                            "gap": {
+                              "px": 8.0
+                            },
+                            "align": "center"
+                          },
+                          "typography": {
+                            "decoration": "none",
+                            "color": {
+                              "token": "ink.body"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "jr-all-t",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "All stories"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.button",
+                                "color": {
+                                  "token": "brand.strong"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "jr-all-i",
+                        "kind": {
+                          "type": "icon",
+                          "name": "arrow-right"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "size": {
+                                "width": {
+                                  "px": 16.0
+                                },
+                                "height": {
+                                  "px": 16.0
+                                }
+                              },
+                              "typography": {
+                                "color": {
+                                  "token": "brand.strong"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "jr-grid",
+                "kind": {
+                  "type": "frame",
+                  "element": "div"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "grid",
+                      "grid": {
+                        "columns": 1,
+                        "gap": {
+                          "px": 40.0
+                        }
+                      }
+                    }
+                  },
+                  "md": {
+                    "base": {
+                      "display": "grid",
+                      "grid": {
+                        "columns": 3,
+                        "gap": {
+                          "px": 32.0
+                        }
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "post-1",
+                    "kind": {
+                      "type": "instance",
+                      "component": "grove-blog-card",
+                      "overrides": {
+                        "imageSrc": "assets/images/ritual.jpg",
+                        "imageAlt": "A four-minute breath for nights you can't switch off",
+                        "category": "Breath",
+                        "readTime": "5 min read",
+                        "title": "A four-minute breath for nights you can't switch off",
+                        "excerpt": "The simplest thing we teach, and the one students thank us for most. Here's how to do it lying down, lights off.",
+                        "href": "/journal/breathing-for-sleep"
+                      }
+                    }
+                  },
+                  {
+                    "id": "post-2",
+                    "kind": {
+                      "type": "instance",
+                      "component": "grove-blog-card",
+                      "overrides": {
+                        "imageSrc": "assets/images/class.jpg",
+                        "imageAlt": "Why we cap every class at fourteen mats",
+                        "category": "Practice",
+                        "readTime": "7 min read",
+                        "title": "Why we cap every class at fourteen mats",
+                        "excerpt": "Bigger rooms make more money. Smaller rooms make better teachers. A short note on the choice at the heart of Grove.",
+                        "href": "/journal/fourteen-mats"
+                      }
+                    }
+                  },
+                  {
+                    "id": "post-3",
+                    "kind": {
+                      "type": "instance",
+                      "component": "grove-blog-card",
+                      "overrides": {
+                        "imageSrc": "assets/images/outdoor.jpg",
+                        "imageAlt": "Summer on the dunes: our outdoor timetable",
+                        "category": "Seasons",
+                        "readTime": "4 min read",
+                        "title": "Summer on the dunes: our outdoor timetable",
+                        "excerpt": "From June to September we take Saturday Slow Vinyasa to the beach. What to bring, and what to leave at home.",
+                        "href": "/journal/summer-dunes"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cta",
+        "kind": {
+          "type": "instance",
+          "component": "grove-cta"
+        }
+      },
+      {
+        "id": "footer",
+        "kind": {
+          "type": "instance",
+          "component": "grove-footer"
+        }
+      }
+    ]
+  },
+  "seo": {
+    "title": "Grove — yoga, breathwork & coaching",
+    "description": "Small yoga classes, breathwork and 1:1 wellness coaching in a calm riverside studio. Your first class is free."
+  }
+}

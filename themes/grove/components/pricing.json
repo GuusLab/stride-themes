@@ -1,0 +1,2109 @@
+{
+  "id": "grove-pricing",
+  "name": "Grove / Memberships",
+  "root": {
+    "id": "pricing",
+    "kind": {
+      "type": "frame",
+      "element": "section"
+    },
+    "props": {
+      "id": "pricing"
+    },
+    "styles": {
+      "base": {
+        "base": {
+          "background": {
+            "token": "surface.page"
+          },
+          "spacing": {
+            "padding": {
+              "top": {
+                "token": "section.y"
+              },
+              "right": {
+                "token": "gutter"
+              },
+              "bottom": {
+                "token": "section.y"
+              },
+              "left": {
+                "token": "gutter"
+              }
+            }
+          },
+          "position": {
+            "kind": "relative"
+          },
+          "overflow": "hidden"
+        }
+      }
+    },
+    "children": [
+      {
+        "id": "price-inner",
+        "kind": {
+          "type": "frame",
+          "element": "div"
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "display": "flex",
+              "flex": {
+                "direction": "column",
+                "gap": {
+                  "px": 64.0
+                }
+              },
+              "size": {
+                "maxWidth": {
+                  "token": "content.max"
+                },
+                "width": {
+                  "percent": 100.0
+                }
+              },
+              "spacing": {
+                "margin": {
+                  "left": {
+                    "raw": "auto"
+                  },
+                  "right": {
+                    "raw": "auto"
+                  }
+                }
+              },
+              "position": {
+                "kind": "relative"
+              }
+            }
+          }
+        },
+        "children": [
+          {
+            "id": "price-head",
+            "kind": {
+              "type": "frame",
+              "element": "div"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "flex",
+                  "flex": {
+                    "direction": "column",
+                    "gap": {
+                      "px": 18.0
+                    },
+                    "align": "center"
+                  },
+                  "size": {
+                    "maxWidth": {
+                      "px": 720.0
+                    }
+                  },
+                  "spacing": {
+                    "margin": {
+                      "left": {
+                        "raw": "auto"
+                      },
+                      "right": {
+                        "raw": "auto"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "price-eyebrow",
+                "kind": {
+                  "type": "text",
+                  "tag": "p",
+                  "content": "Memberships"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.eyebrow",
+                        "color": {
+                          "token": "brand.strong"
+                        },
+                        "transform": "uppercase"
+                      }
+                    }
+                  }
+                },
+                "bindings": {
+                  "content": "eyebrow"
+                }
+              },
+              {
+                "id": "price-title",
+                "kind": {
+                  "type": "text",
+                  "tag": "h2",
+                  "content": "Simple prices. No small print."
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.title",
+                        "color": {
+                          "token": "ink.body"
+                        },
+                        "align": "center"
+                      }
+                    }
+                  }
+                },
+                "bindings": {
+                  "content": "title"
+                }
+              },
+              {
+                "id": "price-lead",
+                "kind": {
+                  "type": "text",
+                  "tag": "p",
+                  "content": "Your first class is always free. After that, pick what suits your rhythm — and change it whenever life does."
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.lead",
+                        "color": {
+                          "token": "ink.muted"
+                        },
+                        "align": "center"
+                      }
+                    }
+                  }
+                },
+                "bindings": {
+                  "content": "lead"
+                }
+              }
+            ]
+          },
+          {
+            "id": "price-grid",
+            "kind": {
+              "type": "frame",
+              "element": "div"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "grid",
+                  "grid": {
+                    "columns": 1,
+                    "gap": {
+                      "px": 20.0
+                    }
+                  }
+                }
+              },
+              "lg": {
+                "base": {
+                  "display": "grid",
+                  "grid": {
+                    "columns": 3,
+                    "gap": {
+                      "px": 24.0
+                    },
+                    "align": "stretch"
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "plan-1",
+                "kind": {
+                  "type": "frame",
+                  "element": "article"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "px": 22.0
+                        }
+                      },
+                      "background": {
+                        "token": "surface.card"
+                      },
+                      "radius": {
+                        "token": "radius.lg"
+                      },
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "px": 36.0
+                          },
+                          "right": {
+                            "px": 32.0
+                          },
+                          "bottom": {
+                            "px": 36.0
+                          },
+                          "left": {
+                            "px": 32.0
+                          }
+                        }
+                      },
+                      "border": {
+                        "width": {
+                          "px": 1.0
+                        },
+                        "style": "solid",
+                        "color": {
+                          "token": "line.hairline"
+                        }
+                      },
+                      "shadow": {
+                        "token": "shadow.none"
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "pl-1-n",
+                    "kind": {
+                      "type": "text",
+                      "tag": "h3",
+                      "content": "Drop in"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.subtitle",
+                            "color": {
+                              "token": "ink.body"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "content": "plan1Name"
+                    }
+                  },
+                  {
+                    "id": "pl-1-price",
+                    "kind": {
+                      "type": "frame",
+                      "element": "div"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "row",
+                            "gap": {
+                              "px": 10.0
+                            },
+                            "align": "baseline"
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "pl-1-p",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "€18"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.stat",
+                                "color": {
+                                  "token": "ink.body"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "bindings": {
+                          "content": "plan1Price"
+                        }
+                      },
+                      {
+                        "id": "pl-1-per",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "per class"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.muted"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "bindings": {
+                          "content": "plan1Per"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "pl-1-fl",
+                    "kind": {
+                      "type": "frame",
+                      "element": "div"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "column",
+                            "gap": {
+                              "px": 12.0
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "pl-1-f1",
+                        "kind": {
+                          "type": "frame",
+                          "element": "div"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "flex",
+                              "flex": {
+                                "direction": "row",
+                                "gap": {
+                                  "px": 12.0
+                                },
+                                "align": "center"
+                              }
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": "pl-1-f1-i",
+                            "kind": {
+                              "type": "icon",
+                              "name": "check"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "size": {
+                                    "width": {
+                                      "px": 18.0
+                                    },
+                                    "height": {
+                                      "px": 18.0
+                                    }
+                                  },
+                                  "typography": {
+                                    "color": {
+                                      "token": "brand.primary"
+                                    }
+                                  },
+                                  "custom": {
+                                    "flex-shrink": "0"
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "pl-1-f1-t",
+                            "kind": {
+                              "type": "text",
+                              "tag": "span",
+                              "content": "Any class on the timetable"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.body",
+                                    "color": {
+                                      "token": "ink.body"
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "bindings": {
+                              "content": "plan1Feature1"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "pl-1-f2",
+                        "kind": {
+                          "type": "frame",
+                          "element": "div"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "flex",
+                              "flex": {
+                                "direction": "row",
+                                "gap": {
+                                  "px": 12.0
+                                },
+                                "align": "center"
+                              }
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": "pl-1-f2-i",
+                            "kind": {
+                              "type": "icon",
+                              "name": "check"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "size": {
+                                    "width": {
+                                      "px": 18.0
+                                    },
+                                    "height": {
+                                      "px": 18.0
+                                    }
+                                  },
+                                  "typography": {
+                                    "color": {
+                                      "token": "brand.primary"
+                                    }
+                                  },
+                                  "custom": {
+                                    "flex-shrink": "0"
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "pl-1-f2-t",
+                            "kind": {
+                              "type": "text",
+                              "tag": "span",
+                              "content": "Mats and props included"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.body",
+                                    "color": {
+                                      "token": "ink.body"
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "bindings": {
+                              "content": "plan1Feature2"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "pl-1-f3",
+                        "kind": {
+                          "type": "frame",
+                          "element": "div"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "flex",
+                              "flex": {
+                                "direction": "row",
+                                "gap": {
+                                  "px": 12.0
+                                },
+                                "align": "center"
+                              }
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": "pl-1-f3-i",
+                            "kind": {
+                              "type": "icon",
+                              "name": "check"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "size": {
+                                    "width": {
+                                      "px": 18.0
+                                    },
+                                    "height": {
+                                      "px": 18.0
+                                    }
+                                  },
+                                  "typography": {
+                                    "color": {
+                                      "token": "brand.primary"
+                                    }
+                                  },
+                                  "custom": {
+                                    "flex-shrink": "0"
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "pl-1-f3-t",
+                            "kind": {
+                              "type": "text",
+                              "tag": "span",
+                              "content": "Tea after every session"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.body",
+                                    "color": {
+                                      "token": "ink.body"
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "bindings": {
+                              "content": "plan1Feature3"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "pl-1-sp",
+                    "kind": {
+                      "type": "frame",
+                      "element": "div"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "custom": {
+                            "flex": "1"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "pl-1-b",
+                    "kind": {
+                      "type": "button",
+                      "label": "Choose drop in",
+                      "href": "/contact",
+                      "target": "same"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "inlineFlex",
+                          "radius": {
+                            "token": "radius.pill"
+                          },
+                          "border": {
+                            "width": {
+                              "px": 1.5
+                            },
+                            "style": "solid",
+                            "color": {
+                              "token": "line.hairline"
+                            }
+                          },
+                          "spacing": {
+                            "padding": {
+                              "top": {
+                                "px": 15.0
+                              },
+                              "right": {
+                                "px": 28.0
+                              },
+                              "bottom": {
+                                "px": 15.0
+                              },
+                              "left": {
+                                "px": 28.0
+                              }
+                            }
+                          },
+                          "typography": {
+                            "token": "type.button",
+                            "color": {
+                              "token": "ink.body"
+                            },
+                            "align": "center",
+                            "decoration": "none"
+                          },
+                          "size": {
+                            "width": {
+                              "percent": 100.0
+                            }
+                          },
+                          "transition": {
+                            "duration": 220,
+                            "properties": [
+                              "backgroundColor",
+                              "color",
+                              "borderColor",
+                              "boxShadow",
+                              "transform"
+                            ]
+                          },
+                          "flex": {
+                            "justify": "center"
+                          }
+                        },
+                        "hover": {
+                          "border": {
+                            "width": {
+                              "px": 1.5
+                            },
+                            "style": "solid",
+                            "color": {
+                              "token": "brand.primary"
+                            }
+                          },
+                          "typography": {
+                            "color": {
+                              "token": "brand.strong"
+                            }
+                          }
+                        },
+                        "focus": {
+                          "custom": {
+                            "outline": "3px solid #6B8F71",
+                            "outline-offset": "3px"
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "label": "plan1ButtonLabel",
+                      "href": "plan1ButtonHref"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "plan-2",
+                "kind": {
+                  "type": "frame",
+                  "element": "article"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "px": 22.0
+                        }
+                      },
+                      "background": {
+                        "token": "surface.deep"
+                      },
+                      "radius": {
+                        "token": "radius.lg"
+                      },
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "px": 36.0
+                          },
+                          "right": {
+                            "px": 32.0
+                          },
+                          "bottom": {
+                            "px": 36.0
+                          },
+                          "left": {
+                            "px": 32.0
+                          }
+                        }
+                      },
+                      "border": {
+                        "width": {
+                          "px": 1.0
+                        },
+                        "style": "solid",
+                        "color": {
+                          "token": "surface.deep"
+                        }
+                      },
+                      "shadow": {
+                        "token": "shadow.float"
+                      }
+                    }
+                  },
+                  "lg": {
+                    "base": {
+                      "custom": {
+                        "transform": "translateY(-16px)"
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "pl-2-tag",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "Most loved"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.eyebrow",
+                            "color": {
+                              "token": "surface.deep"
+                            },
+                            "transform": "uppercase"
+                          },
+                          "background": {
+                            "token": "brand.soft"
+                          },
+                          "radius": {
+                            "token": "radius.pill"
+                          },
+                          "spacing": {
+                            "padding": {
+                              "top": {
+                                "px": 6.0
+                              },
+                              "right": {
+                                "px": 12.0
+                              },
+                              "bottom": {
+                                "px": 6.0
+                              },
+                              "left": {
+                                "px": 12.0
+                              }
+                            }
+                          },
+                          "size": {
+                            "width": {
+                              "raw": "fit-content"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "content": "tag"
+                    }
+                  },
+                  {
+                    "id": "pl-2-n",
+                    "kind": {
+                      "type": "text",
+                      "tag": "h3",
+                      "content": "Unlimited"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.subtitle",
+                            "color": {
+                              "token": "ink.inverse"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "content": "plan2Name"
+                    }
+                  },
+                  {
+                    "id": "pl-2-price",
+                    "kind": {
+                      "type": "frame",
+                      "element": "div"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "row",
+                            "gap": {
+                              "px": 10.0
+                            },
+                            "align": "baseline"
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "pl-2-p",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "€98"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.stat",
+                                "color": {
+                                  "token": "ink.inverse"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "bindings": {
+                          "content": "plan2Price"
+                        }
+                      },
+                      {
+                        "id": "pl-2-per",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "per month"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.inverse.muted"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "bindings": {
+                          "content": "plan2Per"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "pl-2-fl",
+                    "kind": {
+                      "type": "frame",
+                      "element": "div"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "column",
+                            "gap": {
+                              "px": 12.0
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "pl-2-f1",
+                        "kind": {
+                          "type": "frame",
+                          "element": "div"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "flex",
+                              "flex": {
+                                "direction": "row",
+                                "gap": {
+                                  "px": 12.0
+                                },
+                                "align": "center"
+                              }
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": "pl-2-f1-i",
+                            "kind": {
+                              "type": "icon",
+                              "name": "check"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "size": {
+                                    "width": {
+                                      "px": 18.0
+                                    },
+                                    "height": {
+                                      "px": 18.0
+                                    }
+                                  },
+                                  "typography": {
+                                    "color": {
+                                      "token": "brand.soft"
+                                    }
+                                  },
+                                  "custom": {
+                                    "flex-shrink": "0"
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "pl-2-f1-t",
+                            "kind": {
+                              "type": "text",
+                              "tag": "span",
+                              "content": "Every class, every week"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.body",
+                                    "color": {
+                                      "token": "ink.inverse"
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "bindings": {
+                              "content": "plan2Feature1"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "pl-2-f2",
+                        "kind": {
+                          "type": "frame",
+                          "element": "div"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "flex",
+                              "flex": {
+                                "direction": "row",
+                                "gap": {
+                                  "px": 12.0
+                                },
+                                "align": "center"
+                              }
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": "pl-2-f2-i",
+                            "kind": {
+                              "type": "icon",
+                              "name": "check"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "size": {
+                                    "width": {
+                                      "px": 18.0
+                                    },
+                                    "height": {
+                                      "px": 18.0
+                                    }
+                                  },
+                                  "typography": {
+                                    "color": {
+                                      "token": "brand.soft"
+                                    }
+                                  },
+                                  "custom": {
+                                    "flex-shrink": "0"
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "pl-2-f2-t",
+                            "kind": {
+                              "type": "text",
+                              "tag": "span",
+                              "content": "One guest pass a month"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.body",
+                                    "color": {
+                                      "token": "ink.inverse"
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "bindings": {
+                              "content": "plan2Feature2"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "pl-2-f3",
+                        "kind": {
+                          "type": "frame",
+                          "element": "div"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "flex",
+                              "flex": {
+                                "direction": "row",
+                                "gap": {
+                                  "px": 12.0
+                                },
+                                "align": "center"
+                              }
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": "pl-2-f3-i",
+                            "kind": {
+                              "type": "icon",
+                              "name": "check"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "size": {
+                                    "width": {
+                                      "px": 18.0
+                                    },
+                                    "height": {
+                                      "px": 18.0
+                                    }
+                                  },
+                                  "typography": {
+                                    "color": {
+                                      "token": "brand.soft"
+                                    }
+                                  },
+                                  "custom": {
+                                    "flex-shrink": "0"
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "pl-2-f3-t",
+                            "kind": {
+                              "type": "text",
+                              "tag": "span",
+                              "content": "10% off workshops"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.body",
+                                    "color": {
+                                      "token": "ink.inverse"
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "bindings": {
+                              "content": "plan2Feature3"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "pl-2-f4",
+                        "kind": {
+                          "type": "frame",
+                          "element": "div"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "flex",
+                              "flex": {
+                                "direction": "row",
+                                "gap": {
+                                  "px": 12.0
+                                },
+                                "align": "center"
+                              }
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": "pl-2-f4-i",
+                            "kind": {
+                              "type": "icon",
+                              "name": "check"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "size": {
+                                    "width": {
+                                      "px": 18.0
+                                    },
+                                    "height": {
+                                      "px": 18.0
+                                    }
+                                  },
+                                  "typography": {
+                                    "color": {
+                                      "token": "brand.soft"
+                                    }
+                                  },
+                                  "custom": {
+                                    "flex-shrink": "0"
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "pl-2-f4-t",
+                            "kind": {
+                              "type": "text",
+                              "tag": "span",
+                              "content": "Pause anytime"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.body",
+                                    "color": {
+                                      "token": "ink.inverse"
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "bindings": {
+                              "content": "plan2Feature4"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "pl-2-sp",
+                    "kind": {
+                      "type": "frame",
+                      "element": "div"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "custom": {
+                            "flex": "1"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "pl-2-b",
+                    "kind": {
+                      "type": "button",
+                      "label": "Choose unlimited",
+                      "href": "/contact",
+                      "target": "same"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "inlineFlex",
+                          "background": {
+                            "token": "ink.inverse"
+                          },
+                          "radius": {
+                            "token": "radius.pill"
+                          },
+                          "spacing": {
+                            "padding": {
+                              "top": {
+                                "px": 16.0
+                              },
+                              "right": {
+                                "px": 30.0
+                              },
+                              "bottom": {
+                                "px": 16.0
+                              },
+                              "left": {
+                                "px": 30.0
+                              }
+                            }
+                          },
+                          "typography": {
+                            "token": "type.button",
+                            "color": {
+                              "token": "surface.deep"
+                            },
+                            "align": "center",
+                            "decoration": "none"
+                          },
+                          "size": {
+                            "width": {
+                              "percent": 100.0
+                            }
+                          },
+                          "transition": {
+                            "duration": 220,
+                            "properties": [
+                              "backgroundColor",
+                              "color",
+                              "borderColor",
+                              "boxShadow",
+                              "transform"
+                            ]
+                          },
+                          "shadow": {
+                            "token": "shadow.soft"
+                          },
+                          "flex": {
+                            "justify": "center"
+                          }
+                        },
+                        "hover": {
+                          "background": {
+                            "token": "surface.sand"
+                          },
+                          "custom": {
+                            "transform": "translateY(-2px)"
+                          }
+                        },
+                        "focus": {
+                          "custom": {
+                            "outline": "3px solid #6B8F71",
+                            "outline-offset": "3px"
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "label": "plan2ButtonLabel",
+                      "href": "plan2ButtonHref"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "plan-3",
+                "kind": {
+                  "type": "frame",
+                  "element": "article"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "px": 22.0
+                        }
+                      },
+                      "background": {
+                        "token": "surface.card"
+                      },
+                      "radius": {
+                        "token": "radius.lg"
+                      },
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "px": 36.0
+                          },
+                          "right": {
+                            "px": 32.0
+                          },
+                          "bottom": {
+                            "px": 36.0
+                          },
+                          "left": {
+                            "px": 32.0
+                          }
+                        }
+                      },
+                      "border": {
+                        "width": {
+                          "px": 1.0
+                        },
+                        "style": "solid",
+                        "color": {
+                          "token": "line.hairline"
+                        }
+                      },
+                      "shadow": {
+                        "token": "shadow.none"
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "pl-3-n",
+                    "kind": {
+                      "type": "text",
+                      "tag": "h3",
+                      "content": "Ten classes"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.subtitle",
+                            "color": {
+                              "token": "ink.body"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "content": "plan3Name"
+                    }
+                  },
+                  {
+                    "id": "pl-3-price",
+                    "kind": {
+                      "type": "frame",
+                      "element": "div"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "row",
+                            "gap": {
+                              "px": 10.0
+                            },
+                            "align": "baseline"
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "pl-3-p",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "€150"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.stat",
+                                "color": {
+                                  "token": "ink.body"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "bindings": {
+                          "content": "plan3Price"
+                        }
+                      },
+                      {
+                        "id": "pl-3-per",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "valid 4 months"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.muted"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "bindings": {
+                          "content": "plan3Per"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "pl-3-fl",
+                    "kind": {
+                      "type": "frame",
+                      "element": "div"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "column",
+                            "gap": {
+                              "px": 12.0
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "pl-3-f1",
+                        "kind": {
+                          "type": "frame",
+                          "element": "div"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "flex",
+                              "flex": {
+                                "direction": "row",
+                                "gap": {
+                                  "px": 12.0
+                                },
+                                "align": "center"
+                              }
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": "pl-3-f1-i",
+                            "kind": {
+                              "type": "icon",
+                              "name": "check"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "size": {
+                                    "width": {
+                                      "px": 18.0
+                                    },
+                                    "height": {
+                                      "px": 18.0
+                                    }
+                                  },
+                                  "typography": {
+                                    "color": {
+                                      "token": "brand.primary"
+                                    }
+                                  },
+                                  "custom": {
+                                    "flex-shrink": "0"
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "pl-3-f1-t",
+                            "kind": {
+                              "type": "text",
+                              "tag": "span",
+                              "content": "Share with a friend"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.body",
+                                    "color": {
+                                      "token": "ink.body"
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "bindings": {
+                              "content": "plan3Feature1"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "pl-3-f2",
+                        "kind": {
+                          "type": "frame",
+                          "element": "div"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "flex",
+                              "flex": {
+                                "direction": "row",
+                                "gap": {
+                                  "px": 12.0
+                                },
+                                "align": "center"
+                              }
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": "pl-3-f2-i",
+                            "kind": {
+                              "type": "icon",
+                              "name": "check"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "size": {
+                                    "width": {
+                                      "px": 18.0
+                                    },
+                                    "height": {
+                                      "px": 18.0
+                                    }
+                                  },
+                                  "typography": {
+                                    "color": {
+                                      "token": "brand.primary"
+                                    }
+                                  },
+                                  "custom": {
+                                    "flex-shrink": "0"
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "pl-3-f2-t",
+                            "kind": {
+                              "type": "text",
+                              "tag": "span",
+                              "content": "Use for any class"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.body",
+                                    "color": {
+                                      "token": "ink.body"
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "bindings": {
+                              "content": "plan3Feature2"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "pl-3-f3",
+                        "kind": {
+                          "type": "frame",
+                          "element": "div"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "flex",
+                              "flex": {
+                                "direction": "row",
+                                "gap": {
+                                  "px": 12.0
+                                },
+                                "align": "center"
+                              }
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": "pl-3-f3-i",
+                            "kind": {
+                              "type": "icon",
+                              "name": "check"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "size": {
+                                    "width": {
+                                      "px": 18.0
+                                    },
+                                    "height": {
+                                      "px": 18.0
+                                    }
+                                  },
+                                  "typography": {
+                                    "color": {
+                                      "token": "brand.primary"
+                                    }
+                                  },
+                                  "custom": {
+                                    "flex-shrink": "0"
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "pl-3-f3-t",
+                            "kind": {
+                              "type": "text",
+                              "tag": "span",
+                              "content": "No expiry stress — pause once"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.body",
+                                    "color": {
+                                      "token": "ink.body"
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "bindings": {
+                              "content": "plan3Feature3"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "pl-3-sp",
+                    "kind": {
+                      "type": "frame",
+                      "element": "div"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "custom": {
+                            "flex": "1"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "pl-3-b",
+                    "kind": {
+                      "type": "button",
+                      "label": "Choose ten classes",
+                      "href": "/contact",
+                      "target": "same"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "inlineFlex",
+                          "radius": {
+                            "token": "radius.pill"
+                          },
+                          "border": {
+                            "width": {
+                              "px": 1.5
+                            },
+                            "style": "solid",
+                            "color": {
+                              "token": "line.hairline"
+                            }
+                          },
+                          "spacing": {
+                            "padding": {
+                              "top": {
+                                "px": 15.0
+                              },
+                              "right": {
+                                "px": 28.0
+                              },
+                              "bottom": {
+                                "px": 15.0
+                              },
+                              "left": {
+                                "px": 28.0
+                              }
+                            }
+                          },
+                          "typography": {
+                            "token": "type.button",
+                            "color": {
+                              "token": "ink.body"
+                            },
+                            "align": "center",
+                            "decoration": "none"
+                          },
+                          "size": {
+                            "width": {
+                              "percent": 100.0
+                            }
+                          },
+                          "transition": {
+                            "duration": 220,
+                            "properties": [
+                              "backgroundColor",
+                              "color",
+                              "borderColor",
+                              "boxShadow",
+                              "transform"
+                            ]
+                          },
+                          "flex": {
+                            "justify": "center"
+                          }
+                        },
+                        "hover": {
+                          "border": {
+                            "width": {
+                              "px": 1.5
+                            },
+                            "style": "solid",
+                            "color": {
+                              "token": "brand.primary"
+                            }
+                          },
+                          "typography": {
+                            "color": {
+                              "token": "brand.strong"
+                            }
+                          }
+                        },
+                        "focus": {
+                          "custom": {
+                            "outline": "3px solid #6B8F71",
+                            "outline-offset": "3px"
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "label": "plan3ButtonLabel",
+                      "href": "plan3ButtonHref"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "props": [
+    {
+      "name": "plan1Feature1",
+      "label": "Plan 1 feature 1",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Any class on the timetable"
+    },
+    {
+      "name": "plan1Feature2",
+      "label": "Plan 1 feature 2",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Mats and props included"
+    },
+    {
+      "name": "plan1Feature3",
+      "label": "Plan 1 feature 3",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Tea after every session"
+    },
+    {
+      "name": "plan1Name",
+      "label": "Plan 1 name",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Drop in"
+    },
+    {
+      "name": "plan1Price",
+      "label": "Plan 1 price",
+      "kind": {
+        "type": "text"
+      },
+      "default": "€18"
+    },
+    {
+      "name": "plan1Per",
+      "label": "Plan 1 period",
+      "kind": {
+        "type": "text"
+      },
+      "default": "per class"
+    },
+    {
+      "name": "plan1ButtonLabel",
+      "label": "Plan 1 button label",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Choose drop in"
+    },
+    {
+      "name": "plan1ButtonHref",
+      "label": "Plan 1 button link",
+      "kind": {
+        "type": "url"
+      },
+      "default": "/contact"
+    },
+    {
+      "name": "plan2Feature1",
+      "label": "Plan 2 feature 1",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Every class, every week"
+    },
+    {
+      "name": "plan2Feature2",
+      "label": "Plan 2 feature 2",
+      "kind": {
+        "type": "text"
+      },
+      "default": "One guest pass a month"
+    },
+    {
+      "name": "plan2Feature3",
+      "label": "Plan 2 feature 3",
+      "kind": {
+        "type": "text"
+      },
+      "default": "10% off workshops"
+    },
+    {
+      "name": "plan2Feature4",
+      "label": "Plan 2 feature 4",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Pause anytime"
+    },
+    {
+      "name": "plan2Name",
+      "label": "Plan 2 name",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Unlimited"
+    },
+    {
+      "name": "tag",
+      "label": "Badge",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Most loved"
+    },
+    {
+      "name": "plan2Price",
+      "label": "Plan 2 price",
+      "kind": {
+        "type": "text"
+      },
+      "default": "€98"
+    },
+    {
+      "name": "plan2Per",
+      "label": "Plan 2 period",
+      "kind": {
+        "type": "text"
+      },
+      "default": "per month"
+    },
+    {
+      "name": "plan2ButtonLabel",
+      "label": "Plan 2 button label",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Choose unlimited"
+    },
+    {
+      "name": "plan2ButtonHref",
+      "label": "Plan 2 button link",
+      "kind": {
+        "type": "url"
+      },
+      "default": "/contact"
+    },
+    {
+      "name": "plan3Feature1",
+      "label": "Plan 3 feature 1",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Share with a friend"
+    },
+    {
+      "name": "plan3Feature2",
+      "label": "Plan 3 feature 2",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Use for any class"
+    },
+    {
+      "name": "plan3Feature3",
+      "label": "Plan 3 feature 3",
+      "kind": {
+        "type": "text"
+      },
+      "default": "No expiry stress — pause once"
+    },
+    {
+      "name": "plan3Name",
+      "label": "Plan 3 name",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Ten classes"
+    },
+    {
+      "name": "plan3Price",
+      "label": "Plan 3 price",
+      "kind": {
+        "type": "text"
+      },
+      "default": "€150"
+    },
+    {
+      "name": "plan3Per",
+      "label": "Plan 3 period",
+      "kind": {
+        "type": "text"
+      },
+      "default": "valid 4 months"
+    },
+    {
+      "name": "plan3ButtonLabel",
+      "label": "Plan 3 button label",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Choose ten classes"
+    },
+    {
+      "name": "plan3ButtonHref",
+      "label": "Plan 3 button link",
+      "kind": {
+        "type": "url"
+      },
+      "default": "/contact"
+    },
+    {
+      "name": "eyebrow",
+      "label": "Eyebrow",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Memberships"
+    },
+    {
+      "name": "title",
+      "label": "Title",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Simple prices. No small print."
+    },
+    {
+      "name": "lead",
+      "label": "Intro",
+      "kind": {
+        "type": "longText"
+      },
+      "default": "Your first class is always free. After that, pick what suits your rhythm — and change it whenever life does."
+    }
+  ]
+}

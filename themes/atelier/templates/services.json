@@ -1,0 +1,379 @@
+{
+  "root": {
+    "id": "root",
+    "kind": {
+      "type": "frame",
+      "element": "div"
+    },
+    "styles": {
+      "base": {
+        "base": {
+          "background": {
+            "token": "surface.page"
+          },
+          "display": "flex",
+          "flex": {
+            "direction": "column"
+          },
+          "size": {
+            "minHeight": {
+              "raw": "100vh"
+            }
+          }
+        }
+      }
+    },
+    "children": [
+      {
+        "id": "i-header-1",
+        "kind": {
+          "type": "instance",
+          "component": "atelier-header"
+        }
+      },
+      {
+        "id": "main",
+        "kind": {
+          "type": "frame",
+          "element": "main"
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "display": "flex",
+              "flex": {
+                "direction": "column"
+              },
+              "custom": {
+                "flex-grow": "1"
+              }
+            }
+          }
+        },
+        "children": [
+          {
+            "id": "i-hero-page-2",
+            "kind": {
+              "type": "instance",
+              "component": "atelier-hero-page",
+              "overrides": {
+                "eyebrow": "Services",
+                "title": "One studio, four ways in.",
+                "lead": "Most projects touch two or three of these. We staff them with the same small team from start to finish."
+              }
+            }
+          },
+          {
+            "id": "s-list",
+            "kind": {
+              "type": "frame",
+              "element": "section"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "background": {
+                    "token": "surface.page"
+                  },
+                  "spacing": {
+                    "padding": {
+                      "top": {
+                        "token": "space.8"
+                      },
+                      "bottom": {
+                        "token": "space.8"
+                      },
+                      "left": {
+                        "token": "space.gutter"
+                      },
+                      "right": {
+                        "token": "space.gutter"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "s-list-in",
+                "kind": {
+                  "type": "frame",
+                  "element": "div"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "size": {
+                        "maxWidth": {
+                          "px": 1320
+                        },
+                        "width": {
+                          "percent": 100
+                        }
+                      },
+                      "spacing": {
+                        "margin": {
+                          "left": {
+                            "raw": "auto"
+                          },
+                          "right": {
+                            "raw": "auto"
+                          }
+                        }
+                      },
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "token": "space.12"
+                        }
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "i-services-list-3",
+                    "kind": {
+                      "type": "instance",
+                      "component": "atelier-services-list"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "i-hero-image-4",
+            "kind": {
+              "type": "instance",
+              "component": "atelier-hero-image",
+              "overrides": {
+                "eyebrow": "Case study — Casa Ribeira, Lisbon",
+                "title": "Identity, signage and a bar menu in eleven weeks."
+              }
+            }
+          },
+          {
+            "id": "s-process",
+            "kind": {
+              "type": "frame",
+              "element": "section"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "background": {
+                    "token": "surface.page"
+                  },
+                  "spacing": {
+                    "padding": {
+                      "top": {
+                        "token": "space.section"
+                      },
+                      "bottom": {
+                        "token": "space.section"
+                      },
+                      "left": {
+                        "token": "space.gutter"
+                      },
+                      "right": {
+                        "token": "space.gutter"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "s-process-in",
+                "kind": {
+                  "type": "frame",
+                  "element": "div"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "size": {
+                        "maxWidth": {
+                          "px": 1320
+                        },
+                        "width": {
+                          "percent": 100
+                        }
+                      },
+                      "spacing": {
+                        "margin": {
+                          "left": {
+                            "raw": "auto"
+                          },
+                          "right": {
+                            "raw": "auto"
+                          }
+                        }
+                      },
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "token": "space.12"
+                        }
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "i-section-intro-5",
+                    "kind": {
+                      "type": "instance",
+                      "component": "atelier-section-intro",
+                      "overrides": {
+                        "eyebrow": "(01) — Process",
+                        "title": "Listen, write, draw, hand over.",
+                        "lead": "Our process is simple enough to explain on one page, which is exactly why it works."
+                      }
+                    }
+                  },
+                  {
+                    "id": "i-feature-grid-6",
+                    "kind": {
+                      "type": "instance",
+                      "component": "atelier-feature-grid",
+                      "overrides": {
+                        "item1Mark": "01",
+                        "item1Title": "Listen",
+                        "item1Text": "Two to three weeks of interviews, archives and site visits before any design is shown.",
+                        "item2Mark": "02",
+                        "item2Title": "Write & draw",
+                        "item2Text": "A written position first, then two honest routes — never five, never one.",
+                        "item3Mark": "03",
+                        "item3Title": "Hand over",
+                        "item3Text": "Guidelines, templates and a half-day workshop so your team owns it from launch."
+                      },
+                      "variant": "raised"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "s-work",
+            "kind": {
+              "type": "frame",
+              "element": "section"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "background": {
+                    "token": "surface.page"
+                  },
+                  "spacing": {
+                    "padding": {
+                      "top": {
+                        "token": "space.section"
+                      },
+                      "bottom": {
+                        "token": "space.section"
+                      },
+                      "left": {
+                        "token": "space.gutter"
+                      },
+                      "right": {
+                        "token": "space.gutter"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "s-work-in",
+                "kind": {
+                  "type": "frame",
+                  "element": "div"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "size": {
+                        "maxWidth": {
+                          "px": 1320
+                        },
+                        "width": {
+                          "percent": 100
+                        }
+                      },
+                      "spacing": {
+                        "margin": {
+                          "left": {
+                            "raw": "auto"
+                          },
+                          "right": {
+                            "raw": "auto"
+                          }
+                        }
+                      },
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "token": "space.12"
+                        }
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "i-section-intro-7",
+                    "kind": {
+                      "type": "instance",
+                      "component": "atelier-section-intro",
+                      "overrides": {
+                        "eyebrow": "(02) — Selected work",
+                        "title": "What it looks like when it is finished.",
+                        "lead": "A few recent projects across all four disciplines."
+                      }
+                    }
+                  },
+                  {
+                    "id": "i-gallery-8",
+                    "kind": {
+                      "type": "instance",
+                      "component": "atelier-gallery"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "i-cta-band-9",
+            "kind": {
+              "type": "instance",
+              "component": "atelier-cta-band",
+              "variant": "raised"
+            }
+          }
+        ]
+      },
+      {
+        "id": "i-footer-10",
+        "kind": {
+          "type": "instance",
+          "component": "atelier-footer"
+        }
+      }
+    ]
+  },
+  "seo": {
+    "title": "Services — Hollis & Vane",
+    "description": "Identity, editorial, digital and spatial design by Hollis & Vane."
+  }
+}

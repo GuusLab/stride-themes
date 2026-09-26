@@ -1,0 +1,252 @@
+{
+  "id": "nightfall-hero-split",
+  "name": "Nightfall · Hero — Portrait split",
+  "root": {
+    "id": "hero-split",
+    "kind": {
+      "type": "frame",
+      "element": "section"
+    },
+    "children": [
+      {
+        "id": "hero-split-grid",
+        "kind": {
+          "type": "frame"
+        },
+        "children": [
+          {
+            "id": "hero-split-copy",
+            "kind": {
+              "type": "frame"
+            },
+            "children": [
+              {
+                "id": "hero-split-eyebrow",
+                "kind": {
+                  "type": "text",
+                  "tag": "span",
+                  "content": "About"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.eyebrow",
+                        "color": {
+                          "token": "ink.accent"
+                        },
+                        "transform": "uppercase"
+                      }
+                    }
+                  }
+                },
+                "bindings": {
+                  "content": "eyebrow"
+                }
+              },
+              {
+                "id": "hero-split-title",
+                "kind": {
+                  "type": "text",
+                  "tag": "h1",
+                  "content": "I photograph what the light is willing to show."
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.display",
+                        "color": {
+                          "token": "ink.body"
+                        }
+                      }
+                    }
+                  }
+                },
+                "bindings": {
+                  "content": "heading"
+                }
+              },
+              {
+                "id": "hero-split-lead",
+                "kind": {
+                  "type": "text",
+                  "tag": "p",
+                  "content": "Twelve years, four continents, one rule: wait for it. I work with magazines, architects and couples who want pictures that feel like memory rather than proof."
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.lead",
+                        "color": {
+                          "token": "ink.muted"
+                        }
+                      },
+                      "size": {
+                        "maxWidth": {
+                          "px": 520.0
+                        }
+                      }
+                    }
+                  }
+                },
+                "bindings": {
+                  "content": "body"
+                }
+              }
+            ],
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "flex",
+                  "flex": {
+                    "direction": "column",
+                    "gap": {
+                      "px": 28.0
+                    },
+                    "justify": "end"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": "hero-split-image",
+            "kind": {
+              "type": "image",
+              "src": "assets/images/portrait.webp",
+              "alt": "Low-key portrait of a woman lit by a single warm light against charcoal"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "block",
+                  "size": {
+                    "width": {
+                      "percent": 100.0
+                    }
+                  },
+                  "objectFit": "cover",
+                  "aspectRatio": {
+                    "ratio": {
+                      "width": 4.0,
+                      "height": 5.0
+                    }
+                  },
+                  "radius": {
+                    "token": "radius.none"
+                  }
+                }
+              }
+            },
+            "bindings": {
+              "src": "image"
+            }
+          }
+        ],
+        "styles": {
+          "base": {
+            "base": {
+              "display": "grid",
+              "grid": {
+                "columns": 1,
+                "gap": {
+                  "px": 48.0
+                }
+              },
+              "size": {
+                "maxWidth": {
+                  "px": 1440.0
+                },
+                "width": {
+                  "percent": 100.0
+                }
+              },
+              "spacing": {
+                "margin": {
+                  "left": {
+                    "raw": "auto"
+                  },
+                  "right": {
+                    "raw": "auto"
+                  }
+                }
+              }
+            }
+          },
+          "md": {
+            "base": {
+              "grid": {
+                "templateColumns": "1.15fr 0.85fr",
+                "gap": {
+                  "px": 80.0
+                },
+                "align": "end"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "styles": {
+      "base": {
+        "base": {
+          "background": {
+            "token": "surface.page"
+          },
+          "spacing": {
+            "padding": {
+              "top": {
+                "token": "space.16"
+              },
+              "bottom": {
+                "token": "space.section"
+              },
+              "left": {
+                "token": "space.gutter"
+              },
+              "right": {
+                "token": "space.gutter"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "props": [
+    {
+      "name": "eyebrow",
+      "label": "Eyebrow",
+      "kind": {
+        "type": "text"
+      },
+      "default": "About"
+    },
+    {
+      "name": "heading",
+      "label": "Heading",
+      "kind": {
+        "type": "text"
+      },
+      "default": "I photograph what the light is willing to show."
+    },
+    {
+      "name": "body",
+      "label": "Intro",
+      "kind": {
+        "type": "longText"
+      },
+      "default": "Twelve years, four continents, one rule: wait for it."
+    },
+    {
+      "name": "image",
+      "label": "Photo",
+      "kind": {
+        "type": "image"
+      },
+      "default": "assets/images/portrait.webp"
+    }
+  ]
+}

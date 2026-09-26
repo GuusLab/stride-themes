@@ -1,0 +1,780 @@
+{
+  "id": "ledger-team",
+  "name": "Ledger · Partners",
+  "root": {
+    "id": "team",
+    "kind": {
+      "type": "frame",
+      "element": "section"
+    },
+    "children": [
+      {
+        "id": "team-inner",
+        "kind": {
+          "type": "frame"
+        },
+        "children": [
+          {
+            "id": "team-top",
+            "kind": {
+              "type": "frame"
+            },
+            "children": [
+              {
+                "id": "team-head",
+                "kind": {
+                  "type": "frame"
+                },
+                "children": [
+                  {
+                    "id": "team-eyebrow-row",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "children": [
+                      {
+                        "id": "team-eyebrow-rule",
+                        "kind": {
+                          "type": "frame"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "size": {
+                                "width": {
+                                  "px": 28.0
+                                },
+                                "height": {
+                                  "px": 1.0
+                                }
+                              },
+                              "background": {
+                                "token": "surface.warm"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "team-eyebrow",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Partners"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.eyebrow",
+                                "color": {
+                                  "token": "ink.warm"
+                                },
+                                "transform": "uppercase"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "row",
+                            "gap": {
+                              "px": 12.0
+                            },
+                            "align": "center",
+                            "wrap": false
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "team-title",
+                    "kind": {
+                      "type": "text",
+                      "tag": "h2",
+                      "content": "The people who sign the advice."
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.title",
+                            "color": {
+                              "token": "ink.body"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "px": 18.0
+                        }
+                      },
+                      "size": {
+                        "maxWidth": {
+                          "px": 760.0
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "team-all",
+                "kind": {
+                  "type": "link",
+                  "href": "/about",
+                  "target": "same"
+                },
+                "children": [
+                  {
+                    "id": "team-all-label",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "Meet the firm →"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.button",
+                            "color": {
+                              "token": "ink.accent"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "decoration": "none",
+                        "color": {
+                          "token": "ink.accent"
+                        }
+                      },
+                      "border": {
+                        "bottom": {
+                          "width": {
+                            "px": 1.0
+                          },
+                          "style": "solid",
+                          "color": {
+                            "token": "surface.warm"
+                          }
+                        }
+                      },
+                      "spacing": {
+                        "padding": {
+                          "bottom": {
+                            "px": 4.0
+                          }
+                        }
+                      }
+                    },
+                    "hover": {
+                      "opacity": 0.7
+                    }
+                  }
+                }
+              }
+            ],
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "flex",
+                  "flex": {
+                    "direction": "row",
+                    "gap": {
+                      "px": 16.0
+                    },
+                    "align": "end",
+                    "wrap": true,
+                    "justify": "spaceBetween"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": "team-grid",
+            "kind": {
+              "type": "frame"
+            },
+            "children": [
+              {
+                "id": "team-1",
+                "kind": {
+                  "type": "frame"
+                },
+                "children": [
+                  {
+                    "id": "team-1-media",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "children": [
+                      {
+                        "id": "team-1-img",
+                        "kind": {
+                          "type": "image",
+                          "src": "assets/images/partner-1.webp",
+                          "alt": "Portrait of Eleanor Voss, Managing partner"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "block",
+                              "size": {
+                                "width": {
+                                  "percent": 100.0
+                                }
+                              },
+                              "objectFit": "cover",
+                              "aspectRatio": {
+                                "ratio": {
+                                  "width": 4.0,
+                                  "height": 5.0
+                                }
+                              },
+                              "custom": {
+                                "filter": "grayscale(0.25) contrast(1.02)"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "overflow": "hidden",
+                          "radius": {
+                            "token": "radius.md"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "team-1-meta",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "children": [
+                      {
+                        "id": "team-1-role",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Managing partner"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.eyebrow",
+                                "color": {
+                                  "token": "ink.warm"
+                                },
+                                "transform": "uppercase"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "team-1-name",
+                        "kind": {
+                          "type": "text",
+                          "tag": "h3",
+                          "content": "Eleanor Voss"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.subtitle",
+                                "color": {
+                                  "token": "ink.body"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "team-1-bio",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Corporate & M&A. Twenty years advising founder-owned businesses on the sale of a lifetime."
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.muted"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "column",
+                            "gap": {
+                              "px": 8.0
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "px": 20.0
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "team-2",
+                "kind": {
+                  "type": "frame"
+                },
+                "children": [
+                  {
+                    "id": "team-2-media",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "children": [
+                      {
+                        "id": "team-2-img",
+                        "kind": {
+                          "type": "image",
+                          "src": "assets/images/partner-2.webp",
+                          "alt": "Portrait of Samuel Adeyemi, Partner"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "block",
+                              "size": {
+                                "width": {
+                                  "percent": 100.0
+                                }
+                              },
+                              "objectFit": "cover",
+                              "aspectRatio": {
+                                "ratio": {
+                                  "width": 4.0,
+                                  "height": 5.0
+                                }
+                              },
+                              "custom": {
+                                "filter": "grayscale(0.25) contrast(1.02)"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "overflow": "hidden",
+                          "radius": {
+                            "token": "radius.md"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "team-2-meta",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "children": [
+                      {
+                        "id": "team-2-role",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Partner"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.eyebrow",
+                                "color": {
+                                  "token": "ink.warm"
+                                },
+                                "transform": "uppercase"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "team-2-name",
+                        "kind": {
+                          "type": "text",
+                          "tag": "h3",
+                          "content": "Samuel Adeyemi"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.subtitle",
+                                "color": {
+                                  "token": "ink.body"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "team-2-bio",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Disputes & arbitration. Former chair of the Amsterdam Bar's commercial section."
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.muted"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "column",
+                            "gap": {
+                              "px": 8.0
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "px": 20.0
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "team-3",
+                "kind": {
+                  "type": "frame"
+                },
+                "children": [
+                  {
+                    "id": "team-3-media",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "children": [
+                      {
+                        "id": "team-3-img",
+                        "kind": {
+                          "type": "image",
+                          "src": "assets/images/partner-3.webp",
+                          "alt": "Portrait of Daniel Cho, Partner"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "block",
+                              "size": {
+                                "width": {
+                                  "percent": 100.0
+                                }
+                              },
+                              "objectFit": "cover",
+                              "aspectRatio": {
+                                "ratio": {
+                                  "width": 4.0,
+                                  "height": 5.0
+                                }
+                              },
+                              "custom": {
+                                "filter": "grayscale(0.25) contrast(1.02)"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "overflow": "hidden",
+                          "radius": {
+                            "token": "radius.md"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "team-3-meta",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "children": [
+                      {
+                        "id": "team-3-role",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Partner"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.eyebrow",
+                                "color": {
+                                  "token": "ink.warm"
+                                },
+                                "transform": "uppercase"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "team-3-name",
+                        "kind": {
+                          "type": "text",
+                          "tag": "h3",
+                          "content": "Daniel Cho"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.subtitle",
+                                "color": {
+                                  "token": "ink.body"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "team-3-bio",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Tax & structuring. Previously head of international tax at a top-ten accounting firm."
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.muted"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "column",
+                            "gap": {
+                              "px": 8.0
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "px": 20.0
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            ],
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "grid",
+                  "grid": {
+                    "columns": 1,
+                    "gap": {
+                      "px": 32.0
+                    }
+                  }
+                }
+              },
+              "md": {
+                "base": {
+                  "display": "grid",
+                  "grid": {
+                    "columns": 3
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "styles": {
+          "base": {
+            "base": {
+              "display": "flex",
+              "flex": {
+                "direction": "column",
+                "gap": {
+                  "px": 48.0
+                }
+              },
+              "size": {
+                "maxWidth": {
+                  "px": 1240.0
+                },
+                "width": {
+                  "percent": 100.0
+                }
+              },
+              "spacing": {
+                "margin": {
+                  "left": {
+                    "raw": "auto"
+                  },
+                  "right": {
+                    "raw": "auto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "styles": {
+      "base": {
+        "base": {
+          "background": {
+            "token": "surface.page"
+          },
+          "spacing": {
+            "padding": {
+              "top": {
+                "px": 72.0
+              },
+              "right": {
+                "px": 20.0
+              },
+              "bottom": {
+                "px": 72.0
+              },
+              "left": {
+                "px": 20.0
+              }
+            }
+          }
+        }
+      },
+      "md": {
+        "base": {
+          "spacing": {
+            "padding": {
+              "top": {
+                "px": 112.0
+              },
+              "right": {
+                "px": 40.0
+              },
+              "bottom": {
+                "px": 112.0
+              },
+              "left": {
+                "px": 40.0
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "props": []
+}

@@ -1,0 +1,528 @@
+{
+  "id": "grove-stats",
+  "name": "Grove / Stats",
+  "root": {
+    "id": "stats",
+    "kind": {
+      "type": "frame",
+      "element": "section"
+    },
+    "styles": {
+      "base": {
+        "base": {
+          "background": {
+            "token": "surface.page"
+          },
+          "spacing": {
+            "padding": {
+              "top": {
+                "token": "space.16"
+              },
+              "right": {
+                "token": "gutter"
+              },
+              "bottom": {
+                "token": "space.16"
+              },
+              "left": {
+                "token": "gutter"
+              }
+            }
+          },
+          "position": {
+            "kind": "relative"
+          },
+          "overflow": "hidden"
+        }
+      }
+    },
+    "children": [
+      {
+        "id": "stats-inner",
+        "kind": {
+          "type": "frame",
+          "element": "div"
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "display": "flex",
+              "flex": {
+                "direction": "column",
+                "gap": {
+                  "px": 0.0
+                }
+              },
+              "size": {
+                "maxWidth": {
+                  "token": "content.max"
+                },
+                "width": {
+                  "percent": 100.0
+                }
+              },
+              "spacing": {
+                "margin": {
+                  "left": {
+                    "raw": "auto"
+                  },
+                  "right": {
+                    "raw": "auto"
+                  }
+                }
+              },
+              "position": {
+                "kind": "relative"
+              }
+            }
+          }
+        },
+        "children": [
+          {
+            "id": "stats-grid",
+            "kind": {
+              "type": "frame",
+              "element": "div"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "grid",
+                  "grid": {
+                    "columns": 2,
+                    "gap": {
+                      "px": 32.0
+                    }
+                  }
+                }
+              },
+              "lg": {
+                "base": {
+                  "display": "grid",
+                  "grid": {
+                    "columns": 4,
+                    "gap": {
+                      "px": 40.0
+                    }
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "stat-1",
+                "kind": {
+                  "type": "frame",
+                  "element": "div"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "px": 8.0
+                        }
+                      },
+                      "spacing": {
+                        "padding": {
+                          "left": {
+                            "px": 20.0
+                          }
+                        }
+                      },
+                      "border": {
+                        "left": {
+                          "width": {
+                            "px": 2.0
+                          },
+                          "style": "solid",
+                          "color": {
+                            "token": "brand.soft"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "stat-1-v",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "12"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.stat",
+                            "color": {
+                              "token": "brand.strong"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "content": "stat1Value"
+                    }
+                  },
+                  {
+                    "id": "stat-1-l",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "years of teaching"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "color": {
+                              "token": "ink.muted"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "content": "stat1Label"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "stat-2",
+                "kind": {
+                  "type": "frame",
+                  "element": "div"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "px": 8.0
+                        }
+                      },
+                      "spacing": {
+                        "padding": {
+                          "left": {
+                            "px": 20.0
+                          }
+                        }
+                      },
+                      "border": {
+                        "left": {
+                          "width": {
+                            "px": 2.0
+                          },
+                          "style": "solid",
+                          "color": {
+                            "token": "brand.soft"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "stat-2-v",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "40+"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.stat",
+                            "color": {
+                              "token": "brand.strong"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "content": "stat2Value"
+                    }
+                  },
+                  {
+                    "id": "stat-2-l",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "classes every week"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "color": {
+                              "token": "ink.muted"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "content": "stat2Label"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "stat-3",
+                "kind": {
+                  "type": "frame",
+                  "element": "div"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "px": 8.0
+                        }
+                      },
+                      "spacing": {
+                        "padding": {
+                          "left": {
+                            "px": 20.0
+                          }
+                        }
+                      },
+                      "border": {
+                        "left": {
+                          "width": {
+                            "px": 2.0
+                          },
+                          "style": "solid",
+                          "color": {
+                            "token": "brand.soft"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "stat-3-v",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "14"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.stat",
+                            "color": {
+                              "token": "brand.strong"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "content": "stat3Value"
+                    }
+                  },
+                  {
+                    "id": "stat-3-l",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "mats per class, never more"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "color": {
+                              "token": "ink.muted"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "content": "stat3Label"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "stat-4",
+                "kind": {
+                  "type": "frame",
+                  "element": "div"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "px": 8.0
+                        }
+                      },
+                      "spacing": {
+                        "padding": {
+                          "left": {
+                            "px": 20.0
+                          }
+                        }
+                      },
+                      "border": {
+                        "left": {
+                          "width": {
+                            "px": 2.0
+                          },
+                          "style": "solid",
+                          "color": {
+                            "token": "brand.soft"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "stat-4-v",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "4.9"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.stat",
+                            "color": {
+                              "token": "brand.strong"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "content": "stat4Value"
+                    }
+                  },
+                  {
+                    "id": "stat-4-l",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "average rating from students"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "color": {
+                              "token": "ink.muted"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "content": "stat4Label"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "props": [
+    {
+      "name": "stat1Value",
+      "label": "Stat 1 value",
+      "kind": {
+        "type": "text"
+      },
+      "default": "12"
+    },
+    {
+      "name": "stat1Label",
+      "label": "Stat 1 label",
+      "kind": {
+        "type": "text"
+      },
+      "default": "years of teaching"
+    },
+    {
+      "name": "stat2Value",
+      "label": "Stat 2 value",
+      "kind": {
+        "type": "text"
+      },
+      "default": "40+"
+    },
+    {
+      "name": "stat2Label",
+      "label": "Stat 2 label",
+      "kind": {
+        "type": "text"
+      },
+      "default": "classes every week"
+    },
+    {
+      "name": "stat3Value",
+      "label": "Stat 3 value",
+      "kind": {
+        "type": "text"
+      },
+      "default": "14"
+    },
+    {
+      "name": "stat3Label",
+      "label": "Stat 3 label",
+      "kind": {
+        "type": "text"
+      },
+      "default": "mats per class, never more"
+    },
+    {
+      "name": "stat4Value",
+      "label": "Stat 4 value",
+      "kind": {
+        "type": "text"
+      },
+      "default": "4.9"
+    },
+    {
+      "name": "stat4Label",
+      "label": "Stat 4 label",
+      "kind": {
+        "type": "text"
+      },
+      "default": "average rating from students"
+    }
+  ]
+}

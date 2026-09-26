@@ -1,0 +1,314 @@
+{
+  "root": {
+    "id": "root",
+    "kind": {
+      "type": "frame",
+      "element": "main"
+    },
+    "styles": {
+      "base": {
+        "base": {
+          "background": {
+            "token": "surface.page"
+          },
+          "typography": {
+            "token": "type.body",
+            "color": {
+              "token": "ink.body"
+            }
+          },
+          "custom": {
+            "-webkit-font-smoothing": "antialiased"
+          }
+        }
+      }
+    },
+    "children": [
+      {
+        "id": "header",
+        "kind": {
+          "type": "instance",
+          "component": "grove-header"
+        }
+      },
+      {
+        "id": "hero",
+        "kind": {
+          "type": "instance",
+          "component": "grove-hero-centered",
+          "overrides": {
+            "eyebrow": "The journal",
+            "title": "Notes on breath, rest and practice.",
+            "lead": "Short reads from our teachers. One new story a month, never a listicle."
+          },
+          "variant": "sand"
+        }
+      },
+      {
+        "id": "posts",
+        "kind": {
+          "type": "frame",
+          "element": "section"
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "background": {
+                "token": "surface.page"
+              },
+              "spacing": {
+                "padding": {
+                  "top": {
+                    "token": "section.y"
+                  },
+                  "right": {
+                    "token": "gutter"
+                  },
+                  "bottom": {
+                    "token": "section.y"
+                  },
+                  "left": {
+                    "token": "gutter"
+                  }
+                }
+              },
+              "position": {
+                "kind": "relative"
+              },
+              "overflow": "hidden"
+            }
+          }
+        },
+        "children": [
+          {
+            "id": "posts-inner",
+            "kind": {
+              "type": "frame",
+              "element": "div"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "flex",
+                  "flex": {
+                    "direction": "column",
+                    "gap": {
+                      "px": 48.0
+                    }
+                  },
+                  "size": {
+                    "maxWidth": {
+                      "token": "content.max"
+                    },
+                    "width": {
+                      "percent": 100.0
+                    }
+                  },
+                  "spacing": {
+                    "margin": {
+                      "left": {
+                        "raw": "auto"
+                      },
+                      "right": {
+                        "raw": "auto"
+                      }
+                    }
+                  },
+                  "position": {
+                    "kind": "relative"
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "jr-grid",
+                "kind": {
+                  "type": "frame",
+                  "element": "div"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "grid",
+                      "grid": {
+                        "columns": 1,
+                        "gap": {
+                          "px": 40.0
+                        }
+                      }
+                    }
+                  },
+                  "md": {
+                    "base": {
+                      "display": "grid",
+                      "grid": {
+                        "columns": 3,
+                        "gap": {
+                          "px": 32.0
+                        }
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "post-1",
+                    "kind": {
+                      "type": "instance",
+                      "component": "grove-blog-card",
+                      "overrides": {
+                        "imageSrc": "assets/images/ritual.jpg",
+                        "imageAlt": "A four-minute breath for nights you can't switch off",
+                        "category": "Breath",
+                        "readTime": "5 min read",
+                        "title": "A four-minute breath for nights you can't switch off",
+                        "excerpt": "The simplest thing we teach, and the one students thank us for most. Here's how to do it lying down, lights off.",
+                        "href": "/journal/breathing-for-sleep"
+                      }
+                    }
+                  },
+                  {
+                    "id": "post-2",
+                    "kind": {
+                      "type": "instance",
+                      "component": "grove-blog-card",
+                      "overrides": {
+                        "imageSrc": "assets/images/class.jpg",
+                        "imageAlt": "Why we cap every class at fourteen mats",
+                        "category": "Practice",
+                        "readTime": "7 min read",
+                        "title": "Why we cap every class at fourteen mats",
+                        "excerpt": "Bigger rooms make more money. Smaller rooms make better teachers. A short note on the choice at the heart of Grove.",
+                        "href": "/journal/fourteen-mats"
+                      }
+                    }
+                  },
+                  {
+                    "id": "post-3",
+                    "kind": {
+                      "type": "instance",
+                      "component": "grove-blog-card",
+                      "overrides": {
+                        "imageSrc": "assets/images/outdoor.jpg",
+                        "imageAlt": "Summer on the dunes: our outdoor timetable",
+                        "category": "Seasons",
+                        "readTime": "4 min read",
+                        "title": "Summer on the dunes: our outdoor timetable",
+                        "excerpt": "From June to September we take Saturday Slow Vinyasa to the beach. What to bring, and what to leave at home.",
+                        "href": "/journal/summer-dunes"
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "jr-grid-2",
+                "kind": {
+                  "type": "frame",
+                  "element": "div"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "grid",
+                      "grid": {
+                        "columns": 1,
+                        "gap": {
+                          "px": 40.0
+                        }
+                      }
+                    }
+                  },
+                  "md": {
+                    "base": {
+                      "display": "grid",
+                      "grid": {
+                        "columns": 3,
+                        "gap": {
+                          "px": 32.0
+                        }
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "post-4",
+                    "kind": {
+                      "type": "instance",
+                      "component": "grove-blog-card",
+                      "overrides": {
+                        "imageSrc": "assets/images/studio.jpg",
+                        "imageAlt": "Rest is a skill, and you can practise it",
+                        "category": "Coaching",
+                        "readTime": "6 min read",
+                        "title": "Rest is a skill, and you can practise it",
+                        "excerpt": "Amara on the difference between collapsing and recovering — and three small habits that tip the balance.",
+                        "href": "/journal/rest-is-a-skill"
+                      }
+                    }
+                  },
+                  {
+                    "id": "post-5",
+                    "kind": {
+                      "type": "instance",
+                      "component": "grove-blog-card",
+                      "overrides": {
+                        "imageSrc": "assets/images/coach.jpg",
+                        "imageAlt": "Meet Nadia, our Tuesday Yin regular",
+                        "category": "Community",
+                        "readTime": "3 min read",
+                        "title": "Meet Nadia, our Tuesday Yin regular",
+                        "excerpt": "She came for her back and stayed for the quiet. A conversation about showing up when you don't feel like it.",
+                        "href": "/journal/meet-nadia"
+                      }
+                    }
+                  },
+                  {
+                    "id": "post-6",
+                    "kind": {
+                      "type": "instance",
+                      "component": "grove-blog-card",
+                      "overrides": {
+                        "imageSrc": "assets/images/ritual.jpg",
+                        "imageAlt": "The after-class tea we keep getting asked about",
+                        "category": "Kitchen",
+                        "readTime": "5 min read",
+                        "title": "The after-class tea we keep getting asked about",
+                        "excerpt": "Lemon verbena, a little fresh sage, honey if you like. The recipe, finally, plus why warm drinks matter after Yin.",
+                        "href": "/journal/after-class-tea"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cta",
+        "kind": {
+          "type": "instance",
+          "component": "grove-cta",
+          "overrides": {
+            "title": "Rather practise than read?",
+            "lead": "The next class is only a few days away. Your first one is on us."
+          }
+        }
+      },
+      {
+        "id": "footer",
+        "kind": {
+          "type": "instance",
+          "component": "grove-footer"
+        }
+      }
+    ]
+  },
+  "seo": {
+    "title": "Journal — Grove",
+    "description": "Stories and small practices from the teachers at Grove."
+  }
+}

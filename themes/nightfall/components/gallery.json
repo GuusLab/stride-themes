@@ -1,0 +1,1377 @@
+{
+  "id": "nightfall-gallery",
+  "name": "Nightfall · Gallery — Staggered",
+  "root": {
+    "id": "gallery",
+    "kind": {
+      "type": "frame",
+      "element": "section"
+    },
+    "children": [
+      {
+        "id": "gallery-inner",
+        "kind": {
+          "type": "frame"
+        },
+        "children": [
+          {
+            "id": "gallery-head",
+            "kind": {
+              "type": "frame"
+            },
+            "children": [
+              {
+                "id": "gallery-hl",
+                "kind": {
+                  "type": "frame"
+                },
+                "children": [
+                  {
+                    "id": "gallery-idx",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "children": [
+                      {
+                        "id": "gallery-idx-n",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "01"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.eyebrow",
+                                "color": {
+                                  "token": "ink.accent"
+                                },
+                                "transform": "uppercase"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "gallery-idx-rule",
+                        "kind": {
+                          "type": "frame"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "size": {
+                                "width": {
+                                  "px": 32.0
+                                },
+                                "height": {
+                                  "px": 1.0
+                                }
+                              },
+                              "background": {
+                                "token": "line.strong"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "gallery-idx-t",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "Portfolio"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.eyebrow",
+                                "color": {
+                                  "token": "ink.muted"
+                                },
+                                "transform": "uppercase"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "row",
+                            "gap": {
+                              "px": 14.0
+                            },
+                            "align": "center",
+                            "wrap": false
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "gallery-title",
+                    "kind": {
+                      "type": "text",
+                      "tag": "h2",
+                      "content": "Selected work"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.title",
+                            "color": {
+                              "token": "ink.body"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "px": 20.0
+                        }
+                      },
+                      "size": {
+                        "maxWidth": {
+                          "px": 820.0
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "gallery-link",
+                "kind": {
+                  "type": "link",
+                  "href": "/work",
+                  "target": "same"
+                },
+                "children": [
+                  {
+                    "id": "gallery-link-label",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "All projects"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.eyebrow",
+                            "color": {
+                              "token": "ink.accent"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "decoration": "underline",
+                        "color": {
+                          "token": "ink.accent"
+                        }
+                      },
+                      "custom": {
+                        "text-underline-offset": "8px",
+                        "text-decoration-thickness": "1px",
+                        "text-transform": "uppercase"
+                      }
+                    },
+                    "hover": {
+                      "opacity": 0.75
+                    }
+                  }
+                }
+              }
+            ],
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "flex",
+                  "flex": {
+                    "direction": "row",
+                    "gap": {
+                      "px": 24.0
+                    },
+                    "align": "end",
+                    "wrap": true,
+                    "justify": "spaceBetween"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": "gallery-grid",
+            "kind": {
+              "type": "frame"
+            },
+            "children": [
+              {
+                "id": "gallery-1",
+                "kind": {
+                  "type": "link",
+                  "href": "/work",
+                  "target": "same"
+                },
+                "children": [
+                  {
+                    "id": "gallery-1-m",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "children": [
+                      {
+                        "id": "gallery-1-img",
+                        "kind": {
+                          "type": "image",
+                          "src": "assets/images/street.webp",
+                          "alt": "Night street with warm lamps reflecting on wet cobblestones and a lone figure with an umbrella"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "block",
+                              "size": {
+                                "width": {
+                                  "percent": 100.0
+                                },
+                                "height": {
+                                  "percent": 100.0
+                                }
+                              },
+                              "objectFit": "cover",
+                              "aspectRatio": {
+                                "ratio": {
+                                  "width": 3.0,
+                                  "height": 2.0
+                                }
+                              },
+                              "radius": {
+                                "token": "radius.none"
+                              },
+                              "transition": {
+                                "duration": 700,
+                                "easing": "easeOut",
+                                "properties": [
+                                  "transform",
+                                  "opacity"
+                                ]
+                              },
+                              "opacity": 0.92
+                            },
+                            "hover": {
+                              "custom": {
+                                "transform": "scale(1.025)"
+                              },
+                              "opacity": 1.0
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "overflow": "hidden",
+                          "background": {
+                            "token": "surface.card"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "gallery-1-cap",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "children": [
+                      {
+                        "id": "gallery-1-cl",
+                        "kind": {
+                          "type": "frame"
+                        },
+                        "children": [
+                          {
+                            "id": "gallery-1-n",
+                            "kind": {
+                              "type": "text",
+                              "tag": "span",
+                              "content": "01"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.eyebrow",
+                                    "color": {
+                                      "token": "ink.accent"
+                                    },
+                                    "transform": "uppercase"
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "gallery-1-t",
+                            "kind": {
+                              "type": "text",
+                              "tag": "span",
+                              "content": "Wet Light"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.subtitle",
+                                    "color": {
+                                      "token": "ink.body"
+                                    },
+                                    "size": {
+                                      "raw": "1.5rem"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "flex",
+                              "flex": {
+                                "direction": "row",
+                                "gap": {
+                                  "px": 16.0
+                                },
+                                "align": "baseline",
+                                "wrap": true
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "gallery-1-meta",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "Street · Porto · 2026"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.eyebrow",
+                                "color": {
+                                  "token": "ink.faint"
+                                },
+                                "transform": "uppercase"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "row",
+                            "gap": {
+                              "px": 12.0
+                            },
+                            "align": "baseline",
+                            "wrap": true,
+                            "justify": "spaceBetween"
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "decoration": "none"
+                      },
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "px": 18.0
+                        }
+                      }
+                    }
+                  },
+                  "md": {
+                    "base": {
+                      "custom": {
+                        "grid-column": "span 7"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "gallery-2",
+                "kind": {
+                  "type": "link",
+                  "href": "/work",
+                  "target": "same"
+                },
+                "children": [
+                  {
+                    "id": "gallery-2-m",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "children": [
+                      {
+                        "id": "gallery-2-img",
+                        "kind": {
+                          "type": "image",
+                          "src": "assets/images/portrait.webp",
+                          "alt": "Low-key portrait of a young woman lit from the side against a charcoal wall"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "block",
+                              "size": {
+                                "width": {
+                                  "percent": 100.0
+                                },
+                                "height": {
+                                  "percent": 100.0
+                                }
+                              },
+                              "objectFit": "cover",
+                              "aspectRatio": {
+                                "ratio": {
+                                  "width": 4.0,
+                                  "height": 5.0
+                                }
+                              },
+                              "radius": {
+                                "token": "radius.none"
+                              },
+                              "transition": {
+                                "duration": 700,
+                                "easing": "easeOut",
+                                "properties": [
+                                  "transform",
+                                  "opacity"
+                                ]
+                              },
+                              "opacity": 0.92
+                            },
+                            "hover": {
+                              "custom": {
+                                "transform": "scale(1.025)"
+                              },
+                              "opacity": 1.0
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "overflow": "hidden",
+                          "background": {
+                            "token": "surface.card"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "gallery-2-cap",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "children": [
+                      {
+                        "id": "gallery-2-cl",
+                        "kind": {
+                          "type": "frame"
+                        },
+                        "children": [
+                          {
+                            "id": "gallery-2-n",
+                            "kind": {
+                              "type": "text",
+                              "tag": "span",
+                              "content": "02"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.eyebrow",
+                                    "color": {
+                                      "token": "ink.accent"
+                                    },
+                                    "transform": "uppercase"
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "gallery-2-t",
+                            "kind": {
+                              "type": "text",
+                              "tag": "span",
+                              "content": "Adaeze"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.subtitle",
+                                    "color": {
+                                      "token": "ink.body"
+                                    },
+                                    "size": {
+                                      "raw": "1.5rem"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "flex",
+                              "flex": {
+                                "direction": "row",
+                                "gap": {
+                                  "px": 16.0
+                                },
+                                "align": "baseline",
+                                "wrap": true
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "gallery-2-meta",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "Portrait · Studio · 2025"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.eyebrow",
+                                "color": {
+                                  "token": "ink.faint"
+                                },
+                                "transform": "uppercase"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "row",
+                            "gap": {
+                              "px": 12.0
+                            },
+                            "align": "baseline",
+                            "wrap": true,
+                            "justify": "spaceBetween"
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "decoration": "none"
+                      },
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "px": 18.0
+                        }
+                      }
+                    }
+                  },
+                  "md": {
+                    "base": {
+                      "custom": {
+                        "grid-column": "span 5",
+                        "align-self": "end"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "gallery-3",
+                "kind": {
+                  "type": "link",
+                  "href": "/work",
+                  "target": "same"
+                },
+                "children": [
+                  {
+                    "id": "gallery-3-m",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "children": [
+                      {
+                        "id": "gallery-3-img",
+                        "kind": {
+                          "type": "image",
+                          "src": "assets/images/dunes.webp",
+                          "alt": "Aerial view of golden desert dunes and long shadows at dusk"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "block",
+                              "size": {
+                                "width": {
+                                  "percent": 100.0
+                                },
+                                "height": {
+                                  "percent": 100.0
+                                }
+                              },
+                              "objectFit": "cover",
+                              "aspectRatio": {
+                                "ratio": {
+                                  "width": 4.0,
+                                  "height": 5.0
+                                }
+                              },
+                              "radius": {
+                                "token": "radius.none"
+                              },
+                              "transition": {
+                                "duration": 700,
+                                "easing": "easeOut",
+                                "properties": [
+                                  "transform",
+                                  "opacity"
+                                ]
+                              },
+                              "opacity": 0.92
+                            },
+                            "hover": {
+                              "custom": {
+                                "transform": "scale(1.025)"
+                              },
+                              "opacity": 1.0
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "overflow": "hidden",
+                          "background": {
+                            "token": "surface.card"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "gallery-3-cap",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "children": [
+                      {
+                        "id": "gallery-3-cl",
+                        "kind": {
+                          "type": "frame"
+                        },
+                        "children": [
+                          {
+                            "id": "gallery-3-n",
+                            "kind": {
+                              "type": "text",
+                              "tag": "span",
+                              "content": "03"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.eyebrow",
+                                    "color": {
+                                      "token": "ink.accent"
+                                    },
+                                    "transform": "uppercase"
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "gallery-3-t",
+                            "kind": {
+                              "type": "text",
+                              "tag": "span",
+                              "content": "Erg"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.subtitle",
+                                    "color": {
+                                      "token": "ink.body"
+                                    },
+                                    "size": {
+                                      "raw": "1.5rem"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "flex",
+                              "flex": {
+                                "direction": "row",
+                                "gap": {
+                                  "px": 16.0
+                                },
+                                "align": "baseline",
+                                "wrap": true
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "gallery-3-meta",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "Landscape · Aerial · 2025"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.eyebrow",
+                                "color": {
+                                  "token": "ink.faint"
+                                },
+                                "transform": "uppercase"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "row",
+                            "gap": {
+                              "px": 12.0
+                            },
+                            "align": "baseline",
+                            "wrap": true,
+                            "justify": "spaceBetween"
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "decoration": "none"
+                      },
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "px": 18.0
+                        }
+                      }
+                    }
+                  },
+                  "md": {
+                    "base": {
+                      "custom": {
+                        "grid-column": "span 5",
+                        "align-self": "end"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "gallery-4",
+                "kind": {
+                  "type": "link",
+                  "href": "/work",
+                  "target": "same"
+                },
+                "children": [
+                  {
+                    "id": "gallery-4-m",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "children": [
+                      {
+                        "id": "gallery-4-img",
+                        "kind": {
+                          "type": "image",
+                          "src": "assets/images/stairs.webp",
+                          "alt": "A shaft of golden light across a brutalist concrete staircase"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "block",
+                              "size": {
+                                "width": {
+                                  "percent": 100.0
+                                },
+                                "height": {
+                                  "percent": 100.0
+                                }
+                              },
+                              "objectFit": "cover",
+                              "aspectRatio": {
+                                "ratio": {
+                                  "width": 3.0,
+                                  "height": 2.0
+                                }
+                              },
+                              "radius": {
+                                "token": "radius.none"
+                              },
+                              "transition": {
+                                "duration": 700,
+                                "easing": "easeOut",
+                                "properties": [
+                                  "transform",
+                                  "opacity"
+                                ]
+                              },
+                              "opacity": 0.92
+                            },
+                            "hover": {
+                              "custom": {
+                                "transform": "scale(1.025)"
+                              },
+                              "opacity": 1.0
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "overflow": "hidden",
+                          "background": {
+                            "token": "surface.card"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "gallery-4-cap",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "children": [
+                      {
+                        "id": "gallery-4-cl",
+                        "kind": {
+                          "type": "frame"
+                        },
+                        "children": [
+                          {
+                            "id": "gallery-4-n",
+                            "kind": {
+                              "type": "text",
+                              "tag": "span",
+                              "content": "04"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.eyebrow",
+                                    "color": {
+                                      "token": "ink.accent"
+                                    },
+                                    "transform": "uppercase"
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "gallery-4-t",
+                            "kind": {
+                              "type": "text",
+                              "tag": "span",
+                              "content": "Concrete Hours"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.subtitle",
+                                    "color": {
+                                      "token": "ink.body"
+                                    },
+                                    "size": {
+                                      "raw": "1.5rem"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "flex",
+                              "flex": {
+                                "direction": "row",
+                                "gap": {
+                                  "px": 16.0
+                                },
+                                "align": "baseline",
+                                "wrap": true
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "gallery-4-meta",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "Architecture · Commission · 2024"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.eyebrow",
+                                "color": {
+                                  "token": "ink.faint"
+                                },
+                                "transform": "uppercase"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "row",
+                            "gap": {
+                              "px": 12.0
+                            },
+                            "align": "baseline",
+                            "wrap": true,
+                            "justify": "spaceBetween"
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "decoration": "none"
+                      },
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "px": 18.0
+                        }
+                      }
+                    }
+                  },
+                  "md": {
+                    "base": {
+                      "custom": {
+                        "grid-column": "span 7"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "gallery-5",
+                "kind": {
+                  "type": "link",
+                  "href": "/work",
+                  "target": "same"
+                },
+                "children": [
+                  {
+                    "id": "gallery-5-m",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "children": [
+                      {
+                        "id": "gallery-5-img",
+                        "kind": {
+                          "type": "image",
+                          "src": "assets/images/lantern.webp",
+                          "alt": "Bride and groom embracing under a warm lantern in a dark garden"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "block",
+                              "size": {
+                                "width": {
+                                  "percent": 100.0
+                                },
+                                "height": {
+                                  "percent": 100.0
+                                }
+                              },
+                              "objectFit": "cover",
+                              "aspectRatio": {
+                                "ratio": {
+                                  "width": 21.0,
+                                  "height": 9.0
+                                }
+                              },
+                              "radius": {
+                                "token": "radius.none"
+                              },
+                              "transition": {
+                                "duration": 700,
+                                "easing": "easeOut",
+                                "properties": [
+                                  "transform",
+                                  "opacity"
+                                ]
+                              },
+                              "opacity": 0.92
+                            },
+                            "hover": {
+                              "custom": {
+                                "transform": "scale(1.025)"
+                              },
+                              "opacity": 1.0
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "overflow": "hidden",
+                          "background": {
+                            "token": "surface.card"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "gallery-5-cap",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "children": [
+                      {
+                        "id": "gallery-5-cl",
+                        "kind": {
+                          "type": "frame"
+                        },
+                        "children": [
+                          {
+                            "id": "gallery-5-n",
+                            "kind": {
+                              "type": "text",
+                              "tag": "span",
+                              "content": "05"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.eyebrow",
+                                    "color": {
+                                      "token": "ink.accent"
+                                    },
+                                    "transform": "uppercase"
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "gallery-5-t",
+                            "kind": {
+                              "type": "text",
+                              "tag": "span",
+                              "content": "Under the Lantern"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.subtitle",
+                                    "color": {
+                                      "token": "ink.body"
+                                    },
+                                    "size": {
+                                      "raw": "1.5rem"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "flex",
+                              "flex": {
+                                "direction": "row",
+                                "gap": {
+                                  "px": 16.0
+                                },
+                                "align": "baseline",
+                                "wrap": true
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "gallery-5-meta",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "Wedding · Tuscany · 2024"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.eyebrow",
+                                "color": {
+                                  "token": "ink.faint"
+                                },
+                                "transform": "uppercase"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "row",
+                            "gap": {
+                              "px": 12.0
+                            },
+                            "align": "baseline",
+                            "wrap": true,
+                            "justify": "spaceBetween"
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "decoration": "none"
+                      },
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "px": 18.0
+                        }
+                      }
+                    }
+                  },
+                  "md": {
+                    "base": {
+                      "custom": {
+                        "grid-column": "span 12"
+                      }
+                    }
+                  }
+                }
+              }
+            ],
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "grid",
+                  "grid": {
+                    "columns": 1,
+                    "gap": {
+                      "px": 48.0
+                    }
+                  }
+                }
+              },
+              "md": {
+                "base": {
+                  "grid": {
+                    "templateColumns": "repeat(12, 1fr)",
+                    "gap": {
+                      "px": 32.0
+                    }
+                  },
+                  "custom": {
+                    "row-gap": "80px"
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "styles": {
+          "base": {
+            "base": {
+              "display": "flex",
+              "flex": {
+                "direction": "column",
+                "gap": {
+                  "px": 64.0
+                }
+              },
+              "size": {
+                "maxWidth": {
+                  "px": 1440.0
+                },
+                "width": {
+                  "percent": 100.0
+                }
+              },
+              "spacing": {
+                "margin": {
+                  "left": {
+                    "raw": "auto"
+                  },
+                  "right": {
+                    "raw": "auto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "styles": {
+      "base": {
+        "base": {
+          "background": {
+            "token": "surface.page"
+          },
+          "spacing": {
+            "padding": {
+              "top": {
+                "token": "space.section"
+              },
+              "bottom": {
+                "token": "space.section"
+              },
+              "left": {
+                "token": "space.gutter"
+              },
+              "right": {
+                "token": "space.gutter"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "props": []
+}

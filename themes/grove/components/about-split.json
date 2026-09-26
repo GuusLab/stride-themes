@@ -1,0 +1,526 @@
+{
+  "id": "grove-about-split",
+  "name": "Grove / Coach intro",
+  "root": {
+    "id": "about",
+    "kind": {
+      "type": "frame",
+      "element": "section"
+    },
+    "styles": {
+      "base": {
+        "base": {
+          "background": {
+            "token": "surface.page"
+          },
+          "spacing": {
+            "padding": {
+              "top": {
+                "token": "section.y"
+              },
+              "right": {
+                "token": "gutter"
+              },
+              "bottom": {
+                "token": "section.y"
+              },
+              "left": {
+                "token": "gutter"
+              }
+            }
+          },
+          "position": {
+            "kind": "relative"
+          },
+          "overflow": "hidden"
+        }
+      }
+    },
+    "children": [
+      {
+        "id": "ab-inner",
+        "kind": {
+          "type": "frame",
+          "element": "div"
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "display": "flex",
+              "flex": {
+                "direction": "column",
+                "gap": {
+                  "px": 0.0
+                }
+              },
+              "size": {
+                "maxWidth": {
+                  "token": "content.max"
+                },
+                "width": {
+                  "percent": 100.0
+                }
+              },
+              "spacing": {
+                "margin": {
+                  "left": {
+                    "raw": "auto"
+                  },
+                  "right": {
+                    "raw": "auto"
+                  }
+                }
+              },
+              "position": {
+                "kind": "relative"
+              }
+            }
+          }
+        },
+        "children": [
+          {
+            "id": "ab-grid",
+            "kind": {
+              "type": "frame",
+              "element": "div"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "grid",
+                  "grid": {
+                    "columns": 1,
+                    "gap": {
+                      "px": 48.0
+                    },
+                    "align": "center"
+                  }
+                }
+              },
+              "lg": {
+                "base": {
+                  "display": "grid",
+                  "grid": {
+                    "templateColumns": "0.9fr 1.1fr",
+                    "gap": {
+                      "px": 88.0
+                    },
+                    "align": "center"
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "ab-img",
+                "kind": {
+                  "type": "image",
+                  "src": "assets/images/coach.jpg",
+                  "alt": "Amara, Grove's founder, smiling by a window with eucalyptus"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "size": {
+                        "width": {
+                          "percent": 100.0
+                        },
+                        "height": {
+                          "px": 460.0
+                        }
+                      },
+                      "objectFit": "cover",
+                      "corners": {
+                        "topLeft": {
+                          "px": 32.0
+                        },
+                        "topRight": {
+                          "px": 220.0
+                        },
+                        "bottomRight": {
+                          "px": 32.0
+                        },
+                        "bottomLeft": {
+                          "px": 220.0
+                        }
+                      }
+                    }
+                  },
+                  "lg": {
+                    "base": {
+                      "size": {
+                        "width": {
+                          "percent": 100.0
+                        },
+                        "height": {
+                          "px": 600.0
+                        }
+                      }
+                    }
+                  }
+                },
+                "bindings": {
+                  "src": "imageSrc",
+                  "alt": "imageAlt"
+                }
+              },
+              {
+                "id": "ab-copy",
+                "kind": {
+                  "type": "frame",
+                  "element": "div"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "px": 22.0
+                        }
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "ab-eyebrow",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "Meet your coach"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.eyebrow",
+                            "color": {
+                              "token": "brand.strong"
+                            },
+                            "transform": "uppercase"
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "content": "eyebrow"
+                    }
+                  },
+                  {
+                    "id": "ab-title",
+                    "kind": {
+                      "type": "text",
+                      "tag": "h2",
+                      "content": "Hi, I'm Amara. I help busy people find their breath again."
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.title",
+                            "color": {
+                              "token": "ink.body"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "content": "title"
+                    }
+                  },
+                  {
+                    "id": "ab-p1",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "After a decade in hospital wards I burned out, badly. Yoga was the first thing that helped — not the handstands, the lying-down-and-breathing part."
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.lead",
+                            "color": {
+                              "token": "ink.muted"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "content": "body1"
+                    }
+                  },
+                  {
+                    "id": "ab-p2",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "Today I coach nurses, founders and new parents through six-week programmes built on sleep, breath and small, kind habits. No jargon, no guilt, no 5am alarm unless you want one."
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.body",
+                            "color": {
+                              "token": "ink.muted"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "content": "body2"
+                    }
+                  },
+                  {
+                    "id": "ab-sig",
+                    "kind": {
+                      "type": "frame",
+                      "element": "div"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "column",
+                            "gap": {
+                              "px": 4.0
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "ab-sign",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Amara Ellis"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "family": "'Fraunces', 'Iowan Old Style', 'Palatino Linotype', Georgia, serif",
+                                "size": {
+                                  "rem": 1.75
+                                },
+                                "color": {
+                                  "token": "brand.strong"
+                                }
+                              },
+                              "custom": {
+                                "font-style": "italic"
+                              }
+                            }
+                          }
+                        },
+                        "bindings": {
+                          "content": "signature"
+                        }
+                      },
+                      {
+                        "id": "ab-cred",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "E-RYT 500 · Certified health coach"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.muted"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "bindings": {
+                          "content": "credentials"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "ab-btn",
+                    "kind": {
+                      "type": "button",
+                      "label": "Book a free intro call",
+                      "href": "/contact",
+                      "target": "same"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "inlineFlex",
+                          "background": {
+                            "token": "brand.strong"
+                          },
+                          "radius": {
+                            "token": "radius.pill"
+                          },
+                          "spacing": {
+                            "padding": {
+                              "top": {
+                                "px": 16.0
+                              },
+                              "right": {
+                                "px": 30.0
+                              },
+                              "bottom": {
+                                "px": 16.0
+                              },
+                              "left": {
+                                "px": 30.0
+                              }
+                            }
+                          },
+                          "typography": {
+                            "token": "type.button",
+                            "color": {
+                              "token": "ink.inverse"
+                            },
+                            "align": "center",
+                            "decoration": "none"
+                          },
+                          "size": {
+                            "width": {
+                              "raw": "fit-content"
+                            }
+                          },
+                          "transition": {
+                            "duration": 220,
+                            "properties": [
+                              "backgroundColor",
+                              "color",
+                              "borderColor",
+                              "boxShadow",
+                              "transform"
+                            ]
+                          },
+                          "shadow": {
+                            "token": "shadow.soft"
+                          }
+                        },
+                        "hover": {
+                          "background": {
+                            "token": "surface.deep"
+                          },
+                          "custom": {
+                            "transform": "translateY(-2px)"
+                          }
+                        },
+                        "focus": {
+                          "custom": {
+                            "outline": "3px solid #6B8F71",
+                            "outline-offset": "3px"
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "label": "buttonLabel",
+                      "href": "buttonHref"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "props": [
+    {
+      "name": "imageSrc",
+      "label": "Photo image",
+      "kind": {
+        "type": "image"
+      },
+      "default": "assets/images/coach.jpg"
+    },
+    {
+      "name": "imageAlt",
+      "label": "Photo alt text",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Amara, Grove's founder, smiling by a window with eucalyptus"
+    },
+    {
+      "name": "eyebrow",
+      "label": "Eyebrow",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Meet your coach"
+    },
+    {
+      "name": "title",
+      "label": "Title",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Hi, I'm Amara. I help busy people find their breath again."
+    },
+    {
+      "name": "body1",
+      "label": "Paragraph 1",
+      "kind": {
+        "type": "longText"
+      },
+      "default": "After a decade in hospital wards I burned out, badly. Yoga was the first thing that helped — not the handstands, the lying-down-and-breathing part."
+    },
+    {
+      "name": "body2",
+      "label": "Paragraph 2",
+      "kind": {
+        "type": "longText"
+      },
+      "default": "Today I coach nurses, founders and new parents through six-week programmes built on sleep, breath and small, kind habits. No jargon, no guilt, no 5am alarm unless you want one."
+    },
+    {
+      "name": "signature",
+      "label": "Signature",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Amara Ellis"
+    },
+    {
+      "name": "credentials",
+      "label": "Credentials",
+      "kind": {
+        "type": "text"
+      },
+      "default": "E-RYT 500 · Certified health coach"
+    },
+    {
+      "name": "buttonLabel",
+      "label": "Button label",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Book a free intro call"
+    },
+    {
+      "name": "buttonHref",
+      "label": "Button link",
+      "kind": {
+        "type": "url"
+      },
+      "default": "/contact"
+    }
+  ]
+}

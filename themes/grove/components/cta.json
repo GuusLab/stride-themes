@@ -1,0 +1,517 @@
+{
+  "id": "grove-cta",
+  "name": "Grove / Booking CTA band",
+  "root": {
+    "id": "cta",
+    "kind": {
+      "type": "frame",
+      "element": "section"
+    },
+    "styles": {
+      "base": {
+        "base": {
+          "background": {
+            "token": "surface.page"
+          },
+          "spacing": {
+            "padding": {
+              "top": {
+                "token": "space.8"
+              },
+              "right": {
+                "token": "gutter"
+              },
+              "bottom": {
+                "token": "section.y"
+              },
+              "left": {
+                "token": "gutter"
+              }
+            }
+          },
+          "position": {
+            "kind": "relative"
+          },
+          "overflow": "hidden"
+        }
+      }
+    },
+    "children": [
+      {
+        "id": "cta-box",
+        "kind": {
+          "type": "frame",
+          "element": "div"
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "background": {
+                "token": "surface.deep"
+              },
+              "radius": {
+                "token": "radius.xl"
+              },
+              "spacing": {
+                "padding": {
+                  "top": {
+                    "raw": "clamp(3.5rem, 8vw, 6rem)"
+                  },
+                  "right": {
+                    "raw": "clamp(1.5rem, 5vw, 4rem)"
+                  },
+                  "bottom": {
+                    "raw": "clamp(3.5rem, 8vw, 6rem)"
+                  },
+                  "left": {
+                    "raw": "clamp(1.5rem, 5vw, 4rem)"
+                  }
+                },
+                "margin": {
+                  "left": {
+                    "raw": "auto"
+                  },
+                  "right": {
+                    "raw": "auto"
+                  }
+                }
+              },
+              "position": {
+                "kind": "relative"
+              },
+              "overflow": "hidden",
+              "size": {
+                "maxWidth": {
+                  "token": "content.max"
+                },
+                "width": {
+                  "percent": 100.0
+                }
+              }
+            }
+          }
+        },
+        "children": [
+          {
+            "id": "cta-blob",
+            "kind": {
+              "type": "frame",
+              "element": "div"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "position": {
+                    "kind": "absolute",
+                    "inset": {
+                      "top": {
+                        "px": -180.0
+                      },
+                      "right": {
+                        "px": -120.0
+                      }
+                    },
+                    "zIndex": 0
+                  },
+                  "size": {
+                    "width": {
+                      "px": 420.0
+                    },
+                    "height": {
+                      "px": 420.0
+                    }
+                  },
+                  "background": {
+                    "raw": "#6B8F71"
+                  },
+                  "radius": {
+                    "token": "radius.organic"
+                  },
+                  "opacity": 0.55,
+                  "custom": {
+                    "pointer-events": "none",
+                    "filter": "blur(2px)"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": "cta-blob2",
+            "kind": {
+              "type": "frame",
+              "element": "div"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "position": {
+                    "kind": "absolute",
+                    "inset": {
+                      "bottom": {
+                        "px": -160.0
+                      },
+                      "left": {
+                        "px": -80.0
+                      }
+                    },
+                    "zIndex": 0
+                  },
+                  "size": {
+                    "width": {
+                      "px": 300.0
+                    },
+                    "height": {
+                      "px": 300.0
+                    }
+                  },
+                  "background": {
+                    "raw": "#3B5243"
+                  },
+                  "radius": {
+                    "token": "radius.organic"
+                  },
+                  "opacity": 1,
+                  "custom": {
+                    "pointer-events": "none",
+                    "filter": "blur(2px)"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": "cta-copy",
+            "kind": {
+              "type": "frame",
+              "element": "div"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "flex",
+                  "flex": {
+                    "direction": "column",
+                    "gap": {
+                      "px": 22.0
+                    },
+                    "align": "center"
+                  },
+                  "position": {
+                    "kind": "relative",
+                    "zIndex": 2
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "cta-title",
+                "kind": {
+                  "type": "text",
+                  "tag": "h2",
+                  "content": "Your first class is on us."
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.title",
+                        "color": {
+                          "token": "ink.inverse"
+                        },
+                        "align": "center"
+                      }
+                    }
+                  }
+                },
+                "bindings": {
+                  "content": "title"
+                }
+              },
+              {
+                "id": "cta-lead",
+                "kind": {
+                  "type": "text",
+                  "tag": "p",
+                  "content": "Pick any class this week, bring nothing but yourself, and see how you feel afterwards. That's the whole pitch."
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.lead",
+                        "color": {
+                          "token": "ink.inverse.muted"
+                        },
+                        "align": "center"
+                      },
+                      "size": {
+                        "maxWidth": {
+                          "px": 560.0
+                        }
+                      }
+                    }
+                  }
+                },
+                "bindings": {
+                  "content": "lead"
+                }
+              },
+              {
+                "id": "cta-actions",
+                "kind": {
+                  "type": "frame",
+                  "element": "div"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "row",
+                        "gap": {
+                          "px": 14.0
+                        },
+                        "align": "center",
+                        "justify": "center",
+                        "wrap": true
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "cta-btn",
+                    "kind": {
+                      "type": "button",
+                      "label": "Claim your free class",
+                      "href": "/classes",
+                      "target": "same"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "inlineFlex",
+                          "background": {
+                            "token": "ink.inverse"
+                          },
+                          "radius": {
+                            "token": "radius.pill"
+                          },
+                          "spacing": {
+                            "padding": {
+                              "top": {
+                                "px": 16.0
+                              },
+                              "right": {
+                                "px": 30.0
+                              },
+                              "bottom": {
+                                "px": 16.0
+                              },
+                              "left": {
+                                "px": 30.0
+                              }
+                            }
+                          },
+                          "typography": {
+                            "token": "type.button",
+                            "color": {
+                              "token": "surface.deep"
+                            },
+                            "align": "center",
+                            "decoration": "none"
+                          },
+                          "size": {
+                            "width": {
+                              "raw": "fit-content"
+                            }
+                          },
+                          "transition": {
+                            "duration": 220,
+                            "properties": [
+                              "backgroundColor",
+                              "color",
+                              "borderColor",
+                              "boxShadow",
+                              "transform"
+                            ]
+                          },
+                          "shadow": {
+                            "token": "shadow.soft"
+                          }
+                        },
+                        "hover": {
+                          "background": {
+                            "token": "surface.sand"
+                          },
+                          "custom": {
+                            "transform": "translateY(-2px)"
+                          }
+                        },
+                        "focus": {
+                          "custom": {
+                            "outline": "3px solid #6B8F71",
+                            "outline-offset": "3px"
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "label": "primaryLabel",
+                      "href": "primaryHref"
+                    }
+                  },
+                  {
+                    "id": "cta-btn2",
+                    "kind": {
+                      "type": "button",
+                      "label": "Ask a question",
+                      "href": "/contact",
+                      "target": "same"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "inlineFlex",
+                          "radius": {
+                            "token": "radius.pill"
+                          },
+                          "border": {
+                            "width": {
+                              "px": 1.5
+                            },
+                            "style": "solid",
+                            "color": {
+                              "token": "line.inverse"
+                            }
+                          },
+                          "spacing": {
+                            "padding": {
+                              "top": {
+                                "px": 15.0
+                              },
+                              "right": {
+                                "px": 28.0
+                              },
+                              "bottom": {
+                                "px": 15.0
+                              },
+                              "left": {
+                                "px": 28.0
+                              }
+                            }
+                          },
+                          "typography": {
+                            "token": "type.button",
+                            "color": {
+                              "token": "ink.inverse"
+                            },
+                            "align": "center",
+                            "decoration": "none"
+                          },
+                          "size": {
+                            "width": {
+                              "raw": "fit-content"
+                            }
+                          },
+                          "transition": {
+                            "duration": 220,
+                            "properties": [
+                              "backgroundColor",
+                              "color",
+                              "borderColor",
+                              "boxShadow",
+                              "transform"
+                            ]
+                          }
+                        },
+                        "hover": {
+                          "border": {
+                            "width": {
+                              "px": 1.5
+                            },
+                            "style": "solid",
+                            "color": {
+                              "token": "brand.primary"
+                            }
+                          },
+                          "typography": {
+                            "color": {
+                              "token": "brand.soft"
+                            }
+                          }
+                        },
+                        "focus": {
+                          "custom": {
+                            "outline": "3px solid #6B8F71",
+                            "outline-offset": "3px"
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "label": "secondaryLabel",
+                      "href": "secondaryHref"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "props": [
+    {
+      "name": "title",
+      "label": "Title",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Your first class is on us."
+    },
+    {
+      "name": "lead",
+      "label": "Text",
+      "kind": {
+        "type": "longText"
+      },
+      "default": "Pick any class this week, bring nothing but yourself, and see how you feel afterwards. That's the whole pitch."
+    },
+    {
+      "name": "primaryLabel",
+      "label": "Primary button label",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Claim your free class"
+    },
+    {
+      "name": "primaryHref",
+      "label": "Primary button link",
+      "kind": {
+        "type": "url"
+      },
+      "default": "/classes"
+    },
+    {
+      "name": "secondaryLabel",
+      "label": "Secondary button label",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Ask a question"
+    },
+    {
+      "name": "secondaryHref",
+      "label": "Secondary button link",
+      "kind": {
+        "type": "url"
+      },
+      "default": "/contact"
+    }
+  ]
+}

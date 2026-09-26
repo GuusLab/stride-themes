@@ -1,0 +1,467 @@
+{
+  "id": "harbor-stats",
+  "name": "Harbor · Numbers",
+  "root": {
+    "id": "stats",
+    "kind": {
+      "type": "frame",
+      "element": "section"
+    },
+    "children": [
+      {
+        "id": "stats-inner",
+        "kind": {
+          "type": "frame"
+        },
+        "children": [
+          {
+            "id": "stats-grid",
+            "kind": {
+              "type": "frame"
+            },
+            "children": [
+              {
+                "id": "stats-1",
+                "kind": {
+                  "type": "frame"
+                },
+                "children": [
+                  {
+                    "id": "stats-1-n",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "15"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.display",
+                            "color": {
+                              "token": "ink.accent"
+                            },
+                            "size": {
+                              "raw": "clamp(2.5rem, 5vw, 3.75rem)"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "stats-1-l",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "years on the quay"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "color": {
+                              "token": "ink.muted"
+                            },
+                            "weight": 700
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "px": 4.0
+                        }
+                      },
+                      "border": {
+                        "left": {
+                          "width": {
+                            "px": 3.0
+                          },
+                          "style": "solid",
+                          "color": {
+                            "token": "line.hairline"
+                          }
+                        }
+                      },
+                      "spacing": {
+                        "padding": {
+                          "left": {
+                            "px": 20.0
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "stats-2",
+                "kind": {
+                  "type": "frame"
+                },
+                "children": [
+                  {
+                    "id": "stats-2-n",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "40"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.display",
+                            "color": {
+                              "token": "ink.accent"
+                            },
+                            "size": {
+                              "raw": "clamp(2.5rem, 5vw, 3.75rem)"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "stats-2-l",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "seats inside, 24 outside"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "color": {
+                              "token": "ink.muted"
+                            },
+                            "weight": 700
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "px": 4.0
+                        }
+                      },
+                      "border": {
+                        "left": {
+                          "width": {
+                            "px": 3.0
+                          },
+                          "style": "solid",
+                          "color": {
+                            "token": "line.hairline"
+                          }
+                        }
+                      },
+                      "spacing": {
+                        "padding": {
+                          "left": {
+                            "px": 20.0
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "stats-3",
+                "kind": {
+                  "type": "frame"
+                },
+                "children": [
+                  {
+                    "id": "stats-3-n",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "6"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.display",
+                            "color": {
+                              "token": "ink.accent"
+                            },
+                            "size": {
+                              "raw": "clamp(2.5rem, 5vw, 3.75rem)"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "stats-3-l",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "local farms and boats"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "color": {
+                              "token": "ink.muted"
+                            },
+                            "weight": 700
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "px": 4.0
+                        }
+                      },
+                      "border": {
+                        "left": {
+                          "width": {
+                            "px": 3.0
+                          },
+                          "style": "solid",
+                          "color": {
+                            "token": "line.hairline"
+                          }
+                        }
+                      },
+                      "spacing": {
+                        "padding": {
+                          "left": {
+                            "px": 20.0
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "stats-4",
+                "kind": {
+                  "type": "frame"
+                },
+                "children": [
+                  {
+                    "id": "stats-4-n",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "4.9"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.display",
+                            "color": {
+                              "token": "ink.accent"
+                            },
+                            "size": {
+                              "raw": "clamp(2.5rem, 5vw, 3.75rem)"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "stats-4-l",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "average guest rating"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "color": {
+                              "token": "ink.muted"
+                            },
+                            "weight": 700
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "px": 4.0
+                        }
+                      },
+                      "border": {
+                        "left": {
+                          "width": {
+                            "px": 3.0
+                          },
+                          "style": "solid",
+                          "color": {
+                            "token": "line.hairline"
+                          }
+                        }
+                      },
+                      "spacing": {
+                        "padding": {
+                          "left": {
+                            "px": 20.0
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            ],
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "grid",
+                  "grid": {
+                    "columns": 1,
+                    "gap": {
+                      "px": 32.0
+                    }
+                  }
+                }
+              },
+              "md": {
+                "base": {
+                  "display": "grid",
+                  "grid": {
+                    "columns": 2
+                  }
+                }
+              },
+              "lg": {
+                "base": {
+                  "display": "grid",
+                  "grid": {
+                    "columns": 4
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "styles": {
+          "base": {
+            "base": {
+              "display": "flex",
+              "flex": {
+                "direction": "column",
+                "gap": {
+                  "px": 32.0
+                }
+              },
+              "size": {
+                "maxWidth": {
+                  "px": 1200.0
+                },
+                "width": {
+                  "percent": 100.0
+                }
+              },
+              "spacing": {
+                "margin": {
+                  "left": {
+                    "raw": "auto"
+                  },
+                  "right": {
+                    "raw": "auto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "styles": {
+      "base": {
+        "base": {
+          "background": {
+            "token": "surface.page"
+          },
+          "spacing": {
+            "padding": {
+              "top": {
+                "px": 56.0
+              },
+              "right": {
+                "px": 20.0
+              },
+              "bottom": {
+                "px": 56.0
+              },
+              "left": {
+                "px": 20.0
+              }
+            }
+          }
+        }
+      },
+      "md": {
+        "base": {
+          "spacing": {
+            "padding": {
+              "top": {
+                "px": 72.0
+              },
+              "right": {
+                "px": 40.0
+              },
+              "bottom": {
+                "px": 72.0
+              },
+              "left": {
+                "px": 40.0
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "props": []
+}

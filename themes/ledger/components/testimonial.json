@@ -1,0 +1,182 @@
+{
+  "id": "ledger-testimonial",
+  "name": "Ledger · Client quote",
+  "root": {
+    "id": "quote",
+    "kind": {
+      "type": "frame",
+      "element": "section"
+    },
+    "children": [
+      {
+        "id": "quote-inner",
+        "kind": {
+          "type": "frame"
+        },
+        "children": [
+          {
+            "id": "quote-mark",
+            "kind": {
+              "type": "text",
+              "tag": "p",
+              "content": "“"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "typography": {
+                    "token": "type.display",
+                    "color": {
+                      "token": "ink.brass"
+                    },
+                    "size": {
+                      "rem": 6.0
+                    },
+                    "lineHeight": 0.6
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": "quote-quote",
+            "kind": {
+              "type": "quote",
+              "attribution": "Margit Oyelaran, CEO, Norvane Logistics"
+            },
+            "children": [
+              {
+                "id": "quote-text",
+                "kind": {
+                  "type": "text",
+                  "tag": "p",
+                  "content": "They told us what we did not want to hear, early enough for it to matter. Eighteen months later we closed the sale on our terms."
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.quote",
+                        "color": {
+                          "token": "ink.inverse"
+                        }
+                      }
+                    }
+                  }
+                },
+                "bindings": {
+                  "content": "quote"
+                }
+              }
+            ],
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "flex",
+                  "flex": {
+                    "direction": "column",
+                    "gap": {
+                      "px": 28.0
+                    }
+                  },
+                  "typography": {
+                    "color": {
+                      "token": "ink.brass"
+                    },
+                    "token": "type.small"
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "styles": {
+          "base": {
+            "base": {
+              "display": "flex",
+              "flex": {
+                "direction": "column",
+                "gap": {
+                  "px": 8.0
+                }
+              },
+              "size": {
+                "maxWidth": {
+                  "px": 920.0
+                },
+                "width": {
+                  "percent": 100.0
+                }
+              },
+              "spacing": {
+                "margin": {
+                  "left": {
+                    "raw": "auto"
+                  },
+                  "right": {
+                    "raw": "auto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "styles": {
+      "base": {
+        "base": {
+          "background": {
+            "token": "surface.deep"
+          },
+          "spacing": {
+            "padding": {
+              "top": {
+                "px": 80.0
+              },
+              "right": {
+                "px": 20.0
+              },
+              "bottom": {
+                "px": 80.0
+              },
+              "left": {
+                "px": 20.0
+              }
+            }
+          }
+        }
+      },
+      "md": {
+        "base": {
+          "spacing": {
+            "padding": {
+              "top": {
+                "px": 128.0
+              },
+              "right": {
+                "px": 40.0
+              },
+              "bottom": {
+                "px": 128.0
+              },
+              "left": {
+                "px": 40.0
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "props": [
+    {
+      "name": "quote",
+      "label": "Quote",
+      "kind": {
+        "type": "longText"
+      },
+      "default": "They told us what we did not want to hear, early enough for it to matter."
+    }
+  ]
+}

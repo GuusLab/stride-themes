@@ -1,0 +1,578 @@
+{
+  "id": "nightfall-footer",
+  "name": "Nightfall · Footer",
+  "root": {
+    "id": "footer",
+    "kind": {
+      "type": "frame",
+      "element": "footer"
+    },
+    "children": [
+      {
+        "id": "footer-inner",
+        "kind": {
+          "type": "frame"
+        },
+        "children": [
+          {
+            "id": "footer-big",
+            "kind": {
+              "type": "link",
+              "href": "/contact",
+              "target": "same"
+            },
+            "children": [
+              {
+                "id": "footer-big-1",
+                "kind": {
+                  "type": "text",
+                  "tag": "span",
+                  "content": "Let’s make"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.hero",
+                        "color": {
+                          "token": "ink.body"
+                        }
+                      },
+                      "display": "block"
+                    }
+                  }
+                }
+              },
+              {
+                "id": "footer-big-2",
+                "kind": {
+                  "type": "text",
+                  "tag": "span",
+                  "content": "something quiet."
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.hero",
+                        "color": {
+                          "token": "ink.accent"
+                        }
+                      },
+                      "display": "block",
+                      "custom": {
+                        "font-style": "italic"
+                      }
+                    }
+                  }
+                }
+              }
+            ],
+            "styles": {
+              "base": {
+                "base": {
+                  "typography": {
+                    "decoration": "none"
+                  },
+                  "display": "block",
+                  "transition": {
+                    "duration": 300,
+                    "properties": [
+                      "opacity"
+                    ]
+                  }
+                },
+                "hover": {
+                  "opacity": 0.8
+                }
+              }
+            }
+          },
+          {
+            "id": "footer-rule",
+            "kind": {
+              "type": "frame"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "size": {
+                    "height": {
+                      "px": 1.0
+                    },
+                    "width": {
+                      "percent": 100.0
+                    }
+                  },
+                  "background": {
+                    "token": "line.hairline"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": "footer-cols",
+            "kind": {
+              "type": "frame"
+            },
+            "children": [
+              {
+                "id": "footer-c1",
+                "kind": {
+                  "type": "frame"
+                },
+                "children": [
+                  {
+                    "id": "footer-c1-t",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "Studio"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.eyebrow",
+                            "color": {
+                              "token": "ink.faint"
+                            },
+                            "transform": "uppercase"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "footer-c1-0",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "Studio 4, Kelder Works"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "color": {
+                              "token": "ink.muted"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "footer-c1-1",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "Harrow Lane, Norwick"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "color": {
+                              "token": "ink.muted"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "footer-c1-2",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "By appointment"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "color": {
+                              "token": "ink.muted"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "px": 10.0
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "footer-c2",
+                "kind": {
+                  "type": "frame"
+                },
+                "children": [
+                  {
+                    "id": "footer-c2-t",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "Contact"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.eyebrow",
+                            "color": {
+                              "token": "ink.faint"
+                            },
+                            "transform": "uppercase"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "footer-c2-0",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "studio@maraellison.example"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "color": {
+                              "token": "ink.muted"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "footer-c2-1",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "+44 20 7946 0321"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "color": {
+                              "token": "ink.muted"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "footer-c2-2",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "Represented by Northlight Agency"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "color": {
+                              "token": "ink.muted"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "px": 10.0
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "footer-c3",
+                "kind": {
+                  "type": "frame"
+                },
+                "children": [
+                  {
+                    "id": "footer-c3-t",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "Elsewhere"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.eyebrow",
+                            "color": {
+                              "token": "ink.faint"
+                            },
+                            "transform": "uppercase"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "footer-c3-0",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "Journal"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "color": {
+                              "token": "ink.muted"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "footer-c3-1",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "Print shop"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "color": {
+                              "token": "ink.muted"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "footer-c3-2",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "Newsletter"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "color": {
+                              "token": "ink.muted"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "px": 10.0
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            ],
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "grid",
+                  "grid": {
+                    "columns": 1,
+                    "gap": {
+                      "px": 32.0
+                    }
+                  }
+                }
+              },
+              "md": {
+                "base": {
+                  "grid": {
+                    "columns": 3,
+                    "gap": {
+                      "px": 48.0
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": "footer-legal",
+            "kind": {
+              "type": "frame"
+            },
+            "children": [
+              {
+                "id": "footer-copy",
+                "kind": {
+                  "type": "text",
+                  "tag": "span",
+                  "content": "© 2026 Mara Ellison. All photographs by the studio."
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.eyebrow",
+                        "color": {
+                          "token": "ink.faint"
+                        },
+                        "transform": "uppercase"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "footer-top",
+                "kind": {
+                  "type": "text",
+                  "tag": "span",
+                  "content": "Made in the dark"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.eyebrow",
+                        "color": {
+                          "token": "ink.faint"
+                        },
+                        "transform": "uppercase"
+                      }
+                    }
+                  }
+                }
+              }
+            ],
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "flex",
+                  "flex": {
+                    "direction": "row",
+                    "gap": {
+                      "px": 16.0
+                    },
+                    "align": "center",
+                    "wrap": true,
+                    "justify": "spaceBetween"
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "styles": {
+          "base": {
+            "base": {
+              "display": "flex",
+              "flex": {
+                "direction": "column",
+                "gap": {
+                  "px": 56.0
+                }
+              },
+              "size": {
+                "maxWidth": {
+                  "px": 1440.0
+                },
+                "width": {
+                  "percent": 100.0
+                }
+              },
+              "spacing": {
+                "margin": {
+                  "left": {
+                    "raw": "auto"
+                  },
+                  "right": {
+                    "raw": "auto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "styles": {
+      "base": {
+        "base": {
+          "background": {
+            "token": "surface.deep"
+          },
+          "spacing": {
+            "padding": {
+              "top": {
+                "token": "space.24"
+              },
+              "bottom": {
+                "token": "space.12"
+              },
+              "left": {
+                "token": "space.gutter"
+              },
+              "right": {
+                "token": "space.gutter"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "props": []
+}

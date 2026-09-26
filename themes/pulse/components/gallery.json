@@ -1,0 +1,411 @@
+{
+  "id": "pulse-gallery",
+  "name": "Pulse gallery",
+  "root": {
+    "id": "pulse-gallery",
+    "kind": {
+      "type": "frame",
+      "element": "section"
+    },
+    "styles": {
+      "base": {
+        "base": {
+          "background": {
+            "token": "surface.page"
+          },
+          "spacing": {
+            "padding": {
+              "top": {
+                "token": "space.section"
+              },
+              "bottom": {
+                "token": "space.section"
+              },
+              "left": {
+                "token": "space.gutter"
+              },
+              "right": {
+                "token": "space.gutter"
+              }
+            }
+          }
+        }
+      },
+      "md": {
+        "base": {
+          "spacing": {
+            "padding": {
+              "left": {
+                "token": "space.gutter.wide"
+              },
+              "right": {
+                "token": "space.gutter.wide"
+              }
+            }
+          }
+        }
+      }
+    },
+    "children": [
+      {
+        "id": "gallery-inner",
+        "kind": {
+          "type": "frame"
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "display": "flex",
+              "flex": {
+                "direction": "column",
+                "gap": {
+                  "token": "space.12"
+                }
+              },
+              "size": {
+                "maxWidth": {
+                  "token": "space.measure"
+                },
+                "width": {
+                  "percent": 100
+                }
+              },
+              "spacing": {
+                "margin": {
+                  "left": {
+                    "raw": "auto"
+                  },
+                  "right": {
+                    "raw": "auto"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "children": [
+          {
+            "id": "gallery-heading",
+            "kind": {
+              "type": "frame"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "flex",
+                  "flex": {
+                    "direction": "column",
+                    "gap": {
+                      "token": "space.4"
+                    }
+                  },
+                  "size": {
+                    "maxWidth": {
+                      "px": 760
+                    }
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "gallery-heading-eyebrow",
+                "kind": {
+                  "type": "frame"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "inlineFlex",
+                      "flex": {
+                        "align": "center",
+                        "gap": {
+                          "token": "space.2"
+                        }
+                      },
+                      "size": {
+                        "width": {
+                          "raw": "fit-content"
+                        }
+                      },
+                      "background": {
+                        "raw": "rgb(109 40 217 / 0.16)"
+                      },
+                      "border": {
+                        "width": {
+                          "px": 1
+                        },
+                        "style": "solid",
+                        "color": {
+                          "raw": "rgb(167 139 250 / 0.35)"
+                        }
+                      },
+                      "radius": {
+                        "token": "radius.full"
+                      },
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "px": 6
+                          },
+                          "bottom": {
+                            "px": 6
+                          },
+                          "left": {
+                            "px": 12
+                          },
+                          "right": {
+                            "px": 14
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "gallery-heading-eyebrow-dot",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "size": {
+                            "width": {
+                              "px": 8
+                            },
+                            "height": {
+                              "px": 8
+                            }
+                          },
+                          "radius": {
+                            "token": "radius.full"
+                          },
+                          "background": {
+                            "token": "brand.glow"
+                          },
+                          "shadow": {
+                            "raw": "0 0 12px 2px rgb(167 139 250 / 0.9)"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "gallery-heading-eyebrow-text",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "Inside Vantora"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.label",
+                            "color": {
+                              "token": "ink.accent"
+                            },
+                            "transform": "uppercase"
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "content": "eyebrow"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "gallery-heading-title",
+                "kind": {
+                  "type": "text",
+                  "tag": "h2",
+                  "content": "Built in the open, with our customers in the room."
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.title",
+                        "color": {
+                          "token": "ink.strong"
+                        }
+                      }
+                    }
+                  }
+                },
+                "bindings": {
+                  "content": "title"
+                }
+              }
+            ]
+          },
+          {
+            "id": "gallery-grid",
+            "kind": {
+              "type": "frame"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "grid",
+                  "grid": {
+                    "columns": 1,
+                    "gap": {
+                      "token": "space.5"
+                    }
+                  }
+                }
+              },
+              "md": {
+                "base": {
+                  "display": "grid",
+                  "grid": {
+                    "templateColumns": "1.4fr 1fr",
+                    "gap": {
+                      "token": "space.5"
+                    }
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "gallery-1",
+                "kind": {
+                  "type": "image",
+                  "src": "assets/images/whiteboard.webp",
+                  "alt": "Two colleagues sketching a user journey on a whiteboard wall"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "size": {
+                        "width": {
+                          "percent": 100
+                        },
+                        "height": {
+                          "percent": 100
+                        }
+                      },
+                      "radius": {
+                        "token": "radius.lg"
+                      },
+                      "objectFit": "cover",
+                      "aspectRatio": {
+                        "ratio": {
+                          "width": 3,
+                          "height": 2
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "gallery-stack",
+                "kind": {
+                  "type": "frame"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "token": "space.5"
+                        }
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "gallery-2",
+                    "kind": {
+                      "type": "image",
+                      "src": "assets/images/workspace.webp",
+                      "alt": "A quiet desk by a window overlooking the city at night"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "size": {
+                            "width": {
+                              "percent": 100
+                            }
+                          },
+                          "radius": {
+                            "token": "radius.lg"
+                          },
+                          "objectFit": "cover",
+                          "aspectRatio": {
+                            "ratio": {
+                              "width": 16,
+                              "height": 9
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "gallery-3",
+                    "kind": {
+                      "type": "image",
+                      "src": "assets/images/team.webp",
+                      "alt": "Three teammates reviewing results on a laptop"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "size": {
+                            "width": {
+                              "percent": 100
+                            }
+                          },
+                          "radius": {
+                            "token": "radius.lg"
+                          },
+                          "objectFit": "cover",
+                          "aspectRatio": {
+                            "ratio": {
+                              "width": 16,
+                              "height": 9
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "props": [
+    {
+      "name": "eyebrow",
+      "label": "Eyebrow",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Inside Vantora"
+    },
+    {
+      "name": "title",
+      "label": "Heading",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Built in the open, with our customers in the room."
+    }
+  ]
+}

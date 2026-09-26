@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Stride Themes</title>
+<meta name="description" content="The official theme store for Stride: 6 complete site designs with tokens, components, page templates, photos and fonts.">
+<style>
+:root { --bg:#f6f5f2; --fg:#16171b; --muted:#5b5e66; --card:#fff; --line:#e4e2dc; color-scheme: light dark; }
+@media (prefers-color-scheme: dark) { :root { --bg:#111214; --fg:#f0efec; --muted:#a3a6ad; --card:#1a1b1f; --line:#2a2c31; } }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif; }
+a { color:inherit; }
+.wrap { max-width:1200px; margin:0 auto; padding:0 16px; }
+.top { padding:72px 0 40px; }
+.top h1 { font-size:clamp(2.2rem,6vw,3.6rem); line-height:1.05; letter-spacing:-.02em; margin:0 0 16px; }
+.top p { color:var(--muted); max-width:640px; margin:0 0 12px; font-size:1.1rem; }
+.top code { font-size:.9em; }
+.grid { display:grid; gap:32px; padding-bottom:80px; }
+.theme { background:var(--card); border:1px solid var(--line); border-radius:20px; overflow:hidden; display:grid; }
+@media (min-width: 900px) { .theme { grid-template-columns: 1.35fr 1fr; } }
+.hero img { display:block; width:100%; height:auto; }
+.hero { border-bottom:4px solid var(--accent); display:flex; align-items:center; background:#16171b; }
+@media (min-width: 900px) { .hero { border-bottom:0; border-right:4px solid var(--accent); } }
+.body { padding:24px; min-width:0; }
+.body header { display:flex; gap:16px; align-items:center; }
+.icon { border-radius:16px; flex:none; }
+h2 { margin:0; font-size:1.5rem; }
+.tag { margin:2px 0 0; color:var(--muted); }
+.cats { list-style:none; padding:0; margin:16px 0; display:flex; flex-wrap:wrap; gap:6px; }
+.cats li { font-size:.8rem; padding:2px 10px; border-radius:99px; border:1px solid var(--line); text-transform:capitalize; }
+.desc p { margin:0 0 10px; color:var(--muted); font-size:.95rem; }
+.thumbs { display:grid; grid-template-columns:repeat(3,1fr); gap:8px; margin:16px 0; }
+.thumbs img { display:block; width:100%; height:auto; border-radius:8px; border:1px solid var(--line); }
+.meta { font-size:.85rem; color:var(--muted); margin:0; }
+footer { border-top:1px solid var(--line); padding:24px 0 48px; color:var(--muted); font-size:.9rem; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <section class="top">
+    <h1>Stride Themes</h1>
+    <p>Complete designs for a Stride site: design tokens, a component library, page templates, photographs and fonts. Applying a theme never changes or deletes your pages, and it can be undone.</p>
+    <p>To install one, open <strong>Admin &rarr; Themes</strong> in Stride, pick a theme, and choose <strong>Install</strong>, then <strong>Apply</strong>. Stride downloads the zip itself and checks its signature against the built-in key.</p>
+  </section>
+  <main class="grid">
+<article class="theme" id="atelier" style="--accent:#C2562F">
+  <a class="hero" href="themes/atelier/screenshots/01.png"><img loading="lazy" src="themes/atelier/screenshots/01.png" alt="Home: an editorial hero set in Instrument Serif" width="1600" height="1000"></a>
+  <div class="body">
+    <header>
+      <img class="icon" src="themes/atelier/icon.png" alt="" width="64" height="64">
+      <div><h2>Atelier</h2><p class="tag">Editorial theme for studios and agencies: serif type, paper, ink, terracotta.</p></div>
+    </header>
+    <ul class="cats"><li>agency</li><li>portfolio</li><li>business</li></ul>
+    <div class="desc"><p>Atelier is a theme for creative studios, agencies and independent practices that want their site to read like a well-made book. It pairs a high-contrast editorial serif (Instrument Serif) with a precise grotesque (Inter Tight), sets everything on warm off-white paper with ink-black type, and reserves a single terracotta accent for the moments that matter: a rule, a numeral, a testimonial band.</p></div>
+    <div class="thumbs"><a href="themes/atelier/screenshots/02.png"><img loading="lazy" src="themes/atelier/screenshots/02.png" alt="Services: four practices as a numbered list" width="1600" height="1000"></a><a href="themes/atelier/screenshots/03.png"><img loading="lazy" src="themes/atelier/screenshots/03.png" alt="Studio page: story, team and how the studio works" width="1600" height="1000"></a><a href="themes/atelier/screenshots/04.png"><img loading="lazy" src="themes/atelier/screenshots/04.png" alt="On a phone: home, services and studio" width="1600" height="1000"></a></div>
+    <p class="meta">Version 1.0.0 &middot; 2.2 MB &middot; <a href="themes/atelier/1.0.0/theme.zip">theme.zip</a></p>
+  </div>
+</article>
+<article class="theme" id="grove" style="--accent:#6B8F71">
+  <a class="hero" href="themes/grove/screenshots/01.png"><img loading="lazy" src="themes/grove/screenshots/01.png" alt="Home: a soft hero with the next class and ratings" width="1600" height="1000"></a>
+  <div class="body">
+    <header>
+      <img class="icon" src="themes/grove/icon.png" alt="" width="64" height="64">
+      <div><h2>Grove</h2><p class="tag">A calm, organic theme for yoga teachers, studios and wellness coaches.</p></div>
+    </header>
+    <ul class="cats"><li>personal</li><li>business</li></ul>
+    <div class="desc"><p>Grove is a soft, unhurried design system for yoga studios, breathwork teachers and wellness coaches. Sage and warm sand, pebble-shaped photo crops and a gentle serif headline (Fraunces) paired with a humanist sans (Nunito Sans) give it a quiet, premium feel without looking like a template.</p></div>
+    <div class="thumbs"><a href="themes/grove/screenshots/02.png"><img loading="lazy" src="themes/grove/screenshots/02.png" alt="Classes and coaching, with ways to practise" width="1600" height="1000"></a><a href="themes/grove/screenshots/03.png"><img loading="lazy" src="themes/grove/screenshots/03.png" alt="About: the studio and its coach" width="1600" height="1000"></a><a href="themes/grove/screenshots/04.png"><img loading="lazy" src="themes/grove/screenshots/04.png" alt="On a phone: home, classes and about" width="1600" height="1000"></a></div>
+    <p class="meta">Version 1.0.0 &middot; 2.7 MB &middot; <a href="themes/grove/1.0.0/theme.zip">theme.zip</a></p>
+  </div>
+</article>
+<article class="theme" id="harbor" style="--accent:#1F6F78">
+  <a class="hero" href="themes/harbor/screenshots/01.png"><img loading="lazy" src="themes/harbor/screenshots/01.png" alt="Home: a warm hero with tonight&#x27;s dish" width="1600" height="1000"></a>
+  <div class="body">
+    <header>
+      <img class="icon" src="themes/harbor/icon.png" alt="" width="64" height="64">
+      <div><h2>Harbor</h2><p class="tag">A warm, appetizing theme for restaurants, cafes and local food businesses.</p></div>
+    </header>
+    <ul class="cats"><li>restaurant</li><li>business</li></ul>
+    <div class="desc"><p>Harbor is built for places people eat, drink and linger: neighbourhood restaurants, cafes, bakeries, wine bars and small local businesses. Warm linen and toasted-sand surfaces sit under a deep harbour teal and a terracotta accent, with an expressive Fraunces serif for headlines and friendly, rounded Nunito for everything else.</p></div>
+    <div class="thumbs"><a href="themes/harbor/screenshots/02.png"><img loading="lazy" src="themes/harbor/screenshots/02.png" alt="Menu: this week&#x27;s menu under a full-bleed photo" width="1600" height="1000"></a><a href="themes/harbor/screenshots/03.png"><img loading="lazy" src="themes/harbor/screenshots/03.png" alt="Our story: the kitchen and its people" width="1600" height="1000"></a><a href="themes/harbor/screenshots/04.png"><img loading="lazy" src="themes/harbor/screenshots/04.png" alt="On a phone: home, menu and our story" width="1600" height="1000"></a></div>
+    <p class="meta">Version 1.0.0 &middot; 5.4 MB &middot; <a href="themes/harbor/1.0.0/theme.zip">theme.zip</a></p>
+  </div>
+</article>
+<article class="theme" id="ledger" style="--accent:#1E3A5F">
+  <a class="hero" href="themes/ledger/screenshots/01.png"><img loading="lazy" src="themes/ledger/screenshots/01.png" alt="Home: navy hero with a key figure card" width="1600" height="1000"></a>
+  <div class="body">
+    <header>
+      <img class="icon" src="themes/ledger/icon.png" alt="" width="64" height="64">
+      <div><h2>Ledger</h2><p class="tag">A composed navy-and-slate theme for consultancies, law firms and finance.</p></div>
+    </header>
+    <ul class="cats"><li>business</li><li>agency</li></ul>
+    <div class="desc"><p>Ledger is built for firms whose clients are trusting them with something that matters: law firms, consultancies, accountants, wealth managers and advisory boutiques. Midnight navy and cool slate carry the page, a restrained brass accent marks rules and labels, and a crisp Inter Tight / Inter pairing with tabular figures keeps every number honest.</p></div>
+    <div class="thumbs"><a href="themes/ledger/screenshots/02.png"><img loading="lazy" src="themes/ledger/screenshots/02.png" alt="Services: five practice areas" width="1600" height="1000"></a><a href="themes/ledger/screenshots/03.png"><img loading="lazy" src="themes/ledger/screenshots/03.png" alt="The firm: partners and history" width="1600" height="1000"></a><a href="themes/ledger/screenshots/04.png"><img loading="lazy" src="themes/ledger/screenshots/04.png" alt="On a phone: home, services and the firm" width="1600" height="1000"></a></div>
+    <p class="meta">Version 1.0.0 &middot; 3.7 MB &middot; <a href="themes/ledger/1.0.0/theme.zip">theme.zip</a></p>
+  </div>
+</article>
+<article class="theme" id="nightfall" style="--accent:#E0B45C">
+  <a class="hero" href="themes/nightfall/screenshots/01.png"><img loading="lazy" src="themes/nightfall/screenshots/01.png" alt="Home: a full-bleed plate with a quiet serif headline" width="1600" height="1000"></a>
+  <div class="body">
+    <header>
+      <img class="icon" src="themes/nightfall/icon.png" alt="" width="64" height="64">
+      <div><h2>Nightfall</h2><p class="tag">Dark, image-led photography portfolio: full-bleed plates, quiet serif, gold.</p></div>
+    </header>
+    <ul class="cats"><li>portfolio</li><li>personal</li></ul>
+    <div class="desc"><p>Nightfall is a portfolio theme for photographers and visual artists who want the work to do the talking. Pages sit on a warm darkroom black so photographs glow the way they do on a lightbox, and a single safelight-gold accent marks the few things that matter: an index number, a button, one italic line in the footer.</p></div>
+    <div class="thumbs"><a href="themes/nightfall/screenshots/02.png"><img loading="lazy" src="themes/nightfall/screenshots/02.png" alt="Work: featured series" width="1600" height="1000"></a><a href="themes/nightfall/screenshots/03.png"><img loading="lazy" src="themes/nightfall/screenshots/03.png" alt="About: the photographer" width="1600" height="1000"></a><a href="themes/nightfall/screenshots/04.png"><img loading="lazy" src="themes/nightfall/screenshots/04.png" alt="On a phone: home, work and about" width="1600" height="1000"></a></div>
+    <p class="meta">Version 1.0.0 &middot; 3.3 MB &middot; <a href="themes/nightfall/1.0.0/theme.zip">theme.zip</a></p>
+  </div>
+</article>
+<article class="theme" id="pulse" style="--accent:#6D28D9">
+  <a class="hero" href="themes/pulse/screenshots/01.png"><img loading="lazy" src="themes/pulse/screenshots/01.png" alt="Home: glowing hero with a framed product dashboard" width="1600" height="1000"></a>
+  <div class="body">
+    <header>
+      <img class="icon" src="themes/pulse/icon.png" alt="" width="64" height="64">
+      <div><h2>Pulse</h2><p class="tag">Dark-first SaaS landing theme: violet glow, bold geometric type, pricing, FAQ.</p></div>
+    </header>
+    <ul class="cats"><li>landing</li><li>business</li></ul>
+    <div class="desc"><p>Pulse is a launch-ready theme for software products and startups. It is dark first: a near-black page with a violet cast, lit by soft radial glows in the brand violet (#6D28D9) and a magenta partner, with headlines set tight in Sora and running text in Inter.</p></div>
+    <div class="thumbs"><a href="themes/pulse/screenshots/02.png"><img loading="lazy" src="themes/pulse/screenshots/02.png" alt="Pricing: three plans with a highlighted favourite" width="1600" height="1000"></a><a href="themes/pulse/screenshots/03.png"><img loading="lazy" src="themes/pulse/screenshots/03.png" alt="Product tour: one platform for the growth loop" width="1600" height="1000"></a><a href="themes/pulse/screenshots/04.png"><img loading="lazy" src="themes/pulse/screenshots/04.png" alt="On a phone: home, pricing and product" width="1600" height="1000"></a></div>
+    <p class="meta">Version 1.0.0 &middot; 2.3 MB &middot; <a href="themes/pulse/1.0.0/theme.zip">theme.zip</a></p>
+  </div>
+</article>
+  </main>
+</div>
+<footer><div class="wrap">Signed index: <a href="index.json">index.json</a> &middot; Source: <a href="https://github.com/GuusLab/stride-themes">GuusLab/stride-themes</a> &middot; Updated 2026-09-26</div></footer>
+</body>
+</html>

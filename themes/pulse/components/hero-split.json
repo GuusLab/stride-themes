@@ -1,0 +1,607 @@
+{
+  "id": "pulse-hero-split",
+  "name": "Pulse hero split",
+  "root": {
+    "id": "pulse-hero-split",
+    "kind": {
+      "type": "frame",
+      "element": "section"
+    },
+    "styles": {
+      "base": {
+        "base": {
+          "background": {
+            "token": "surface.page"
+          },
+          "backgroundImage": {
+            "gradient": "radial-gradient(50% 60% at 100% 0%, rgb(109 40 217 / 0.4) 0%, rgb(109 40 217 / 0) 70%)"
+          },
+          "spacing": {
+            "padding": {
+              "top": {
+                "token": "space.16"
+              },
+              "bottom": {
+                "token": "space.16"
+              },
+              "left": {
+                "token": "space.gutter"
+              },
+              "right": {
+                "token": "space.gutter"
+              }
+            }
+          }
+        }
+      },
+      "md": {
+        "base": {
+          "spacing": {
+            "padding": {
+              "top": {
+                "token": "space.24"
+              },
+              "bottom": {
+                "token": "space.24"
+              },
+              "left": {
+                "token": "space.gutter.wide"
+              },
+              "right": {
+                "token": "space.gutter.wide"
+              }
+            }
+          }
+        }
+      }
+    },
+    "children": [
+      {
+        "id": "split-inner",
+        "kind": {
+          "type": "frame"
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "display": "grid",
+              "grid": {
+                "columns": 1,
+                "gap": {
+                  "token": "space.12"
+                },
+                "align": "center"
+              },
+              "size": {
+                "maxWidth": {
+                  "token": "space.measure"
+                },
+                "width": {
+                  "percent": 100
+                }
+              },
+              "spacing": {
+                "margin": {
+                  "left": {
+                    "raw": "auto"
+                  },
+                  "right": {
+                    "raw": "auto"
+                  }
+                }
+              }
+            }
+          },
+          "md": {
+            "base": {
+              "display": "grid",
+              "grid": {
+                "templateColumns": "1.05fr 1fr",
+                "gap": {
+                  "token": "space.16"
+                }
+              }
+            }
+          }
+        },
+        "children": [
+          {
+            "id": "split-copy",
+            "kind": {
+              "type": "frame"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "flex",
+                  "flex": {
+                    "direction": "column",
+                    "gap": {
+                      "token": "space.6"
+                    }
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "split-eyebrow",
+                "kind": {
+                  "type": "frame"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "inlineFlex",
+                      "flex": {
+                        "align": "center",
+                        "gap": {
+                          "token": "space.2"
+                        }
+                      },
+                      "size": {
+                        "width": {
+                          "raw": "fit-content"
+                        }
+                      },
+                      "background": {
+                        "raw": "rgb(109 40 217 / 0.16)"
+                      },
+                      "border": {
+                        "width": {
+                          "px": 1
+                        },
+                        "style": "solid",
+                        "color": {
+                          "raw": "rgb(167 139 250 / 0.35)"
+                        }
+                      },
+                      "radius": {
+                        "token": "radius.full"
+                      },
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "px": 6
+                          },
+                          "bottom": {
+                            "px": 6
+                          },
+                          "left": {
+                            "px": 12
+                          },
+                          "right": {
+                            "px": 14
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "split-eyebrow-dot",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "size": {
+                            "width": {
+                              "px": 8
+                            },
+                            "height": {
+                              "px": 8
+                            }
+                          },
+                          "radius": {
+                            "token": "radius.full"
+                          },
+                          "background": {
+                            "token": "brand.glow"
+                          },
+                          "shadow": {
+                            "raw": "0 0 12px 2px rgb(167 139 250 / 0.9)"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "split-eyebrow-text",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "Our story"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.label",
+                            "color": {
+                              "token": "ink.accent"
+                            },
+                            "transform": "uppercase"
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "content": "eyebrow"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "split-title",
+                "kind": {
+                  "type": "text",
+                  "tag": "h1",
+                  "content": "We build for the teams who build."
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.display",
+                        "color": {
+                          "token": "ink.strong"
+                        }
+                      }
+                    }
+                  }
+                },
+                "bindings": {
+                  "content": "title"
+                }
+              },
+              {
+                "id": "split-lead",
+                "kind": {
+                  "type": "text",
+                  "tag": "p",
+                  "content": "Vantora started in a borrowed meeting room in Lisbon, with three people who were tired of guessing. Today 2,400 product teams use it to decide what to ship next."
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.lead",
+                        "color": {
+                          "token": "ink.muted"
+                        }
+                      }
+                    }
+                  }
+                },
+                "bindings": {
+                  "content": "lead"
+                }
+              },
+              {
+                "id": "split-actions",
+                "kind": {
+                  "type": "frame"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "row",
+                        "gap": {
+                          "token": "space.3"
+                        },
+                        "wrap": true
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "split-primary",
+                    "kind": {
+                      "type": "button",
+                      "label": "See open roles",
+                      "href": "/contact",
+                      "target": "same"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "background": {
+                            "token": "brand.primary"
+                          },
+                          "backgroundImage": {
+                            "gradient": "linear-gradient(135deg, #7C3AED 0%, #6D28D9 55%, #A21CAF 100%)"
+                          },
+                          "display": "inlineBlock",
+                          "radius": {
+                            "token": "radius.full"
+                          },
+                          "shadow": {
+                            "token": "shadow.button"
+                          },
+                          "size": {
+                            "width": {
+                              "raw": "fit-content"
+                            }
+                          },
+                          "spacing": {
+                            "padding": {
+                              "top": {
+                                "px": 14
+                              },
+                              "bottom": {
+                                "px": 14
+                              },
+                              "left": {
+                                "px": 24
+                              },
+                              "right": {
+                                "px": 24
+                              }
+                            }
+                          },
+                          "typography": {
+                            "token": "type.button",
+                            "color": {
+                              "token": "ink.on-accent"
+                            },
+                            "decoration": "none",
+                            "align": "center"
+                          },
+                          "transition": {
+                            "duration": 200,
+                            "properties": [
+                              "transform",
+                              "boxShadow"
+                            ]
+                          }
+                        },
+                        "hover": {
+                          "custom": {
+                            "transform": "translateY(-2px)"
+                          },
+                          "shadow": {
+                            "token": "shadow.glow"
+                          }
+                        },
+                        "focus": {
+                          "custom": {
+                            "outline": "2px solid #C4B5FD",
+                            "outline-offset": "3px"
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "label": "primaryLabel",
+                      "href": "primaryHref"
+                    }
+                  },
+                  {
+                    "id": "split-secondary",
+                    "kind": {
+                      "type": "button",
+                      "label": "Read the blog",
+                      "href": "/blog",
+                      "target": "same"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "background": {
+                            "raw": "rgb(255 255 255 / 0.04)"
+                          },
+                          "border": {
+                            "width": {
+                              "px": 1
+                            },
+                            "style": "solid",
+                            "color": {
+                              "token": "line.strong"
+                            }
+                          },
+                          "display": "inlineBlock",
+                          "radius": {
+                            "token": "radius.full"
+                          },
+                          "size": {
+                            "width": {
+                              "raw": "fit-content"
+                            }
+                          },
+                          "spacing": {
+                            "padding": {
+                              "top": {
+                                "px": 13
+                              },
+                              "bottom": {
+                                "px": 13
+                              },
+                              "left": {
+                                "px": 22
+                              },
+                              "right": {
+                                "px": 22
+                              }
+                            }
+                          },
+                          "typography": {
+                            "token": "type.button",
+                            "color": {
+                              "token": "ink.strong"
+                            },
+                            "decoration": "none",
+                            "align": "center"
+                          },
+                          "transition": {
+                            "duration": 200,
+                            "properties": [
+                              "backgroundColor",
+                              "borderColor"
+                            ]
+                          }
+                        },
+                        "hover": {
+                          "background": {
+                            "token": "surface.elevated"
+                          },
+                          "border": {
+                            "width": {
+                              "px": 1
+                            },
+                            "style": "solid",
+                            "color": {
+                              "token": "brand.glow"
+                            }
+                          }
+                        },
+                        "focus": {
+                          "custom": {
+                            "outline": "2px solid #C4B5FD",
+                            "outline-offset": "3px"
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "label": "secondaryLabel",
+                      "href": "secondaryHref"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "split-image",
+            "kind": {
+              "type": "image",
+              "src": "assets/images/team.webp",
+              "alt": "Three Vantora team members gathered around a laptop in the studio at dusk"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "size": {
+                    "width": {
+                      "percent": 100
+                    }
+                  },
+                  "radius": {
+                    "token": "radius.xl"
+                  },
+                  "aspectRatio": {
+                    "ratio": {
+                      "width": 4,
+                      "height": 3
+                    }
+                  },
+                  "objectFit": "cover",
+                  "shadow": {
+                    "token": "shadow.float"
+                  }
+                }
+              }
+            },
+            "bindings": {
+              "src": "image",
+              "alt": "imageAlt"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "props": [
+    {
+      "name": "eyebrow",
+      "label": "Eyebrow",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Our story"
+    },
+    {
+      "name": "title",
+      "label": "Headline",
+      "kind": {
+        "type": "longText"
+      },
+      "default": "We build for the teams who build."
+    },
+    {
+      "name": "lead",
+      "label": "Lead",
+      "kind": {
+        "type": "longText"
+      },
+      "default": "Vantora started in a borrowed meeting room in Lisbon, with three people who were tired of guessing. Today 2,400 product teams use it to decide what to ship next."
+    },
+    {
+      "name": "primaryLabel",
+      "label": "Primary button",
+      "kind": {
+        "type": "text"
+      },
+      "default": "See open roles"
+    },
+    {
+      "name": "primaryHref",
+      "label": "Primary link",
+      "kind": {
+        "type": "url"
+      },
+      "default": "/contact"
+    },
+    {
+      "name": "secondaryLabel",
+      "label": "Secondary button",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Read the blog"
+    },
+    {
+      "name": "secondaryHref",
+      "label": "Secondary link",
+      "kind": {
+        "type": "url"
+      },
+      "default": "/blog"
+    },
+    {
+      "name": "image",
+      "label": "Photo",
+      "kind": {
+        "type": "image"
+      },
+      "default": "assets/images/team.webp"
+    },
+    {
+      "name": "imageAlt",
+      "label": "Photo description",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Three Vantora team members gathered around a laptop in the studio at dusk"
+    }
+  ],
+  "variants": {
+    "Glow": {},
+    "Flat": {
+      "styles": {
+        "base": {
+          "base": {
+            "backgroundImage": "none"
+          }
+        }
+      }
+    }
+  },
+  "defaultVariant": "Glow"
+}

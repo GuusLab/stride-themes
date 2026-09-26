@@ -1,0 +1,726 @@
+{
+  "id": "pulse-hero",
+  "name": "Pulse hero",
+  "root": {
+    "id": "pulse-hero",
+    "kind": {
+      "type": "frame",
+      "element": "section"
+    },
+    "styles": {
+      "base": {
+        "base": {
+          "background": {
+            "token": "surface.page"
+          },
+          "backgroundImage": {
+            "gradient": "radial-gradient(60% 55% at 50% 0%, rgb(109 40 217 / 0.55) 0%, rgb(109 40 217 / 0) 70%), radial-gradient(40% 40% at 85% 20%, rgb(217 70 239 / 0.22) 0%, rgb(217 70 239 / 0) 70%)"
+          },
+          "overflow": "hidden",
+          "spacing": {
+            "padding": {
+              "top": {
+                "token": "space.20"
+              },
+              "bottom": {
+                "token": "space.16"
+              },
+              "left": {
+                "token": "space.gutter"
+              },
+              "right": {
+                "token": "space.gutter"
+              }
+            }
+          }
+        }
+      },
+      "md": {
+        "base": {
+          "spacing": {
+            "padding": {
+              "top": {
+                "token": "space.32"
+              },
+              "left": {
+                "token": "space.gutter.wide"
+              },
+              "right": {
+                "token": "space.gutter.wide"
+              }
+            }
+          }
+        }
+      }
+    },
+    "children": [
+      {
+        "id": "hero-inner",
+        "kind": {
+          "type": "frame"
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "display": "flex",
+              "flex": {
+                "direction": "column",
+                "gap": {
+                  "token": "space.16"
+                }
+              },
+              "size": {
+                "maxWidth": {
+                  "token": "space.measure"
+                },
+                "width": {
+                  "percent": 100
+                }
+              },
+              "spacing": {
+                "margin": {
+                  "left": {
+                    "raw": "auto"
+                  },
+                  "right": {
+                    "raw": "auto"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "children": [
+          {
+            "id": "hero-copy",
+            "kind": {
+              "type": "frame"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "flex",
+                  "flex": {
+                    "direction": "column",
+                    "gap": {
+                      "token": "space.6"
+                    },
+                    "align": "center"
+                  },
+                  "size": {
+                    "maxWidth": {
+                      "px": 880
+                    }
+                  },
+                  "spacing": {
+                    "margin": {
+                      "left": {
+                        "raw": "auto"
+                      },
+                      "right": {
+                        "raw": "auto"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "hero-eyebrow",
+                "kind": {
+                  "type": "frame"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "inlineFlex",
+                      "flex": {
+                        "align": "center",
+                        "gap": {
+                          "token": "space.2"
+                        }
+                      },
+                      "size": {
+                        "width": {
+                          "raw": "fit-content"
+                        }
+                      },
+                      "background": {
+                        "raw": "rgb(109 40 217 / 0.16)"
+                      },
+                      "border": {
+                        "width": {
+                          "px": 1
+                        },
+                        "style": "solid",
+                        "color": {
+                          "raw": "rgb(167 139 250 / 0.35)"
+                        }
+                      },
+                      "radius": {
+                        "token": "radius.full"
+                      },
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "px": 6
+                          },
+                          "bottom": {
+                            "px": 6
+                          },
+                          "left": {
+                            "px": 12
+                          },
+                          "right": {
+                            "px": 14
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "hero-eyebrow-dot",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "size": {
+                            "width": {
+                              "px": 8
+                            },
+                            "height": {
+                              "px": 8
+                            }
+                          },
+                          "radius": {
+                            "token": "radius.full"
+                          },
+                          "background": {
+                            "token": "brand.glow"
+                          },
+                          "shadow": {
+                            "raw": "0 0 12px 2px rgb(167 139 250 / 0.9)"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "hero-eyebrow-text",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "New · Experiments 2.0 is live"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.label",
+                            "color": {
+                              "token": "ink.accent"
+                            },
+                            "transform": "uppercase"
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "content": "eyebrow"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "hero-title",
+                "kind": {
+                  "type": "text",
+                  "tag": "h1",
+                  "content": "Ship the product your customers actually use."
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.display",
+                        "color": {
+                          "token": "ink.strong"
+                        },
+                        "align": "center"
+                      }
+                    }
+                  }
+                },
+                "bindings": {
+                  "content": "title"
+                }
+              },
+              {
+                "id": "hero-lead",
+                "kind": {
+                  "type": "text",
+                  "tag": "p",
+                  "content": "Vantora turns product analytics, experiments and onboarding into one loop. See what moves activation, ship the change, and watch the number climb — without a data team on call."
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.lead",
+                        "color": {
+                          "token": "ink.muted"
+                        },
+                        "align": "center"
+                      },
+                      "size": {
+                        "maxWidth": {
+                          "px": 640
+                        }
+                      }
+                    }
+                  }
+                },
+                "bindings": {
+                  "content": "lead"
+                }
+              },
+              {
+                "id": "hero-actions",
+                "kind": {
+                  "type": "frame"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "row",
+                        "gap": {
+                          "token": "space.3"
+                        },
+                        "align": "center",
+                        "justify": "center",
+                        "wrap": true
+                      },
+                      "spacing": {
+                        "margin": {
+                          "top": {
+                            "token": "space.2"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "hero-primary",
+                    "kind": {
+                      "type": "button",
+                      "label": "Start free — no card",
+                      "href": "/pricing",
+                      "target": "same"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "background": {
+                            "token": "brand.primary"
+                          },
+                          "backgroundImage": {
+                            "gradient": "linear-gradient(135deg, #7C3AED 0%, #6D28D9 55%, #A21CAF 100%)"
+                          },
+                          "display": "inlineBlock",
+                          "radius": {
+                            "token": "radius.full"
+                          },
+                          "shadow": {
+                            "token": "shadow.button"
+                          },
+                          "size": {
+                            "width": {
+                              "raw": "fit-content"
+                            }
+                          },
+                          "spacing": {
+                            "padding": {
+                              "top": {
+                                "px": 14
+                              },
+                              "bottom": {
+                                "px": 14
+                              },
+                              "left": {
+                                "px": 24
+                              },
+                              "right": {
+                                "px": 24
+                              }
+                            }
+                          },
+                          "typography": {
+                            "token": "type.button",
+                            "color": {
+                              "token": "ink.on-accent"
+                            },
+                            "decoration": "none",
+                            "align": "center"
+                          },
+                          "transition": {
+                            "duration": 200,
+                            "properties": [
+                              "transform",
+                              "boxShadow"
+                            ]
+                          }
+                        },
+                        "hover": {
+                          "custom": {
+                            "transform": "translateY(-2px)"
+                          },
+                          "shadow": {
+                            "token": "shadow.glow"
+                          }
+                        },
+                        "focus": {
+                          "custom": {
+                            "outline": "2px solid #C4B5FD",
+                            "outline-offset": "3px"
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "label": "primaryLabel",
+                      "href": "primaryHref"
+                    }
+                  },
+                  {
+                    "id": "hero-secondary",
+                    "kind": {
+                      "type": "button",
+                      "label": "Book a 20-min demo",
+                      "href": "/contact",
+                      "target": "same"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "background": {
+                            "raw": "rgb(255 255 255 / 0.04)"
+                          },
+                          "border": {
+                            "width": {
+                              "px": 1
+                            },
+                            "style": "solid",
+                            "color": {
+                              "token": "line.strong"
+                            }
+                          },
+                          "display": "inlineBlock",
+                          "radius": {
+                            "token": "radius.full"
+                          },
+                          "size": {
+                            "width": {
+                              "raw": "fit-content"
+                            }
+                          },
+                          "spacing": {
+                            "padding": {
+                              "top": {
+                                "px": 13
+                              },
+                              "bottom": {
+                                "px": 13
+                              },
+                              "left": {
+                                "px": 22
+                              },
+                              "right": {
+                                "px": 22
+                              }
+                            }
+                          },
+                          "typography": {
+                            "token": "type.button",
+                            "color": {
+                              "token": "ink.strong"
+                            },
+                            "decoration": "none",
+                            "align": "center"
+                          },
+                          "transition": {
+                            "duration": 200,
+                            "properties": [
+                              "backgroundColor",
+                              "borderColor"
+                            ]
+                          }
+                        },
+                        "hover": {
+                          "background": {
+                            "token": "surface.elevated"
+                          },
+                          "border": {
+                            "width": {
+                              "px": 1
+                            },
+                            "style": "solid",
+                            "color": {
+                              "token": "brand.glow"
+                            }
+                          }
+                        },
+                        "focus": {
+                          "custom": {
+                            "outline": "2px solid #C4B5FD",
+                            "outline-offset": "3px"
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "label": "secondaryLabel",
+                      "href": "secondaryHref"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "hero-note",
+                "kind": {
+                  "type": "text",
+                  "tag": "p",
+                  "content": "Free for up to 10,000 monthly users · SOC 2 Type II · GDPR-ready"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.small",
+                        "color": {
+                          "token": "ink.muted"
+                        },
+                        "align": "center"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "id": "hero-shot-wrap",
+            "kind": {
+              "type": "frame"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "spacing": {
+                    "padding": {
+                      "top": {
+                        "px": 8
+                      },
+                      "bottom": {
+                        "px": 8
+                      },
+                      "left": {
+                        "px": 8
+                      },
+                      "right": {
+                        "px": 8
+                      }
+                    }
+                  },
+                  "background": {
+                    "raw": "rgb(255 255 255 / 0.03)"
+                  },
+                  "border": {
+                    "width": {
+                      "px": 1
+                    },
+                    "style": "solid",
+                    "color": {
+                      "raw": "rgb(167 139 250 / 0.25)"
+                    }
+                  },
+                  "radius": {
+                    "token": "radius.xl"
+                  },
+                  "shadow": {
+                    "token": "shadow.float"
+                  }
+                }
+              },
+              "md": {
+                "base": {
+                  "spacing": {
+                    "padding": {
+                      "top": {
+                        "px": 12
+                      },
+                      "bottom": {
+                        "px": 12
+                      },
+                      "left": {
+                        "px": 12
+                      },
+                      "right": {
+                        "px": 12
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "hero-shot",
+                "kind": {
+                  "type": "image",
+                  "src": "assets/images/product-dashboard.webp",
+                  "alt": "The Vantora dashboard: weekly active users rising, four headline metrics and quarterly goals on a dark interface"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "size": {
+                        "width": {
+                          "percent": 100
+                        }
+                      },
+                      "radius": {
+                        "token": "radius.lg"
+                      },
+                      "aspectRatio": {
+                        "ratio": {
+                          "width": 16,
+                          "height": 10
+                        }
+                      },
+                      "objectFit": "cover"
+                    }
+                  }
+                },
+                "bindings": {
+                  "src": "image",
+                  "alt": "imageAlt"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "props": [
+    {
+      "name": "eyebrow",
+      "label": "Eyebrow",
+      "kind": {
+        "type": "text"
+      },
+      "default": "New · Experiments 2.0 is live"
+    },
+    {
+      "name": "title",
+      "label": "Headline",
+      "kind": {
+        "type": "longText"
+      },
+      "default": "Ship the product your customers actually use."
+    },
+    {
+      "name": "lead",
+      "label": "Lead",
+      "kind": {
+        "type": "longText"
+      },
+      "default": "Vantora turns product analytics, experiments and onboarding into one loop. See what moves activation, ship the change, and watch the number climb — without a data team on call."
+    },
+    {
+      "name": "primaryLabel",
+      "label": "Primary button",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Start free — no card"
+    },
+    {
+      "name": "primaryHref",
+      "label": "Primary link",
+      "kind": {
+        "type": "url"
+      },
+      "default": "/pricing"
+    },
+    {
+      "name": "secondaryLabel",
+      "label": "Secondary button",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Book a 20-min demo"
+    },
+    {
+      "name": "secondaryHref",
+      "label": "Secondary link",
+      "kind": {
+        "type": "url"
+      },
+      "default": "/contact"
+    },
+    {
+      "name": "image",
+      "label": "Product screenshot",
+      "kind": {
+        "type": "image"
+      },
+      "default": "assets/images/product-dashboard.webp"
+    },
+    {
+      "name": "imageAlt",
+      "label": "Screenshot description",
+      "kind": {
+        "type": "text"
+      },
+      "default": "The Vantora dashboard: weekly active users rising, four headline metrics and quarterly goals on a dark interface"
+    }
+  ],
+  "variants": {
+    "Glow": {},
+    "Flat": {
+      "styles": {
+        "base": {
+          "base": {
+            "backgroundImage": "none",
+            "background": {
+              "token": "surface.page"
+            }
+          }
+        }
+      }
+    },
+    "Raised": {
+      "styles": {
+        "base": {
+          "base": {
+            "backgroundImage": "none",
+            "background": {
+              "token": "surface.raised"
+            }
+          }
+        }
+      }
+    }
+  },
+  "defaultVariant": "Glow"
+}

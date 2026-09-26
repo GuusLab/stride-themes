@@ -1,0 +1,62 @@
+{
+  "id": "ledger",
+  "name": "Ledger",
+  "version": "1.0.0",
+  "author": {
+    "id": "guuslab",
+    "name": "GuusLab"
+  },
+  "tagline": "A composed navy-and-slate theme for consultancies, law firms and finance.",
+  "longDescription": "Ledger is built for firms whose clients are trusting them with something that matters: law firms, consultancies, accountants, wealth managers and advisory boutiques. Midnight navy and cool slate carry the page, a restrained brass accent marks rules and labels, and a crisp Inter Tight / Inter pairing with tabular figures keeps every number honest.\n\nIt ships a complete firm site: a navy split hero with a floating key-figure card, a figures strip, numbered practice areas laid out like a ledger with fees, case studies that lead with the result, a client quote, working principles, partner profiles, insight briefings, a consultation band and a full enquiry block. Every section is phone-first and widened by breakpoint, every colour and type style is a design token, and text pairs meet WCAG AA contrast.\n\nPages: Home, The firm, Practice areas, Contact, Insights and a 404. Seven original photographs (meeting room, reception, desk detail, facade and three partner portraits) are included.",
+  "categories": [
+    "business",
+    "agency"
+  ],
+  "accent": "#1E3A5F",
+  "icon": "icon.png",
+  "screenshots": [
+    {
+      "file": "screenshots/01.png",
+      "caption": "Home: navy hero with a key figure card"
+    },
+    {
+      "file": "screenshots/02.png",
+      "caption": "Services: five practice areas"
+    },
+    {
+      "file": "screenshots/03.png",
+      "caption": "The firm: partners and history"
+    },
+    {
+      "file": "screenshots/04.png",
+      "caption": "On a phone: home, services and the firm"
+    }
+  ],
+  "fonts": [
+    {
+      "family": "Inter Tight",
+      "file": "assets/fonts/inter-tight-latin-600-normal.woff2",
+      "weight": 600,
+      "style": "normal"
+    },
+    {
+      "family": "Inter Tight",
+      "file": "assets/fonts/inter-tight-latin-700-normal.woff2",
+      "weight": 700,
+      "style": "normal"
+    },
+    {
+      "family": "Inter",
+      "file": "assets/fonts/inter-latin-400-normal.woff2",
+      "weight": 400,
+      "style": "normal"
+    },
+    {
+      "family": "Inter",
+      "file": "assets/fonts/inter-latin-500-normal.woff2",
+      "weight": 500,
+      "style": "normal"
+    }
+  ],
+  "homeTemplate": "home"
+}

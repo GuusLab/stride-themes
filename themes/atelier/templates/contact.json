@@ -1,0 +1,388 @@
+{
+  "root": {
+    "id": "root",
+    "kind": {
+      "type": "frame",
+      "element": "div"
+    },
+    "styles": {
+      "base": {
+        "base": {
+          "background": {
+            "token": "surface.page"
+          },
+          "display": "flex",
+          "flex": {
+            "direction": "column"
+          },
+          "size": {
+            "minHeight": {
+              "raw": "100vh"
+            }
+          }
+        }
+      }
+    },
+    "children": [
+      {
+        "id": "i-header-1",
+        "kind": {
+          "type": "instance",
+          "component": "atelier-header"
+        }
+      },
+      {
+        "id": "main",
+        "kind": {
+          "type": "frame",
+          "element": "main"
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "display": "flex",
+              "flex": {
+                "direction": "column"
+              },
+              "custom": {
+                "flex-grow": "1"
+              }
+            }
+          }
+        },
+        "children": [
+          {
+            "id": "i-hero-page-2",
+            "kind": {
+              "type": "instance",
+              "component": "atelier-hero-page",
+              "overrides": {
+                "eyebrow": "Contact",
+                "title": "Tell us what you are making.",
+                "lead": "We reply to every letter within two working days, including the ones we have to say no to."
+              }
+            }
+          },
+          {
+            "id": "c-block",
+            "kind": {
+              "type": "frame",
+              "element": "section"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "background": {
+                    "token": "surface.page"
+                  },
+                  "spacing": {
+                    "padding": {
+                      "top": {
+                        "token": "space.8"
+                      },
+                      "bottom": {
+                        "token": "space.8"
+                      },
+                      "left": {
+                        "token": "space.gutter"
+                      },
+                      "right": {
+                        "token": "space.gutter"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "c-block-in",
+                "kind": {
+                  "type": "frame",
+                  "element": "div"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "size": {
+                        "maxWidth": {
+                          "px": 1320
+                        },
+                        "width": {
+                          "percent": 100
+                        }
+                      },
+                      "spacing": {
+                        "margin": {
+                          "left": {
+                            "raw": "auto"
+                          },
+                          "right": {
+                            "raw": "auto"
+                          }
+                        }
+                      },
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "token": "space.12"
+                        }
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "i-contact-block-3",
+                    "kind": {
+                      "type": "instance",
+                      "component": "atelier-contact-block"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "c-img",
+            "kind": {
+              "type": "frame",
+              "element": "section"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "background": {
+                    "token": "surface.page"
+                  },
+                  "spacing": {
+                    "padding": {
+                      "top": {
+                        "token": "space.section"
+                      },
+                      "bottom": {
+                        "token": "space.section"
+                      },
+                      "left": {
+                        "token": "space.gutter"
+                      },
+                      "right": {
+                        "token": "space.gutter"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "c-img-in",
+                "kind": {
+                  "type": "frame",
+                  "element": "div"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "size": {
+                        "maxWidth": {
+                          "px": 1320
+                        },
+                        "width": {
+                          "percent": 100
+                        }
+                      },
+                      "spacing": {
+                        "margin": {
+                          "left": {
+                            "raw": "auto"
+                          },
+                          "right": {
+                            "raw": "auto"
+                          }
+                        }
+                      },
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "token": "space.12"
+                        }
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "c-g",
+                    "kind": {
+                      "type": "frame",
+                      "element": "div"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "grid",
+                          "grid": {
+                            "templateColumns": "minmax(0, 1fr)",
+                            "gap": {
+                              "token": "space.12"
+                            }
+                          }
+                        }
+                      },
+                      "md": {
+                        "base": {
+                          "grid": {
+                            "templateColumns": "minmax(0, 7fr) minmax(0, 5fr)",
+                            "gap": {
+                              "token": "space.12"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "c-i1",
+                        "kind": {
+                          "type": "image",
+                          "src": "assets/images/studio.webp",
+                          "alt": "The Edinburgh studio with its long oak table"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "size": {
+                                "width": {
+                                  "percent": 100
+                                },
+                                "height": {
+                                  "raw": "auto"
+                                }
+                              },
+                              "aspectRatio": {
+                                "ratio": {
+                                  "width": 4,
+                                  "height": 3
+                                }
+                              },
+                              "objectFit": "cover",
+                              "display": "block"
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "c-t",
+                        "kind": {
+                          "type": "frame",
+                          "element": "div"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "flex",
+                              "flex": {
+                                "direction": "column",
+                                "gap": {
+                                  "token": "space.6"
+                                }
+                              }
+                            }
+                          },
+                          "md": {
+                            "base": {
+                              "custom": {
+                                "align-self": "end"
+                              }
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": "c-l",
+                            "kind": {
+                              "type": "text",
+                              "tag": "p",
+                              "content": "Visiting"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.label",
+                                    "color": {
+                                      "token": "ink.accent"
+                                    },
+                                    "transform": "uppercase"
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "c-h",
+                            "kind": {
+                              "type": "text",
+                              "tag": "h2",
+                              "content": "The door is open Tuesday to Thursday, 10 to 5."
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.subtitle",
+                                    "color": {
+                                      "token": "ink.body"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "c-p",
+                            "kind": {
+                              "type": "text",
+                              "tag": "p",
+                              "content": "Our Leith studio is a five-minute walk from The Shore. Ring the bell marked H&V; the kettle is usually on."
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.body",
+                                    "color": {
+                                      "token": "ink.muted"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "i-footer-4",
+        "kind": {
+          "type": "instance",
+          "component": "atelier-footer"
+        }
+      }
+    ]
+  },
+  "seo": {
+    "title": "Contact — Hollis & Vane",
+    "description": "Start a project with Hollis & Vane, or visit our studios in Edinburgh and Lisbon."
+  }
+}

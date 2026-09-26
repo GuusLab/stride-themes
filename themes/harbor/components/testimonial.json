@@ -1,0 +1,248 @@
+{
+  "id": "harbor-testimonial",
+  "name": "Harbor · Guest quote",
+  "root": {
+    "id": "quote",
+    "kind": {
+      "type": "frame",
+      "element": "section"
+    },
+    "children": [
+      {
+        "id": "quote-inner",
+        "kind": {
+          "type": "frame"
+        },
+        "children": [
+          {
+            "id": "quote-grid",
+            "kind": {
+              "type": "frame"
+            },
+            "children": [
+              {
+                "id": "quote-image",
+                "kind": {
+                  "type": "image",
+                  "src": "assets/images/chef.webp",
+                  "alt": "Head chef plating a dish in the open kitchen"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "block",
+                      "size": {
+                        "width": {
+                          "px": 120.0
+                        },
+                        "maxWidth": {
+                          "px": 120.0
+                        }
+                      },
+                      "objectFit": "cover",
+                      "aspectRatio": {
+                        "ratio": {
+                          "width": 1.0,
+                          "height": 1.0
+                        }
+                      },
+                      "radius": {
+                        "token": "radius.full"
+                      },
+                      "border": {
+                        "width": {
+                          "px": 4.0
+                        },
+                        "style": "solid",
+                        "color": {
+                          "token": "surface.accent"
+                        }
+                      }
+                    }
+                  },
+                  "md": {
+                    "base": {
+                      "size": {
+                        "width": {
+                          "px": 180.0
+                        },
+                        "maxWidth": {
+                          "px": 180.0
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "quote-quote",
+                "kind": {
+                  "type": "quote",
+                  "attribution": "Amara Okafor, Regular since 2019"
+                },
+                "children": [
+                  {
+                    "id": "quote-text",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "“We came for coffee and stayed until they lit the candles. The hake was the best thing I ate all year.”"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.quote",
+                            "color": {
+                              "token": "ink.inverse"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "content": "quote"
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "px": 20.0
+                        }
+                      },
+                      "typography": {
+                        "color": {
+                          "token": "ink.inverse.muted"
+                        },
+                        "token": "type.small"
+                      },
+                      "custom": {
+                        "font-style": "italic"
+                      }
+                    }
+                  }
+                }
+              }
+            ],
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "flex",
+                  "flex": {
+                    "direction": "column",
+                    "gap": {
+                      "px": 32.0
+                    },
+                    "align": "start"
+                  }
+                }
+              },
+              "md": {
+                "base": {
+                  "flex": {
+                    "direction": "row",
+                    "gap": {
+                      "px": 56.0
+                    },
+                    "align": "center"
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "styles": {
+          "base": {
+            "base": {
+              "display": "flex",
+              "flex": {
+                "direction": "column",
+                "gap": {
+                  "px": 32.0
+                }
+              },
+              "size": {
+                "maxWidth": {
+                  "px": 1000.0
+                },
+                "width": {
+                  "percent": 100.0
+                }
+              },
+              "spacing": {
+                "margin": {
+                  "left": {
+                    "raw": "auto"
+                  },
+                  "right": {
+                    "raw": "auto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "styles": {
+      "base": {
+        "base": {
+          "background": {
+            "token": "surface.deep"
+          },
+          "spacing": {
+            "padding": {
+              "top": {
+                "px": 72.0
+              },
+              "right": {
+                "px": 20.0
+              },
+              "bottom": {
+                "px": 72.0
+              },
+              "left": {
+                "px": 20.0
+              }
+            }
+          }
+        }
+      },
+      "md": {
+        "base": {
+          "spacing": {
+            "padding": {
+              "top": {
+                "px": 112.0
+              },
+              "right": {
+                "px": 40.0
+              },
+              "bottom": {
+                "px": 112.0
+              },
+              "left": {
+                "px": 40.0
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "props": [
+    {
+      "name": "quote",
+      "label": "Quote",
+      "kind": {
+        "type": "longText"
+      },
+      "default": "“We came for coffee and stayed until they lit the candles.”"
+    }
+  ]
+}

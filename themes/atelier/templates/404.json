@@ -1,0 +1,514 @@
+{
+  "root": {
+    "id": "root",
+    "kind": {
+      "type": "frame",
+      "element": "div"
+    },
+    "styles": {
+      "base": {
+        "base": {
+          "background": {
+            "token": "surface.page"
+          },
+          "display": "flex",
+          "flex": {
+            "direction": "column"
+          },
+          "size": {
+            "minHeight": {
+              "raw": "100vh"
+            }
+          }
+        }
+      }
+    },
+    "children": [
+      {
+        "id": "i-header-1",
+        "kind": {
+          "type": "instance",
+          "component": "atelier-header"
+        }
+      },
+      {
+        "id": "main",
+        "kind": {
+          "type": "frame",
+          "element": "main"
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "display": "flex",
+              "flex": {
+                "direction": "column"
+              },
+              "custom": {
+                "flex-grow": "1"
+              }
+            }
+          }
+        },
+        "children": [
+          {
+            "id": "nf",
+            "kind": {
+              "type": "frame",
+              "element": "section"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "background": {
+                    "token": "surface.page"
+                  },
+                  "spacing": {
+                    "padding": {
+                      "top": {
+                        "token": "space.section"
+                      },
+                      "bottom": {
+                        "token": "space.section"
+                      },
+                      "left": {
+                        "token": "space.gutter"
+                      },
+                      "right": {
+                        "token": "space.gutter"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "nf-in",
+                "kind": {
+                  "type": "frame",
+                  "element": "div"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "size": {
+                        "maxWidth": {
+                          "px": 1320
+                        },
+                        "width": {
+                          "percent": 100
+                        }
+                      },
+                      "spacing": {
+                        "margin": {
+                          "left": {
+                            "raw": "auto"
+                          },
+                          "right": {
+                            "raw": "auto"
+                          }
+                        }
+                      },
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "token": "space.12"
+                        }
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "nf-g",
+                    "kind": {
+                      "type": "frame",
+                      "element": "div"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "grid",
+                          "grid": {
+                            "templateColumns": "minmax(0, 1fr)",
+                            "gap": {
+                              "token": "space.12"
+                            }
+                          }
+                        }
+                      },
+                      "md": {
+                        "base": {
+                          "grid": {
+                            "templateColumns": "minmax(0, 7fr) minmax(0, 5fr)",
+                            "gap": {
+                              "token": "space.12"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "nf-t",
+                        "kind": {
+                          "type": "frame",
+                          "element": "div"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "flex",
+                              "flex": {
+                                "direction": "column",
+                                "gap": {
+                                  "token": "space.8"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": "nf-l",
+                            "kind": {
+                              "type": "text",
+                              "tag": "p",
+                              "content": "Error 404"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.label",
+                                    "color": {
+                                      "token": "ink.accent"
+                                    },
+                                    "transform": "uppercase"
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "nf-h",
+                            "kind": {
+                              "type": "text",
+                              "tag": "h1",
+                              "content": "This page has wandered off the grid."
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.display",
+                                    "color": {
+                                      "token": "ink.body"
+                                    }
+                                  },
+                                  "custom": {
+                                    "text-wrap": "balance"
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "nf-p",
+                            "kind": {
+                              "type": "text",
+                              "tag": "p",
+                              "content": "The address may have changed, or the page never existed. Either way, the good work is still where we left it."
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.lead",
+                                    "color": {
+                                      "token": "ink.muted"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "nf-a",
+                            "kind": {
+                              "type": "frame",
+                              "element": "div"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "display": "flex",
+                                  "flex": {
+                                    "direction": "row",
+                                    "wrap": true,
+                                    "align": "center",
+                                    "gap": {
+                                      "px": 28
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": "nf-b",
+                                "kind": {
+                                  "type": "button",
+                                  "label": "Back to the homepage",
+                                  "href": "/",
+                                  "target": "same"
+                                },
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "display": "inlineFlex",
+                                      "size": {
+                                        "width": {
+                                          "raw": "fit-content"
+                                        }
+                                      },
+                                      "spacing": {
+                                        "padding": {
+                                          "top": {
+                                            "px": 16
+                                          },
+                                          "bottom": {
+                                            "px": 16
+                                          },
+                                          "left": {
+                                            "px": 28
+                                          },
+                                          "right": {
+                                            "px": 28
+                                          }
+                                        }
+                                      },
+                                      "radius": {
+                                        "px": 0
+                                      },
+                                      "typography": {
+                                        "token": "type.nav",
+                                        "color": {
+                                          "token": "ink.inverse"
+                                        },
+                                        "decoration": "none"
+                                      },
+                                      "background": {
+                                        "token": "surface.night"
+                                      },
+                                      "border": {
+                                        "width": {
+                                          "px": 1
+                                        },
+                                        "style": "solid",
+                                        "color": {
+                                          "token": "line.strong"
+                                        }
+                                      },
+                                      "transition": {
+                                        "duration": 220,
+                                        "properties": [
+                                          "backgroundColor",
+                                          "color",
+                                          "borderColor"
+                                        ]
+                                      }
+                                    },
+                                    "hover": {
+                                      "background": {
+                                        "token": "brand.primary"
+                                      },
+                                      "border": {
+                                        "width": {
+                                          "px": 1
+                                        },
+                                        "style": "solid",
+                                        "color": {
+                                          "token": "brand.primary"
+                                        }
+                                      },
+                                      "typography": {
+                                        "color": {
+                                          "token": "ink.on-accent"
+                                        }
+                                      }
+                                    },
+                                    "focus": {
+                                      "custom": {
+                                        "outline": "2px solid #C2562F",
+                                        "outline-offset": "3px"
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              {
+                                "id": "nf-w",
+                                "kind": {
+                                  "type": "link",
+                                  "href": "/work",
+                                  "target": "same"
+                                },
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "display": "inlineFlex",
+                                      "flex": {
+                                        "align": "center",
+                                        "gap": {
+                                          "px": 10
+                                        }
+                                      },
+                                      "typography": {
+                                        "token": "type.nav",
+                                        "color": {
+                                          "token": "ink.body"
+                                        },
+                                        "decoration": "none"
+                                      },
+                                      "border": {
+                                        "bottom": {
+                                          "width": {
+                                            "px": 1
+                                          },
+                                          "style": "solid",
+                                          "color": {
+                                            "token": "ink.body"
+                                          }
+                                        }
+                                      },
+                                      "spacing": {
+                                        "padding": {
+                                          "bottom": {
+                                            "px": 6
+                                          }
+                                        }
+                                      },
+                                      "size": {
+                                        "width": {
+                                          "raw": "fit-content"
+                                        }
+                                      },
+                                      "transition": {
+                                        "duration": 200,
+                                        "properties": [
+                                          "color",
+                                          "borderColor"
+                                        ]
+                                      }
+                                    },
+                                    "hover": {
+                                      "typography": {
+                                        "color": {
+                                          "token": "ink.accent"
+                                        }
+                                      },
+                                      "border": {
+                                        "bottom": {
+                                          "width": {
+                                            "px": 1
+                                          },
+                                          "style": "solid",
+                                          "color": {
+                                            "token": "ink.accent"
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "id": "nf-w-t",
+                                    "kind": {
+                                      "type": "text",
+                                      "tag": "span",
+                                      "content": "See selected work"
+                                    }
+                                  },
+                                  {
+                                    "id": "nf-w-i",
+                                    "kind": {
+                                      "type": "icon",
+                                      "name": "arrow-right"
+                                    },
+                                    "styles": {
+                                      "base": {
+                                        "base": {
+                                          "size": {
+                                            "width": {
+                                              "px": 16
+                                            },
+                                            "height": {
+                                              "px": 16
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": "nf-i",
+                        "kind": {
+                          "type": "image",
+                          "src": "assets/images/gallery.webp",
+                          "alt": "A sunlit plaster corridor through a terracotta arch"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "size": {
+                                "width": {
+                                  "percent": 100
+                                },
+                                "height": {
+                                  "raw": "auto"
+                                }
+                              },
+                              "aspectRatio": {
+                                "ratio": {
+                                  "width": 4,
+                                  "height": 5
+                                }
+                              },
+                              "objectFit": "cover",
+                              "display": "block"
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "i-footer-2",
+        "kind": {
+          "type": "instance",
+          "component": "atelier-footer"
+        }
+      }
+    ]
+  },
+  "seo": {
+    "title": "Page not found — Hollis & Vane",
+    "description": "This page could not be found."
+  }
+}

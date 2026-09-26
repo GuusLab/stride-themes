@@ -1,0 +1,303 @@
+{
+  "id": "ledger-hero-page",
+  "name": "Ledger · Page hero",
+  "root": {
+    "id": "page-hero",
+    "kind": {
+      "type": "frame",
+      "element": "section"
+    },
+    "children": [
+      {
+        "id": "page-hero-inner",
+        "kind": {
+          "type": "frame"
+        },
+        "children": [
+          {
+            "id": "page-hero-copy",
+            "kind": {
+              "type": "frame"
+            },
+            "children": [
+              {
+                "id": "page-hero-eyebrow-row",
+                "kind": {
+                  "type": "frame"
+                },
+                "children": [
+                  {
+                    "id": "page-hero-eyebrow-rule",
+                    "kind": {
+                      "type": "frame"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "size": {
+                            "width": {
+                              "px": 28.0
+                            },
+                            "height": {
+                              "px": 1.0
+                            }
+                          },
+                          "background": {
+                            "token": "surface.warm"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "page-hero-eyebrow",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "The firm"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.eyebrow",
+                            "color": {
+                              "token": "ink.brass"
+                            },
+                            "transform": "uppercase"
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "content": "eyebrow"
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "row",
+                        "gap": {
+                          "px": 12.0
+                        },
+                        "align": "center",
+                        "wrap": false
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "page-hero-title",
+                "kind": {
+                  "type": "text",
+                  "tag": "h1",
+                  "content": "Independent, partner-led and deliberately small at the top."
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.display",
+                        "color": {
+                          "token": "ink.inverse"
+                        }
+                      }
+                    }
+                  }
+                },
+                "bindings": {
+                  "content": "heading"
+                }
+              },
+              {
+                "id": "page-hero-lead",
+                "kind": {
+                  "type": "text",
+                  "tag": "p",
+                  "content": "For twenty-six years we have advised the people who own and run companies."
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.lead",
+                        "color": {
+                          "token": "ink.inverse.muted"
+                        }
+                      }
+                    }
+                  }
+                },
+                "bindings": {
+                  "content": "body"
+                }
+              }
+            ],
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "flex",
+                  "flex": {
+                    "direction": "column",
+                    "gap": {
+                      "px": 20.0
+                    }
+                  },
+                  "size": {
+                    "maxWidth": {
+                      "px": 760.0
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "styles": {
+          "base": {
+            "base": {
+              "display": "flex",
+              "flex": {
+                "direction": "column",
+                "gap": {
+                  "px": 32.0
+                }
+              },
+              "size": {
+                "maxWidth": {
+                  "px": 1240.0
+                },
+                "width": {
+                  "percent": 100.0
+                }
+              },
+              "spacing": {
+                "margin": {
+                  "left": {
+                    "raw": "auto"
+                  },
+                  "right": {
+                    "raw": "auto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "styles": {
+      "base": {
+        "base": {
+          "background": {
+            "token": "surface.deep"
+          },
+          "backgroundImage": {
+            "url": "assets/images/lobby.webp"
+          },
+          "backgroundSize": "cover",
+          "backgroundPosition": "center",
+          "custom": {
+            "background-image": "linear-gradient(100deg, rgb(14 27 44 / 0.96) 0%, rgb(14 27 44 / 0.86) 45%, rgb(30 58 95 / 0.45) 100%), url(assets/images/lobby.webp)"
+          },
+          "display": "flex",
+          "flex": {
+            "direction": "column",
+            "justify": "end"
+          },
+          "size": {
+            "minHeight": {
+              "px": 420.0
+            }
+          },
+          "spacing": {
+            "padding": {
+              "top": {
+                "px": 112.0
+              },
+              "right": {
+                "px": 20.0
+              },
+              "bottom": {
+                "px": 64.0
+              },
+              "left": {
+                "px": 20.0
+              }
+            }
+          }
+        }
+      },
+      "md": {
+        "base": {
+          "size": {
+            "minHeight": {
+              "px": 520.0
+            }
+          },
+          "spacing": {
+            "padding": {
+              "top": {
+                "px": 160.0
+              },
+              "right": {
+                "px": 40.0
+              },
+              "bottom": {
+                "px": 96.0
+              },
+              "left": {
+                "px": 40.0
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "props": [
+    {
+      "name": "eyebrow",
+      "label": "Eyebrow",
+      "kind": {
+        "type": "text"
+      },
+      "default": "The firm"
+    },
+    {
+      "name": "heading",
+      "label": "Heading",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Independent, partner-led and deliberately small at the top."
+    },
+    {
+      "name": "body",
+      "label": "Intro",
+      "kind": {
+        "type": "longText"
+      },
+      "default": "For twenty-six years we have advised the people who own and run companies."
+    }
+  ],
+  "variants": {
+    "tall": {
+      "styles": {
+        "md": {
+          "base": {
+            "size": {
+              "minHeight": {
+                "vh": 80.0
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

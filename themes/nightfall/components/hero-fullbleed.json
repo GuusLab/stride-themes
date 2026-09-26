@@ -1,0 +1,534 @@
+{
+  "id": "nightfall-hero-fullbleed",
+  "name": "Nightfall · Hero — Full-bleed photograph",
+  "root": {
+    "id": "hero",
+    "kind": {
+      "type": "frame",
+      "element": "section"
+    },
+    "children": [
+      {
+        "id": "hero-caption",
+        "kind": {
+          "type": "text",
+          "tag": "span",
+          "content": "Plate 01 — Black Sand, Reynis coast, 2025"
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "typography": {
+                "token": "type.eyebrow",
+                "color": {
+                  "token": "ink.inverse.muted"
+                },
+                "transform": "uppercase"
+              },
+              "position": {
+                "kind": "absolute",
+                "inset": {
+                  "top": {
+                    "px": 96.0
+                  },
+                  "right": {
+                    "token": "space.gutter"
+                  }
+                }
+              },
+              "display": "none"
+            }
+          },
+          "lg": {
+            "base": {
+              "display": "block",
+              "custom": {
+                "writing-mode": "vertical-rl"
+              }
+            }
+          }
+        },
+        "bindings": {
+          "content": "caption"
+        }
+      },
+      {
+        "id": "hero-copy",
+        "kind": {
+          "type": "frame"
+        },
+        "children": [
+          {
+            "id": "hero-kicker",
+            "kind": {
+              "type": "frame"
+            },
+            "children": [
+              {
+                "id": "hero-dot",
+                "kind": {
+                  "type": "frame"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "size": {
+                        "width": {
+                          "px": 8.0
+                        },
+                        "height": {
+                          "px": 8.0
+                        }
+                      },
+                      "radius": {
+                        "token": "radius.full"
+                      },
+                      "background": {
+                        "token": "surface.accent"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "hero-kick",
+                "kind": {
+                  "type": "text",
+                  "tag": "span",
+                  "content": "Selected work 2019 — 2026"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.eyebrow",
+                        "color": {
+                          "token": "ink.inverse.muted"
+                        },
+                        "transform": "uppercase"
+                      }
+                    }
+                  }
+                },
+                "bindings": {
+                  "content": "eyebrow"
+                }
+              }
+            ],
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "flex",
+                  "flex": {
+                    "direction": "row",
+                    "gap": {
+                      "px": 12.0
+                    },
+                    "align": "center",
+                    "wrap": false
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": "hero-title",
+            "kind": {
+              "type": "text",
+              "tag": "h1",
+              "content": "Light, after the day leaves."
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "typography": {
+                    "token": "type.hero",
+                    "color": {
+                      "token": "ink.body"
+                    }
+                  },
+                  "size": {
+                    "maxWidth": {
+                      "px": 1100.0
+                    }
+                  }
+                }
+              }
+            },
+            "bindings": {
+              "content": "heading"
+            }
+          },
+          {
+            "id": "hero-foot",
+            "kind": {
+              "type": "frame"
+            },
+            "children": [
+              {
+                "id": "hero-lead",
+                "kind": {
+                  "type": "text",
+                  "tag": "p",
+                  "content": "Mara Ellison photographs people, coastlines and cities at the edges of the day. Editorial, portrait and commissioned work from a small studio in Norwick."
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.lead",
+                        "color": {
+                          "token": "ink.inverse.muted"
+                        }
+                      },
+                      "size": {
+                        "maxWidth": {
+                          "px": 520.0
+                        }
+                      }
+                    }
+                  }
+                },
+                "bindings": {
+                  "content": "body"
+                }
+              },
+              {
+                "id": "hero-actions",
+                "kind": {
+                  "type": "frame"
+                },
+                "children": [
+                  {
+                    "id": "hero-cta",
+                    "kind": {
+                      "type": "button",
+                      "label": "View the work",
+                      "href": "/work",
+                      "target": "same"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "inlineBlock",
+                          "background": {
+                            "token": "surface.accent"
+                          },
+                          "radius": {
+                            "token": "radius.sm"
+                          },
+                          "size": {
+                            "width": {
+                              "raw": "fit-content"
+                            }
+                          },
+                          "spacing": {
+                            "padding": {
+                              "top": {
+                                "px": 17.0
+                              },
+                              "right": {
+                                "px": 30.0
+                              },
+                              "bottom": {
+                                "px": 17.0
+                              },
+                              "left": {
+                                "px": 30.0
+                              }
+                            }
+                          },
+                          "typography": {
+                            "token": "type.button",
+                            "color": {
+                              "token": "ink.on-accent"
+                            },
+                            "decoration": "none",
+                            "transform": "uppercase"
+                          },
+                          "transition": {
+                            "duration": 200,
+                            "easing": "easeOut",
+                            "properties": [
+                              "backgroundColor",
+                              "transform",
+                              "boxShadow"
+                            ]
+                          }
+                        },
+                        "hover": {
+                          "background": {
+                            "token": "brand.primary.hover"
+                          },
+                          "custom": {
+                            "transform": "translateY(-2px)"
+                          }
+                        }
+                      }
+                    },
+                    "bindings": {
+                      "label": "ctaLabel",
+                      "href": "ctaHref"
+                    }
+                  },
+                  {
+                    "id": "hero-about",
+                    "kind": {
+                      "type": "link",
+                      "href": "/about",
+                      "target": "same"
+                    },
+                    "children": [
+                      {
+                        "id": "hero-about-label",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "About the studio"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.eyebrow",
+                                "color": {
+                                  "token": "ink.body"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "decoration": "underline",
+                            "color": {
+                              "token": "ink.body"
+                            }
+                          },
+                          "custom": {
+                            "text-underline-offset": "8px",
+                            "text-decoration-thickness": "1px",
+                            "text-transform": "uppercase"
+                          }
+                        },
+                        "hover": {
+                          "opacity": 0.75
+                        }
+                      }
+                    }
+                  }
+                ],
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "row",
+                        "gap": {
+                          "px": 28.0
+                        },
+                        "align": "center",
+                        "wrap": true
+                      }
+                    }
+                  }
+                }
+              }
+            ],
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "flex",
+                  "flex": {
+                    "direction": "column",
+                    "gap": {
+                      "px": 28.0
+                    }
+                  }
+                }
+              },
+              "md": {
+                "base": {
+                  "flex": {
+                    "direction": "row",
+                    "align": "end",
+                    "justify": "spaceBetween",
+                    "gap": {
+                      "px": 48.0
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "styles": {
+          "base": {
+            "base": {
+              "display": "flex",
+              "flex": {
+                "direction": "column",
+                "gap": {
+                  "px": 28.0
+                }
+              },
+              "size": {
+                "maxWidth": {
+                  "px": 1440.0
+                },
+                "width": {
+                  "percent": 100.0
+                }
+              },
+              "spacing": {
+                "margin": {
+                  "left": {
+                    "raw": "auto"
+                  },
+                  "right": {
+                    "raw": "auto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "styles": {
+      "base": {
+        "base": {
+          "background": {
+            "token": "surface.page"
+          },
+          "backgroundImage": {
+            "url": "assets/images/shore.webp"
+          },
+          "backgroundSize": "cover",
+          "backgroundPosition": "center",
+          "custom": {
+            "background-image": "linear-gradient(180deg, rgb(11 11 12 / 0.25) 0%, rgb(11 11 12 / 0.1) 35%, rgb(11 11 12 / 0.92) 100%), url(assets/images/shore.webp)"
+          },
+          "position": {
+            "kind": "relative"
+          },
+          "display": "flex",
+          "flex": {
+            "direction": "column",
+            "justify": "end"
+          },
+          "size": {
+            "minHeight": {
+              "vh": 92.0
+            }
+          },
+          "spacing": {
+            "padding": {
+              "top": {
+                "px": 140.0
+              },
+              "bottom": {
+                "px": 56.0
+              },
+              "left": {
+                "token": "space.gutter"
+              },
+              "right": {
+                "token": "space.gutter"
+              }
+            }
+          }
+        }
+      },
+      "md": {
+        "base": {
+          "spacing": {
+            "padding": {
+              "top": {
+                "px": 160.0
+              },
+              "bottom": {
+                "px": 80.0
+              },
+              "left": {
+                "token": "space.gutter"
+              },
+              "right": {
+                "token": "space.gutter"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "props": [
+    {
+      "name": "eyebrow",
+      "label": "Eyebrow",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Selected work 2019 — 2026"
+    },
+    {
+      "name": "heading",
+      "label": "Heading",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Light, after the day leaves."
+    },
+    {
+      "name": "body",
+      "label": "Intro",
+      "kind": {
+        "type": "longText"
+      },
+      "default": "Mara Ellison photographs people, coastlines and cities at the edges of the day."
+    },
+    {
+      "name": "ctaLabel",
+      "label": "Button label",
+      "kind": {
+        "type": "text"
+      },
+      "default": "View the work"
+    },
+    {
+      "name": "ctaHref",
+      "label": "Button link",
+      "kind": {
+        "type": "url"
+      },
+      "default": "/work"
+    },
+    {
+      "name": "caption",
+      "label": "Plate caption",
+      "kind": {
+        "type": "text"
+      },
+      "default": "Plate 01 — Black Sand, Reynis coast, 2025"
+    }
+  ],
+  "variants": {
+    "short": {
+      "styles": {
+        "base": {
+          "base": {
+            "size": {
+              "minHeight": {
+                "vh": 64.0
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

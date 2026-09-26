@@ -1,0 +1,69 @@
+{
+  "id": "atelier",
+  "name": "Atelier",
+  "version": "1.0.0",
+  "author": {
+    "id": "guuslab",
+    "name": "GuusLab"
+  },
+  "tagline": "Editorial theme for studios and agencies: serif type, paper, ink, terracotta.",
+  "longDescription": "Atelier is a theme for creative studios, agencies and independent practices that want their site to read like a well-made book. It pairs a high-contrast editorial serif (Instrument Serif) with a precise grotesque (Inter Tight), sets everything on warm off-white paper with ink-black type, and reserves a single terracotta accent for the moments that matter: a rule, a numeral, a testimonial band.\n\nLayouts are deliberately asymmetric: 7/5 and 4/8 column splits, staggered work galleries and generous whitespace give pages rhythm without decoration. Every grid collapses to a single column on phones.\n\nIncluded: 15 components (header, footer, three heroes, section intro, services list, feature grid, testimonial with two variants, call to action, work gallery, stats, team, contact block and journal card) and six page templates (home, studio/about, services, journal, contact and a 404), with realistic copy for an invented studio and six original photographs.",
+  "categories": [
+    "agency",
+    "portfolio",
+    "business"
+  ],
+  "accent": "#C2562F",
+  "icon": "icon.png",
+  "screenshots": [
+    {
+      "file": "screenshots/01.png",
+      "caption": "Home: an editorial hero set in Instrument Serif"
+    },
+    {
+      "file": "screenshots/02.png",
+      "caption": "Services: four practices as a numbered list"
+    },
+    {
+      "file": "screenshots/03.png",
+      "caption": "Studio page: story, team and how the studio works"
+    },
+    {
+      "file": "screenshots/04.png",
+      "caption": "On a phone: home, services and studio"
+    }
+  ],
+  "fonts": [
+    {
+      "family": "Instrument Serif",
+      "file": "assets/fonts/instrument-serif-regular.woff2",
+      "weight": 400,
+      "style": "normal"
+    },
+    {
+      "family": "Instrument Serif",
+      "file": "assets/fonts/instrument-serif-italic.woff2",
+      "weight": 400,
+      "style": "italic"
+    },
+    {
+      "family": "Inter Tight",
+      "file": "assets/fonts/inter-tight-variable.woff2",
+      "weight": 400,
+      "style": "normal"
+    },
+    {
+      "family": "Inter Tight",
+      "file": "assets/fonts/inter-tight-variable.woff2",
+      "weight": 500,
+      "style": "normal"
+    },
+    {
+      "family": "Inter Tight",
+      "file": "assets/fonts/inter-tight-variable.woff2",
+      "weight": 600,
+      "style": "normal"
+    }
+  ],
+  "homeTemplate": "home"
+}
