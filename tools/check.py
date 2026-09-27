@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
-"""Checks the repository without Stride (which is private, so CI cannot run
-`stride theme validate`).
+"""Checks the repository without Stride, so CI needs nothing but Python.
+Run `stride theme validate themes/<id>` as well: it checks every key of
+tokens, components and templates, which this does not.
 
 For every themes/<id>/:
   - every .json file parses; theme.json has the contract's fields and limits
@@ -8,8 +9,9 @@ For every themes/<id>/:
   - icon.png is 512x512, screenshots are 1600x1000 PNGs, 2 to 5 of them
   - images are at most 350 KB, fonts at most 1 MB, only allowed file types
 For site/ (when present):
-  - index.json lists every theme, and every file it names exists with the
-    published size and sha256
+  - every theme index.json lists is in themes/, and every file it names
+    exists with the published size and sha256 (a theme that is not listed
+    yet is a submission, not an error)
   - each theme.zip holds exactly the files of themes/<id>/ at its published
     version, byte for byte (so a zip always matches the source it claims)
 
@@ -42,6 +44,7 @@ def theme_files(d):
     return sorted(out)
 
 themes_dir = os.path.join(root, 'themes')
+pending = []
 ids = sorted(x for x in os.listdir(themes_dir) if os.path.isdir(os.path.join(themes_dir, x)))
 manifests = {}
 for tid in ids:
@@ -112,8 +115,13 @@ if os.path.isfile(os.path.join(site, 'index.json')):
     base = 'https://guuslab.github.io/stride-themes/'
     index = json.load(open(os.path.join(site, 'index.json'), encoding='utf-8'))
     listed = {t['id']: t for t in index.get('themes', [])}
-    if sorted(listed) != ids:
-        err(f'site/index.json lists {sorted(listed)}, the repo has {ids}')
+    # A theme that is not in the index yet is a submission waiting for a
+    # maintainer to sign and publish it, so only a listed theme with no
+    # source is an error.
+    gone = sorted(set(listed) - set(ids))
+    if gone:
+        err(f'site/index.json lists {gone}, which have no themes/<id>/')
+    pending = sorted(set(ids) - set(listed))
 
     def check_file(entry, what):
         url = entry.get('url', '')
@@ -157,3 +165,5 @@ if errors:
     print('\n'.join(errors))
     sys.exit(1)
 print(f'{len(ids)} theme(s) ok' + (' and site/ matches them' if os.path.isdir(site) else ''))
+if pending:
+    print(f'not published yet: {", ".join(pending)} (a maintainer signs and publishes it after review)')

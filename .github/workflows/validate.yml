@@ -1,9 +1,9 @@
 name: validate
 
-# Stride is private, so `stride theme validate` cannot run here. This checks
-# what can be checked without it: JSON syntax, the theme.json contract, file
-# types and sizes, PNG dimensions, and that every published zip, icon and
-# screenshot matches index.json and the theme sources byte for byte.
+# tools/check.py needs no Stride. It checks JSON syntax, the theme.json
+# contract, file types and sizes, PNG dimensions, and that every published
+# zip, icon and screenshot matches index.json and the theme sources byte for
+# byte. A theme not in index.json yet is a submission and passes.
 
 on:
   push:

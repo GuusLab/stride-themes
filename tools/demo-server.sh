@@ -8,9 +8,11 @@
 # Owner login: demo@stride.test / stride-demo-password-2026
 # Log: <workdir>/stride.log
 #
-# Override the binary with STRIDE_BIN=... (default: stride on PATH, else
-# $STRIDE_REPO/target/debug/stride) and the Stride checkout with STRIDE_REPO=...
-# (default: ../Stride next to this repository).
+# Override the binary with STRIDE_BIN=... (default: stride on PATH, from
+# `npm i -g @guuslab/stride`, else $STRIDE_REPO/target/debug/stride). The npm
+# build has the editor inside. A Stride checkout (STRIDE_REPO, default ../Stride
+# next to this repository) is only used for its binary and for a built
+# apps/editor/dist, which is served instead when it exists.
 set -eu
 [ $# -eq 2 ] || { echo "usage: $0 <port> <workdir>" >&2; exit 2; }
 port=$1
@@ -21,8 +23,9 @@ STRIDE_REPO=${STRIDE_REPO:-$root/../Stride}
 STRIDE_BIN=${STRIDE_BIN:-$(command -v stride || echo "$STRIDE_REPO/target/debug/stride")}
 [ -x "$STRIDE_BIN" ] || { echo "no stride binary at $STRIDE_BIN" >&2; exit 1; }
 
-if [ ! -f "$STRIDE_REPO/apps/editor/dist/index.html" ]; then
-  (cd "$STRIDE_REPO" && npm run build:editor)
+if [ -f "$STRIDE_REPO/apps/editor/dist/index.html" ]; then
+  STRIDE_EDITOR_DIR="$STRIDE_REPO/apps/editor/dist"
+  export STRIDE_EDITOR_DIR
 fi
 
 if [ -f "$work/stride.pid" ] && kill -0 "$(cat "$work/stride.pid")" 2>/dev/null; then
@@ -36,7 +39,6 @@ STRIDE_ADDR="127.0.0.1:$port" \
 STRIDE_DB="$work/stride.db" \
 STRIDE_OWNER_EMAIL=demo@stride.test \
 STRIDE_OWNER_PASSWORD=stride-demo-password-2026 \
-STRIDE_EDITOR_DIR="$STRIDE_REPO/apps/editor/dist" \
   nohup "$STRIDE_BIN" serve >"$work/stride.log" 2>&1 &
 pid=$!
 echo "$pid" > "$work/stride.pid"
