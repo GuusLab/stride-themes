@@ -1,0 +1,68 @@
+{
+  "id": "inkwell",
+  "name": "Inkwell",
+  "version": "1.0.0",
+  "author": {
+    "id": "guuslab",
+    "name": "GuusLab"
+  },
+  "tagline": "A typographic theme for writers, blogs and newsletters, set in Newsreader.",
+  "longDescription": "Inkwell is made for words. It is a quiet, typographic theme for essayists, bloggers and newsletters: warm paper, ink-black text, an oxblood accent and marbled endpapers for covers. Headlines and reading text are set in Newsreader, a serif drawn for long reading on screens; menus and meta use Figtree.\n\nIt ships a complete publication: a home page with a newspaper-style masthead, a featured essay and recent posts; an archive grouped by year; a full essay page with a dek, byline, pull quote, lists and an author box; an about page, a contact page and a friendly 404. A subscribe box invites readers to sign up as members of your site.\n\nEvery colour and type style is a design token, the reading column is kept to about 68 characters, and all text meets WCAG AA contrast. Six original marbled-paper artworks are included, generated for this theme.",
+  "categories": [
+    "blog",
+    "personal"
+  ],
+  "accent": "#8E2B25",
+  "icon": "icon.png",
+  "screenshots": [
+    {
+      "file": "screenshots/01.png",
+      "caption": "Home: a newspaper masthead, the latest essay and recent posts"
+    },
+    {
+      "file": "screenshots/02.png",
+      "caption": "An essay: dek, byline and marbled cover"
+    },
+    {
+      "file": "screenshots/03.png",
+      "caption": "The archive, grouped by year"
+    },
+    {
+      "file": "screenshots/04.png",
+      "caption": "On a phone: home, an essay and about"
+    }
+  ],
+  "fonts": [
+    {
+      "family": "Newsreader",
+      "file": "assets/fonts/newsreader-latin-400-normal.woff2",
+      "weight": 400,
+      "style": "normal"
+    },
+    {
+      "family": "Newsreader",
+      "file": "assets/fonts/newsreader-latin-400-italic.woff2",
+      "weight": 400,
+      "style": "italic"
+    },
+    {
+      "family": "Newsreader",
+      "file": "assets/fonts/newsreader-latin-600-normal.woff2",
+      "weight": 600,
+      "style": "normal"
+    },
+    {
+      "family": "Figtree",
+      "file": "assets/fonts/figtree-latin-500-normal.woff2",
+      "weight": 500,
+      "style": "normal"
+    },
+    {
+      "family": "Figtree",
+      "file": "assets/fonts/figtree-latin-700-normal.woff2",
+      "weight": 700,
+      "style": "normal"
+    }
+  ],
+  "homeTemplate": "home"
+}

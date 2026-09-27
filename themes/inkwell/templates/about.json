@@ -1,0 +1,1111 @@
+{
+  "root": {
+    "id": "root",
+    "kind": {
+      "type": "frame",
+      "element": "div"
+    },
+    "styles": {
+      "base": {
+        "base": {
+          "background": {
+            "token": "surface.page"
+          },
+          "display": "flex",
+          "flex": {
+            "direction": "column"
+          },
+          "size": {
+            "minHeight": {
+              "vh": 100.0
+            }
+          }
+        }
+      }
+    },
+    "children": [
+      {
+        "id": "i-header",
+        "kind": {
+          "type": "instance",
+          "component": "inkwell-header"
+        }
+      },
+      {
+        "id": "about-head",
+        "kind": {
+          "type": "frame",
+          "element": "section"
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "size": {
+                "width": {
+                  "percent": 100.0
+                },
+                "maxWidth": {
+                  "token": "space.wide"
+                }
+              },
+              "spacing": {
+                "margin": {
+                  "top": {
+                    "px": 0.0
+                  },
+                  "right": {
+                    "raw": "auto"
+                  },
+                  "bottom": {
+                    "px": 0.0
+                  },
+                  "left": {
+                    "raw": "auto"
+                  }
+                },
+                "padding": {
+                  "top": {
+                    "token": "space.16"
+                  },
+                  "right": {
+                    "token": "space.gutter"
+                  },
+                  "bottom": {
+                    "px": 0.0
+                  },
+                  "left": {
+                    "token": "space.gutter"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "children": [
+          {
+            "id": "about-grid",
+            "kind": {
+              "type": "frame",
+              "element": "div"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "grid",
+                  "grid": {
+                    "templateColumns": "minmax(0, 1fr)",
+                    "gap": {
+                      "token": "space.10"
+                    },
+                    "align": "center"
+                  }
+                }
+              },
+              "md": {
+                "base": {
+                  "display": "grid",
+                  "grid": {
+                    "templateColumns": "minmax(0, 7fr) minmax(0, 5fr)",
+                    "gap": {
+                      "token": "space.16"
+                    },
+                    "align": "center"
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "about-copy",
+                "kind": {
+                  "type": "frame",
+                  "element": "div"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "token": "space.5"
+                        }
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "about-k",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "About"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.label",
+                            "color": {
+                              "token": "ink.accent"
+                            },
+                            "transform": "uppercase"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "about-title",
+                    "kind": {
+                      "type": "text",
+                      "tag": "h1",
+                      "content": "Hello, I write the letter."
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.display",
+                            "color": {
+                              "token": "ink.body"
+                            }
+                          },
+                          "spacing": {
+                            "margin": {
+                              "top": {
+                                "px": 0.0
+                              },
+                              "right": {
+                                "px": 0.0
+                              },
+                              "bottom": {
+                                "px": 0.0
+                              },
+                              "left": {
+                                "px": 0.0
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "about-lead",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "I am Mira Okafor, a former copy editor who now spends her days on the other side of the red pen."
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.lead",
+                            "color": {
+                              "token": "ink.muted"
+                            }
+                          },
+                          "spacing": {
+                            "margin": {
+                              "top": {
+                                "px": 0.0
+                              },
+                              "right": {
+                                "px": 0.0
+                              },
+                              "bottom": {
+                                "px": 0.0
+                              },
+                              "left": {
+                                "px": 0.0
+                              }
+                            }
+                          },
+                          "custom": {
+                            "font-style": "italic"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "about-p1",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "The Long Margin started in 2024 as a note to twelve friends about a book I could not stop underlining. It is now read by a few thousand people who share my suspicion that the best ideas arrive slowly."
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.body",
+                            "color": {
+                              "token": "ink.body"
+                            }
+                          },
+                          "spacing": {
+                            "margin": {
+                              "top": {
+                                "px": 0.0
+                              },
+                              "right": {
+                                "px": 0.0
+                              },
+                              "bottom": {
+                                "px": 0.0
+                              },
+                              "left": {
+                                "px": 0.0
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "about-p2",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "I write every other Sunday, by hand first. Replies go straight to my inbox and I read every one, usually with a pencil."
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.body",
+                            "color": {
+                              "token": "ink.body"
+                            }
+                          },
+                          "spacing": {
+                            "margin": {
+                              "top": {
+                                "px": 0.0
+                              },
+                              "right": {
+                                "px": 0.0
+                              },
+                              "bottom": {
+                                "px": 0.0
+                              },
+                              "left": {
+                                "px": 0.0
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "about-art",
+                "kind": {
+                  "type": "image",
+                  "src": "assets/images/endpaper.webp",
+                  "alt": "Marbled endpaper in oxblood, ink and gold"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "size": {
+                        "width": {
+                          "percent": 100.0
+                        },
+                        "height": {
+                          "raw": "auto"
+                        }
+                      },
+                      "objectFit": "cover",
+                      "radius": {
+                        "token": "radius.sm"
+                      },
+                      "custom": {
+                        "aspect-ratio": "4 / 5"
+                      },
+                      "shadow": {
+                        "token": "shadow.card"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "about-topics",
+        "kind": {
+          "type": "frame",
+          "element": "section"
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "size": {
+                "width": {
+                  "percent": 100.0
+                },
+                "maxWidth": {
+                  "token": "space.wide"
+                }
+              },
+              "spacing": {
+                "margin": {
+                  "top": {
+                    "px": 0.0
+                  },
+                  "right": {
+                    "raw": "auto"
+                  },
+                  "bottom": {
+                    "px": 0.0
+                  },
+                  "left": {
+                    "raw": "auto"
+                  }
+                },
+                "padding": {
+                  "top": {
+                    "token": "space.section"
+                  },
+                  "right": {
+                    "token": "space.gutter"
+                  },
+                  "bottom": {
+                    "px": 0.0
+                  },
+                  "left": {
+                    "token": "space.gutter"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "children": [
+          {
+            "id": "topics-head",
+            "kind": {
+              "type": "frame",
+              "element": "div"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "flex",
+                  "flex": {
+                    "direction": "row",
+                    "gap": {
+                      "token": "space.4"
+                    },
+                    "align": "end",
+                    "justify": "spaceBetween",
+                    "wrap": true
+                  },
+                  "spacing": {
+                    "padding": {
+                      "top": {
+                        "px": 0.0
+                      },
+                      "right": {
+                        "px": 0.0
+                      },
+                      "bottom": {
+                        "token": "space.6"
+                      },
+                      "left": {
+                        "px": 0.0
+                      }
+                    }
+                  },
+                  "border": {
+                    "bottom": {
+                      "width": {
+                        "px": 1.0
+                      },
+                      "style": "solid",
+                      "color": {
+                        "token": "line.strong"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "topics-head-copy",
+                "kind": {
+                  "type": "frame",
+                  "element": "div"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "token": "space.2"
+                        }
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "topics-head-k",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "What you will find here"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.label",
+                            "color": {
+                              "token": "ink.accent"
+                            },
+                            "transform": "uppercase"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "topics-head-t",
+                    "kind": {
+                      "type": "text",
+                      "tag": "h2",
+                      "content": "Four kinds of letter"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.title",
+                            "color": {
+                              "token": "ink.body"
+                            }
+                          },
+                          "spacing": {
+                            "margin": {
+                              "top": {
+                                "px": 0.0
+                              },
+                              "right": {
+                                "px": 0.0
+                              },
+                              "bottom": {
+                                "px": 0.0
+                              },
+                              "left": {
+                                "px": 0.0
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "topics-grid",
+            "kind": {
+              "type": "frame",
+              "element": "div"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "grid",
+                  "grid": {
+                    "templateColumns": "minmax(0, 1fr)",
+                    "gap": {
+                      "token": "space.2"
+                    }
+                  },
+                  "spacing": {
+                    "padding": {
+                      "top": {
+                        "token": "space.4"
+                      },
+                      "right": {
+                        "px": 0.0
+                      },
+                      "bottom": {
+                        "px": 0.0
+                      },
+                      "left": {
+                        "px": 0.0
+                      }
+                    }
+                  }
+                }
+              },
+              "md": {
+                "base": {
+                  "display": "grid",
+                  "grid": {
+                    "templateColumns": "repeat(2, minmax(0, 1fr))",
+                    "gap": {
+                      "token": "space.8"
+                    }
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "t-craft",
+                "kind": {
+                  "type": "frame",
+                  "element": "div"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "token": "space.2"
+                        }
+                      },
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "token": "space.5"
+                          },
+                          "right": {
+                            "px": 0.0
+                          },
+                          "bottom": {
+                            "token": "space.5"
+                          },
+                          "left": {
+                            "px": 0.0
+                          }
+                        }
+                      },
+                      "border": {
+                        "top": {
+                          "width": {
+                            "px": 1.0
+                          },
+                          "style": "solid",
+                          "color": {
+                            "token": "line.hairline"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "t-craft-t",
+                    "kind": {
+                      "type": "text",
+                      "tag": "h3",
+                      "content": "Craft"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.card",
+                            "color": {
+                              "token": "ink.body"
+                            }
+                          },
+                          "spacing": {
+                            "margin": {
+                              "top": {
+                                "px": 0.0
+                              },
+                              "right": {
+                                "px": 0.0
+                              },
+                              "bottom": {
+                                "px": 0.0
+                              },
+                              "left": {
+                                "px": 0.0
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "t-craft-d",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "How writing actually gets done: drafts, edits, deadlines and doubt."
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "size": {
+                              "rem": 1.0
+                            },
+                            "color": {
+                              "token": "ink.muted"
+                            }
+                          },
+                          "spacing": {
+                            "margin": {
+                              "top": {
+                                "px": 0.0
+                              },
+                              "right": {
+                                "px": 0.0
+                              },
+                              "bottom": {
+                                "px": 0.0
+                              },
+                              "left": {
+                                "px": 0.0
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "t-reading",
+                "kind": {
+                  "type": "frame",
+                  "element": "div"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "token": "space.2"
+                        }
+                      },
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "token": "space.5"
+                          },
+                          "right": {
+                            "px": 0.0
+                          },
+                          "bottom": {
+                            "token": "space.5"
+                          },
+                          "left": {
+                            "px": 0.0
+                          }
+                        }
+                      },
+                      "border": {
+                        "top": {
+                          "width": {
+                            "px": 1.0
+                          },
+                          "style": "solid",
+                          "color": {
+                            "token": "line.hairline"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "t-reading-t",
+                    "kind": {
+                      "type": "text",
+                      "tag": "h3",
+                      "content": "Reading"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.card",
+                            "color": {
+                              "token": "ink.body"
+                            }
+                          },
+                          "spacing": {
+                            "margin": {
+                              "top": {
+                                "px": 0.0
+                              },
+                              "right": {
+                                "px": 0.0
+                              },
+                              "bottom": {
+                                "px": 0.0
+                              },
+                              "left": {
+                                "px": 0.0
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "t-reading-d",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "Books worth a second reading, and how to read them slowly."
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "size": {
+                              "rem": 1.0
+                            },
+                            "color": {
+                              "token": "ink.muted"
+                            }
+                          },
+                          "spacing": {
+                            "margin": {
+                              "top": {
+                                "px": 0.0
+                              },
+                              "right": {
+                                "px": 0.0
+                              },
+                              "bottom": {
+                                "px": 0.0
+                              },
+                              "left": {
+                                "px": 0.0
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "t-tools",
+                "kind": {
+                  "type": "frame",
+                  "element": "div"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "token": "space.2"
+                        }
+                      },
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "token": "space.5"
+                          },
+                          "right": {
+                            "px": 0.0
+                          },
+                          "bottom": {
+                            "token": "space.5"
+                          },
+                          "left": {
+                            "px": 0.0
+                          }
+                        }
+                      },
+                      "border": {
+                        "top": {
+                          "width": {
+                            "px": 1.0
+                          },
+                          "style": "solid",
+                          "color": {
+                            "token": "line.hairline"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "t-tools-t",
+                    "kind": {
+                      "type": "text",
+                      "tag": "h3",
+                      "content": "Tools"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.card",
+                            "color": {
+                              "token": "ink.body"
+                            }
+                          },
+                          "spacing": {
+                            "margin": {
+                              "top": {
+                                "px": 0.0
+                              },
+                              "right": {
+                                "px": 0.0
+                              },
+                              "bottom": {
+                                "px": 0.0
+                              },
+                              "left": {
+                                "px": 0.0
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "t-tools-d",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "Notebooks, pens and the few apps that earn their place."
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "size": {
+                              "rem": 1.0
+                            },
+                            "color": {
+                              "token": "ink.muted"
+                            }
+                          },
+                          "spacing": {
+                            "margin": {
+                              "top": {
+                                "px": 0.0
+                              },
+                              "right": {
+                                "px": 0.0
+                              },
+                              "bottom": {
+                                "px": 0.0
+                              },
+                              "left": {
+                                "px": 0.0
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "t-personal",
+                "kind": {
+                  "type": "frame",
+                  "element": "div"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "token": "space.2"
+                        }
+                      },
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "token": "space.5"
+                          },
+                          "right": {
+                            "px": 0.0
+                          },
+                          "bottom": {
+                            "token": "space.5"
+                          },
+                          "left": {
+                            "px": 0.0
+                          }
+                        }
+                      },
+                      "border": {
+                        "top": {
+                          "width": {
+                            "px": 1.0
+                          },
+                          "style": "solid",
+                          "color": {
+                            "token": "line.hairline"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "t-personal-t",
+                    "kind": {
+                      "type": "text",
+                      "tag": "h3",
+                      "content": "Personal"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.card",
+                            "color": {
+                              "token": "ink.body"
+                            }
+                          },
+                          "spacing": {
+                            "margin": {
+                              "top": {
+                                "px": 0.0
+                              },
+                              "right": {
+                                "px": 0.0
+                              },
+                              "bottom": {
+                                "px": 0.0
+                              },
+                              "left": {
+                                "px": 0.0
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "t-personal-d",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "The occasional detour, when life gets in the way of the plan."
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "size": {
+                              "rem": 1.0
+                            },
+                            "color": {
+                              "token": "ink.muted"
+                            }
+                          },
+                          "spacing": {
+                            "margin": {
+                              "top": {
+                                "px": 0.0
+                              },
+                              "right": {
+                                "px": 0.0
+                              },
+                              "bottom": {
+                                "px": 0.0
+                              },
+                              "left": {
+                                "px": 0.0
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "i-subscribe",
+        "kind": {
+          "type": "instance",
+          "component": "inkwell-subscribe"
+        }
+      },
+      {
+        "id": "spacer",
+        "kind": {
+          "type": "frame",
+          "element": "div"
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "size": {
+                "height": {
+                  "token": "space.section"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "i-footer",
+        "kind": {
+          "type": "instance",
+          "component": "inkwell-footer"
+        }
+      }
+    ]
+  },
+  "seo": {
+    "title": "About — The Long Margin",
+    "description": "About Mira Okafor and The Long Margin."
+  }
+}

@@ -1,0 +1,2330 @@
+{
+  "root": {
+    "id": "root",
+    "kind": {
+      "type": "frame",
+      "element": "div"
+    },
+    "styles": {
+      "base": {
+        "base": {
+          "background": {
+            "token": "surface.page"
+          },
+          "display": "flex",
+          "flex": {
+            "direction": "column"
+          },
+          "size": {
+            "minHeight": {
+              "vh": 100.0
+            }
+          }
+        }
+      }
+    },
+    "children": [
+      {
+        "id": "i-header",
+        "kind": {
+          "type": "instance",
+          "component": "inkwell-header"
+        }
+      },
+      {
+        "id": "archive-head",
+        "kind": {
+          "type": "frame",
+          "element": "section"
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "size": {
+                "width": {
+                  "percent": 100.0
+                },
+                "maxWidth": {
+                  "token": "space.wide"
+                }
+              },
+              "spacing": {
+                "margin": {
+                  "top": {
+                    "px": 0.0
+                  },
+                  "right": {
+                    "raw": "auto"
+                  },
+                  "bottom": {
+                    "px": 0.0
+                  },
+                  "left": {
+                    "raw": "auto"
+                  }
+                },
+                "padding": {
+                  "top": {
+                    "token": "space.16"
+                  },
+                  "right": {
+                    "token": "space.gutter"
+                  },
+                  "bottom": {
+                    "token": "space.4"
+                  },
+                  "left": {
+                    "token": "space.gutter"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "children": [
+          {
+            "id": "archive-k",
+            "kind": {
+              "type": "text",
+              "tag": "span",
+              "content": "Archive"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "typography": {
+                    "token": "type.label",
+                    "color": {
+                      "token": "ink.accent"
+                    },
+                    "transform": "uppercase"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": "archive-title",
+            "kind": {
+              "type": "text",
+              "tag": "h1",
+              "content": "Every essay, newest first"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "typography": {
+                    "token": "type.display",
+                    "color": {
+                      "token": "ink.body"
+                    }
+                  },
+                  "spacing": {
+                    "margin": {
+                      "top": {
+                        "token": "space.3"
+                      },
+                      "right": {
+                        "px": 0.0
+                      },
+                      "bottom": {
+                        "token": "space.3"
+                      },
+                      "left": {
+                        "px": 0.0
+                      }
+                    }
+                  },
+                  "custom": {
+                    "text-wrap": "balance"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": "archive-intro",
+            "kind": {
+              "type": "text",
+              "tag": "p",
+              "content": "Forty-eight letters since 2024 on writing, reading, tools and the odd personal detour. Pick one with a coffee."
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "typography": {
+                    "token": "type.lead",
+                    "color": {
+                      "token": "ink.muted"
+                    }
+                  },
+                  "size": {
+                    "maxWidth": {
+                      "rem": 40.0
+                    }
+                  },
+                  "spacing": {
+                    "margin": {
+                      "top": {
+                        "px": 0.0
+                      },
+                      "right": {
+                        "px": 0.0
+                      },
+                      "bottom": {
+                        "px": 0.0
+                      },
+                      "left": {
+                        "px": 0.0
+                      }
+                    }
+                  },
+                  "custom": {
+                    "font-style": "italic"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "archive-list",
+        "kind": {
+          "type": "frame",
+          "element": "section"
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "size": {
+                "width": {
+                  "percent": 100.0
+                },
+                "maxWidth": {
+                  "token": "space.wide"
+                }
+              },
+              "spacing": {
+                "margin": {
+                  "top": {
+                    "px": 0.0
+                  },
+                  "right": {
+                    "raw": "auto"
+                  },
+                  "bottom": {
+                    "px": 0.0
+                  },
+                  "left": {
+                    "raw": "auto"
+                  }
+                },
+                "padding": {
+                  "top": {
+                    "px": 0.0
+                  },
+                  "right": {
+                    "token": "space.gutter"
+                  },
+                  "bottom": {
+                    "px": 0.0
+                  },
+                  "left": {
+                    "token": "space.gutter"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "children": [
+          {
+            "id": "year-2026",
+            "kind": {
+              "type": "text",
+              "tag": "h2",
+              "content": "2026"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "typography": {
+                    "family": "'Newsreader', 'Iowan Old Style', 'Palatino Linotype', Georgia, serif",
+                    "size": {
+                      "rem": 3.0
+                    },
+                    "weight": 600,
+                    "lineHeight": 1,
+                    "color": {
+                      "token": "ink.body"
+                    }
+                  },
+                  "spacing": {
+                    "margin": {
+                      "top": {
+                        "token": "space.12"
+                      },
+                      "right": {
+                        "px": 0.0
+                      },
+                      "bottom": {
+                        "token": "space.2"
+                      },
+                      "left": {
+                        "px": 0.0
+                      }
+                    }
+                  },
+                  "custom": {
+                    "font-style": "italic"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": "row-2026-0",
+            "kind": {
+              "type": "link",
+              "href": "/post",
+              "target": "same"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "typography": {
+                    "decoration": "none"
+                  }
+                },
+                "hover": {
+                  "custom": {
+                    "background": "rgb(241 236 226 / 0.6)"
+                  }
+                },
+                "focus": {
+                  "custom": {
+                    "outline": "2px solid #8E2B25",
+                    "outline-offset": "2px"
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "row-2026-0-in",
+                "kind": {
+                  "type": "frame",
+                  "element": "div"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "grid",
+                      "grid": {
+                        "templateColumns": "minmax(0, 1fr)",
+                        "gap": {
+                          "token": "space.2"
+                        }
+                      },
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "token": "space.6"
+                          },
+                          "right": {
+                            "px": 0.0
+                          },
+                          "bottom": {
+                            "token": "space.6"
+                          },
+                          "left": {
+                            "px": 0.0
+                          }
+                        }
+                      },
+                      "border": {
+                        "top": {
+                          "width": {
+                            "px": 1.0
+                          },
+                          "style": "solid",
+                          "color": {
+                            "token": "line.hairline"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "md": {
+                    "base": {
+                      "display": "grid",
+                      "grid": {
+                        "templateColumns": "9rem minmax(0, 1fr) 7rem",
+                        "gap": {
+                          "token": "space.8"
+                        },
+                        "align": "baseline"
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "row-2026-0-date",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "14 September 2026"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "color": {
+                              "token": "ink.muted"
+                            }
+                          },
+                          "spacing": {
+                            "margin": {
+                              "top": {
+                                "px": 0.0
+                              },
+                              "right": {
+                                "px": 0.0
+                              },
+                              "bottom": {
+                                "px": 0.0
+                              },
+                              "left": {
+                                "px": 0.0
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "row-2026-0-copy",
+                    "kind": {
+                      "type": "frame",
+                      "element": "div"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "column",
+                            "gap": {
+                              "token": "space.1"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "row-2026-0-title",
+                        "kind": {
+                          "type": "text",
+                          "tag": "h3",
+                          "content": "Why I write by hand first"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.card",
+                                "color": {
+                                  "token": "ink.body"
+                                }
+                              },
+                              "spacing": {
+                                "margin": {
+                                  "top": {
+                                    "px": 0.0
+                                  },
+                                  "right": {
+                                    "px": 0.0
+                                  },
+                                  "bottom": {
+                                    "px": 0.0
+                                  },
+                                  "left": {
+                                    "px": 0.0
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "row-2026-0-dek",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Paper is slow, and slow is the point. On first drafts that are allowed to be bad."
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "size": {
+                                  "rem": 1.0
+                                },
+                                "color": {
+                                  "token": "ink.muted"
+                                }
+                              },
+                              "spacing": {
+                                "margin": {
+                                  "top": {
+                                    "px": 0.0
+                                  },
+                                  "right": {
+                                    "px": 0.0
+                                  },
+                                  "bottom": {
+                                    "px": 0.0
+                                  },
+                                  "left": {
+                                    "px": 0.0
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "row-2026-0-cat",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "Craft"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.label",
+                            "color": {
+                              "token": "ink.accent"
+                            },
+                            "transform": "uppercase"
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "row-2026-1",
+            "kind": {
+              "type": "link",
+              "href": "/post",
+              "target": "same"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "typography": {
+                    "decoration": "none"
+                  }
+                },
+                "hover": {
+                  "custom": {
+                    "background": "rgb(241 236 226 / 0.6)"
+                  }
+                },
+                "focus": {
+                  "custom": {
+                    "outline": "2px solid #8E2B25",
+                    "outline-offset": "2px"
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "row-2026-1-in",
+                "kind": {
+                  "type": "frame",
+                  "element": "div"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "grid",
+                      "grid": {
+                        "templateColumns": "minmax(0, 1fr)",
+                        "gap": {
+                          "token": "space.2"
+                        }
+                      },
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "token": "space.6"
+                          },
+                          "right": {
+                            "px": 0.0
+                          },
+                          "bottom": {
+                            "token": "space.6"
+                          },
+                          "left": {
+                            "px": 0.0
+                          }
+                        }
+                      },
+                      "border": {
+                        "top": {
+                          "width": {
+                            "px": 1.0
+                          },
+                          "style": "solid",
+                          "color": {
+                            "token": "line.hairline"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "md": {
+                    "base": {
+                      "display": "grid",
+                      "grid": {
+                        "templateColumns": "9rem minmax(0, 1fr) 7rem",
+                        "gap": {
+                          "token": "space.8"
+                        },
+                        "align": "baseline"
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "row-2026-1-date",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "31 August 2026"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "color": {
+                              "token": "ink.muted"
+                            }
+                          },
+                          "spacing": {
+                            "margin": {
+                              "top": {
+                                "px": 0.0
+                              },
+                              "right": {
+                                "px": 0.0
+                              },
+                              "bottom": {
+                                "px": 0.0
+                              },
+                              "left": {
+                                "px": 0.0
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "row-2026-1-copy",
+                    "kind": {
+                      "type": "frame",
+                      "element": "div"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "column",
+                            "gap": {
+                              "token": "space.1"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "row-2026-1-title",
+                        "kind": {
+                          "type": "text",
+                          "tag": "h3",
+                          "content": "The case for fewer, better notes"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.card",
+                                "color": {
+                                  "token": "ink.body"
+                                }
+                              },
+                              "spacing": {
+                                "margin": {
+                                  "top": {
+                                    "px": 0.0
+                                  },
+                                  "right": {
+                                    "px": 0.0
+                                  },
+                                  "bottom": {
+                                    "px": 0.0
+                                  },
+                                  "left": {
+                                    "px": 0.0
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "row-2026-1-dek",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "I kept everything for ten years and found nothing. What changed when I started throwing notes away."
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "size": {
+                                  "rem": 1.0
+                                },
+                                "color": {
+                                  "token": "ink.muted"
+                                }
+                              },
+                              "spacing": {
+                                "margin": {
+                                  "top": {
+                                    "px": 0.0
+                                  },
+                                  "right": {
+                                    "px": 0.0
+                                  },
+                                  "bottom": {
+                                    "px": 0.0
+                                  },
+                                  "left": {
+                                    "px": 0.0
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "row-2026-1-cat",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "Tools"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.label",
+                            "color": {
+                              "token": "ink.accent"
+                            },
+                            "transform": "uppercase"
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "row-2026-2",
+            "kind": {
+              "type": "link",
+              "href": "/post",
+              "target": "same"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "typography": {
+                    "decoration": "none"
+                  }
+                },
+                "hover": {
+                  "custom": {
+                    "background": "rgb(241 236 226 / 0.6)"
+                  }
+                },
+                "focus": {
+                  "custom": {
+                    "outline": "2px solid #8E2B25",
+                    "outline-offset": "2px"
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "row-2026-2-in",
+                "kind": {
+                  "type": "frame",
+                  "element": "div"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "grid",
+                      "grid": {
+                        "templateColumns": "minmax(0, 1fr)",
+                        "gap": {
+                          "token": "space.2"
+                        }
+                      },
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "token": "space.6"
+                          },
+                          "right": {
+                            "px": 0.0
+                          },
+                          "bottom": {
+                            "token": "space.6"
+                          },
+                          "left": {
+                            "px": 0.0
+                          }
+                        }
+                      },
+                      "border": {
+                        "top": {
+                          "width": {
+                            "px": 1.0
+                          },
+                          "style": "solid",
+                          "color": {
+                            "token": "line.hairline"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "md": {
+                    "base": {
+                      "display": "grid",
+                      "grid": {
+                        "templateColumns": "9rem minmax(0, 1fr) 7rem",
+                        "gap": {
+                          "token": "space.8"
+                        },
+                        "align": "baseline"
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "row-2026-2-date",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "17 August 2026"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "color": {
+                              "token": "ink.muted"
+                            }
+                          },
+                          "spacing": {
+                            "margin": {
+                              "top": {
+                                "px": 0.0
+                              },
+                              "right": {
+                                "px": 0.0
+                              },
+                              "bottom": {
+                                "px": 0.0
+                              },
+                              "left": {
+                                "px": 0.0
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "row-2026-2-copy",
+                    "kind": {
+                      "type": "frame",
+                      "element": "div"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "column",
+                            "gap": {
+                              "token": "space.1"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "row-2026-2-title",
+                        "kind": {
+                          "type": "text",
+                          "tag": "h3",
+                          "content": "Reading slowly in a fast year"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.card",
+                                "color": {
+                                  "token": "ink.body"
+                                }
+                              },
+                              "spacing": {
+                                "margin": {
+                                  "top": {
+                                    "px": 0.0
+                                  },
+                                  "right": {
+                                    "px": 0.0
+                                  },
+                                  "bottom": {
+                                    "px": 0.0
+                                  },
+                                  "left": {
+                                    "px": 0.0
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "row-2026-2-dek",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Twelve books, one pencil and a rule: nothing new until the last one has a page of notes."
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "size": {
+                                  "rem": 1.0
+                                },
+                                "color": {
+                                  "token": "ink.muted"
+                                }
+                              },
+                              "spacing": {
+                                "margin": {
+                                  "top": {
+                                    "px": 0.0
+                                  },
+                                  "right": {
+                                    "px": 0.0
+                                  },
+                                  "bottom": {
+                                    "px": 0.0
+                                  },
+                                  "left": {
+                                    "px": 0.0
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "row-2026-2-cat",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "Reading"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.label",
+                            "color": {
+                              "token": "ink.accent"
+                            },
+                            "transform": "uppercase"
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "row-2026-3",
+            "kind": {
+              "type": "link",
+              "href": "/post",
+              "target": "same"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "typography": {
+                    "decoration": "none"
+                  }
+                },
+                "hover": {
+                  "custom": {
+                    "background": "rgb(241 236 226 / 0.6)"
+                  }
+                },
+                "focus": {
+                  "custom": {
+                    "outline": "2px solid #8E2B25",
+                    "outline-offset": "2px"
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "row-2026-3-in",
+                "kind": {
+                  "type": "frame",
+                  "element": "div"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "grid",
+                      "grid": {
+                        "templateColumns": "minmax(0, 1fr)",
+                        "gap": {
+                          "token": "space.2"
+                        }
+                      },
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "token": "space.6"
+                          },
+                          "right": {
+                            "px": 0.0
+                          },
+                          "bottom": {
+                            "token": "space.6"
+                          },
+                          "left": {
+                            "px": 0.0
+                          }
+                        }
+                      },
+                      "border": {
+                        "top": {
+                          "width": {
+                            "px": 1.0
+                          },
+                          "style": "solid",
+                          "color": {
+                            "token": "line.hairline"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "md": {
+                    "base": {
+                      "display": "grid",
+                      "grid": {
+                        "templateColumns": "9rem minmax(0, 1fr) 7rem",
+                        "gap": {
+                          "token": "space.8"
+                        },
+                        "align": "baseline"
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "row-2026-3-date",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "3 August 2026"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "color": {
+                              "token": "ink.muted"
+                            }
+                          },
+                          "spacing": {
+                            "margin": {
+                              "top": {
+                                "px": 0.0
+                              },
+                              "right": {
+                                "px": 0.0
+                              },
+                              "bottom": {
+                                "px": 0.0
+                              },
+                              "left": {
+                                "px": 0.0
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "row-2026-3-copy",
+                    "kind": {
+                      "type": "frame",
+                      "element": "div"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "column",
+                            "gap": {
+                              "token": "space.1"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "row-2026-3-title",
+                        "kind": {
+                          "type": "text",
+                          "tag": "h3",
+                          "content": "What a margin is for"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.card",
+                                "color": {
+                                  "token": "ink.body"
+                                }
+                              },
+                              "spacing": {
+                                "margin": {
+                                  "top": {
+                                    "px": 0.0
+                                  },
+                                  "right": {
+                                    "px": 0.0
+                                  },
+                                  "bottom": {
+                                    "px": 0.0
+                                  },
+                                  "left": {
+                                    "px": 0.0
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "row-2026-3-dek",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "The white space around a page is where readers talk back. A short history of writing in books."
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "size": {
+                                  "rem": 1.0
+                                },
+                                "color": {
+                                  "token": "ink.muted"
+                                }
+                              },
+                              "spacing": {
+                                "margin": {
+                                  "top": {
+                                    "px": 0.0
+                                  },
+                                  "right": {
+                                    "px": 0.0
+                                  },
+                                  "bottom": {
+                                    "px": 0.0
+                                  },
+                                  "left": {
+                                    "px": 0.0
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "row-2026-3-cat",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "Essays"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.label",
+                            "color": {
+                              "token": "ink.accent"
+                            },
+                            "transform": "uppercase"
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "row-2026-4",
+            "kind": {
+              "type": "link",
+              "href": "/post",
+              "target": "same"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "typography": {
+                    "decoration": "none"
+                  }
+                },
+                "hover": {
+                  "custom": {
+                    "background": "rgb(241 236 226 / 0.6)"
+                  }
+                },
+                "focus": {
+                  "custom": {
+                    "outline": "2px solid #8E2B25",
+                    "outline-offset": "2px"
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "row-2026-4-in",
+                "kind": {
+                  "type": "frame",
+                  "element": "div"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "grid",
+                      "grid": {
+                        "templateColumns": "minmax(0, 1fr)",
+                        "gap": {
+                          "token": "space.2"
+                        }
+                      },
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "token": "space.6"
+                          },
+                          "right": {
+                            "px": 0.0
+                          },
+                          "bottom": {
+                            "token": "space.6"
+                          },
+                          "left": {
+                            "px": 0.0
+                          }
+                        }
+                      },
+                      "border": {
+                        "top": {
+                          "width": {
+                            "px": 1.0
+                          },
+                          "style": "solid",
+                          "color": {
+                            "token": "line.hairline"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "md": {
+                    "base": {
+                      "display": "grid",
+                      "grid": {
+                        "templateColumns": "9rem minmax(0, 1fr) 7rem",
+                        "gap": {
+                          "token": "space.8"
+                        },
+                        "align": "baseline"
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "row-2026-4-date",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "20 July 2026"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "color": {
+                              "token": "ink.muted"
+                            }
+                          },
+                          "spacing": {
+                            "margin": {
+                              "top": {
+                                "px": 0.0
+                              },
+                              "right": {
+                                "px": 0.0
+                              },
+                              "bottom": {
+                                "px": 0.0
+                              },
+                              "left": {
+                                "px": 0.0
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "row-2026-4-copy",
+                    "kind": {
+                      "type": "frame",
+                      "element": "div"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "column",
+                            "gap": {
+                              "token": "space.1"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "row-2026-4-title",
+                        "kind": {
+                          "type": "text",
+                          "tag": "h3",
+                          "content": "Letters I never sent"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.card",
+                                "color": {
+                                  "token": "ink.body"
+                                }
+                              },
+                              "spacing": {
+                                "margin": {
+                                  "top": {
+                                    "px": 0.0
+                                  },
+                                  "right": {
+                                    "px": 0.0
+                                  },
+                                  "bottom": {
+                                    "px": 0.0
+                                  },
+                                  "left": {
+                                    "px": 0.0
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "row-2026-4-dek",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "A drawer of drafts to people who will never read them, and what they taught me about saying things plainly."
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "size": {
+                                  "rem": 1.0
+                                },
+                                "color": {
+                                  "token": "ink.muted"
+                                }
+                              },
+                              "spacing": {
+                                "margin": {
+                                  "top": {
+                                    "px": 0.0
+                                  },
+                                  "right": {
+                                    "px": 0.0
+                                  },
+                                  "bottom": {
+                                    "px": 0.0
+                                  },
+                                  "left": {
+                                    "px": 0.0
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "row-2026-4-cat",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "Personal"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.label",
+                            "color": {
+                              "token": "ink.accent"
+                            },
+                            "transform": "uppercase"
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "year-2025",
+            "kind": {
+              "type": "text",
+              "tag": "h2",
+              "content": "2025"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "typography": {
+                    "family": "'Newsreader', 'Iowan Old Style', 'Palatino Linotype', Georgia, serif",
+                    "size": {
+                      "rem": 3.0
+                    },
+                    "weight": 600,
+                    "lineHeight": 1,
+                    "color": {
+                      "token": "ink.body"
+                    }
+                  },
+                  "spacing": {
+                    "margin": {
+                      "top": {
+                        "token": "space.12"
+                      },
+                      "right": {
+                        "px": 0.0
+                      },
+                      "bottom": {
+                        "token": "space.2"
+                      },
+                      "left": {
+                        "px": 0.0
+                      }
+                    }
+                  },
+                  "custom": {
+                    "font-style": "italic"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": "row-2025-0",
+            "kind": {
+              "type": "link",
+              "href": "/post",
+              "target": "same"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "typography": {
+                    "decoration": "none"
+                  }
+                },
+                "hover": {
+                  "custom": {
+                    "background": "rgb(241 236 226 / 0.6)"
+                  }
+                },
+                "focus": {
+                  "custom": {
+                    "outline": "2px solid #8E2B25",
+                    "outline-offset": "2px"
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "row-2025-0-in",
+                "kind": {
+                  "type": "frame",
+                  "element": "div"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "grid",
+                      "grid": {
+                        "templateColumns": "minmax(0, 1fr)",
+                        "gap": {
+                          "token": "space.2"
+                        }
+                      },
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "token": "space.6"
+                          },
+                          "right": {
+                            "px": 0.0
+                          },
+                          "bottom": {
+                            "token": "space.6"
+                          },
+                          "left": {
+                            "px": 0.0
+                          }
+                        }
+                      },
+                      "border": {
+                        "top": {
+                          "width": {
+                            "px": 1.0
+                          },
+                          "style": "solid",
+                          "color": {
+                            "token": "line.hairline"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "md": {
+                    "base": {
+                      "display": "grid",
+                      "grid": {
+                        "templateColumns": "9rem minmax(0, 1fr) 7rem",
+                        "gap": {
+                          "token": "space.8"
+                        },
+                        "align": "baseline"
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "row-2025-0-date",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "14 December 2025"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "color": {
+                              "token": "ink.muted"
+                            }
+                          },
+                          "spacing": {
+                            "margin": {
+                              "top": {
+                                "px": 0.0
+                              },
+                              "right": {
+                                "px": 0.0
+                              },
+                              "bottom": {
+                                "px": 0.0
+                              },
+                              "left": {
+                                "px": 0.0
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "row-2025-0-copy",
+                    "kind": {
+                      "type": "frame",
+                      "element": "div"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "column",
+                            "gap": {
+                              "token": "space.1"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "row-2025-0-title",
+                        "kind": {
+                          "type": "text",
+                          "tag": "h3",
+                          "content": "The comma as a breath"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.card",
+                                "color": {
+                                  "token": "ink.body"
+                                }
+                              },
+                              "spacing": {
+                                "margin": {
+                                  "top": {
+                                    "px": 0.0
+                                  },
+                                  "right": {
+                                    "px": 0.0
+                                  },
+                                  "bottom": {
+                                    "px": 0.0
+                                  },
+                                  "left": {
+                                    "px": 0.0
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "row-2025-0-dek",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Punctuation is timing. A copy editor's confession."
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "size": {
+                                  "rem": 1.0
+                                },
+                                "color": {
+                                  "token": "ink.muted"
+                                }
+                              },
+                              "spacing": {
+                                "margin": {
+                                  "top": {
+                                    "px": 0.0
+                                  },
+                                  "right": {
+                                    "px": 0.0
+                                  },
+                                  "bottom": {
+                                    "px": 0.0
+                                  },
+                                  "left": {
+                                    "px": 0.0
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "row-2025-0-cat",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "Essays"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.label",
+                            "color": {
+                              "token": "ink.accent"
+                            },
+                            "transform": "uppercase"
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "row-2025-1",
+            "kind": {
+              "type": "link",
+              "href": "/post",
+              "target": "same"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "typography": {
+                    "decoration": "none"
+                  }
+                },
+                "hover": {
+                  "custom": {
+                    "background": "rgb(241 236 226 / 0.6)"
+                  }
+                },
+                "focus": {
+                  "custom": {
+                    "outline": "2px solid #8E2B25",
+                    "outline-offset": "2px"
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "row-2025-1-in",
+                "kind": {
+                  "type": "frame",
+                  "element": "div"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "grid",
+                      "grid": {
+                        "templateColumns": "minmax(0, 1fr)",
+                        "gap": {
+                          "token": "space.2"
+                        }
+                      },
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "token": "space.6"
+                          },
+                          "right": {
+                            "px": 0.0
+                          },
+                          "bottom": {
+                            "token": "space.6"
+                          },
+                          "left": {
+                            "px": 0.0
+                          }
+                        }
+                      },
+                      "border": {
+                        "top": {
+                          "width": {
+                            "px": 1.0
+                          },
+                          "style": "solid",
+                          "color": {
+                            "token": "line.hairline"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "md": {
+                    "base": {
+                      "display": "grid",
+                      "grid": {
+                        "templateColumns": "9rem minmax(0, 1fr) 7rem",
+                        "gap": {
+                          "token": "space.8"
+                        },
+                        "align": "baseline"
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "row-2025-1-date",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "30 November 2025"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "color": {
+                              "token": "ink.muted"
+                            }
+                          },
+                          "spacing": {
+                            "margin": {
+                              "top": {
+                                "px": 0.0
+                              },
+                              "right": {
+                                "px": 0.0
+                              },
+                              "bottom": {
+                                "px": 0.0
+                              },
+                              "left": {
+                                "px": 0.0
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "row-2025-1-copy",
+                    "kind": {
+                      "type": "frame",
+                      "element": "div"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "column",
+                            "gap": {
+                              "token": "space.1"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "row-2025-1-title",
+                        "kind": {
+                          "type": "text",
+                          "tag": "h3",
+                          "content": "My year in second readings"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.card",
+                                "color": {
+                                  "token": "ink.body"
+                                }
+                              },
+                              "spacing": {
+                                "margin": {
+                                  "top": {
+                                    "px": 0.0
+                                  },
+                                  "right": {
+                                    "px": 0.0
+                                  },
+                                  "bottom": {
+                                    "px": 0.0
+                                  },
+                                  "left": {
+                                    "px": 0.0
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "row-2025-1-dek",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Every book I read twice this year, and which ones got better."
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "size": {
+                                  "rem": 1.0
+                                },
+                                "color": {
+                                  "token": "ink.muted"
+                                }
+                              },
+                              "spacing": {
+                                "margin": {
+                                  "top": {
+                                    "px": 0.0
+                                  },
+                                  "right": {
+                                    "px": 0.0
+                                  },
+                                  "bottom": {
+                                    "px": 0.0
+                                  },
+                                  "left": {
+                                    "px": 0.0
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "row-2025-1-cat",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "Reading"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.label",
+                            "color": {
+                              "token": "ink.accent"
+                            },
+                            "transform": "uppercase"
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "row-2025-2",
+            "kind": {
+              "type": "link",
+              "href": "/post",
+              "target": "same"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "typography": {
+                    "decoration": "none"
+                  }
+                },
+                "hover": {
+                  "custom": {
+                    "background": "rgb(241 236 226 / 0.6)"
+                  }
+                },
+                "focus": {
+                  "custom": {
+                    "outline": "2px solid #8E2B25",
+                    "outline-offset": "2px"
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "row-2025-2-in",
+                "kind": {
+                  "type": "frame",
+                  "element": "div"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "grid",
+                      "grid": {
+                        "templateColumns": "minmax(0, 1fr)",
+                        "gap": {
+                          "token": "space.2"
+                        }
+                      },
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "token": "space.6"
+                          },
+                          "right": {
+                            "px": 0.0
+                          },
+                          "bottom": {
+                            "token": "space.6"
+                          },
+                          "left": {
+                            "px": 0.0
+                          }
+                        }
+                      },
+                      "border": {
+                        "top": {
+                          "width": {
+                            "px": 1.0
+                          },
+                          "style": "solid",
+                          "color": {
+                            "token": "line.hairline"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "md": {
+                    "base": {
+                      "display": "grid",
+                      "grid": {
+                        "templateColumns": "9rem minmax(0, 1fr) 7rem",
+                        "gap": {
+                          "token": "space.8"
+                        },
+                        "align": "baseline"
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "row-2025-2-date",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "16 November 2025"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "color": {
+                              "token": "ink.muted"
+                            }
+                          },
+                          "spacing": {
+                            "margin": {
+                              "top": {
+                                "px": 0.0
+                              },
+                              "right": {
+                                "px": 0.0
+                              },
+                              "bottom": {
+                                "px": 0.0
+                              },
+                              "left": {
+                                "px": 0.0
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "row-2025-2-copy",
+                    "kind": {
+                      "type": "frame",
+                      "element": "div"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "column",
+                            "gap": {
+                              "token": "space.1"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "row-2025-2-title",
+                        "kind": {
+                          "type": "text",
+                          "tag": "h3",
+                          "content": "On killing the first paragraph"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.card",
+                                "color": {
+                                  "token": "ink.body"
+                                }
+                              },
+                              "spacing": {
+                                "margin": {
+                                  "top": {
+                                    "px": 0.0
+                                  },
+                                  "right": {
+                                    "px": 0.0
+                                  },
+                                  "bottom": {
+                                    "px": 0.0
+                                  },
+                                  "left": {
+                                    "px": 0.0
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "row-2025-2-dek",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "The opening you wrote to find your way in is rarely the one a reader needs."
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "size": {
+                                  "rem": 1.0
+                                },
+                                "color": {
+                                  "token": "ink.muted"
+                                }
+                              },
+                              "spacing": {
+                                "margin": {
+                                  "top": {
+                                    "px": 0.0
+                                  },
+                                  "right": {
+                                    "px": 0.0
+                                  },
+                                  "bottom": {
+                                    "px": 0.0
+                                  },
+                                  "left": {
+                                    "px": 0.0
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "row-2025-2-cat",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "Craft"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.label",
+                            "color": {
+                              "token": "ink.accent"
+                            },
+                            "transform": "uppercase"
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "i-subscribe",
+        "kind": {
+          "type": "instance",
+          "component": "inkwell-subscribe"
+        }
+      },
+      {
+        "id": "spacer",
+        "kind": {
+          "type": "frame",
+          "element": "div"
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "size": {
+                "height": {
+                  "token": "space.section"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "i-footer",
+        "kind": {
+          "type": "instance",
+          "component": "inkwell-footer"
+        }
+      }
+    ]
+  },
+  "seo": {
+    "title": "Archive — The Long Margin",
+    "description": "Every essay from The Long Margin, newest first."
+  }
+}

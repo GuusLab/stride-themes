@@ -1,0 +1,282 @@
+{
+  "id": "inkwell-author",
+  "name": "Inkwell · Author box",
+  "root": {
+    "id": "author",
+    "kind": {
+      "type": "frame",
+      "element": "aside"
+    },
+    "styles": {
+      "base": {
+        "base": {
+          "display": "flex",
+          "flex": {
+            "direction": "row",
+            "gap": {
+              "token": "space.5"
+            },
+            "align": "start"
+          },
+          "spacing": {
+            "padding": {
+              "top": {
+                "token": "space.8"
+              },
+              "right": {
+                "px": 0.0
+              },
+              "bottom": {
+                "token": "space.8"
+              },
+              "left": {
+                "px": 0.0
+              }
+            }
+          },
+          "border": {
+            "top": {
+              "width": {
+                "px": 1.0
+              },
+              "style": "solid",
+              "color": {
+                "token": "line.hairline"
+              }
+            },
+            "bottom": {
+              "width": {
+                "px": 1.0
+              },
+              "style": "solid",
+              "color": {
+                "token": "line.hairline"
+              }
+            }
+          }
+        }
+      }
+    },
+    "children": [
+      {
+        "id": "author-mark",
+        "kind": {
+          "type": "frame",
+          "element": "div"
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "size": {
+                "width": {
+                  "px": 72.0
+                },
+                "height": {
+                  "px": 72.0
+                }
+              },
+              "radius": {
+                "token": "radius.full"
+              },
+              "background": {
+                "token": "surface.accent"
+              },
+              "display": "flex",
+              "flex": {
+                "direction": "row",
+                "align": "center",
+                "justify": "center"
+              },
+              "custom": {
+                "flex-shrink": "0"
+              }
+            }
+          }
+        },
+        "children": [
+          {
+            "id": "author-initials",
+            "kind": {
+              "type": "text",
+              "tag": "span",
+              "content": "MO"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "typography": {
+                    "family": "'Newsreader', 'Iowan Old Style', 'Palatino Linotype', Georgia, serif",
+                    "size": {
+                      "rem": 1.75
+                    },
+                    "weight": 600,
+                    "color": {
+                      "token": "ink.inverse"
+                    }
+                  },
+                  "custom": {
+                    "font-style": "italic"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "author-copy",
+        "kind": {
+          "type": "frame",
+          "element": "div"
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "display": "flex",
+              "flex": {
+                "direction": "column",
+                "gap": {
+                  "token": "space.2"
+                }
+              }
+            }
+          }
+        },
+        "children": [
+          {
+            "id": "author-name",
+            "kind": {
+              "type": "text",
+              "tag": "p",
+              "content": "Mira Okafor"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "typography": {
+                    "token": "type.card",
+                    "color": {
+                      "token": "ink.body"
+                    }
+                  },
+                  "spacing": {
+                    "margin": {
+                      "top": {
+                        "px": 0.0
+                      },
+                      "right": {
+                        "px": 0.0
+                      },
+                      "bottom": {
+                        "px": 0.0
+                      },
+                      "left": {
+                        "px": 0.0
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": "author-bio",
+            "kind": {
+              "type": "text",
+              "tag": "p",
+              "content": "Writes about writing from a small room in Rotterdam. Former copy editor, forever a margin scribbler."
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "typography": {
+                    "token": "type.small",
+                    "size": {
+                      "rem": 1.0
+                    },
+                    "color": {
+                      "token": "ink.muted"
+                    }
+                  },
+                  "spacing": {
+                    "margin": {
+                      "top": {
+                        "px": 0.0
+                      },
+                      "right": {
+                        "px": 0.0
+                      },
+                      "bottom": {
+                        "px": 0.0
+                      },
+                      "left": {
+                        "px": 0.0
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": "author-more",
+            "kind": {
+              "type": "link",
+              "href": "/about",
+              "target": "same"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "typography": {
+                    "color": {
+                      "token": "ink.body"
+                    },
+                    "decoration": "underline"
+                  },
+                  "custom": {
+                    "text-underline-offset": "6px",
+                    "text-decoration-thickness": "1px"
+                  }
+                },
+                "hover": {
+                  "custom": {
+                    "text-decoration-thickness": "2px"
+                  }
+                },
+                "focus": {
+                  "custom": {
+                    "outline": "2px solid #8E2B25",
+                    "outline-offset": "3px"
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "author-more-t",
+                "kind": {
+                  "type": "text",
+                  "tag": "span",
+                  "content": "More about Mira"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.button",
+                        "color": {
+                          "token": "ink.body"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
