@@ -1,0 +1,599 @@
+{
+  "id": "summit-header",
+  "name": "Summit · Header",
+  "root": {
+    "id": "header",
+    "kind": {
+      "type": "frame",
+      "element": "header"
+    },
+    "styles": {
+      "base": {
+        "base": {
+          "background": {
+            "token": "surface.deep"
+          },
+          "border": {
+            "bottom": {
+              "width": {
+                "px": 1.0
+              },
+              "style": "solid",
+              "color": {
+                "token": "line.inverse"
+              }
+            }
+          }
+        }
+      }
+    },
+    "children": [
+      {
+        "id": "header-row",
+        "kind": {
+          "type": "frame",
+          "element": "div"
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "size": {
+                "width": {
+                  "percent": 100.0
+                },
+                "maxWidth": {
+                  "token": "space.wide"
+                }
+              },
+              "spacing": {
+                "margin": {
+                  "top": {
+                    "px": 0.0
+                  },
+                  "right": {
+                    "raw": "auto"
+                  },
+                  "bottom": {
+                    "px": 0.0
+                  },
+                  "left": {
+                    "raw": "auto"
+                  }
+                },
+                "padding": {
+                  "top": {
+                    "token": "space.5"
+                  },
+                  "right": {
+                    "token": "space.gutter"
+                  },
+                  "bottom": {
+                    "token": "space.5"
+                  },
+                  "left": {
+                    "token": "space.gutter"
+                  }
+                }
+              },
+              "display": "flex",
+              "flex": {
+                "direction": "row",
+                "gap": {
+                  "token": "space.4"
+                },
+                "align": "center",
+                "justify": "spaceBetween",
+                "wrap": true
+              }
+            }
+          }
+        },
+        "children": [
+          {
+            "id": "brand",
+            "kind": {
+              "type": "link",
+              "href": "/",
+              "target": "same"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "typography": {
+                    "decoration": "none"
+                  }
+                },
+                "focus": {
+                  "custom": {
+                    "outline": "3px solid #3D5AFE",
+                    "outline-offset": "3px"
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "brand-row",
+                "kind": {
+                  "type": "frame",
+                  "element": "div"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "row",
+                        "gap": {
+                          "token": "space.2"
+                        },
+                        "align": "center"
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "brand-mark",
+                    "kind": {
+                      "type": "frame",
+                      "element": "div"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "size": {
+                            "width": {
+                              "px": 22.0
+                            },
+                            "height": {
+                              "px": 22.0
+                            }
+                          },
+                          "background": {
+                            "token": "surface.accent"
+                          },
+                          "radius": {
+                            "token": "radius.full"
+                          },
+                          "custom": {
+                            "box-shadow": "10px 0 0 #C6FF3D"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "brand-name",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "Northwind"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "family": "'Bricolage Grotesque', 'Arial Black', ui-sans-serif, system-ui, sans-serif",
+                            "size": {
+                              "rem": 1.5
+                            },
+                            "weight": 700,
+                            "lineHeight": 1,
+                            "color": {
+                              "token": "ink.inverse"
+                            }
+                          },
+                          "spacing": {
+                            "margin": {
+                              "top": {
+                                "px": 0.0
+                              },
+                              "right": {
+                                "px": 0.0
+                              },
+                              "bottom": {
+                                "px": 0.0
+                              },
+                              "left": {
+                                "token": "space.3"
+                              }
+                            }
+                          },
+                          "custom": {
+                            "letter-spacing": "-0.03em"
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "header-nav",
+            "kind": {
+              "type": "frame",
+              "element": "div"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "flex",
+                  "flex": {
+                    "direction": "row",
+                    "gap": {
+                      "token": "space.5"
+                    },
+                    "align": "center",
+                    "wrap": true
+                  }
+                }
+              },
+              "md": {
+                "base": {
+                  "display": "flex",
+                  "flex": {
+                    "direction": "row",
+                    "gap": {
+                      "token": "space.8"
+                    },
+                    "align": "center"
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "n-schedule",
+                "kind": {
+                  "type": "link",
+                  "href": "/schedule",
+                  "target": "same"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "color": {
+                          "token": "ink.inverse"
+                        },
+                        "decoration": "none"
+                      },
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "token": "space.2"
+                          },
+                          "right": {
+                            "px": 0.0
+                          },
+                          "bottom": {
+                            "token": "space.2"
+                          },
+                          "left": {
+                            "px": 0.0
+                          }
+                        }
+                      }
+                    },
+                    "hover": {
+                      "typography": {
+                        "decoration": "underline"
+                      }
+                    },
+                    "focus": {
+                      "custom": {
+                        "outline": "3px solid #3D5AFE",
+                        "outline-offset": "3px"
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "n-schedule-t",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "Schedule"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.nav",
+                            "color": {
+                              "token": "ink.inverse"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "n-speakers",
+                "kind": {
+                  "type": "link",
+                  "href": "/speakers",
+                  "target": "same"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "color": {
+                          "token": "ink.inverse"
+                        },
+                        "decoration": "none"
+                      },
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "token": "space.2"
+                          },
+                          "right": {
+                            "px": 0.0
+                          },
+                          "bottom": {
+                            "token": "space.2"
+                          },
+                          "left": {
+                            "px": 0.0
+                          }
+                        }
+                      }
+                    },
+                    "hover": {
+                      "typography": {
+                        "decoration": "underline"
+                      }
+                    },
+                    "focus": {
+                      "custom": {
+                        "outline": "3px solid #3D5AFE",
+                        "outline-offset": "3px"
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "n-speakers-t",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "Speakers"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.nav",
+                            "color": {
+                              "token": "ink.inverse"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "n-about",
+                "kind": {
+                  "type": "link",
+                  "href": "/about",
+                  "target": "same"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "color": {
+                          "token": "ink.inverse"
+                        },
+                        "decoration": "none"
+                      },
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "token": "space.2"
+                          },
+                          "right": {
+                            "px": 0.0
+                          },
+                          "bottom": {
+                            "token": "space.2"
+                          },
+                          "left": {
+                            "px": 0.0
+                          }
+                        }
+                      }
+                    },
+                    "hover": {
+                      "typography": {
+                        "decoration": "underline"
+                      }
+                    },
+                    "focus": {
+                      "custom": {
+                        "outline": "3px solid #3D5AFE",
+                        "outline-offset": "3px"
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "n-about-t",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "About"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.nav",
+                            "color": {
+                              "token": "ink.inverse"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "n-news",
+                "kind": {
+                  "type": "link",
+                  "href": "/blog-index",
+                  "target": "same"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "color": {
+                          "token": "ink.inverse"
+                        },
+                        "decoration": "none"
+                      },
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "token": "space.2"
+                          },
+                          "right": {
+                            "px": 0.0
+                          },
+                          "bottom": {
+                            "token": "space.2"
+                          },
+                          "left": {
+                            "px": 0.0
+                          }
+                        }
+                      }
+                    },
+                    "hover": {
+                      "typography": {
+                        "decoration": "underline"
+                      }
+                    },
+                    "focus": {
+                      "custom": {
+                        "outline": "3px solid #3D5AFE",
+                        "outline-offset": "3px"
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "n-news-t",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "News"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.nav",
+                            "color": {
+                              "token": "ink.inverse"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "n-tickets",
+                "kind": {
+                  "type": "button",
+                  "label": "Get tickets",
+                  "href": "/tickets",
+                  "target": "same"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.button",
+                        "color": {
+                          "token": "ink.on-accent"
+                        },
+                        "decoration": "none"
+                      },
+                      "background": {
+                        "token": "surface.highlight"
+                      },
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "rem": 1.0
+                          },
+                          "right": {
+                            "rem": 1.5
+                          },
+                          "bottom": {
+                            "rem": 1.0
+                          },
+                          "left": {
+                            "rem": 1.5
+                          }
+                        }
+                      },
+                      "radius": {
+                        "token": "radius.full"
+                      },
+                      "custom": {
+                        "white-space": "nowrap"
+                      },
+                      "transition": {
+                        "duration": 160,
+                        "properties": [
+                          "backgroundColor",
+                          "transform"
+                        ],
+                        "easing": "easeOut"
+                      }
+                    },
+                    "hover": {
+                      "background": {
+                        "raw": "#D6FF6E"
+                      },
+                      "custom": {
+                        "transform": "translateY(-2px)"
+                      }
+                    },
+                    "focus": {
+                      "custom": {
+                        "outline": "3px solid #3D5AFE",
+                        "outline-offset": "3px"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
