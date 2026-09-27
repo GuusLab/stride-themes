@@ -22,6 +22,19 @@ jobs:
         with:
           python-version: '3.12'
       - run: python3 tools/check.py
+      # The same validation Stride runs when a theme is installed, from the
+      # published CLI: tokens, components and templates against Stride's own
+      # types, which the file checks above cannot do.
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: stride theme validate
+        run: |
+          for dir in themes/*/; do
+            echo "::group::${dir}"
+            npx -y @guuslab/stride@latest theme validate "$dir"
+            echo "::endgroup::"
+          done
       - name: The gallery is up to date
         run: |
           python3 tools/gallery.py
