@@ -3,3 +3,4 @@ node_modules/
 .demo/
 .DS_Store
 themes/*/screenshots/draft-*.png
+*.log

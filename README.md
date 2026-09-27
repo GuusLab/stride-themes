@@ -170,7 +170,7 @@ them; `icon.png` is 512 x 512 and there are two to five 1600 x 1000 PNG screensh
 at most 350 KB, fonts at most 1 MB, and only allowed file types are present. A theme that is not
 in `site/index.json` yet passes as a submission. A theme that is already published must match its
 published zip byte for byte, so a change to one needs a new `version` and a republish by a
-maintainer. CI does not run `stride theme validate`, so run it yourself.
+maintainer. CI also runs `stride theme validate` on every theme, with the published npm CLI.
 
 Then a maintainer reviews the theme, runs `stride theme validate`, takes the store screenshots
 if needed, signs it with the store key (`stride theme index`) and pushes, which publishes it to

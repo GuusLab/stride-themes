@@ -19,7 +19,8 @@ The official theme store for [Stride](https://github.com/GuusLab/Stride). Each t
   passes as a submission; a published one must match its zip byte for byte.
 - `tools/gallery.py` – writes `site/index.html` from `site/index.json`.
 - `tools/demo-server.sh`, `tools/shoot.mjs`, `tools/icon.mjs` – demo server, screenshots, icons.
-- `.github/workflows/` – `validate` (check.py, gallery up to date) and `pages` (deploy).
+- `.github/workflows/` – `validate` (check.py, `stride theme validate` from npm, gallery up to
+  date) and `pages` (deploy).
 
 ## Build, test, publish
 
@@ -64,8 +65,8 @@ The npm build has the editor inside, so no Stride checkout is needed. If `../Str
 - **Keys never go in the repo.** Signing keys stay in `~/.stride/` on the maintainer's machine.
   Never commit, print, copy or upload them. `.gitignore` is not a safety net.
 - After editing `tools/gallery.py`, regenerate `site/index.html` or CI fails.
-- Run `python3 tools/check.py` before every commit. CI does not run `stride theme validate`;
-  run it yourself for every theme you touch.
+- Run `python3 tools/check.py` and `stride theme validate` on every theme you touch before you
+  commit. CI runs both, but a failure is cheaper to hear locally.
 - `theme.json` `author` must be `{"id": "guuslab", "name": "GuusLab"}` (check.py enforces it);
   contributors are credited in the theme's `README.md`.
 - Keep `README.md` in step with the CLI: its commands are what newcomers copy.
