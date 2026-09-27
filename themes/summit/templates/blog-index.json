@@ -1,0 +1,932 @@
+{
+  "root": {
+    "id": "root",
+    "kind": {
+      "type": "frame",
+      "element": "div"
+    },
+    "styles": {
+      "base": {
+        "base": {
+          "background": {
+            "token": "surface.page"
+          },
+          "display": "flex",
+          "flex": {
+            "direction": "column"
+          },
+          "size": {
+            "minHeight": {
+              "vh": 100.0
+            }
+          }
+        }
+      }
+    },
+    "children": [
+      {
+        "id": "i-header",
+        "kind": {
+          "type": "instance",
+          "component": "summit-header"
+        }
+      },
+      {
+        "id": "nw",
+        "kind": {
+          "type": "frame",
+          "element": "section"
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "spacing": {
+                "padding": {
+                  "top": {
+                    "token": "space.16"
+                  },
+                  "right": {
+                    "px": 0.0
+                  },
+                  "bottom": {
+                    "token": "space.section"
+                  },
+                  "left": {
+                    "px": 0.0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "children": [
+          {
+            "id": "nw-in",
+            "kind": {
+              "type": "frame",
+              "element": "div"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "size": {
+                    "width": {
+                      "percent": 100.0
+                    },
+                    "maxWidth": {
+                      "token": "space.wide"
+                    }
+                  },
+                  "spacing": {
+                    "margin": {
+                      "top": {
+                        "px": 0.0
+                      },
+                      "right": {
+                        "raw": "auto"
+                      },
+                      "bottom": {
+                        "px": 0.0
+                      },
+                      "left": {
+                        "raw": "auto"
+                      }
+                    },
+                    "padding": {
+                      "top": {
+                        "px": 0.0
+                      },
+                      "right": {
+                        "token": "space.gutter"
+                      },
+                      "bottom": {
+                        "px": 0.0
+                      },
+                      "left": {
+                        "token": "space.gutter"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "nw-h",
+                "kind": {
+                  "type": "frame",
+                  "element": "div"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "token": "space.6"
+                        },
+                        "align": "start"
+                      },
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "px": 0.0
+                          },
+                          "right": {
+                            "px": 0.0
+                          },
+                          "bottom": {
+                            "token": "space.10"
+                          },
+                          "left": {
+                            "px": 0.0
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "md": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "row",
+                        "gap": {
+                          "token": "space.8"
+                        },
+                        "align": "end",
+                        "justify": "spaceBetween"
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "nw-h-copy",
+                    "kind": {
+                      "type": "frame",
+                      "element": "div"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "column",
+                            "gap": {
+                              "token": "space.4"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "nw-h-k",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "News"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.label",
+                                "color": {
+                                  "token": "ink.accent"
+                                },
+                                "transform": "uppercase"
+                              },
+                              "spacing": {
+                                "margin": {
+                                  "top": {
+                                    "px": 0.0
+                                  },
+                                  "right": {
+                                    "px": 0.0
+                                  },
+                                  "bottom": {
+                                    "px": 0.0
+                                  },
+                                  "left": {
+                                    "px": 0.0
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "nw-h-t",
+                        "kind": {
+                          "type": "text",
+                          "tag": "h2",
+                          "content": "From the organisers"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.display",
+                                "color": {
+                                  "token": "ink.body"
+                                }
+                              },
+                              "spacing": {
+                                "margin": {
+                                  "top": {
+                                    "px": 0.0
+                                  },
+                                  "right": {
+                                    "px": 0.0
+                                  },
+                                  "bottom": {
+                                    "px": 0.0
+                                  },
+                                  "left": {
+                                    "px": 0.0
+                                  }
+                                }
+                              },
+                              "custom": {
+                                "text-wrap": "balance"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "nw-h-l",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Speaker announcements, venue news and the occasional behind-the-scenes."
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.lead",
+                                "color": {
+                                  "token": "ink.muted"
+                                }
+                              },
+                              "spacing": {
+                                "margin": {
+                                  "top": {
+                                    "px": 0.0
+                                  },
+                                  "right": {
+                                    "px": 0.0
+                                  },
+                                  "bottom": {
+                                    "px": 0.0
+                                  },
+                                  "left": {
+                                    "px": 0.0
+                                  }
+                                }
+                              },
+                              "size": {
+                                "maxWidth": {
+                                  "rem": 40.0
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "nw-grid",
+                "kind": {
+                  "type": "frame",
+                  "element": "div"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "grid",
+                      "grid": {
+                        "templateColumns": "minmax(0, 1fr)",
+                        "gap": {
+                          "token": "space.10"
+                        }
+                      }
+                    }
+                  },
+                  "md": {
+                    "base": {
+                      "display": "grid",
+                      "grid": {
+                        "templateColumns": "repeat(3, minmax(0, 1fr))",
+                        "gap": {
+                          "token": "space.8"
+                        }
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "n1",
+                    "kind": {
+                      "type": "link",
+                      "href": "/blog-index",
+                      "target": "same"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "decoration": "none"
+                          }
+                        },
+                        "hover": {
+                          "custom": {
+                            "opacity": "0.9"
+                          }
+                        },
+                        "focus": {
+                          "custom": {
+                            "outline": "3px solid #3D5AFE",
+                            "outline-offset": "3px"
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "n1-in",
+                        "kind": {
+                          "type": "frame",
+                          "element": "div"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "flex",
+                              "flex": {
+                                "direction": "column",
+                                "gap": {
+                                  "token": "space.3"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": "n1-img",
+                            "kind": {
+                              "type": "image",
+                              "src": "assets/images/poster-2.webp",
+                              "alt": "Poster art in lime and coral"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "size": {
+                                    "width": {
+                                      "percent": 100.0
+                                    },
+                                    "height": {
+                                      "raw": "auto"
+                                    }
+                                  },
+                                  "radius": {
+                                    "token": "radius.md"
+                                  },
+                                  "objectFit": "cover",
+                                  "custom": {
+                                    "aspect-ratio": "16 / 10"
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "n1-d",
+                            "kind": {
+                              "type": "text",
+                              "tag": "p",
+                              "content": "22 September 2026"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.label",
+                                    "color": {
+                                      "token": "ink.muted"
+                                    },
+                                    "transform": "uppercase"
+                                  },
+                                  "spacing": {
+                                    "margin": {
+                                      "top": {
+                                        "px": 0.0
+                                      },
+                                      "right": {
+                                        "px": 0.0
+                                      },
+                                      "bottom": {
+                                        "px": 0.0
+                                      },
+                                      "left": {
+                                        "px": 0.0
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "n1-t",
+                            "kind": {
+                              "type": "text",
+                              "tag": "h3",
+                              "content": "The full line-up is here"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.title",
+                                    "color": {
+                                      "token": "ink.body"
+                                    }
+                                  },
+                                  "spacing": {
+                                    "margin": {
+                                      "top": {
+                                        "px": 0.0
+                                      },
+                                      "right": {
+                                        "px": 0.0
+                                      },
+                                      "bottom": {
+                                        "px": 0.0
+                                      },
+                                      "left": {
+                                        "px": 0.0
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "n1-x",
+                            "kind": {
+                              "type": "text",
+                              "tag": "p",
+                              "content": "Twelve more speakers, four workshops and a closing talk we cannot wait for."
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.small",
+                                    "color": {
+                                      "token": "ink.muted"
+                                    }
+                                  },
+                                  "spacing": {
+                                    "margin": {
+                                      "top": {
+                                        "px": 0.0
+                                      },
+                                      "right": {
+                                        "px": 0.0
+                                      },
+                                      "bottom": {
+                                        "px": 0.0
+                                      },
+                                      "left": {
+                                        "px": 0.0
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "n2",
+                    "kind": {
+                      "type": "link",
+                      "href": "/blog-index",
+                      "target": "same"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "decoration": "none"
+                          }
+                        },
+                        "hover": {
+                          "custom": {
+                            "opacity": "0.9"
+                          }
+                        },
+                        "focus": {
+                          "custom": {
+                            "outline": "3px solid #3D5AFE",
+                            "outline-offset": "3px"
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "n2-in",
+                        "kind": {
+                          "type": "frame",
+                          "element": "div"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "flex",
+                              "flex": {
+                                "direction": "column",
+                                "gap": {
+                                  "token": "space.3"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": "n2-img",
+                            "kind": {
+                              "type": "image",
+                              "src": "assets/images/venue.webp",
+                              "alt": "Poster art in blue"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "size": {
+                                    "width": {
+                                      "percent": 100.0
+                                    },
+                                    "height": {
+                                      "raw": "auto"
+                                    }
+                                  },
+                                  "radius": {
+                                    "token": "radius.md"
+                                  },
+                                  "objectFit": "cover",
+                                  "custom": {
+                                    "aspect-ratio": "16 / 10"
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "n2-d",
+                            "kind": {
+                              "type": "text",
+                              "tag": "p",
+                              "content": "8 September 2026"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.label",
+                                    "color": {
+                                      "token": "ink.muted"
+                                    },
+                                    "transform": "uppercase"
+                                  },
+                                  "spacing": {
+                                    "margin": {
+                                      "top": {
+                                        "px": 0.0
+                                      },
+                                      "right": {
+                                        "px": 0.0
+                                      },
+                                      "bottom": {
+                                        "px": 0.0
+                                      },
+                                      "left": {
+                                        "px": 0.0
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "n2-t",
+                            "kind": {
+                              "type": "text",
+                              "tag": "h3",
+                              "content": "Why we moved to a tram depot"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.title",
+                                    "color": {
+                                      "token": "ink.body"
+                                    }
+                                  },
+                                  "spacing": {
+                                    "margin": {
+                                      "top": {
+                                        "px": 0.0
+                                      },
+                                      "right": {
+                                        "px": 0.0
+                                      },
+                                      "bottom": {
+                                        "px": 0.0
+                                      },
+                                      "left": {
+                                        "px": 0.0
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "n2-x",
+                            "kind": {
+                              "type": "text",
+                              "tag": "p",
+                              "content": "More seats, better light, and a terrace on the river for lunch."
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.small",
+                                    "color": {
+                                      "token": "ink.muted"
+                                    }
+                                  },
+                                  "spacing": {
+                                    "margin": {
+                                      "top": {
+                                        "px": 0.0
+                                      },
+                                      "right": {
+                                        "px": 0.0
+                                      },
+                                      "bottom": {
+                                        "px": 0.0
+                                      },
+                                      "left": {
+                                        "px": 0.0
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "n3",
+                    "kind": {
+                      "type": "link",
+                      "href": "/blog-index",
+                      "target": "same"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "decoration": "none"
+                          }
+                        },
+                        "hover": {
+                          "custom": {
+                            "opacity": "0.9"
+                          }
+                        },
+                        "focus": {
+                          "custom": {
+                            "outline": "3px solid #3D5AFE",
+                            "outline-offset": "3px"
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "n3-in",
+                        "kind": {
+                          "type": "frame",
+                          "element": "div"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "flex",
+                              "flex": {
+                                "direction": "column",
+                                "gap": {
+                                  "token": "space.3"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": "n3-img",
+                            "kind": {
+                              "type": "image",
+                              "src": "assets/images/glow.webp",
+                              "alt": "A navy and blue gradient"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "size": {
+                                    "width": {
+                                      "percent": 100.0
+                                    },
+                                    "height": {
+                                      "raw": "auto"
+                                    }
+                                  },
+                                  "radius": {
+                                    "token": "radius.md"
+                                  },
+                                  "objectFit": "cover",
+                                  "custom": {
+                                    "aspect-ratio": "16 / 10"
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "n3-d",
+                            "kind": {
+                              "type": "text",
+                              "tag": "p",
+                              "content": "25 August 2026"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.label",
+                                    "color": {
+                                      "token": "ink.muted"
+                                    },
+                                    "transform": "uppercase"
+                                  },
+                                  "spacing": {
+                                    "margin": {
+                                      "top": {
+                                        "px": 0.0
+                                      },
+                                      "right": {
+                                        "px": 0.0
+                                      },
+                                      "bottom": {
+                                        "px": 0.0
+                                      },
+                                      "left": {
+                                        "px": 0.0
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "n3-t",
+                            "kind": {
+                              "type": "text",
+                              "tag": "h3",
+                              "content": "Forty free diversity tickets"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.title",
+                                    "color": {
+                                      "token": "ink.body"
+                                    }
+                                  },
+                                  "spacing": {
+                                    "margin": {
+                                      "top": {
+                                        "px": 0.0
+                                      },
+                                      "right": {
+                                        "px": 0.0
+                                      },
+                                      "bottom": {
+                                        "px": 0.0
+                                      },
+                                      "left": {
+                                        "px": 0.0
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "n3-x",
+                            "kind": {
+                              "type": "text",
+                              "tag": "p",
+                              "content": "How to apply, who they are for, and who pays for them."
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.small",
+                                    "color": {
+                                      "token": "ink.muted"
+                                    }
+                                  },
+                                  "spacing": {
+                                    "margin": {
+                                      "top": {
+                                        "px": 0.0
+                                      },
+                                      "right": {
+                                        "px": 0.0
+                                      },
+                                      "bottom": {
+                                        "px": 0.0
+                                      },
+                                      "left": {
+                                        "px": 0.0
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "i-band",
+        "kind": {
+          "type": "instance",
+          "component": "summit-ticket-band"
+        }
+      },
+      {
+        "id": "i-footer",
+        "kind": {
+          "type": "instance",
+          "component": "summit-footer"
+        }
+      }
+    ]
+  },
+  "seo": {
+    "title": "News — Northwind 2026",
+    "description": "News from the Northwind organisers."
+  }
+}

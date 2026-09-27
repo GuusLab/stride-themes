@@ -1,0 +1,594 @@
+{
+  "id": "summit-footer",
+  "name": "Summit · Footer",
+  "root": {
+    "id": "footer",
+    "kind": {
+      "type": "frame",
+      "element": "footer"
+    },
+    "styles": {
+      "base": {
+        "base": {
+          "background": {
+            "token": "surface.deep"
+          },
+          "spacing": {
+            "padding": {
+              "top": {
+                "token": "space.16"
+              },
+              "right": {
+                "px": 0.0
+              },
+              "bottom": {
+                "token": "space.8"
+              },
+              "left": {
+                "px": 0.0
+              }
+            },
+            "margin": {
+              "top": {
+                "raw": "auto"
+              },
+              "right": {
+                "px": 0.0
+              },
+              "bottom": {
+                "px": 0.0
+              },
+              "left": {
+                "px": 0.0
+              }
+            }
+          },
+          "display": "flex",
+          "flex": {
+            "direction": "column",
+            "gap": {
+              "token": "space.10"
+            }
+          }
+        }
+      }
+    },
+    "children": [
+      {
+        "id": "footer-in",
+        "kind": {
+          "type": "frame",
+          "element": "div"
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "size": {
+                "width": {
+                  "percent": 100.0
+                },
+                "maxWidth": {
+                  "token": "space.wide"
+                }
+              },
+              "spacing": {
+                "margin": {
+                  "top": {
+                    "px": 0.0
+                  },
+                  "right": {
+                    "raw": "auto"
+                  },
+                  "bottom": {
+                    "px": 0.0
+                  },
+                  "left": {
+                    "raw": "auto"
+                  }
+                },
+                "padding": {
+                  "top": {
+                    "px": 0.0
+                  },
+                  "right": {
+                    "token": "space.gutter"
+                  },
+                  "bottom": {
+                    "px": 0.0
+                  },
+                  "left": {
+                    "token": "space.gutter"
+                  }
+                }
+              },
+              "display": "flex",
+              "flex": {
+                "direction": "column",
+                "gap": {
+                  "token": "space.10"
+                }
+              }
+            }
+          },
+          "md": {
+            "base": {
+              "display": "flex",
+              "flex": {
+                "direction": "row",
+                "align": "end",
+                "justify": "spaceBetween"
+              }
+            }
+          }
+        },
+        "children": [
+          {
+            "id": "footer-big",
+            "kind": {
+              "type": "frame",
+              "element": "div"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "flex",
+                  "flex": {
+                    "direction": "column",
+                    "gap": {
+                      "token": "space.3"
+                    }
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "footer-name",
+                "kind": {
+                  "type": "text",
+                  "tag": "p",
+                  "content": "Northwind"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.display",
+                        "color": {
+                          "token": "ink.inverse"
+                        }
+                      },
+                      "spacing": {
+                        "margin": {
+                          "top": {
+                            "px": 0.0
+                          },
+                          "right": {
+                            "px": 0.0
+                          },
+                          "bottom": {
+                            "px": 0.0
+                          },
+                          "left": {
+                            "px": 0.0
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "footer-when",
+                "kind": {
+                  "type": "text",
+                  "tag": "p",
+                  "content": "12–13 November 2026 · De Hallen, Rotterdam"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.lead",
+                        "color": {
+                          "token": "ink.inverse.muted"
+                        }
+                      },
+                      "spacing": {
+                        "margin": {
+                          "top": {
+                            "px": 0.0
+                          },
+                          "right": {
+                            "px": 0.0
+                          },
+                          "bottom": {
+                            "px": 0.0
+                          },
+                          "left": {
+                            "px": 0.0
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "id": "footer-links",
+            "kind": {
+              "type": "frame",
+              "element": "div"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "flex",
+                  "flex": {
+                    "direction": "column",
+                    "gap": {
+                      "token": "space.3"
+                    }
+                  }
+                }
+              },
+              "md": {
+                "base": {
+                  "display": "flex",
+                  "flex": {
+                    "direction": "row",
+                    "gap": {
+                      "token": "space.6"
+                    },
+                    "wrap": true
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "f1",
+                "kind": {
+                  "type": "link",
+                  "href": "/schedule",
+                  "target": "same"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "color": {
+                          "token": "ink.inverse"
+                        },
+                        "decoration": "none"
+                      }
+                    },
+                    "hover": {
+                      "typography": {
+                        "decoration": "underline"
+                      }
+                    },
+                    "focus": {
+                      "custom": {
+                        "outline": "3px solid #3D5AFE",
+                        "outline-offset": "3px"
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "f1-t",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "Schedule"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "color": {
+                              "token": "ink.inverse"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "f2",
+                "kind": {
+                  "type": "link",
+                  "href": "/speakers",
+                  "target": "same"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "color": {
+                          "token": "ink.inverse"
+                        },
+                        "decoration": "none"
+                      }
+                    },
+                    "hover": {
+                      "typography": {
+                        "decoration": "underline"
+                      }
+                    },
+                    "focus": {
+                      "custom": {
+                        "outline": "3px solid #3D5AFE",
+                        "outline-offset": "3px"
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "f2-t",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "Speakers"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "color": {
+                              "token": "ink.inverse"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "f3",
+                "kind": {
+                  "type": "link",
+                  "href": "/tickets",
+                  "target": "same"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "color": {
+                          "token": "ink.inverse"
+                        },
+                        "decoration": "none"
+                      }
+                    },
+                    "hover": {
+                      "typography": {
+                        "decoration": "underline"
+                      }
+                    },
+                    "focus": {
+                      "custom": {
+                        "outline": "3px solid #3D5AFE",
+                        "outline-offset": "3px"
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "f3-t",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "Tickets"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "color": {
+                              "token": "ink.inverse"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "f4",
+                "kind": {
+                  "type": "link",
+                  "href": "/about",
+                  "target": "same"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "color": {
+                          "token": "ink.inverse"
+                        },
+                        "decoration": "none"
+                      }
+                    },
+                    "hover": {
+                      "typography": {
+                        "decoration": "underline"
+                      }
+                    },
+                    "focus": {
+                      "custom": {
+                        "outline": "3px solid #3D5AFE",
+                        "outline-offset": "3px"
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "f4-t",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "About and code of conduct"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "color": {
+                              "token": "ink.inverse"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "f5",
+                "kind": {
+                  "type": "link",
+                  "href": "/contact",
+                  "target": "same"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "color": {
+                          "token": "ink.inverse"
+                        },
+                        "decoration": "none"
+                      }
+                    },
+                    "hover": {
+                      "typography": {
+                        "decoration": "underline"
+                      }
+                    },
+                    "focus": {
+                      "custom": {
+                        "outline": "3px solid #3D5AFE",
+                        "outline-offset": "3px"
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "f5-t",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "Contact"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "color": {
+                              "token": "ink.inverse"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "footer-fine",
+        "kind": {
+          "type": "text",
+          "tag": "p",
+          "content": "© 2026 Northwind Events. Made in Rotterdam, with a lot of coffee."
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "typography": {
+                "token": "type.small",
+                "size": {
+                  "rem": 0.8125
+                },
+                "color": {
+                  "token": "ink.inverse.muted"
+                }
+              },
+              "size": {
+                "width": {
+                  "percent": 100.0
+                },
+                "maxWidth": {
+                  "token": "space.wide"
+                }
+              },
+              "spacing": {
+                "margin": {
+                  "top": {
+                    "px": 0.0
+                  },
+                  "right": {
+                    "raw": "auto"
+                  },
+                  "bottom": {
+                    "px": 0.0
+                  },
+                  "left": {
+                    "raw": "auto"
+                  }
+                },
+                "padding": {
+                  "top": {
+                    "token": "space.6"
+                  },
+                  "right": {
+                    "token": "space.gutter"
+                  },
+                  "bottom": {
+                    "px": 0.0
+                  },
+                  "left": {
+                    "token": "space.gutter"
+                  }
+                }
+              },
+              "border": {
+                "top": {
+                  "width": {
+                    "px": 1.0
+                  },
+                  "style": "solid",
+                  "color": {
+                    "token": "line.inverse"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+}

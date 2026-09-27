@@ -1,0 +1,2414 @@
+{
+  "root": {
+    "id": "root",
+    "kind": {
+      "type": "frame",
+      "element": "div"
+    },
+    "styles": {
+      "base": {
+        "base": {
+          "background": {
+            "token": "surface.page"
+          },
+          "display": "flex",
+          "flex": {
+            "direction": "column"
+          },
+          "size": {
+            "minHeight": {
+              "vh": 100.0
+            }
+          }
+        }
+      }
+    },
+    "children": [
+      {
+        "id": "i-header",
+        "kind": {
+          "type": "instance",
+          "component": "summit-header"
+        }
+      },
+      {
+        "id": "spk",
+        "kind": {
+          "type": "frame",
+          "element": "section"
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "spacing": {
+                "padding": {
+                  "top": {
+                    "token": "space.16"
+                  },
+                  "right": {
+                    "px": 0.0
+                  },
+                  "bottom": {
+                    "token": "space.section"
+                  },
+                  "left": {
+                    "px": 0.0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "children": [
+          {
+            "id": "spk-in",
+            "kind": {
+              "type": "frame",
+              "element": "div"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "size": {
+                    "width": {
+                      "percent": 100.0
+                    },
+                    "maxWidth": {
+                      "token": "space.wide"
+                    }
+                  },
+                  "spacing": {
+                    "margin": {
+                      "top": {
+                        "px": 0.0
+                      },
+                      "right": {
+                        "raw": "auto"
+                      },
+                      "bottom": {
+                        "px": 0.0
+                      },
+                      "left": {
+                        "raw": "auto"
+                      }
+                    },
+                    "padding": {
+                      "top": {
+                        "px": 0.0
+                      },
+                      "right": {
+                        "token": "space.gutter"
+                      },
+                      "bottom": {
+                        "px": 0.0
+                      },
+                      "left": {
+                        "token": "space.gutter"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "spk-h",
+                "kind": {
+                  "type": "frame",
+                  "element": "div"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "token": "space.6"
+                        },
+                        "align": "start"
+                      },
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "px": 0.0
+                          },
+                          "right": {
+                            "px": 0.0
+                          },
+                          "bottom": {
+                            "token": "space.10"
+                          },
+                          "left": {
+                            "px": 0.0
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "md": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "row",
+                        "gap": {
+                          "token": "space.8"
+                        },
+                        "align": "end",
+                        "justify": "spaceBetween"
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "spk-h-copy",
+                    "kind": {
+                      "type": "frame",
+                      "element": "div"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "column",
+                            "gap": {
+                              "token": "space.4"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "spk-h-k",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Speakers"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.label",
+                                "color": {
+                                  "token": "ink.accent"
+                                },
+                                "transform": "uppercase"
+                              },
+                              "spacing": {
+                                "margin": {
+                                  "top": {
+                                    "px": 0.0
+                                  },
+                                  "right": {
+                                    "px": 0.0
+                                  },
+                                  "bottom": {
+                                    "px": 0.0
+                                  },
+                                  "left": {
+                                    "px": 0.0
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "spk-h-t",
+                        "kind": {
+                          "type": "text",
+                          "tag": "h2",
+                          "content": "Twenty-four people with something to say"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.display",
+                                "color": {
+                                  "token": "ink.body"
+                                }
+                              },
+                              "spacing": {
+                                "margin": {
+                                  "top": {
+                                    "px": 0.0
+                                  },
+                                  "right": {
+                                    "px": 0.0
+                                  },
+                                  "bottom": {
+                                    "px": 0.0
+                                  },
+                                  "left": {
+                                    "px": 0.0
+                                  }
+                                }
+                              },
+                              "custom": {
+                                "text-wrap": "balance"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "spk-h-l",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Designers, engineers, researchers and one illustrator who draws faster than you can talk. Here are the first twelve."
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.lead",
+                                "color": {
+                                  "token": "ink.muted"
+                                }
+                              },
+                              "spacing": {
+                                "margin": {
+                                  "top": {
+                                    "px": 0.0
+                                  },
+                                  "right": {
+                                    "px": 0.0
+                                  },
+                                  "bottom": {
+                                    "px": 0.0
+                                  },
+                                  "left": {
+                                    "px": 0.0
+                                  }
+                                }
+                              },
+                              "size": {
+                                "maxWidth": {
+                                  "rem": 40.0
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "spk-grid",
+                "kind": {
+                  "type": "frame",
+                  "element": "div"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "grid",
+                      "grid": {
+                        "templateColumns": "repeat(2, minmax(0, 1fr))",
+                        "gap": {
+                          "token": "space.6"
+                        }
+                      }
+                    }
+                  },
+                  "md": {
+                    "base": {
+                      "display": "grid",
+                      "grid": {
+                        "templateColumns": "repeat(4, minmax(0, 1fr))",
+                        "gap": {
+                          "token": "space.10"
+                        }
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "spk-0",
+                    "kind": {
+                      "type": "frame",
+                      "element": "div"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "column",
+                            "gap": {
+                              "token": "space.2"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "spk-0-tile",
+                        "kind": {
+                          "type": "frame",
+                          "element": "div"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "background": {
+                                "raw": "#3D5AFE"
+                              },
+                              "radius": {
+                                "token": "radius.md"
+                              },
+                              "display": "flex",
+                              "flex": {
+                                "direction": "row",
+                                "align": "end",
+                                "justify": "start"
+                              },
+                              "spacing": {
+                                "padding": {
+                                  "top": {
+                                    "token": "space.4"
+                                  },
+                                  "right": {
+                                    "token": "space.4"
+                                  },
+                                  "bottom": {
+                                    "token": "space.4"
+                                  },
+                                  "left": {
+                                    "token": "space.4"
+                                  }
+                                }
+                              },
+                              "custom": {
+                                "aspect-ratio": "1 / 1"
+                              }
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": "spk-0-in",
+                            "kind": {
+                              "type": "text",
+                              "tag": "span",
+                              "content": "AH"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "family": "'Bricolage Grotesque', 'Arial Black', ui-sans-serif, system-ui, sans-serif",
+                                    "size": {
+                                      "raw": "clamp(2.5rem, 6vw, 4rem)"
+                                    },
+                                    "weight": 700,
+                                    "lineHeight": 1,
+                                    "color": {
+                                      "raw": "#F5F3EE"
+                                    }
+                                  },
+                                  "custom": {
+                                    "letter-spacing": "-0.04em"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "spk-0-name",
+                        "kind": {
+                          "type": "text",
+                          "tag": "h3",
+                          "content": "Amara Hollis"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.title",
+                                "size": {
+                                  "rem": 1.25
+                                },
+                                "color": {
+                                  "token": "ink.body"
+                                }
+                              },
+                              "spacing": {
+                                "margin": {
+                                  "top": {
+                                    "px": 0.0
+                                  },
+                                  "right": {
+                                    "px": 0.0
+                                  },
+                                  "bottom": {
+                                    "px": 0.0
+                                  },
+                                  "left": {
+                                    "px": 0.0
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "spk-0-role",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Design lead, Mapline"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.muted"
+                                }
+                              },
+                              "spacing": {
+                                "margin": {
+                                  "top": {
+                                    "px": 0.0
+                                  },
+                                  "right": {
+                                    "px": 0.0
+                                  },
+                                  "bottom": {
+                                    "px": 0.0
+                                  },
+                                  "left": {
+                                    "px": 0.0
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "spk-1",
+                    "kind": {
+                      "type": "frame",
+                      "element": "div"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "column",
+                            "gap": {
+                              "token": "space.2"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "spk-1-tile",
+                        "kind": {
+                          "type": "frame",
+                          "element": "div"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "background": {
+                                "raw": "#FF5A36"
+                              },
+                              "radius": {
+                                "token": "radius.md"
+                              },
+                              "display": "flex",
+                              "flex": {
+                                "direction": "row",
+                                "align": "end",
+                                "justify": "start"
+                              },
+                              "spacing": {
+                                "padding": {
+                                  "top": {
+                                    "token": "space.4"
+                                  },
+                                  "right": {
+                                    "token": "space.4"
+                                  },
+                                  "bottom": {
+                                    "token": "space.4"
+                                  },
+                                  "left": {
+                                    "token": "space.4"
+                                  }
+                                }
+                              },
+                              "custom": {
+                                "aspect-ratio": "1 / 1"
+                              }
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": "spk-1-in",
+                            "kind": {
+                              "type": "text",
+                              "tag": "span",
+                              "content": "JV"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "family": "'Bricolage Grotesque', 'Arial Black', ui-sans-serif, system-ui, sans-serif",
+                                    "size": {
+                                      "raw": "clamp(2.5rem, 6vw, 4rem)"
+                                    },
+                                    "weight": 700,
+                                    "lineHeight": 1,
+                                    "color": {
+                                      "raw": "#0B1026"
+                                    }
+                                  },
+                                  "custom": {
+                                    "letter-spacing": "-0.04em"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "spk-1-name",
+                        "kind": {
+                          "type": "text",
+                          "tag": "h3",
+                          "content": "Jonas Vermeer"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.title",
+                                "size": {
+                                  "rem": 1.25
+                                },
+                                "color": {
+                                  "token": "ink.body"
+                                }
+                              },
+                              "spacing": {
+                                "margin": {
+                                  "top": {
+                                    "px": 0.0
+                                  },
+                                  "right": {
+                                    "px": 0.0
+                                  },
+                                  "bottom": {
+                                    "px": 0.0
+                                  },
+                                  "left": {
+                                    "px": 0.0
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "spk-1-role",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Type designer, Studio Leeg"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.muted"
+                                }
+                              },
+                              "spacing": {
+                                "margin": {
+                                  "top": {
+                                    "px": 0.0
+                                  },
+                                  "right": {
+                                    "px": 0.0
+                                  },
+                                  "bottom": {
+                                    "px": 0.0
+                                  },
+                                  "left": {
+                                    "px": 0.0
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "spk-2",
+                    "kind": {
+                      "type": "frame",
+                      "element": "div"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "column",
+                            "gap": {
+                              "token": "space.2"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "spk-2-tile",
+                        "kind": {
+                          "type": "frame",
+                          "element": "div"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "background": {
+                                "raw": "#C6FF3D"
+                              },
+                              "radius": {
+                                "token": "radius.md"
+                              },
+                              "display": "flex",
+                              "flex": {
+                                "direction": "row",
+                                "align": "end",
+                                "justify": "start"
+                              },
+                              "spacing": {
+                                "padding": {
+                                  "top": {
+                                    "token": "space.4"
+                                  },
+                                  "right": {
+                                    "token": "space.4"
+                                  },
+                                  "bottom": {
+                                    "token": "space.4"
+                                  },
+                                  "left": {
+                                    "token": "space.4"
+                                  }
+                                }
+                              },
+                              "custom": {
+                                "aspect-ratio": "1 / 1"
+                              }
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": "spk-2-in",
+                            "kind": {
+                              "type": "text",
+                              "tag": "span",
+                              "content": "SK"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "family": "'Bricolage Grotesque', 'Arial Black', ui-sans-serif, system-ui, sans-serif",
+                                    "size": {
+                                      "raw": "clamp(2.5rem, 6vw, 4rem)"
+                                    },
+                                    "weight": 700,
+                                    "lineHeight": 1,
+                                    "color": {
+                                      "raw": "#0B1026"
+                                    }
+                                  },
+                                  "custom": {
+                                    "letter-spacing": "-0.04em"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "spk-2-name",
+                        "kind": {
+                          "type": "text",
+                          "tag": "h3",
+                          "content": "Sana Karimi"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.title",
+                                "size": {
+                                  "rem": 1.25
+                                },
+                                "color": {
+                                  "token": "ink.body"
+                                }
+                              },
+                              "spacing": {
+                                "margin": {
+                                  "top": {
+                                    "px": 0.0
+                                  },
+                                  "right": {
+                                    "px": 0.0
+                                  },
+                                  "bottom": {
+                                    "px": 0.0
+                                  },
+                                  "left": {
+                                    "px": 0.0
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "spk-2-role",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Accessibility engineer, Openbaar"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.muted"
+                                }
+                              },
+                              "spacing": {
+                                "margin": {
+                                  "top": {
+                                    "px": 0.0
+                                  },
+                                  "right": {
+                                    "px": 0.0
+                                  },
+                                  "bottom": {
+                                    "px": 0.0
+                                  },
+                                  "left": {
+                                    "px": 0.0
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "spk-3",
+                    "kind": {
+                      "type": "frame",
+                      "element": "div"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "column",
+                            "gap": {
+                              "token": "space.2"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "spk-3-tile",
+                        "kind": {
+                          "type": "frame",
+                          "element": "div"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "background": {
+                                "raw": "#0B1026"
+                              },
+                              "radius": {
+                                "token": "radius.md"
+                              },
+                              "display": "flex",
+                              "flex": {
+                                "direction": "row",
+                                "align": "end",
+                                "justify": "start"
+                              },
+                              "spacing": {
+                                "padding": {
+                                  "top": {
+                                    "token": "space.4"
+                                  },
+                                  "right": {
+                                    "token": "space.4"
+                                  },
+                                  "bottom": {
+                                    "token": "space.4"
+                                  },
+                                  "left": {
+                                    "token": "space.4"
+                                  }
+                                }
+                              },
+                              "custom": {
+                                "aspect-ratio": "1 / 1"
+                              }
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": "spk-3-in",
+                            "kind": {
+                              "type": "text",
+                              "tag": "span",
+                              "content": "TO"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "family": "'Bricolage Grotesque', 'Arial Black', ui-sans-serif, system-ui, sans-serif",
+                                    "size": {
+                                      "raw": "clamp(2.5rem, 6vw, 4rem)"
+                                    },
+                                    "weight": 700,
+                                    "lineHeight": 1,
+                                    "color": {
+                                      "raw": "#F5F3EE"
+                                    }
+                                  },
+                                  "custom": {
+                                    "letter-spacing": "-0.04em"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "spk-3-name",
+                        "kind": {
+                          "type": "text",
+                          "tag": "h3",
+                          "content": "Tomás Ortega"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.title",
+                                "size": {
+                                  "rem": 1.25
+                                },
+                                "color": {
+                                  "token": "ink.body"
+                                }
+                              },
+                              "spacing": {
+                                "margin": {
+                                  "top": {
+                                    "px": 0.0
+                                  },
+                                  "right": {
+                                    "px": 0.0
+                                  },
+                                  "bottom": {
+                                    "px": 0.0
+                                  },
+                                  "left": {
+                                    "px": 0.0
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "spk-3-role",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Creative technologist"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.muted"
+                                }
+                              },
+                              "spacing": {
+                                "margin": {
+                                  "top": {
+                                    "px": 0.0
+                                  },
+                                  "right": {
+                                    "px": 0.0
+                                  },
+                                  "bottom": {
+                                    "px": 0.0
+                                  },
+                                  "left": {
+                                    "px": 0.0
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "spk-4",
+                    "kind": {
+                      "type": "frame",
+                      "element": "div"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "column",
+                            "gap": {
+                              "token": "space.2"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "spk-4-tile",
+                        "kind": {
+                          "type": "frame",
+                          "element": "div"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "background": {
+                                "raw": "#E8D5FF"
+                              },
+                              "radius": {
+                                "token": "radius.md"
+                              },
+                              "display": "flex",
+                              "flex": {
+                                "direction": "row",
+                                "align": "end",
+                                "justify": "start"
+                              },
+                              "spacing": {
+                                "padding": {
+                                  "top": {
+                                    "token": "space.4"
+                                  },
+                                  "right": {
+                                    "token": "space.4"
+                                  },
+                                  "bottom": {
+                                    "token": "space.4"
+                                  },
+                                  "left": {
+                                    "token": "space.4"
+                                  }
+                                }
+                              },
+                              "custom": {
+                                "aspect-ratio": "1 / 1"
+                              }
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": "spk-4-in",
+                            "kind": {
+                              "type": "text",
+                              "tag": "span",
+                              "content": "LB"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "family": "'Bricolage Grotesque', 'Arial Black', ui-sans-serif, system-ui, sans-serif",
+                                    "size": {
+                                      "raw": "clamp(2.5rem, 6vw, 4rem)"
+                                    },
+                                    "weight": 700,
+                                    "lineHeight": 1,
+                                    "color": {
+                                      "raw": "#0B1026"
+                                    }
+                                  },
+                                  "custom": {
+                                    "letter-spacing": "-0.04em"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "spk-4-name",
+                        "kind": {
+                          "type": "text",
+                          "tag": "h3",
+                          "content": "Lea Brandt"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.title",
+                                "size": {
+                                  "rem": 1.25
+                                },
+                                "color": {
+                                  "token": "ink.body"
+                                }
+                              },
+                              "spacing": {
+                                "margin": {
+                                  "top": {
+                                    "px": 0.0
+                                  },
+                                  "right": {
+                                    "px": 0.0
+                                  },
+                                  "bottom": {
+                                    "px": 0.0
+                                  },
+                                  "left": {
+                                    "px": 0.0
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "spk-4-role",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Product designer, Kade"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.muted"
+                                }
+                              },
+                              "spacing": {
+                                "margin": {
+                                  "top": {
+                                    "px": 0.0
+                                  },
+                                  "right": {
+                                    "px": 0.0
+                                  },
+                                  "bottom": {
+                                    "px": 0.0
+                                  },
+                                  "left": {
+                                    "px": 0.0
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "spk-5",
+                    "kind": {
+                      "type": "frame",
+                      "element": "div"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "column",
+                            "gap": {
+                              "token": "space.2"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "spk-5-tile",
+                        "kind": {
+                          "type": "frame",
+                          "element": "div"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "background": {
+                                "raw": "#3D5AFE"
+                              },
+                              "radius": {
+                                "token": "radius.md"
+                              },
+                              "display": "flex",
+                              "flex": {
+                                "direction": "row",
+                                "align": "end",
+                                "justify": "start"
+                              },
+                              "spacing": {
+                                "padding": {
+                                  "top": {
+                                    "token": "space.4"
+                                  },
+                                  "right": {
+                                    "token": "space.4"
+                                  },
+                                  "bottom": {
+                                    "token": "space.4"
+                                  },
+                                  "left": {
+                                    "token": "space.4"
+                                  }
+                                }
+                              },
+                              "custom": {
+                                "aspect-ratio": "1 / 1"
+                              }
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": "spk-5-in",
+                            "kind": {
+                              "type": "text",
+                              "tag": "span",
+                              "content": "RN"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "family": "'Bricolage Grotesque', 'Arial Black', ui-sans-serif, system-ui, sans-serif",
+                                    "size": {
+                                      "raw": "clamp(2.5rem, 6vw, 4rem)"
+                                    },
+                                    "weight": 700,
+                                    "lineHeight": 1,
+                                    "color": {
+                                      "raw": "#F5F3EE"
+                                    }
+                                  },
+                                  "custom": {
+                                    "letter-spacing": "-0.04em"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "spk-5-name",
+                        "kind": {
+                          "type": "text",
+                          "tag": "h3",
+                          "content": "Rafael Nunes"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.title",
+                                "size": {
+                                  "rem": 1.25
+                                },
+                                "color": {
+                                  "token": "ink.body"
+                                }
+                              },
+                              "spacing": {
+                                "margin": {
+                                  "top": {
+                                    "px": 0.0
+                                  },
+                                  "right": {
+                                    "px": 0.0
+                                  },
+                                  "bottom": {
+                                    "px": 0.0
+                                  },
+                                  "left": {
+                                    "px": 0.0
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "spk-5-role",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Founder, Small Web Co."
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.muted"
+                                }
+                              },
+                              "spacing": {
+                                "margin": {
+                                  "top": {
+                                    "px": 0.0
+                                  },
+                                  "right": {
+                                    "px": 0.0
+                                  },
+                                  "bottom": {
+                                    "px": 0.0
+                                  },
+                                  "left": {
+                                    "px": 0.0
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "spk-6",
+                    "kind": {
+                      "type": "frame",
+                      "element": "div"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "column",
+                            "gap": {
+                              "token": "space.2"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "spk-6-tile",
+                        "kind": {
+                          "type": "frame",
+                          "element": "div"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "background": {
+                                "raw": "#FF5A36"
+                              },
+                              "radius": {
+                                "token": "radius.md"
+                              },
+                              "display": "flex",
+                              "flex": {
+                                "direction": "row",
+                                "align": "end",
+                                "justify": "start"
+                              },
+                              "spacing": {
+                                "padding": {
+                                  "top": {
+                                    "token": "space.4"
+                                  },
+                                  "right": {
+                                    "token": "space.4"
+                                  },
+                                  "bottom": {
+                                    "token": "space.4"
+                                  },
+                                  "left": {
+                                    "token": "space.4"
+                                  }
+                                }
+                              },
+                              "custom": {
+                                "aspect-ratio": "1 / 1"
+                              }
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": "spk-6-in",
+                            "kind": {
+                              "type": "text",
+                              "tag": "span",
+                              "content": "MI"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "family": "'Bricolage Grotesque', 'Arial Black', ui-sans-serif, system-ui, sans-serif",
+                                    "size": {
+                                      "raw": "clamp(2.5rem, 6vw, 4rem)"
+                                    },
+                                    "weight": 700,
+                                    "lineHeight": 1,
+                                    "color": {
+                                      "raw": "#0B1026"
+                                    }
+                                  },
+                                  "custom": {
+                                    "letter-spacing": "-0.04em"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "spk-6-name",
+                        "kind": {
+                          "type": "text",
+                          "tag": "h3",
+                          "content": "Mei Ishikawa"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.title",
+                                "size": {
+                                  "rem": 1.25
+                                },
+                                "color": {
+                                  "token": "ink.body"
+                                }
+                              },
+                              "spacing": {
+                                "margin": {
+                                  "top": {
+                                    "px": 0.0
+                                  },
+                                  "right": {
+                                    "px": 0.0
+                                  },
+                                  "bottom": {
+                                    "px": 0.0
+                                  },
+                                  "left": {
+                                    "px": 0.0
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "spk-6-role",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Motion director, Kinetik"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.muted"
+                                }
+                              },
+                              "spacing": {
+                                "margin": {
+                                  "top": {
+                                    "px": 0.0
+                                  },
+                                  "right": {
+                                    "px": 0.0
+                                  },
+                                  "bottom": {
+                                    "px": 0.0
+                                  },
+                                  "left": {
+                                    "px": 0.0
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "spk-7",
+                    "kind": {
+                      "type": "frame",
+                      "element": "div"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "column",
+                            "gap": {
+                              "token": "space.2"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "spk-7-tile",
+                        "kind": {
+                          "type": "frame",
+                          "element": "div"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "background": {
+                                "raw": "#C6FF3D"
+                              },
+                              "radius": {
+                                "token": "radius.md"
+                              },
+                              "display": "flex",
+                              "flex": {
+                                "direction": "row",
+                                "align": "end",
+                                "justify": "start"
+                              },
+                              "spacing": {
+                                "padding": {
+                                  "top": {
+                                    "token": "space.4"
+                                  },
+                                  "right": {
+                                    "token": "space.4"
+                                  },
+                                  "bottom": {
+                                    "token": "space.4"
+                                  },
+                                  "left": {
+                                    "token": "space.4"
+                                  }
+                                }
+                              },
+                              "custom": {
+                                "aspect-ratio": "1 / 1"
+                              }
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": "spk-7-in",
+                            "kind": {
+                              "type": "text",
+                              "tag": "span",
+                              "content": "DE"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "family": "'Bricolage Grotesque', 'Arial Black', ui-sans-serif, system-ui, sans-serif",
+                                    "size": {
+                                      "raw": "clamp(2.5rem, 6vw, 4rem)"
+                                    },
+                                    "weight": 700,
+                                    "lineHeight": 1,
+                                    "color": {
+                                      "raw": "#0B1026"
+                                    }
+                                  },
+                                  "custom": {
+                                    "letter-spacing": "-0.04em"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "spk-7-name",
+                        "kind": {
+                          "type": "text",
+                          "tag": "h3",
+                          "content": "Daan Evers"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.title",
+                                "size": {
+                                  "rem": 1.25
+                                },
+                                "color": {
+                                  "token": "ink.body"
+                                }
+                              },
+                              "spacing": {
+                                "margin": {
+                                  "top": {
+                                    "px": 0.0
+                                  },
+                                  "right": {
+                                    "px": 0.0
+                                  },
+                                  "bottom": {
+                                    "px": 0.0
+                                  },
+                                  "left": {
+                                    "px": 0.0
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "spk-7-role",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "CSS author and teacher"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.muted"
+                                }
+                              },
+                              "spacing": {
+                                "margin": {
+                                  "top": {
+                                    "px": 0.0
+                                  },
+                                  "right": {
+                                    "px": 0.0
+                                  },
+                                  "bottom": {
+                                    "px": 0.0
+                                  },
+                                  "left": {
+                                    "px": 0.0
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "spk-8",
+                    "kind": {
+                      "type": "frame",
+                      "element": "div"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "column",
+                            "gap": {
+                              "token": "space.2"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "spk-8-tile",
+                        "kind": {
+                          "type": "frame",
+                          "element": "div"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "background": {
+                                "raw": "#0B1026"
+                              },
+                              "radius": {
+                                "token": "radius.md"
+                              },
+                              "display": "flex",
+                              "flex": {
+                                "direction": "row",
+                                "align": "end",
+                                "justify": "start"
+                              },
+                              "spacing": {
+                                "padding": {
+                                  "top": {
+                                    "token": "space.4"
+                                  },
+                                  "right": {
+                                    "token": "space.4"
+                                  },
+                                  "bottom": {
+                                    "token": "space.4"
+                                  },
+                                  "left": {
+                                    "token": "space.4"
+                                  }
+                                }
+                              },
+                              "custom": {
+                                "aspect-ratio": "1 / 1"
+                              }
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": "spk-8-in",
+                            "kind": {
+                              "type": "text",
+                              "tag": "span",
+                              "content": "NA"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "family": "'Bricolage Grotesque', 'Arial Black', ui-sans-serif, system-ui, sans-serif",
+                                    "size": {
+                                      "raw": "clamp(2.5rem, 6vw, 4rem)"
+                                    },
+                                    "weight": 700,
+                                    "lineHeight": 1,
+                                    "color": {
+                                      "raw": "#F5F3EE"
+                                    }
+                                  },
+                                  "custom": {
+                                    "letter-spacing": "-0.04em"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "spk-8-name",
+                        "kind": {
+                          "type": "text",
+                          "tag": "h3",
+                          "content": "Noor Aziz"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.title",
+                                "size": {
+                                  "rem": 1.25
+                                },
+                                "color": {
+                                  "token": "ink.body"
+                                }
+                              },
+                              "spacing": {
+                                "margin": {
+                                  "top": {
+                                    "px": 0.0
+                                  },
+                                  "right": {
+                                    "px": 0.0
+                                  },
+                                  "bottom": {
+                                    "px": 0.0
+                                  },
+                                  "left": {
+                                    "px": 0.0
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "spk-8-role",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Research lead, Civic Design Lab"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.muted"
+                                }
+                              },
+                              "spacing": {
+                                "margin": {
+                                  "top": {
+                                    "px": 0.0
+                                  },
+                                  "right": {
+                                    "px": 0.0
+                                  },
+                                  "bottom": {
+                                    "px": 0.0
+                                  },
+                                  "left": {
+                                    "px": 0.0
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "spk-9",
+                    "kind": {
+                      "type": "frame",
+                      "element": "div"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "column",
+                            "gap": {
+                              "token": "space.2"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "spk-9-tile",
+                        "kind": {
+                          "type": "frame",
+                          "element": "div"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "background": {
+                                "raw": "#E8D5FF"
+                              },
+                              "radius": {
+                                "token": "radius.md"
+                              },
+                              "display": "flex",
+                              "flex": {
+                                "direction": "row",
+                                "align": "end",
+                                "justify": "start"
+                              },
+                              "spacing": {
+                                "padding": {
+                                  "top": {
+                                    "token": "space.4"
+                                  },
+                                  "right": {
+                                    "token": "space.4"
+                                  },
+                                  "bottom": {
+                                    "token": "space.4"
+                                  },
+                                  "left": {
+                                    "token": "space.4"
+                                  }
+                                }
+                              },
+                              "custom": {
+                                "aspect-ratio": "1 / 1"
+                              }
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": "spk-9-in",
+                            "kind": {
+                              "type": "text",
+                              "tag": "span",
+                              "content": "PK"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "family": "'Bricolage Grotesque', 'Arial Black', ui-sans-serif, system-ui, sans-serif",
+                                    "size": {
+                                      "raw": "clamp(2.5rem, 6vw, 4rem)"
+                                    },
+                                    "weight": 700,
+                                    "lineHeight": 1,
+                                    "color": {
+                                      "raw": "#0B1026"
+                                    }
+                                  },
+                                  "custom": {
+                                    "letter-spacing": "-0.04em"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "spk-9-name",
+                        "kind": {
+                          "type": "text",
+                          "tag": "h3",
+                          "content": "Pieter Kok"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.title",
+                                "size": {
+                                  "rem": 1.25
+                                },
+                                "color": {
+                                  "token": "ink.body"
+                                }
+                              },
+                              "spacing": {
+                                "margin": {
+                                  "top": {
+                                    "px": 0.0
+                                  },
+                                  "right": {
+                                    "px": 0.0
+                                  },
+                                  "bottom": {
+                                    "px": 0.0
+                                  },
+                                  "left": {
+                                    "px": 0.0
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "spk-9-role",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Web performance, Snelweg"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.muted"
+                                }
+                              },
+                              "spacing": {
+                                "margin": {
+                                  "top": {
+                                    "px": 0.0
+                                  },
+                                  "right": {
+                                    "px": 0.0
+                                  },
+                                  "bottom": {
+                                    "px": 0.0
+                                  },
+                                  "left": {
+                                    "px": 0.0
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "spk-10",
+                    "kind": {
+                      "type": "frame",
+                      "element": "div"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "column",
+                            "gap": {
+                              "token": "space.2"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "spk-10-tile",
+                        "kind": {
+                          "type": "frame",
+                          "element": "div"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "background": {
+                                "raw": "#3D5AFE"
+                              },
+                              "radius": {
+                                "token": "radius.md"
+                              },
+                              "display": "flex",
+                              "flex": {
+                                "direction": "row",
+                                "align": "end",
+                                "justify": "start"
+                              },
+                              "spacing": {
+                                "padding": {
+                                  "top": {
+                                    "token": "space.4"
+                                  },
+                                  "right": {
+                                    "token": "space.4"
+                                  },
+                                  "bottom": {
+                                    "token": "space.4"
+                                  },
+                                  "left": {
+                                    "token": "space.4"
+                                  }
+                                }
+                              },
+                              "custom": {
+                                "aspect-ratio": "1 / 1"
+                              }
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": "spk-10-in",
+                            "kind": {
+                              "type": "text",
+                              "tag": "span",
+                              "content": "CW"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "family": "'Bricolage Grotesque', 'Arial Black', ui-sans-serif, system-ui, sans-serif",
+                                    "size": {
+                                      "raw": "clamp(2.5rem, 6vw, 4rem)"
+                                    },
+                                    "weight": 700,
+                                    "lineHeight": 1,
+                                    "color": {
+                                      "raw": "#F5F3EE"
+                                    }
+                                  },
+                                  "custom": {
+                                    "letter-spacing": "-0.04em"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "spk-10-name",
+                        "kind": {
+                          "type": "text",
+                          "tag": "h3",
+                          "content": "Chloe Wu"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.title",
+                                "size": {
+                                  "rem": 1.25
+                                },
+                                "color": {
+                                  "token": "ink.body"
+                                }
+                              },
+                              "spacing": {
+                                "margin": {
+                                  "top": {
+                                    "px": 0.0
+                                  },
+                                  "right": {
+                                    "px": 0.0
+                                  },
+                                  "bottom": {
+                                    "px": 0.0
+                                  },
+                                  "left": {
+                                    "px": 0.0
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "spk-10-role",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Illustrator and animator"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.muted"
+                                }
+                              },
+                              "spacing": {
+                                "margin": {
+                                  "top": {
+                                    "px": 0.0
+                                  },
+                                  "right": {
+                                    "px": 0.0
+                                  },
+                                  "bottom": {
+                                    "px": 0.0
+                                  },
+                                  "left": {
+                                    "px": 0.0
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "spk-11",
+                    "kind": {
+                      "type": "frame",
+                      "element": "div"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "column",
+                            "gap": {
+                              "token": "space.2"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "spk-11-tile",
+                        "kind": {
+                          "type": "frame",
+                          "element": "div"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "background": {
+                                "raw": "#FF5A36"
+                              },
+                              "radius": {
+                                "token": "radius.md"
+                              },
+                              "display": "flex",
+                              "flex": {
+                                "direction": "row",
+                                "align": "end",
+                                "justify": "start"
+                              },
+                              "spacing": {
+                                "padding": {
+                                  "top": {
+                                    "token": "space.4"
+                                  },
+                                  "right": {
+                                    "token": "space.4"
+                                  },
+                                  "bottom": {
+                                    "token": "space.4"
+                                  },
+                                  "left": {
+                                    "token": "space.4"
+                                  }
+                                }
+                              },
+                              "custom": {
+                                "aspect-ratio": "1 / 1"
+                              }
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": "spk-11-in",
+                            "kind": {
+                              "type": "text",
+                              "tag": "span",
+                              "content": "BA"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "family": "'Bricolage Grotesque', 'Arial Black', ui-sans-serif, system-ui, sans-serif",
+                                    "size": {
+                                      "raw": "clamp(2.5rem, 6vw, 4rem)"
+                                    },
+                                    "weight": 700,
+                                    "lineHeight": 1,
+                                    "color": {
+                                      "raw": "#0B1026"
+                                    }
+                                  },
+                                  "custom": {
+                                    "letter-spacing": "-0.04em"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "spk-11-name",
+                        "kind": {
+                          "type": "text",
+                          "tag": "h3",
+                          "content": "Bram Aalders"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.title",
+                                "size": {
+                                  "rem": 1.25
+                                },
+                                "color": {
+                                  "token": "ink.body"
+                                }
+                              },
+                              "spacing": {
+                                "margin": {
+                                  "top": {
+                                    "px": 0.0
+                                  },
+                                  "right": {
+                                    "px": 0.0
+                                  },
+                                  "bottom": {
+                                    "px": 0.0
+                                  },
+                                  "left": {
+                                    "px": 0.0
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "spk-11-role",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Organiser, Northwind"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.small",
+                                "color": {
+                                  "token": "ink.muted"
+                                }
+                              },
+                              "spacing": {
+                                "margin": {
+                                  "top": {
+                                    "px": 0.0
+                                  },
+                                  "right": {
+                                    "px": 0.0
+                                  },
+                                  "bottom": {
+                                    "px": 0.0
+                                  },
+                                  "left": {
+                                    "px": 0.0
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "i-band",
+        "kind": {
+          "type": "instance",
+          "component": "summit-ticket-band"
+        }
+      },
+      {
+        "id": "i-footer",
+        "kind": {
+          "type": "instance",
+          "component": "summit-footer"
+        }
+      }
+    ]
+  },
+  "seo": {
+    "title": "Speakers — Northwind 2026",
+    "description": "The people speaking at Northwind 2026."
+  }
+}

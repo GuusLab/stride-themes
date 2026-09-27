@@ -1,0 +1,68 @@
+{
+  "id": "summit",
+  "name": "Summit",
+  "version": "1.0.0",
+  "author": {
+    "id": "guuslab",
+    "name": "GuusLab"
+  },
+  "tagline": "A bold poster-style theme for conferences, festivals and events.",
+  "longDescription": "Summit is built for events that want to be seen: conferences, festivals, meetups and launch days. Night navy, tangerine and lime, poster art made of simple shapes, and big grotesque type that reads from the back of the room. Headlines are set in Bricolage Grotesque, everything else in Space Grotesk.\n\nIt ships a complete event site: a home page with a poster hero, key numbers, speakers, the day's schedule, tickets, the venue and sponsors; a full two-day schedule; a speakers page; a tickets page with questions and answers; an about page with your code of conduct; news, contact and a 404 that says the session was cancelled. Speakers are shown as bold initial tiles, so no stock photos are needed.\n\nEvery colour and type style is a design token and all text meets WCAG AA contrast. Four original poster artworks are included, generated for this theme.",
+  "categories": [
+    "event",
+    "landing"
+  ],
+  "accent": "#FF5A36",
+  "icon": "icon.png",
+  "screenshots": [
+    {
+      "file": "screenshots/01.png",
+      "caption": "Home: poster hero, key numbers and the speakers"
+    },
+    {
+      "file": "screenshots/02.png",
+      "caption": "The two-day schedule, one stage and no clashes"
+    },
+    {
+      "file": "screenshots/03.png",
+      "caption": "Tickets: three tiers, the featured one in lime"
+    },
+    {
+      "file": "screenshots/04.png",
+      "caption": "On a phone: home, schedule and speakers"
+    }
+  ],
+  "fonts": [
+    {
+      "family": "Bricolage Grotesque",
+      "file": "assets/fonts/bricolage-grotesque-latin-500-normal.woff2",
+      "weight": 500,
+      "style": "normal"
+    },
+    {
+      "family": "Bricolage Grotesque",
+      "file": "assets/fonts/bricolage-grotesque-latin-700-normal.woff2",
+      "weight": 700,
+      "style": "normal"
+    },
+    {
+      "family": "Space Grotesk",
+      "file": "assets/fonts/space-grotesk-latin-400-normal.woff2",
+      "weight": 400,
+      "style": "normal"
+    },
+    {
+      "family": "Space Grotesk",
+      "file": "assets/fonts/space-grotesk-latin-500-normal.woff2",
+      "weight": 500,
+      "style": "normal"
+    },
+    {
+      "family": "Space Grotesk",
+      "file": "assets/fonts/space-grotesk-latin-700-normal.woff2",
+      "weight": 700,
+      "style": "normal"
+    }
+  ],
+  "homeTemplate": "home"
+}

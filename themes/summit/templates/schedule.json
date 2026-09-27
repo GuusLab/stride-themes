@@ -1,0 +1,4597 @@
+{
+  "root": {
+    "id": "root",
+    "kind": {
+      "type": "frame",
+      "element": "div"
+    },
+    "styles": {
+      "base": {
+        "base": {
+          "background": {
+            "token": "surface.page"
+          },
+          "display": "flex",
+          "flex": {
+            "direction": "column"
+          },
+          "size": {
+            "minHeight": {
+              "vh": 100.0
+            }
+          }
+        }
+      }
+    },
+    "children": [
+      {
+        "id": "i-header",
+        "kind": {
+          "type": "instance",
+          "component": "summit-header"
+        }
+      },
+      {
+        "id": "sch",
+        "kind": {
+          "type": "frame",
+          "element": "section"
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "background": {
+                "token": "surface.deep"
+              },
+              "spacing": {
+                "padding": {
+                  "top": {
+                    "token": "space.16"
+                  },
+                  "right": {
+                    "px": 0.0
+                  },
+                  "bottom": {
+                    "token": "space.section"
+                  },
+                  "left": {
+                    "px": 0.0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "children": [
+          {
+            "id": "sch-in",
+            "kind": {
+              "type": "frame",
+              "element": "div"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "size": {
+                    "width": {
+                      "percent": 100.0
+                    },
+                    "maxWidth": {
+                      "token": "space.wide"
+                    }
+                  },
+                  "spacing": {
+                    "margin": {
+                      "top": {
+                        "px": 0.0
+                      },
+                      "right": {
+                        "raw": "auto"
+                      },
+                      "bottom": {
+                        "px": 0.0
+                      },
+                      "left": {
+                        "raw": "auto"
+                      }
+                    },
+                    "padding": {
+                      "top": {
+                        "px": 0.0
+                      },
+                      "right": {
+                        "token": "space.gutter"
+                      },
+                      "bottom": {
+                        "px": 0.0
+                      },
+                      "left": {
+                        "token": "space.gutter"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "sch-top",
+                "kind": {
+                  "type": "frame",
+                  "element": "div"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column",
+                        "gap": {
+                          "token": "space.5"
+                        }
+                      },
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "px": 0.0
+                          },
+                          "right": {
+                            "px": 0.0
+                          },
+                          "bottom": {
+                            "token": "space.16"
+                          },
+                          "left": {
+                            "px": 0.0
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "sch-k",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "Schedule"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.label",
+                            "color": {
+                              "token": "surface.highlight"
+                            },
+                            "transform": "uppercase"
+                          },
+                          "spacing": {
+                            "margin": {
+                              "top": {
+                                "px": 0.0
+                              },
+                              "right": {
+                                "px": 0.0
+                              },
+                              "bottom": {
+                                "px": 0.0
+                              },
+                              "left": {
+                                "px": 0.0
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "sch-t",
+                    "kind": {
+                      "type": "text",
+                      "tag": "h1",
+                      "content": "Two days, one stage, no clashes"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.display",
+                            "color": {
+                              "token": "ink.inverse"
+                            }
+                          },
+                          "spacing": {
+                            "margin": {
+                              "top": {
+                                "px": 0.0
+                              },
+                              "right": {
+                                "px": 0.0
+                              },
+                              "bottom": {
+                                "px": 0.0
+                              },
+                              "left": {
+                                "px": 0.0
+                              }
+                            }
+                          },
+                          "custom": {
+                            "text-wrap": "balance"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "sch-l",
+                    "kind": {
+                      "type": "text",
+                      "tag": "p",
+                      "content": "Every talk is on the main stage, so you never have to choose. Workshops run in the studio and need a sign-up on the day."
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.lead",
+                            "color": {
+                              "token": "ink.inverse.muted"
+                            }
+                          },
+                          "spacing": {
+                            "margin": {
+                              "top": {
+                                "px": 0.0
+                              },
+                              "right": {
+                                "px": 0.0
+                              },
+                              "bottom": {
+                                "px": 0.0
+                              },
+                              "left": {
+                                "px": 0.0
+                              }
+                            }
+                          },
+                          "size": {
+                            "maxWidth": {
+                              "rem": 42.0
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "day1",
+                "kind": {
+                  "type": "frame",
+                  "element": "div"
+                },
+                "children": [
+                  {
+                    "id": "day1-h",
+                    "kind": {
+                      "type": "frame",
+                      "element": "div"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "column",
+                            "gap": {
+                              "token": "space.6"
+                            },
+                            "align": "start"
+                          },
+                          "spacing": {
+                            "padding": {
+                              "top": {
+                                "px": 0.0
+                              },
+                              "right": {
+                                "px": 0.0
+                              },
+                              "bottom": {
+                                "token": "space.10"
+                              },
+                              "left": {
+                                "px": 0.0
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "md": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "row",
+                            "gap": {
+                              "token": "space.8"
+                            },
+                            "align": "end",
+                            "justify": "spaceBetween"
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "day1-h-copy",
+                        "kind": {
+                          "type": "frame",
+                          "element": "div"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "flex",
+                              "flex": {
+                                "direction": "column",
+                                "gap": {
+                                  "token": "space.4"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": "day1-h-k",
+                            "kind": {
+                              "type": "text",
+                              "tag": "p",
+                              "content": "Thursday 12 November"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.label",
+                                    "color": {
+                                      "token": "surface.highlight"
+                                    },
+                                    "transform": "uppercase"
+                                  },
+                                  "spacing": {
+                                    "margin": {
+                                      "top": {
+                                        "px": 0.0
+                                      },
+                                      "right": {
+                                        "px": 0.0
+                                      },
+                                      "bottom": {
+                                        "px": 0.0
+                                      },
+                                      "left": {
+                                        "px": 0.0
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "day1-h-t",
+                            "kind": {
+                              "type": "text",
+                              "tag": "h2",
+                              "content": "Day one"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.display",
+                                    "color": {
+                                      "token": "ink.inverse"
+                                    }
+                                  },
+                                  "spacing": {
+                                    "margin": {
+                                      "top": {
+                                        "px": 0.0
+                                      },
+                                      "right": {
+                                        "px": 0.0
+                                      },
+                                      "bottom": {
+                                        "px": 0.0
+                                      },
+                                      "left": {
+                                        "px": 0.0
+                                      }
+                                    }
+                                  },
+                                  "custom": {
+                                    "text-wrap": "balance"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "day1-l",
+                    "kind": {
+                      "type": "frame",
+                      "element": "div"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "column"
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "day1-0",
+                        "kind": {
+                          "type": "frame",
+                          "element": "div"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "grid",
+                              "grid": {
+                                "templateColumns": "minmax(0, 1fr)",
+                                "gap": {
+                                  "token": "space.2"
+                                }
+                              },
+                              "spacing": {
+                                "padding": {
+                                  "top": {
+                                    "token": "space.5"
+                                  },
+                                  "right": {
+                                    "px": 0.0
+                                  },
+                                  "bottom": {
+                                    "token": "space.5"
+                                  },
+                                  "left": {
+                                    "px": 0.0
+                                  }
+                                }
+                              },
+                              "border": {
+                                "top": {
+                                  "width": {
+                                    "px": 1.0
+                                  },
+                                  "style": "solid",
+                                  "color": {
+                                    "token": "line.inverse"
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "md": {
+                            "base": {
+                              "display": "grid",
+                              "grid": {
+                                "templateColumns": "6rem minmax(0, 1fr) 9rem",
+                                "gap": {
+                                  "token": "space.6"
+                                },
+                                "align": "baseline"
+                              }
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": "day1-0-t",
+                            "kind": {
+                              "type": "text",
+                              "tag": "p",
+                              "content": "09:00"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.time",
+                                    "color": {
+                                      "token": "surface.highlight"
+                                    }
+                                  },
+                                  "spacing": {
+                                    "margin": {
+                                      "top": {
+                                        "px": 0.0
+                                      },
+                                      "right": {
+                                        "px": 0.0
+                                      },
+                                      "bottom": {
+                                        "px": 0.0
+                                      },
+                                      "left": {
+                                        "px": 0.0
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "day1-0-c",
+                            "kind": {
+                              "type": "frame",
+                              "element": "div"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "display": "flex",
+                                  "flex": {
+                                    "direction": "column",
+                                    "gap": {
+                                      "token": "space.1"
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": "day1-0-talk",
+                                "kind": {
+                                  "type": "text",
+                                  "tag": "h3",
+                                  "content": "Doors, coffee and badges"
+                                },
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "typography": {
+                                        "token": "type.title",
+                                        "size": {
+                                          "rem": 1.25
+                                        },
+                                        "color": {
+                                          "token": "ink.inverse"
+                                        }
+                                      },
+                                      "spacing": {
+                                        "margin": {
+                                          "top": {
+                                            "px": 0.0
+                                          },
+                                          "right": {
+                                            "px": 0.0
+                                          },
+                                          "bottom": {
+                                            "px": 0.0
+                                          },
+                                          "left": {
+                                            "px": 0.0
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              {
+                                "id": "day1-0-who",
+                                "kind": {
+                                  "type": "text",
+                                  "tag": "p",
+                                  "content": "Everyone"
+                                },
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "typography": {
+                                        "token": "type.small",
+                                        "color": {
+                                          "token": "ink.inverse.muted"
+                                        }
+                                      },
+                                      "spacing": {
+                                        "margin": {
+                                          "top": {
+                                            "px": 0.0
+                                          },
+                                          "right": {
+                                            "px": 0.0
+                                          },
+                                          "bottom": {
+                                            "px": 0.0
+                                          },
+                                          "left": {
+                                            "px": 0.0
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "day1-0-room",
+                            "kind": {
+                              "type": "text",
+                              "tag": "p",
+                              "content": "Hall"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.label",
+                                    "color": {
+                                      "token": "ink.inverse.muted"
+                                    },
+                                    "transform": "uppercase"
+                                  },
+                                  "spacing": {
+                                    "margin": {
+                                      "top": {
+                                        "px": 0.0
+                                      },
+                                      "right": {
+                                        "px": 0.0
+                                      },
+                                      "bottom": {
+                                        "px": 0.0
+                                      },
+                                      "left": {
+                                        "px": 0.0
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "day1-1",
+                        "kind": {
+                          "type": "frame",
+                          "element": "div"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "grid",
+                              "grid": {
+                                "templateColumns": "minmax(0, 1fr)",
+                                "gap": {
+                                  "token": "space.2"
+                                }
+                              },
+                              "spacing": {
+                                "padding": {
+                                  "top": {
+                                    "token": "space.5"
+                                  },
+                                  "right": {
+                                    "px": 0.0
+                                  },
+                                  "bottom": {
+                                    "token": "space.5"
+                                  },
+                                  "left": {
+                                    "px": 0.0
+                                  }
+                                }
+                              },
+                              "border": {
+                                "top": {
+                                  "width": {
+                                    "px": 1.0
+                                  },
+                                  "style": "solid",
+                                  "color": {
+                                    "token": "line.inverse"
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "md": {
+                            "base": {
+                              "display": "grid",
+                              "grid": {
+                                "templateColumns": "6rem minmax(0, 1fr) 9rem",
+                                "gap": {
+                                  "token": "space.6"
+                                },
+                                "align": "baseline"
+                              }
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": "day1-1-t",
+                            "kind": {
+                              "type": "text",
+                              "tag": "p",
+                              "content": "09:45"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.time",
+                                    "color": {
+                                      "token": "surface.highlight"
+                                    }
+                                  },
+                                  "spacing": {
+                                    "margin": {
+                                      "top": {
+                                        "px": 0.0
+                                      },
+                                      "right": {
+                                        "px": 0.0
+                                      },
+                                      "bottom": {
+                                        "px": 0.0
+                                      },
+                                      "left": {
+                                        "px": 0.0
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "day1-1-c",
+                            "kind": {
+                              "type": "frame",
+                              "element": "div"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "display": "flex",
+                                  "flex": {
+                                    "direction": "column",
+                                    "gap": {
+                                      "token": "space.1"
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": "day1-1-talk",
+                                "kind": {
+                                  "type": "text",
+                                  "tag": "h3",
+                                  "content": "Opening: the web is still a craft"
+                                },
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "typography": {
+                                        "token": "type.title",
+                                        "size": {
+                                          "rem": 1.25
+                                        },
+                                        "color": {
+                                          "token": "ink.inverse"
+                                        }
+                                      },
+                                      "spacing": {
+                                        "margin": {
+                                          "top": {
+                                            "px": 0.0
+                                          },
+                                          "right": {
+                                            "px": 0.0
+                                          },
+                                          "bottom": {
+                                            "px": 0.0
+                                          },
+                                          "left": {
+                                            "px": 0.0
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              {
+                                "id": "day1-1-who",
+                                "kind": {
+                                  "type": "text",
+                                  "tag": "p",
+                                  "content": "Bram Aalders"
+                                },
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "typography": {
+                                        "token": "type.small",
+                                        "color": {
+                                          "token": "ink.inverse.muted"
+                                        }
+                                      },
+                                      "spacing": {
+                                        "margin": {
+                                          "top": {
+                                            "px": 0.0
+                                          },
+                                          "right": {
+                                            "px": 0.0
+                                          },
+                                          "bottom": {
+                                            "px": 0.0
+                                          },
+                                          "left": {
+                                            "px": 0.0
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "day1-1-room",
+                            "kind": {
+                              "type": "text",
+                              "tag": "p",
+                              "content": "Main stage"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.label",
+                                    "color": {
+                                      "token": "ink.inverse.muted"
+                                    },
+                                    "transform": "uppercase"
+                                  },
+                                  "spacing": {
+                                    "margin": {
+                                      "top": {
+                                        "px": 0.0
+                                      },
+                                      "right": {
+                                        "px": 0.0
+                                      },
+                                      "bottom": {
+                                        "px": 0.0
+                                      },
+                                      "left": {
+                                        "px": 0.0
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "day1-2",
+                        "kind": {
+                          "type": "frame",
+                          "element": "div"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "grid",
+                              "grid": {
+                                "templateColumns": "minmax(0, 1fr)",
+                                "gap": {
+                                  "token": "space.2"
+                                }
+                              },
+                              "spacing": {
+                                "padding": {
+                                  "top": {
+                                    "token": "space.5"
+                                  },
+                                  "right": {
+                                    "px": 0.0
+                                  },
+                                  "bottom": {
+                                    "token": "space.5"
+                                  },
+                                  "left": {
+                                    "px": 0.0
+                                  }
+                                }
+                              },
+                              "border": {
+                                "top": {
+                                  "width": {
+                                    "px": 1.0
+                                  },
+                                  "style": "solid",
+                                  "color": {
+                                    "token": "line.inverse"
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "md": {
+                            "base": {
+                              "display": "grid",
+                              "grid": {
+                                "templateColumns": "6rem minmax(0, 1fr) 9rem",
+                                "gap": {
+                                  "token": "space.6"
+                                },
+                                "align": "baseline"
+                              }
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": "day1-2-t",
+                            "kind": {
+                              "type": "text",
+                              "tag": "p",
+                              "content": "10:15"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.time",
+                                    "color": {
+                                      "token": "surface.highlight"
+                                    }
+                                  },
+                                  "spacing": {
+                                    "margin": {
+                                      "top": {
+                                        "px": 0.0
+                                      },
+                                      "right": {
+                                        "px": 0.0
+                                      },
+                                      "bottom": {
+                                        "px": 0.0
+                                      },
+                                      "left": {
+                                        "px": 0.0
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "day1-2-c",
+                            "kind": {
+                              "type": "frame",
+                              "element": "div"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "display": "flex",
+                                  "flex": {
+                                    "direction": "column",
+                                    "gap": {
+                                      "token": "space.1"
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": "day1-2-talk",
+                                "kind": {
+                                  "type": "text",
+                                  "tag": "h3",
+                                  "content": "Designing for the slowest phone in the room"
+                                },
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "typography": {
+                                        "token": "type.title",
+                                        "size": {
+                                          "rem": 1.25
+                                        },
+                                        "color": {
+                                          "token": "ink.inverse"
+                                        }
+                                      },
+                                      "spacing": {
+                                        "margin": {
+                                          "top": {
+                                            "px": 0.0
+                                          },
+                                          "right": {
+                                            "px": 0.0
+                                          },
+                                          "bottom": {
+                                            "px": 0.0
+                                          },
+                                          "left": {
+                                            "px": 0.0
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              {
+                                "id": "day1-2-who",
+                                "kind": {
+                                  "type": "text",
+                                  "tag": "p",
+                                  "content": "Pieter Kok"
+                                },
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "typography": {
+                                        "token": "type.small",
+                                        "color": {
+                                          "token": "ink.inverse.muted"
+                                        }
+                                      },
+                                      "spacing": {
+                                        "margin": {
+                                          "top": {
+                                            "px": 0.0
+                                          },
+                                          "right": {
+                                            "px": 0.0
+                                          },
+                                          "bottom": {
+                                            "px": 0.0
+                                          },
+                                          "left": {
+                                            "px": 0.0
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "day1-2-room",
+                            "kind": {
+                              "type": "text",
+                              "tag": "p",
+                              "content": "Main stage"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.label",
+                                    "color": {
+                                      "token": "ink.inverse.muted"
+                                    },
+                                    "transform": "uppercase"
+                                  },
+                                  "spacing": {
+                                    "margin": {
+                                      "top": {
+                                        "px": 0.0
+                                      },
+                                      "right": {
+                                        "px": 0.0
+                                      },
+                                      "bottom": {
+                                        "px": 0.0
+                                      },
+                                      "left": {
+                                        "px": 0.0
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "day1-3",
+                        "kind": {
+                          "type": "frame",
+                          "element": "div"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "grid",
+                              "grid": {
+                                "templateColumns": "minmax(0, 1fr)",
+                                "gap": {
+                                  "token": "space.2"
+                                }
+                              },
+                              "spacing": {
+                                "padding": {
+                                  "top": {
+                                    "token": "space.5"
+                                  },
+                                  "right": {
+                                    "px": 0.0
+                                  },
+                                  "bottom": {
+                                    "token": "space.5"
+                                  },
+                                  "left": {
+                                    "px": 0.0
+                                  }
+                                }
+                              },
+                              "border": {
+                                "top": {
+                                  "width": {
+                                    "px": 1.0
+                                  },
+                                  "style": "solid",
+                                  "color": {
+                                    "token": "line.inverse"
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "md": {
+                            "base": {
+                              "display": "grid",
+                              "grid": {
+                                "templateColumns": "6rem minmax(0, 1fr) 9rem",
+                                "gap": {
+                                  "token": "space.6"
+                                },
+                                "align": "baseline"
+                              }
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": "day1-3-t",
+                            "kind": {
+                              "type": "text",
+                              "tag": "p",
+                              "content": "11:15"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.time",
+                                    "color": {
+                                      "token": "surface.highlight"
+                                    }
+                                  },
+                                  "spacing": {
+                                    "margin": {
+                                      "top": {
+                                        "px": 0.0
+                                      },
+                                      "right": {
+                                        "px": 0.0
+                                      },
+                                      "bottom": {
+                                        "px": 0.0
+                                      },
+                                      "left": {
+                                        "px": 0.0
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "day1-3-c",
+                            "kind": {
+                              "type": "frame",
+                              "element": "div"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "display": "flex",
+                                  "flex": {
+                                    "direction": "column",
+                                    "gap": {
+                                      "token": "space.1"
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": "day1-3-talk",
+                                "kind": {
+                                  "type": "text",
+                                  "tag": "h3",
+                                  "content": "Type that works at every size"
+                                },
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "typography": {
+                                        "token": "type.title",
+                                        "size": {
+                                          "rem": 1.25
+                                        },
+                                        "color": {
+                                          "token": "ink.inverse"
+                                        }
+                                      },
+                                      "spacing": {
+                                        "margin": {
+                                          "top": {
+                                            "px": 0.0
+                                          },
+                                          "right": {
+                                            "px": 0.0
+                                          },
+                                          "bottom": {
+                                            "px": 0.0
+                                          },
+                                          "left": {
+                                            "px": 0.0
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              {
+                                "id": "day1-3-who",
+                                "kind": {
+                                  "type": "text",
+                                  "tag": "p",
+                                  "content": "Jonas Vermeer"
+                                },
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "typography": {
+                                        "token": "type.small",
+                                        "color": {
+                                          "token": "ink.inverse.muted"
+                                        }
+                                      },
+                                      "spacing": {
+                                        "margin": {
+                                          "top": {
+                                            "px": 0.0
+                                          },
+                                          "right": {
+                                            "px": 0.0
+                                          },
+                                          "bottom": {
+                                            "px": 0.0
+                                          },
+                                          "left": {
+                                            "px": 0.0
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "day1-3-room",
+                            "kind": {
+                              "type": "text",
+                              "tag": "p",
+                              "content": "Main stage"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.label",
+                                    "color": {
+                                      "token": "ink.inverse.muted"
+                                    },
+                                    "transform": "uppercase"
+                                  },
+                                  "spacing": {
+                                    "margin": {
+                                      "top": {
+                                        "px": 0.0
+                                      },
+                                      "right": {
+                                        "px": 0.0
+                                      },
+                                      "bottom": {
+                                        "px": 0.0
+                                      },
+                                      "left": {
+                                        "px": 0.0
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "day1-4",
+                        "kind": {
+                          "type": "frame",
+                          "element": "div"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "grid",
+                              "grid": {
+                                "templateColumns": "minmax(0, 1fr)",
+                                "gap": {
+                                  "token": "space.2"
+                                }
+                              },
+                              "spacing": {
+                                "padding": {
+                                  "top": {
+                                    "token": "space.5"
+                                  },
+                                  "right": {
+                                    "px": 0.0
+                                  },
+                                  "bottom": {
+                                    "token": "space.5"
+                                  },
+                                  "left": {
+                                    "px": 0.0
+                                  }
+                                }
+                              },
+                              "border": {
+                                "top": {
+                                  "width": {
+                                    "px": 1.0
+                                  },
+                                  "style": "solid",
+                                  "color": {
+                                    "token": "line.inverse"
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "md": {
+                            "base": {
+                              "display": "grid",
+                              "grid": {
+                                "templateColumns": "6rem minmax(0, 1fr) 9rem",
+                                "gap": {
+                                  "token": "space.6"
+                                },
+                                "align": "baseline"
+                              }
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": "day1-4-t",
+                            "kind": {
+                              "type": "text",
+                              "tag": "p",
+                              "content": "12:15"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.time",
+                                    "color": {
+                                      "token": "surface.highlight"
+                                    }
+                                  },
+                                  "spacing": {
+                                    "margin": {
+                                      "top": {
+                                        "px": 0.0
+                                      },
+                                      "right": {
+                                        "px": 0.0
+                                      },
+                                      "bottom": {
+                                        "px": 0.0
+                                      },
+                                      "left": {
+                                        "px": 0.0
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "day1-4-c",
+                            "kind": {
+                              "type": "frame",
+                              "element": "div"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "display": "flex",
+                                  "flex": {
+                                    "direction": "column",
+                                    "gap": {
+                                      "token": "space.1"
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": "day1-4-talk",
+                                "kind": {
+                                  "type": "text",
+                                  "tag": "h3",
+                                  "content": "Lunch on the quay"
+                                },
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "typography": {
+                                        "token": "type.title",
+                                        "size": {
+                                          "rem": 1.25
+                                        },
+                                        "color": {
+                                          "token": "ink.inverse"
+                                        }
+                                      },
+                                      "spacing": {
+                                        "margin": {
+                                          "top": {
+                                            "px": 0.0
+                                          },
+                                          "right": {
+                                            "px": 0.0
+                                          },
+                                          "bottom": {
+                                            "px": 0.0
+                                          },
+                                          "left": {
+                                            "px": 0.0
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              {
+                                "id": "day1-4-who",
+                                "kind": {
+                                  "type": "text",
+                                  "tag": "p",
+                                  "content": "Everyone"
+                                },
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "typography": {
+                                        "token": "type.small",
+                                        "color": {
+                                          "token": "ink.inverse.muted"
+                                        }
+                                      },
+                                      "spacing": {
+                                        "margin": {
+                                          "top": {
+                                            "px": 0.0
+                                          },
+                                          "right": {
+                                            "px": 0.0
+                                          },
+                                          "bottom": {
+                                            "px": 0.0
+                                          },
+                                          "left": {
+                                            "px": 0.0
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "day1-4-room",
+                            "kind": {
+                              "type": "text",
+                              "tag": "p",
+                              "content": "Terrace"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.label",
+                                    "color": {
+                                      "token": "ink.inverse.muted"
+                                    },
+                                    "transform": "uppercase"
+                                  },
+                                  "spacing": {
+                                    "margin": {
+                                      "top": {
+                                        "px": 0.0
+                                      },
+                                      "right": {
+                                        "px": 0.0
+                                      },
+                                      "bottom": {
+                                        "px": 0.0
+                                      },
+                                      "left": {
+                                        "px": 0.0
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "day1-5",
+                        "kind": {
+                          "type": "frame",
+                          "element": "div"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "grid",
+                              "grid": {
+                                "templateColumns": "minmax(0, 1fr)",
+                                "gap": {
+                                  "token": "space.2"
+                                }
+                              },
+                              "spacing": {
+                                "padding": {
+                                  "top": {
+                                    "token": "space.5"
+                                  },
+                                  "right": {
+                                    "px": 0.0
+                                  },
+                                  "bottom": {
+                                    "token": "space.5"
+                                  },
+                                  "left": {
+                                    "px": 0.0
+                                  }
+                                }
+                              },
+                              "border": {
+                                "top": {
+                                  "width": {
+                                    "px": 1.0
+                                  },
+                                  "style": "solid",
+                                  "color": {
+                                    "token": "line.inverse"
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "md": {
+                            "base": {
+                              "display": "grid",
+                              "grid": {
+                                "templateColumns": "6rem minmax(0, 1fr) 9rem",
+                                "gap": {
+                                  "token": "space.6"
+                                },
+                                "align": "baseline"
+                              }
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": "day1-5-t",
+                            "kind": {
+                              "type": "text",
+                              "tag": "p",
+                              "content": "13:30"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.time",
+                                    "color": {
+                                      "token": "surface.highlight"
+                                    }
+                                  },
+                                  "spacing": {
+                                    "margin": {
+                                      "top": {
+                                        "px": 0.0
+                                      },
+                                      "right": {
+                                        "px": 0.0
+                                      },
+                                      "bottom": {
+                                        "px": 0.0
+                                      },
+                                      "left": {
+                                        "px": 0.0
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "day1-5-c",
+                            "kind": {
+                              "type": "frame",
+                              "element": "div"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "display": "flex",
+                                  "flex": {
+                                    "direction": "column",
+                                    "gap": {
+                                      "token": "space.1"
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": "day1-5-talk",
+                                "kind": {
+                                  "type": "text",
+                                  "tag": "h3",
+                                  "content": "Accessibility is a design material"
+                                },
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "typography": {
+                                        "token": "type.title",
+                                        "size": {
+                                          "rem": 1.25
+                                        },
+                                        "color": {
+                                          "token": "ink.inverse"
+                                        }
+                                      },
+                                      "spacing": {
+                                        "margin": {
+                                          "top": {
+                                            "px": 0.0
+                                          },
+                                          "right": {
+                                            "px": 0.0
+                                          },
+                                          "bottom": {
+                                            "px": 0.0
+                                          },
+                                          "left": {
+                                            "px": 0.0
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              {
+                                "id": "day1-5-who",
+                                "kind": {
+                                  "type": "text",
+                                  "tag": "p",
+                                  "content": "Sana Karimi"
+                                },
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "typography": {
+                                        "token": "type.small",
+                                        "color": {
+                                          "token": "ink.inverse.muted"
+                                        }
+                                      },
+                                      "spacing": {
+                                        "margin": {
+                                          "top": {
+                                            "px": 0.0
+                                          },
+                                          "right": {
+                                            "px": 0.0
+                                          },
+                                          "bottom": {
+                                            "px": 0.0
+                                          },
+                                          "left": {
+                                            "px": 0.0
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "day1-5-room",
+                            "kind": {
+                              "type": "text",
+                              "tag": "p",
+                              "content": "Main stage"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.label",
+                                    "color": {
+                                      "token": "ink.inverse.muted"
+                                    },
+                                    "transform": "uppercase"
+                                  },
+                                  "spacing": {
+                                    "margin": {
+                                      "top": {
+                                        "px": 0.0
+                                      },
+                                      "right": {
+                                        "px": 0.0
+                                      },
+                                      "bottom": {
+                                        "px": 0.0
+                                      },
+                                      "left": {
+                                        "px": 0.0
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "day1-6",
+                        "kind": {
+                          "type": "frame",
+                          "element": "div"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "grid",
+                              "grid": {
+                                "templateColumns": "minmax(0, 1fr)",
+                                "gap": {
+                                  "token": "space.2"
+                                }
+                              },
+                              "spacing": {
+                                "padding": {
+                                  "top": {
+                                    "token": "space.5"
+                                  },
+                                  "right": {
+                                    "px": 0.0
+                                  },
+                                  "bottom": {
+                                    "token": "space.5"
+                                  },
+                                  "left": {
+                                    "px": 0.0
+                                  }
+                                }
+                              },
+                              "border": {
+                                "top": {
+                                  "width": {
+                                    "px": 1.0
+                                  },
+                                  "style": "solid",
+                                  "color": {
+                                    "token": "line.inverse"
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "md": {
+                            "base": {
+                              "display": "grid",
+                              "grid": {
+                                "templateColumns": "6rem minmax(0, 1fr) 9rem",
+                                "gap": {
+                                  "token": "space.6"
+                                },
+                                "align": "baseline"
+                              }
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": "day1-6-t",
+                            "kind": {
+                              "type": "text",
+                              "tag": "p",
+                              "content": "14:30"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.time",
+                                    "color": {
+                                      "token": "surface.highlight"
+                                    }
+                                  },
+                                  "spacing": {
+                                    "margin": {
+                                      "top": {
+                                        "px": 0.0
+                                      },
+                                      "right": {
+                                        "px": 0.0
+                                      },
+                                      "bottom": {
+                                        "px": 0.0
+                                      },
+                                      "left": {
+                                        "px": 0.0
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "day1-6-c",
+                            "kind": {
+                              "type": "frame",
+                              "element": "div"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "display": "flex",
+                                  "flex": {
+                                    "direction": "column",
+                                    "gap": {
+                                      "token": "space.1"
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": "day1-6-talk",
+                                "kind": {
+                                  "type": "text",
+                                  "tag": "h3",
+                                  "content": "Workshop: motion without nausea"
+                                },
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "typography": {
+                                        "token": "type.title",
+                                        "size": {
+                                          "rem": 1.25
+                                        },
+                                        "color": {
+                                          "token": "ink.inverse"
+                                        }
+                                      },
+                                      "spacing": {
+                                        "margin": {
+                                          "top": {
+                                            "px": 0.0
+                                          },
+                                          "right": {
+                                            "px": 0.0
+                                          },
+                                          "bottom": {
+                                            "px": 0.0
+                                          },
+                                          "left": {
+                                            "px": 0.0
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              {
+                                "id": "day1-6-who",
+                                "kind": {
+                                  "type": "text",
+                                  "tag": "p",
+                                  "content": "Mei Ishikawa"
+                                },
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "typography": {
+                                        "token": "type.small",
+                                        "color": {
+                                          "token": "ink.inverse.muted"
+                                        }
+                                      },
+                                      "spacing": {
+                                        "margin": {
+                                          "top": {
+                                            "px": 0.0
+                                          },
+                                          "right": {
+                                            "px": 0.0
+                                          },
+                                          "bottom": {
+                                            "px": 0.0
+                                          },
+                                          "left": {
+                                            "px": 0.0
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "day1-6-room",
+                            "kind": {
+                              "type": "text",
+                              "tag": "p",
+                              "content": "Studio"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.label",
+                                    "color": {
+                                      "token": "ink.inverse.muted"
+                                    },
+                                    "transform": "uppercase"
+                                  },
+                                  "spacing": {
+                                    "margin": {
+                                      "top": {
+                                        "px": 0.0
+                                      },
+                                      "right": {
+                                        "px": 0.0
+                                      },
+                                      "bottom": {
+                                        "px": 0.0
+                                      },
+                                      "left": {
+                                        "px": 0.0
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "day1-7",
+                        "kind": {
+                          "type": "frame",
+                          "element": "div"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "grid",
+                              "grid": {
+                                "templateColumns": "minmax(0, 1fr)",
+                                "gap": {
+                                  "token": "space.2"
+                                }
+                              },
+                              "spacing": {
+                                "padding": {
+                                  "top": {
+                                    "token": "space.5"
+                                  },
+                                  "right": {
+                                    "px": 0.0
+                                  },
+                                  "bottom": {
+                                    "token": "space.5"
+                                  },
+                                  "left": {
+                                    "px": 0.0
+                                  }
+                                }
+                              },
+                              "border": {
+                                "top": {
+                                  "width": {
+                                    "px": 1.0
+                                  },
+                                  "style": "solid",
+                                  "color": {
+                                    "token": "line.inverse"
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "md": {
+                            "base": {
+                              "display": "grid",
+                              "grid": {
+                                "templateColumns": "6rem minmax(0, 1fr) 9rem",
+                                "gap": {
+                                  "token": "space.6"
+                                },
+                                "align": "baseline"
+                              }
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": "day1-7-t",
+                            "kind": {
+                              "type": "text",
+                              "tag": "p",
+                              "content": "16:00"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.time",
+                                    "color": {
+                                      "token": "surface.highlight"
+                                    }
+                                  },
+                                  "spacing": {
+                                    "margin": {
+                                      "top": {
+                                        "px": 0.0
+                                      },
+                                      "right": {
+                                        "px": 0.0
+                                      },
+                                      "bottom": {
+                                        "px": 0.0
+                                      },
+                                      "left": {
+                                        "px": 0.0
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "day1-7-c",
+                            "kind": {
+                              "type": "frame",
+                              "element": "div"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "display": "flex",
+                                  "flex": {
+                                    "direction": "column",
+                                    "gap": {
+                                      "token": "space.1"
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": "day1-7-talk",
+                                "kind": {
+                                  "type": "text",
+                                  "tag": "h3",
+                                  "content": "Maps, trust and the public good"
+                                },
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "typography": {
+                                        "token": "type.title",
+                                        "size": {
+                                          "rem": 1.25
+                                        },
+                                        "color": {
+                                          "token": "ink.inverse"
+                                        }
+                                      },
+                                      "spacing": {
+                                        "margin": {
+                                          "top": {
+                                            "px": 0.0
+                                          },
+                                          "right": {
+                                            "px": 0.0
+                                          },
+                                          "bottom": {
+                                            "px": 0.0
+                                          },
+                                          "left": {
+                                            "px": 0.0
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              {
+                                "id": "day1-7-who",
+                                "kind": {
+                                  "type": "text",
+                                  "tag": "p",
+                                  "content": "Amara Hollis"
+                                },
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "typography": {
+                                        "token": "type.small",
+                                        "color": {
+                                          "token": "ink.inverse.muted"
+                                        }
+                                      },
+                                      "spacing": {
+                                        "margin": {
+                                          "top": {
+                                            "px": 0.0
+                                          },
+                                          "right": {
+                                            "px": 0.0
+                                          },
+                                          "bottom": {
+                                            "px": 0.0
+                                          },
+                                          "left": {
+                                            "px": 0.0
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "day1-7-room",
+                            "kind": {
+                              "type": "text",
+                              "tag": "p",
+                              "content": "Main stage"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.label",
+                                    "color": {
+                                      "token": "ink.inverse.muted"
+                                    },
+                                    "transform": "uppercase"
+                                  },
+                                  "spacing": {
+                                    "margin": {
+                                      "top": {
+                                        "px": 0.0
+                                      },
+                                      "right": {
+                                        "px": 0.0
+                                      },
+                                      "bottom": {
+                                        "px": 0.0
+                                      },
+                                      "left": {
+                                        "px": 0.0
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "day1-8",
+                        "kind": {
+                          "type": "frame",
+                          "element": "div"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "grid",
+                              "grid": {
+                                "templateColumns": "minmax(0, 1fr)",
+                                "gap": {
+                                  "token": "space.2"
+                                }
+                              },
+                              "spacing": {
+                                "padding": {
+                                  "top": {
+                                    "token": "space.5"
+                                  },
+                                  "right": {
+                                    "px": 0.0
+                                  },
+                                  "bottom": {
+                                    "token": "space.5"
+                                  },
+                                  "left": {
+                                    "px": 0.0
+                                  }
+                                }
+                              },
+                              "border": {
+                                "top": {
+                                  "width": {
+                                    "px": 1.0
+                                  },
+                                  "style": "solid",
+                                  "color": {
+                                    "token": "line.inverse"
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "md": {
+                            "base": {
+                              "display": "grid",
+                              "grid": {
+                                "templateColumns": "6rem minmax(0, 1fr) 9rem",
+                                "gap": {
+                                  "token": "space.6"
+                                },
+                                "align": "baseline"
+                              }
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": "day1-8-t",
+                            "kind": {
+                              "type": "text",
+                              "tag": "p",
+                              "content": "17:00"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.time",
+                                    "color": {
+                                      "token": "surface.highlight"
+                                    }
+                                  },
+                                  "spacing": {
+                                    "margin": {
+                                      "top": {
+                                        "px": 0.0
+                                      },
+                                      "right": {
+                                        "px": 0.0
+                                      },
+                                      "bottom": {
+                                        "px": 0.0
+                                      },
+                                      "left": {
+                                        "px": 0.0
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "day1-8-c",
+                            "kind": {
+                              "type": "frame",
+                              "element": "div"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "display": "flex",
+                                  "flex": {
+                                    "direction": "column",
+                                    "gap": {
+                                      "token": "space.1"
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": "day1-8-talk",
+                                "kind": {
+                                  "type": "text",
+                                  "tag": "h3",
+                                  "content": "Drinks and the Northwind quiz"
+                                },
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "typography": {
+                                        "token": "type.title",
+                                        "size": {
+                                          "rem": 1.25
+                                        },
+                                        "color": {
+                                          "token": "ink.inverse"
+                                        }
+                                      },
+                                      "spacing": {
+                                        "margin": {
+                                          "top": {
+                                            "px": 0.0
+                                          },
+                                          "right": {
+                                            "px": 0.0
+                                          },
+                                          "bottom": {
+                                            "px": 0.0
+                                          },
+                                          "left": {
+                                            "px": 0.0
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              {
+                                "id": "day1-8-who",
+                                "kind": {
+                                  "type": "text",
+                                  "tag": "p",
+                                  "content": "Everyone"
+                                },
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "typography": {
+                                        "token": "type.small",
+                                        "color": {
+                                          "token": "ink.inverse.muted"
+                                        }
+                                      },
+                                      "spacing": {
+                                        "margin": {
+                                          "top": {
+                                            "px": 0.0
+                                          },
+                                          "right": {
+                                            "px": 0.0
+                                          },
+                                          "bottom": {
+                                            "px": 0.0
+                                          },
+                                          "left": {
+                                            "px": 0.0
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "day1-8-room",
+                            "kind": {
+                              "type": "text",
+                              "tag": "p",
+                              "content": "Terrace"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.label",
+                                    "color": {
+                                      "token": "ink.inverse.muted"
+                                    },
+                                    "transform": "uppercase"
+                                  },
+                                  "spacing": {
+                                    "margin": {
+                                      "top": {
+                                        "px": 0.0
+                                      },
+                                      "right": {
+                                        "px": 0.0
+                                      },
+                                      "bottom": {
+                                        "px": 0.0
+                                      },
+                                      "left": {
+                                        "px": 0.0
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "gap",
+                "kind": {
+                  "type": "frame",
+                  "element": "div"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "size": {
+                        "height": {
+                          "token": "space.16"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "day2",
+                "kind": {
+                  "type": "frame",
+                  "element": "div"
+                },
+                "children": [
+                  {
+                    "id": "day2-h",
+                    "kind": {
+                      "type": "frame",
+                      "element": "div"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "column",
+                            "gap": {
+                              "token": "space.6"
+                            },
+                            "align": "start"
+                          },
+                          "spacing": {
+                            "padding": {
+                              "top": {
+                                "px": 0.0
+                              },
+                              "right": {
+                                "px": 0.0
+                              },
+                              "bottom": {
+                                "token": "space.10"
+                              },
+                              "left": {
+                                "px": 0.0
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "md": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "row",
+                            "gap": {
+                              "token": "space.8"
+                            },
+                            "align": "end",
+                            "justify": "spaceBetween"
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "day2-h-copy",
+                        "kind": {
+                          "type": "frame",
+                          "element": "div"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "flex",
+                              "flex": {
+                                "direction": "column",
+                                "gap": {
+                                  "token": "space.4"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": "day2-h-k",
+                            "kind": {
+                              "type": "text",
+                              "tag": "p",
+                              "content": "Friday 13 November"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.label",
+                                    "color": {
+                                      "token": "surface.highlight"
+                                    },
+                                    "transform": "uppercase"
+                                  },
+                                  "spacing": {
+                                    "margin": {
+                                      "top": {
+                                        "px": 0.0
+                                      },
+                                      "right": {
+                                        "px": 0.0
+                                      },
+                                      "bottom": {
+                                        "px": 0.0
+                                      },
+                                      "left": {
+                                        "px": 0.0
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "day2-h-t",
+                            "kind": {
+                              "type": "text",
+                              "tag": "h2",
+                              "content": "Day two"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.display",
+                                    "color": {
+                                      "token": "ink.inverse"
+                                    }
+                                  },
+                                  "spacing": {
+                                    "margin": {
+                                      "top": {
+                                        "px": 0.0
+                                      },
+                                      "right": {
+                                        "px": 0.0
+                                      },
+                                      "bottom": {
+                                        "px": 0.0
+                                      },
+                                      "left": {
+                                        "px": 0.0
+                                      }
+                                    }
+                                  },
+                                  "custom": {
+                                    "text-wrap": "balance"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "day2-l",
+                    "kind": {
+                      "type": "frame",
+                      "element": "div"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "column"
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "day2-0",
+                        "kind": {
+                          "type": "frame",
+                          "element": "div"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "grid",
+                              "grid": {
+                                "templateColumns": "minmax(0, 1fr)",
+                                "gap": {
+                                  "token": "space.2"
+                                }
+                              },
+                              "spacing": {
+                                "padding": {
+                                  "top": {
+                                    "token": "space.5"
+                                  },
+                                  "right": {
+                                    "px": 0.0
+                                  },
+                                  "bottom": {
+                                    "token": "space.5"
+                                  },
+                                  "left": {
+                                    "px": 0.0
+                                  }
+                                }
+                              },
+                              "border": {
+                                "top": {
+                                  "width": {
+                                    "px": 1.0
+                                  },
+                                  "style": "solid",
+                                  "color": {
+                                    "token": "line.inverse"
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "md": {
+                            "base": {
+                              "display": "grid",
+                              "grid": {
+                                "templateColumns": "6rem minmax(0, 1fr) 9rem",
+                                "gap": {
+                                  "token": "space.6"
+                                },
+                                "align": "baseline"
+                              }
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": "day2-0-t",
+                            "kind": {
+                              "type": "text",
+                              "tag": "p",
+                              "content": "09:30"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.time",
+                                    "color": {
+                                      "token": "surface.highlight"
+                                    }
+                                  },
+                                  "spacing": {
+                                    "margin": {
+                                      "top": {
+                                        "px": 0.0
+                                      },
+                                      "right": {
+                                        "px": 0.0
+                                      },
+                                      "bottom": {
+                                        "px": 0.0
+                                      },
+                                      "left": {
+                                        "px": 0.0
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "day2-0-c",
+                            "kind": {
+                              "type": "frame",
+                              "element": "div"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "display": "flex",
+                                  "flex": {
+                                    "direction": "column",
+                                    "gap": {
+                                      "token": "space.1"
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": "day2-0-talk",
+                                "kind": {
+                                  "type": "text",
+                                  "tag": "h3",
+                                  "content": "Breakfast talk: small web, big heart"
+                                },
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "typography": {
+                                        "token": "type.title",
+                                        "size": {
+                                          "rem": 1.25
+                                        },
+                                        "color": {
+                                          "token": "ink.inverse"
+                                        }
+                                      },
+                                      "spacing": {
+                                        "margin": {
+                                          "top": {
+                                            "px": 0.0
+                                          },
+                                          "right": {
+                                            "px": 0.0
+                                          },
+                                          "bottom": {
+                                            "px": 0.0
+                                          },
+                                          "left": {
+                                            "px": 0.0
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              {
+                                "id": "day2-0-who",
+                                "kind": {
+                                  "type": "text",
+                                  "tag": "p",
+                                  "content": "Rafael Nunes"
+                                },
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "typography": {
+                                        "token": "type.small",
+                                        "color": {
+                                          "token": "ink.inverse.muted"
+                                        }
+                                      },
+                                      "spacing": {
+                                        "margin": {
+                                          "top": {
+                                            "px": 0.0
+                                          },
+                                          "right": {
+                                            "px": 0.0
+                                          },
+                                          "bottom": {
+                                            "px": 0.0
+                                          },
+                                          "left": {
+                                            "px": 0.0
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "day2-0-room",
+                            "kind": {
+                              "type": "text",
+                              "tag": "p",
+                              "content": "Main stage"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.label",
+                                    "color": {
+                                      "token": "ink.inverse.muted"
+                                    },
+                                    "transform": "uppercase"
+                                  },
+                                  "spacing": {
+                                    "margin": {
+                                      "top": {
+                                        "px": 0.0
+                                      },
+                                      "right": {
+                                        "px": 0.0
+                                      },
+                                      "bottom": {
+                                        "px": 0.0
+                                      },
+                                      "left": {
+                                        "px": 0.0
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "day2-1",
+                        "kind": {
+                          "type": "frame",
+                          "element": "div"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "grid",
+                              "grid": {
+                                "templateColumns": "minmax(0, 1fr)",
+                                "gap": {
+                                  "token": "space.2"
+                                }
+                              },
+                              "spacing": {
+                                "padding": {
+                                  "top": {
+                                    "token": "space.5"
+                                  },
+                                  "right": {
+                                    "px": 0.0
+                                  },
+                                  "bottom": {
+                                    "token": "space.5"
+                                  },
+                                  "left": {
+                                    "px": 0.0
+                                  }
+                                }
+                              },
+                              "border": {
+                                "top": {
+                                  "width": {
+                                    "px": 1.0
+                                  },
+                                  "style": "solid",
+                                  "color": {
+                                    "token": "line.inverse"
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "md": {
+                            "base": {
+                              "display": "grid",
+                              "grid": {
+                                "templateColumns": "6rem minmax(0, 1fr) 9rem",
+                                "gap": {
+                                  "token": "space.6"
+                                },
+                                "align": "baseline"
+                              }
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": "day2-1-t",
+                            "kind": {
+                              "type": "text",
+                              "tag": "p",
+                              "content": "10:30"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.time",
+                                    "color": {
+                                      "token": "surface.highlight"
+                                    }
+                                  },
+                                  "spacing": {
+                                    "margin": {
+                                      "top": {
+                                        "px": 0.0
+                                      },
+                                      "right": {
+                                        "px": 0.0
+                                      },
+                                      "bottom": {
+                                        "px": 0.0
+                                      },
+                                      "left": {
+                                        "px": 0.0
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "day2-1-c",
+                            "kind": {
+                              "type": "frame",
+                              "element": "div"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "display": "flex",
+                                  "flex": {
+                                    "direction": "column",
+                                    "gap": {
+                                      "token": "space.1"
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": "day2-1-talk",
+                                "kind": {
+                                  "type": "text",
+                                  "tag": "h3",
+                                  "content": "CSS you can delete"
+                                },
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "typography": {
+                                        "token": "type.title",
+                                        "size": {
+                                          "rem": 1.25
+                                        },
+                                        "color": {
+                                          "token": "ink.inverse"
+                                        }
+                                      },
+                                      "spacing": {
+                                        "margin": {
+                                          "top": {
+                                            "px": 0.0
+                                          },
+                                          "right": {
+                                            "px": 0.0
+                                          },
+                                          "bottom": {
+                                            "px": 0.0
+                                          },
+                                          "left": {
+                                            "px": 0.0
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              {
+                                "id": "day2-1-who",
+                                "kind": {
+                                  "type": "text",
+                                  "tag": "p",
+                                  "content": "Daan Evers"
+                                },
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "typography": {
+                                        "token": "type.small",
+                                        "color": {
+                                          "token": "ink.inverse.muted"
+                                        }
+                                      },
+                                      "spacing": {
+                                        "margin": {
+                                          "top": {
+                                            "px": 0.0
+                                          },
+                                          "right": {
+                                            "px": 0.0
+                                          },
+                                          "bottom": {
+                                            "px": 0.0
+                                          },
+                                          "left": {
+                                            "px": 0.0
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "day2-1-room",
+                            "kind": {
+                              "type": "text",
+                              "tag": "p",
+                              "content": "Main stage"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.label",
+                                    "color": {
+                                      "token": "ink.inverse.muted"
+                                    },
+                                    "transform": "uppercase"
+                                  },
+                                  "spacing": {
+                                    "margin": {
+                                      "top": {
+                                        "px": 0.0
+                                      },
+                                      "right": {
+                                        "px": 0.0
+                                      },
+                                      "bottom": {
+                                        "px": 0.0
+                                      },
+                                      "left": {
+                                        "px": 0.0
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "day2-2",
+                        "kind": {
+                          "type": "frame",
+                          "element": "div"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "grid",
+                              "grid": {
+                                "templateColumns": "minmax(0, 1fr)",
+                                "gap": {
+                                  "token": "space.2"
+                                }
+                              },
+                              "spacing": {
+                                "padding": {
+                                  "top": {
+                                    "token": "space.5"
+                                  },
+                                  "right": {
+                                    "px": 0.0
+                                  },
+                                  "bottom": {
+                                    "token": "space.5"
+                                  },
+                                  "left": {
+                                    "px": 0.0
+                                  }
+                                }
+                              },
+                              "border": {
+                                "top": {
+                                  "width": {
+                                    "px": 1.0
+                                  },
+                                  "style": "solid",
+                                  "color": {
+                                    "token": "line.inverse"
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "md": {
+                            "base": {
+                              "display": "grid",
+                              "grid": {
+                                "templateColumns": "6rem minmax(0, 1fr) 9rem",
+                                "gap": {
+                                  "token": "space.6"
+                                },
+                                "align": "baseline"
+                              }
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": "day2-2-t",
+                            "kind": {
+                              "type": "text",
+                              "tag": "p",
+                              "content": "11:30"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.time",
+                                    "color": {
+                                      "token": "surface.highlight"
+                                    }
+                                  },
+                                  "spacing": {
+                                    "margin": {
+                                      "top": {
+                                        "px": 0.0
+                                      },
+                                      "right": {
+                                        "px": 0.0
+                                      },
+                                      "bottom": {
+                                        "px": 0.0
+                                      },
+                                      "left": {
+                                        "px": 0.0
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "day2-2-c",
+                            "kind": {
+                              "type": "frame",
+                              "element": "div"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "display": "flex",
+                                  "flex": {
+                                    "direction": "column",
+                                    "gap": {
+                                      "token": "space.1"
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": "day2-2-talk",
+                                "kind": {
+                                  "type": "text",
+                                  "tag": "h3",
+                                  "content": "Research that changes minds"
+                                },
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "typography": {
+                                        "token": "type.title",
+                                        "size": {
+                                          "rem": 1.25
+                                        },
+                                        "color": {
+                                          "token": "ink.inverse"
+                                        }
+                                      },
+                                      "spacing": {
+                                        "margin": {
+                                          "top": {
+                                            "px": 0.0
+                                          },
+                                          "right": {
+                                            "px": 0.0
+                                          },
+                                          "bottom": {
+                                            "px": 0.0
+                                          },
+                                          "left": {
+                                            "px": 0.0
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              {
+                                "id": "day2-2-who",
+                                "kind": {
+                                  "type": "text",
+                                  "tag": "p",
+                                  "content": "Noor Aziz"
+                                },
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "typography": {
+                                        "token": "type.small",
+                                        "color": {
+                                          "token": "ink.inverse.muted"
+                                        }
+                                      },
+                                      "spacing": {
+                                        "margin": {
+                                          "top": {
+                                            "px": 0.0
+                                          },
+                                          "right": {
+                                            "px": 0.0
+                                          },
+                                          "bottom": {
+                                            "px": 0.0
+                                          },
+                                          "left": {
+                                            "px": 0.0
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "day2-2-room",
+                            "kind": {
+                              "type": "text",
+                              "tag": "p",
+                              "content": "Main stage"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.label",
+                                    "color": {
+                                      "token": "ink.inverse.muted"
+                                    },
+                                    "transform": "uppercase"
+                                  },
+                                  "spacing": {
+                                    "margin": {
+                                      "top": {
+                                        "px": 0.0
+                                      },
+                                      "right": {
+                                        "px": 0.0
+                                      },
+                                      "bottom": {
+                                        "px": 0.0
+                                      },
+                                      "left": {
+                                        "px": 0.0
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "day2-3",
+                        "kind": {
+                          "type": "frame",
+                          "element": "div"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "grid",
+                              "grid": {
+                                "templateColumns": "minmax(0, 1fr)",
+                                "gap": {
+                                  "token": "space.2"
+                                }
+                              },
+                              "spacing": {
+                                "padding": {
+                                  "top": {
+                                    "token": "space.5"
+                                  },
+                                  "right": {
+                                    "px": 0.0
+                                  },
+                                  "bottom": {
+                                    "token": "space.5"
+                                  },
+                                  "left": {
+                                    "px": 0.0
+                                  }
+                                }
+                              },
+                              "border": {
+                                "top": {
+                                  "width": {
+                                    "px": 1.0
+                                  },
+                                  "style": "solid",
+                                  "color": {
+                                    "token": "line.inverse"
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "md": {
+                            "base": {
+                              "display": "grid",
+                              "grid": {
+                                "templateColumns": "6rem minmax(0, 1fr) 9rem",
+                                "gap": {
+                                  "token": "space.6"
+                                },
+                                "align": "baseline"
+                              }
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": "day2-3-t",
+                            "kind": {
+                              "type": "text",
+                              "tag": "p",
+                              "content": "12:30"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.time",
+                                    "color": {
+                                      "token": "surface.highlight"
+                                    }
+                                  },
+                                  "spacing": {
+                                    "margin": {
+                                      "top": {
+                                        "px": 0.0
+                                      },
+                                      "right": {
+                                        "px": 0.0
+                                      },
+                                      "bottom": {
+                                        "px": 0.0
+                                      },
+                                      "left": {
+                                        "px": 0.0
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "day2-3-c",
+                            "kind": {
+                              "type": "frame",
+                              "element": "div"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "display": "flex",
+                                  "flex": {
+                                    "direction": "column",
+                                    "gap": {
+                                      "token": "space.1"
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": "day2-3-talk",
+                                "kind": {
+                                  "type": "text",
+                                  "tag": "h3",
+                                  "content": "Lunch"
+                                },
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "typography": {
+                                        "token": "type.title",
+                                        "size": {
+                                          "rem": 1.25
+                                        },
+                                        "color": {
+                                          "token": "ink.inverse"
+                                        }
+                                      },
+                                      "spacing": {
+                                        "margin": {
+                                          "top": {
+                                            "px": 0.0
+                                          },
+                                          "right": {
+                                            "px": 0.0
+                                          },
+                                          "bottom": {
+                                            "px": 0.0
+                                          },
+                                          "left": {
+                                            "px": 0.0
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              {
+                                "id": "day2-3-who",
+                                "kind": {
+                                  "type": "text",
+                                  "tag": "p",
+                                  "content": "Everyone"
+                                },
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "typography": {
+                                        "token": "type.small",
+                                        "color": {
+                                          "token": "ink.inverse.muted"
+                                        }
+                                      },
+                                      "spacing": {
+                                        "margin": {
+                                          "top": {
+                                            "px": 0.0
+                                          },
+                                          "right": {
+                                            "px": 0.0
+                                          },
+                                          "bottom": {
+                                            "px": 0.0
+                                          },
+                                          "left": {
+                                            "px": 0.0
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "day2-3-room",
+                            "kind": {
+                              "type": "text",
+                              "tag": "p",
+                              "content": "Terrace"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.label",
+                                    "color": {
+                                      "token": "ink.inverse.muted"
+                                    },
+                                    "transform": "uppercase"
+                                  },
+                                  "spacing": {
+                                    "margin": {
+                                      "top": {
+                                        "px": 0.0
+                                      },
+                                      "right": {
+                                        "px": 0.0
+                                      },
+                                      "bottom": {
+                                        "px": 0.0
+                                      },
+                                      "left": {
+                                        "px": 0.0
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "day2-4",
+                        "kind": {
+                          "type": "frame",
+                          "element": "div"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "grid",
+                              "grid": {
+                                "templateColumns": "minmax(0, 1fr)",
+                                "gap": {
+                                  "token": "space.2"
+                                }
+                              },
+                              "spacing": {
+                                "padding": {
+                                  "top": {
+                                    "token": "space.5"
+                                  },
+                                  "right": {
+                                    "px": 0.0
+                                  },
+                                  "bottom": {
+                                    "token": "space.5"
+                                  },
+                                  "left": {
+                                    "px": 0.0
+                                  }
+                                }
+                              },
+                              "border": {
+                                "top": {
+                                  "width": {
+                                    "px": 1.0
+                                  },
+                                  "style": "solid",
+                                  "color": {
+                                    "token": "line.inverse"
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "md": {
+                            "base": {
+                              "display": "grid",
+                              "grid": {
+                                "templateColumns": "6rem minmax(0, 1fr) 9rem",
+                                "gap": {
+                                  "token": "space.6"
+                                },
+                                "align": "baseline"
+                              }
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": "day2-4-t",
+                            "kind": {
+                              "type": "text",
+                              "tag": "p",
+                              "content": "13:45"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.time",
+                                    "color": {
+                                      "token": "surface.highlight"
+                                    }
+                                  },
+                                  "spacing": {
+                                    "margin": {
+                                      "top": {
+                                        "px": 0.0
+                                      },
+                                      "right": {
+                                        "px": 0.0
+                                      },
+                                      "bottom": {
+                                        "px": 0.0
+                                      },
+                                      "left": {
+                                        "px": 0.0
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "day2-4-c",
+                            "kind": {
+                              "type": "frame",
+                              "element": "div"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "display": "flex",
+                                  "flex": {
+                                    "direction": "column",
+                                    "gap": {
+                                      "token": "space.1"
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": "day2-4-talk",
+                                "kind": {
+                                  "type": "text",
+                                  "tag": "h3",
+                                  "content": "Workshop: drawing for the screen"
+                                },
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "typography": {
+                                        "token": "type.title",
+                                        "size": {
+                                          "rem": 1.25
+                                        },
+                                        "color": {
+                                          "token": "ink.inverse"
+                                        }
+                                      },
+                                      "spacing": {
+                                        "margin": {
+                                          "top": {
+                                            "px": 0.0
+                                          },
+                                          "right": {
+                                            "px": 0.0
+                                          },
+                                          "bottom": {
+                                            "px": 0.0
+                                          },
+                                          "left": {
+                                            "px": 0.0
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              {
+                                "id": "day2-4-who",
+                                "kind": {
+                                  "type": "text",
+                                  "tag": "p",
+                                  "content": "Chloe Wu"
+                                },
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "typography": {
+                                        "token": "type.small",
+                                        "color": {
+                                          "token": "ink.inverse.muted"
+                                        }
+                                      },
+                                      "spacing": {
+                                        "margin": {
+                                          "top": {
+                                            "px": 0.0
+                                          },
+                                          "right": {
+                                            "px": 0.0
+                                          },
+                                          "bottom": {
+                                            "px": 0.0
+                                          },
+                                          "left": {
+                                            "px": 0.0
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "day2-4-room",
+                            "kind": {
+                              "type": "text",
+                              "tag": "p",
+                              "content": "Studio"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.label",
+                                    "color": {
+                                      "token": "ink.inverse.muted"
+                                    },
+                                    "transform": "uppercase"
+                                  },
+                                  "spacing": {
+                                    "margin": {
+                                      "top": {
+                                        "px": 0.0
+                                      },
+                                      "right": {
+                                        "px": 0.0
+                                      },
+                                      "bottom": {
+                                        "px": 0.0
+                                      },
+                                      "left": {
+                                        "px": 0.0
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "day2-5",
+                        "kind": {
+                          "type": "frame",
+                          "element": "div"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "grid",
+                              "grid": {
+                                "templateColumns": "minmax(0, 1fr)",
+                                "gap": {
+                                  "token": "space.2"
+                                }
+                              },
+                              "spacing": {
+                                "padding": {
+                                  "top": {
+                                    "token": "space.5"
+                                  },
+                                  "right": {
+                                    "px": 0.0
+                                  },
+                                  "bottom": {
+                                    "token": "space.5"
+                                  },
+                                  "left": {
+                                    "px": 0.0
+                                  }
+                                }
+                              },
+                              "border": {
+                                "top": {
+                                  "width": {
+                                    "px": 1.0
+                                  },
+                                  "style": "solid",
+                                  "color": {
+                                    "token": "line.inverse"
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "md": {
+                            "base": {
+                              "display": "grid",
+                              "grid": {
+                                "templateColumns": "6rem minmax(0, 1fr) 9rem",
+                                "gap": {
+                                  "token": "space.6"
+                                },
+                                "align": "baseline"
+                              }
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": "day2-5-t",
+                            "kind": {
+                              "type": "text",
+                              "tag": "p",
+                              "content": "15:00"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.time",
+                                    "color": {
+                                      "token": "surface.highlight"
+                                    }
+                                  },
+                                  "spacing": {
+                                    "margin": {
+                                      "top": {
+                                        "px": 0.0
+                                      },
+                                      "right": {
+                                        "px": 0.0
+                                      },
+                                      "bottom": {
+                                        "px": 0.0
+                                      },
+                                      "left": {
+                                        "px": 0.0
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "day2-5-c",
+                            "kind": {
+                              "type": "frame",
+                              "element": "div"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "display": "flex",
+                                  "flex": {
+                                    "direction": "column",
+                                    "gap": {
+                                      "token": "space.1"
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": "day2-5-talk",
+                                "kind": {
+                                  "type": "text",
+                                  "tag": "h3",
+                                  "content": "The creative computer"
+                                },
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "typography": {
+                                        "token": "type.title",
+                                        "size": {
+                                          "rem": 1.25
+                                        },
+                                        "color": {
+                                          "token": "ink.inverse"
+                                        }
+                                      },
+                                      "spacing": {
+                                        "margin": {
+                                          "top": {
+                                            "px": 0.0
+                                          },
+                                          "right": {
+                                            "px": 0.0
+                                          },
+                                          "bottom": {
+                                            "px": 0.0
+                                          },
+                                          "left": {
+                                            "px": 0.0
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              {
+                                "id": "day2-5-who",
+                                "kind": {
+                                  "type": "text",
+                                  "tag": "p",
+                                  "content": "Tomás Ortega"
+                                },
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "typography": {
+                                        "token": "type.small",
+                                        "color": {
+                                          "token": "ink.inverse.muted"
+                                        }
+                                      },
+                                      "spacing": {
+                                        "margin": {
+                                          "top": {
+                                            "px": 0.0
+                                          },
+                                          "right": {
+                                            "px": 0.0
+                                          },
+                                          "bottom": {
+                                            "px": 0.0
+                                          },
+                                          "left": {
+                                            "px": 0.0
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "day2-5-room",
+                            "kind": {
+                              "type": "text",
+                              "tag": "p",
+                              "content": "Main stage"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.label",
+                                    "color": {
+                                      "token": "ink.inverse.muted"
+                                    },
+                                    "transform": "uppercase"
+                                  },
+                                  "spacing": {
+                                    "margin": {
+                                      "top": {
+                                        "px": 0.0
+                                      },
+                                      "right": {
+                                        "px": 0.0
+                                      },
+                                      "bottom": {
+                                        "px": 0.0
+                                      },
+                                      "left": {
+                                        "px": 0.0
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "day2-6",
+                        "kind": {
+                          "type": "frame",
+                          "element": "div"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "grid",
+                              "grid": {
+                                "templateColumns": "minmax(0, 1fr)",
+                                "gap": {
+                                  "token": "space.2"
+                                }
+                              },
+                              "spacing": {
+                                "padding": {
+                                  "top": {
+                                    "token": "space.5"
+                                  },
+                                  "right": {
+                                    "px": 0.0
+                                  },
+                                  "bottom": {
+                                    "token": "space.5"
+                                  },
+                                  "left": {
+                                    "px": 0.0
+                                  }
+                                }
+                              },
+                              "border": {
+                                "top": {
+                                  "width": {
+                                    "px": 1.0
+                                  },
+                                  "style": "solid",
+                                  "color": {
+                                    "token": "line.inverse"
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "md": {
+                            "base": {
+                              "display": "grid",
+                              "grid": {
+                                "templateColumns": "6rem minmax(0, 1fr) 9rem",
+                                "gap": {
+                                  "token": "space.6"
+                                },
+                                "align": "baseline"
+                              }
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": "day2-6-t",
+                            "kind": {
+                              "type": "text",
+                              "tag": "p",
+                              "content": "16:00"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.time",
+                                    "color": {
+                                      "token": "surface.highlight"
+                                    }
+                                  },
+                                  "spacing": {
+                                    "margin": {
+                                      "top": {
+                                        "px": 0.0
+                                      },
+                                      "right": {
+                                        "px": 0.0
+                                      },
+                                      "bottom": {
+                                        "px": 0.0
+                                      },
+                                      "left": {
+                                        "px": 0.0
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "day2-6-c",
+                            "kind": {
+                              "type": "frame",
+                              "element": "div"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "display": "flex",
+                                  "flex": {
+                                    "direction": "column",
+                                    "gap": {
+                                      "token": "space.1"
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": "day2-6-talk",
+                                "kind": {
+                                  "type": "text",
+                                  "tag": "h3",
+                                  "content": "Designing products people keep"
+                                },
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "typography": {
+                                        "token": "type.title",
+                                        "size": {
+                                          "rem": 1.25
+                                        },
+                                        "color": {
+                                          "token": "ink.inverse"
+                                        }
+                                      },
+                                      "spacing": {
+                                        "margin": {
+                                          "top": {
+                                            "px": 0.0
+                                          },
+                                          "right": {
+                                            "px": 0.0
+                                          },
+                                          "bottom": {
+                                            "px": 0.0
+                                          },
+                                          "left": {
+                                            "px": 0.0
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              {
+                                "id": "day2-6-who",
+                                "kind": {
+                                  "type": "text",
+                                  "tag": "p",
+                                  "content": "Lea Brandt"
+                                },
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "typography": {
+                                        "token": "type.small",
+                                        "color": {
+                                          "token": "ink.inverse.muted"
+                                        }
+                                      },
+                                      "spacing": {
+                                        "margin": {
+                                          "top": {
+                                            "px": 0.0
+                                          },
+                                          "right": {
+                                            "px": 0.0
+                                          },
+                                          "bottom": {
+                                            "px": 0.0
+                                          },
+                                          "left": {
+                                            "px": 0.0
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "day2-6-room",
+                            "kind": {
+                              "type": "text",
+                              "tag": "p",
+                              "content": "Main stage"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.label",
+                                    "color": {
+                                      "token": "ink.inverse.muted"
+                                    },
+                                    "transform": "uppercase"
+                                  },
+                                  "spacing": {
+                                    "margin": {
+                                      "top": {
+                                        "px": 0.0
+                                      },
+                                      "right": {
+                                        "px": 0.0
+                                      },
+                                      "bottom": {
+                                        "px": 0.0
+                                      },
+                                      "left": {
+                                        "px": 0.0
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "day2-7",
+                        "kind": {
+                          "type": "frame",
+                          "element": "div"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "display": "grid",
+                              "grid": {
+                                "templateColumns": "minmax(0, 1fr)",
+                                "gap": {
+                                  "token": "space.2"
+                                }
+                              },
+                              "spacing": {
+                                "padding": {
+                                  "top": {
+                                    "token": "space.5"
+                                  },
+                                  "right": {
+                                    "px": 0.0
+                                  },
+                                  "bottom": {
+                                    "token": "space.5"
+                                  },
+                                  "left": {
+                                    "px": 0.0
+                                  }
+                                }
+                              },
+                              "border": {
+                                "top": {
+                                  "width": {
+                                    "px": 1.0
+                                  },
+                                  "style": "solid",
+                                  "color": {
+                                    "token": "line.inverse"
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "md": {
+                            "base": {
+                              "display": "grid",
+                              "grid": {
+                                "templateColumns": "6rem minmax(0, 1fr) 9rem",
+                                "gap": {
+                                  "token": "space.6"
+                                },
+                                "align": "baseline"
+                              }
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": "day2-7-t",
+                            "kind": {
+                              "type": "text",
+                              "tag": "p",
+                              "content": "17:00"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.time",
+                                    "color": {
+                                      "token": "surface.highlight"
+                                    }
+                                  },
+                                  "spacing": {
+                                    "margin": {
+                                      "top": {
+                                        "px": 0.0
+                                      },
+                                      "right": {
+                                        "px": 0.0
+                                      },
+                                      "bottom": {
+                                        "px": 0.0
+                                      },
+                                      "left": {
+                                        "px": 0.0
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "id": "day2-7-c",
+                            "kind": {
+                              "type": "frame",
+                              "element": "div"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "display": "flex",
+                                  "flex": {
+                                    "direction": "column",
+                                    "gap": {
+                                      "token": "space.1"
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "children": [
+                              {
+                                "id": "day2-7-talk",
+                                "kind": {
+                                  "type": "text",
+                                  "tag": "h3",
+                                  "content": "Closing and the long table dinner"
+                                },
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "typography": {
+                                        "token": "type.title",
+                                        "size": {
+                                          "rem": 1.25
+                                        },
+                                        "color": {
+                                          "token": "ink.inverse"
+                                        }
+                                      },
+                                      "spacing": {
+                                        "margin": {
+                                          "top": {
+                                            "px": 0.0
+                                          },
+                                          "right": {
+                                            "px": 0.0
+                                          },
+                                          "bottom": {
+                                            "px": 0.0
+                                          },
+                                          "left": {
+                                            "px": 0.0
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              {
+                                "id": "day2-7-who",
+                                "kind": {
+                                  "type": "text",
+                                  "tag": "p",
+                                  "content": "Everyone"
+                                },
+                                "styles": {
+                                  "base": {
+                                    "base": {
+                                      "typography": {
+                                        "token": "type.small",
+                                        "color": {
+                                          "token": "ink.inverse.muted"
+                                        }
+                                      },
+                                      "spacing": {
+                                        "margin": {
+                                          "top": {
+                                            "px": 0.0
+                                          },
+                                          "right": {
+                                            "px": 0.0
+                                          },
+                                          "bottom": {
+                                            "px": 0.0
+                                          },
+                                          "left": {
+                                            "px": 0.0
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "day2-7-room",
+                            "kind": {
+                              "type": "text",
+                              "tag": "p",
+                              "content": "Hall"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.label",
+                                    "color": {
+                                      "token": "ink.inverse.muted"
+                                    },
+                                    "transform": "uppercase"
+                                  },
+                                  "spacing": {
+                                    "margin": {
+                                      "top": {
+                                        "px": 0.0
+                                      },
+                                      "right": {
+                                        "px": 0.0
+                                      },
+                                      "bottom": {
+                                        "px": 0.0
+                                      },
+                                      "left": {
+                                        "px": 0.0
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "i-band",
+        "kind": {
+          "type": "instance",
+          "component": "summit-ticket-band"
+        }
+      },
+      {
+        "id": "i-footer",
+        "kind": {
+          "type": "instance",
+          "component": "summit-footer"
+        }
+      }
+    ]
+  },
+  "seo": {
+    "title": "Schedule — Northwind 2026",
+    "description": "Two days, one stage, no clashes."
+  }
+}

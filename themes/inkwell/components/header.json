@@ -1,0 +1,499 @@
+{
+  "id": "inkwell-header",
+  "name": "Inkwell · Header",
+  "root": {
+    "id": "header",
+    "kind": {
+      "type": "frame",
+      "element": "header"
+    },
+    "styles": {
+      "base": {
+        "base": {
+          "background": {
+            "token": "surface.page"
+          },
+          "border": {
+            "bottom": {
+              "width": {
+                "px": 1.0
+              },
+              "style": "solid",
+              "color": {
+                "token": "line.hairline"
+              }
+            }
+          }
+        }
+      }
+    },
+    "children": [
+      {
+        "id": "header-row",
+        "kind": {
+          "type": "frame",
+          "element": "div"
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "size": {
+                "width": {
+                  "percent": 100.0
+                },
+                "maxWidth": {
+                  "token": "space.wide"
+                }
+              },
+              "spacing": {
+                "margin": {
+                  "top": {
+                    "px": 0.0
+                  },
+                  "right": {
+                    "raw": "auto"
+                  },
+                  "bottom": {
+                    "px": 0.0
+                  },
+                  "left": {
+                    "raw": "auto"
+                  }
+                },
+                "padding": {
+                  "top": {
+                    "token": "space.5"
+                  },
+                  "right": {
+                    "token": "space.gutter"
+                  },
+                  "bottom": {
+                    "token": "space.5"
+                  },
+                  "left": {
+                    "token": "space.gutter"
+                  }
+                }
+              },
+              "display": "flex",
+              "flex": {
+                "direction": "row",
+                "gap": {
+                  "token": "space.4"
+                },
+                "align": "center",
+                "justify": "spaceBetween",
+                "wrap": true
+              }
+            }
+          }
+        },
+        "children": [
+          {
+            "id": "header-brand",
+            "kind": {
+              "type": "link",
+              "href": "/",
+              "target": "same"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "typography": {
+                    "decoration": "none"
+                  }
+                },
+                "focus": {
+                  "custom": {
+                    "outline": "2px solid #8E2B25",
+                    "outline-offset": "4px"
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "header-brand-name",
+                "kind": {
+                  "type": "text",
+                  "tag": "span",
+                  "content": "The Long Margin"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "family": "'Newsreader', 'Iowan Old Style', 'Palatino Linotype', Georgia, serif",
+                        "size": {
+                          "rem": 1.5
+                        },
+                        "weight": 600,
+                        "lineHeight": 1,
+                        "color": {
+                          "token": "ink.body"
+                        }
+                      },
+                      "custom": {
+                        "font-style": "italic",
+                        "letter-spacing": "-0.01em"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "id": "header-nav",
+            "kind": {
+              "type": "frame",
+              "element": "div"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "flex",
+                  "flex": {
+                    "direction": "row",
+                    "gap": {
+                      "token": "space.4"
+                    },
+                    "align": "center",
+                    "wrap": true
+                  }
+                }
+              },
+              "md": {
+                "base": {
+                  "display": "flex",
+                  "flex": {
+                    "direction": "row",
+                    "gap": {
+                      "token": "space.8"
+                    },
+                    "align": "center"
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "nav-essays",
+                "kind": {
+                  "type": "link",
+                  "href": "/blog-index",
+                  "target": "same"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "decoration": "none"
+                      },
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "token": "space.2"
+                          },
+                          "right": {
+                            "px": 0.0
+                          },
+                          "bottom": {
+                            "token": "space.2"
+                          },
+                          "left": {
+                            "px": 0.0
+                          }
+                        }
+                      },
+                      "border": {
+                        "bottom": {
+                          "width": {
+                            "px": 1.0
+                          },
+                          "style": "solid",
+                          "color": {
+                            "raw": "rgb(0 0 0 / 0)"
+                          }
+                        }
+                      }
+                    },
+                    "hover": {
+                      "border": {
+                        "bottom": {
+                          "width": {
+                            "px": 1.0
+                          },
+                          "style": "solid",
+                          "color": {
+                            "token": "ink.body"
+                          }
+                        }
+                      }
+                    },
+                    "focus": {
+                      "custom": {
+                        "outline": "2px solid #8E2B25",
+                        "outline-offset": "4px"
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "nav-essays-t",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "Essays"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.nav",
+                            "color": {
+                              "token": "ink.body"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "nav-about",
+                "kind": {
+                  "type": "link",
+                  "href": "/about",
+                  "target": "same"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "decoration": "none"
+                      },
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "token": "space.2"
+                          },
+                          "right": {
+                            "px": 0.0
+                          },
+                          "bottom": {
+                            "token": "space.2"
+                          },
+                          "left": {
+                            "px": 0.0
+                          }
+                        }
+                      },
+                      "border": {
+                        "bottom": {
+                          "width": {
+                            "px": 1.0
+                          },
+                          "style": "solid",
+                          "color": {
+                            "raw": "rgb(0 0 0 / 0)"
+                          }
+                        }
+                      }
+                    },
+                    "hover": {
+                      "border": {
+                        "bottom": {
+                          "width": {
+                            "px": 1.0
+                          },
+                          "style": "solid",
+                          "color": {
+                            "token": "ink.body"
+                          }
+                        }
+                      }
+                    },
+                    "focus": {
+                      "custom": {
+                        "outline": "2px solid #8E2B25",
+                        "outline-offset": "4px"
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "nav-about-t",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "About"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.nav",
+                            "color": {
+                              "token": "ink.body"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "nav-contact",
+                "kind": {
+                  "type": "link",
+                  "href": "/contact",
+                  "target": "same"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "decoration": "none"
+                      },
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "token": "space.2"
+                          },
+                          "right": {
+                            "px": 0.0
+                          },
+                          "bottom": {
+                            "token": "space.2"
+                          },
+                          "left": {
+                            "px": 0.0
+                          }
+                        }
+                      },
+                      "border": {
+                        "bottom": {
+                          "width": {
+                            "px": 1.0
+                          },
+                          "style": "solid",
+                          "color": {
+                            "raw": "rgb(0 0 0 / 0)"
+                          }
+                        }
+                      }
+                    },
+                    "hover": {
+                      "border": {
+                        "bottom": {
+                          "width": {
+                            "px": 1.0
+                          },
+                          "style": "solid",
+                          "color": {
+                            "token": "ink.body"
+                          }
+                        }
+                      }
+                    },
+                    "focus": {
+                      "custom": {
+                        "outline": "2px solid #8E2B25",
+                        "outline-offset": "4px"
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "nav-contact-t",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "Contact"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.nav",
+                            "color": {
+                              "token": "ink.body"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "header-subscribe",
+                "kind": {
+                  "type": "button",
+                  "label": "Subscribe",
+                  "href": "/members/register",
+                  "target": "same"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.button",
+                        "size": {
+                          "rem": 0.875
+                        },
+                        "color": {
+                          "token": "ink.inverse"
+                        },
+                        "decoration": "none"
+                      },
+                      "background": {
+                        "token": "surface.deep"
+                      },
+                      "spacing": {
+                        "padding": {
+                          "top": {
+                            "rem": 0.6
+                          },
+                          "right": {
+                            "rem": 1.05
+                          },
+                          "bottom": {
+                            "rem": 0.6
+                          },
+                          "left": {
+                            "rem": 1.05
+                          }
+                        }
+                      },
+                      "radius": {
+                        "token": "radius.full"
+                      }
+                    },
+                    "hover": {
+                      "background": {
+                        "token": "surface.accent"
+                      }
+                    },
+                    "focus": {
+                      "custom": {
+                        "outline": "2px solid #8E2B25",
+                        "outline-offset": "3px"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

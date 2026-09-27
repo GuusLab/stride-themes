@@ -1,0 +1,683 @@
+{
+  "root": {
+    "id": "root",
+    "kind": {
+      "type": "frame",
+      "element": "div"
+    },
+    "styles": {
+      "base": {
+        "base": {
+          "background": {
+            "token": "surface.page"
+          },
+          "display": "flex",
+          "flex": {
+            "direction": "column"
+          },
+          "size": {
+            "minHeight": {
+              "vh": 100.0
+            }
+          }
+        }
+      }
+    },
+    "children": [
+      {
+        "id": "i-header",
+        "kind": {
+          "type": "instance",
+          "component": "inkwell-header"
+        }
+      },
+      {
+        "id": "contact",
+        "kind": {
+          "type": "frame",
+          "element": "section"
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "spacing": {
+                "padding": {
+                  "top": {
+                    "token": "space.16"
+                  },
+                  "right": {
+                    "px": 0.0
+                  },
+                  "bottom": {
+                    "px": 0.0
+                  },
+                  "left": {
+                    "px": 0.0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "children": [
+          {
+            "id": "contact-in",
+            "kind": {
+              "type": "frame",
+              "element": "div"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "size": {
+                    "width": {
+                      "percent": 100.0
+                    },
+                    "maxWidth": {
+                      "token": "space.measure"
+                    }
+                  },
+                  "spacing": {
+                    "margin": {
+                      "top": {
+                        "px": 0.0
+                      },
+                      "right": {
+                        "raw": "auto"
+                      },
+                      "bottom": {
+                        "px": 0.0
+                      },
+                      "left": {
+                        "raw": "auto"
+                      }
+                    },
+                    "padding": {
+                      "top": {
+                        "px": 0.0
+                      },
+                      "right": {
+                        "token": "space.gutter"
+                      },
+                      "bottom": {
+                        "px": 0.0
+                      },
+                      "left": {
+                        "token": "space.gutter"
+                      }
+                    }
+                  },
+                  "display": "flex",
+                  "flex": {
+                    "direction": "column",
+                    "gap": {
+                      "token": "space.5"
+                    }
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "contact-k",
+                "kind": {
+                  "type": "text",
+                  "tag": "span",
+                  "content": "Contact"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.label",
+                        "color": {
+                          "token": "ink.accent"
+                        },
+                        "transform": "uppercase"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "contact-title",
+                "kind": {
+                  "type": "text",
+                  "tag": "h1",
+                  "content": "Write back"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.display",
+                        "color": {
+                          "token": "ink.body"
+                        }
+                      },
+                      "spacing": {
+                        "margin": {
+                          "top": {
+                            "px": 0.0
+                          },
+                          "right": {
+                            "px": 0.0
+                          },
+                          "bottom": {
+                            "px": 0.0
+                          },
+                          "left": {
+                            "px": 0.0
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "contact-lead",
+                "kind": {
+                  "type": "text",
+                  "tag": "p",
+                  "content": "The best part of sending a letter is getting one back. Replies to any essay land in my inbox; so does anything below."
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.lead",
+                        "color": {
+                          "token": "ink.muted"
+                        }
+                      },
+                      "spacing": {
+                        "margin": {
+                          "top": {
+                            "px": 0.0
+                          },
+                          "right": {
+                            "px": 0.0
+                          },
+                          "bottom": {
+                            "px": 0.0
+                          },
+                          "left": {
+                            "px": 0.0
+                          }
+                        }
+                      },
+                      "custom": {
+                        "font-style": "italic"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "contact-rows",
+                "kind": {
+                  "type": "frame",
+                  "element": "div"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column"
+                      },
+                      "spacing": {
+                        "margin": {
+                          "top": {
+                            "token": "space.6"
+                          },
+                          "right": {
+                            "px": 0.0
+                          },
+                          "bottom": {
+                            "px": 0.0
+                          },
+                          "left": {
+                            "px": 0.0
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "c-mail",
+                    "kind": {
+                      "type": "frame",
+                      "element": "div"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "column",
+                            "gap": {
+                              "token": "space.2"
+                            }
+                          },
+                          "spacing": {
+                            "padding": {
+                              "top": {
+                                "token": "space.6"
+                              },
+                              "right": {
+                                "px": 0.0
+                              },
+                              "bottom": {
+                                "token": "space.6"
+                              },
+                              "left": {
+                                "px": 0.0
+                              }
+                            }
+                          },
+                          "border": {
+                            "top": {
+                              "width": {
+                                "px": 1.0
+                              },
+                              "style": "solid",
+                              "color": {
+                                "token": "line.hairline"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "c-mail-k",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "Email"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.label",
+                                "color": {
+                                  "token": "ink.muted"
+                                },
+                                "transform": "uppercase"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "c-mail-l",
+                        "kind": {
+                          "type": "link",
+                          "href": "mailto:hello@thelongmargin.com",
+                          "target": "same"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "decoration": "none"
+                              }
+                            },
+                            "hover": {
+                              "typography": {
+                                "decoration": "underline"
+                              }
+                            },
+                            "focus": {
+                              "custom": {
+                                "outline": "2px solid #8E2B25",
+                                "outline-offset": "3px"
+                              }
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": "c-mail-v",
+                            "kind": {
+                              "type": "text",
+                              "tag": "span",
+                              "content": "hello@thelongmargin.com"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.card",
+                                    "color": {
+                                      "token": "ink.body"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "c-post",
+                    "kind": {
+                      "type": "frame",
+                      "element": "div"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "column",
+                            "gap": {
+                              "token": "space.2"
+                            }
+                          },
+                          "spacing": {
+                            "padding": {
+                              "top": {
+                                "token": "space.6"
+                              },
+                              "right": {
+                                "px": 0.0
+                              },
+                              "bottom": {
+                                "token": "space.6"
+                              },
+                              "left": {
+                                "px": 0.0
+                              }
+                            }
+                          },
+                          "border": {
+                            "top": {
+                              "width": {
+                                "px": 1.0
+                              },
+                              "style": "solid",
+                              "color": {
+                                "token": "line.hairline"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "c-post-k",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "By post"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.label",
+                                "color": {
+                                  "token": "ink.muted"
+                                },
+                                "transform": "uppercase"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "c-post-l",
+                        "kind": {
+                          "type": "link",
+                          "href": "/contact",
+                          "target": "same"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "decoration": "none"
+                              }
+                            },
+                            "hover": {
+                              "typography": {
+                                "decoration": "underline"
+                              }
+                            },
+                            "focus": {
+                              "custom": {
+                                "outline": "2px solid #8E2B25",
+                                "outline-offset": "3px"
+                              }
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": "c-post-v",
+                            "kind": {
+                              "type": "text",
+                              "tag": "span",
+                              "content": "Postbus 1024, 3000 BA Rotterdam"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.card",
+                                    "color": {
+                                      "token": "ink.body"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "c-talks",
+                    "kind": {
+                      "type": "frame",
+                      "element": "div"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "column",
+                            "gap": {
+                              "token": "space.2"
+                            }
+                          },
+                          "spacing": {
+                            "padding": {
+                              "top": {
+                                "token": "space.6"
+                              },
+                              "right": {
+                                "px": 0.0
+                              },
+                              "bottom": {
+                                "token": "space.6"
+                              },
+                              "left": {
+                                "px": 0.0
+                              }
+                            }
+                          },
+                          "border": {
+                            "top": {
+                              "width": {
+                                "px": 1.0
+                              },
+                              "style": "solid",
+                              "color": {
+                                "token": "line.hairline"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "c-talks-k",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "Talks and workshops"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.label",
+                                "color": {
+                                  "token": "ink.muted"
+                                },
+                                "transform": "uppercase"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "c-talks-l",
+                        "kind": {
+                          "type": "link",
+                          "href": "mailto:talks@thelongmargin.com",
+                          "target": "same"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "decoration": "none"
+                              }
+                            },
+                            "hover": {
+                              "typography": {
+                                "decoration": "underline"
+                              }
+                            },
+                            "focus": {
+                              "custom": {
+                                "outline": "2px solid #8E2B25",
+                                "outline-offset": "3px"
+                              }
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": "c-talks-v",
+                            "kind": {
+                              "type": "text",
+                              "tag": "span",
+                              "content": "Ask about a date"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.card",
+                                    "color": {
+                                      "token": "ink.body"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "contact-note",
+                "kind": {
+                  "type": "text",
+                  "tag": "p",
+                  "content": "I answer on Tuesdays and Fridays. Please do not send manuscripts; I would read them, and then nothing else would get done."
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.small",
+                        "color": {
+                          "token": "ink.muted"
+                        }
+                      },
+                      "spacing": {
+                        "margin": {
+                          "top": {
+                            "px": 0.0
+                          },
+                          "right": {
+                            "px": 0.0
+                          },
+                          "bottom": {
+                            "px": 0.0
+                          },
+                          "left": {
+                            "px": 0.0
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "spacer",
+        "kind": {
+          "type": "frame",
+          "element": "div"
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "size": {
+                "height": {
+                  "token": "space.section"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "i-footer",
+        "kind": {
+          "type": "instance",
+          "component": "inkwell-footer"
+        }
+      }
+    ]
+  },
+  "seo": {
+    "title": "Contact — The Long Margin",
+    "description": "Write back to The Long Margin."
+  }
+}

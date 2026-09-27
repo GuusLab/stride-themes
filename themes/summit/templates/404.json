@@ -1,0 +1,430 @@
+{
+  "root": {
+    "id": "root",
+    "kind": {
+      "type": "frame",
+      "element": "div"
+    },
+    "styles": {
+      "base": {
+        "base": {
+          "background": {
+            "token": "surface.page"
+          },
+          "display": "flex",
+          "flex": {
+            "direction": "column"
+          },
+          "size": {
+            "minHeight": {
+              "vh": 100.0
+            }
+          }
+        }
+      }
+    },
+    "children": [
+      {
+        "id": "i-header",
+        "kind": {
+          "type": "instance",
+          "component": "summit-header"
+        }
+      },
+      {
+        "id": "nf",
+        "kind": {
+          "type": "frame",
+          "element": "section"
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "background": {
+                "token": "surface.deep"
+              },
+              "spacing": {
+                "padding": {
+                  "top": {
+                    "token": "space.24"
+                  },
+                  "right": {
+                    "px": 0.0
+                  },
+                  "bottom": {
+                    "token": "space.24"
+                  },
+                  "left": {
+                    "px": 0.0
+                  }
+                }
+              },
+              "custom": {
+                "flex": "1"
+              }
+            }
+          }
+        },
+        "children": [
+          {
+            "id": "nf-in",
+            "kind": {
+              "type": "frame",
+              "element": "div"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "size": {
+                    "width": {
+                      "percent": 100.0
+                    },
+                    "maxWidth": {
+                      "token": "space.wide"
+                    }
+                  },
+                  "spacing": {
+                    "margin": {
+                      "top": {
+                        "px": 0.0
+                      },
+                      "right": {
+                        "raw": "auto"
+                      },
+                      "bottom": {
+                        "px": 0.0
+                      },
+                      "left": {
+                        "raw": "auto"
+                      }
+                    },
+                    "padding": {
+                      "top": {
+                        "px": 0.0
+                      },
+                      "right": {
+                        "token": "space.gutter"
+                      },
+                      "bottom": {
+                        "px": 0.0
+                      },
+                      "left": {
+                        "token": "space.gutter"
+                      }
+                    }
+                  },
+                  "display": "flex",
+                  "flex": {
+                    "direction": "column",
+                    "gap": {
+                      "token": "space.6"
+                    }
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "nf-code",
+                "kind": {
+                  "type": "text",
+                  "tag": "p",
+                  "content": "404"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.hero",
+                        "color": {
+                          "token": "surface.accent"
+                        }
+                      },
+                      "spacing": {
+                        "margin": {
+                          "top": {
+                            "px": 0.0
+                          },
+                          "right": {
+                            "px": 0.0
+                          },
+                          "bottom": {
+                            "px": 0.0
+                          },
+                          "left": {
+                            "px": 0.0
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "nf-t",
+                "kind": {
+                  "type": "text",
+                  "tag": "h1",
+                  "content": "This session was cancelled"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.display",
+                        "color": {
+                          "token": "ink.inverse"
+                        }
+                      },
+                      "spacing": {
+                        "margin": {
+                          "top": {
+                            "px": 0.0
+                          },
+                          "right": {
+                            "px": 0.0
+                          },
+                          "bottom": {
+                            "px": 0.0
+                          },
+                          "left": {
+                            "px": 0.0
+                          }
+                        }
+                      },
+                      "custom": {
+                        "text-wrap": "balance"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "nf-p",
+                "kind": {
+                  "type": "text",
+                  "tag": "p",
+                  "content": "The page you were looking for is not on the schedule. The talks that are, are excellent."
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.lead",
+                        "color": {
+                          "token": "ink.inverse.muted"
+                        }
+                      },
+                      "spacing": {
+                        "margin": {
+                          "top": {
+                            "px": 0.0
+                          },
+                          "right": {
+                            "px": 0.0
+                          },
+                          "bottom": {
+                            "px": 0.0
+                          },
+                          "left": {
+                            "px": 0.0
+                          }
+                        }
+                      },
+                      "size": {
+                        "maxWidth": {
+                          "rem": 34.0
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "nf-a",
+                "kind": {
+                  "type": "frame",
+                  "element": "div"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "row",
+                        "gap": {
+                          "token": "space.4"
+                        },
+                        "wrap": true
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "nf-home",
+                    "kind": {
+                      "type": "button",
+                      "label": "Back to the start",
+                      "href": "/",
+                      "target": "same"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.button",
+                            "color": {
+                              "token": "ink.on-accent"
+                            },
+                            "decoration": "none"
+                          },
+                          "background": {
+                            "token": "surface.highlight"
+                          },
+                          "spacing": {
+                            "padding": {
+                              "top": {
+                                "rem": 1.0
+                              },
+                              "right": {
+                                "rem": 1.5
+                              },
+                              "bottom": {
+                                "rem": 1.0
+                              },
+                              "left": {
+                                "rem": 1.5
+                              }
+                            }
+                          },
+                          "radius": {
+                            "token": "radius.full"
+                          },
+                          "custom": {
+                            "white-space": "nowrap"
+                          },
+                          "transition": {
+                            "duration": 160,
+                            "properties": [
+                              "backgroundColor",
+                              "transform"
+                            ],
+                            "easing": "easeOut"
+                          }
+                        },
+                        "hover": {
+                          "background": {
+                            "raw": "#D6FF6E"
+                          },
+                          "custom": {
+                            "transform": "translateY(-2px)"
+                          }
+                        },
+                        "focus": {
+                          "custom": {
+                            "outline": "3px solid #3D5AFE",
+                            "outline-offset": "3px"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "nf-sched",
+                    "kind": {
+                      "type": "button",
+                      "label": "See the schedule",
+                      "href": "/schedule",
+                      "target": "same"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.button",
+                            "color": {
+                              "token": "ink.inverse"
+                            },
+                            "decoration": "none"
+                          },
+                          "background": {
+                            "raw": "rgb(0 0 0 / 0)"
+                          },
+                          "spacing": {
+                            "padding": {
+                              "top": {
+                                "rem": 1.0
+                              },
+                              "right": {
+                                "rem": 1.5
+                              },
+                              "bottom": {
+                                "rem": 1.0
+                              },
+                              "left": {
+                                "rem": 1.5
+                              }
+                            }
+                          },
+                          "radius": {
+                            "token": "radius.full"
+                          },
+                          "border": {
+                            "width": {
+                              "px": 2.0
+                            },
+                            "style": "solid",
+                            "color": {
+                              "token": "ink.inverse"
+                            }
+                          },
+                          "custom": {
+                            "white-space": "nowrap"
+                          },
+                          "transition": {
+                            "duration": 160,
+                            "properties": [
+                              "backgroundColor",
+                              "transform"
+                            ],
+                            "easing": "easeOut"
+                          }
+                        },
+                        "hover": {
+                          "background": {
+                            "raw": "rgb(245 243 238 / 0.12)"
+                          },
+                          "custom": {
+                            "transform": "translateY(-2px)"
+                          }
+                        },
+                        "focus": {
+                          "custom": {
+                            "outline": "3px solid #3D5AFE",
+                            "outline-offset": "3px"
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "i-footer",
+        "kind": {
+          "type": "instance",
+          "component": "summit-footer"
+        }
+      }
+    ]
+  },
+  "seo": {
+    "title": "Page not found — Northwind 2026",
+    "description": "This session was cancelled."
+  }
+}

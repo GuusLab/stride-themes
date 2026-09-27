@@ -1,0 +1,616 @@
+{
+  "id": "inkwell-footer",
+  "name": "Inkwell · Footer",
+  "root": {
+    "id": "footer",
+    "kind": {
+      "type": "frame",
+      "element": "footer"
+    },
+    "styles": {
+      "base": {
+        "base": {
+          "background": {
+            "token": "surface.deep"
+          },
+          "spacing": {
+            "padding": {
+              "top": {
+                "token": "space.16"
+              },
+              "right": {
+                "px": 0.0
+              },
+              "bottom": {
+                "token": "space.8"
+              },
+              "left": {
+                "px": 0.0
+              }
+            },
+            "margin": {
+              "top": {
+                "raw": "auto"
+              },
+              "right": {
+                "px": 0.0
+              },
+              "bottom": {
+                "px": 0.0
+              },
+              "left": {
+                "px": 0.0
+              }
+            }
+          },
+          "display": "flex",
+          "flex": {
+            "direction": "column",
+            "gap": {
+              "token": "space.10"
+            }
+          }
+        }
+      }
+    },
+    "children": [
+      {
+        "id": "footer-in",
+        "kind": {
+          "type": "frame",
+          "element": "div"
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "size": {
+                "width": {
+                  "percent": 100.0
+                },
+                "maxWidth": {
+                  "token": "space.wide"
+                }
+              },
+              "spacing": {
+                "margin": {
+                  "top": {
+                    "px": 0.0
+                  },
+                  "right": {
+                    "raw": "auto"
+                  },
+                  "bottom": {
+                    "px": 0.0
+                  },
+                  "left": {
+                    "raw": "auto"
+                  }
+                },
+                "padding": {
+                  "top": {
+                    "px": 0.0
+                  },
+                  "right": {
+                    "token": "space.gutter"
+                  },
+                  "bottom": {
+                    "px": 0.0
+                  },
+                  "left": {
+                    "token": "space.gutter"
+                  }
+                }
+              },
+              "display": "flex",
+              "flex": {
+                "direction": "column",
+                "gap": {
+                  "token": "space.8"
+                }
+              }
+            }
+          },
+          "md": {
+            "base": {
+              "display": "flex",
+              "flex": {
+                "direction": "row",
+                "gap": {
+                  "token": "space.8"
+                },
+                "align": "end",
+                "justify": "spaceBetween"
+              }
+            }
+          }
+        },
+        "children": [
+          {
+            "id": "footer-brand",
+            "kind": {
+              "type": "frame",
+              "element": "div"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "flex",
+                  "flex": {
+                    "direction": "column",
+                    "gap": {
+                      "token": "space.3"
+                    }
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "footer-name",
+                "kind": {
+                  "type": "text",
+                  "tag": "p",
+                  "content": "The Long Margin"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "family": "'Newsreader', 'Iowan Old Style', 'Palatino Linotype', Georgia, serif",
+                        "size": {
+                          "rem": 1.75
+                        },
+                        "weight": 600,
+                        "lineHeight": 1.1,
+                        "color": {
+                          "token": "ink.inverse"
+                        }
+                      },
+                      "custom": {
+                        "font-style": "italic"
+                      },
+                      "spacing": {
+                        "margin": {
+                          "top": {
+                            "px": 0.0
+                          },
+                          "right": {
+                            "px": 0.0
+                          },
+                          "bottom": {
+                            "px": 0.0
+                          },
+                          "left": {
+                            "px": 0.0
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "footer-line",
+                "kind": {
+                  "type": "text",
+                  "tag": "p",
+                  "content": "A letter on writing, reading and slow work, from Mira Okafor. Every other Sunday."
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.small",
+                        "color": {
+                          "token": "ink.inverse.muted"
+                        }
+                      },
+                      "size": {
+                        "maxWidth": {
+                          "rem": 28.0
+                        }
+                      },
+                      "spacing": {
+                        "margin": {
+                          "top": {
+                            "px": 0.0
+                          },
+                          "right": {
+                            "px": 0.0
+                          },
+                          "bottom": {
+                            "px": 0.0
+                          },
+                          "left": {
+                            "px": 0.0
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "id": "footer-links",
+            "kind": {
+              "type": "frame",
+              "element": "div"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "flex",
+                  "flex": {
+                    "direction": "row",
+                    "gap": {
+                      "token": "space.6"
+                    },
+                    "align": "center",
+                    "wrap": true
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "f-essays",
+                "kind": {
+                  "type": "link",
+                  "href": "/blog-index",
+                  "target": "same"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "decoration": "none"
+                      }
+                    },
+                    "hover": {
+                      "typography": {
+                        "decoration": "underline"
+                      }
+                    },
+                    "focus": {
+                      "custom": {
+                        "outline": "2px solid #F3E3A2",
+                        "outline-offset": "3px"
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "f-essays-t",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "Essays"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "color": {
+                              "token": "ink.inverse"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "f-about",
+                "kind": {
+                  "type": "link",
+                  "href": "/about",
+                  "target": "same"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "decoration": "none"
+                      }
+                    },
+                    "hover": {
+                      "typography": {
+                        "decoration": "underline"
+                      }
+                    },
+                    "focus": {
+                      "custom": {
+                        "outline": "2px solid #F3E3A2",
+                        "outline-offset": "3px"
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "f-about-t",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "About"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "color": {
+                              "token": "ink.inverse"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "f-contact",
+                "kind": {
+                  "type": "link",
+                  "href": "/contact",
+                  "target": "same"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "decoration": "none"
+                      }
+                    },
+                    "hover": {
+                      "typography": {
+                        "decoration": "underline"
+                      }
+                    },
+                    "focus": {
+                      "custom": {
+                        "outline": "2px solid #F3E3A2",
+                        "outline-offset": "3px"
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "f-contact-t",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "Contact"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "color": {
+                              "token": "ink.inverse"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "f-subscribe",
+                "kind": {
+                  "type": "link",
+                  "href": "/members/register",
+                  "target": "same"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "decoration": "none"
+                      }
+                    },
+                    "hover": {
+                      "typography": {
+                        "decoration": "underline"
+                      }
+                    },
+                    "focus": {
+                      "custom": {
+                        "outline": "2px solid #F3E3A2",
+                        "outline-offset": "3px"
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "f-subscribe-t",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "Subscribe"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "color": {
+                              "token": "ink.inverse"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "f-feed",
+                "kind": {
+                  "type": "link",
+                  "href": "/feed.xml",
+                  "target": "same"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "decoration": "none"
+                      }
+                    },
+                    "hover": {
+                      "typography": {
+                        "decoration": "underline"
+                      }
+                    },
+                    "focus": {
+                      "custom": {
+                        "outline": "2px solid #F3E3A2",
+                        "outline-offset": "3px"
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "f-feed-t",
+                    "kind": {
+                      "type": "text",
+                      "tag": "span",
+                      "content": "RSS feed"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.small",
+                            "color": {
+                              "token": "ink.inverse"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "footer-fine",
+        "kind": {
+          "type": "frame",
+          "element": "div"
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "size": {
+                "width": {
+                  "percent": 100.0
+                },
+                "maxWidth": {
+                  "token": "space.wide"
+                }
+              },
+              "spacing": {
+                "margin": {
+                  "top": {
+                    "px": 0.0
+                  },
+                  "right": {
+                    "raw": "auto"
+                  },
+                  "bottom": {
+                    "px": 0.0
+                  },
+                  "left": {
+                    "raw": "auto"
+                  }
+                },
+                "padding": {
+                  "top": {
+                    "token": "space.6"
+                  },
+                  "right": {
+                    "token": "space.gutter"
+                  },
+                  "bottom": {
+                    "px": 0.0
+                  },
+                  "left": {
+                    "token": "space.gutter"
+                  }
+                }
+              },
+              "border": {
+                "top": {
+                  "width": {
+                    "px": 1.0
+                  },
+                  "style": "solid",
+                  "color": {
+                    "raw": "rgb(250 248 243 / 0.14)"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "children": [
+          {
+            "id": "footer-copy",
+            "kind": {
+              "type": "text",
+              "tag": "p",
+              "content": "© 2026 Mira Okafor. Written by hand, typed later."
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "typography": {
+                    "token": "type.small",
+                    "size": {
+                      "rem": 0.8125
+                    },
+                    "color": {
+                      "token": "ink.inverse.muted"
+                    }
+                  },
+                  "spacing": {
+                    "margin": {
+                      "top": {
+                        "px": 0.0
+                      },
+                      "right": {
+                        "px": 0.0
+                      },
+                      "bottom": {
+                        "px": 0.0
+                      },
+                      "left": {
+                        "px": 0.0
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

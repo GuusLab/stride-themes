@@ -1,0 +1,397 @@
+{
+  "root": {
+    "id": "root",
+    "kind": {
+      "type": "frame",
+      "element": "div"
+    },
+    "styles": {
+      "base": {
+        "base": {
+          "background": {
+            "token": "surface.page"
+          },
+          "display": "flex",
+          "flex": {
+            "direction": "column"
+          },
+          "size": {
+            "minHeight": {
+              "vh": 100.0
+            }
+          }
+        }
+      }
+    },
+    "children": [
+      {
+        "id": "i-header",
+        "kind": {
+          "type": "instance",
+          "component": "inkwell-header"
+        }
+      },
+      {
+        "id": "nf",
+        "kind": {
+          "type": "frame",
+          "element": "section"
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "spacing": {
+                "padding": {
+                  "top": {
+                    "token": "space.24"
+                  },
+                  "right": {
+                    "px": 0.0
+                  },
+                  "bottom": {
+                    "token": "space.24"
+                  },
+                  "left": {
+                    "px": 0.0
+                  }
+                }
+              },
+              "display": "flex",
+              "flex": {
+                "direction": "column",
+                "align": "center"
+              },
+              "custom": {
+                "flex": "1"
+              }
+            }
+          }
+        },
+        "children": [
+          {
+            "id": "nf-in",
+            "kind": {
+              "type": "frame",
+              "element": "div"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "display": "flex",
+                  "flex": {
+                    "direction": "column",
+                    "gap": {
+                      "token": "space.5"
+                    },
+                    "align": "center"
+                  },
+                  "spacing": {
+                    "padding": {
+                      "top": {
+                        "px": 0.0
+                      },
+                      "right": {
+                        "token": "space.gutter"
+                      },
+                      "bottom": {
+                        "px": 0.0
+                      },
+                      "left": {
+                        "token": "space.gutter"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "nf-code",
+                "kind": {
+                  "type": "text",
+                  "tag": "p",
+                  "content": "404"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "family": "'Newsreader', 'Iowan Old Style', 'Palatino Linotype', Georgia, serif",
+                        "size": {
+                          "raw": "clamp(6rem, 18vw, 11rem)"
+                        },
+                        "weight": 600,
+                        "lineHeight": 0.9,
+                        "align": "center",
+                        "color": {
+                          "token": "ink.accent"
+                        }
+                      },
+                      "custom": {
+                        "font-style": "italic"
+                      },
+                      "spacing": {
+                        "margin": {
+                          "top": {
+                            "px": 0.0
+                          },
+                          "right": {
+                            "px": 0.0
+                          },
+                          "bottom": {
+                            "px": 0.0
+                          },
+                          "left": {
+                            "px": 0.0
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "nf-title",
+                "kind": {
+                  "type": "text",
+                  "tag": "h1",
+                  "content": "This page is a blank margin"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.title",
+                        "align": "center",
+                        "color": {
+                          "token": "ink.body"
+                        }
+                      },
+                      "spacing": {
+                        "margin": {
+                          "top": {
+                            "px": 0.0
+                          },
+                          "right": {
+                            "px": 0.0
+                          },
+                          "bottom": {
+                            "px": 0.0
+                          },
+                          "left": {
+                            "px": 0.0
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "nf-text",
+                "kind": {
+                  "type": "text",
+                  "tag": "p",
+                  "content": "Whatever was here has been crossed out, or was never written. The archive is a good place to start again."
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.body",
+                        "align": "center",
+                        "color": {
+                          "token": "ink.muted"
+                        }
+                      },
+                      "spacing": {
+                        "margin": {
+                          "top": {
+                            "px": 0.0
+                          },
+                          "right": {
+                            "px": 0.0
+                          },
+                          "bottom": {
+                            "px": 0.0
+                          },
+                          "left": {
+                            "px": 0.0
+                          }
+                        }
+                      },
+                      "size": {
+                        "maxWidth": {
+                          "rem": 32.0
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "nf-actions",
+                "kind": {
+                  "type": "frame",
+                  "element": "div"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "row",
+                        "gap": {
+                          "token": "space.6"
+                        },
+                        "align": "center",
+                        "justify": "center",
+                        "wrap": true
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "nf-home",
+                    "kind": {
+                      "type": "button",
+                      "label": "Back to the letter",
+                      "href": "/",
+                      "target": "same"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "token": "type.button",
+                            "color": {
+                              "token": "ink.inverse"
+                            },
+                            "decoration": "none"
+                          },
+                          "background": {
+                            "token": "surface.accent"
+                          },
+                          "spacing": {
+                            "padding": {
+                              "top": {
+                                "rem": 0.85
+                              },
+                              "right": {
+                                "rem": 1.35
+                              },
+                              "bottom": {
+                                "rem": 0.85
+                              },
+                              "left": {
+                                "rem": 1.35
+                              }
+                            }
+                          },
+                          "radius": {
+                            "token": "radius.full"
+                          },
+                          "transition": {
+                            "duration": 160,
+                            "properties": [
+                              "backgroundColor",
+                              "transform"
+                            ],
+                            "easing": "easeOut"
+                          }
+                        },
+                        "hover": {
+                          "background": {
+                            "raw": "#741F1A"
+                          },
+                          "custom": {
+                            "transform": "translateY(-1px)"
+                          }
+                        },
+                        "focus": {
+                          "custom": {
+                            "outline": "2px solid #8E2B25",
+                            "outline-offset": "3px"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "id": "nf-archive",
+                    "kind": {
+                      "type": "link",
+                      "href": "/blog-index",
+                      "target": "same"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "typography": {
+                            "color": {
+                              "token": "ink.body"
+                            },
+                            "decoration": "underline"
+                          },
+                          "custom": {
+                            "text-underline-offset": "6px",
+                            "text-decoration-thickness": "1px"
+                          }
+                        },
+                        "hover": {
+                          "custom": {
+                            "text-decoration-thickness": "2px"
+                          }
+                        },
+                        "focus": {
+                          "custom": {
+                            "outline": "2px solid #8E2B25",
+                            "outline-offset": "3px"
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "nf-archive-t",
+                        "kind": {
+                          "type": "text",
+                          "tag": "span",
+                          "content": "Browse the archive"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.button",
+                                "color": {
+                                  "token": "ink.body"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "i-footer",
+        "kind": {
+          "type": "instance",
+          "component": "inkwell-footer"
+        }
+      }
+    ]
+  },
+  "seo": {
+    "title": "Page not found — The Long Margin",
+    "description": "This page is a blank margin."
+  }
+}

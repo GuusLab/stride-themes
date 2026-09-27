@@ -1,0 +1,712 @@
+{
+  "root": {
+    "id": "root",
+    "kind": {
+      "type": "frame",
+      "element": "div"
+    },
+    "styles": {
+      "base": {
+        "base": {
+          "background": {
+            "token": "surface.page"
+          },
+          "display": "flex",
+          "flex": {
+            "direction": "column"
+          },
+          "size": {
+            "minHeight": {
+              "vh": 100.0
+            }
+          }
+        }
+      }
+    },
+    "children": [
+      {
+        "id": "i-header",
+        "kind": {
+          "type": "instance",
+          "component": "summit-header"
+        }
+      },
+      {
+        "id": "ct",
+        "kind": {
+          "type": "frame",
+          "element": "section"
+        },
+        "styles": {
+          "base": {
+            "base": {
+              "spacing": {
+                "padding": {
+                  "top": {
+                    "token": "space.16"
+                  },
+                  "right": {
+                    "px": 0.0
+                  },
+                  "bottom": {
+                    "token": "space.section"
+                  },
+                  "left": {
+                    "px": 0.0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "children": [
+          {
+            "id": "ct-in",
+            "kind": {
+              "type": "frame",
+              "element": "div"
+            },
+            "styles": {
+              "base": {
+                "base": {
+                  "size": {
+                    "width": {
+                      "percent": 100.0
+                    },
+                    "maxWidth": {
+                      "token": "space.wide"
+                    }
+                  },
+                  "spacing": {
+                    "margin": {
+                      "top": {
+                        "px": 0.0
+                      },
+                      "right": {
+                        "raw": "auto"
+                      },
+                      "bottom": {
+                        "px": 0.0
+                      },
+                      "left": {
+                        "raw": "auto"
+                      }
+                    },
+                    "padding": {
+                      "top": {
+                        "px": 0.0
+                      },
+                      "right": {
+                        "token": "space.gutter"
+                      },
+                      "bottom": {
+                        "px": 0.0
+                      },
+                      "left": {
+                        "token": "space.gutter"
+                      }
+                    }
+                  },
+                  "display": "flex",
+                  "flex": {
+                    "direction": "column",
+                    "gap": {
+                      "token": "space.4"
+                    }
+                  }
+                }
+              }
+            },
+            "children": [
+              {
+                "id": "ct-k",
+                "kind": {
+                  "type": "text",
+                  "tag": "p",
+                  "content": "Contact"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.label",
+                        "color": {
+                          "token": "ink.accent"
+                        },
+                        "transform": "uppercase"
+                      },
+                      "spacing": {
+                        "margin": {
+                          "top": {
+                            "px": 0.0
+                          },
+                          "right": {
+                            "px": 0.0
+                          },
+                          "bottom": {
+                            "px": 0.0
+                          },
+                          "left": {
+                            "px": 0.0
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "ct-t",
+                "kind": {
+                  "type": "text",
+                  "tag": "h1",
+                  "content": "Say hello"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.display",
+                        "color": {
+                          "token": "ink.body"
+                        }
+                      },
+                      "spacing": {
+                        "margin": {
+                          "top": {
+                            "px": 0.0
+                          },
+                          "right": {
+                            "px": 0.0
+                          },
+                          "bottom": {
+                            "px": 0.0
+                          },
+                          "left": {
+                            "px": 0.0
+                          }
+                        }
+                      },
+                      "custom": {
+                        "text-wrap": "balance"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "ct-l",
+                "kind": {
+                  "type": "text",
+                  "tag": "p",
+                  "content": "Questions about tickets, talks or the venue? We answer within two working days."
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "typography": {
+                        "token": "type.lead",
+                        "color": {
+                          "token": "ink.muted"
+                        }
+                      },
+                      "spacing": {
+                        "margin": {
+                          "top": {
+                            "px": 0.0
+                          },
+                          "right": {
+                            "px": 0.0
+                          },
+                          "bottom": {
+                            "px": 0.0
+                          },
+                          "left": {
+                            "px": 0.0
+                          }
+                        }
+                      },
+                      "size": {
+                        "maxWidth": {
+                          "rem": 36.0
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "id": "ct-rows",
+                "kind": {
+                  "type": "frame",
+                  "element": "div"
+                },
+                "styles": {
+                  "base": {
+                    "base": {
+                      "display": "flex",
+                      "flex": {
+                        "direction": "column"
+                      },
+                      "spacing": {
+                        "margin": {
+                          "top": {
+                            "token": "space.6"
+                          },
+                          "right": {
+                            "px": 0.0
+                          },
+                          "bottom": {
+                            "px": 0.0
+                          },
+                          "left": {
+                            "px": 0.0
+                          }
+                        }
+                      },
+                      "size": {
+                        "maxWidth": {
+                          "rem": 40.0
+                        }
+                      }
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "id": "c1",
+                    "kind": {
+                      "type": "frame",
+                      "element": "div"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "column",
+                            "gap": {
+                              "token": "space.2"
+                            }
+                          },
+                          "spacing": {
+                            "padding": {
+                              "top": {
+                                "token": "space.6"
+                              },
+                              "right": {
+                                "px": 0.0
+                              },
+                              "bottom": {
+                                "token": "space.6"
+                              },
+                              "left": {
+                                "px": 0.0
+                              }
+                            }
+                          },
+                          "border": {
+                            "top": {
+                              "width": {
+                                "px": 1.0
+                              },
+                              "style": "solid",
+                              "color": {
+                                "token": "line.hairline"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "c1-k",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Tickets and invoices"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.label",
+                                "color": {
+                                  "token": "ink.muted"
+                                },
+                                "transform": "uppercase"
+                              },
+                              "spacing": {
+                                "margin": {
+                                  "top": {
+                                    "px": 0.0
+                                  },
+                                  "right": {
+                                    "px": 0.0
+                                  },
+                                  "bottom": {
+                                    "px": 0.0
+                                  },
+                                  "left": {
+                                    "px": 0.0
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "c1-l",
+                        "kind": {
+                          "type": "link",
+                          "href": "mailto:tickets@northwind.events",
+                          "target": "same"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "color": {
+                                  "token": "ink.body"
+                                },
+                                "decoration": "none"
+                              }
+                            },
+                            "hover": {
+                              "typography": {
+                                "decoration": "underline"
+                              }
+                            },
+                            "focus": {
+                              "custom": {
+                                "outline": "3px solid #3D5AFE",
+                                "outline-offset": "3px"
+                              }
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": "c1-v",
+                            "kind": {
+                              "type": "text",
+                              "tag": "span",
+                              "content": "tickets@northwind.events"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.title",
+                                    "color": {
+                                      "token": "ink.body"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "c2",
+                    "kind": {
+                      "type": "frame",
+                      "element": "div"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "column",
+                            "gap": {
+                              "token": "space.2"
+                            }
+                          },
+                          "spacing": {
+                            "padding": {
+                              "top": {
+                                "token": "space.6"
+                              },
+                              "right": {
+                                "px": 0.0
+                              },
+                              "bottom": {
+                                "token": "space.6"
+                              },
+                              "left": {
+                                "px": 0.0
+                              }
+                            }
+                          },
+                          "border": {
+                            "top": {
+                              "width": {
+                                "px": 1.0
+                              },
+                              "style": "solid",
+                              "color": {
+                                "token": "line.hairline"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "c2-k",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Speaking"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.label",
+                                "color": {
+                                  "token": "ink.muted"
+                                },
+                                "transform": "uppercase"
+                              },
+                              "spacing": {
+                                "margin": {
+                                  "top": {
+                                    "px": 0.0
+                                  },
+                                  "right": {
+                                    "px": 0.0
+                                  },
+                                  "bottom": {
+                                    "px": 0.0
+                                  },
+                                  "left": {
+                                    "px": 0.0
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "c2-l",
+                        "kind": {
+                          "type": "link",
+                          "href": "mailto:talks@northwind.events",
+                          "target": "same"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "color": {
+                                  "token": "ink.body"
+                                },
+                                "decoration": "none"
+                              }
+                            },
+                            "hover": {
+                              "typography": {
+                                "decoration": "underline"
+                              }
+                            },
+                            "focus": {
+                              "custom": {
+                                "outline": "3px solid #3D5AFE",
+                                "outline-offset": "3px"
+                              }
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": "c2-v",
+                            "kind": {
+                              "type": "text",
+                              "tag": "span",
+                              "content": "talks@northwind.events"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.title",
+                                    "color": {
+                                      "token": "ink.body"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "c3",
+                    "kind": {
+                      "type": "frame",
+                      "element": "div"
+                    },
+                    "styles": {
+                      "base": {
+                        "base": {
+                          "display": "flex",
+                          "flex": {
+                            "direction": "column",
+                            "gap": {
+                              "token": "space.2"
+                            }
+                          },
+                          "spacing": {
+                            "padding": {
+                              "top": {
+                                "token": "space.6"
+                              },
+                              "right": {
+                                "px": 0.0
+                              },
+                              "bottom": {
+                                "token": "space.6"
+                              },
+                              "left": {
+                                "px": 0.0
+                              }
+                            }
+                          },
+                          "border": {
+                            "top": {
+                              "width": {
+                                "px": 1.0
+                              },
+                              "style": "solid",
+                              "color": {
+                                "token": "line.hairline"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "children": [
+                      {
+                        "id": "c3-k",
+                        "kind": {
+                          "type": "text",
+                          "tag": "p",
+                          "content": "Sponsoring"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "token": "type.label",
+                                "color": {
+                                  "token": "ink.muted"
+                                },
+                                "transform": "uppercase"
+                              },
+                              "spacing": {
+                                "margin": {
+                                  "top": {
+                                    "px": 0.0
+                                  },
+                                  "right": {
+                                    "px": 0.0
+                                  },
+                                  "bottom": {
+                                    "px": 0.0
+                                  },
+                                  "left": {
+                                    "px": 0.0
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "id": "c3-l",
+                        "kind": {
+                          "type": "link",
+                          "href": "mailto:hello@northwind.events",
+                          "target": "same"
+                        },
+                        "styles": {
+                          "base": {
+                            "base": {
+                              "typography": {
+                                "color": {
+                                  "token": "ink.body"
+                                },
+                                "decoration": "none"
+                              }
+                            },
+                            "hover": {
+                              "typography": {
+                                "decoration": "underline"
+                              }
+                            },
+                            "focus": {
+                              "custom": {
+                                "outline": "3px solid #3D5AFE",
+                                "outline-offset": "3px"
+                              }
+                            }
+                          }
+                        },
+                        "children": [
+                          {
+                            "id": "c3-v",
+                            "kind": {
+                              "type": "text",
+                              "tag": "span",
+                              "content": "hello@northwind.events"
+                            },
+                            "styles": {
+                              "base": {
+                                "base": {
+                                  "typography": {
+                                    "token": "type.title",
+                                    "color": {
+                                      "token": "ink.body"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "i-footer",
+        "kind": {
+          "type": "instance",
+          "component": "summit-footer"
+        }
+      }
+    ]
+  },
+  "seo": {
+    "title": "Contact — Northwind 2026",
+    "description": "Questions about tickets, talks or the venue."
+  }
+}
